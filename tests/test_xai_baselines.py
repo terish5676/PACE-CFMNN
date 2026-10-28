@@ -15,6 +15,12 @@ except ImportError:
     HAS_SHAP = False
 
 try:
+    import lime
+    HAS_LIME = True
+except ImportError:
+    HAS_LIME = False
+
+try:
     import dice_ml
     HAS_DICE = True
 except ImportError:
@@ -34,13 +40,17 @@ class TestBaselines(unittest.TestCase):
         np.testing.assert_allclose(s.sum(axis=1), 1.0)
 
     @unittest.skipUnless(HAS_SHAP, "shap not installed")
-    def test_kernel_shap_and_lime_shapes(self):
+    def test_kernel_shap_shapes(self):
         a = xb.kernel_shap(self.m, self.X[:3], self.X[:50], nsamples=50)
-        b = xb.lime_tabular(self.m, self.X[:3], self.X, num_samples=200)
         self.assertEqual(a.shape, (3, 4))
-        self.assertEqual(b.shape, (3, 4))
-        # Feature 0 decides the class, so both should rank it first on average.
+        # Feature 0 decides the class, so it should rank first on average.
         self.assertEqual(np.abs(a).mean(axis=0).argmax(), 0)
+
+    @unittest.skipUnless(HAS_LIME, "lime not installed")
+    def test_lime_shapes(self):
+        b = xb.lime_tabular(self.m, self.X[:3], self.X, num_samples=200)
+        self.assertEqual(b.shape, (3, 4))
+        # Feature 0 decides the class, so it should rank first on average.
         self.assertEqual(np.abs(b).mean(axis=0).argmax(), 0)
 
     @unittest.skipUnless(HAS_SHAP, "shap not installed")
@@ -65,12 +75,16 @@ class TestBaselines(unittest.TestCase):
         b = pace_flip(self.m, self.X[:15], self.X[100:])
         np.testing.assert_allclose(a, b, rtol=0, atol=1e-9)
 
-    @unittest.skipUnless(HAS_DICE, "dice_ml not installed")
-    def test_nun_and_dice(self):
+    def test_nearest_unlike_neighbour(self):
         x = self.X[0]
         t = 1 - self.m.predict(x[None])[0]
         nun = xb.nearest_unlike_neighbour(self.m, x, self.X, t)
         self.assertEqual(self.m.predict(nun[None])[0], t)
+
+    @unittest.skipUnless(HAS_DICE, "dice_ml not installed")
+    def test_dice_counterfactual(self):
+        x = self.X[0]
+        t = 1 - self.m.predict(x[None])[0]
         cf = xb.dice_counterfactual(self.m, x, self.X, self.y, t)
         if cf is not None:
             self.assertEqual(self.m.predict(cf[None])[0], t)
