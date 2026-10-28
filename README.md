@@ -117,17 +117,35 @@ The defaults (fixed rule, search expansion) are the main model in our experiment
 
 From the repository root:
 
-| Command | Writes | Time |
+| Command | Writes | Run time |
 |---|---|---|
-| `python -m unittest discover -s tests -t .` | 54 tests | about 10 s |
-| `python scripts/run_g0.py` | `results/g0/` | about 15 min, mostly Skin |
-| `python scripts/run_faithfulness.py` | `results/faithfulness/` | about 25 min, mostly KernelSHAP and LIME |
-| `python scripts/time_pace_flip.py` | `results/speed/` | a few minutes |
+| `python -m unittest discover -s tests -t .` | nothing; runs the 54 tests | about 10 seconds |
+| `python scripts/run_g0.py` | `results/g0/` | about 15 minutes |
+| `python scripts/run_faithfulness.py` | `results/faithfulness/` | about 17 minutes |
+| `python scripts/time_pace_flip.py` | `results/speed/` | about 2 minutes |
+
+Where the time goes:
+
+- **`run_g0.py`:** about 10 of the 15 minutes are spent on the Skin dataset.
+  - Skin has 245,057 rows, far more than any other dataset, and every model version is trained on it
+    once per seed (5 seeds).
+  - The two versions that use the paper's expansion rule are the slowest. On Skin they build about
+    1,900 boxes, and CFMNN compares every training and test point with every box.
+- **`run_faithfulness.py`:** about 14 of the 17 minutes are KernelSHAP and LIME.
+  - To explain one point, KernelSHAP runs the model on about 2,000 sampled inputs and LIME on 1,000.
+  - Every explainer runs twice; the second run measures stability.
+  - The PACE methods read their explanations directly from the boxes and take only seconds in total.
+- **`time_pace_flip.py`:** about half the time is brute-force occlusion on S1–S3. The script runs it
+  only to measure how much faster PACE-flip is.
+
+These times come from one Windows PC. On another machine they will be higher or lower, but the split
+should be similar.
 
 - **UCI data:** download it first (see [Data](#data)).
   - `run_g0.py` skips any UCI dataset that is missing.
   - The other two scripts include Thyroid and Shuttle by default. Use `--datasets` to choose others.
-- **Timings:** they depend on the machine, so compare methods within one run.
+- **Benchmark timings** (milliseconds per explanation in `results/`) also depend on the machine, so
+  compare methods within one run.
 
 ## Key results
 
