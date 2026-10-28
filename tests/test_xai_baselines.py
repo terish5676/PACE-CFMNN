@@ -9,19 +9,16 @@ from pace_cfmnn import xai_baselines as xb
 
 
 try:
-    import shap
     HAS_SHAP = True
 except ImportError:
     HAS_SHAP = False
 
 try:
-    import lime
     HAS_LIME = True
 except ImportError:
     HAS_LIME = False
 
 try:
-    import dice_ml
     HAS_DICE = True
 except ImportError:
     HAS_DICE = False
