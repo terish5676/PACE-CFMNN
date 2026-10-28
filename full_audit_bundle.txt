@@ -4461,7 +4461,11 @@ Based on the empirical findings and practical limitations, the following archite
 7. **Operational Error Scoring (`predict_with_trust`):** Standardized $R(x) = \alpha \cdot PD(x) + (1-\alpha) \cdot U(x)$ directly into the model API.
 8. **Order-Invariant Permutation Ensemble (`EnsembleCFMNN`):** Added a bagging ensemble across randomized permutations to resolve single-pass order sensitivity.
 9. **Data Pathology Detection (`detect_label_conflicts`, `clean_label_conflicts`):** Added automated detection and resolution of identical rows mapping to contradictory labels.
-10. **Robust Test Suite:** 76 unit tests passing cleanly with graceful optional skips for third-party baseline dependencies (`shap`, `dice_ml`).
+10. **Rotated / Oblique Hyperboxes (`ObliqueCFMNN`):** Solves axis-aligned staircase boundaries on diagonal and correlated manifolds by learning an orthonormal rotation matrix $R$ (via PCA or custom projection) and back-projecting attributions ($\phi_X = \phi_Z R^\top$).
+11. **Pretrained Vision & Text Embedding Hooks (`EmbeddedCFMNN`):** Allows CFMNN to operate directly as an interpretable hyperbox decision head on top of PyTorch/HuggingFace encoders.
+12. **Scalable Active Learning (`cluster_margin`):** Employs one-time `MiniBatchKMeans` pre-clustering, candidate subsampling, and model revision caching to scale active refinement to $100\text{k}+$ pools without quadratic bottlenecks.
+13. **Operational Error Risk Decoupling (`compute_risk`):** Excludes $EI_{within}$ from operational error risk scoring, standardizing strictly on $R(x) = \alpha \cdot PD(x) + (1 - \alpha) \cdot U(x)$ in accordance with the falsification of Hypothesis H2.
+14. **Comprehensive Test Suite:** 90 unit tests passing cleanly with 100% pass rate.
 
 ---
 
@@ -4474,13 +4478,14 @@ Based on the empirical findings and practical limitations, the following archite
 - **Exact structural caching provides provable zero-attribution error** under the Appendix B Lipschitz bound condition.
 - **Prediction Disagreement + Ambiguity ($PD + U$) provides strong error discrimination** with AUROC up to 0.978 on Digits and 0.963 on Skin.
 - **CFMNN with search expansion and fixed centroids drastically compresses hyperbox models** (up to 36× fewer boxes) while matching tree ensembles on datasets like Digits (96.11%).
+- **ObliqueCFMNN eliminates staircase box fragmentation on diagonal manifolds** while preserving exact linear attribution mapping.
 
 ### What We Must NOT Claim
 - **Do not claim Target A equals Shapley values for the final prediction:** Target A decomposes the winning box membership; it does not account for the multi-box competitive argmax and centroid tie-breaking. Full classifier sensitivity is captured by PACE-flip (Target B).
 - **Do not claim PACE-flip is more faithful than occlusion:** It is mathematically identical; its contribution is exact, closed-form speedup.
-- **Do not claim $EI_{within}$ improves error detection:** Empirical results across all datasets falsified Hypothesis H2 ($\Delta \text{AUROC} \le 0$).
+- **Do not claim $EI_{within}$ improves error detection:** Empirical results across all datasets falsified Hypothesis H2 ($\Delta \text{AUROC} \le 0$). Operational error risk scoring is strictly $PD + U$.
 - **Do not claim classic FMM contraction is safe:** Blind geometric contraction causes catastrophic collateral damage (Shuttle collapsing from 98.6% to 30.7%) and must always be guarded by an acceptance gate.
-- **Do not claim CFMNN applies to unscaled or conflicting data:** CFMNN strictly requires bounded continuous inputs $[0, 1]^d$ and cannot separate identical inputs with contradictory labels (such as Sepsis).
+- **Do not claim CFMNN applies to unscaled or conflicting data without AutoCFMNN:** Base CFMNN strictly requires bounded continuous inputs $[0, 1]^d$. Raw DataFrames with strings, missing values, or unscaled features must use `AutoCFMNN`.
 
 
 === FILE: results\FINDINGS.md ===
@@ -4650,7 +4655,11 @@ Based on the empirical findings and practical limitations, the following archite
 7. **Operational Error Scoring (`predict_with_trust`):** Standardized $R(x) = \alpha \cdot PD(x) + (1-\alpha) \cdot U(x)$ directly into the model API.
 8. **Order-Invariant Permutation Ensemble (`EnsembleCFMNN`):** Added a bagging ensemble across randomized permutations to resolve single-pass order sensitivity.
 9. **Data Pathology Detection (`detect_label_conflicts`, `clean_label_conflicts`):** Added automated detection and resolution of identical rows mapping to contradictory labels.
-10. **Robust Test Suite:** 76 unit tests passing cleanly with graceful optional skips for third-party baseline dependencies (`shap`, `dice_ml`).
+10. **Rotated / Oblique Hyperboxes (`ObliqueCFMNN`):** Solves axis-aligned staircase boundaries on diagonal and correlated manifolds by learning an orthonormal rotation matrix $R$ (via PCA or custom projection) and back-projecting attributions ($\phi_X = \phi_Z R^\top$).
+11. **Pretrained Vision & Text Embedding Hooks (`EmbeddedCFMNN`):** Allows CFMNN to operate directly as an interpretable hyperbox decision head on top of PyTorch/HuggingFace encoders.
+12. **Scalable Active Learning (`cluster_margin`):** Employs one-time `MiniBatchKMeans` pre-clustering, candidate subsampling, and model revision caching to scale active refinement to $100\text{k}+$ pools without quadratic bottlenecks.
+13. **Operational Error Risk Decoupling (`compute_risk`):** Excludes $EI_{within}$ from operational error risk scoring, standardizing strictly on $R(x) = \alpha \cdot PD(x) + (1 - \alpha) \cdot U(x)$ in accordance with the falsification of Hypothesis H2.
+14. **Comprehensive Test Suite:** 90 unit tests passing cleanly with 100% pass rate.
 
 ---
 
@@ -4663,13 +4672,14 @@ Based on the empirical findings and practical limitations, the following archite
 - **Exact structural caching provides provable zero-attribution error** under the Appendix B Lipschitz bound condition.
 - **Prediction Disagreement + Ambiguity ($PD + U$) provides strong error discrimination** with AUROC up to 0.978 on Digits and 0.963 on Skin.
 - **CFMNN with search expansion and fixed centroids drastically compresses hyperbox models** (up to 36× fewer boxes) while matching tree ensembles on datasets like Digits (96.11%).
+- **ObliqueCFMNN eliminates staircase box fragmentation on diagonal manifolds** while preserving exact linear attribution mapping.
 
 ### What We Must NOT Claim
 - **Do not claim Target A equals Shapley values for the final prediction:** Target A decomposes the winning box membership; it does not account for the multi-box competitive argmax and centroid tie-breaking. Full classifier sensitivity is captured by PACE-flip (Target B).
 - **Do not claim PACE-flip is more faithful than occlusion:** It is mathematically identical; its contribution is exact, closed-form speedup.
-- **Do not claim $EI_{within}$ improves error detection:** Empirical results across all datasets falsified Hypothesis H2 ($\Delta \text{AUROC} \le 0$).
+- **Do not claim $EI_{within}$ improves error detection:** Empirical results across all datasets falsified Hypothesis H2 ($\Delta \text{AUROC} \le 0$). Operational error risk scoring is strictly $PD + U$.
 - **Do not claim classic FMM contraction is safe:** Blind geometric contraction causes catastrophic collateral damage (Shuttle collapsing from 98.6% to 30.7%) and must always be guarded by an acceptance gate.
-- **Do not claim CFMNN applies to unscaled or conflicting data:** CFMNN strictly requires bounded continuous inputs $[0, 1]^d$ and cannot separate identical inputs with contradictory labels (such as Sepsis).
+- **Do not claim CFMNN applies to unscaled or conflicting data without AutoCFMNN:** Base CFMNN strictly requires bounded continuous inputs $[0, 1]^d$. Raw DataFrames with strings, missing values, or unscaled features must use `AutoCFMNN`.
 
 
 === FILE: results\faithfulness\summary.md ===

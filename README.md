@@ -27,7 +27,8 @@ This repository provides an interpretable neuro-fuzzy classification and explain
 | **Phase 4** | Exact Structural Caching (Appendix B) | **Completed** | Exact Lipschitz bounds proven; 0.00% mismatch rate vs 78.8% on heuristic caching. |
 | **Phase 5–7** | Refinement & Six-Condition Acceptance Gate | **Completed** | Simpson FMM contraction evaluated; collateral damage guarded; explanation-guided shrink boosts Skin to 97.74%. |
 | **Protocol v6** | Full Benchmark Suite | **Completed** | Evaluated across 17 datasets against XGBoost, LightGBM, and Random Forest. |
-| **v0.2.1** | Robustness Fixes & High-Level APIs | **Completed** | Tolerant scaling, `predict_with_trust`, `EnsembleCFMNN`, label conflict cleaning, and 73 unit tests passing. |
+| **v0.2.2** | Active Learning & Automated Pipeline | **Completed** | Two-stage hierarchical triage, mixed continuous/binary perturbations, master pipeline runner. |
+| **v0.3.0** | Oblique Hyperboxes, Vision/Text Hooks, Scalable AL | **Completed** | `ObliqueCFMNN`, `EmbeddedCFMNN`, `cluster_margin` pre-clustering, $EI_{\text{within}}$ elimination from risk score, and 90 passing unit tests. |
 
 ---
 
@@ -117,6 +118,43 @@ preds = clf.predict(df_test)
 exp_df = clf.explain(df_test, target="decision")  # Returns DataFrame with original column names
 ```
 
+### Rotated / Oblique Hyperboxes (ObliqueCFMNN)
+```python
+from pace_cfmnn import ObliqueCFMNN
+
+# Orthogonalizes diagonal decision boundaries via PCA coordinate transformation:
+# Eliminates staircase hyperbox fragmentation with exact attribution back-projection (phi_X = phi_Z @ R.T)
+oblique_model = ObliqueCFMNN(rotation="pca", theta=0.3)
+oblique_model.fit(X_train, y_train)
+
+# Exact explanations in user's original feature space
+phi_orig = oblique_model.explain(X_test, target="decision")
+```
+
+### Pretrained Vision & Text Embedding Hooks (EmbeddedCFMNN)
+```python
+from pace_cfmnn import EmbeddedCFMNN
+
+# Turn CFMNN into an interpretable hyperbox decision head over deep vision/text representations
+model = EmbeddedCFMNN(encoder=my_deep_encoder, theta=0.3, use_oblique=True)
+model.fit(raw_inputs, labels)
+preds = model.predict(raw_inputs)
+```
+
+### Scalable Active Learning with Pre-Clustering (cluster_margin)
+```python
+from pace_cfmnn import run_active_refinement
+
+# Scales to 100k+ candidate pools using one-time pre-clustering and perturbation caching
+al_result = run_active_refinement(
+    model, X_pool, y_pool, X_accept, y_accept, X_test, y_test,
+    strategy="cluster_margin",
+    budget=50,
+    n_clusters=8,
+)
+print("Labels queried:", al_result.labels_queried, "Final Macro-F1:", al_result.final_metrics["f1_macro"])
+```
+
 ---
 
 ## 5. Key Empirical Results
@@ -152,10 +190,18 @@ CFMNN with our fixed centroid and search expansion rules matches ensemble baseli
 pace-cfmnn/
 ├── pace_cfmnn/
 │   ├── cfmnn_core.py          # Reference CFMNN and EnsembleCFMNN classifiers
+│   ├── auto.py                # AutoCFMNN automated tabular preprocessing pipeline
+│   ├── oblique.py             # ObliqueCFMNN & RotatedHyperbox for rotated/PCA hyperboxes
+│   ├── embedding.py           # EmbeddedCFMNN for pretrained vision/text encoder hooks
+│   ├── active.py              # Active learning simulation, cluster-margin & triage filtering
+│   ├── signals.py             # Uncertainty (U), prediction disagreement (PD), EI
+│   ├── pace_score.py          # PACE Refinement Score (PRS) and compute_risk
+│   ├── refine.py              # Selective sample refinement guarded by Acceptance Gate
+│   ├── neighborhood.py        # Mixed continuous/binary perturbation generator
 │   ├── explain.py             # PACE-flip, PACE-multi, Target A decomposition, contrastive
 │   ├── trust_diagnostics.py   # Continuous ambiguity U(x), disagreement PD(x), error risk R(x)
-│   ├── caching.py             # Exact structural caching with proven Lipschitz bound (Appendix B)
-│   ├── contraction.py         # Simpson (1992) 4-case hyperbox overlap contraction & safe wrapper
+│   ├── caching.py             # Exact structural caching with candidate bounding theorem
+│   ├── contraction.py         # 1D sweep-line overlap contraction & safe acceptance wrapper
 │   ├── refinement.py          # Six-Condition Acceptance Gate & explanation-guided shrink
 │   ├── counterfactual.py      # Box-directed sparse counterfactuals
 │   ├── global_importance.py   # Global feature importance aggregation
@@ -163,10 +209,11 @@ pace-cfmnn/
 │   ├── evaluate.py            # Standardized classification metrics
 │   └── xai_baselines.py       # KernelSHAP, LIME, DiCE, nearest unlike neighbour, brute-force occlusion
 ├── scripts/
-│   ├── run_v6_benchmark.py    # Unified benchmark runner generating Tables A–F
-│   ├── run_g0.py              # Baseline model comparison script
-│   └── run_faithfulness.py    # Explanation benchmark script
-├── tests/                     # 73 unit tests verifying math, caching, contraction, and APIs
+│   ├── run_pipeline_from_start.py # Master end-to-end 8-stage verification pipeline
+│   ├── run_v6_benchmark.py        # Unified benchmark runner generating Tables A–F
+│   ├── run_g0.py                  # Baseline model comparison script
+│   └── run_faithfulness.py        # Explanation benchmark script
+├── tests/                     # 90 unit tests verifying math, caching, contraction, and APIs
 ├── results/
 │   ├── FINDINGS.md            # Detailed scientific findings, bounds, and claim discipline
 │   └── protocol_v6/           # Raw benchmark CSVs and BENCHMARK_REPORT.md
@@ -177,9 +224,9 @@ pace-cfmnn/
 
 ## 7. Running Tests & Reproducing Benchmarks
 
-Run the complete test suite (73 tests):
+Run the complete test suite (90 tests):
 ```bash
-python -m unittest discover -s tests -t .
+python -m unittest discover -s tests -p "test_*.py" -v
 ```
 
 Run the Protocol v6 benchmark suite across datasets:
