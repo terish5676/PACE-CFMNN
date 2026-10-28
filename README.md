@@ -10,8 +10,7 @@ This repository contains:
   the model's own hyperboxes, instead of being approximated by sampling.
 - **The experiments** behind both, with their results.
 
-**Results so far: [results/FINDINGS.md](results/FINDINGS.md).** The design follows the team's internal
-"PACE-CFMNN Blueprint v3.0".
+**Results so far: [results/FINDINGS.md](results/FINDINGS.md).** 
 
 > Private research code. No license is granted: all rights reserved.
 
