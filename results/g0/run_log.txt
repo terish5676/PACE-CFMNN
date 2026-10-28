@@ -1,0 +1,150 @@
+S1 seed 0 done
+S1 seed 1 done
+S1 seed 2 done
+S1 seed 3 done
+S1 seed 4 done
+S2 seed 0 done
+S2 seed 1 done
+S2 seed 2 done
+S2 seed 3 done
+S2 seed 4 done
+wine seed 0 done
+wine seed 1 done
+wine seed 2 done
+wine seed 3 done
+wine seed 4 done
+breast_cancer seed 0 done
+breast_cancer seed 1 done
+breast_cancer seed 2 done
+breast_cancer seed 3 done
+breast_cancer seed 4 done
+digits seed 0 done
+digits seed 1 done
+digits seed 2 done
+digits seed 3 done
+digits seed 4 done
+thyroid seed 0 done
+thyroid seed 1 done
+thyroid seed 2 done
+thyroid seed 3 done
+thyroid seed 4 done
+shuttle seed 0 done
+shuttle seed 1 done
+shuttle seed 2 done
+shuttle seed 3 done
+shuttle seed 4 done
+skin seed 0 done
+skin seed 1 done
+skin seed 2 done
+skin seed 3 done
+skin seed 4 done
+sepsis seed 0 done
+sepsis seed 1 done
+sepsis seed 2 done
+sepsis seed 3 done
+sepsis seed 4 done
+# G0 baseline results
+
+Protocol: stratified 80/20 split, scaling fitted on training rows, theta = 0.3, gamma = 4, training order shuffled by seed; seeds [0, 1, 2, 3, 4]. Mean ± standard deviation over seeds.
+
+Variants: *original* = the paper's centroid rule (points already inside a box are skipped); *fixed* = every accepted point updates the centroid; *+search* = expand the best same-class box that can still expand (Simpson's FMNN) instead of testing only the best box (the paper). Only CFMNN-original is the paper as written.
+
+| Dataset | Model | Accuracy | Macro-F1 | Balanced acc. | Min class recall | Boxes | Fit (s) |
+|---|---|---|---|---|---|---|---|
+| S1 | CFMNN-original | 78.86 ± 1.36 | 78.84 ± 1.35 | 78.85 ± 1.36 | 77.17 ± 1.81 | 3748 ± 7 | 0.71 ± 0.09 |
+| S1 | CFMNN-fixed | 78.86 ± 1.36 | 78.84 ± 1.35 | 78.85 ± 1.36 | 77.17 ± 1.81 | 3748 ± 7 | 0.77 ± 0.06 |
+| S1 | CFMNN-original+search | 88.74 ± 1.00 | 88.74 ± 1.00 | 88.74 ± 1.01 | 87.42 ± 1.07 | 1514 ± 12 | 0.59 ± 0.03 |
+| S1 | CFMNN-fixed+search | 88.74 ± 1.00 | 88.74 ± 1.00 | 88.74 ± 1.01 | 87.42 ± 1.07 | 1514 ± 12 | 0.56 ± 0.07 |
+| S1 | RandomForest | 99.22 ± 0.41 | 99.22 ± 0.41 | 99.22 ± 0.41 | 99.00 ± 0.51 | – | 0.69 ± 0.04 |
+| S1 | Majority | 50.40 ± 0.00 | 33.51 ± 0.00 | 50.00 ± 0.00 | 0.00 ± 0.00 | – | – |
+| S2 | CFMNN-original | 71.30 ± 1.14 | 71.28 ± 1.17 | 71.30 ± 1.15 | 68.82 ± 2.34 | 3755 ± 5 | 0.63 ± 0.03 |
+| S2 | CFMNN-fixed | 71.30 ± 1.14 | 71.28 ± 1.17 | 71.30 ± 1.15 | 68.82 ± 2.34 | 3755 ± 5 | 0.54 ± 0.01 |
+| S2 | CFMNN-original+search | 79.36 ± 0.53 | 79.36 ± 0.53 | 79.36 ± 0.53 | 78.73 ± 0.52 | 1534 ± 9 | 0.45 ± 0.01 |
+| S2 | CFMNN-fixed+search | 79.36 ± 0.53 | 79.36 ± 0.53 | 79.36 ± 0.53 | 78.73 ± 0.52 | 1534 ± 9 | 0.46 ± 0.01 |
+| S2 | RandomForest | 89.54 ± 1.17 | 89.54 ± 1.17 | 89.54 ± 1.17 | 89.01 ± 0.98 | – | 0.69 ± 0.02 |
+| S2 | Majority | 50.20 ± 0.00 | 33.42 ± 0.00 | 50.00 ± 0.00 | 0.00 ± 0.00 | – | – |
+| wine | CFMNN-original | 95.56 ± 1.52 | 95.70 ± 1.36 | 96.03 ± 1.48 | 88.10 ± 4.45 | 123 ± 2 | 0.01 ± 0.00 |
+| wine | CFMNN-fixed | 95.56 ± 1.52 | 95.70 ± 1.36 | 96.03 ± 1.48 | 88.10 ± 4.45 | 123 ± 2 | 0.01 ± 0.00 |
+| wine | CFMNN-original+search | 98.33 ± 2.48 | 98.46 ± 2.29 | 98.57 ± 2.13 | 95.71 ± 6.39 | 31 ± 0 | 0.01 ± 0.00 |
+| wine | CFMNN-fixed+search | 98.33 ± 2.48 | 98.46 ± 2.29 | 98.57 ± 2.13 | 95.71 ± 6.39 | 31 ± 0 | 0.01 ± 0.00 |
+| wine | RandomForest | 100.00 ± 0.00 | 100.00 ± 0.00 | 100.00 ± 0.00 | 100.00 ± 0.00 | – | 0.35 ± 0.02 |
+| wine | Majority | 38.89 ± 0.00 | 18.67 ± 0.00 | 33.33 ± 0.00 | 0.00 ± 0.00 | – | – |
+| breast_cancer | CFMNN-original | 94.56 ± 2.66 | 94.18 ± 2.73 | 94.11 ± 2.04 | 90.83 ± 2.78 | 374 ± 14 | 0.03 ± 0.00 |
+| breast_cancer | CFMNN-fixed | 94.56 ± 2.66 | 94.18 ± 2.73 | 94.11 ± 2.04 | 90.83 ± 2.78 | 374 ± 14 | 0.03 ± 0.00 |
+| breast_cancer | CFMNN-original+search | 95.44 ± 1.14 | 95.08 ± 1.22 | 94.90 ± 1.13 | 92.86 ± 1.68 | 44 ± 3 | 0.02 ± 0.00 |
+| breast_cancer | CFMNN-fixed+search | 95.44 ± 1.14 | 95.08 ± 1.22 | 94.90 ± 1.13 | 92.86 ± 1.68 | 44 ± 3 | 0.02 ± 0.00 |
+| breast_cancer | RandomForest | 97.02 ± 1.00 | 96.78 ± 1.06 | 96.55 ± 0.78 | 94.76 ± 1.06 | – | 0.33 ± 0.01 |
+| breast_cancer | Majority | 63.16 ± 0.00 | 38.71 ± 0.00 | 50.00 ± 0.00 | 0.00 ± 0.00 | – | – |
+| digits | CFMNN-original | 81.72 ± 1.99 | 81.12 ± 2.31 | 81.67 ± 1.97 | 41.97 ± 13.54 | 1316 ± 23 | 0.12 ± 0.01 |
+| digits | CFMNN-fixed | 81.72 ± 1.99 | 81.12 ± 2.31 | 81.67 ± 1.97 | 41.97 ± 13.54 | 1316 ± 23 | 0.13 ± 0.04 |
+| digits | CFMNN-original+search | 95.33 ± 0.50 | 95.26 ± 0.46 | 95.29 ± 0.49 | 80.57 ± 5.50 | 293 ± 3 | 0.09 ± 0.00 |
+| digits | CFMNN-fixed+search | 95.33 ± 0.50 | 95.26 ± 0.46 | 95.29 ± 0.49 | 80.57 ± 5.50 | 293 ± 3 | 0.09 ± 0.00 |
+| digits | RandomForest | 97.61 ± 0.25 | 97.59 ± 0.25 | 97.59 ± 0.25 | 89.71 ± 2.56 | – | 0.45 ± 0.02 |
+| digits | Majority | 10.11 ± 0.15 | 1.84 ± 0.03 | 10.00 ± 0.00 | 0.00 ± 0.00 | – | – |
+| thyroid | CFMNN-original | 95.04 ± 1.60 | 78.08 ± 4.59 | 78.70 ± 6.36 | 60.54 ± 16.20 | 688 ± 165 | 0.61 ± 0.12 |
+| thyroid | CFMNN-fixed | 95.03 ± 1.59 | 78.01 ± 4.48 | 78.61 ± 6.26 | 60.27 ± 16.04 | 688 ± 165 | 0.57 ± 0.11 |
+| thyroid | CFMNN-original+search | 97.01 ± 0.58 | 85.32 ± 3.04 | 80.47 ± 3.94 | 58.92 ± 9.29 | 53 ± 3 | 0.26 ± 0.05 |
+| thyroid | CFMNN-fixed+search | 97.17 ± 0.62 | 85.98 ± 3.30 | 81.24 ± 4.51 | 62.43 ± 9.99 | 53 ± 3 | 0.26 ± 0.02 |
+| thyroid | RandomForest | 99.62 ± 0.11 | 97.65 ± 1.17 | 98.51 ± 0.99 | 96.09 ± 2.99 | – | 0.51 ± 0.02 |
+| thyroid | Majority | 92.57 ± 0.00 | 32.05 ± 0.00 | 33.33 ± 0.00 | 0.00 ± 0.00 | – | – |
+| shuttle | CFMNN-original | 93.33 ± 0.27 | 82.58 ± 2.89 | 75.80 ± 4.66 | 45.84 ± 9.72 | 27 ± 6 | 1.42 ± 0.07 |
+| shuttle | CFMNN-fixed | 99.80 ± 0.04 | 87.61 ± 2.21 | 82.63 ± 3.59 | 43.73 ± 7.55 | 27 ± 6 | 1.41 ± 0.04 |
+| shuttle | CFMNN-original+search | 93.33 ± 0.27 | 81.77 ± 2.43 | 73.72 ± 3.39 | 44.67 ± 7.95 | 14 ± 0 | 1.41 ± 0.18 |
+| shuttle | CFMNN-fixed+search | 99.80 ± 0.04 | 86.94 ± 1.84 | 80.72 ± 2.74 | 43.73 ± 7.55 | 14 ± 0 | 1.46 ± 0.16 |
+| shuttle | RandomForest | 99.98 ± 0.02 | 97.20 ± 3.65 | 95.81 ± 5.44 | 78.00 ± 25.88 | – | 1.87 ± 0.10 |
+| shuttle | Majority | 78.59 ± 0.00 | 12.57 ± 0.00 | 14.29 ± 0.00 | 0.00 ± 0.00 | – | – |
+| skin | CFMNN-original | 96.88 ± 1.45 | 94.97 ± 2.50 | 93.00 ± 3.56 | 86.38 ± 7.19 | 1907 ± 225 | 20.39 ± 4.38 |
+| skin | CFMNN-fixed | 97.01 ± 2.12 | 95.13 ± 3.60 | 93.27 ± 5.15 | 86.87 ± 10.34 | 1907 ± 225 | 21.51 ± 4.99 |
+| skin | CFMNN-original+search | 94.57 ± 2.16 | 90.82 ± 4.14 | 87.59 ± 5.07 | 75.66 ± 10.04 | 90 ± 4 | 8.18 ± 2.00 |
+| skin | CFMNN-fixed+search | 94.74 ± 2.09 | 91.13 ± 3.70 | 87.94 ± 5.10 | 76.30 ± 10.23 | 90 ± 4 | 9.31 ± 2.40 |
+| skin | RandomForest | 99.96 ± 0.01 | 99.94 ± 0.01 | 99.96 ± 0.01 | 99.95 ± 0.01 | – | 10.11 ± 1.65 |
+| skin | Majority | 79.25 ± 0.00 | 44.21 ± 0.00 | 50.00 ± 0.00 | 0.00 ± 0.00 | – | – |
+| sepsis | CFMNN-original | 48.65 ± 8.74 | 38.10 ± 3.98 | 51.07 ± 2.59 | 40.12 ± 2.90 | 58 ± 5 | 2.84 ± 0.20 |
+| sepsis | CFMNN-fixed | 53.23 ± 3.58 | 41.74 ± 1.88 | 56.52 ± 2.02 | 52.63 ± 4.11 | 58 ± 5 | 2.77 ± 0.08 |
+| sepsis | CFMNN-original+search | 48.57 ± 8.54 | 38.47 ± 4.66 | 53.22 ± 4.93 | 44.56 ± 8.84 | 27 ± 2 | 2.70 ± 0.10 |
+| sepsis | CFMNN-fixed+search | 49.82 ± 8.27 | 39.72 ± 4.31 | 56.14 ± 3.24 | 45.84 ± 8.46 | 27 ± 2 | 2.78 ± 0.06 |
+| sepsis | RandomForest | 92.64 ± 0.01 | 48.13 ± 0.03 | 50.01 ± 0.02 | 0.04 ± 0.03 | – | 2.27 ± 0.07 |
+| sepsis | Majority | 92.65 ± 0.00 | 48.09 ± 0.00 | 50.00 ± 0.00 | 0.00 ± 0.00 | – | – |
+
+Training and tie statistics (means over seeds):
+
+| Dataset | Model | Inside points (% of train) | Best-box ties in training (% of train) | of which at the 0.5 floor | Tied test predictions (%) | Predictions changed by fix (%) |
+|---|---|---|---|---|---|---|
+| S1 | CFMNN-original | 0.0 | 0.0 | 0.0 | 0.0 | 0.00 |
+| S1 | CFMNN-fixed | 0.0 | 0.0 | 0.0 | 0.0 | 0.00 |
+| S1 | CFMNN-original+search | 0.0 | 0.0 | 0.0 | 0.0 | 0.00 |
+| S1 | CFMNN-fixed+search | 0.0 | 0.0 | 0.0 | 0.0 | 0.00 |
+| S2 | CFMNN-original | 0.0 | 0.0 | 0.0 | 0.0 | 0.00 |
+| S2 | CFMNN-fixed | 0.0 | 0.0 | 0.0 | 0.0 | 0.00 |
+| S2 | CFMNN-original+search | 0.0 | 0.0 | 0.0 | 0.0 | 0.00 |
+| S2 | CFMNN-fixed+search | 0.0 | 0.0 | 0.0 | 0.0 | 0.00 |
+| wine | CFMNN-original | 0.8 | 0.0 | 0.0 | 0.0 | 0.00 |
+| wine | CFMNN-fixed | 0.8 | 0.0 | 0.0 | 0.0 | 0.00 |
+| wine | CFMNN-original+search | 2.1 | 0.0 | 0.0 | 0.0 | 0.00 |
+| wine | CFMNN-fixed+search | 2.1 | 0.0 | 0.0 | 0.0 | 0.00 |
+| breast_cancer | CFMNN-original | 8.7 | 0.0 | 0.0 | 0.0 | 0.00 |
+| breast_cancer | CFMNN-fixed | 8.7 | 0.0 | 0.0 | 0.0 | 0.00 |
+| breast_cancer | CFMNN-original+search | 26.9 | 12.3 | 0.0 | 25.1 | 0.00 |
+| breast_cancer | CFMNN-fixed+search | 26.9 | 12.3 | 0.0 | 25.1 | 0.00 |
+| digits | CFMNN-original | 0.7 | 0.2 | 0.0 | 0.8 | 0.00 |
+| digits | CFMNN-fixed | 0.7 | 0.2 | 0.0 | 0.8 | 0.00 |
+| digits | CFMNN-original+search | 3.4 | 4.7 | 0.0 | 9.1 | 0.00 |
+| digits | CFMNN-fixed+search | 3.4 | 4.7 | 0.0 | 9.1 | 0.00 |
+| thyroid | CFMNN-original | 78.3 | 17.4 | 0.0 | 25.9 | 0.01 |
+| thyroid | CFMNN-fixed | 78.3 | 17.4 | 0.0 | 25.9 | 0.01 |
+| thyroid | CFMNN-original+search | 91.4 | 78.5 | 0.0 | 90.0 | 0.74 |
+| thyroid | CFMNN-fixed+search | 91.4 | 78.5 | 0.0 | 90.0 | 0.74 |
+| shuttle | CFMNN-original | 99.5 | 0.0 | 0.0 | 12.6 | 6.48 |
+| shuttle | CFMNN-fixed | 99.5 | 0.0 | 0.0 | 12.6 | 6.48 |
+| shuttle | CFMNN-original+search | 99.5 | 14.9 | 0.0 | 41.5 | 6.48 |
+| shuttle | CFMNN-fixed+search | 99.5 | 14.9 | 0.0 | 41.5 | 6.48 |
+| skin | CFMNN-original | 98.0 | 13.0 | 0.0 | 27.4 | 1.03 |
+| skin | CFMNN-fixed | 98.0 | 13.0 | 0.0 | 27.4 | 1.03 |
+| skin | CFMNN-original+search | 99.7 | 76.8 | 0.0 | 89.9 | 3.79 |
+| skin | CFMNN-fixed+search | 99.7 | 76.8 | 0.0 | 89.9 | 3.79 |
+| sepsis | CFMNN-original | 99.6 | 0.5 | 0.0 | 98.3 | 26.84 |
+| sepsis | CFMNN-fixed | 99.6 | 0.5 | 0.0 | 98.3 | 26.84 |
+| sepsis | CFMNN-original+search | 99.8 | 26.6 | 0.0 | 99.2 | 30.22 |
+| sepsis | CFMNN-fixed+search | 99.8 | 26.6 | 0.0 | 99.2 | 30.22 |
+
+Paper (MRCFMNN Spark ensemble, Max_Occurrences) accuracy for context: thyroid 96.90%, shuttle 94.04%, skin 97.63%, sepsis 68.76%

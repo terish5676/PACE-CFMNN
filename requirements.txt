@@ -1,0 +1,10 @@
+# Python 3.10 or newer. Developed with Python 3.14 and the versions noted on the right.
+numpy>=2.0          # 2.5.3
+scipy>=1.13         # 1.18.1
+scikit-learn>=1.5   # 1.9.1
+pandas>=2.2         # 3.0.5
+
+# XAI baselines: needed only for xai_baselines.py, run_faithfulness.py and their tests.
+shap>=0.54          # 0.54.1
+lime>=0.2           # 0.2.0.1
+dice-ml>=0.12       # 0.12
