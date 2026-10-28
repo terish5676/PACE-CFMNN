@@ -29,8 +29,7 @@ from pace_cfmnn import CFMNN, data  # noqa: E402
 from pace_cfmnn.evaluate import classification_metrics, majority_baseline, timer  # noqa: E402
 
 # Accuracy of MRCFMNN (Max_Occurrences ensemble) in the paper's Table 2, for context only:
-# the paper reports a Spark ensemble, not a single CFMNN.
-PAPER_ACC = {"thyroid": 96.90, "shuttle": 94.04, "skin": 97.63, "sepsis": 68.76}
+PAPER_ACC = {"thyroid": 96.90, "shuttle": 94.04, "skin": 97.63}
 
 # (name, centroid rule, expansion rule). The first is the paper as written.
 VARIANTS = [("CFMNN-original", "original", "best"),
@@ -113,9 +112,7 @@ def summarise(df: pd.DataFrame) -> str:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--datasets", nargs="+",
-                    default=list(data.BUILTIN) + [n for n in data.UCI if n != "sepsis"])
-    # Sepsis is dropped from the default runs: best possible accuracy equals the
-    # majority class (see data/README.md). Run it explicitly with --datasets sepsis.
+                    default=list(data.BUILTIN) + list(data.UCI))
     ap.add_argument("--seeds", nargs="+", type=int, default=[0, 1, 2, 3, 4])
     ap.add_argument("--out", default=str(ROOT / "results" / "g0"))
     args = ap.parse_args()

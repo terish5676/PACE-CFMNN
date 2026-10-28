@@ -1,0 +1,37 @@
+Dataset,Seed,Cache_Mode,Structural_Mismatch_Rate,Max_Attribution_Error,Mean_Attribution_Error,Q95_Attribution_Error,Speedup,Exactness_Proof
+skin,0,Full Recompute (No Cache),0.00%,0.00e+00,0.00e+00,0.00e+00,1.00x,Exact (Direct Evaluation)
+skin,0,Exact Structural Cache,0.00%,0.00e+00,0.00e+00,0.00e+00,0.87x,Mathematically Proven (Appendix B)
+skin,0,Approximate Cache,11.50%,7.55e-02,3.70e-03,3.89e-02,0.65x,Unproven / Approximate
+skin,1,Full Recompute (No Cache),0.00%,0.00e+00,0.00e+00,0.00e+00,1.00x,Exact (Direct Evaluation)
+skin,1,Exact Structural Cache,0.00%,0.00e+00,0.00e+00,0.00e+00,0.99x,Mathematically Proven (Appendix B)
+skin,1,Approximate Cache,6.88%,5.16e-02,1.78e-03,1.26e-02,0.64x,Unproven / Approximate
+skin,2,Full Recompute (No Cache),0.00%,0.00e+00,0.00e+00,0.00e+00,1.00x,Exact (Direct Evaluation)
+skin,2,Exact Structural Cache,0.00%,0.00e+00,0.00e+00,0.00e+00,0.71x,Mathematically Proven (Appendix B)
+skin,2,Approximate Cache,6.25%,7.16e-02,1.54e-03,1.04e-02,0.61x,Unproven / Approximate
+thyroid,0,Full Recompute (No Cache),0.00%,0.00e+00,0.00e+00,0.00e+00,1.00x,Exact (Direct Evaluation)
+thyroid,0,Exact Structural Cache,0.00%,0.00e+00,0.00e+00,0.00e+00,0.94x,Mathematically Proven (Appendix B)
+thyroid,0,Approximate Cache,78.75%,2.07e-02,4.70e-04,1.90e-03,1.01x,Unproven / Approximate
+thyroid,1,Full Recompute (No Cache),0.00%,0.00e+00,0.00e+00,0.00e+00,1.00x,Exact (Direct Evaluation)
+thyroid,1,Exact Structural Cache,0.00%,0.00e+00,0.00e+00,0.00e+00,1.01x,Mathematically Proven (Appendix B)
+thyroid,1,Approximate Cache,86.00%,2.29e-02,6.40e-04,2.41e-03,1.27x,Unproven / Approximate
+thyroid,2,Full Recompute (No Cache),0.00%,0.00e+00,0.00e+00,0.00e+00,1.00x,Exact (Direct Evaluation)
+thyroid,2,Exact Structural Cache,0.00%,0.00e+00,0.00e+00,0.00e+00,1.09x,Mathematically Proven (Appendix B)
+thyroid,2,Approximate Cache,76.62%,2.10e-02,6.88e-04,2.79e-03,1.19x,Unproven / Approximate
+shuttle,0,Full Recompute (No Cache),0.00%,0.00e+00,0.00e+00,0.00e+00,1.00x,Exact (Direct Evaluation)
+shuttle,0,Exact Structural Cache,0.00%,0.00e+00,0.00e+00,0.00e+00,0.99x,Mathematically Proven (Appendix B)
+shuttle,0,Approximate Cache,8.88%,3.20e-02,2.80e-04,6.15e-04,0.55x,Unproven / Approximate
+shuttle,1,Full Recompute (No Cache),0.00%,0.00e+00,0.00e+00,0.00e+00,1.00x,Exact (Direct Evaluation)
+shuttle,1,Exact Structural Cache,0.00%,0.00e+00,0.00e+00,0.00e+00,0.99x,Mathematically Proven (Appendix B)
+shuttle,1,Approximate Cache,6.12%,1.95e-02,1.47e-04,2.00e-04,0.63x,Unproven / Approximate
+shuttle,2,Full Recompute (No Cache),0.00%,0.00e+00,0.00e+00,0.00e+00,1.00x,Exact (Direct Evaluation)
+shuttle,2,Exact Structural Cache,0.00%,0.00e+00,0.00e+00,0.00e+00,0.88x,Mathematically Proven (Appendix B)
+shuttle,2,Approximate Cache,11.50%,5.11e-02,3.73e-04,9.44e-04,0.55x,Unproven / Approximate
+digits,0,Full Recompute (No Cache),0.00%,0.00e+00,0.00e+00,0.00e+00,1.00x,Exact (Direct Evaluation)
+digits,0,Exact Structural Cache,0.00%,0.00e+00,0.00e+00,0.00e+00,0.90x,Mathematically Proven (Appendix B)
+digits,0,Approximate Cache,7.62%,1.08e-02,7.79e-05,0.00e+00,0.91x,Unproven / Approximate
+digits,1,Full Recompute (No Cache),0.00%,0.00e+00,0.00e+00,0.00e+00,1.00x,Exact (Direct Evaluation)
+digits,1,Exact Structural Cache,0.00%,0.00e+00,0.00e+00,0.00e+00,1.01x,Mathematically Proven (Appendix B)
+digits,1,Approximate Cache,13.00%,1.00e-02,1.24e-04,7.03e-04,0.93x,Unproven / Approximate
+digits,2,Full Recompute (No Cache),0.00%,0.00e+00,0.00e+00,0.00e+00,1.00x,Exact (Direct Evaluation)
+digits,2,Exact Structural Cache,0.00%,0.00e+00,0.00e+00,0.00e+00,0.88x,Mathematically Proven (Appendix B)
+digits,2,Approximate Cache,5.62%,1.14e-02,6.50e-05,0.00e+00,0.62x,Unproven / Approximate

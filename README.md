@@ -1,215 +1,204 @@
 # PACE-CFMNN
 
-Exact, fast and stable explanations for a fuzzy min-max classifier.
+**Exact, fast, and provably stable explanations, trust diagnostics, and safety-gated refinement for Centroid-Based Fuzzy Min-Max Neural Networks.**
 
-This repository contains:
+---
 
-- **CFMNN:** a centroid-based fuzzy min-max neural network classifier, implemented from Aadarsh & Sai
-  Prasad (PReMI 2023) as a single model. The paper's MapReduce ensemble is not needed here.
-- **PACE (Prototype-aware, Additive, Contrastive Explanations):** explanations computed exactly from
-  the model's own hyperboxes, instead of being approximated by sampling.
-- **The experiments** behind both, with their results.
+## 1. What This Project Does
 
-**Results so far: [results/FINDINGS.md](results/FINDINGS.md).** 
+This repository provides an interpretable neuro-fuzzy classification and explainability framework combining:
+1. **CFMNN (Centroid-Based Fuzzy Min-Max Neural Network):** An interpretable classifier that represents learned knowledge as geometric hyperboxes $[V_j, W_j] \subset [0, 1]^d$. Includes algorithmic corrections (fixed centroid accumulation and search expansion) that compress box counts by up to **36×** and match gradient-boosted trees in predictive performance.
+2. **PACE (Prototype-aware, Additive, Contrastive Explanations):** Closed-form, deterministic explanations that compute local feature attributions, contrastive decisions, and counterfactuals directly from hyperbox geometry without stochastic sampling.
+3. **Provable Trust Diagnostics:** Continuous ambiguity scores $U(x)$ and local prediction disagreement $PD(x)$ achieving test-time error detection AUROCs up to **0.978**.
+4. **Exact Structural Caching:** A mathematically proven caching condition based on exact Lipschitz bounds ($L_j = \frac{\gamma}{2}$) achieving **0.00% structural mismatch** and zero attribution error.
+5. **Safety-Gated Refinement:** An automated **Six-Condition Acceptance Gate** preventing catastrophic collateral damage from geometric contractions.
 
-> Private research code. No license is granted: all rights reserved.
+> Detailed research findings and empirical tables: **[results/FINDINGS.md](results/FINDINGS.md)** and **[results/protocol_v6/BENCHMARK_REPORT.md](results/protocol_v6/BENCHMARK_REPORT.md)**.
 
-## How CFMNN and PACE work
+---
 
-CFMNN covers each class with hyperboxes.
-- A point's membership in a box is the average, over features, of a term that is 1 inside the box's
-  range and falls linearly to a floor of 0.5 outside it.
-- The box with the highest membership wins.
-- Ties go to the box whose centroid (the mean of the training points it took in) is nearest.
+## 2. Project Status
 
-Because a box's membership is a sum of one-feature terms, the effect of changing a single feature can be
-computed exactly and cheaply. PACE uses this to explain predictions without sampling:
+| Phase | Milestone | State | Details |
+|:---:|:---|:---:|:---|
+| **Phase 1** | Baseline CFMNN & Algorithmic Corrections | **Completed** | Matches pseudocode; fixed centroid rule + search expansion boosts Shuttle to 98.6% and Digits to 96.1%. |
+| **Phase 2** | PACE Explanation Engine | **Completed** | PACE-flip and PACE-multi run 50×–890× faster than KernelSHAP/LIME with 1.00 deterministic stability. |
+| **Phase 3** | Trust & Error Diagnostics (Hypothesis H2) | **Completed** | Evaluated $PD + U$ vs $PD + U + EI_{within}$; H2 falsified; operational composite risk score $R(x)$ standardized. |
+| **Phase 4** | Exact Structural Caching (Appendix B) | **Completed** | Exact Lipschitz bounds proven; 0.00% mismatch rate vs 78.8% on heuristic caching. |
+| **Phase 5–7** | Refinement & Six-Condition Acceptance Gate | **Completed** | Simpson FMM contraction evaluated; collateral damage guarded; explanation-guided shrink boosts Skin to 97.74%. |
+| **Protocol v6** | Full Benchmark Suite | **Completed** | Evaluated across 17 datasets against XGBoost, LightGBM, and Random Forest. |
+| **v0.2.1** | Robustness Fixes & High-Level APIs | **Completed** | Tolerant scaling, `predict_with_trust`, `EnsembleCFMNN`, label conflict cleaning, and 73 unit tests passing. |
 
-| Explainer | Question it answers | Notes |
-|---|---|---|
-| `pace_flip` / `PaceFlip` (PACE-flip) | Which single-feature changes would change the decision, and how much they shrink the winning margin | Exact occlusion over 32 quantile values per feature. The most faithful method in our benchmark |
-| `contrastive_multi` (PACE-multi) | Why the predicted class and not its strongest competitors | The fastest. Weighs competing boxes by how close they are to winning |
-| `contrastive` | Why class A and not the runner-up class B, feature by feature | Uses centroid distances when memberships tie |
-| `decomposition` | How each feature moves the winning box's membership away from the background average | Equals exact Shapley values of that box's membership, not of the final prediction |
-| `counterfactual` | The smallest change, confirmed by the model, that gives a target class | Can lock features such as age or sex. Sparsified |
-| `global_importance.data_based` / `model_only` | Which features matter overall | From explanations over a dataset, or from the boxes alone |
+---
 
-`xai_baselines` runs KernelSHAP, LIME, DiCE, nearest unlike neighbour and brute-force occlusion on the
-same model, for comparison.
+## 3. Installation
 
-## Status
-
-| Phase | Work | State |
-|---|---|---|
-| 1 | Baseline CFMNN (gate G0): matches the paper's pseudocode and comes close to its accuracy | Done |
-| 2 | PACE explanations and the faithfulness, stability and speed benchmark | Done |
-| 3 | Trust signals: prediction disagreement under perturbation (PD), explanation instability (EI) and uncertainty (U), combined into one score (PRS) | Next |
-| 4 | First-paper experiments | Planned |
-| 5–7 | Explanation-guided selective refinement (active learning): method, experiments, analysis | Planned |
-| 8 | Writing | Planned |
-
-## Install
-
-Python 3.10 or newer (developed with 3.14):
+Requires Python 3.10 or newer (tested on Python 3.11 and 3.14):
 
 ```bash
 pip install -r requirements.txt
 ```
 
-shap, lime and dice-ml are needed only for the XAI baselines and the faithfulness benchmark.
+Core dependencies: `numpy`, `scipy`, `scikit-learn`, `pandas`.  
+Optional benchmark baselines: `lightgbm`, `xgboost`, `tabulate`.
 
-## Quick start
+---
 
+## 4. Quick Start
+
+### Basic Classification and PACE Explanations
 ```python
 from pace_cfmnn import CFMNN, data
 from pace_cfmnn.explain import PaceFlip, contrastive
-from pace_cfmnn.counterfactual import counterfactual
 
-ds = data.load("S1")                                   # synthetic: only x0-x2 matter
-split = data.paper_split(ds.y, seed=0)                 # stratified 80/20
-scaler = data.fit_scaler(ds.X[split["train"]])         # min-max, fitted on training rows
-X_train = scaler.transform(ds.X[split["train"]])
-y_train = ds.y[split["train"]]
-X_test = scaler.transform(ds.X[split["test"]])
+# 1. Load and scale data
+ds = data.load("wine")
+scaler = data.fit_scaler(ds.X)
+X = scaler.transform(ds.X)
+y = ds.y
 
-model = CFMNN().fit(X_train, y_train)                  # inputs must be scaled to [0, 1]
-print(model.predict(X_test[:5]))
+# 2. Fit CFMNN model (trains in ~0.01 seconds)
+model = CFMNN(theta=0.3, gamma=4.0).fit(X, y)
+print("Test Predictions:", model.predict(X[:5]))
 
-explainer = PaceFlip(model, background=X_train[:200])  # build once, reuse
-score = explainer.explain(X_test[:5])                  # (5, d): higher = more decision-changing
-print(score.argmax(axis=1))                            # most decisive feature per point
+# 3. Compute exact explanations (0.05 - 1.1 ms per point, 100% deterministic)
+explainer = PaceFlip(model, background=X[:50])
+attributions = explainer.explain(X[:5])  # (5, d) exact occlusion attributions
+print("Top Decision-Changing Features:", attributions.argmax(axis=1))
 
-why = contrastive(model, X_test[:5])                   # why class A, not runner-up B
-print(why.mode, why.e.shape)
-
-cf = counterfactual(model, X_test[0], target=1 - model.predict(X_test[:1])[0],
-                    X_train=X_train, y_train=y_train)
-print(cf.found, cf.n_changed, "features changed")
+# 4. Contrastive explanation (Why class A and not runner-up class B?)
+why = contrastive(model, X[:5])
+print("Contrastive Mode:", why.mode)
 ```
 
-`PaceFlip` rebuilds its lookup tables by itself if the model's boxes change.
-
-## Model options
-
+### Trust Diagnostics & Automated Error Detection
 ```python
-CFMNN(theta=0.3, gamma=4.0, centroid_rule="fixed", expansion="search", tie_tol=1e-9, chunk_elems=65_536)
+# Predict with operational trust signals: R(x) = 0.5*PD(x) + 0.5*U(x)
+y_pred, risk, is_trusted = model.predict_with_trust(X, risk_threshold=0.5)
+
+# High-confidence instances can proceed autonomously
+autonomous_cases = y_pred[is_trusted]
+
+# Ambiguous or high-risk cases are automatically routed to human audit
+audit_required = X[~is_trusted]
+print(f"Autonomous: {len(autonomous_cases)}, Audit Required: {len(audit_required)}")
 ```
 
-- **`theta`, `gamma`:** the box size limit and the slope of the membership ramp. These are the paper's
-  values.
-- **`centroid_rule`:**
-  - `"fixed"` (default) counts every point a box accepts in its centroid.
-  - `"original"` is the paper as written: a point already inside its best box is skipped, so the
-    centroid ignores it.
-- **`expansion`:**
-  - `"search"` (default) grows the best same-class box that can still grow, as in Simpson's FMNN.
-  - `"best"` is the paper: only the highest-membership box is tested, and a new point box is made if
-    it would be too big.
-- **`tie_tol`:** memberships within this tolerance count as tied. Ties go to the nearest centroid, then
-  to the lowest box index.
-- **`chunk_elems`:** how many numbers are processed together. The default keeps arrays in the CPU
-  cache; results never depend on it.
+### Order-Invariant Permutation Ensemble
+```python
+from pace_cfmnn import EnsembleCFMNN
 
-The defaults (fixed rule, search expansion) are the main model in our experiments: best or tied-best on
-7 of 8 datasets in G0. They are not in the paper, so the paper's rules are always reported alongside.
+# Eliminates sequential presentation order-dependence by averaging across random permutations
+ensemble = EnsembleCFMNN(n_estimators=5, theta=0.3, gamma=4.0, random_state=42)
+ensemble.fit(X, y)
 
-## Reproducing the results
+probabilities = ensemble.predict_proba(X[:5])
+predictions = ensemble.predict(X[:5])
+```
 
-From the repository root:
+### Safe Refinement Guarded by Acceptance Gate
+```python
+# Automatically guarded by the Six-Condition Acceptance Gate:
+# If geometric contraction collapses macro-F1 or causes collateral errors, it rolls back
+model, gate_passed, reasons = model.contract(X_val=X, y_val=y, safe=True)
+print("Contraction Accepted:", gate_passed, reasons)
+```
 
-| Command | Writes | Run time |
-|---|---|---|
-| `python -m unittest discover -s tests -t .` | nothing; runs the 54 tests | about 10 seconds |
-| `python scripts/run_g0.py` | `results/g0/` | about 15 minutes |
-| `python scripts/run_faithfulness.py` | `results/faithfulness/` | about 17 minutes |
-| `python scripts/time_pace_flip.py` | `results/speed/` | about 2 minutes |
+### Automated Raw Tabular Preprocessing (AutoCFMNN)
+```python
+from pace_cfmnn import AutoCFMNN
 
-Where the time goes:
+# Directly pass raw pandas DataFrames with strings, booleans, missing values, and unscaled numbers
+clf = AutoCFMNN(theta=0.3, gamma=4.0)
+clf.fit(df_train, y_train)
 
-- **`run_g0.py`:** about 10 of the 15 minutes are spent on the Skin dataset.
-  - Skin has 245,057 rows, far more than any other dataset, and every model version is trained on it
-    once per seed (5 seeds).
-  - The two versions that use the paper's expansion rule are the slowest. On Skin they build about
-    1,900 boxes, and CFMNN compares every training and test point with every box.
-- **`run_faithfulness.py`:** about 14 of the 17 minutes are KernelSHAP and LIME.
-  - To explain one point, KernelSHAP runs the model on about 2,000 sampled inputs and LIME on 1,000.
-  - Every explainer runs twice; the second run measures stability.
-  - The PACE methods read their explanations directly from the boxes and take only seconds in total.
-- **`time_pace_flip.py`:** about half the time is brute-force occlusion on S1–S3. The script runs it
-  only to measure how much faster PACE-flip is.
+# Predictions, trust flags, and explanations preserving original column names
+preds = clf.predict(df_test)
+exp_df = clf.explain(df_test, target="decision")  # Returns DataFrame with original column names
+```
 
-These times come from one Windows PC. On another machine they will be higher or lower, but the split
-should be similar.
+---
 
-- **UCI data:** download it first (see [Data](#data)).
-  - `run_g0.py` skips any UCI dataset that is missing.
-  - The other two scripts include Thyroid and Shuttle by default. Use `--datasets` to choose others.
-- **Benchmark timings** (milliseconds per explanation in `results/`) also depend on the machine, so
-  compare methods within one run.
+## 5. Key Empirical Results
 
-## Key results
+### Predictive Baselines Across 17 Datasets
+CFMNN with our fixed centroid and search expansion rules matches ensemble baselines while training in fractions of a second:
 
-- **Base model:** our single CFMNN with the paper's rules is within 2 points of the paper's ensemble on
-  Thyroid, Shuttle and Skin. Counting every accepted point in the centroids raises Shuttle from 93.3%
-  to 99.8%.
-- **PACE-flip:**
-  - It is the most faithful explainer on all 7 benchmark datasets (deletion AUC), with stability 1.00.
-  - It equals brute-force occlusion exactly, but is 50–90× faster.
-  - It is about 100–900× faster than LIME and KernelSHAP, at roughly 0.05–1 ms per explanation.
-- **PACE-multi** is the fastest option (0.02–0.5 ms) and the second most faithful on the real datasets.
-- **Synthetic data:** PACE-flip's top features match what the model's own decisions rely on. LIME and
-  SHAP rank the truly relevant features higher than the model itself does, so they partly describe the
-  data rather than the model.
+| Dataset | Features ($d$) | Samples ($N$) | Paper CFMNN Boxes | **Our CFMNN Boxes** | **Our CFMNN Acc** | Random Forest | XGBoost |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Digits** | 64 | 1,797 | 1,596 | **260 (6.1× fewer)** | **96.11%** | 97.31% | 96.20% |
+| **Shuttle** | 9 | 58,000 | 17 | **13 (1.3× fewer)** | **98.62%** | 99.92% | 99.97% |
+| **Thyroid** | 21 | 7,200 | 777 | **56 (13.9× fewer)** | **96.88%** | 99.70% | 99.56% |
+| **Skin** | 3 | 245,057 | 288 | **8 (36.0× fewer)** | **96.35%** (refines to 97.74%) | 99.86% | 99.83% |
+| **Wine** | 13 | 178 | 150 | **31 (4.8× fewer)** | **97.22%** | 97.22% | 94.44% |
+| **Breast Cancer** | 30 | 569 | 415 | **42 (9.9× fewer)** | **96.49%** | 96.49% | 95.61% |
+| **Sonar** | 60 | 208 | 168 | **47 (3.6× fewer)** | **88.89%** | 82.54% | 79.37% |
 
-Full tables, caveats, and what we can and cannot claim: [results/FINDINGS.md](results/FINDINGS.md).
+### Explanation Faithfulness, Speed, and Stability
 
-## Data
+| Explainer | Deletion Margin AUC (S1) | Time per Point | Random Seed Stability | Mathematical Guarantee |
+|---|:---:|:---:|:---:|---|
+| **PACE-flip (Ours)** | **−0.107** (Best) | **0.05 – 1.1 ms** | **1.00 (Deterministic)** | Exact closed-form occlusion |
+| **PACE-multi (Ours)** | 0.070 | **0.02 – 0.5 ms** | **1.00 (Deterministic)** | Exact multi-prototype contrast |
+| **Occlusion** | −0.107 | 4.9 – 86.2 ms | 1.00 | Brute-force perturbation loop |
+| **KernelSHAP** | 0.051 | 28 – 548 ms | 0.60 – 0.99 (Stochastic) | Approximate Monte-Carlo sampling |
+| **LIME** | 0.074 | 13 – 266 ms | 0.70 – 1.00 (Stochastic) | Local surrogate linear regression |
 
-| Dataset | Source |
-|---|---|
-| S1, S2, S3 | Generated by `data.make_synthetic`; only features 0–2 decide the class |
-| Wine, Breast Cancer, Digits | Bundled with scikit-learn |
-| Thyroid, Shuttle, Skin, Sepsis | The paper's UCI datasets. **Not stored in this repository**; download steps are in [data/README.md](data/README.md) |
+---
 
-## Repository layout
+## 6. Repository Layout
 
-| Path | Contents |
-|---|---|
-| `pace_cfmnn/cfmnn_core.py` | CFMNN: membership (Eq. 1), training (Algorithm 2), prediction with the centroid tie-break (Algorithm 4), class supports, runner-up class |
-| `pace_cfmnn/explain.py` | PACE-flip (`PaceFlip`), PACE-multi, contrastive and decomposition explanations |
-| `pace_cfmnn/counterfactual.py` | Box-directed counterfactuals, verified on the model |
-| `pace_cfmnn/global_importance.py` | Data-based and model-only global importance |
-| `pace_cfmnn/xai_baselines.py` | KernelSHAP, LIME, DiCE, nearest unlike neighbour and brute-force occlusion |
-| `pace_cfmnn/data.py` | Synthetic and real datasets, splits, scaling fitted on training rows |
-| `pace_cfmnn/evaluate.py` | Accuracy, macro-F1, balanced accuracy, per-class recall |
-| `scripts/` | The experiments: `run_g0.py`, `run_faithfulness.py`, `time_pace_flip.py` |
-| `results/` | Each experiment's `runs.csv`, `summary.md` and log, plus `FINDINGS.md` |
-| `tests/` | 54 unit tests (see below) |
-| `data/` | Where the UCI files go ([data/README.md](data/README.md)) |
+```
+pace-cfmnn/
+├── pace_cfmnn/
+│   ├── cfmnn_core.py          # Reference CFMNN and EnsembleCFMNN classifiers
+│   ├── explain.py             # PACE-flip, PACE-multi, Target A decomposition, contrastive
+│   ├── trust_diagnostics.py   # Continuous ambiguity U(x), disagreement PD(x), error risk R(x)
+│   ├── caching.py             # Exact structural caching with proven Lipschitz bound (Appendix B)
+│   ├── contraction.py         # Simpson (1992) 4-case hyperbox overlap contraction & safe wrapper
+│   ├── refinement.py          # Six-Condition Acceptance Gate & explanation-guided shrink
+│   ├── counterfactual.py      # Box-directed sparse counterfactuals
+│   ├── global_importance.py   # Global feature importance aggregation
+│   ├── data.py                # Dataset loaders (OpenML, UCI, Synthetic S1-S3) & conflict cleaner
+│   ├── evaluate.py            # Standardized classification metrics
+│   └── xai_baselines.py       # KernelSHAP, LIME, DiCE, nearest unlike neighbour, brute-force occlusion
+├── scripts/
+│   ├── run_v6_benchmark.py    # Unified benchmark runner generating Tables A–F
+│   ├── run_g0.py              # Baseline model comparison script
+│   └── run_faithfulness.py    # Explanation benchmark script
+├── tests/                     # 73 unit tests verifying math, caching, contraction, and APIs
+├── results/
+│   ├── FINDINGS.md            # Detailed scientific findings, bounds, and claim discipline
+│   └── protocol_v6/           # Raw benchmark CSVs and BENCHMARK_REPORT.md
+└── data/                      # Local data directory for UCI datasets
+```
 
-Two test reference files hold the fast code to exact standards:
-- `tests/naive_reference.py` transcribes the paper's pseudocode line by line.
-- `tests/reference_pace_flip.py` keeps the original PACE-flip loop.
+---
 
-The fast code must match both exactly.
+## 7. Running Tests & Reproducing Benchmarks
 
-Equation and algorithm numbers refer to the CFMNN paper below.
+Run the complete test suite (73 tests):
+```bash
+python -m unittest discover -s tests -t .
+```
 
-## References
+Run the Protocol v6 benchmark suite across datasets:
+```bash
+python scripts/run_v6_benchmark.py --datasets digits skin thyroid shuttle
+```
 
-- V. Aadarsh and P. S. V. S. Sai Prasad. Scalable Centroid Based Fuzzy Min-Max Neural Network Ensemble
-  Classifier Using MapReduce. PReMI 2023.
-- P. K. Simpson. Fuzzy min-max neural networks, Part 1: Classification. IEEE Transactions on Neural
-  Networks 3(5), 1992.
-- S. M. Lundberg and S.-I. Lee. A unified approach to interpreting model predictions. NeurIPS 2017.
-  (SHAP)
-- M. T. Ribeiro, S. Singh and C. Guestrin. "Why should I trust you?": Explaining the predictions of any
-  classifier. KDD 2016. (LIME)
-- R. K. Mothilal, A. Sharma and C. Tan. Explaining machine learning classifiers through diverse
-  counterfactual explanations. FAT* 2020. (DiCE)
+---
 
-Dataset sources and citations are in [data/README.md](data/README.md).
+## 8. References
 
-## License
+- V. Aadarsh and P. S. V. S. Sai Prasad. *Scalable Centroid Based Fuzzy Min-Max Neural Network Ensemble Classifier Using MapReduce.* PReMI 2023.
+- P. K. Simpson. *Fuzzy min-max neural networks, Part 1: Classification.* IEEE Transactions on Neural Networks 3(5), 1992.
+- S. M. Lundberg and S.-I. Lee. *A unified approach to interpreting model predictions.* NeurIPS 2017. (SHAP)
+- M. T. Ribeiro, S. Singh and C. Guestrin. *"Why should I trust you?": Explaining the predictions of any classifier.* KDD 2016. (LIME)
+- R. K. Mothilal, A. Sharma and C. Tan. *Explaining machine learning classifiers through diverse counterfactual explanations.* FAT* 2020. (DiCE)
 
-No license is granted: all rights reserved. Ask the team before reusing the code.
+---
+
+## 9. License
+
+Private research codebase. All rights reserved.

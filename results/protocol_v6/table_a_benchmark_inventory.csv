@@ -1,0 +1,5 @@
+Dataset,Task,N,d,Classes,Imbalance_Ratio,Role
+skin,Classification,20000,3,2,3.78:1,Benchmark / Evaluation
+thyroid,Classification,7200,21,3,40.16:1,Benchmark / Evaluation
+shuttle,Classification,20000,9,7,3935.50:1,Benchmark / Evaluation
+digits,Classification,1797,64,10,1.05:1,Benchmark / Evaluation

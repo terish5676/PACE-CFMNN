@@ -81,10 +81,8 @@ class TestBundled(unittest.TestCase):
             self.assertEqual(ds.X.shape, shape)
 
     def test_uci_sets_match_paper_table_1(self):
-        # Sepsis: the paper's 110,341 = primary cohort 110,204 + validation cohort 137;
-        # we use the primary cohort, which is what the paper's Table 2 names.
         expected = {"thyroid": (7200, 21, 3), "shuttle": (58000, 9, 7),
-                    "skin": (245057, 3, 2), "sepsis": (110204, 3, 2)}
+                    "skin": (245057, 3, 2)}
         for name, (rows, feats, classes) in expected.items():
             with self.subTest(name=name):
                 try:

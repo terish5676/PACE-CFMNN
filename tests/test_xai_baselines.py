@@ -8,6 +8,19 @@ from pace_cfmnn import CFMNN
 from pace_cfmnn import xai_baselines as xb
 
 
+try:
+    import shap
+    HAS_SHAP = True
+except ImportError:
+    HAS_SHAP = False
+
+try:
+    import dice_ml
+    HAS_DICE = True
+except ImportError:
+    HAS_DICE = False
+
+
 class TestBaselines(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -20,6 +33,7 @@ class TestBaselines(unittest.TestCase):
         s = xb.class_scores(self.m, self.X)
         np.testing.assert_allclose(s.sum(axis=1), 1.0)
 
+    @unittest.skipUnless(HAS_SHAP, "shap not installed")
     def test_kernel_shap_and_lime_shapes(self):
         a = xb.kernel_shap(self.m, self.X[:3], self.X[:50], nsamples=50)
         b = xb.lime_tabular(self.m, self.X[:3], self.X, num_samples=200)
@@ -29,6 +43,7 @@ class TestBaselines(unittest.TestCase):
         self.assertEqual(np.abs(a).mean(axis=0).argmax(), 0)
         self.assertEqual(np.abs(b).mean(axis=0).argmax(), 0)
 
+    @unittest.skipUnless(HAS_SHAP, "shap not installed")
     def test_kernel_shap_repeatable_and_leaves_global_rng_alone(self):
         # 10 features: 1,022 coalitions > nsamples, so shap must sample at random
         # (with 4 features it enumerates all 14 and no randomness is involved).
@@ -50,6 +65,7 @@ class TestBaselines(unittest.TestCase):
         b = pace_flip(self.m, self.X[:15], self.X[100:])
         np.testing.assert_allclose(a, b, rtol=0, atol=1e-9)
 
+    @unittest.skipUnless(HAS_DICE, "dice_ml not installed")
     def test_nun_and_dice(self):
         x = self.X[0]
         t = 1 - self.m.predict(x[None])[0]

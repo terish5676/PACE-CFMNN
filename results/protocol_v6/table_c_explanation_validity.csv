@@ -1,0 +1,25 @@
+Dataset,Seed,Target,Max_Reconstruction_Error,Mean_Reconstruction_Error,Identity_Verified,Target_Scope
+skin,0,Target A (Winning-Box Membership),1.11e-16,3.88e-17,True,Scalar Box Membership Only
+skin,0,Target B (Full Classifier Decision),N/A (Contrastive Occlusion),N/A (Contrastive Occlusion),True,Multi-Box & Class Argmax
+skin,1,Target A (Winning-Box Membership),1.67e-16,7.53e-17,True,Scalar Box Membership Only
+skin,1,Target B (Full Classifier Decision),N/A (Contrastive Occlusion),N/A (Contrastive Occlusion),True,Multi-Box & Class Argmax
+skin,2,Target A (Winning-Box Membership),1.94e-16,5.56e-17,True,Scalar Box Membership Only
+skin,2,Target B (Full Classifier Decision),N/A (Contrastive Occlusion),N/A (Contrastive Occlusion),True,Multi-Box & Class Argmax
+thyroid,0,Target A (Winning-Box Membership),3.02e-16,5.62e-17,True,Scalar Box Membership Only
+thyroid,0,Target B (Full Classifier Decision),N/A (Contrastive Occlusion),N/A (Contrastive Occlusion),True,Multi-Box & Class Argmax
+thyroid,1,Target A (Winning-Box Membership),3.54e-16,1.28e-16,True,Scalar Box Membership Only
+thyroid,1,Target B (Full Classifier Decision),N/A (Contrastive Occlusion),N/A (Contrastive Occlusion),True,Multi-Box & Class Argmax
+thyroid,2,Target A (Winning-Box Membership),3.00e-16,1.00e-16,True,Scalar Box Membership Only
+thyroid,2,Target B (Full Classifier Decision),N/A (Contrastive Occlusion),N/A (Contrastive Occlusion),True,Multi-Box & Class Argmax
+shuttle,0,Target A (Winning-Box Membership),2.22e-16,5.80e-17,True,Scalar Box Membership Only
+shuttle,0,Target B (Full Classifier Decision),N/A (Contrastive Occlusion),N/A (Contrastive Occlusion),True,Multi-Box & Class Argmax
+shuttle,1,Target A (Winning-Box Membership),1.60e-16,1.11e-16,True,Scalar Box Membership Only
+shuttle,1,Target B (Full Classifier Decision),N/A (Contrastive Occlusion),N/A (Contrastive Occlusion),True,Multi-Box & Class Argmax
+shuttle,2,Target A (Winning-Box Membership),3.57e-16,8.79e-17,True,Scalar Box Membership Only
+shuttle,2,Target B (Full Classifier Decision),N/A (Contrastive Occlusion),N/A (Contrastive Occlusion),True,Multi-Box & Class Argmax
+digits,0,Target A (Winning-Box Membership),2.22e-16,5.23e-17,True,Scalar Box Membership Only
+digits,0,Target B (Full Classifier Decision),N/A (Contrastive Occlusion),N/A (Contrastive Occlusion),True,Multi-Box & Class Argmax
+digits,1,Target A (Winning-Box Membership),1.39e-16,3.91e-17,True,Scalar Box Membership Only
+digits,1,Target B (Full Classifier Decision),N/A (Contrastive Occlusion),N/A (Contrastive Occlusion),True,Multi-Box & Class Argmax
+digits,2,Target A (Winning-Box Membership),1.94e-16,3.98e-17,True,Scalar Box Membership Only
+digits,2,Target B (Full Classifier Decision),N/A (Contrastive Occlusion),N/A (Contrastive Occlusion),True,Multi-Box & Class Argmax

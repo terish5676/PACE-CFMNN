@@ -2,7 +2,7 @@
 
 * Synthetic S1 and S2: ground-truth sets where only features 0-2 decide the class.
 * Wine, Breast Cancer, Digits: bundled with scikit-learn (no download).
-* Thyroid, Shuttle, Skin, Sepsis: the paper's UCI datasets, read from
+* Thyroid, Shuttle, Skin: the paper's UCI datasets, read from
   ``data/<name>/`` once the files have been downloaded there.
 
 Scaling is always fitted on training rows only, then frozen; values outside
@@ -141,7 +141,6 @@ UCI_FILES = {
     "thyroid": "ann-train.data and ann-test.data (UCI 'Thyroid Disease')",
     "shuttle": "shuttle.trn and shuttle.tst (UCI 'Statlog (Shuttle)')",
     "skin": "Skin_NonSkin.txt (UCI 'Skin Segmentation')",
-    "sepsis": "the primary cohort CSV (UCI 'Sepsis Survival Minimal Clinical Records')",
 }
 
 
@@ -172,18 +171,49 @@ def _load_uci(name: str, data_dir: Path) -> Dataset:
         arr = _whitespace_table([_need(folder / "Skin_NonSkin.txt", name)])
         X, y = arr[:, :-1], arr[:, -1].astype(int)
         names = ["B", "G", "R"]
-    elif name == "sepsis":
-        files = sorted(folder.glob("*primary*cohort*.csv")) if folder.exists() else []
-        df = pd.read_csv(_need(files[0] if files else folder / "primary_cohort.csv", name))
-        X, y = df.iloc[:, :-1].to_numpy(float), df.iloc[:, -1].to_numpy(int)
-        names = list(df.columns[:-1])
     else:
         raise KeyError(name)
     return Dataset(name, X, y, names)
 
 
+OPENML_DATASETS = {
+    "blood-transfusion": 1464,
+    "diabetes": 37,
+    "banknote": 1462,
+    "glass": {"name": "glass", "version": 1},
+    "ionosphere": 59,
+    "sonar": 40,
+    "vehicle": 54,
+    "heart-disease": 49,
+    "letter": 6,
+    "satellite": {"name": "satimage", "version": 1},
+}
+
+
+def _load_openml(name: str) -> Dataset:
+    from sklearn.datasets import fetch_openml
+    spec = OPENML_DATASETS[name]
+    if isinstance(spec, dict):
+        bunch = fetch_openml(**spec, as_frame=True, parser="auto")
+    else:
+        bunch = fetch_openml(data_id=spec, as_frame=True, parser="auto")
+    df = bunch.frame.dropna()
+    target_col = bunch.target_names[0] if isinstance(bunch.target_names, list) else bunch.target_names
+    feature_cols = [c for c in df.columns if c != target_col]
+    X_df = df[feature_cols].copy()
+    for col in X_df.columns:
+        if X_df[col].dtype == object or isinstance(X_df[col].dtype, pd.CategoricalDtype):
+            X_df[col] = X_df[col].astype("category").cat.codes.astype(float)
+    X = X_df.to_numpy(dtype=float)
+    y_raw = df[target_col].to_numpy()
+    _, y = np.unique(y_raw, return_inverse=True)
+    return Dataset(name, X, y, list(X_df.columns))
+
+
+
 # ---------------------------------------------------------------------- loader
-BUILTIN = ("S1", "S2", "S3", "wine", "breast_cancer", "digits")
+BUILTIN = ("S1", "S2", "S3", "iris", "wine", "breast_cancer", "digits")
+OPENML = tuple(OPENML_DATASETS)
 UCI = tuple(UCI_FILES)
 
 
@@ -191,15 +221,21 @@ def load(name: str, seed: int = 0, data_dir: Path | None = None, **kwargs) -> Da
     """Load a dataset by name. Synthetic sets use ``seed`` and ``kwargs``."""
     if name in ("S1", "S2", "S3"):
         return make_synthetic(name, seed=seed, **kwargs)
+    if name == "iris":
+        return _from_sklearn(name, skds.load_iris())
     if name == "wine":
         return _from_sklearn(name, skds.load_wine())
     if name == "breast_cancer":
         return _from_sklearn(name, skds.load_breast_cancer())
     if name == "digits":
         return _from_sklearn(name, skds.load_digits())
+    if name in OPENML_DATASETS:
+        return _load_openml(name)
     if name in UCI:
         return _load_uci(name, data_dir or DATA_DIR)
     raise KeyError(f"unknown dataset {name!r}")
+
+
 
 
 # ---------------------------------------------------------------------- splits
@@ -235,3 +271,86 @@ def role_split(y: np.ndarray, seed: int) -> dict[str, np.ndarray]:
 def fit_scaler(X_train: np.ndarray) -> MinMaxScaler:
     """Min-max scaler fitted on training rows only; clips unseen values to [0, 1]."""
     return MinMaxScaler(clip=True).fit(X_train)
+
+
+def detect_label_conflicts(X: np.ndarray, y: np.ndarray) -> dict:
+    """Detect identical feature rows that map to contradictory target labels.
+
+    Identifies data pathologies like the Sepsis dataset where identical inputs
+    have opposing labels.
+
+    Parameters
+    ----------
+    X : np.ndarray, shape (n, d)
+    y : np.ndarray, shape (n,)
+
+    Returns
+    -------
+    report : dict
+        Summary containing total_rows, unique_rows, conflict_rows, conflict_pct, has_conflicts.
+    """
+    X = np.asarray(X)
+    y = np.asarray(y)
+    df = pd.DataFrame(X)
+    df["__y__"] = y
+
+    grouped = df.groupby(list(range(X.shape[1])))["__y__"].nunique()
+    conflict_keys = set(grouped[grouped > 1].index)
+
+    conflict_mask = df.set_index(list(range(X.shape[1]))).index.isin(conflict_keys)
+    n_conflicts = int(np.sum(conflict_mask))
+    pct = 100.0 * n_conflicts / max(1, len(y))
+
+    return {
+        "total_rows": len(y),
+        "unique_rows": len(grouped),
+        "conflict_rows": n_conflicts,
+        "conflict_pct": float(pct),
+        "has_conflicts": n_conflicts > 0,
+    }
+
+
+def clean_label_conflicts(
+    X: np.ndarray,
+    y: np.ndarray,
+    strategy: str = "majority"
+) -> tuple[np.ndarray, np.ndarray, dict]:
+    """Resolve identical feature rows mapping to contradictory target labels.
+
+    Parameters
+    ----------
+    X : np.ndarray, shape (n, d)
+    y : np.ndarray, shape (n,)
+    strategy : 'majority' (resolve conflicts by majority vote) or 'drop' (remove conflicting rows)
+
+    Returns
+    -------
+    X_clean : np.ndarray
+    y_clean : np.ndarray
+    report : dict
+    """
+    report = detect_label_conflicts(X, y)
+    if not report["has_conflicts"]:
+        return X.copy(), y.copy(), report
+
+    df = pd.DataFrame(X)
+    feature_cols = list(range(X.shape[1]))
+    df["__y__"] = y
+
+    if strategy == "drop":
+        grouped = df.groupby(feature_cols)["__y__"].nunique()
+        clean_keys = set(grouped[grouped == 1].index)
+        clean_mask = df.set_index(feature_cols).index.isin(clean_keys)
+        df_clean = df[clean_mask]
+    elif strategy == "majority":
+        def get_mode(s):
+            return s.mode().iloc[0]
+        mode_y = df.groupby(feature_cols)["__y__"].transform(get_mode)
+        df_clean = df.copy()
+        df_clean["__y__"] = mode_y
+    else:
+        raise ValueError(f"unknown strategy {strategy!r}")
+
+    X_clean = df_clean[feature_cols].to_numpy(dtype=float)
+    y_clean = df_clean["__y__"].to_numpy()
+    return X_clean, y_clean, report

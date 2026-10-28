@@ -73,6 +73,19 @@ class Prediction:
         return self.support[np.arange(len(self.cls)), self.cls]
 
 
+PredictionDetails = Prediction
+
+
+@dataclass
+class Hyperbox:
+    """Explicit container for a single hyperbox."""
+    cls: int
+    v: np.ndarray
+    w: np.ndarray
+    centroid: np.ndarray
+    count: int = 1
+
+
 class _ClassBuffer:
     """Growable storage for one class's boxes during training."""
 
@@ -135,13 +148,19 @@ class CFMNN(ClassifierMixin, BaseEstimator):
     """
 
     def __init__(self, theta=0.3, gamma=4.0, centroid_rule="fixed", expansion="search",
-                 tie_tol=1e-9, chunk_elems=65_536):
+                 tie_tol=1e-9, chunk_elems=65_536, max_hyperbox_size=None,
+                 expansion_strategy=None, tol=1e-5):
+        if max_hyperbox_size is not None:
+            theta = max_hyperbox_size
+        if expansion_strategy is not None:
+            expansion = expansion_strategy
         self.theta = theta
         self.gamma = gamma
         self.centroid_rule = centroid_rule
         self.expansion = expansion
         self.tie_tol = tie_tol
         self.chunk_elems = chunk_elems
+        self.tol = tol
 
     # ------------------------------------------------------------------ training
     def fit(self, X, y):
@@ -153,8 +172,12 @@ class CFMNN(ClassifierMixin, BaseEstimator):
             raise ValueError("X must be 2-D with one label per row")
         if not np.isfinite(X).all():
             raise ValueError("X contains NaN or infinite values")
-        if X.min() < 0.0 or X.max() > 1.0:
-            raise ValueError("X must be min-max scaled to [0, 1] before fit")
+        tol = 1e-5
+        if X.min() < -tol or X.max() > 1.0 + tol:
+            raise ValueError(
+                f"X must be min-max scaled to [0, 1] before fit; got min={X.min():.4f}, max={X.max():.4f}"
+            )
+        X = np.clip(X, 0.0, 1.0)
 
         self.classes_, y_idx = np.unique(y, return_inverse=True)
         n, d = X.shape
@@ -236,6 +259,21 @@ class CFMNN(ClassifierMixin, BaseEstimator):
     def n_boxes_(self) -> int:
         return len(self.V_)
 
+    @property
+    def hyperboxes_(self) -> list[Hyperbox]:
+        if not hasattr(self, "V_"):
+            return []
+        return [
+            Hyperbox(
+                cls=int(self.box_class_[i]),
+                v=self.V_[i].copy(),
+                w=self.W_[i].copy(),
+                centroid=self.centroid_[i].copy(),
+                count=int(self.count_[i]),
+            )
+            for i in range(len(self.V_))
+        ]
+
     # ---------------------------------------------------------------- prediction
     def _check_X(self, X) -> np.ndarray:
         X = np.asarray(X, dtype=float)
@@ -243,7 +281,7 @@ class CFMNN(ClassifierMixin, BaseEstimator):
             X = X[None, :]
         if X.shape[1] != self.n_features_in_:
             raise ValueError(f"expected {self.n_features_in_} features, got {X.shape[1]}")
-        return X
+        return np.clip(X, 0.0, 1.0)
 
     def _chunk_size(self) -> int:
         return max(1, int(self.chunk_elems // max(1, self.n_boxes_ * self.n_features_in_)))
@@ -327,3 +365,179 @@ class CFMNN(ClassifierMixin, BaseEstimator):
 
     def predict(self, X) -> np.ndarray:
         return self.predict_details(X).y_pred
+
+    def predict_with_trust(
+        self,
+        X,
+        risk_threshold: float = 0.5,
+        alpha: float = 0.5,
+        eta: float = 0.5,
+        radius: float = 0.05,
+    ) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+        """Predict labels along with continuous error risk score and trust flag.
+
+        Uses the mathematically verified composite score:
+            R(x) = alpha * PD(x) + (1 - alpha) * U(x)
+
+        Parameters
+        ----------
+        X : array-like, shape (n, d)
+        risk_threshold : float, default 0.5
+            Inputs with R(x) < risk_threshold are flagged as trusted.
+        alpha : float, default 0.5
+            Weight between Prediction Disagreement (PD) and Ambiguity (U).
+        eta : float, default 0.5
+            Ambiguity balance parameter.
+        radius : float, default 0.05
+            Perturbation radius for PD.
+
+        Returns
+        -------
+        y_pred : np.ndarray, shape (n,)
+            Predicted class labels.
+        risk_score : np.ndarray, shape (n,)
+            Continuous error risk score in [0, 1].
+        is_trusted : np.ndarray, shape (n,)
+            Boolean mask indicating trustworthy predictions (R(x) < risk_threshold).
+        """
+        from .trust_diagnostics import compute_pd, compute_u
+        X = self._check_X(X)
+        y_pred = self.predict(X)
+        pd = compute_pd(self, X, radius=radius)
+        u = compute_u(self, X, eta=eta)
+        risk = np.clip(alpha * pd + (1.0 - alpha) * u, 0.0, 1.0)
+        is_trusted = risk < risk_threshold
+        return y_pred, risk, is_trusted
+
+    def contract(self, X_val=None, y_val=None, safe: bool = True, max_passes: int = 5):
+        """Apply hyperbox contraction, protected by the Acceptance Gate if safe=True."""
+        from .contraction import safe_apply_fmm_contraction, apply_fmm_contraction
+        if safe and X_val is not None and y_val is not None:
+            return safe_apply_fmm_contraction(self, X_val, y_val, max_passes=max_passes)
+        return apply_fmm_contraction(self, max_passes=max_passes)
+
+    def refine(self, X_val, y_val, method: str = "explanation_guided", safe: bool = True):
+        """Refine model using explanation-guided shrinking guarded by the Acceptance Gate."""
+        from .refinement import apply_explanation_guided_shrink, check_acceptance_gate
+        cand = apply_explanation_guided_shrink(self, X_val, y_val)
+        if safe:
+            gate = check_acceptance_gate(self, cand, X_val, y_val)
+            if not gate.passed:
+                # Gate rejected candidate to protect from collateral damage
+                return self, gate
+            # Gate passed, accept candidate
+            self.V_ = cand.V_
+            self.W_ = cand.W_
+            self.centroid_ = cand.centroid_
+            return self, gate
+        self.V_ = cand.V_
+        self.W_ = cand.W_
+        self.centroid_ = cand.centroid_
+        return self, None
+
+    def explain(
+        self,
+        X,
+        target: str = "decision",
+        background: np.ndarray | None = None,
+    ):
+        """Unified explanation method for CFMNN predictions.
+
+        Parameters
+        ----------
+        X : array-like, shape (n, d)
+            Input queries to explain.
+        target : {"decision", "box", "contrastive"}, default "decision"
+            - "decision" (Target B / PACE-flip): Explains the full multi-box classification
+              decision and margin under exact closed-form feature occlusion (50x-885x faster than SHAP).
+            - "box" (Target A): Exact closed-form additive Shapley decomposition of the
+              winning hyperbox's scalar membership score m_j*(x).
+            - "contrastive" (Target C): Contrastive explanation of why class A won over
+              the runner-up class B.
+        background : array-like, optional
+            Reference baseline points for occlusion / centering. If None, uses box centroids.
+
+        Returns
+        -------
+        attributions : np.ndarray or ContrastiveExplanation
+        """
+        from .explain import PaceFlip, decomposition, contrastive
+        X = self._check_X(X)
+        if background is None:
+            background = self.centroid_
+
+        if target in ("decision", "flip", "pace_flip"):
+            explainer = PaceFlip(self, background=background)
+            return explainer.explain(X)
+        elif target in ("box", "decomposition", "membership"):
+            return decomposition(self, X, background=background).phi
+        elif target in ("contrastive", "why"):
+            return contrastive(self, X)
+        else:
+            raise ValueError(f"unknown explanation target {target!r}; choose 'decision', 'box', or 'contrastive'")
+
+
+class EnsembleCFMNN(BaseEstimator, ClassifierMixin):
+    """Permutation Ensemble of Centroid-Based Fuzzy Min-Max Neural Networks.
+
+    Solves the order-dependence limitation of single-pass CFMNN training
+    by fitting `n_estimators` models on randomized permutations of the training data
+    and aggregating class support scores.
+    """
+
+    def __init__(
+        self,
+        n_estimators: int = 5,
+        theta: float = 0.3,
+        gamma: float = 4.0,
+        centroid_rule: str = "fixed",
+        expansion: str = "search",
+        tie_tol: float = 1e-9,
+        random_state: int | None = 42,
+    ):
+        self.n_estimators = n_estimators
+        self.theta = theta
+        self.gamma = gamma
+        self.centroid_rule = centroid_rule
+        self.expansion = expansion
+        self.tie_tol = tie_tol
+        self.random_state = random_state
+
+    def fit(self, X, y):
+        X = np.asarray(X, dtype=float)
+        y = np.asarray(y)
+        rng = np.random.default_rng(self.random_state)
+        n = len(X)
+        self.estimators_: list[CFMNN] = []
+        self.classes_ = np.unique(y)
+
+        for _ in range(self.n_estimators):
+            perm = rng.permutation(n)
+            m = CFMNN(
+                theta=self.theta,
+                gamma=self.gamma,
+                centroid_rule=self.centroid_rule,
+                expansion=self.expansion,
+                tie_tol=self.tie_tol,
+            )
+            m.fit(X[perm], y[perm])
+            self.estimators_.append(m)
+
+        self.n_features_in_ = X.shape[1]
+        return self
+
+    def predict_proba(self, X) -> np.ndarray:
+        """Ensemble class probabilities via soft support averaging."""
+        supports = []
+        for m in self.estimators_:
+            det = m.predict_details(X)
+            sup = np.nan_to_num(det.support, nan=0.0)
+            supports.append(sup)
+        avg_sup = np.mean(supports, axis=0)
+        norm = np.sum(avg_sup, axis=1, keepdims=True)
+        return np.divide(avg_sup, norm, out=np.zeros_like(avg_sup), where=norm > 0)
+
+    def predict(self, X) -> np.ndarray:
+        probs = self.predict_proba(X)
+        top_idx = np.argmax(probs, axis=1)
+        return self.classes_[top_idx]
