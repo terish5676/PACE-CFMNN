@@ -1,0 +1,53 @@
+﻿0 of 24 dataset-seed pairs already done; 24 to run.
+S1 seed 350: PACE-SHAP, matmul 1862 ms, PACE-SHAP, recurrence 1509 ms, Brute force, vectorised 78461 ms; largest difference from matmul 9.7e-17
+S1 seed 351: PACE-SHAP, matmul 1877 ms, PACE-SHAP, recurrence 1536 ms, Brute force, vectorised 79667 ms; largest difference from matmul 6.8e-17
+S1 seed 352: PACE-SHAP, matmul 1868 ms, PACE-SHAP, recurrence 1502 ms, Brute force, vectorised 80447 ms; largest difference from matmul 8.3e-17
+S2 seed 350: PACE-SHAP, matmul 1883 ms, PACE-SHAP, recurrence 1518 ms, Brute force, vectorised 79983 ms; largest difference from matmul 8.2e-17
+S2 seed 351: PACE-SHAP, matmul 1804 ms, PACE-SHAP, recurrence 1516 ms, Brute force, vectorised 79854 ms; largest difference from matmul 7.6e-17
+S2 seed 352: PACE-SHAP, matmul 1892 ms, PACE-SHAP, recurrence 1506 ms, Brute force, vectorised 79992 ms; largest difference from matmul 5.6e-17
+S3 seed 350: PACE-SHAP, matmul 1757 ms, PACE-SHAP, recurrence 1440 ms, Brute force, vectorised 80157 ms; largest difference from matmul 8.0e-17
+S3 seed 351: PACE-SHAP, matmul 1727 ms, PACE-SHAP, recurrence 1442 ms, Brute force, vectorised 79461 ms; largest difference from matmul 7.4e-17
+S3 seed 352: PACE-SHAP, matmul 1747 ms, PACE-SHAP, recurrence 1486 ms, Brute force, vectorised 80022 ms; largest difference from matmul 7.0e-17
+shuttle seed 350: PACE-SHAP, matmul 8 ms, PACE-SHAP, recurrence 7 ms, Brute force, vectorised 320 ms; largest difference from matmul 1.9e-16
+shuttle seed 351: PACE-SHAP, matmul 8 ms, PACE-SHAP, recurrence 7 ms, Brute force, vectorised 370 ms; largest difference from matmul 1.9e-16
+shuttle seed 352: PACE-SHAP, matmul 9 ms, PACE-SHAP, recurrence 7 ms, Brute force, vectorised 319 ms; largest difference from matmul 1.9e-16
+magic seed 350: PACE-SHAP, matmul 213 ms, PACE-SHAP, recurrence 213 ms, Brute force, vectorised 15632 ms; largest difference from matmul 3.2e-17
+magic seed 351: PACE-SHAP, matmul 226 ms, PACE-SHAP, recurrence 223 ms, Brute force, vectorised 15169 ms; largest difference from matmul 3.9e-17
+magic seed 352: PACE-SHAP, matmul 219 ms, PACE-SHAP, recurrence 199 ms, Brute force, vectorised 15412 ms; largest difference from matmul 5.0e-17
+page_blocks seed 350: PACE-SHAP, matmul 29 ms, PACE-SHAP, recurrence 25 ms, Brute force, vectorised 1353 ms; largest difference from matmul 7.6e-17
+page_blocks seed 351: PACE-SHAP, matmul 26 ms, PACE-SHAP, recurrence 25 ms, Brute force, vectorised 1245 ms; largest difference from matmul 8.0e-17
+page_blocks seed 352: PACE-SHAP, matmul 28 ms, PACE-SHAP, recurrence 25 ms, Brute force, vectorised 1538 ms; largest difference from matmul 7.4e-17
+wine seed 350: PACE-SHAP, matmul 186 ms, PACE-SHAP, recurrence 89 ms, Brute force, vectorised 6448 ms, shap ExactExplainer 2460 ms; largest difference from matmul 3.4e-16
+wine seed 351: PACE-SHAP, matmul 182 ms, PACE-SHAP, recurrence 86 ms, Brute force, vectorised 6255 ms, shap ExactExplainer 2360 ms; largest difference from matmul 5.6e-16
+wine seed 352: PACE-SHAP, matmul 186 ms, PACE-SHAP, recurrence 84 ms, Brute force, vectorised 6073 ms, shap ExactExplainer 2262 ms; largest difference from matmul 3.7e-16
+letter seed 350: PACE-SHAP, matmul 35449 ms, PACE-SHAP, recurrence 27042 ms, Brute force, vectorised 2931822 ms, shap ExactExplainer 1036718 ms; largest difference from matmul 1.9e-16
+letter seed 351: PACE-SHAP, matmul 38995 ms, PACE-SHAP, recurrence 27326 ms; largest difference from matmul 4.9e-17
+letter seed 352: PACE-SHAP, matmul 34946 ms, PACE-SHAP, recurrence 23913 ms; largest difference from matmul 3.8e-17
+.\.venv\Scripts\python : C:\Users\praka\Documents\pace-cfmnn\scripts\run_recurrence.py:162: Pandas4Warning: The 
+'float_precision' argument is deprecated. Use the default float precision instead.
+At line:1 char:356
++ ... 0=Get-Date; .\.venv\Scripts\python -B scripts/run_recurrence.py --fre ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\praka\...cision instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  df = pd.read_csv(csv, float_precision="round_trip")
+# Run P8: a faster exact mode, and a fair brute-force baseline
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). v3's models and 200 explainer rows, seeds 350, 351, 352, one task at a time. Milliseconds per explanation (mean over seeds), each including its explainer's set-up. Written by `scripts/run_recurrence.py`.
+
+**Check: PASS.** The recurrence and the vectorised brute force match the current exact mode within 1e-12 on every point; on Wine and Letter both PACE-SHAP modes match shap's ExactExplainer within 1e-09.
+
+| Dataset | d | Boxes | ms matmul | ms recurrence | ms brute force | ms ExactExplainer | matmul ÷ recurrence | brute force ÷ recurrence | Largest difference from matmul |
+|---|---|---|---|---|---|---|---|---|---|
+| S1 | 10 | 1515 | 1869.1 | 1515.7 | 79525.4 | – | 1.23× | 52.5× | 9.7e-17 |
+| S2 | 10 | 1537 | 1859.8 | 1513.4 | 79943.2 | – | 1.23× | 52.8× | 8.2e-17 |
+| S3 | 10 | 1531 | 1743.3 | 1456.2 | 79880.0 | – | 1.20× | 54.9× | 8.0e-17 |
+| shuttle | 9 | 14 | 8.3 | 7.1 | 336.5 | – | 1.17× | 47.3× | 1.9e-16 |
+| magic | 10 | 285 | 219.1 | 211.7 | 15404.4 | – | 1.03× | 72.8× | 5.0e-17 |
+| page_blocks | 10 | 25 | 27.8 | 24.9 | 1378.8 | – | 1.12× | 55.5× | 8.0e-17 |
+| wine | 13 | 32 | 184.3 | 86.4 | 6258.5 | 2360.7 | 2.13× | 72.4× | 5.6e-16 |
+| letter | 16 | 549 | 36463.2 | 26093.6 | 2931822.3 | 1036717.6 | 1.40× | 112.4× | 1.9e-16 |
+
+Letter, recurrence: 26.1 s per explanation. The plan raises the exact limit to 16 features if this is at most 5 s: **no**.
+

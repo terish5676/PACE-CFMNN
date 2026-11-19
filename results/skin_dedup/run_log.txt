@@ -1,0 +1,245 @@
+﻿0 of 10 dataset-seed pairs already done; 10 to run.
+  skin_dedup seed 263 B0: macro-F1 92.69, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin_dedup seed 261 B0: macro-F1 94.75, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin_dedup seed 262 B0: macro-F1 84.84, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin_dedup seed 260 B0: macro-F1 94.04, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin_dedup seed 260 B9: macro-F1 91.99, labels 10288, changed 1.81%, broken 1.65% (1s)
+  skin_dedup seed 262 B9: macro-F1 89.81, labels 10288, changed 3.83%, broken 0.29% (1s)
+  skin_dedup seed 263 B9: macro-F1 92.82, labels 10288, changed 0.29%, broken 0.10% (1s)
+  skin_dedup seed 261 B9: macro-F1 93.17, labels 10288, changed 1.59%, broken 1.38% (1s)
+  skin_dedup seed 260 AL: macro-F1 98.42, labels 5445, changed 4.26%, broken 0.43% (98s)
+  skin_dedup seed 261 AL: macro-F1 98.12, labels 5445, changed 3.36%, broken 0.37% (99s)
+  skin_dedup seed 263 AL: macro-F1 97.56, labels 5445, changed 5.19%, broken 0.74% (99s)
+  skin_dedup seed 262 AL: macro-F1 98.66, labels 5445, changed 10.71%, broken 0.41% (100s)
+  skin_dedup seed 261 SR: macro-F1 97.52, labels 0, changed 4.47%, broken 1.17% (21s)
+  skin_dedup seed 262 SR: macro-F1 97.76, labels 0, changed 11.12%, broken 0.97% (26s)
+  skin_dedup seed 260 SR: macro-F1 98.33, labels 0, changed 4.88%, broken 0.78% (28s)
+  skin_dedup seed 263 SR: macro-F1 98.23, labels 0, changed 6.10%, broken 0.93% (28s)
+  skin_dedup seed 261 SR+AL: macro-F1 98.38, labels 5445, changed 3.11%, broken 0.14% (98s)
+  skin_dedup seed 261 Retrain, appended: macro-F1 95.68, labels 5445, changed 1.34%, broken 0.31% (2s)
+  skin_dedup seed 261 Retrain, shuffled: macro-F1 84.14, labels 5445, changed 9.27%, broken 8.22% (2s)
+  skin_dedup seed 261 kNN, training rows: macro-F1 99.43, labels 0, changed 4.08%, broken 0.19% (0s)
+  skin_dedup seed 261 kNN, every label: macro-F1 99.48, labels 5445, changed 4.04%, broken 0.16% (0s)
+  skin_dedup seed 262 SR+AL: macro-F1 98.52, labels 5445, changed 10.44%, broken 0.33% (97s)
+  skin_dedup seed 263 SR+AL: macro-F1 98.59, labels 5445, changed 5.15%, broken 0.31% (97s)
+  skin_dedup seed 261 RF, training rows: macro-F1 99.62, labels 0, changed 4.12%, broken 0.14% (2s)
+  skin_dedup seed 260 SR+AL: macro-F1 98.88, labels 5445, changed 4.63%, broken 0.43% (98s)
+  skin_dedup seed 262 Retrain, appended: macro-F1 86.38, labels 5445, changed 1.32%, broken 0.16% (1s)
+  skin_dedup seed 263 Retrain, appended: macro-F1 92.72, labels 5445, changed 0.58%, broken 0.27% (1s)
+  skin_dedup seed 261 RF, every label: macro-F1 99.69, labels 5445, changed 4.10%, broken 0.10% (2s)
+skin_dedup seed 261 done in 231s
+  skin_dedup seed 260 Retrain, appended: macro-F1 93.91, labels 5445, changed 0.37%, broken 0.23% (1s)
+  skin_dedup seed 262 Retrain, shuffled: macro-F1 90.98, labels 5445, changed 13.22%, broken 4.57% (1s)
+  skin_dedup seed 262 kNN, training rows: macro-F1 99.60, labels 0, changed 11.16%, broken 0.25% (0s)
+  skin_dedup seed 262 kNN, every label: macro-F1 99.62, labels 5445, changed 11.14%, broken 0.23% (0s)
+  skin_dedup seed 263 Retrain, shuffled: macro-F1 91.86, labels 5445, changed 9.12%, broken 4.90% (1s)
+  skin_dedup seed 263 kNN, training rows: macro-F1 99.45, labels 0, changed 5.69%, broken 0.23% (0s)
+  skin_dedup seed 263 kNN, every label: macro-F1 99.50, labels 5445, changed 5.66%, broken 0.19% (0s)
+  skin_dedup seed 260 Retrain, shuffled: macro-F1 91.98, labels 5445, changed 7.77%, broken 4.63% (1s)
+  skin_dedup seed 262 RF, training rows: macro-F1 99.88, labels 0, changed 11.00%, broken 0.06% (2s)
+  skin_dedup seed 260 kNN, training rows: macro-F1 99.57, labels 0, changed 4.80%, broken 0.23% (0s)
+  skin_dedup seed 260 kNN, every label: macro-F1 99.64, labels 5445, changed 4.82%, broken 0.21% (0s)
+  skin_dedup seed 264 B0: macro-F1 85.18, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin_dedup seed 263 RF, training rows: macro-F1 99.64, labels 0, changed 5.50%, broken 0.06% (2s)
+  skin_dedup seed 260 RF, training rows: macro-F1 99.64, labels 0, changed 4.74%, broken 0.17% (2s)
+  skin_dedup seed 264 B9: macro-F1 84.21, labels 10288, changed 2.08%, broken 1.34% (1s)
+  skin_dedup seed 262 RF, every label: macro-F1 99.90, labels 5445, changed 10.98%, broken 0.04% (2s)
+skin_dedup seed 262 done in 235s
+  skin_dedup seed 263 RF, every label: macro-F1 99.71, labels 5445, changed 5.52%, broken 0.04% (2s)
+skin_dedup seed 263 done in 236s
+  skin_dedup seed 260 RF, every label: macro-F1 99.62, labels 5445, changed 4.76%, broken 0.19% (2s)
+skin_dedup seed 260 done in 237s
+  skin_dedup seed 265 B0: macro-F1 95.62, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin_dedup seed 266 B0: macro-F1 92.25, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin_dedup seed 267 B0: macro-F1 94.29, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin_dedup seed 265 B9: macro-F1 97.20, labels 10288, changed 1.50%, broken 0.14% (2s)
+  skin_dedup seed 266 B9: macro-F1 91.70, labels 10288, changed 1.32%, broken 0.86% (2s)
+  skin_dedup seed 267 B9: macro-F1 94.88, labels 10288, changed 1.22%, broken 0.39% (2s)
+  skin_dedup seed 265 AL: macro-F1 98.04, labels 5445, changed 3.11%, broken 0.60% (96s)
+  skin_dedup seed 264 AL: macro-F1 98.83, labels 5445, changed 10.34%, broken 0.29% (100s)
+  skin_dedup seed 266 AL: macro-F1 98.52, labels 5445, changed 5.46%, broken 0.35% (98s)
+  skin_dedup seed 267 AL: macro-F1 98.72, labels 5445, changed 3.91%, broken 0.21% (103s)
+  skin_dedup seed 264 SR: macro-F1 98.06, labels 0, changed 10.61%, broken 0.74% (20s)
+  skin_dedup seed 266 SR: macro-F1 97.74, labels 0, changed 6.86%, broken 1.36% (20s)
+  skin_dedup seed 265 SR: macro-F1 98.03, labels 0, changed 3.58%, broken 0.84% (35s)
+  skin_dedup seed 267 SR: macro-F1 97.24, labels 0, changed 5.05%, broken 1.38% (32s)
+  skin_dedup seed 264 SR+AL: macro-F1 98.71, labels 5445, changed 10.90%, broken 0.62% (101s)
+  skin_dedup seed 266 SR+AL: macro-F1 97.96, labels 5445, changed 6.03%, broken 0.86% (99s)
+  skin_dedup seed 264 Retrain, appended: macro-F1 84.70, labels 5445, changed 2.57%, broken 1.42% (2s)
+  skin_dedup seed 266 Retrain, appended: macro-F1 91.76, labels 5445, changed 0.78%, broken 0.56% (1s)
+  skin_dedup seed 264 Retrain, shuffled: macro-F1 93.17, labels 5445, changed 12.44%, broken 3.52% (1s)
+  skin_dedup seed 264 kNN, training rows: macro-F1 99.64, labels 0, changed 10.73%, broken 0.16% (0s)
+  skin_dedup seed 264 kNN, every label: macro-F1 99.64, labels 5445, changed 10.73%, broken 0.16% (0s)
+  skin_dedup seed 266 Retrain, shuffled: macro-F1 92.58, labels 5445, changed 9.54%, broken 4.68% (2s)
+  skin_dedup seed 266 kNN, training rows: macro-F1 99.55, labels 0, changed 5.99%, broken 0.19% (0s)
+  skin_dedup seed 266 kNN, every label: macro-F1 99.64, labels 5445, changed 5.95%, broken 0.14% (0s)
+  skin_dedup seed 264 RF, training rows: macro-F1 99.69, labels 0, changed 10.69%, broken 0.12% (2s)
+  skin_dedup seed 266 RF, training rows: macro-F1 99.74, labels 0, changed 5.99%, broken 0.12% (2s)
+  skin_dedup seed 264 RF, every label: macro-F1 99.71, labels 5445, changed 10.71%, broken 0.12% (2s)
+skin_dedup seed 264 done in 234s
+  skin_dedup seed 266 RF, every label: macro-F1 99.74, labels 5445, changed 5.99%, broken 0.12% (2s)
+skin_dedup seed 266 done in 230s
+  skin_dedup seed 268 B0: macro-F1 89.31, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin_dedup seed 265 SR+AL: macro-F1 98.55, labels 5445, changed 3.36%, broken 0.52% (96s)
+  skin_dedup seed 269 B0: macro-F1 93.83, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin_dedup seed 268 B9: macro-F1 91.17, labels 10288, changed 3.19%, broken 0.95% (2s)
+  skin_dedup seed 265 Retrain, appended: macro-F1 97.07, labels 5445, changed 1.44%, broken 0.16% (2s)
+  skin_dedup seed 269 B9: macro-F1 92.94, labels 10288, changed 1.40%, broken 1.03% (2s)
+  skin_dedup seed 265 Retrain, shuffled: macro-F1 94.58, labels 5445, changed 5.81%, broken 3.28% (2s)
+  skin_dedup seed 265 kNN, training rows: macro-F1 99.55, labels 0, changed 3.44%, broken 0.16% (0s)
+  skin_dedup seed 265 kNN, every label: macro-F1 99.60, labels 5445, changed 3.36%, broken 0.10% (0s)
+  skin_dedup seed 265 RF, training rows: macro-F1 99.67, labels 0, changed 3.38%, broken 0.08% (2s)
+  skin_dedup seed 267 SR+AL: macro-F1 98.52, labels 5445, changed 4.30%, broken 0.49% (98s)
+  skin_dedup seed 265 RF, every label: macro-F1 99.71, labels 5445, changed 3.42%, broken 0.08% (2s)
+skin_dedup seed 265 done in 241s
+  skin_dedup seed 267 Retrain, appended: macro-F1 94.23, labels 5445, changed 0.62%, broken 0.33% (2s)
+  skin_dedup seed 267 Retrain, shuffled: macro-F1 92.38, labels 5445, changed 8.03%, broken 4.68% (1s)
+  skin_dedup seed 267 kNN, training rows: macro-F1 99.67, labels 0, changed 4.53%, broken 0.14% (0s)
+  skin_dedup seed 267 kNN, every label: macro-F1 99.62, labels 5445, changed 4.53%, broken 0.16% (0s)
+  skin_dedup seed 267 RF, training rows: macro-F1 99.64, labels 0, changed 4.47%, broken 0.12% (2s)
+  skin_dedup seed 267 RF, every label: macro-F1 99.74, labels 5445, changed 4.47%, broken 0.08% (2s)
+skin_dedup seed 267 done in 245s
+  skin_dedup seed 268 AL: macro-F1 98.06, labels 5445, changed 7.58%, broken 0.54% (86s)
+  skin_dedup seed 269 AL: macro-F1 98.37, labels 5445, changed 4.98%, broken 0.72% (86s)
+  skin_dedup seed 269 SR: macro-F1 98.14, labels 0, changed 4.90%, broken 0.78% (14s)
+  skin_dedup seed 268 SR: macro-F1 97.73, labels 0, changed 8.20%, broken 0.99% (16s)
+  skin_dedup seed 269 SR+AL: macro-F1 98.69, labels 5445, changed 4.53%, broken 0.37% (82s)
+  skin_dedup seed 269 Retrain, appended: macro-F1 93.17, labels 5445, changed 1.54%, broken 1.01% (1s)
+  skin_dedup seed 268 SR+AL: macro-F1 98.21, labels 5445, changed 8.05%, broken 0.72% (83s)
+  skin_dedup seed 269 Retrain, shuffled: macro-F1 90.73, labels 5445, changed 9.64%, broken 5.91% (1s)
+  skin_dedup seed 269 kNN, training rows: macro-F1 99.60, labels 0, changed 4.88%, broken 0.17% (0s)
+  skin_dedup seed 269 kNN, every label: macro-F1 99.62, labels 5445, changed 4.86%, broken 0.16% (0s)
+  skin_dedup seed 268 Retrain, appended: macro-F1 89.48, labels 5445, changed 0.95%, broken 0.41% (1s)
+  skin_dedup seed 269 RF, training rows: macro-F1 99.76, labels 0, changed 4.78%, broken 0.06% (1s)
+  skin_dedup seed 268 Retrain, shuffled: macro-F1 87.14, labels 5445, changed 10.34%, broken 5.93% (1s)
+  skin_dedup seed 268 kNN, training rows: macro-F1 99.50, labels 0, changed 8.12%, broken 0.23% (0s)
+  skin_dedup seed 268 kNN, every label: macro-F1 99.52, labels 5445, changed 8.14%, broken 0.23% (0s)
+  skin_dedup seed 269 RF, every label: macro-F1 99.83, labels 5445, changed 4.80%, broken 0.04% (2s)
+skin_dedup seed 269 done in 193s
+  skin_dedup seed 268 RF, training rows: macro-F1 99.52, labels 0, changed 7.95%, broken 0.14% (1s)
+  skin_dedup seed 268 RF, every label: macro-F1 99.57, labels 5445, changed 7.99%, broken 0.14% (2s)
+skin_dedup seed 268 done in 197s
+.\.venv\Scripts\python : C:\Users\praka\Documents\pace-cfmnn\scripts\run_skin_dedup.py:212: Pandas4Warning: The 
+'float_precision' argument is deprecated. Use the default float precision instead.
+At line:1 char:356
++ ... 0=Get-Date; .\.venv\Scripts\python -B scripts/run_skin_dedup.py --job ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\praka\...cision instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  frames[part] = pd.read_csv(csv, float_precision="round_trip")
+0 of 10 dataset-seed pairs already done; 10 to run.
+skin seed 261 reference: B0 83.59, SR 99.04
+skin seed 260 reference: B0 96.82, SR 99.67
+skin seed 262 reference: B0 87.82, SR 98.62
+skin seed 263 reference: B0 98.20, SR 98.66
+skin seed 264 reference: B0 88.14, SR 99.09
+skin seed 265 reference: B0 93.18, SR 99.07
+skin seed 267 reference: B0 89.00, SR 99.14
+skin seed 266 reference: B0 94.71, SR 99.07
+skin seed 268 reference: B0 94.33, SR 98.92
+skin seed 269 reference: B0 88.98, SR 99.12
+C:\Users\praka\Documents\pace-cfmnn\scripts\run_skin_dedup.py:212: Pandas4Warning: The 'float_precision' argument is 
+deprecated. Use the default float precision instead.
+  frames[part] = pd.read_csv(csv, float_precision="round_trip")
+0 of 10 dataset-seed pairs already done; 10 to run.
+skin_dedup seed 260: CFMNN 91.3%, 10-NN 99.7%, Random Forest 99.8%
+skin_dedup seed 263: CFMNN 91.2%, 10-NN 99.8%, Random Forest 99.8%
+skin_dedup seed 261: CFMNN 92.6%, 10-NN 99.7%, Random Forest 99.8%
+skin_dedup seed 262: CFMNN 97.0%, 10-NN 99.7%, Random Forest 99.7%
+skin_dedup seed 264: CFMNN 95.6%, 10-NN 99.8%, Random Forest 99.8%
+skin_dedup seed 266: CFMNN 93.3%, 10-NN 99.6%, Random Forest 99.8%
+skin_dedup seed 265: CFMNN 90.8%, 10-NN 99.8%, Random Forest 99.8%
+skin_dedup seed 267: CFMNN 89.9%, 10-NN 99.7%, Random Forest 99.8%
+skin_dedup seed 268: CFMNN 95.4%, 10-NN 99.8%, Random Forest 99.8%
+skin_dedup seed 269: CFMNN 92.1%, 10-NN 99.8%, Random Forest 99.8%
+C:\Users\praka\Documents\pace-cfmnn\scripts\run_skin_dedup.py:212: Pandas4Warning: The 'float_precision' argument is 
+deprecated. Use the default float precision instead.
+  frames[part] = pd.read_csv(csv, float_precision="round_trip")
+0 of 10 dataset-seed pairs already done; 10 to run.
+skin_dedup seed 263 (theta-val 0.05): 0.5 90.2, 0.4 88.9, 0.3 91.2, 0.2 96.7, 0.15 97.9, 0.1 97.7, 0.05 99.7
+skin_dedup seed 261 (theta-val 0.05): 0.5 89.6, 0.4 88.7, 0.3 92.6, 0.2 94.3, 0.15 96.9, 0.1 98.9, 0.05 99.5
+skin_dedup seed 262 (theta-val 0.05): 0.5 96.9, 0.4 91.0, 0.3 97.0, 0.2 96.1, 0.15 97.3, 0.1 97.7, 0.05 99.5
+skin_dedup seed 260 (theta-val 0.05): 0.5 90.4, 0.4 94.8, 0.3 91.3, 0.2 96.3, 0.15 96.5, 0.1 97.5, 0.05 99.2
+skin_dedup seed 264 (theta-val 0.05): 0.5 91.7, 0.4 91.3, 0.3 95.6, 0.2 94.6, 0.15 96.4, 0.1 98.7, 0.05 99.4
+skin_dedup seed 265 (theta-val 0.05): 0.5 93.2, 0.4 98.2, 0.3 90.8, 0.2 95.2, 0.15 97.7, 0.1 98.5, 0.05 99.5
+skin_dedup seed 266 (theta-val 0.05): 0.5 94.7, 0.4 89.7, 0.3 93.3, 0.2 96.3, 0.15 96.0, 0.1 98.3, 0.05 99.2
+skin_dedup seed 267 (theta-val 0.05): 0.5 91.0, 0.4 88.8, 0.3 89.9, 0.2 96.4, 0.15 96.8, 0.1 98.4, 0.05 99.3
+skin_dedup seed 268 (theta-val 0.05): 0.5 93.7, 0.4 95.1, 0.3 95.4, 0.2 96.0, 0.15 97.0, 0.1 98.9, 0.05 99.4
+skin_dedup seed 269 (theta-val 0.05): 0.5 86.4, 0.4 93.1, 0.3 92.1, 0.2 97.1, 0.15 96.0, 0.1 98.4, 0.05 99.5
+C:\Users\praka\Documents\pace-cfmnn\scripts\run_skin_dedup.py:212: Pandas4Warning: The 'float_precision' argument is 
+deprecated. Use the default float precision instead.
+  frames[part] = pd.read_csv(csv, float_precision="round_trip")
+0 of 10 dataset-seed pairs already done; 10 to run.
+skin_dedup seed 261 (theta-val nan): B0-0.3 92.6, SR-0.3 97.5
+skin_dedup seed 263 (theta-val nan): B0-0.3 91.2, SR-0.3 98.2
+skin_dedup seed 260 (theta-val nan): B0-0.3 91.3, SR-0.3 98.4
+skin_dedup seed 262 (theta-val nan): B0-0.3 97.0, SR-0.3 98.1
+skin_dedup seed 265 (theta-val nan): B0-0.3 90.8, SR-0.3 98.5
+skin_dedup seed 266 (theta-val nan): B0-0.3 93.3, SR-0.3 98.1
+skin_dedup seed 264 (theta-val nan): B0-0.3 95.6, SR-0.3 98.4
+skin_dedup seed 267 (theta-val nan): B0-0.3 89.9, SR-0.3 97.8
+skin_dedup seed 269 (theta-val nan): B0-0.3 92.1, SR-0.3 98.2
+skin_dedup seed 268 (theta-val nan): B0-0.3 95.4, SR-0.3 96.9
+C:\Users\praka\Documents\pace-cfmnn\scripts\run_skin_dedup.py:212: Pandas4Warning: The 'float_precision' argument is 
+deprecated. Use the default float precision instead.
+  frames[part] = pd.read_csv(csv, float_precision="round_trip")
+# Run P3: Skin without its duplicate rows
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). Written by `scripts/run_skin_dedup.py`.
+
+`skin_dedup` keeps the first copy of each row: 51,444 of 245,057 rows.
+
+## Primary: does self-repair still help?
+
+SR − B0, macro-F1 on `skin_dedup`, seeds 260–269 (10 seeds): **+6.20 points** (SR better on 10, worse on 0), Wilcoxon p = 0.0020. The paper's gain on Skin with duplicates: +5.66; half of it: 2.83.
+
+**Reading:** Self-repair still helps without the duplicates, by at least half the paper's gain (+6.20 ≥ 2.83): the Skin result stands, reported with this number.
+
+Reference, original Skin on the same seeds: SR − B0 = +7.56 (better on 10, worse on 0, p = 0.0020).
+
+### Every arm (mean over seeds)
+
+| Arm | Macro-F1 | Accuracy | Lowest class recall | Labels | Broken predictions (%) |
+|---|---|---|---|---|---|
+| B0 | 91.68 | 93.69 | 80.48 | 0 | 0.000 |
+| B9 | 91.99 | 93.89 | 81.26 | 10288 | 0.812 |
+| AL | 98.33 | 98.64 | 97.27 | 5445 | 0.466 |
+| SR | 97.88 | 98.28 | 96.40 | 0 | 0.993 |
+| SR+AL | 98.50 | 98.78 | 97.81 | 5445 | 0.478 |
+| Retrain, appended | 91.91 | 93.87 | 80.89 | 5445 | 0.486 |
+| Retrain, shuffled | 90.95 | 93.14 | 78.39 | 5445 | 5.032 |
+| kNN, training rows | 99.56 | 99.64 | 99.49 | 0 | 0.196 |
+| kNN, every label | 99.59 | 99.66 | 99.54 | 5445 | 0.173 |
+| RF, training rows | 99.68 | 99.74 | 99.70 | 0 | 0.105 |
+| RF, every label | 99.72 | 99.77 | 99.73 | 5445 | 0.093 |
+
+SR+AL − SR (do bought labels add anything?): +0.62, better on 10, worse on 0, p = 0.0020 (secondary).
+
+## Accuracy table (secondary)
+
+| Model | Accuracy, `skin_dedup` |
+|---|---|
+| CFMNN | 92.92 |
+| 10-NN | 99.73 |
+| Random Forest | 99.80 |
+
+## CFMNN across theta (secondary)
+
+| theta | Accuracy | Boxes | NFR (%) |
+|---|---|---|---|
+| 0.05 | 99.43 | 2011 | 0.344 |
+| 0.1 | 98.32 | 708 | 1.033 |
+| 0.15 | 96.85 | 360 | 2.151 |
+| 0.2 | 95.90 | 209 | 2.612 |
+| 0.3 | 92.92 | 89 | 0.000 |
+| 0.4 | 91.95 | 43 | 6.221 |
+| 0.5 | 91.79 | 26 | 6.107 |
+
+theta by validation: 0.05.
+
+Broken correct predictions (NFR), repair (SR-0.3) against re-tuning (B0 at theta by validation): repair breaks -0.927 points fewer on average (fewer on 0 seeds, more on 10, p = 0.0020).
+
+Repair on the paper's split (SR-0.3 − B0-0.3, accuracy): +5.09, better on 10, worse on 0, p = 0.0020.
+
+

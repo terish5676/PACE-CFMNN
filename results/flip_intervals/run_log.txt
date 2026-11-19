@@ -1,0 +1,142 @@
+﻿0 of 110 dataset-seed pairs already done; 110 to run.
+S1 seed 347: 226 flipping pairs of 500; 32-value grid misses 4
+S1 seed 348: 204 flipping pairs of 500; 32-value grid misses 3
+S1 seed 345: 213 flipping pairs of 500; 32-value grid misses 2
+S1 seed 341: 220 flipping pairs of 500; 32-value grid misses 7
+S1 seed 346: 226 flipping pairs of 500; 32-value grid misses 3
+S1 seed 343: 231 flipping pairs of 500; 32-value grid misses 5
+S1 seed 344: 265 flipping pairs of 500; 32-value grid misses 3
+S1 seed 349: 249 flipping pairs of 500; 32-value grid misses 3
+S1 seed 342: 217 flipping pairs of 500; 32-value grid misses 2
+S1 seed 340: 187 flipping pairs of 500; 32-value grid misses 5
+S2 seed 342: 270 flipping pairs of 500; 32-value grid misses 2
+S2 seed 343: 244 flipping pairs of 500; 32-value grid misses 4
+S2 seed 340: 293 flipping pairs of 500; 32-value grid misses 5
+S2 seed 344: 251 flipping pairs of 500; 32-value grid misses 6
+S2 seed 341: 253 flipping pairs of 500; 32-value grid misses 3
+S2 seed 345: 203 flipping pairs of 500; 32-value grid misses 6
+S2 seed 348: 278 flipping pairs of 500; 32-value grid misses 3
+S2 seed 346: 236 flipping pairs of 500; 32-value grid misses 7
+S2 seed 347: 281 flipping pairs of 500; 32-value grid misses 5
+S2 seed 349: 250 flipping pairs of 500; 32-value grid misses 4
+S3 seed 341: 221 flipping pairs of 500; 32-value grid misses 4
+S3 seed 340: 207 flipping pairs of 500; 32-value grid misses 5
+S3 seed 346: 223 flipping pairs of 500; 32-value grid misses 1
+S3 seed 345: 247 flipping pairs of 500; 32-value grid misses 5
+S3 seed 344: 227 flipping pairs of 500; 32-value grid misses 3
+S3 seed 347: 227 flipping pairs of 500; 32-value grid misses 5
+wine seed 340: 43 flipping pairs of 468; 32-value grid misses 0
+wine seed 341: 37 flipping pairs of 468; 32-value grid misses 5
+S3 seed 343: 228 flipping pairs of 500; 32-value grid misses 4
+wine seed 342: 19 flipping pairs of 468; 32-value grid misses 0
+wine seed 343: 30 flipping pairs of 468; 32-value grid misses 3
+wine seed 344: 18 flipping pairs of 468; 32-value grid misses 0
+wine seed 345: 31 flipping pairs of 468; 32-value grid misses 1
+wine seed 346: 46 flipping pairs of 468; 32-value grid misses 1
+wine seed 347: 50 flipping pairs of 468; 32-value grid misses 5
+S3 seed 342: 226 flipping pairs of 500; 32-value grid misses 8
+S3 seed 348: 232 flipping pairs of 500; 32-value grid misses 3
+wine seed 349: 17 flipping pairs of 468; 32-value grid misses 1
+wine seed 348: 45 flipping pairs of 468; 32-value grid misses 2
+S3 seed 349: 225 flipping pairs of 500; 32-value grid misses 4
+breast_cancer seed 340: 192 flipping pairs of 1500; 32-value grid misses 14
+breast_cancer seed 343: 95 flipping pairs of 1500; 32-value grid misses 9
+breast_cancer seed 341: 55 flipping pairs of 1500; 32-value grid misses 3
+breast_cancer seed 346: 99 flipping pairs of 1500; 32-value grid misses 3
+breast_cancer seed 347: 97 flipping pairs of 1500; 32-value grid misses 7
+breast_cancer seed 345: 84 flipping pairs of 1500; 32-value grid misses 8
+breast_cancer seed 342: 134 flipping pairs of 1500; 32-value grid misses 9
+breast_cancer seed 349: 175 flipping pairs of 1500; 32-value grid misses 4
+breast_cancer seed 344: 212 flipping pairs of 1500; 32-value grid misses 24
+breast_cancer seed 348: 75 flipping pairs of 1500; 32-value grid misses 6
+thyroid seed 341: 111 flipping pairs of 1050; 32-value grid misses 53
+thyroid seed 342: 117 flipping pairs of 1050; 32-value grid misses 49
+thyroid seed 343: 131 flipping pairs of 1050; 32-value grid misses 62
+thyroid seed 345: 160 flipping pairs of 1050; 32-value grid misses 78
+thyroid seed 340: 124 flipping pairs of 1050; 32-value grid misses 67
+shuttle seed 340: 306 flipping pairs of 450; 32-value grid misses 128
+thyroid seed 344: 95 flipping pairs of 1050; 32-value grid misses 39
+shuttle seed 341: 252 flipping pairs of 450; 32-value grid misses 129
+thyroid seed 346: 171 flipping pairs of 1050; 32-value grid misses 87
+shuttle seed 342: 323 flipping pairs of 450; 32-value grid misses 200
+shuttle seed 343: 345 flipping pairs of 450; 32-value grid misses 232
+shuttle seed 344: 320 flipping pairs of 450; 32-value grid misses 146
+shuttle seed 346: 268 flipping pairs of 450; 32-value grid misses 124
+shuttle seed 345: 337 flipping pairs of 450; 32-value grid misses 177
+shuttle seed 348: 314 flipping pairs of 450; 32-value grid misses 208
+shuttle seed 347: 255 flipping pairs of 450; 32-value grid misses 141
+shuttle seed 349: 344 flipping pairs of 450; 32-value grid misses 237
+thyroid seed 347: 139 flipping pairs of 1050; 32-value grid misses 46
+thyroid seed 348: 86 flipping pairs of 1050; 32-value grid misses 43
+thyroid seed 349: 148 flipping pairs of 1050; 32-value grid misses 54
+magic seed 340: 439 flipping pairs of 500; 32-value grid misses 77
+magic seed 341: 433 flipping pairs of 500; 32-value grid misses 45
+magic seed 342: 427 flipping pairs of 500; 32-value grid misses 40
+magic seed 345: 436 flipping pairs of 500; 32-value grid misses 65
+magic seed 343: 399 flipping pairs of 500; 32-value grid misses 51
+magic seed 347: 405 flipping pairs of 500; 32-value grid misses 54
+magic seed 346: 415 flipping pairs of 500; 32-value grid misses 56
+magic seed 344: 450 flipping pairs of 500; 32-value grid misses 67
+magic seed 348: 449 flipping pairs of 500; 32-value grid misses 72
+magic seed 349: 432 flipping pairs of 500; 32-value grid misses 70
+letter seed 340: 631 flipping pairs of 800; 32-value grid misses 55
+letter seed 343: 578 flipping pairs of 800; 32-value grid misses 61
+letter seed 342: 582 flipping pairs of 800; 32-value grid misses 37
+letter seed 341: 588 flipping pairs of 800; 32-value grid misses 32
+letter seed 345: 609 flipping pairs of 800; 32-value grid misses 41
+letter seed 347: 609 flipping pairs of 800; 32-value grid misses 46
+letter seed 344: 557 flipping pairs of 800; 32-value grid misses 69
+letter seed 348: 559 flipping pairs of 800; 32-value grid misses 42
+letter seed 346: 590 flipping pairs of 800; 32-value grid misses 71
+letter seed 349: 592 flipping pairs of 800; 32-value grid misses 38
+landsat seed 346: 854 flipping pairs of 1800; 32-value grid misses 54
+page_blocks seed 340: 413 flipping pairs of 500; 32-value grid misses 200
+page_blocks seed 341: 436 flipping pairs of 500; 32-value grid misses 177
+landsat seed 348: 854 flipping pairs of 1800; 32-value grid misses 61
+page_blocks seed 342: 420 flipping pairs of 500; 32-value grid misses 248
+page_blocks seed 343: 409 flipping pairs of 500; 32-value grid misses 158
+page_blocks seed 344: 408 flipping pairs of 500; 32-value grid misses 208
+landsat seed 344: 795 flipping pairs of 1800; 32-value grid misses 56
+page_blocks seed 345: 438 flipping pairs of 500; 32-value grid misses 243
+page_blocks seed 347: 435 flipping pairs of 500; 32-value grid misses 281
+page_blocks seed 346: 436 flipping pairs of 500; 32-value grid misses 211
+page_blocks seed 348: 377 flipping pairs of 500; 32-value grid misses 175
+landsat seed 347: 495 flipping pairs of 1800; 32-value grid misses 25
+page_blocks seed 349: 405 flipping pairs of 500; 32-value grid misses 230
+landsat seed 340: 877 flipping pairs of 1800; 32-value grid misses 41
+landsat seed 341: 709 flipping pairs of 1800; 32-value grid misses 115
+landsat seed 349: 817 flipping pairs of 1800; 32-value grid misses 46
+landsat seed 342: 755 flipping pairs of 1800; 32-value grid misses 93
+landsat seed 345: 660 flipping pairs of 1800; 32-value grid misses 39
+landsat seed 343: 699 flipping pairs of 1800; 32-value grid misses 77
+.\.venv\Scripts\python : C:\Users\praka\Documents\pace-cfmnn\scripts\run_flip_intervals.py:214: Pandas4Warning: The 
+'float_precision' argument is deprecated. Use the default float precision instead.
+At line:1 char:356
++ ... 0=Get-Date; .\.venv\Scripts\python -B scripts/run_flip_intervals.py - ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\praka\...cision instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  df = pd.read_csv(csv, float_precision="round_trip")
+# Run P7: exact flip sets against dense occlusion
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). v3's models and explainer rows, seeds 340–349 (10 seeds). Written by `scripts/run_flip_intervals.py`.
+
+**Check: PASS.** On 17,500 (point, feature) pairs, every value of a 10,001-value grid that changes the class lies in the exact flip set (within 1e-09), every exact interval wider than the grid step contains a grid value that changes the class, and on all 85,680 pairs the class at PACE-flip's 32 values agrees with the exact set (2,414 values within 1e-09 of a breakpoint, a tie up to rounding, left out of that comparison).
+
+| Dataset | d | Boxes | Pairs | Pairs with a flip | Missed by the 32 values | Missed share | Intervals per flipping pair | Median smallest change, exact | Median smallest change, 32 values | Points the 32 values call unflippable |
+|---|---|---|---|---|---|---|---|---|---|---|
+| S1 | 10 | 1516 | 5,000 | 2,238 | 37 | 1.7% | 1.30 | 0.179 | 0.196 | 0 of 482 |
+| S2 | 10 | 1534 | 5,000 | 2,559 | 45 | 1.8% | 1.34 | 0.139 | 0.155 | 2 of 487 |
+| S3 | 10 | 1524 | 5,000 | 2,263 | 42 | 1.9% | 1.30 | 0.136 | 0.161 | 1 of 490 |
+| wine | 13 | 31 | 4,680 | 336 | 18 | 5.4% | 1.10 | 0.227 | 0.239 | 0 of 98 |
+| breast_cancer | 30 | 41 | 15,000 | 1,218 | 87 | 7.1% | 1.11 | 0.216 | 0.228 | 4 of 113 |
+| thyroid | 21 | 54 | 10,500 | 1,282 | 578 | 45.1% | 1.24 | 0.011 | 0.014 | 128 of 446 |
+| shuttle | 9 | 14 | 4,500 | 3,064 | 1,722 | 56.2% | 1.31 | 0.067 | 0.122 | 0 of 499 |
+| magic | 10 | 285 | 5,000 | 4,285 | 597 | 13.9% | 1.99 | 0.021 | 0.030 | 4 of 488 |
+| letter | 16 | 564 | 8,000 | 5,895 | 492 | 8.3% | 1.64 | 0.030 | 0.067 | 4 of 482 |
+| landsat | 36 | 198 | 18,000 | 7,515 | 607 | 8.1% | 1.48 | 0.066 | 0.081 | 4 of 331 |
+| page_blocks | 10 | 26 | 5,000 | 4,177 | 2,131 | 51.0% | 1.36 | 0.004 | 0.012 | 25 of 495 |
+
+Over all datasets the 32 values miss 6,356 of 34,832 flipping pairs (18.2%). Smallest change: the distance from x_i to the nearest value of one feature that changes the class, minimised over features (points with a flip only).
+

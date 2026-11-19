@@ -1,0 +1,80 @@
+﻿0 of 31 dataset-seed pairs already done; 31 to run.
+S1 seed 300 part a: KernelSHAP 100 2740 ms, KernelSHAP 200 6956 ms, KernelSHAP 400 16005 ms, KernelSHAP 700 21671 ms, KernelSHAP all 31616 ms, PACE-SHAP exact 1754 ms
+S1 seed 301 part a: KernelSHAP 100 2721 ms, KernelSHAP 200 5781 ms, KernelSHAP 400 16244 ms, KernelSHAP 700 18892 ms, KernelSHAP all 27594 ms, PACE-SHAP exact 1717 ms
+S1 seed 302 part a: KernelSHAP 100 2706 ms, KernelSHAP 200 5349 ms, KernelSHAP 400 17595 ms, KernelSHAP 700 19523 ms, KernelSHAP all 28489 ms, PACE-SHAP exact 1728 ms
+S2 seed 300 part a: KernelSHAP 100 2744 ms, KernelSHAP 200 6486 ms, KernelSHAP 400 17549 ms, KernelSHAP 700 19088 ms, KernelSHAP all 27917 ms, PACE-SHAP exact 1780 ms
+S2 seed 301 part a: KernelSHAP 100 2753 ms, KernelSHAP 200 5505 ms, KernelSHAP 400 16044 ms, KernelSHAP 700 19396 ms, KernelSHAP all 28186 ms, PACE-SHAP exact 1806 ms
+S2 seed 302 part a: KernelSHAP 100 2765 ms, KernelSHAP 200 5516 ms, KernelSHAP 400 16320 ms, KernelSHAP 700 24584 ms, KernelSHAP all 35995 ms, PACE-SHAP exact 1735 ms
+S3 seed 300 part a: KernelSHAP 100 2721 ms, KernelSHAP 200 5376 ms, KernelSHAP 400 11415 ms, KernelSHAP 700 26962 ms, KernelSHAP all 39132 ms, PACE-SHAP exact 1732 ms
+S3 seed 301 part a: KernelSHAP 100 2720 ms, KernelSHAP 200 7270 ms, KernelSHAP 400 10788 ms, KernelSHAP 700 19022 ms, KernelSHAP all 27703 ms, PACE-SHAP exact 1739 ms
+S3 seed 302 part a: KernelSHAP 100 3072 ms, KernelSHAP 200 7680 ms, KernelSHAP 400 15658 ms, KernelSHAP 700 19440 ms, KernelSHAP all 28330 ms, PACE-SHAP exact 1802 ms
+shuttle seed 300 part a: KernelSHAP 100 35 ms, KernelSHAP 200 72 ms, KernelSHAP 400 144 ms, KernelSHAP all 180 ms, PACE-SHAP exact 10 ms
+shuttle seed 301 part a: KernelSHAP 100 35 ms, KernelSHAP 200 70 ms, KernelSHAP 400 141 ms, KernelSHAP all 176 ms, PACE-SHAP exact 9 ms
+shuttle seed 302 part a: KernelSHAP 100 36 ms, KernelSHAP 200 70 ms, KernelSHAP 400 163 ms, KernelSHAP all 204 ms, PACE-SHAP exact 8 ms
+magic seed 300 part a: KernelSHAP 100 565 ms, KernelSHAP 200 1187 ms, KernelSHAP 400 2680 ms, KernelSHAP 700 3936 ms, KernelSHAP all 5737 ms, PACE-SHAP exact 217 ms
+magic seed 301 part a: KernelSHAP 100 579 ms, KernelSHAP 200 1261 ms, KernelSHAP 400 2330 ms, KernelSHAP 700 4076 ms, KernelSHAP all 5939 ms, PACE-SHAP exact 235 ms
+magic seed 302 part a: KernelSHAP 100 562 ms, KernelSHAP 200 1513 ms, KernelSHAP 400 2231 ms, KernelSHAP 700 3860 ms, KernelSHAP all 5636 ms, PACE-SHAP exact 204 ms
+page_blocks seed 300 part a: KernelSHAP 100 91 ms, KernelSHAP 200 116 ms, KernelSHAP 400 310 ms, KernelSHAP 700 419 ms, KernelSHAP all 607 ms, PACE-SHAP exact 27 ms
+page_blocks seed 301 part a: KernelSHAP 100 84 ms, KernelSHAP 200 128 ms, KernelSHAP 400 358 ms, KernelSHAP 700 409 ms, KernelSHAP all 608 ms, PACE-SHAP exact 30 ms
+page_blocks seed 302 part a: KernelSHAP 100 57 ms, KernelSHAP 200 144 ms, KernelSHAP 400 340 ms, KernelSHAP 700 402 ms, KernelSHAP all 583 ms, PACE-SHAP exact 29 ms
+S1 seed 303 part b: KernelSHAP 200 8158 ms, PACE-SHAP default 1717 ms
+S2 seed 303 part b: KernelSHAP 200 8668 ms, PACE-SHAP default 1798 ms
+S3 seed 303 part b: KernelSHAP 200 8460 ms, PACE-SHAP default 1717 ms
+S1c seed 303 part b: KernelSHAP 200 4933 ms, PACE-SHAP default 1485 ms
+S2c seed 303 part b: KernelSHAP 200 4964 ms, PACE-SHAP default 1493 ms
+wine seed 303 part b: KernelSHAP 200 53 ms, PACE-SHAP default 7 ms
+breast_cancer seed 303 part b: KernelSHAP 200 417 ms, PACE-SHAP default 84 ms
+thyroid seed 303 part b: KernelSHAP 200 402 ms, PACE-SHAP default 69 ms
+shuttle seed 303 part b: KernelSHAP 200 74 ms, PACE-SHAP default 10 ms
+magic seed 303 part b: KernelSHAP 200 1134 ms, PACE-SHAP default 187 ms
+letter seed 303 part b: KernelSHAP 200 3946 ms, PACE-SHAP default 522 ms
+landsat seed 303 part b: KernelSHAP 200 1970 ms, PACE-SHAP default 596 ms
+page_blocks seed 303 part b: KernelSHAP 200 111 ms, PACE-SHAP default 33 ms
+.\.venv\Scripts\python : C:\Users\praka\Documents\pace-cfmnn\scripts\run_time_to_accuracy.py:217: Pandas4Warning: The 
+'float_precision' argument is deprecated. Use the default float precision instead.
+At line:1 char:457
++ ... 0=Get-Date; .\.venv\Scripts\python -B scripts/run_time_to_accuracy.py ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\praka\...cision instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  df = pd.read_csv(csv, float_precision="round_trip", dtype={"budget": str})
+# Run P1: time to a given accuracy, and one clean re-time
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). v3's models and 200 explainer rows, one task at a time. Written by `scripts/run_time_to_accuracy.py`.
+
+## Part (a): KernelSHAP's time to reach 1% of the exact values
+
+Seeds 300, 301, 302, 10 points per seed. Relative L1 error against PACE-SHAP's exact values, median over points; b* is the smallest budget with median error at most 1%. Time ratio: KernelSHAP at b* over exact PACE-SHAP (mean over points, 95% bootstrap interval).
+
+| Dataset | d | Median error at 100 | 200 | 400 | 700 | all | b* | ms PACE-SHAP (exact) | ms KernelSHAP at b* | Ratio at b* (95% interval) | Ratio at 200 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| S1 | 10 | 13.97% | 9.04% | 6.40% | 4.03% | 0.00% | all | 1733 | 29233 | 16.9× (15.9–18.1) | 3.5× |
+| S2 | 10 | 16.53% | 9.62% | 7.53% | 5.76% | 0.00% | all | 1774 | 30699 | 17.3× (16.0–18.9) | 3.3× |
+| S3 | 10 | 20.43% | 12.59% | 9.11% | 7.10% | 0.00% | all | 1758 | 31722 | 18.0× (16.8–19.5) | 3.9× |
+| shuttle | 9 | 2.39% | 1.87% | 1.33% | – | 0.00% | all | 9 | 187 | 20.1× (16.8–23.6) | 7.6× |
+| magic | 10 | 22.59% | 13.51% | 8.95% | 7.25% | 0.00% | all | 219 | 5771 | 26.4× (24.6–28.0) | 6.0× |
+| page_blocks | 10 | 13.02% | 9.34% | 5.68% | 4.58% | 0.00% | all | 29 | 599 | 20.7× (19.7–21.9) | 4.5× |
+
+## Part (b): one clean re-time of the like-for-like comparison
+
+Seed 303, 10 points per dataset, each explainer timed alone on the same 200 rows. KernelSHAP with 200 coalitions; PACE-SHAP in its default mode (exact for d ≤ 12, else 32 permutations).
+
+| Dataset | d | PACE-SHAP mode | ms PACE-SHAP | ms KernelSHAP | KernelSHAP ÷ PACE-SHAP (95% interval) |
+|---|---|---|---|---|---|
+| S1 | 10 | exact | 1717 | 8158 | 4.8× (4.7–4.8) |
+| S2 | 10 | exact | 1798 | 8668 | 4.8× (4.7–5.0) |
+| S3 | 10 | exact | 1717 | 8460 | 4.9× (4.7–5.2) |
+| S1c | 10 | exact | 1485 | 4933 | 3.3× (3.3–3.4) |
+| S2c | 10 | exact | 1493 | 4964 | 3.3× (3.2–3.4) |
+| wine | 13 | 32 permutations | 7 | 53 | 8.0× (7.8–8.3) |
+| breast_cancer | 30 | 32 permutations | 84 | 417 | 4.9× (4.4–5.4) |
+| thyroid | 21 | 32 permutations | 69 | 402 | 5.8× (5.6–6.0) |
+| shuttle | 9 | exact | 10 | 74 | 7.7× (6.7–8.6) |
+| magic | 10 | exact | 187 | 1134 | 6.1× (5.6–6.7) |
+| letter | 16 | 32 permutations | 522 | 3946 | 7.6× (7.2–7.9) |
+| landsat | 36 | 32 permutations | 596 | 1970 | 3.3× (3.2–3.5) |
+| page_blocks | 10 | exact | 33 | 111 | 3.4× (3.1–3.8) |
+
+Across the 13 datasets KernelSHAP took 3.3–8.0× as long as PACE-SHAP (median 4.9×).
+

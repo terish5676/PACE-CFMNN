@@ -1,0 +1,550 @@
+Started 2026-11-08T01:06:41+05:30 at commit 22e687d: python -B scripts/run_repair_theta.py --jobs 6
+0 of 260 dataset-seed pairs already done; 260 to run.
+skin seed 71 (theta-val 0.05): B0-0.3 96.9, SR-0.3 99.6, B0-val 99.6, SR-val 99.9
+skin seed 70 (theta-val 0.05): B0-0.3 97.1, SR-0.3 98.9, B0-val 99.7, SR-val 99.9
+skin seed 72 (theta-val 0.05): B0-0.3 96.1, SR-0.3 99.3, B0-val 99.6, SR-val 99.9
+skin seed 73 (theta-val 0.05): B0-0.3 96.1, SR-0.3 99.3, B0-val 99.8, SR-val 99.9
+skin seed 74 (theta-val 0.05): B0-0.3 96.9, SR-0.3 99.7, B0-val 99.9, SR-val 99.8
+skin seed 75 (theta-val 0.05): B0-0.3 94.7, SR-0.3 99.6, B0-val 99.8, SR-val 100.0
+skin seed 78 (theta-val 0.05): B0-0.3 94.2, SR-0.3 99.2, B0-val 99.9, SR-val 99.9
+skin seed 76 (theta-val 0.05): B0-0.3 97.1, SR-0.3 99.4, B0-val 99.8, SR-val 99.9
+skin seed 77 (theta-val 0.05): B0-0.3 93.1, SR-0.3 99.4, B0-val 99.8, SR-val 99.9
+skin seed 79 (theta-val 0.05): B0-0.3 97.2, SR-0.3 99.4, B0-val 99.8, SR-val 99.9
+skin seed 80 (theta-val 0.05): B0-0.3 95.3, SR-0.3 99.2, B0-val 99.8, SR-val 99.9
+skin seed 82 (theta-val 0.05): B0-0.3 95.6, SR-0.3 99.4, B0-val 99.7, SR-val 99.9
+skin seed 81 (theta-val 0.05): B0-0.3 97.3, SR-0.3 99.8, B0-val 99.9, SR-val 99.9
+skin seed 84 (theta-val 0.05): B0-0.3 97.7, SR-0.3 99.3, B0-val 99.7, SR-val 99.9
+skin seed 83 (theta-val 0.05): B0-0.3 97.4, SR-0.3 99.4, B0-val 99.8, SR-val 99.8
+skin seed 85 (theta-val 0.05): B0-0.3 94.8, SR-0.3 98.9, B0-val 99.8, SR-val 99.9
+skin seed 86 (theta-val 0.05): B0-0.3 95.1, SR-0.3 99.2, B0-val 99.7, SR-val 99.9
+skin seed 88 (theta-val 0.05): B0-0.3 93.5, SR-0.3 99.0, B0-val 99.8, SR-val 99.9
+skin seed 87 (theta-val 0.05): B0-0.3 96.6, SR-0.3 99.5, B0-val 99.8, SR-val 99.9
+letter seed 70 (theta-val 0.05): B0-0.3 74.4, SR-0.3 77.5, B0-val 95.2, SR-val 95.2
+letter seed 71 (theta-val 0.05): B0-0.3 75.4, SR-0.3 77.9, B0-val 95.2, SR-val 95.2
+skin seed 89 (theta-val 0.05): B0-0.3 96.8, SR-0.3 99.4, B0-val 99.9, SR-val 99.8
+letter seed 72 (theta-val 0.05): B0-0.3 77.2, SR-0.3 78.6, B0-val 95.3, SR-val 95.3
+letter seed 73 (theta-val 0.05): B0-0.3 75.0, SR-0.3 78.0, B0-val 95.6, SR-val 95.6
+letter seed 75 (theta-val 0.05): B0-0.3 73.9, SR-0.3 77.0, B0-val 95.5, SR-val 95.5
+letter seed 74 (theta-val 0.05): B0-0.3 75.2, SR-0.3 76.6, B0-val 94.9, SR-val 94.9
+letter seed 76 (theta-val 0.05): B0-0.3 76.6, SR-0.3 79.0, B0-val 95.2, SR-val 95.2
+letter seed 78 (theta-val 0.05): B0-0.3 76.0, SR-0.3 78.3, B0-val 95.3, SR-val 95.3
+letter seed 77 (theta-val 0.05): B0-0.3 74.2, SR-0.3 76.3, B0-val 94.6, SR-val 94.6
+letter seed 80 (theta-val 0.05): B0-0.3 74.5, SR-0.3 77.8, B0-val 95.0, SR-val 95.0
+letter seed 79 (theta-val 0.05): B0-0.3 74.7, SR-0.3 76.5, B0-val 94.6, SR-val 94.6
+letter seed 81 (theta-val 0.05): B0-0.3 74.8, SR-0.3 77.0, B0-val 94.9, SR-val 94.9
+letter seed 83 (theta-val 0.05): B0-0.3 74.6, SR-0.3 76.4, B0-val 94.5, SR-val 94.5
+letter seed 82 (theta-val 0.05): B0-0.3 76.0, SR-0.3 78.5, B0-val 94.7, SR-val 94.7
+letter seed 84 (theta-val 0.05): B0-0.3 74.7, SR-0.3 77.5, B0-val 95.6, SR-val 95.6
+magic seed 70 (theta-val 0.05): B0-0.3 71.6, SR-0.3 77.2, B0-val 81.3, SR-val 81.3
+letter seed 86 (theta-val 0.05): B0-0.3 75.0, SR-0.3 77.6, B0-val 95.4, SR-val 95.4
+letter seed 85 (theta-val 0.05): B0-0.3 75.3, SR-0.3 78.0, B0-val 95.1, SR-val 95.0
+magic seed 71 (theta-val 0.05): B0-0.3 75.2, SR-0.3 77.3, B0-val 81.2, SR-val 81.2
+magic seed 72 (theta-val 0.05): B0-0.3 69.8, SR-0.3 77.0, B0-val 82.0, SR-val 82.0
+letter seed 87 (theta-val 0.05): B0-0.3 76.0, SR-0.3 78.5, B0-val 94.9, SR-val 95.0
+magic seed 74 (theta-val 0.05): B0-0.3 73.9, SR-0.3 73.9, B0-val 81.4, SR-val 81.5
+letter seed 88 (theta-val 0.05): B0-0.3 75.1, SR-0.3 77.2, B0-val 95.7, SR-val 95.7
+magic seed 73 (theta-val 0.05): B0-0.3 71.8, SR-0.3 75.3, B0-val 82.1, SR-val 82.1
+letter seed 89 (theta-val 0.05): B0-0.3 74.4, SR-0.3 77.5, B0-val 95.0, SR-val 95.0
+magic seed 75 (theta-val 0.05): B0-0.3 69.3, SR-0.3 77.0, B0-val 80.9, SR-val 80.9
+magic seed 76 (theta-val 0.05): B0-0.3 67.5, SR-0.3 77.5, B0-val 81.3, SR-val 81.3
+magic seed 78 (theta-val 0.05): B0-0.3 72.8, SR-0.3 78.0, B0-val 81.6, SR-val 81.6
+magic seed 77 (theta-val 0.05): B0-0.3 69.6, SR-0.3 78.8, B0-val 81.9, SR-val 81.9
+magic seed 80 (theta-val 0.05): B0-0.3 71.8, SR-0.3 76.2, B0-val 82.1, SR-val 82.1
+magic seed 79 (theta-val 0.05): B0-0.3 66.8, SR-0.3 74.2, B0-val 81.4, SR-val 81.4
+magic seed 81 (theta-val 0.05): B0-0.3 73.7, SR-0.3 76.3, B0-val 82.3, SR-val 82.3
+magic seed 82 (theta-val 0.05): B0-0.3 71.9, SR-0.3 76.0, B0-val 82.3, SR-val 82.3
+magic seed 83 (theta-val 0.05): B0-0.3 72.1, SR-0.3 77.4, B0-val 82.2, SR-val 82.1
+magic seed 84 (theta-val 0.05): B0-0.3 74.3, SR-0.3 77.3, B0-val 83.0, SR-val 83.0
+magic seed 85 (theta-val 0.05): B0-0.3 73.7, SR-0.3 76.0, B0-val 81.6, SR-val 81.6
+magic seed 86 (theta-val 0.05): B0-0.3 72.7, SR-0.3 77.5, B0-val 81.9, SR-val 81.9
+magic seed 88 (theta-val 0.05): B0-0.3 71.0, SR-0.3 76.7, B0-val 81.3, SR-val 81.3
+magic seed 87 (theta-val 0.05): B0-0.3 72.4, SR-0.3 76.9, B0-val 81.6, SR-val 81.6
+landsat seed 70 (theta-val 0.1): B0-0.3 84.1, SR-0.3 85.4, B0-val 89.0, SR-val 89.0
+landsat seed 71 (theta-val 0.05): B0-0.3 85.7, SR-0.3 87.1, B0-val 90.8, SR-val 90.8
+landsat seed 74 (theta-val 0.1): B0-0.3 85.4, SR-0.3 88.3, B0-val 90.4, SR-val 90.4
+landsat seed 72 (theta-val 0.05): B0-0.3 85.6, SR-0.3 86.2, B0-val 90.1, SR-val 90.1
+landsat seed 73 (theta-val 0.05): B0-0.3 86.0, SR-0.3 86.2, B0-val 91.1, SR-val 91.1
+landsat seed 75 (theta-val 0.05): B0-0.3 85.6, SR-0.3 86.7, B0-val 90.4, SR-val 90.4
+magic seed 89 (theta-val 0.05): B0-0.3 70.7, SR-0.3 77.5, B0-val 81.8, SR-val 81.8
+landsat seed 76 (theta-val 0.05): B0-0.3 84.9, SR-0.3 87.0, B0-val 91.3, SR-val 91.3
+landsat seed 77 (theta-val 0.1): B0-0.3 84.5, SR-0.3 86.8, B0-val 90.1, SR-val 90.1
+landsat seed 78 (theta-val 0.05): B0-0.3 84.1, SR-0.3 85.7, B0-val 90.3, SR-val 90.3
+landsat seed 79 (theta-val 0.05): B0-0.3 86.6, SR-0.3 86.9, B0-val 89.2, SR-val 89.2
+landsat seed 81 (theta-val 0.1): B0-0.3 82.4, SR-0.3 83.7, B0-val 90.8, SR-val 90.8
+landsat seed 80 (theta-val 0.05): B0-0.3 85.7, SR-0.3 86.7, B0-val 90.7, SR-val 90.7
+landsat seed 82 (theta-val 0.05): B0-0.3 85.8, SR-0.3 86.9, B0-val 91.0, SR-val 91.0
+landsat seed 83 (theta-val 0.05): B0-0.3 87.3, SR-0.3 86.9, B0-val 90.4, SR-val 90.4
+landsat seed 84 (theta-val 0.05): B0-0.3 83.9, SR-0.3 85.4, B0-val 90.5, SR-val 90.5
+landsat seed 85 (theta-val 0.1): B0-0.3 86.2, SR-0.3 87.1, B0-val 88.8, SR-val 88.8
+landsat seed 86 (theta-val 0.05): B0-0.3 85.3, SR-0.3 85.5, B0-val 88.0, SR-val 88.0
+S2 seed 71 (theta-val 0.4): B0-0.3 80.3, SR-0.3 80.3, B0-val 81.4, SR-val 81.4
+S2 seed 70 (theta-val 0.5): B0-0.3 80.8, SR-0.3 80.8, B0-val 80.9, SR-val 81.1
+landsat seed 87 (theta-val 0.05): B0-0.3 85.3, SR-0.3 86.8, B0-val 90.2, SR-val 90.2
+S2 seed 73 (theta-val 0.4): B0-0.3 79.9, SR-0.3 79.9, B0-val 82.1, SR-val 82.1
+S2 seed 75 (theta-val 0.4): B0-0.3 81.7, SR-0.3 81.7, B0-val 81.3, SR-val 81.3
+S2 seed 76 (theta-val 0.4): B0-0.3 80.6, SR-0.3 80.6, B0-val 82.6, SR-val 82.6
+S2 seed 72 (theta-val 0.5): B0-0.3 81.3, SR-0.3 81.3, B0-val 80.2, SR-val 80.1
+S2 seed 74 (theta-val 0.5): B0-0.3 78.9, SR-0.3 78.9, B0-val 82.0, SR-val 81.8
+landsat seed 88 (theta-val 0.1): B0-0.3 84.8, SR-0.3 86.5, B0-val 89.1, SR-val 89.1
+S2 seed 78 (theta-val 0.4): B0-0.3 81.6, SR-0.3 81.6, B0-val 79.8, SR-val 79.8
+S2 seed 81 (theta-val 0.4): B0-0.3 81.7, SR-0.3 81.7, B0-val 82.3, SR-val 82.3
+S2 seed 77 (theta-val 0.5): B0-0.3 79.5, SR-0.3 79.5, B0-val 82.6, SR-val 82.5
+S2 seed 79 (theta-val 0.5): B0-0.3 81.3, SR-0.3 81.3, B0-val 79.4, SR-val 79.5
+landsat seed 89 (theta-val 0.1): B0-0.3 83.1, SR-0.3 84.9, B0-val 88.3, SR-val 88.3
+S2 seed 80 (theta-val 0.5): B0-0.3 84.7, SR-0.3 84.7, B0-val 82.9, SR-val 83.1
+S2 seed 83 (theta-val 0.4): B0-0.3 82.8, SR-0.3 82.8, B0-val 79.9, SR-val 79.9
+S2 seed 86 (theta-val 0.4): B0-0.3 79.2, SR-0.3 79.2, B0-val 82.2, SR-val 82.2
+S2 seed 82 (theta-val 0.5): B0-0.3 79.3, SR-0.3 79.3, B0-val 80.4, SR-val 80.6
+S2 seed 88 (theta-val 0.4): B0-0.3 80.6, SR-0.3 80.6, B0-val 84.2, SR-val 84.2
+S1 seed 70 (theta-val 0.4): B0-0.3 89.9, SR-0.3 89.9, B0-val 90.9, SR-val 90.9
+S2 seed 84 (theta-val 0.5): B0-0.3 81.8, SR-0.3 81.8, B0-val 82.0, SR-val 81.9
+S1 seed 72 (theta-val 0.5): B0-0.3 86.8, SR-0.3 86.8, B0-val 90.3, SR-val 90.3
+S2 seed 87 (theta-val 0.5): B0-0.3 80.9, SR-0.3 80.9, B0-val 81.6, SR-val 81.6
+S1 seed 71 (theta-val 0.5): B0-0.3 87.6, SR-0.3 87.6, B0-val 90.9, SR-val 90.9
+S2 seed 85 (theta-val 0.5): B0-0.3 80.3, SR-0.3 80.3, B0-val 83.2, SR-val 83.2
+S2 seed 89 (theta-val 0.5): B0-0.3 79.3, SR-0.3 79.3, B0-val 80.7, SR-val 80.6
+S1 seed 73 (theta-val 0.5): B0-0.3 89.9, SR-0.3 89.9, B0-val 90.9, SR-val 91.0
+S1 seed 75 (theta-val 0.4): B0-0.3 88.6, SR-0.3 88.6, B0-val 92.1, SR-val 92.1
+S1 seed 76 (theta-val 0.5): B0-0.3 89.2, SR-0.3 89.2, B0-val 91.3, SR-val 91.3
+S1 seed 77 (theta-val 0.5): B0-0.3 90.1, SR-0.3 90.1, B0-val 91.2, SR-val 91.2
+S1 seed 74 (theta-val 0.5): B0-0.3 90.2, SR-0.3 90.2, B0-val 89.3, SR-val 89.3
+S1 seed 79 (theta-val 0.5): B0-0.3 89.8, SR-0.3 89.8, B0-val 91.5, SR-val 91.5
+S1 seed 78 (theta-val 0.5): B0-0.3 89.9, SR-0.3 89.9, B0-val 89.4, SR-val 89.4
+S1 seed 82 (theta-val 0.4): B0-0.3 87.9, SR-0.3 87.9, B0-val 90.3, SR-val 90.3
+S1 seed 80 (theta-val 0.5): B0-0.3 88.9, SR-0.3 88.9, B0-val 90.8, SR-val 90.8
+S1 seed 81 (theta-val 0.5): B0-0.3 90.0, SR-0.3 90.0, B0-val 89.4, SR-val 89.3
+S1 seed 83 (theta-val 0.5): B0-0.3 88.9, SR-0.3 88.9, B0-val 91.0, SR-val 91.1
+S1 seed 84 (theta-val 0.5): B0-0.3 89.4, SR-0.3 89.4, B0-val 91.5, SR-val 91.5
+S1 seed 85 (theta-val 0.5): B0-0.3 88.4, SR-0.3 88.4, B0-val 90.2, SR-val 90.2
+S1 seed 87 (theta-val 0.5): B0-0.3 90.5, SR-0.3 90.5, B0-val 90.5, SR-val 90.7
+S1 seed 86 (theta-val 0.5): B0-0.3 88.8, SR-0.3 88.8, B0-val 90.1, SR-val 90.2
+S1 seed 88 (theta-val 0.5): B0-0.3 89.4, SR-0.3 89.4, B0-val 92.4, SR-val 92.4
+S1 seed 89 (theta-val 0.5): B0-0.3 88.3, SR-0.3 88.3, B0-val 88.8, SR-val 88.8
+S3 seed 71 (theta-val 0.4): B0-0.3 87.7, SR-0.3 87.7, B0-val 87.5, SR-val 87.5
+S3 seed 72 (theta-val 0.4): B0-0.3 86.5, SR-0.3 86.5, B0-val 91.4, SR-val 91.4
+S3 seed 75 (theta-val 0.4): B0-0.3 88.0, SR-0.3 88.0, B0-val 89.4, SR-val 89.4
+S3 seed 70 (theta-val 0.5): B0-0.3 87.2, SR-0.3 87.2, B0-val 86.5, SR-val 86.6
+S3 seed 77 (theta-val 0.4): B0-0.3 87.4, SR-0.3 87.4, B0-val 88.6, SR-val 88.6
+S3 seed 73 (theta-val 0.5): B0-0.3 88.1, SR-0.3 88.1, B0-val 89.0, SR-val 89.6
+S3 seed 78 (theta-val 0.4): B0-0.3 88.7, SR-0.3 88.7, B0-val 87.8, SR-val 87.8
+S3 seed 79 (theta-val 0.4): B0-0.3 88.2, SR-0.3 88.2, B0-val 87.1, SR-val 87.1
+S3 seed 74 (theta-val 0.5): B0-0.3 88.3, SR-0.3 88.3, B0-val 85.8, SR-val 85.6
+S3 seed 80 (theta-val 0.4): B0-0.3 88.6, SR-0.3 88.6, B0-val 88.8, SR-val 88.8
+S3 seed 76 (theta-val 0.5): B0-0.3 87.4, SR-0.3 87.4, B0-val 86.4, SR-val 86.5
+S3 seed 82 (theta-val 0.3): B0-0.3 88.6, SR-0.3 88.6, B0-val 88.6, SR-val 88.6
+S3 seed 81 (theta-val 0.4): B0-0.3 88.4, SR-0.3 88.4, B0-val 88.0, SR-val 88.0
+S3 seed 83 (theta-val 0.4): B0-0.3 87.6, SR-0.3 87.6, B0-val 90.1, SR-val 90.1
+S3 seed 86 (theta-val 0.4): B0-0.3 87.7, SR-0.3 87.7, B0-val 89.8, SR-val 89.8
+wine seed 70 (theta-val 0.2): B0-0.3 100.0, SR-0.3 100.0, B0-val 100.0, SR-val 100.0
+S3 seed 85 (theta-val 0.4): B0-0.3 89.5, SR-0.3 89.5, B0-val 87.4, SR-val 87.4
+wine seed 72 (theta-val 0.4): B0-0.3 100.0, SR-0.3 100.0, B0-val 100.0, SR-val 100.0
+wine seed 71 (theta-val 0.05): B0-0.3 97.2, SR-0.3 97.2, B0-val 97.2, SR-val 97.2
+wine seed 73 (theta-val 0.3): B0-0.3 100.0, SR-0.3 100.0, B0-val 100.0, SR-val 100.0
+wine seed 74 (theta-val 0.4): B0-0.3 100.0, SR-0.3 100.0, B0-val 97.2, SR-val 97.2
+wine seed 75 (theta-val 0.15): B0-0.3 100.0, SR-0.3 100.0, B0-val 100.0, SR-val 100.0
+wine seed 76 (theta-val 0.5): B0-0.3 94.4, SR-0.3 94.4, B0-val 94.4, SR-val 94.4
+wine seed 78 (theta-val 0.5): B0-0.3 94.4, SR-0.3 94.4, B0-val 100.0, SR-val 100.0
+wine seed 77 (theta-val 0.2): B0-0.3 100.0, SR-0.3 100.0, B0-val 97.2, SR-val 97.2
+wine seed 79 (theta-val 0.2): B0-0.3 97.2, SR-0.3 97.2, B0-val 97.2, SR-val 97.2
+wine seed 80 (theta-val 0.2): B0-0.3 100.0, SR-0.3 100.0, B0-val 97.2, SR-val 97.2
+wine seed 81 (theta-val 0.5): B0-0.3 100.0, SR-0.3 100.0, B0-val 100.0, SR-val 100.0
+wine seed 82 (theta-val 0.3): B0-0.3 94.4, SR-0.3 94.4, B0-val 94.4, SR-val 94.4
+wine seed 83 (theta-val 0.3): B0-0.3 100.0, SR-0.3 100.0, B0-val 100.0, SR-val 100.0
+wine seed 84 (theta-val 0.4): B0-0.3 97.2, SR-0.3 97.2, B0-val 97.2, SR-val 97.2
+wine seed 85 (theta-val 0.2): B0-0.3 97.2, SR-0.3 97.2, B0-val 100.0, SR-val 100.0
+wine seed 87 (theta-val 0.4): B0-0.3 94.4, SR-0.3 94.4, B0-val 97.2, SR-val 97.2
+wine seed 86 (theta-val 0.15): B0-0.3 100.0, SR-0.3 100.0, B0-val 97.2, SR-val 97.2
+S3 seed 84 (theta-val 0.4): B0-0.3 88.6, SR-0.3 88.6, B0-val 88.0, SR-val 88.0
+wine seed 89 (theta-val 0.3): B0-0.3 100.0, SR-0.3 100.0, B0-val 100.0, SR-val 100.0
+wine seed 88 (theta-val 0.2): B0-0.3 100.0, SR-0.3 100.0, B0-val 97.2, SR-val 97.2
+breast_cancer seed 71 (theta-val 0.2): B0-0.3 93.0, SR-0.3 93.0, B0-val 95.6, SR-val 95.6
+breast_cancer seed 72 (theta-val 0.15): B0-0.3 96.5, SR-0.3 96.5, B0-val 96.5, SR-val 96.5
+breast_cancer seed 70 (theta-val 0.1): B0-0.3 95.6, SR-0.3 95.6, B0-val 96.5, SR-val 96.5
+breast_cancer seed 73 (theta-val 0.15): B0-0.3 97.4, SR-0.3 97.4, B0-val 93.0, SR-val 93.0
+breast_cancer seed 75 (theta-val 0.2): B0-0.3 92.1, SR-0.3 92.1, B0-val 92.1, SR-val 92.1
+breast_cancer seed 74 (theta-val 0.15): B0-0.3 95.6, SR-0.3 95.6, B0-val 97.4, SR-val 97.4
+breast_cancer seed 77 (theta-val 0.2): B0-0.3 92.1, SR-0.3 92.1, B0-val 93.9, SR-val 93.9
+breast_cancer seed 78 (theta-val 0.15): B0-0.3 99.1, SR-0.3 98.2, B0-val 98.2, SR-val 98.2
+breast_cancer seed 76 (theta-val 0.05): B0-0.3 95.6, SR-0.3 95.6, B0-val 95.6, SR-val 95.6
+breast_cancer seed 79 (theta-val 0.15): B0-0.3 98.2, SR-0.3 98.2, B0-val 97.4, SR-val 97.4
+breast_cancer seed 80 (theta-val 0.2): B0-0.3 94.7, SR-0.3 94.7, B0-val 98.2, SR-val 98.2
+breast_cancer seed 82 (theta-val 0.3): B0-0.3 95.6, SR-0.3 96.5, B0-val 95.6, SR-val 96.5
+breast_cancer seed 83 (theta-val 0.3): B0-0.3 94.7, SR-0.3 95.6, B0-val 94.7, SR-val 95.6
+breast_cancer seed 81 (theta-val 0.05): B0-0.3 97.4, SR-0.3 97.4, B0-val 96.5, SR-val 96.5
+breast_cancer seed 84 (theta-val 0.1): B0-0.3 93.9, SR-0.3 93.9, B0-val 97.4, SR-val 97.4
+breast_cancer seed 85 (theta-val 0.15): B0-0.3 95.6, SR-0.3 95.6, B0-val 96.5, SR-val 96.5
+breast_cancer seed 87 (theta-val 0.2): B0-0.3 95.6, SR-0.3 97.4, B0-val 94.7, SR-val 94.7
+breast_cancer seed 86 (theta-val 0.1): B0-0.3 93.9, SR-0.3 95.6, B0-val 95.6, SR-val 95.6
+breast_cancer seed 88 (theta-val 0.1): B0-0.3 97.4, SR-0.3 97.4, B0-val 95.6, SR-val 95.6
+breast_cancer seed 89 (theta-val 0.15): B0-0.3 94.7, SR-0.3 94.7, B0-val 97.4, SR-val 97.4
+digits seed 72 (theta-val 0.3): B0-0.3 95.8, SR-0.3 95.8, B0-val 95.8, SR-val 95.8
+digits seed 71 (theta-val 0.2): B0-0.3 96.4, SR-0.3 96.4, B0-val 96.7, SR-val 96.7
+digits seed 70 (theta-val 0.15): B0-0.3 93.9, SR-0.3 93.9, B0-val 96.7, SR-val 96.7
+S3 seed 89 (theta-val 0.4): B0-0.3 87.2, SR-0.3 87.2, B0-val 89.4, SR-val 89.4
+digits seed 73 (theta-val 0.3): B0-0.3 94.4, SR-0.3 94.4, B0-val 94.4, SR-val 94.4
+digits seed 74 (theta-val 0.2): B0-0.3 96.1, SR-0.3 96.1, B0-val 93.6, SR-val 93.6
+digits seed 75 (theta-val 0.2): B0-0.3 95.3, SR-0.3 95.3, B0-val 96.4, SR-val 96.4
+digits seed 77 (theta-val 0.3): B0-0.3 97.5, SR-0.3 97.5, B0-val 97.5, SR-val 97.5
+digits seed 76 (theta-val 0.15): B0-0.3 97.5, SR-0.3 97.5, B0-val 96.7, SR-val 96.7
+S3 seed 88 (theta-val 0.5): B0-0.3 86.5, SR-0.3 86.5, B0-val 88.3, SR-val 88.4
+digits seed 79 (theta-val 0.3): B0-0.3 95.6, SR-0.3 95.6, B0-val 95.6, SR-val 95.6
+S3 seed 87 (theta-val 0.5): B0-0.3 85.9, SR-0.3 85.9, B0-val 83.5, SR-val 83.4
+digits seed 78 (theta-val 0.15): B0-0.3 96.9, SR-0.3 96.9, B0-val 94.7, SR-val 94.7
+digits seed 80 (theta-val 0.2): B0-0.3 95.0, SR-0.3 95.0, B0-val 96.7, SR-val 96.7
+digits seed 81 (theta-val 0.2): B0-0.3 95.0, SR-0.3 95.0, B0-val 94.2, SR-val 94.2
+digits seed 83 (theta-val 0.3): B0-0.3 96.1, SR-0.3 96.1, B0-val 96.1, SR-val 96.1
+digits seed 82 (theta-val 0.15): B0-0.3 97.2, SR-0.3 97.2, B0-val 95.6, SR-val 95.6
+digits seed 85 (theta-val 0.3): B0-0.3 96.4, SR-0.3 96.4, B0-val 96.4, SR-val 96.4
+digits seed 84 (theta-val 0.2): B0-0.3 96.7, SR-0.3 96.7, B0-val 96.1, SR-val 96.1
+digits seed 86 (theta-val 0.3): B0-0.3 96.7, SR-0.3 96.7, B0-val 96.7, SR-val 96.7
+digits seed 87 (theta-val 0.3): B0-0.3 93.6, SR-0.3 93.6, B0-val 93.6, SR-val 93.6
+digits seed 88 (theta-val 0.2): B0-0.3 97.8, SR-0.3 97.8, B0-val 95.8, SR-val 95.8
+digits seed 89 (theta-val 0.2): B0-0.3 96.4, SR-0.3 96.4, B0-val 97.5, SR-val 97.5
+thyroid seed 70 (theta-val 0.5): B0-0.3 96.7, SR-0.3 97.8, B0-val 97.3, SR-val 99.0
+thyroid seed 71 (theta-val 0.4): B0-0.3 96.6, SR-0.3 98.2, B0-val 98.1, SR-val 98.9
+thyroid seed 73 (theta-val 0.5): B0-0.3 97.4, SR-0.3 98.6, B0-val 96.5, SR-val 98.6
+thyroid seed 72 (theta-val 0.3): B0-0.3 96.9, SR-0.3 98.5, B0-val 96.9, SR-val 98.5
+thyroid seed 74 (theta-val 0.5): B0-0.3 97.4, SR-0.3 98.7, B0-val 97.8, SR-val 99.2
+thyroid seed 76 (theta-val 0.4): B0-0.3 98.1, SR-0.3 98.4, B0-val 96.6, SR-val 98.7
+thyroid seed 78 (theta-val 0.5): B0-0.3 97.4, SR-0.3 98.1, B0-val 97.3, SR-val 98.8
+thyroid seed 77 (theta-val 0.4): B0-0.3 96.7, SR-0.3 98.1, B0-val 96.7, SR-val 98.4
+thyroid seed 79 (theta-val 0.4): B0-0.3 97.8, SR-0.3 98.6, B0-val 97.7, SR-val 98.5
+thyroid seed 75 (theta-val 0.4): B0-0.3 96.5, SR-0.3 97.5, B0-val 96.2, SR-val 98.8
+thyroid seed 80 (theta-val 0.5): B0-0.3 97.3, SR-0.3 98.5, B0-val 97.3, SR-val 99.2
+thyroid seed 83 (theta-val 0.5): B0-0.3 97.7, SR-0.3 99.0, B0-val 97.6, SR-val 99.0
+thyroid seed 82 (theta-val 0.5): B0-0.3 98.3, SR-0.3 98.9, B0-val 97.6, SR-val 99.6
+thyroid seed 86 (theta-val 0.5): B0-0.3 97.8, SR-0.3 98.7, B0-val 97.3, SR-val 99.2
+thyroid seed 85 (theta-val 0.5): B0-0.3 96.9, SR-0.3 98.3, B0-val 97.4, SR-val 99.0
+thyroid seed 84 (theta-val 0.5): B0-0.3 98.3, SR-0.3 98.6, B0-val 98.1, SR-val 99.4
+thyroid seed 81 (theta-val 0.3): B0-0.3 97.3, SR-0.3 98.5, B0-val 97.3, SR-val 98.5
+thyroid seed 87 (theta-val 0.4): B0-0.3 97.6, SR-0.3 99.0, B0-val 97.8, SR-val 99.3
+thyroid seed 89 (theta-val 0.5): B0-0.3 97.2, SR-0.3 98.1, B0-val 98.7, SR-val 99.1
+thyroid seed 88 (theta-val 0.4): B0-0.3 97.6, SR-0.3 98.8, B0-val 97.4, SR-val 98.9
+shuttle seed 70 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.8, B0-val 99.9, SR-val 99.9
+shuttle seed 73 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.9, B0-val 99.9, SR-val 99.9
+shuttle seed 72 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.8, B0-val 99.9, SR-val 99.9
+shuttle seed 71 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.9, B0-val 99.9, SR-val 99.9
+shuttle seed 76 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.9, B0-val 100.0, SR-val 100.0
+shuttle seed 75 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.7, B0-val 99.9, SR-val 99.9
+shuttle seed 74 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.7, B0-val 99.9, SR-val 99.9
+shuttle seed 78 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.9, B0-val 99.9, SR-val 99.9
+shuttle seed 79 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.9, B0-val 100.0, SR-val 100.0
+shuttle seed 80 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.9, B0-val 100.0, SR-val 100.0
+shuttle seed 77 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.8, B0-val 99.9, SR-val 99.9
+shuttle seed 82 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.9, B0-val 99.9, SR-val 99.9
+shuttle seed 81 (theta-val 0.05): B0-0.3 99.7, SR-0.3 99.9, B0-val 100.0, SR-val 99.9
+shuttle seed 83 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.9, B0-val 99.9, SR-val 99.9
+shuttle seed 84 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.8, B0-val 100.0, SR-val 99.9
+shuttle seed 86 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.9, B0-val 99.9, SR-val 99.9
+shuttle seed 87 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.9, B0-val 99.9, SR-val 99.9
+shuttle seed 85 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.8, B0-val 100.0, SR-val 100.0
+shuttle seed 88 (theta-val 0.05): B0-0.3 99.7, SR-0.3 99.9, B0-val 99.9, SR-val 100.0
+shuttle seed 89 (theta-val 0.05): B0-0.3 99.8, SR-0.3 99.7, B0-val 99.9, SR-val 100.0
+page_blocks seed 70 (theta-val 0.1): B0-0.3 81.9, SR-0.3 83.6, B0-val 95.0, SR-val 94.6
+page_blocks seed 72 (theta-val 0.05): B0-0.3 88.4, SR-0.3 92.2, B0-val 95.3, SR-val 96.1
+page_blocks seed 71 (theta-val 0.05): B0-0.3 87.8, SR-0.3 87.9, B0-val 95.5, SR-val 95.5
+page_blocks seed 73 (theta-val 0.05): B0-0.3 87.0, SR-0.3 93.0, B0-val 95.5, SR-val 95.9
+page_blocks seed 75 (theta-val 0.05): B0-0.3 78.7, SR-0.3 81.6, B0-val 95.3, SR-val 95.3
+page_blocks seed 74 (theta-val 0.05): B0-0.3 86.0, SR-0.3 87.3, B0-val 95.3, SR-val 95.5
+page_blocks seed 77 (theta-val 0.05): B0-0.3 85.4, SR-0.3 86.9, B0-val 95.4, SR-val 96.0
+page_blocks seed 78 (theta-val 0.05): B0-0.3 89.0, SR-0.3 91.2, B0-val 96.0, SR-val 95.9
+page_blocks seed 76 (theta-val 0.05): B0-0.3 86.4, SR-0.3 87.3, B0-val 95.2, SR-val 95.1
+page_blocks seed 79 (theta-val 0.05): B0-0.3 89.3, SR-0.3 90.1, B0-val 95.0, SR-val 95.3
+page_blocks seed 80 (theta-val 0.05): B0-0.3 76.3, SR-0.3 83.4, B0-val 96.2, SR-val 96.3
+page_blocks seed 81 (theta-val 0.05): B0-0.3 78.7, SR-0.3 83.6, B0-val 95.4, SR-val 96.3
+page_blocks seed 82 (theta-val 0.05): B0-0.3 91.8, SR-0.3 92.5, B0-val 95.3, SR-val 95.4
+page_blocks seed 83 (theta-val 0.05): B0-0.3 90.3, SR-0.3 90.2, B0-val 94.3, SR-val 94.6
+page_blocks seed 84 (theta-val 0.05): B0-0.3 74.4, SR-0.3 79.6, B0-val 95.9, SR-val 96.5
+page_blocks seed 85 (theta-val 0.05): B0-0.3 80.2, SR-0.3 87.3, B0-val 94.7, SR-val 95.4
+page_blocks seed 86 (theta-val 0.05): B0-0.3 91.9, SR-0.3 91.5, B0-val 95.3, SR-val 95.3
+page_blocks seed 87 (theta-val 0.05): B0-0.3 88.9, SR-0.3 89.7, B0-val 95.8, SR-val 96.0
+page_blocks seed 88 (theta-val 0.05): B0-0.3 80.1, SR-0.3 84.1, B0-val 95.4, SR-val 95.9
+page_blocks seed 89 (theta-val 0.05): B0-0.3 88.3, SR-0.3 88.2, B0-val 95.5, SR-val 95.8
+# Self-repair at the theta chosen by validation
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). The readable-baselines split, seeds 70–89 (20). Each comparison: paired two-sided Wilcoxon over seeds, Holm across datasets; better / level / worse for the first model. Written by `scripts/run_repair_theta.py`.
+
+**Check:** 520 of 520 B0 rows reproduce the readable-baselines accuracy and macro-F1 exactly.
+
+## Test accuracy (%), mean over seeds
+
+| Dataset | B0-0.3 | SR-0.3 | B0-val | SR-val |
+|---|---|---|---|---|
+| S1 | 89.12 | 89.12 | 90.64 | 90.66 |
+| S2 | 80.83 | 80.83 | 81.59 | 81.59 |
+| S3 | 87.80 | 87.80 | 88.07 | 88.10 |
+| wine | 98.33 | 98.33 | 98.19 | 98.19 |
+| breast_cancer | 95.44 | 95.66 | 95.92 | 96.01 |
+| digits | 96.01 | 96.01 | 95.83 | 95.83 |
+| thyroid | 97.36 | 98.44 | 97.38 | 98.93 |
+| shuttle | 99.78 | 99.84 | 99.94 | 99.95 |
+| skin | 95.98 | 99.34 | 99.77 | 99.91 |
+| magic | 71.64 | 76.71 | 81.76 | 81.76 |
+| letter | 75.15 | 77.59 | 95.12 | 95.11 |
+| landsat | 85.12 | 86.34 | 90.03 | 90.04 |
+| page_blocks | 85.04 | 87.56 | 95.37 | 95.63 |
+
+## Test macro-F1 (%), mean over seeds
+
+| Dataset | B0-0.3 | SR-0.3 | B0-val | SR-val |
+|---|---|---|---|---|
+| S1 | 89.12 | 89.12 | 90.63 | 90.65 |
+| S2 | 80.81 | 80.81 | 81.57 | 81.58 |
+| S3 | 86.49 | 86.49 | 86.99 | 87.02 |
+| wine | 98.35 | 98.35 | 98.25 | 98.25 |
+| breast_cancer | 95.07 | 95.30 | 95.61 | 95.70 |
+| digits | 95.99 | 95.99 | 95.82 | 95.82 |
+| thyroid | 86.98 | 92.35 | 86.86 | 94.75 |
+| shuttle | 86.23 | 92.40 | 94.18 | 94.98 |
+| skin | 93.43 | 98.99 | 99.66 | 99.87 |
+| magic | 70.38 | 74.69 | 79.56 | 79.56 |
+| letter | 74.92 | 77.44 | 95.10 | 95.10 |
+| landsat | 82.31 | 83.97 | 88.37 | 88.37 |
+| page_blocks | 62.20 | 65.50 | 77.30 | 78.62 |
+
+## Comparisons by accuracy
+
+**P1 (primary): SR-0.3 vs B0-val** (accuracy). Does repair at theta = 0.3 match choosing theta by validation? better 1, level 5, worse 7
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | -1.51 | 0.0005 | 0.0030 | worse |
+| S2 | -0.76 | 0.0825 | 0.4126 | level |
+| S3 | -0.26 | 0.6579 | 1.0000 | level |
+| wine | +0.14 | 0.5099 | 1.0000 | level |
+| breast_cancer | -0.26 | 0.5303 | 1.0000 | level |
+| digits | +0.18 | 0.5828 | 1.0000 | level |
+| thyroid | +1.07 | 0.0002 | 0.0011 | better |
+| shuttle | -0.09 | 0.0001 | 0.0009 | worse |
+| skin | -0.43 | 0.0000 | 0.0000 | worse |
+| magic | -5.05 | 0.0000 | 0.0000 | worse |
+| letter | -17.53 | 0.0001 | 0.0009 | worse |
+| landsat | -3.69 | 0.0001 | 0.0009 | worse |
+| page_blocks | -7.81 | 0.0000 | 0.0000 | worse |
+
+**P2 (primary): SR-val vs B0-val** (accuracy). Does repair still help at the theta validation chose? better 3, level 10, worse 0
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | +0.02 | 0.2763 | 1.0000 | level |
+| S2 | +0.01 | 0.7630 | 1.0000 | level |
+| S3 | +0.03 | 0.6733 | 1.0000 | level |
+| wine | +0.00 | 1.0000 | 1.0000 | level |
+| breast_cancer | +0.09 | 0.1573 | 1.0000 | level |
+| digits | +0.00 | 1.0000 | 1.0000 | level |
+| thyroid | +1.55 | 0.0001 | 0.0011 | better |
+| shuttle | +0.01 | 0.0233 | 0.2327 | level |
+| skin | +0.14 | 0.0000 | 0.0005 | better |
+| magic | -0.00 | 0.8631 | 1.0000 | level |
+| letter | -0.00 | 0.6664 | 1.0000 | level |
+| landsat | +0.00 | 0.3173 | 1.0000 | level |
+| page_blocks | +0.26 | 0.0031 | 0.0340 | better |
+
+**S1: SR-0.3 vs B0-0.3** (accuracy). Does repair help on this split? better 7, level 6, worse 0
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | +0.00 | 1.0000 | 1.0000 | level |
+| S2 | +0.00 | 1.0000 | 1.0000 | level |
+| S3 | +0.00 | 1.0000 | 1.0000 | level |
+| wine | +0.00 | 1.0000 | 1.0000 | level |
+| breast_cancer | +0.22 | 0.1308 | 0.7848 | level |
+| digits | +0.00 | 1.0000 | 1.0000 | level |
+| thyroid | +1.08 | 0.0001 | 0.0009 | better |
+| shuttle | +0.07 | 0.0017 | 0.0119 | better |
+| skin | +3.36 | 0.0000 | 0.0000 | better |
+| magic | +5.07 | 0.0000 | 0.0000 | better |
+| letter | +2.44 | 0.0000 | 0.0000 | better |
+| landsat | +1.22 | 0.0001 | 0.0013 | better |
+| page_blocks | +2.52 | 0.0003 | 0.0023 | better |
+
+**S2: SR-val vs SR-0.3** (accuracy). With repair on both, which theta is better? better 8, level 5, worse 0
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | +1.53 | 0.0005 | 0.0034 | better |
+| S2 | +0.76 | 0.0858 | 0.4289 | level |
+| S3 | +0.29 | 0.6291 | 1.0000 | level |
+| wine | -0.14 | 0.5099 | 1.0000 | level |
+| breast_cancer | +0.35 | 0.4207 | 1.0000 | level |
+| digits | -0.18 | 0.5828 | 1.0000 | level |
+| thyroid | +0.49 | 0.0006 | 0.0036 | better |
+| shuttle | +0.10 | 0.0001 | 0.0011 | better |
+| skin | +0.57 | 0.0000 | 0.0000 | better |
+| magic | +5.05 | 0.0001 | 0.0011 | better |
+| letter | +17.53 | 0.0001 | 0.0011 | better |
+| landsat | +3.70 | 0.0001 | 0.0011 | better |
+| page_blocks | +8.07 | 0.0001 | 0.0011 | better |
+
+## Comparisons by macro-F1 (S3)
+
+**S3, P1: SR-0.3 vs B0-val** (macro_f1). Does repair at theta = 0.3 match choosing theta by validation? better 1, level 6, worse 6
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | -1.51 | 0.0002 | 0.0012 | worse |
+| S2 | -0.76 | 0.0826 | 0.4953 | level |
+| S3 | -0.50 | 0.4209 | 1.0000 | level |
+| wine | +0.10 | 0.6725 | 1.0000 | level |
+| breast_cancer | -0.31 | 0.4997 | 1.0000 | level |
+| digits | +0.18 | 0.5303 | 1.0000 | level |
+| thyroid | +5.49 | 0.0000 | 0.0001 | better |
+| shuttle | -1.78 | 0.2611 | 1.0000 | level |
+| skin | -0.66 | 0.0000 | 0.0000 | worse |
+| magic | -4.88 | 0.0000 | 0.0000 | worse |
+| letter | -17.66 | 0.0000 | 0.0000 | worse |
+| landsat | -4.40 | 0.0000 | 0.0000 | worse |
+| page_blocks | -11.80 | 0.0000 | 0.0000 | worse |
+
+**S3, P2: SR-val vs B0-val** (macro_f1). Does repair still help at the theta validation chose? better 3, level 10, worse 0
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | +0.02 | 0.1380 | 1.0000 | level |
+| S2 | +0.01 | 0.8785 | 1.0000 | level |
+| S3 | +0.03 | 0.3454 | 1.0000 | level |
+| wine | +0.00 | 1.0000 | 1.0000 | level |
+| breast_cancer | +0.10 | 0.1797 | 1.0000 | level |
+| digits | +0.00 | 1.0000 | 1.0000 | level |
+| thyroid | +7.89 | 0.0000 | 0.0000 | better |
+| shuttle | +0.80 | 0.0074 | 0.0740 | level |
+| skin | +0.21 | 0.0000 | 0.0004 | better |
+| magic | +0.00 | 0.7353 | 1.0000 | level |
+| letter | -0.00 | 0.6784 | 1.0000 | level |
+| landsat | +0.00 | 0.3173 | 1.0000 | level |
+| page_blocks | +1.32 | 0.0007 | 0.0078 | better |
+
+**S3, S1: SR-0.3 vs B0-0.3** (macro_f1). Does repair help on this split? better 7, level 6, worse 0
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | +0.00 | 1.0000 | 1.0000 | level |
+| S2 | +0.00 | 1.0000 | 1.0000 | level |
+| S3 | +0.00 | 1.0000 | 1.0000 | level |
+| wine | +0.00 | 1.0000 | 1.0000 | level |
+| breast_cancer | +0.23 | 0.1380 | 0.8281 | level |
+| digits | +0.00 | 1.0000 | 1.0000 | level |
+| thyroid | +5.36 | 0.0000 | 0.0000 | better |
+| shuttle | +6.17 | 0.0000 | 0.0000 | better |
+| skin | +5.57 | 0.0000 | 0.0000 | better |
+| magic | +4.30 | 0.0000 | 0.0000 | better |
+| letter | +2.51 | 0.0000 | 0.0000 | better |
+| landsat | +1.66 | 0.0000 | 0.0000 | better |
+| page_blocks | +3.30 | 0.0000 | 0.0001 | better |
+
+**S3, S2: SR-val vs SR-0.3** (macro_f1). With repair on both, which theta is better? better 7, level 6, worse 0
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | +1.53 | 0.0001 | 0.0011 | better |
+| S2 | +0.77 | 0.0826 | 0.4953 | level |
+| S3 | +0.53 | 0.4209 | 1.0000 | level |
+| wine | -0.10 | 0.6725 | 1.0000 | level |
+| breast_cancer | +0.41 | 0.3259 | 1.0000 | level |
+| digits | -0.18 | 0.5303 | 1.0000 | level |
+| thyroid | +2.41 | 0.0003 | 0.0023 | better |
+| shuttle | +2.59 | 0.1231 | 0.6155 | level |
+| skin | +0.87 | 0.0000 | 0.0000 | better |
+| magic | +4.88 | 0.0000 | 0.0000 | better |
+| letter | +17.66 | 0.0000 | 0.0000 | better |
+| landsat | +4.40 | 0.0000 | 0.0000 | better |
+| page_blocks | +13.12 | 0.0000 | 0.0000 | better |
+
+## Descriptive
+
+Theta chosen by validation (count over seeds):
+
+- S1: 0.4 ×3, 0.5 ×17
+- S2: 0.4 ×9, 0.5 ×11
+- S3: 0.3 ×1, 0.4 ×13, 0.5 ×6
+- wine: 0.05 ×1, 0.15 ×2, 0.2 ×6, 0.3 ×4, 0.4 ×4, 0.5 ×3
+- breast_cancer: 0.05 ×2, 0.1 ×4, 0.15 ×7, 0.2 ×5, 0.3 ×2
+- digits: 0.15 ×4, 0.2 ×8, 0.3 ×8
+- thyroid: 0.3 ×2, 0.4 ×7, 0.5 ×11
+- shuttle: 0.05 ×20
+- skin: 0.05 ×20
+- magic: 0.05 ×20
+- letter: 0.05 ×20
+- landsat: 0.05 ×13, 0.1 ×7
+- page_blocks: 0.05 ×19, 0.1 ×1
+
+Means over seeds (boxes; conditions per box; training errors; of them, inside the winning wrong-class box; of them, with a full box of their own class; edits accepted; test predictions fixed and broken against that theta's B0; seconds):
+
+```
+                        boxes  conditions_per_box  train_errors  train_errors_in_winning_box  train_errors_own_box_full  edits_accepted  test_fixed  test_broken  seconds
+S1            B0-0.3  1516.20               10.00          0.00                         0.00                       0.00             NaN        0.00         0.00     1.43
+              SR-0.3  1516.20               10.00          0.00                         0.00                       0.00            0.00        0.00         0.00    13.94
+              B0-val   788.50               10.00         15.00                        15.00                      15.00             NaN        0.00         0.00     1.00
+              SR-val   788.50               10.00          0.70                         0.55                       0.35           14.75        0.25         0.05    42.80
+S2            B0-0.3  1533.30               10.00          0.25                         0.25                       0.25             NaN        0.00         0.00     1.42
+              SR-0.3  1533.30               10.00          0.00                         0.00                       0.00            0.25        0.00         0.00    15.52
+              B0-val   924.55               10.00         37.70                        37.70                      37.70             NaN        0.00         0.00     1.06
+              SR-val   924.55               10.00          6.85                         4.00                       3.25           36.60        0.70         0.65   101.85
+S3            B0-0.3  1525.35               10.00          0.05                         0.05                       0.05             NaN        0.00         0.00     1.59
+              SR-0.3  1525.35               10.00          0.00                         0.00                       0.00            0.05        0.00         0.00    14.19
+              B0-val  1032.15               10.00         14.05                        14.05                      14.05             NaN        0.00         0.00     1.26
+              SR-val  1032.15               10.00          1.40                         0.90                       0.85           13.65        0.50         0.20    42.06
+wine          B0-0.3    31.35               13.00          0.00                         0.00                       0.00             NaN        0.00         0.00     0.02
+              SR-0.3    31.35               13.00          0.00                         0.00                       0.00            0.00        0.00         0.00     0.10
+              B0-val    41.10               12.99          0.00                         0.00                       0.00             NaN        0.00         0.00     0.02
+              SR-val    41.10               12.99          0.00                         0.00                       0.00            0.00        0.00         0.00     0.12
+breast_cancer B0-0.3    42.75               29.99          3.50                         3.50                       3.50             NaN        0.00         0.00     0.06
+              SR-0.3    42.75               29.99          1.20                         0.90                       0.70            3.30        0.30         0.05     0.35
+              B0-val   140.35               30.00          0.75                         0.75                       0.75             NaN        0.00         0.00     0.08
+              SR-val   140.35               30.00          0.35                         0.15                       0.10            0.70        0.10         0.00     0.59
+digits        B0-0.3   294.35               62.42          0.00                         0.00                       0.00             NaN        0.00         0.00     0.26
+              SR-0.3   294.35               62.42          0.00                         0.00                       0.00            0.00        0.00         0.00     4.58
+              B0-val   431.65               63.20          0.00                         0.00                       0.00             NaN        0.00         0.00     0.30
+              SR-val   431.65               63.20          0.00                         0.00                       0.00            0.00        0.00         0.00     6.56
+thyroid       B0-0.3    53.85               16.62         94.95                        94.95                      94.95             NaN        0.00         0.00     0.62
+              SR-0.3    53.30               16.93         24.80                        16.70                      10.70           18.10       17.85         2.25    14.86
+              B0-val    21.95               14.71        121.40                       121.40                     121.40             NaN        0.00         0.00     0.51
+              SR-val    21.00               15.31         33.20                        19.15                      10.30           14.00       26.45         4.10     6.98
+shuttle       B0-0.3    13.95                9.00         90.15                        90.15                      90.15             NaN        0.00         0.00     3.74
+              SR-0.3    13.90                9.00         53.95                        20.20                      15.45            3.25       17.65         9.85    16.06
+              B0-val    87.10                9.00         10.65                        10.65                      10.65             NaN        0.00         0.00     4.29
+              SR-val    87.05                9.00          2.25                         1.05                       0.65            3.85        1.80         0.65    18.30
+skin          B0-0.3    86.70                3.00       7858.15                      7858.15                    7858.15             NaN        0.00         0.00    21.05
+              SR-0.3    86.60                3.00       1274.40                      1095.10                     756.35           34.00     1814.20       168.90   326.47
+              B0-val  2012.55                3.00        399.90                       399.90                     399.90             NaN        0.00         0.00    53.18
+              SR-val  2010.75                3.00        105.50                        90.30                      60.45           45.45       87.20        20.30  6401.44
+magic         B0-0.3   285.60               10.00       4048.35                      4048.35                    4048.35             NaN        0.00         0.00     2.05
+              SR-0.3   285.35               10.00       3235.30                      3117.50                    2714.10          191.20      488.15       295.20   801.45
+              B0-val  5728.40               10.00         10.95                        10.95                      10.95             NaN        0.00         0.00    18.44
+              SR-val  5728.40               10.00          0.70                         0.20                       0.10           10.80        0.25         0.25  1134.51
+letter        B0-0.3   564.80               16.00       3403.00                      3403.00                    3403.00             NaN        0.00         0.00     2.03
+              SR-0.3   564.45               16.00       2880.50                      2865.70                    2610.55          215.25      197.25        99.60  3647.16
+              B0-val  5324.90               16.00          5.70                         5.70                       5.70             NaN        0.00         0.00     3.94
+              SR-val  5324.90               16.00          0.80                         0.50                       0.05            5.50        0.15         0.25  1406.37
+landsat       B0-0.3   198.85               36.00        534.25                       534.25                     534.25             NaN        0.00         0.00     0.75
+              SR-0.3   198.80               36.00        389.80                       357.30                     239.50          189.00       50.05        34.35   586.46
+              B0-val  2123.70               36.00          1.85                         1.85                       1.85             NaN        0.00         0.00     2.93
+              SR-val  2123.70               36.00          0.45                         0.40                       0.40            1.85        0.05         0.00   154.63
+page_blocks   B0-0.3    25.05                9.97        632.25                       632.25                     632.25             NaN        0.00         0.00     0.39
+              SR-0.3    25.05                9.97        513.90                       510.65                     473.45           12.90       40.10        12.50    28.88
+              B0-val   317.95               10.00         84.10                        84.10                      84.10             NaN        0.00         0.00     0.66
+              SR-val   317.40               10.00         61.30                        47.10                      28.05           23.85        7.35         4.45    58.29
+```
+
+Gap to the better of the tuned kNN and the Random Forest (readable-baselines run, same seeds; accuracy points):
+
+```
+model          B0-0.3  SR-0.3  B0-val  SR-val
+dataset                                      
+S1             -10.25  -10.25   -8.73   -8.71
+S2              -9.06   -9.06   -8.30   -8.30
+S3             -12.19  -12.19  -11.92  -11.90
+wine             0.00    0.00   -0.14   -0.14
+breast_cancer   -1.40   -1.18   -0.92   -0.83
+digits          -2.65   -2.65   -2.83   -2.83
+thyroid         -2.24   -1.16   -2.22   -0.67
+shuttle         -0.21   -0.14   -0.05   -0.04
+skin            -3.97   -0.62   -0.18   -0.04
+magic          -16.27  -11.20   -6.15   -6.15
+letter         -21.29  -18.85   -1.32   -1.32
+landsat         -6.22   -5.00   -1.30   -1.30
+page_blocks    -12.19   -9.67   -1.86   -1.59
+```
+
+
+Finished 2026-11-08T16:10:51+05:30, exit code 0

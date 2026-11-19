@@ -1,0 +1,567 @@
+<title>PACE-CFMNN in 2-D</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a lab bench. The square (the model's whole input space) on the left, the instruments on the right. */
+:root {
+  --bg: #f3f5f8; --surface: #ffffff; --fg: #17202b; --muted: #5a6574; --line: #d6dce4;
+  --c0: #2463c7; --c1: #c96f12; --hatch: #17202b; --changed: #b4232c; --ok: #1f7a4d;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f141a; --surface: #161d26; --fg: #e5eaf0; --muted: #9ba7b5; --line: #2b3541;
+  --c0: #6aa3f2; --c1: #eda05a; --hatch: #e5eaf0; --changed: #f2707a; --ok: #5cc493; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f141a; --surface: #161d26; --fg: #e5eaf0; --muted: #9ba7b5; --line: #2b3541;
+  --c0: #6aa3f2; --c1: #eda05a; --hatch: #e5eaf0; --changed: #f2707a; --ok: #5cc493; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--sans); }
+.wrap { max-width: 1120px; margin: 0 auto; padding-block: 28px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { display: grid; gap: 6px; margin-bottom: 20px }
+h1 { font-size: 1.7rem; font-weight: 600; letter-spacing: -0.01em; margin: 0; text-wrap: balance }
+.lede { color: var(--muted); max-width: 70ch; margin: 0 }
+.bench { display: grid; grid-template-columns: minmax(0, 560px) minmax(0, 1fr); gap: 24px; align-items: start }
+@media (max-width: 860px) { .bench { grid-template-columns: minmax(0, 1fr) } }
+.plot { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px; display: grid; gap: 10px; min-width: 0 }
+canvas { width: 100%; aspect-ratio: 1 / 1; display: block; cursor: crosshair; touch-action: manipulation }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 0.8rem; color: var(--muted) }
+.legend span { display: inline-flex; align-items: center; gap: 6px }
+.sw { width: 14px; height: 14px; display: inline-block; flex: none }
+.panel { display: grid; gap: 16px; min-width: 0 }
+section { display: grid; gap: 10px; min-width: 0 }
+h2 { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); margin: 0 }
+.controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px 14px }
+label { display: grid; gap: 4px; font-size: 0.82rem; color: var(--muted) }
+label output { font-family: var(--mono); color: var(--fg) }
+input[type=range] { width: 100%; accent-color: var(--fg) }
+input[type=number] { font: inherit; font-family: var(--mono); padding: 5px 8px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); color: var(--fg); width: 100% }
+.buttons { display: flex; flex-wrap: wrap; gap: 8px }
+button { font: inherit; font-size: 0.88rem; font-weight: 500; padding: 7px 13px; border-radius: 4px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer }
+button.primary { background: var(--fg); color: var(--bg); border-color: var(--fg) }
+button:hover { border-color: var(--fg) }
+button:focus-visible, input:focus-visible, canvas:focus-visible { outline: 2px solid var(--c0); outline-offset: 2px }
+button:disabled { opacity: 0.45; cursor: default }
+table { border-collapse: collapse; width: 100%; font-size: 0.86rem }
+td, th { padding: 4px 0; border-bottom: 1px solid var(--line); text-align: left; font-weight: 400 }
+td.n, th.n { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums }
+th { color: var(--muted); font-size: 0.78rem }
+.verdict { font-size: 0.88rem; padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface) }
+.verdict b { font-weight: 600 }
+.yes { color: var(--ok) } .no { color: var(--changed) }
+.log { font-family: var(--mono); font-size: 0.76rem; line-height: 1.45; color: var(--muted); max-height: 168px; overflow-y: auto; border: 1px solid var(--line); border-radius: 4px; padding: 8px 10px; background: var(--surface); display: grid; gap: 4px }
+.log .acc { color: var(--fg) }
+.bars { display: grid; gap: 6px; font-size: 0.85rem }
+.bar { display: grid; grid-template-columns: 2.4em minmax(0, 1fr) 5.5em; align-items: center; gap: 8px }
+.track { position: relative; height: 12px; background: var(--bg); border-radius: 2px }
+.track::after { content: ""; position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--muted) }
+.fill { position: absolute; top: 0; bottom: 0; border-radius: 2px }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums }
+.note { font-size: 0.8rem; color: var(--muted); margin: 0; max-width: 70ch }
+footer { margin-top: 28px; display: grid; gap: 6px }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>PACE-CFMNN in 2-D</h1>
+    <p class="lede">A centroid-based fuzzy min–max network (CFMNN) on two features. Train it, let
+      self-repair fix its training errors one gated edit at a time, and watch the certificate: the
+      region, computed from the boxes alone, where an edit could have changed a prediction. Click
+      anywhere in the square to explain the prediction there with PACE-SHAP.</p>
+  </header>
+
+  <div class="bench">
+    <div class="plot">
+      <canvas id="plot" tabindex="0" aria-label="The unit square with the training points, the model's boxes, its predicted class at every point, and the certificate of the edits so far. Click to explain a prediction."></canvas>
+      <div class="legend" aria-hidden="true">
+        <span><i class="sw" id="lg0"></i>Class A (circles)</span>
+        <span><i class="sw" id="lg1"></i>Class B (squares)</span>
+        <span><i class="sw" id="lgerr"></i>Training error</span>
+        <span><i class="sw" id="lgcert"></i>Certificate</span>
+        <span><i class="sw" id="lgchg"></i>Prediction changed</span>
+      </div>
+    </div>
+
+    <div class="panel">
+      <section aria-labelledby="h-model">
+        <h2 id="h-model">Model and data</h2>
+        <div class="controls">
+          <label for="theta">θ, the size limit (sum of widths ≤ 2θ) <output id="thetaOut">0.30</output>
+            <input id="theta" type="range" min="0.05" max="0.5" step="0.05" value="0.3"></label>
+          <label for="gamma">γ, the ramp's steepness <output id="gammaOut">4</output>
+            <input id="gamma" type="range" min="1" max="10" step="1" value="4"></label>
+          <label for="noise">Noise in the data <output id="noiseOut">0.30</output>
+            <input id="noise" type="range" min="0.05" max="0.5" step="0.05" value="0.3"></label>
+          <label for="seed">Data seed
+            <input id="seed" type="number" min="1" max="9999" step="1" value="7"></label>
+        </div>
+        <div class="buttons">
+          <button id="train" class="primary">Train</button>
+          <button id="newdata">New data</button>
+        </div>
+      </section>
+
+      <section aria-labelledby="h-repair">
+        <h2 id="h-repair">Self-repair</h2>
+        <div class="buttons">
+          <button id="step" class="primary">Try the next error</button>
+          <button id="all">Repair all</button>
+          <button id="resetcert">Restart the certificate here</button>
+        </div>
+        <table aria-label="The model before repair and now, on the training rows">
+          <thead><tr><th></th><th class="n">After training</th><th class="n">Now</th></tr></thead>
+          <tbody id="stats"></tbody>
+        </table>
+        <div class="verdict" id="certline" aria-live="polite"></div>
+        <div class="log" id="log" aria-live="polite"></div>
+      </section>
+
+      <section aria-labelledby="h-explain">
+        <h2 id="h-explain">Explanation (PACE-SHAP)</h2>
+        <div id="explain" class="bars"></div>
+        <p class="note">The values share out the predicted class's margin over the runner-up,
+          s′<sub>A</sub> − max s′<sub>c</sub>, against its average over the training rows. With two
+          features the Shapley values are exact: each is the average of its two marginal
+          contributions.</p>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    <p class="note">The rules follow the <span class="mono">pace_cfmnn</span> package. The ramp is
+      f(t) = max(0, 1 − max(0, γ·min(1, t))), with membership the mean of [f(x − w) + f(v − x)] / 2.
+      Boxes within 10⁻⁹ of the top membership are tied, and the nearest centroid wins. A repair
+      moves the face of the winning wrong-class box nearer the error just past it (by 10⁻³), on
+      the feature where that cuts the smallest share of the box's width. The gate rejects the edit
+      if training macro-F1 falls by more than 0.5 points or any class's recall by more than 1.
+      The certificate is the tight one: points where the edited box is in the tied top group
+      before or after the edit, and the top groups hold more than one class.</p>
+    <p class="note">This page is a separate JavaScript version, written for illustration. The
+      reference is the Python package. The demo tries each current error once per round, for up
+      to 10 rounds; the package spreads 300 tries over 10 rounds.</p>
+  </footer>
+</div>
+
+<script>
+(() => {
+  "use strict";
+  const D = 2, TIE = 1e-9, MARGIN = 1e-3, G = 100, N = 160;
+  const $ = (id) => document.getElementById(id);
+
+  // ---------------------------------------------------------------- random numbers
+  function mulberry32(a) {
+    return function () {
+      a |= 0; a = (a + 0x6D2B79F5) | 0;
+      let t = Math.imul(a ^ (a >>> 15), 1 | a);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function gauss(r) {
+    let u = 0, v = 0;
+    while (u === 0) u = r();
+    while (v === 0) v = r();
+    return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+  }
+  function shuffle(a, r) {
+    for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+    return a;
+  }
+
+  // ---------------------------------------------------------------- data: two moons in [0, 1]^2
+  function makeData(seed, noise) {
+    const r = mulberry32(seed), rows = [];
+    for (let i = 0; i < N; i++) {
+      const c = i % 2, t = Math.PI * r();
+      let px = c === 0 ? Math.cos(t) : 1 - Math.cos(t);
+      let py = c === 0 ? Math.sin(t) : 0.5 - Math.sin(t);
+      px += noise * gauss(r); py += noise * gauss(r);
+      const x = Math.min(1, Math.max(0, (px + 1.6) / 4.2));
+      const y = Math.min(1, Math.max(0, (py + 1.1) / 2.7));
+      rows.push([[x, y], c]);
+    }
+    shuffle(rows, r);                    // CFMNN learns in this order
+    return { X: rows.map((p) => p[0]), Y: rows.map((p) => p[1]) };
+  }
+
+  // ---------------------------------------------------------------- CFMNN
+  const ramp = (t, g) => Math.max(0, 1 - Math.max(0, g * Math.min(1, t)));
+  function memb(x, b, g) {
+    let s = 0;
+    for (let i = 0; i < D; i++) s += 0.5 * (ramp(x[i] - b.w[i], g) + ramp(b.v[i] - x[i], g));
+    return s / D;
+  }
+  const dist2 = (x, c) => { let s = 0; for (let i = 0; i < D; i++) s += (x[i] - c[i]) ** 2; return s; };
+  function newBox(a, cls, r) { return { v: a.slice(), w: a.slice(), sum: a.slice(), count: 1, centroid: a.slice(), cls, members: [r] }; }
+  function join(b, a, r) {
+    for (let i = 0; i < D; i++) b.sum[i] += a[i];
+    b.count += 1; b.members.push(r);
+    for (let i = 0; i < D; i++) b.centroid[i] = b.sum[i] / b.count;
+  }
+  function fit(X, Y, theta, gamma) {
+    const boxes = [], limit = D * theta;
+    X.forEach((a, r) => {
+      const c = Y[r], idx = [];
+      boxes.forEach((b, j) => { if (b.cls === c) idx.push(j); });
+      if (idx.length === 0) { boxes.push(newBox(a, c, r)); return; }
+      const m = idx.map((j) => memb(a, boxes[j], gamma));
+      let k = 0;
+      for (let q = 1; q < m.length; q++) if (m[q] > m[k]) k = q;   // first box on exact ties
+      if (m[k] >= 1) { join(boxes[idx[k]], a, r); return; }
+      let best = -1;
+      for (let q = 0; q < idx.length; q++) {
+        const b = boxes[idx[q]];
+        let wsum = 0;
+        for (let i = 0; i < D; i++) wsum += Math.max(b.w[i], a[i]) - Math.min(b.v[i], a[i]);
+        if (wsum <= limit && (best < 0 || m[q] > m[best])) best = q;
+      }
+      if (best < 0) { boxes.push(newBox(a, c, r)); return; }
+      const b = boxes[idx[best]];
+      for (let i = 0; i < D; i++) { b.v[i] = Math.min(b.v[i], a[i]); b.w[i] = Math.max(b.w[i], a[i]); }
+      join(b, a, r);
+    });
+    return { theta, gamma, boxes };
+  }
+  function clone(m) {
+    return { theta: m.theta, gamma: m.gamma, boxes: m.boxes.map((b) => ({
+      v: b.v.slice(), w: b.w.slice(), sum: b.sum.slice(), count: b.count, centroid: b.centroid.slice(),
+      cls: b.cls, members: b.members.slice() })) };
+  }
+  function details(m, x) {
+    const H = m.boxes.length, M = new Float64Array(H);
+    let top = -Infinity;
+    for (let j = 0; j < H; j++) { M[j] = memb(x, m.boxes[j], m.gamma); if (M[j] > top) top = M[j]; }
+    const tied = [];
+    let win = -1, bd = Infinity;
+    for (let j = 0; j < H; j++) {
+      if (M[j] >= top - TIE) {
+        tied.push(j);
+        const d = dist2(x, m.boxes[j].centroid);
+        if (d < bd) { bd = d; win = j; }
+      }
+    }
+    return { M, tied, win, cls: m.boxes[win].cls };
+  }
+  function margin(m, x, A) {                     // s'_A - max over other classes of s'_c
+    const s = [-Infinity, -Infinity];
+    m.boxes.forEach((b) => { const v = memb(x, b, m.gamma); if (v > s[b.cls]) s[b.cls] = v; });
+    const r = s.map((v) => (v === -Infinity ? 0 : 2 * v - 1));
+    return r[A] - r[1 - A];
+  }
+
+  // ---------------------------------------------------------------- the repair edit and the gate
+  const contains = (b, x) => b.v.every((v, i) => v <= x[i]) && b.w.every((w, i) => x[i] <= w);
+  function faceCut(b, x, i) {
+    const v = b.v[i], w = b.w[i], width = w - v;
+    if (x[i] - v <= w - x[i]) {
+      const nv = x[i] + MARGIN;
+      return { side: "low", value: nv, share: Math.min(width > 0 ? (nv - v) / width : 1, 1) };
+    }
+    const nv = x[i] - MARGIN;
+    return { side: "high", value: nv, share: Math.min(width > 0 ? (w - nv) / width : 1, 1) };
+  }
+  function shrinkBox(m, k, x, f, X) {
+    const b = m.boxes[k], cut = faceCut(b, x, f);
+    let keep;
+    if (cut.side === "low") {
+      const gone = cut.value > b.w[f];
+      keep = gone ? [] : b.members.filter((r) => X[r][f] >= cut.value);
+    } else {
+      const gone = cut.value < b.v[f];
+      keep = gone ? [] : b.members.filter((r) => X[r][f] <= cut.value);
+    }
+    const info = { box: k, feature: f, side: cut.side, value: cut.value, share: cut.share,
+                   dropped: b.members.length - keep.length, removed: keep.length === 0 };
+    if (info.removed) { m.boxes.splice(k, 1); return info; }
+    if (cut.side === "low") b.v[f] = cut.value; else b.w[f] = cut.value;
+    b.members = keep; b.count = keep.length;
+    b.sum = [0, 0];
+    keep.forEach((r) => { for (let i = 0; i < D; i++) b.sum[i] += X[r][i]; });
+    b.centroid = b.sum.map((s) => s / keep.length);
+    return info;
+  }
+  function metrics(m, X, Y) {
+    const pred = X.map((x) => details(m, x).cls);
+    const f1 = [], rec = [];
+    for (let c = 0; c < 2; c++) {
+      let tp = 0, fp = 0, fn = 0;
+      pred.forEach((p, r) => { if (p === c && Y[r] === c) tp++; else if (p === c) fp++; else if (Y[r] === c) fn++; });
+      const P = tp + fp > 0 ? tp / (tp + fp) : 0, R = tp + fn > 0 ? tp / (tp + fn) : 0;
+      rec.push(100 * R); f1.push(P + R > 0 ? 2 * P * R / (P + R) : 0);
+    }
+    const errors = pred.filter((p, r) => p !== Y[r]).length;
+    return { pred, errors, acc: 100 * (1 - errors / Y.length), f1: 50 * (f1[0] + f1[1]), rec };
+  }
+  function gateVerdict(before, after) {
+    if (before.f1 - after.f1 > 0.5 + 1e-9) return "macro-F1 would fall by " + (before.f1 - after.f1).toFixed(2);
+    for (let c = 0; c < 2; c++)
+      if (before.rec[c] - after.rec[c] > 1.0 + 1e-9) return "class " + "AB"[c] + " recall would fall by " + (before.rec[c] - after.rec[c]).toFixed(1);
+    return "";
+  }
+
+  // ---------------------------------------------------------------- state
+  const grid = [];
+  for (let gy = 0; gy < G; gy++) for (let gx = 0; gx < G; gx++) grid.push([(gx + 0.5) / G, (gy + 0.5) / G]);
+  let X, Y, model, start, gateBefore, boxCap, refPred, gridPred, cert, queue, round, rng, lastEdit, probe;
+  let tried = 0, accepted = 0;
+  const logLines = [];
+
+  function predictGrid(m) { const p = new Int8Array(grid.length); grid.forEach((x, i) => { p[i] = details(m, x).cls; }); return p; }
+
+  function train() {
+    const theta = +$("theta").value, gamma = +$("gamma").value;
+    model = fit(X, Y, theta, gamma);
+    start = metrics(model, X, Y);
+    start.boxes = model.boxes.length;
+    gateBefore = start;
+    boxCap = Math.floor(1.1 * model.boxes.length);
+    gridPred = predictGrid(model);
+    refPred = gridPred.slice();
+    cert = new Uint8Array(grid.length);
+    queue = []; round = 0; rng = mulberry32(+$("seed").value + 1000);
+    lastEdit = null; tried = 0; accepted = 0; logLines.length = 0;
+    note("Trained: " + model.boxes.length + " boxes, " + start.errors + " training errors.", true);
+    update();
+  }
+  function newData() {
+    const d = makeData(+$("seed").value, +$("noise").value);
+    X = d.X; Y = d.Y; probe = null; train();
+  }
+
+  function startRound() {
+    const pred = metrics(model, X, Y).pred;
+    queue = shuffle(pred.map((p, r) => (p !== Y[r] ? r : -1)).filter((r) => r >= 0), rng);
+    round += 1;
+    if (queue.length) note("Round " + round + ": " + queue.length + " training errors to try.", true);
+  }
+
+  // One try. Returns false when there is nothing left to try.
+  function tryNext() {
+    if (queue.length === 0) {
+      if (round >= 10) { note("Ten rounds done.", true); return false; }
+      startRound();
+      if (queue.length === 0) { note("No training errors left.", true); return false; }
+    }
+    const r = queue.shift(), x = X[r], det = details(model, x);
+    tried += 1;
+    if (det.cls === Y[r]) { note("Row " + r + ": already right now; skipped."); return true; }
+    const k = det.win;
+    if (!contains(model.boxes[k], x)) { note("Row " + r + ": not inside the winning box; no cut can move it."); return true; }
+    let f = 0, best = Infinity;
+    for (let i = 0; i < D; i++) { const s = faceCut(model.boxes[k], x, i).share; if (s < best) { best = s; f = i; } }
+    const before = clone(model);
+    const info = shrinkBox(model, k, x, f, X);
+    const after = metrics(model, X, Y);
+    const why = model.boxes.length > boxCap ? "box cap" : gateVerdict(gateBefore, after);
+    const what = "Row " + r + ": box " + k + " (" + "AB"[before.boxes[k].cls] + "), " + info.side + " face of x" +
+      (f + 1) + " to " + info.value.toFixed(3) + ", " + Math.round(100 * info.share) + "% of its width" +
+      (info.removed ? ", box removed" : ", " + info.dropped + " member" + (info.dropped === 1 ? "" : "s") + " dropped");
+    if (why) {
+      model = before;
+      note(what + ". Rejected: " + why + ".");
+      lastEdit = null;
+      return true;
+    }
+    accepted += 1;
+    gateBefore = after;
+    addCertificate(before, model, k, info.removed);
+    gridPred = predictGrid(model);
+    lastEdit = { old: before.boxes[k], now: info.removed ? null : model.boxes[k] };
+    note(what + ". Accepted.", true);
+    return true;
+  }
+
+  // Tight certificate of one edit that changed box k (or removed it), ORed into the running one.
+  function addCertificate(before, after, k, removed) {
+    grid.forEach((x, p) => {
+      if (cert[p]) return;
+      const db = details(before, x), da = details(after, x);
+      const hit = db.tied.includes(k) || (!removed && da.tied.includes(k));
+      if (!hit) return;
+      const cls = new Set();
+      db.tied.forEach((j) => cls.add(before.boxes[j].cls));
+      da.tied.forEach((j) => cls.add(after.boxes[j].cls));
+      if (cls.size > 1) cert[p] = 1;
+    });
+  }
+
+  // ---------------------------------------------------------------- explanation
+  function explain() {
+    const box = $("explain");
+    if (!probe) { box.innerHTML = '<p class="note">Click a point in the square to explain the prediction there.</p>'; return; }
+    const A = details(model, probe).cls, g = margin(model, probe, A);
+    let v0 = 0, v1 = 0, v2 = 0;
+    X.forEach((z) => { v0 += margin(model, z, A); v1 += margin(model, [probe[0], z[1]], A); v2 += margin(model, [z[0], probe[1]], A); });
+    v0 /= X.length; v1 /= X.length; v2 /= X.length;
+    const phi = [0.5 * ((v1 - v0) + (g - v2)), 0.5 * ((v2 - v0) + (g - v1))];
+    const scale = Math.max(0.25, Math.abs(phi[0]), Math.abs(phi[1]));
+    const bar = (name, val) => {
+      const w = 50 * Math.abs(val) / scale, left = val >= 0 ? 50 : 50 - w;
+      const col = val >= 0 ? "var(--c" + A + ")" : "var(--muted)";
+      return '<div class="bar"><span class="mono">' + name + '</span><span class="track"><span class="fill" style="left:' +
+        left + "%;width:" + w + "%;background:" + col + '"></span></span><span class="mono" style="text-align:right">' +
+        (val >= 0 ? "+" : "−") + Math.abs(val).toFixed(3) + "</span></div>";
+    };
+    box.innerHTML = '<p class="note" style="color:var(--fg)">At (<span class="mono">' + probe[0].toFixed(2) + ", " + probe[1].toFixed(2) +
+      '</span>) the model predicts class <b>' + "AB"[A] + '</b>. Margin <span class="mono">' + g.toFixed(3) +
+      '</span>; its average over the training rows <span class="mono">' + v0.toFixed(3) + "</span>.</p>" +
+      bar("x1", phi[0]) + bar("x2", phi[1]) +
+      '<p class="note">Check: x1 + x2 = <span class="mono">' + (phi[0] + phi[1]).toFixed(3) +
+      '</span> = margin − average = <span class="mono">' + (g - v0).toFixed(3) + "</span>.</p>";
+  }
+
+  // ---------------------------------------------------------------- drawing
+  const canvas = $("plot"), ctx = canvas.getContext("2d");
+  const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  function hatchPattern(color, dpr) {
+    const s = Math.round(8 * dpr), c = document.createElement("canvas");
+    c.width = c.height = s;
+    const h = c.getContext("2d");
+    h.strokeStyle = color; h.globalAlpha = 0.55; h.lineWidth = Math.max(1, dpr);
+    h.beginPath(); h.moveTo(0, s); h.lineTo(s, 0); h.moveTo(-s / 2, s / 2); h.lineTo(s / 2, -s / 2); h.moveTo(s / 2, s * 1.5); h.lineTo(s * 1.5, s / 2); h.stroke();
+    return ctx.createPattern(c, "repeat");
+  }
+  function draw() {
+    const dpr = window.devicePixelRatio || 1, size = canvas.clientWidth;
+    if (!size || !model) return;
+    canvas.width = canvas.height = Math.round(size * dpr);
+    const S = canvas.width, cell = S / G;
+    const px = (x) => x * S, py = (y) => (1 - y) * S;
+    const col = [css("--c0"), css("--c1")], surface = css("--surface"), fg = css("--fg");
+    ctx.fillStyle = surface; ctx.fillRect(0, 0, S, S);
+    // predicted class everywhere
+    ctx.globalAlpha = 0.16;
+    for (let p = 0; p < grid.length; p++) {
+      ctx.fillStyle = col[gridPred[p]];
+      const gx = p % G, gy = Math.floor(p / G);
+      ctx.fillRect(gx * cell, S - (gy + 1) * cell, cell + 0.5, cell + 0.5);
+    }
+    ctx.globalAlpha = 1;
+    // certificate, then the predictions that changed since it started
+    ctx.fillStyle = hatchPattern(css("--hatch"), dpr);
+    for (let p = 0; p < grid.length; p++) if (cert[p]) {
+      const gx = p % G, gy = Math.floor(p / G);
+      ctx.fillRect(gx * cell, S - (gy + 1) * cell, cell + 0.5, cell + 0.5);
+    }
+    ctx.fillStyle = css("--changed"); ctx.globalAlpha = 0.55;
+    for (let p = 0; p < grid.length; p++) if (gridPred[p] !== refPred[p]) {
+      const gx = p % G, gy = Math.floor(p / G);
+      ctx.fillRect(gx * cell, S - (gy + 1) * cell, cell + 0.5, cell + 0.5);
+    }
+    ctx.globalAlpha = 1;
+    // boxes
+    model.boxes.forEach((b) => {
+      const x0 = px(b.v[0]), x1 = px(b.w[0]), y0 = py(b.w[1]), y1 = py(b.v[1]);
+      ctx.strokeStyle = col[b.cls]; ctx.lineWidth = 1.5 * dpr;
+      ctx.strokeRect(x0, y0, Math.max(x1 - x0, 1), Math.max(y1 - y0, 1));
+    });
+    if (lastEdit) {
+      const o = lastEdit.old;
+      ctx.setLineDash([4 * dpr, 3 * dpr]); ctx.strokeStyle = fg; ctx.lineWidth = 1.2 * dpr;
+      ctx.strokeRect(px(o.v[0]), py(o.w[1]), Math.max(px(o.w[0]) - px(o.v[0]), 1), Math.max(py(o.v[1]) - py(o.w[1]), 1));
+      ctx.setLineDash([]);
+      if (lastEdit.now) {
+        const b = lastEdit.now; ctx.lineWidth = 3 * dpr; ctx.strokeStyle = col[b.cls];
+        ctx.strokeRect(px(b.v[0]), py(b.w[1]), Math.max(px(b.w[0]) - px(b.v[0]), 1), Math.max(py(b.v[1]) - py(b.w[1]), 1));
+      }
+    }
+    // training rows: circles for A, squares for B; errors get a ring
+    const pred = metrics(model, X, Y).pred, rad = 3.6 * dpr;
+    X.forEach((x, r) => {
+      const cx = px(x[0]), cy = py(x[1]);
+      ctx.fillStyle = col[Y[r]]; ctx.strokeStyle = surface; ctx.lineWidth = 1.5 * dpr;
+      ctx.beginPath();
+      if (Y[r] === 0) ctx.arc(cx, cy, rad, 0, 2 * Math.PI); else ctx.rect(cx - rad, cy - rad, 2 * rad, 2 * rad);
+      ctx.fill(); ctx.stroke();
+      if (pred[r] !== Y[r]) {
+        ctx.strokeStyle = fg; ctx.lineWidth = 1.6 * dpr;
+        ctx.beginPath(); ctx.arc(cx, cy, rad + 4 * dpr, 0, 2 * Math.PI); ctx.stroke();
+      }
+    });
+    if (probe) {
+      const cx = px(probe[0]), cy = py(probe[1]), a = 9 * dpr;
+      ctx.strokeStyle = fg; ctx.lineWidth = 2 * dpr;
+      ctx.beginPath(); ctx.moveTo(cx - a, cy); ctx.lineTo(cx + a, cy); ctx.moveTo(cx, cy - a); ctx.lineTo(cx, cy + a); ctx.stroke();
+    }
+    // axis labels
+    ctx.fillStyle = css("--muted"); ctx.font = (11 * dpr) + "px " + css("--mono");
+    ctx.fillText("x1 →", S - 40 * dpr, S - 6 * dpr);
+    ctx.save(); ctx.translate(12 * dpr, 40 * dpr); ctx.rotate(-Math.PI / 2); ctx.fillText("x2 →", 0, 0); ctx.restore();
+  }
+  function drawLegend() {
+    const set = (id, style) => Object.assign($(id).style, style);
+    set("lg0", { background: css("--c0"), borderRadius: "50%" });
+    set("lg1", { background: css("--c1") });
+    set("lgerr", { border: "2px solid " + css("--fg"), borderRadius: "50%" });
+    set("lgcert", { backgroundImage: "repeating-linear-gradient(135deg, " + css("--hatch") + " 0 1px, transparent 1px 5px)", border: "1px solid " + css("--line") });
+    set("lgchg", { background: css("--changed"), opacity: 0.7 });
+  }
+
+  // ---------------------------------------------------------------- text
+  function note(text, strong) { logLines.unshift({ text, strong: !!strong }); if (logLines.length > 60) logLines.pop(); }
+  function update() {
+    const now = metrics(model, X, Y);
+    const row = (name, a, b) => "<tr><td>" + name + '</td><td class="n">' + a + '</td><td class="n">' + b + "</td></tr>";
+    $("stats").innerHTML =
+      row("Boxes", start.boxes, model.boxes.length) +
+      row("Training errors", start.errors, now.errors) +
+      row("Training accuracy", start.acc.toFixed(1) + "%", now.acc.toFixed(1) + "%") +
+      row("Training macro-F1", start.f1.toFixed(1), now.f1.toFixed(1)) +
+      row("Edits tried / accepted", "", tried + " / " + accepted);
+    let c = 0, ch = 0, inside = true;
+    for (let p = 0; p < grid.length; p++) {
+      c += cert[p];
+      if (gridPred[p] !== refPred[p]) { ch += 1; if (!cert[p]) inside = false; }
+    }
+    $("certline").innerHTML = "Since the certificate started: it covers <b class=\"mono\">" + (100 * c / grid.length).toFixed(1) +
+      "%</b> of the square; predictions changed on <b class=\"mono\">" + (100 * ch / grid.length).toFixed(1) +
+      "%</b>. " + (inside ? '<span class="yes">Every change is inside the certificate.</span>'
+                          : '<span class="no">A change falls outside the certificate: this page has a bug.</span>');
+    $("log").innerHTML = logLines.map((l) => '<div class="' + (l.strong ? "acc" : "") + '">' + l.text + "</div>").join("");
+    explain();
+    drawLegend();
+    draw();
+  }
+
+  // ---------------------------------------------------------------- wiring
+  [["theta", "thetaOut", 2], ["gamma", "gammaOut", 0], ["noise", "noiseOut", 2]].forEach(([id, out, d]) => {
+    $(id).addEventListener("input", () => { $(out).textContent = (+$(id).value).toFixed(d); });
+  });
+  $("theta").addEventListener("change", train);
+  $("gamma").addEventListener("change", train);
+  $("noise").addEventListener("change", newData);
+  $("seed").addEventListener("change", newData);
+  $("train").addEventListener("click", train);
+  $("newdata").addEventListener("click", () => { $("seed").value = 1 + Math.floor(Math.random() * 9999); newData(); });
+  $("step").addEventListener("click", () => { tryNext(); update(); });
+  $("all").addEventListener("click", () => { let n = 0; while (n < 300 && tryNext()) n++; update(); });
+  $("resetcert").addEventListener("click", () => {
+    refPred = gridPred.slice(); cert = new Uint8Array(grid.length); lastEdit = null;
+    note("Certificate restarted from the current model.", true); update();
+  });
+  canvas.addEventListener("click", (e) => {
+    const r = canvas.getBoundingClientRect();
+    probe = [Math.min(1, Math.max(0, (e.clientX - r.left) / r.width)), Math.min(1, Math.max(0, 1 - (e.clientY - r.top) / r.height))];
+    update();
+  });
+  canvas.addEventListener("keydown", (e) => {
+    const step = { ArrowLeft: [-0.02, 0], ArrowRight: [0.02, 0], ArrowUp: [0, 0.02], ArrowDown: [0, -0.02] }[e.key];
+    if (!step) return;
+    e.preventDefault();
+    probe = probe || [0.5, 0.5];
+    probe = [Math.min(1, Math.max(0, probe[0] + step[0])), Math.min(1, Math.max(0, probe[1] + step[1]))];
+    update();
+  });
+  new ResizeObserver(() => draw()).observe(canvas);
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { drawLegend(); draw(); });
+  new MutationObserver(() => { drawLegend(); draw(); }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+  newData();
+  probe = [0.5, 0.45];
+  update();
+})();
+</script>

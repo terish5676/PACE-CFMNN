@@ -1,0 +1,79 @@
+
+====================================================================================================
+Completeness
+====================================================================================================
+OK  run E rows: 60
+OK  run A rows: 540
+OK  run B rows: 23100
+OK  run C rows: 1210
+OK  run D rows: 480
+
+====================================================================================================
+E: the cached gate
+====================================================================================================
+OK  edit decisions replayed: 14827
+OK  edit decisions that differ: 0
+OK  runs equal to the committed macro-F1: 60
+OK  seed-50 standard runs equal to cached: 6
+speed-up per dataset 2.1-21.9; total 11.9  (paper: 2-22 times, 12 in total)
+
+====================================================================================================
+A: budgets and gates (macro-F1 vs SR-default)
+====================================================================================================
+SR-b100: 0 better / 5 level / 1 worse; better: []; worse: ['letter']; diffs {'skin': -0.05, 'letter': -1.14, 'magic': -0.36, 'landsat': -0.14, 'page_blocks': 0.12, 'thyroid': 0.0}
+SR-b1000: 1 better / 5 level / 0 worse; better: ['letter']; worse: []; diffs {'skin': -0.11, 'letter': 1.42, 'magic': -0.32, 'landsat': -0.06, 'page_blocks': 0.02, 'thyroid': 0.0}
+SR-ball: 1 better / 5 level / 0 worse; better: ['letter']; worse: []; diffs {'skin': -0.66, 'letter': 2.09, 'magic': -1.52, 'landsat': -0.06, 'page_blocks': 0.02, 'thyroid': 0.0}
+SR-gate-none: 0 better / 0 level / 6 worse; better: []; worse: ['skin', 'letter', 'magic', 'landsat', 'page_blocks', 'thyroid']; diffs {'skin': -3.12, 'letter': -0.99, 'magic': -0.85, 'landsat': -0.71, 'page_blocks': -10.29, 'thyroid': -4.59}
+SR-gate-strict: 0 better / 3 level / 3 worse; better: []; worse: ['skin', 'letter', 'thyroid']; diffs {'skin': -2.54, 'letter': -0.94, 'magic': -1.57, 'landsat': -0.94, 'page_blocks': -0.46, 'thyroid': -3.02}
+SR-gate-loose: 0 better / 5 level / 1 worse; better: []; worse: ['magic']; diffs {'skin': -0.25, 'letter': -0.06, 'magic': -0.71, 'landsat': -0.14, 'page_blocks': -0.35, 'thyroid': 0.0}
+SR-gate-cumulative: 0 better / 4 level / 2 worse; better: []; worse: ['skin', 'letter']; diffs {'skin': -2.1, 'letter': -0.47, 'magic': -1.06, 'landsat': -0.41, 'page_blocks': -0.82, 'thyroid': -2.38}
+MAGIC lowest recall: B0 69.6, SR-default 68.0, cumulative 70.8  (paper: 69.6, 68.0, 70.8)
+OK  certified edits: 6272
+loose: misses 0, size 12.95%, precision 2.76%
+tight: misses 0, size 6.33%, precision 6.22%
+centroid: misses 0, size 0.79%, precision 38.29%
+flip: misses 0, size 55.40%, precision 23.33%
+decomposition: misses 0, size 4.98%, precision 99.44%
+(paper: centroid 0.8% / 38%, tight 6.3% / 6%, decomposition 5.0% / 99%, flip 55% / 23%; 0 misses)
+
+====================================================================================================
+B: counterfactual robustness (per dataset and seed, mean over points)
+====================================================================================================
+PACE r1: 11 better / 0 level / 0 worse; better: ['shuttle', 'letter', 'magic', 'page_blocks', 'landsat', 'S1', 'S2', 'S3', 'wine', 'thyroid', 'breast_cancer']; worse: []
+PACE r3: 1 better / 7 level / 3 worse; better: ['shuttle']; worse: ['page_blocks', 'wine', 'breast_cancer']
+PACE-sparse r1: 11 better / 0 level / 0 worse; better: ['shuttle', 'letter', 'magic', 'page_blocks', 'landsat', 'S1', 'S2', 'S3', 'wine', 'thyroid', 'breast_cancer']; worse: []
+PACE-sparse r3: 1 better / 3 level / 7 worse; better: ['shuttle']; worse: ['magic', 'page_blocks', 'landsat', 'S1', 'S2', 'wine', 'breast_cancer']
+DiCE random r1 / PACE r1: 2.53-12.81  (paper: 2.5-13)
+DiCE random r1 / PACE-sparse r1: 1.54-9.70  (paper: 1.5-10)
+genetic and kdtree L1 above PACE on every dataset: True
+
+====================================================================================================
+C: RQ1 with 200 points
+====================================================================================================
+PACE-SHAP vs KernelSHAP, margin_auc: 7 better / 4 level / 0 worse; better: ['letter', 'thyroid', 'landsat', 'S2', 'S3', 'wine', 'breast_cancer']; worse: []
+PACE-SHAP vs KernelSHAP, insertion_margin_auc: 8 better / 3 level / 0 worse; better: ['letter', 'thyroid', 'landsat', 'S1', 'S2', 'S3', 'wine', 'breast_cancer']; worse: []
+PACE-SHAP vs KernelSHAP, margin_auc_untied: 7 better / 4 level / 0 worse; better: ['letter', 'thyroid', 'landsat', 'S2', 'S3', 'wine', 'breast_cancer']; worse: []
+PACE-SHAP vs KernelSHAP, insertion_margin_auc_untied: 8 better / 3 level / 0 worse; better: ['letter', 'thyroid', 'landsat', 'S1', 'S2', 'S3', 'wine', 'breast_cancer']; worse: []
+PACE-SHAP vs KernelSHAP, margin_auc_raw: 11 better / 0 level / 0 worse; better: ['magic', 'letter', 'shuttle', 'page_blocks', 'thyroid', 'landsat', 'S1', 'S2', 'S3', 'wine', 'breast_cancer']; worse: []
+PACE-SHAP vs KernelSHAP, insertion_margin_auc_raw: 11 better / 0 level / 0 worse; better: ['magic', 'letter', 'shuttle', 'page_blocks', 'thyroid', 'landsat', 'S1', 'S2', 'S3', 'wine', 'breast_cancer']; worse: []
+PACE-SHAP vs KernelSHAP-same, margin_auc: 4 better / 7 level / 0 worse; better: ['letter', 'thyroid', 'landsat', 'breast_cancer']; worse: []
+PACE-SHAP vs KernelSHAP-same, insertion_margin_auc: 5 better / 6 level / 0 worse; better: ['letter', 'thyroid', 'landsat', 'wine', 'breast_cancer']; worse: []
+PACE-SHAP vs KernelSHAP-same, margin_auc_untied: 4 better / 7 level / 0 worse; better: ['letter', 'thyroid', 'landsat', 'breast_cancer']; worse: []
+PACE-SHAP vs KernelSHAP-same, insertion_margin_auc_untied: 5 better / 6 level / 0 worse; better: ['letter', 'thyroid', 'landsat', 'wine', 'breast_cancer']; worse: []
+PACE-SHAP vs KernelSHAP-same, margin_auc_raw: 5 better / 6 level / 0 worse; better: ['letter', 'thyroid', 'landsat', 'wine', 'breast_cancer']; worse: []
+PACE-SHAP vs KernelSHAP-same, insertion_margin_auc_raw: 6 better / 5 level / 0 worse; better: ['letter', 'thyroid', 'landsat', 'S2', 'wine', 'breast_cancer']; worse: []
+
+====================================================================================================
+D: conditional settings
+====================================================================================================
+sigma=0.05, rows=200, cond_margin_auc: 4 better / 2 level / 0 worse; better: ['landsat', 'magic', 'shuttle', 'S1']; worse: []
+sigma=0.05, rows=200, cond_insertion_margin_auc: 4 better / 2 level / 0 worse; better: ['landsat', 'shuttle', 'page_blocks', 'S1']; worse: []
+sigma=0.2, rows=200, cond_margin_auc: 3 better / 3 level / 0 worse; better: ['landsat', 'magic', 'shuttle']; worse: []
+sigma=0.2, rows=200, cond_insertion_margin_auc: 3 better / 3 level / 0 worse; better: ['landsat', 'shuttle', 'page_blocks']; worse: []
+sigma=0.4, rows=200, cond_margin_auc: 3 better / 3 level / 0 worse; better: ['landsat', 'magic', 'shuttle']; worse: []
+sigma=0.4, rows=200, cond_insertion_margin_auc: 3 better / 3 level / 0 worse; better: ['landsat', 'letter', 'page_blocks']; worse: []
+sigma=0.2, rows=800, cond_margin_auc: 3 better / 3 level / 0 worse; better: ['landsat', 'magic', 'shuttle']; worse: []
+sigma=0.2, rows=800, cond_insertion_margin_auc: 6 better / 0 level / 0 worse; better: ['landsat', 'letter', 'magic', 'shuttle', 'page_blocks', 'S1']; worse: []
+sigma=0.05, rows=200: effective rows (large) 1.0-2.9; off-data Letter 10%, Shuttle 49%
+sigma=0.4, rows=200: effective rows (large) 27.4-119.8; off-data Letter 34%, Shuttle 67%
+(paper: 1-3 rows at 0.05, 27-120 at 0.4; Letter 10% -> 34%, Shuttle 49% -> 67%)

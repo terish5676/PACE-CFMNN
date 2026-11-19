@@ -1,0 +1,98 @@
+
+====================================================================================================
+Completeness and budget
+====================================================================================================
+OK  rows: 200
+OK  timing rows: 45
+OK  seeds: [160, 161, 162, 163, 164, 165, 166, 167, 168, 169]
+OK  features: [13, 30, 21, 16, 36]
+OK  every baseline within its budget: True
+
+====================================================================================================
+P1, P2 (primary): deletion margin AUC (lower is more faithful)
+====================================================================================================
+
+PACE-SHAP vs PermutationSHAP (margin_auc):
+                     a        b     diff        p   p_holm  a_better_seeds verdict
+unit                                                                              
+wine          -0.07479 -0.07435 -0.00044  0.27539  0.82617               6   level
+breast_cancer  0.12993  0.13029 -0.00036  0.03711  0.14844               8   level
+thyroid        0.53721  0.53779 -0.00057  0.27539  0.82617               5   level
+letter        -0.68095 -0.68054 -0.00041  0.69531  0.82617               6   level
+landsat       -0.34218 -0.33766 -0.00452  0.00195  0.00977              10  better
+
+PACE-SHAP vs KernelSHAP-paired (margin_auc):
+                     a        b     diff        p   p_holm  a_better_seeds verdict
+unit                                                                              
+wine          -0.07479 -0.07448 -0.00030  0.10547  0.21094               8   level
+breast_cancer  0.12993  0.13045 -0.00052  0.03711  0.14844               8   level
+thyroid        0.53721  0.53774 -0.00053  0.04883  0.14844               8   level
+letter        -0.68095 -0.68059 -0.00035  0.55664  0.55664               7   level
+landsat       -0.34218 -0.33649 -0.00569  0.00195  0.00977              10  better
+OK  P1 verdicts: {'better': ['landsat']}
+OK  P2 verdicts: {'better': ['landsat']}
+OK  P1, P2 Landsat differences: (-0.0045, -0.0057)
+OK  largest |difference| on the other 4: 0.0006
+
+====================================================================================================
+Secondary: insertion margin AUC (higher is more faithful)
+====================================================================================================
+
+PACE-SHAP vs PermutationSHAP (insertion_margin_auc):
+                     a        b     diff        p   p_holm  a_better_seeds verdict
+unit                                                                              
+wine           0.53636  0.53523  0.00113  0.00195  0.00977              10  better
+breast_cancer  0.70483  0.70449  0.00034  0.23242  0.69727               6   level
+thyroid        0.91667  0.91631  0.00036  0.84570  1.00000               5   level
+letter         0.02717  0.02779 -0.00062  0.62500  1.00000               4   level
+landsat        0.24919  0.24703  0.00215  0.10547  0.42188               7   level
+
+PACE-SHAP vs KernelSHAP-paired (insertion_margin_auc):
+                     a        b     diff        p   p_holm  a_better_seeds verdict
+unit                                                                              
+wine           0.53636  0.53493  0.00142  0.01953  0.05859               9   level
+breast_cancer  0.70483  0.70474  0.00009  0.92188  0.92188               5   level
+thyroid        0.91667  0.91592  0.00075  0.00195  0.00977              10  better
+letter         0.02717  0.02852 -0.00135  0.27539  0.55078               3   level
+landsat        0.24919  0.24357  0.00561  0.00977  0.03906               8  better
+OK  insertion vs PermutationSHAP: {'better': ['wine']}
+OK  insertion vs KernelSHAP-paired: {'better': ['landsat', 'thyroid']}
+
+====================================================================================================
+Error against exact values (Wine, Letter; first 10 points per seed)
+====================================================================================================
+method   KernelSHAP-paired  PACE-SHAP  PermutationSHAP
+dataset                                               
+letter              0.0490     0.0139           0.0458
+wine                0.0252     0.0100           0.0288
+OK  relative L1 error, Wine (PACE-SHAP, Permutation, Kernel): [0.01, 0.029, 0.025]
+OK  relative L1 error, Letter: [0.014, 0.046, 0.049]
+OK  PACE-SHAP's error as a share of the baselines': (0.28, 0.4)
+
+====================================================================================================
+Top-3 stability under a new seed
+====================================================================================================
+method         KernelSHAP-paired  PACE-SHAP  PermutationSHAP  Random
+dataset                                                             
+wine                       0.972      0.981            0.947   0.153
+breast_cancer              0.906      0.974            0.888   0.059
+thyroid                    0.986      0.991            0.971   0.089
+letter                     0.924      0.974            0.912   0.129
+landsat                    0.714      0.950            0.761   0.047
+OK  PACE-SHAP the steadiest on every dataset: True
+OK  Landsat (PACE-SHAP, Permutation, Kernel): [0.95, 0.76, 0.71]
+
+====================================================================================================
+Timing pass (seeds 160-162, one task at a time): milliseconds per explanation
+====================================================================================================
+method         KernelSHAP-paired  PACE-SHAP  PermutationSHAP
+dataset                                                     
+wine                        57.6        7.4             69.3
+breast_cancer              802.5       83.6            805.0
+thyroid                    562.2       60.3            228.2
+letter                    3069.2      524.1           2549.9
+landsat                   4594.4      635.8           4450.6
+OK  PACE-SHAP ms: [7, 84, 60, 524, 636]
+OK  baselines' time as a multiple of PACE-SHAP's: (3.8, 9.6)
+
+ALL OK

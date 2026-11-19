@@ -1,0 +1,241 @@
+0 of 130 dataset-seed pairs already done; 130 to run.
+skin seed 61: errors 1499 inner errors 1776 AUPRC LR: kNN + TS + order ens. 0.998 LR kNN+TS 0.998 kNN 0.995 (87s)
+skin seed 62: errors 242 inner errors 320 AUPRC LR: kNN + TS + order ens. 0.983 LR kNN+TS 0.986 kNN 0.977 (88s)
+skin seed 63: errors 1558 inner errors 1912 AUPRC LR: kNN + TS + order ens. 0.999 LR kNN+TS 1.000 kNN 0.997 (88s)
+skin seed 60: errors 1461 inner errors 1712 AUPRC LR: kNN + TS + order ens. 0.997 LR kNN+TS 0.998 kNN 0.997 (88s)
+skin seed 64: errors 973 inner errors 1245 AUPRC LR: kNN + TS + order ens. 0.999 LR kNN+TS 0.999 kNN 0.996 (86s)
+skin seed 65: errors 1327 inner errors 1580 AUPRC LR: kNN + TS + order ens. 0.998 LR kNN+TS 0.998 kNN 0.996 (86s)
+skin seed 66: errors 584 inner errors 756 AUPRC LR: kNN + TS + order ens. 0.997 LR kNN+TS 0.996 kNN 0.991 (86s)
+skin seed 67: errors 1438 inner errors 1744 AUPRC LR: kNN + TS + order ens. 0.998 LR kNN+TS 0.998 kNN 0.995 (86s)
+letter seed 60: errors 2108 inner errors 523 AUPRC LR: kNN + TS + order ens. 0.986 LR kNN+TS 0.986 kNN 0.976 (34s)
+letter seed 61: errors 2008 inner errors 468 AUPRC LR: kNN + TS + order ens. 0.983 LR kNN+TS 0.983 kNN 0.969 (35s)
+letter seed 62: errors 2123 inner errors 527 AUPRC LR: kNN + TS + order ens. 0.988 LR kNN+TS 0.987 kNN 0.977 (35s)
+letter seed 63: errors 2120 inner errors 514 AUPRC LR: kNN + TS + order ens. 0.981 LR kNN+TS 0.981 kNN 0.968 (35s)
+skin seed 68: errors 702 inner errors 822 AUPRC LR: kNN + TS + order ens. 0.990 LR kNN+TS 0.985 kNN 0.991 (88s)
+skin seed 69: errors 644 inner errors 824 AUPRC LR: kNN + TS + order ens. 0.995 LR kNN+TS 0.996 kNN 0.992 (88s)
+letter seed 64: errors 2151 inner errors 511 AUPRC LR: kNN + TS + order ens. 0.984 LR kNN+TS 0.983 kNN 0.970 (37s)
+letter seed 65: errors 2155 inner errors 508 AUPRC LR: kNN + TS + order ens. 0.987 LR kNN+TS 0.986 kNN 0.974 (37s)
+letter seed 66: errors 2081 inner errors 554 AUPRC LR: kNN + TS + order ens. 0.988 LR kNN+TS 0.988 kNN 0.974 (39s)
+letter seed 67: errors 2139 inner errors 567 AUPRC LR: kNN + TS + order ens. 0.985 LR kNN+TS 0.984 kNN 0.972 (38s)
+magic seed 60: errors 1871 inner errors 506 AUPRC LR: kNN + TS + order ens. 0.734 LR kNN+TS 0.720 kNN 0.676 (17s)
+magic seed 61: errors 1809 inner errors 471 AUPRC LR: kNN + TS + order ens. 0.709 LR kNN+TS 0.697 kNN 0.651 (16s)
+letter seed 68: errors 2200 inner errors 544 AUPRC LR: kNN + TS + order ens. 0.986 LR kNN+TS 0.985 kNN 0.973 (38s)
+letter seed 69: errors 2072 inner errors 493 AUPRC LR: kNN + TS + order ens. 0.984 LR kNN+TS 0.983 kNN 0.969 (38s)
+magic seed 62: errors 2253 inner errors 557 AUPRC LR: kNN + TS + order ens. 0.806 LR kNN+TS 0.792 kNN 0.758 (18s)
+magic seed 63: errors 2196 inner errors 540 AUPRC LR: kNN + TS + order ens. 0.784 LR kNN+TS 0.775 kNN 0.738 (18s)
+magic seed 64: errors 1975 inner errors 476 AUPRC LR: kNN + TS + order ens. 0.734 LR kNN+TS 0.725 kNN 0.686 (18s)
+magic seed 65: errors 2019 inner errors 484 AUPRC LR: kNN + TS + order ens. 0.752 LR kNN+TS 0.748 kNN 0.699 (18s)
+magic seed 66: errors 1945 inner errors 455 AUPRC LR: kNN + TS + order ens. 0.737 LR kNN+TS 0.720 kNN 0.684 (19s)
+magic seed 67: errors 2081 inner errors 545 AUPRC LR: kNN + TS + order ens. 0.772 LR kNN+TS 0.762 kNN 0.723 (20s)
+magic seed 68: errors 1806 inner errors 453 AUPRC LR: kNN + TS + order ens. 0.708 LR kNN+TS 0.695 kNN 0.646 (21s)
+magic seed 69: errors 2262 inner errors 582 AUPRC LR: kNN + TS + order ens. 0.810 LR kNN+TS 0.798 kNN 0.764 (20s)
+S2-shifted seed 60: errors 1062 inner errors 108 AUPRC LR: kNN + TS + order ens. 0.776 LR kNN+TS 0.754 kNN 0.715 (23s)
+S2-shifted seed 61: errors 1002 inner errors 104 AUPRC LR: kNN + TS + order ens. 0.748 LR kNN+TS 0.719 kNN 0.688 (24s)
+S2-shifted seed 62: errors 1004 inner errors 88 AUPRC LR: kNN + TS + order ens. 0.744 LR kNN+TS 0.720 kNN 0.685 (23s)
+S2-shifted seed 63: errors 998 inner errors 96 AUPRC LR: kNN + TS + order ens. 0.749 LR kNN+TS 0.721 kNN 0.683 (22s)
+S2-shifted seed 64: errors 1030 inner errors 93 AUPRC LR: kNN + TS + order ens. 0.755 LR kNN+TS 0.730 kNN 0.691 (23s)
+S2-shifted seed 65: errors 1044 inner errors 105 AUPRC LR: kNN + TS + order ens. 0.761 LR kNN+TS 0.728 kNN 0.692 (23s)
+S2-shifted seed 66: errors 1054 inner errors 111 AUPRC LR: kNN + TS + order ens. 0.736 LR kNN+TS 0.703 kNN 0.671 (24s)
+S2-shifted seed 67: errors 993 inner errors 80 AUPRC LR: kNN + TS + order ens. 0.710 LR kNN+TS 0.710 kNN 0.673 (24s)
+S1 seed 60: errors 231 inner errors 60 AUPRC LR: kNN + TS + order ens. 0.923 LR kNN+TS 0.890 kNN 0.858 (18s)
+S1 seed 61: errors 241 inner errors 67 AUPRC LR: kNN + TS + order ens. 0.934 LR kNN+TS 0.894 kNN 0.864 (19s)
+S2-shifted seed 68: errors 1025 inner errors 88 AUPRC LR: kNN + TS + order ens. 0.734 LR kNN+TS 0.700 kNN 0.672 (34s)
+S2-shifted seed 69: errors 1004 inner errors 93 AUPRC LR: kNN + TS + order ens. 0.749 LR kNN+TS 0.725 kNN 0.693 (35s)
+S1 seed 62: errors 226 inner errors 64 AUPRC LR: kNN + TS + order ens. 0.931 LR kNN+TS 0.902 kNN 0.870 (29s)
+S1 seed 63: errors 240 inner errors 64 AUPRC LR: kNN + TS + order ens. 0.942 LR kNN+TS 0.923 kNN 0.899 (29s)
+S1 seed 64: errors 233 inner errors 57 AUPRC LR: kNN + TS + order ens. 0.940 LR kNN+TS 0.915 kNN 0.875 (28s)
+S1 seed 65: errors 230 inner errors 49 AUPRC LR: kNN + TS + order ens. 0.935 LR kNN+TS 0.904 kNN 0.877 (28s)
+S1 seed 66: errors 229 inner errors 58 AUPRC LR: kNN + TS + order ens. 0.926 LR kNN+TS 0.893 kNN 0.862 (25s)
+S1 seed 67: errors 236 inner errors 57 AUPRC LR: kNN + TS + order ens. 0.914 LR kNN+TS 0.901 kNN 0.869 (26s)
+S1 seed 68: errors 234 inner errors 53 AUPRC LR: kNN + TS + order ens. 0.914 LR kNN+TS 0.877 kNN 0.853 (28s)
+S1 seed 69: errors 233 inner errors 64 AUPRC LR: kNN + TS + order ens. 0.917 LR kNN+TS 0.891 kNN 0.862 (28s)
+S2 seed 60: errors 372 inner errors 108 AUPRC LR: kNN + TS + order ens. 0.750 LR kNN+TS 0.723 kNN 0.675 (29s)
+S2 seed 61: errors 416 inner errors 104 AUPRC LR: kNN + TS + order ens. 0.711 LR kNN+TS 0.694 kNN 0.659 (27s)
+S2 seed 62: errors 397 inner errors 88 AUPRC LR: kNN + TS + order ens. 0.724 LR kNN+TS 0.699 kNN 0.659 (23s)
+S2 seed 63: errors 406 inner errors 96 AUPRC LR: kNN + TS + order ens. 0.752 LR kNN+TS 0.727 kNN 0.687 (23s)
+S2 seed 64: errors 411 inner errors 93 AUPRC LR: kNN + TS + order ens. 0.741 LR kNN+TS 0.716 kNN 0.676 (21s)
+S2 seed 65: errors 411 inner errors 105 AUPRC LR: kNN + TS + order ens. 0.744 LR kNN+TS 0.739 kNN 0.697 (21s)
+S2 seed 66: errors 402 inner errors 111 AUPRC LR: kNN + TS + order ens. 0.749 LR kNN+TS 0.727 kNN 0.689 (21s)
+S2 seed 67: errors 415 inner errors 80 AUPRC LR: kNN + TS + order ens. 0.716 LR kNN+TS 0.716 kNN 0.681 (22s)
+S2 seed 68: errors 403 inner errors 88 AUPRC LR: kNN + TS + order ens. 0.738 LR kNN+TS 0.701 kNN 0.676 (23s)
+S2 seed 69: errors 394 inner errors 93 AUPRC LR: kNN + TS + order ens. 0.756 LR kNN+TS 0.733 kNN 0.696 (24s)
+S3 seed 60: errors 294 inner errors 66 AUPRC LR: kNN + TS + order ens. 0.885 LR kNN+TS 0.759 kNN 0.710 (23s)
+S3 seed 61: errors 261 inner errors 78 AUPRC LR: kNN + TS + order ens. 0.819 LR kNN+TS 0.706 kNN 0.668 (23s)
+S3 seed 62: errors 278 inner errors 62 AUPRC LR: kNN + TS + order ens. 0.806 LR kNN+TS 0.689 kNN 0.651 (21s)
+S3 seed 63: errors 258 inner errors 76 AUPRC LR: kNN + TS + order ens. 0.820 LR kNN+TS 0.680 kNN 0.626 (19s)
+S3 seed 64: errors 287 inner errors 61 AUPRC LR: kNN + TS + order ens. 0.890 LR kNN+TS 0.720 kNN 0.690 (21s)
+S3 seed 65: errors 271 inner errors 59 AUPRC LR: kNN + TS + order ens. 0.853 LR kNN+TS 0.719 kNN 0.673 (21s)
+S3 seed 66: errors 291 inner errors 70 AUPRC LR: kNN + TS + order ens. 0.865 LR kNN+TS 0.763 kNN 0.710 (22s)
+S3 seed 67: errors 246 inner errors 67 AUPRC LR: kNN + TS + order ens. 0.844 LR kNN+TS 0.738 kNN 0.688 (23s)
+S3 seed 68: errors 280 inner errors 69 AUPRC LR: kNN + TS + order ens. 0.868 LR kNN+TS 0.723 kNN 0.686 (21s)
+S3 seed 69: errors 278 inner errors 82 AUPRC LR: kNN + TS + order ens. 0.868 LR kNN+TS 0.718 kNN 0.668 (22s)
+S2-imbalanced seed 60: errors 179 inner errors 56 AUPRC LR: kNN + TS + order ens. 0.645 LR kNN+TS 0.616 kNN 0.578 (22s)
+S2-imbalanced seed 61: errors 214 inner errors 49 AUPRC LR: kNN + TS + order ens. 0.719 LR kNN+TS 0.698 kNN 0.662 (21s)
+S2-imbalanced seed 62: errors 219 inner errors 51 AUPRC LR: kNN + TS + order ens. 0.664 LR kNN+TS 0.647 kNN 0.622 (19s)
+S2-imbalanced seed 63: errors 180 inner errors 40 AUPRC LR: kNN + TS + order ens. 0.576 LR kNN+TS 0.549 kNN 0.533 (19s)
+S2-imbalanced seed 64: errors 182 inner errors 47 AUPRC LR: kNN + TS + order ens. 0.681 LR kNN+TS 0.651 kNN 0.607 (23s)
+S2-imbalanced seed 65: errors 169 inner errors 44 AUPRC LR: kNN + TS + order ens. 0.672 LR kNN+TS 0.642 kNN 0.607 (24s)
+S2-imbalanced seed 66: errors 204 inner errors 51 AUPRC LR: kNN + TS + order ens. 0.678 LR kNN+TS 0.654 kNN 0.614 (24s)
+S2-imbalanced seed 67: errors 205 inner errors 45 AUPRC LR: kNN + TS + order ens. 0.675 LR kNN+TS 0.663 kNN 0.620 (24s)
+S2-imbalanced seed 68: errors 194 inner errors 40 AUPRC LR: kNN + TS + order ens. 0.687 LR kNN+TS 0.662 kNN 0.645 (19s)
+S2-imbalanced seed 69: errors 208 inner errors 46 AUPRC LR: kNN + TS + order ens. 0.697 LR kNN+TS 0.676 kNN 0.634 (18s)
+S2-label-noise seed 60: errors 510 inner errors 112 AUPRC LR: kNN + TS + order ens. 0.711 LR kNN+TS 0.698 kNN 0.664 (16s)
+S2-label-noise seed 61: errors 529 inner errors 119 AUPRC LR: kNN + TS + order ens. 0.652 LR kNN+TS 0.631 kNN 0.605 (17s)
+S2-label-noise seed 62: errors 516 inner errors 139 AUPRC LR: kNN + TS + order ens. 0.657 LR kNN+TS 0.638 kNN 0.610 (15s)
+S2-label-noise seed 63: errors 490 inner errors 130 AUPRC LR: kNN + TS + order ens. 0.674 LR kNN+TS 0.668 kNN 0.634 (16s)
+S2-label-noise seed 64: errors 552 inner errors 137 AUPRC LR: kNN + TS + order ens. 0.701 LR kNN+TS 0.682 kNN 0.648 (16s)
+S2-label-noise seed 65: errors 538 inner errors 120 AUPRC LR: kNN + TS + order ens. 0.703 LR kNN+TS 0.698 kNN 0.666 (15s)
+S2-label-noise seed 66: errors 498 inner errors 136 AUPRC LR: kNN + TS + order ens. 0.684 LR kNN+TS 0.670 kNN 0.633 (15s)
+S2-label-noise seed 67: errors 539 inner errors 136 AUPRC LR: kNN + TS + order ens. 0.718 LR kNN+TS 0.714 kNN 0.678 (14s)
+S2-label-noise seed 68: errors 550 inner errors 129 AUPRC LR: kNN + TS + order ens. 0.697 LR kNN+TS 0.692 kNN 0.656 (15s)
+S2-label-noise seed 69: errors 497 inner errors 137 AUPRC LR: kNN + TS + order ens. 0.697 LR kNN+TS 0.691 kNN 0.662 (14s)
+digits seed 60: errors 82 inner errors 72 AUPRC LR: kNN + TS + order ens. 0.880 LR kNN+TS 0.888 kNN 0.816 (24s)
+digits seed 61: errors 79 inner errors 61 AUPRC LR: kNN + TS + order ens. 0.849 LR kNN+TS 0.849 kNN 0.816 (25s)
+digits seed 62: errors 74 inner errors 67 AUPRC LR: kNN + TS + order ens. 0.804 LR kNN+TS 0.860 kNN 0.822 (24s)
+digits seed 63: errors 72 inner errors 67 AUPRC LR: kNN + TS + order ens. 0.833 LR kNN+TS 0.836 kNN 0.805 (23s)
+digits seed 64: errors 89 inner errors 68 AUPRC LR: kNN + TS + order ens. 0.911 LR kNN+TS 0.915 kNN 0.889 (21s)
+digits seed 65: errors 69 inner errors 65 AUPRC LR: kNN + TS + order ens. 0.855 LR kNN+TS 0.883 kNN 0.811 (21s)
+digits seed 66: errors 82 inner errors 63 AUPRC LR: kNN + TS + order ens. 0.877 LR kNN+TS 0.897 kNN 0.843 (22s)
+digits seed 67: errors 74 inner errors 51 AUPRC LR: kNN + TS + order ens. 0.853 LR kNN+TS 0.875 kNN 0.826 (22s)
+thyroid seed 60: errors 53 inner errors 22 AUPRC LR: kNN + TS + order ens. 0.304 LR kNN+TS 0.085 kNN 0.063 (9s)
+thyroid seed 61: errors 100 inner errors 21 AUPRC LR: kNN + TS + order ens. 0.427 LR kNN+TS 0.114 kNN 0.092 (9s)
+thyroid seed 62: errors 95 inner errors 27 AUPRC LR: kNN + TS + order ens. 0.396 LR kNN+TS 0.098 kNN 0.084 (9s)
+thyroid seed 63: errors 104 inner errors 21 AUPRC LR: kNN + TS + order ens. 0.477 LR kNN+TS 0.108 kNN 0.092 (8s)
+thyroid seed 64: errors 121 inner errors 28 AUPRC LR: kNN + TS + order ens. 0.533 LR kNN+TS 0.161 kNN 0.136 (5s)
+thyroid seed 65: errors 84 inner errors 27 AUPRC LR: kNN + TS + order ens. 0.395 LR kNN+TS 0.093 kNN 0.085 (5s)
+digits seed 68: errors 71 inner errors 65 AUPRC LR: kNN + TS + order ens. 0.843 LR kNN+TS 0.850 kNN 0.823 (33s)
+digits seed 69: errors 93 inner errors 64 AUPRC LR: kNN + TS + order ens. 0.907 LR kNN+TS 0.914 kNN 0.872 (33s)
+thyroid seed 66: errors 110 inner errors 25 AUPRC LR: kNN + TS + order ens. 0.474 LR kNN+TS 0.151 kNN 0.124 (6s)
+thyroid seed 67: errors 92 inner errors 18 AUPRC LR: kNN + TS + order ens. 0.380 LR kNN+TS 0.093 kNN 0.075 (6s)
+thyroid seed 68: errors 95 inner errors 21 AUPRC LR: kNN + TS + order ens. 0.409 LR kNN+TS 0.130 kNN 0.120 (6s)
+thyroid seed 69: errors 101 inner errors 19 AUPRC LR: kNN + TS + order ens. 0.417 LR kNN+TS 0.108 kNN 0.087 (6s)
+landsat seed 60: errors 393 inner errors 99 AUPRC LR: kNN + TS + order ens. 0.783 LR kNN+TS 0.765 kNN 0.706 (10s)
+landsat seed 61: errors 371 inner errors 90 AUPRC LR: kNN + TS + order ens. 0.768 LR kNN+TS 0.761 kNN 0.722 (10s)
+landsat seed 62: errors 421 inner errors 97 AUPRC LR: kNN + TS + order ens. 0.815 LR kNN+TS 0.806 kNN 0.755 (10s)
+landsat seed 63: errors 381 inner errors 93 AUPRC LR: kNN + TS + order ens. 0.791 LR kNN+TS 0.786 kNN 0.714 (12s)
+landsat seed 64: errors 336 inner errors 98 AUPRC LR: kNN + TS + order ens. 0.712 LR kNN+TS 0.709 kNN 0.649 (15s)
+landsat seed 65: errors 406 inner errors 99 AUPRC LR: kNN + TS + order ens. 0.799 LR kNN+TS 0.781 kNN 0.733 (16s)
+landsat seed 66: errors 389 inner errors 89 AUPRC LR: kNN + TS + order ens. 0.763 LR kNN+TS 0.768 kNN 0.712 (16s)
+landsat seed 67: errors 405 inner errors 90 AUPRC LR: kNN + TS + order ens. 0.809 LR kNN+TS 0.804 kNN 0.757 (14s)
+page_blocks seed 60: errors 212 inner errors 53 AUPRC LR: kNN + TS + order ens. 0.875 LR kNN+TS 0.855 kNN 0.789 (3s)
+page_blocks seed 61: errors 348 inner errors 78 AUPRC LR: kNN + TS + order ens. 0.917 LR kNN+TS 0.931 kNN 0.876 (3s)
+landsat seed 68: errors 409 inner errors 91 AUPRC LR: kNN + TS + order ens. 0.792 LR kNN+TS 0.785 kNN 0.722 (10s)
+landsat seed 69: errors 408 inner errors 116 AUPRC LR: kNN + TS + order ens. 0.836 LR kNN+TS 0.825 kNN 0.780 (10s)
+page_blocks seed 62: errors 163 inner errors 43 AUPRC LR: kNN + TS + order ens. 0.835 LR kNN+TS 0.823 kNN 0.731 (3s)
+page_blocks seed 63: errors 169 inner errors 37 AUPRC LR: kNN + TS + order ens. 0.788 LR kNN+TS 0.779 kNN 0.722 (3s)
+page_blocks seed 64: errors 239 inner errors 64 AUPRC LR: kNN + TS + order ens. 0.866 LR kNN+TS 0.867 kNN 0.799 (3s)
+page_blocks seed 65: errors 339 inner errors 83 AUPRC LR: kNN + TS + order ens. 0.945 LR kNN+TS 0.941 kNN 0.900 (3s)
+page_blocks seed 66: errors 275 inner errors 85 AUPRC LR: kNN + TS + order ens. 0.896 LR kNN+TS 0.889 kNN 0.848 (3s)
+page_blocks seed 67: errors 307 inner errors 73 AUPRC LR: kNN + TS + order ens. 0.917 LR kNN+TS 0.916 kNN 0.879 (3s)
+page_blocks seed 68: errors 173 inner errors 41 AUPRC LR: kNN + TS + order ens. 0.714 LR kNN+TS 0.755 kNN 0.702 (3s)
+page_blocks seed 69: errors 240 inner errors 63 AUPRC LR: kNN + TS + order ens. 0.898 LR kNN+TS 0.898 kNN 0.848 (2s)
+# Review Test 3 (pre-registered): is the order ensemble's gain specific to CFMNN?
+
+Rules: [`../PREREGISTRATION.md`](../PREREGISTRATION.md). Seeds [60, 61, 62, 63, 64, 65, 66, 67, 68, 69]. Same splits and eligibility (at least 50 errors in every seed) as the RQ2 confirmatory run. Learned combinations: logistic regression on standardised signals, fitted on the inner rows with their labels. Mean ± 95% CI over seeds.
+
+Tested units: the synthetic family (S1, S2, S3, S2-imbalanced, S2-label-noise, S2-shifted) and skin, letter, magic, digits, thyroid, landsat, page_blocks.
+
+## Datasets
+
+| Dataset | Split | Eligible | Accuracy (%) | Errors (min) | Inner errors (min) |
+|---|---|---|---|---|---|
+| skin | role split | yes | 94.8 | 242 | 320 |
+| letter | role split | yes | 73.6 | 2008 | 468 |
+| magic | role split | yes | 73.4 | 1806 | 453 |
+| S2-shifted | role split | yes | 79.6 | 993 | 80 |
+| S1 | role split | yes | 88.3 | 226 | 49 |
+| S2 | role split | yes | 79.9 | 372 | 80 |
+| S3 | role split | yes | 86.3 | 246 | 59 |
+| S2-imbalanced | role split | yes | 90.2 | 169 | 40 |
+| S2-label-noise | role split | yes | 73.9 | 490 | 112 |
+| digits | 5-fold CV | yes | 95.6 | 69 | 51 |
+| thyroid | role split | yes | 96.7 | 53 | 18 |
+| landsat | role split | yes | 84.8 | 336 | 89 |
+| page_blocks | role split | yes | 88.7 | 163 | 37 |
+
+## AUPRC (higher is better)
+
+| Unit | Base rate | kNN | Trust Score | Order ensemble | Bagged ensemble | SGD order ensemble | LR: kNN + TS | LR: kNN + TS + order ens. | LR: kNN + TS + bagged ens. | LR: kNN + TS + order ens. + bagged ens. | LR: kNN + TS + SGD order ens. |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Synthetic family | 0.170 | 0.695 ± 0.006 | 0.554 ± 0.006 | 0.649 ± 0.007 | 0.607 ± 0.007 | 0.717 ± 0.016 | 0.731 ± 0.008 | 0.770 ± 0.008 | 0.764 ± 0.008 | 0.782 ± 0.008 | **0.814 ± 0.011** |
+| skin | 0.052 | 0.993 ± 0.004 | 0.985 ± 0.016 | 0.760 ± 0.148 | 0.777 ± 0.092 | 0.303 ± 0.100 | 0.995 ± 0.004 | 0.995 ± 0.004 | **0.997 ± 0.002** | 0.996 ± 0.003 | 0.995 ± 0.004 |
+| letter | 0.264 | 0.972 ± 0.002 | 0.973 ± 0.002 | 0.796 ± 0.008 | 0.766 ± 0.012 | 0.532 ± 0.021 | 0.985 ± 0.002 | **0.985 ± 0.002** | 0.985 ± 0.002 | 0.985 ± 0.002 | 0.984 ± 0.002 |
+| magic | 0.266 | 0.703 ± 0.030 | 0.677 ± 0.029 | 0.561 ± 0.037 | 0.567 ± 0.044 | 0.556 ± 0.039 | 0.743 ± 0.027 | 0.755 ± 0.027 | 0.754 ± 0.027 | **0.758 ± 0.027** | 0.744 ± 0.027 |
+| digits | 0.044 | 0.832 ± 0.020 | 0.874 ± 0.020 | 0.615 ± 0.020 | 0.493 ± 0.035 | 0.442 ± 0.031 | **0.877 ± 0.020** | 0.861 ± 0.024 | 0.856 ± 0.024 | 0.848 ± 0.027 | 0.873 ± 0.018 |
+| thyroid | 0.033 | 0.096 ± 0.017 | 0.098 ± 0.017 | 0.399 ± 0.041 | 0.418 ± 0.068 | 0.087 ± 0.016 | 0.114 ± 0.018 | 0.421 ± 0.045 | 0.437 ± 0.077 | **0.499 ± 0.068** | 0.115 ± 0.020 |
+| landsat | 0.152 | 0.725 ± 0.026 | 0.740 ± 0.023 | 0.531 ± 0.036 | 0.520 ± 0.027 | 0.405 ± 0.036 | 0.779 ± 0.023 | **0.787 ± 0.024** | 0.783 ± 0.023 | 0.785 ± 0.024 | 0.775 ± 0.025 |
+| page_blocks | 0.113 | 0.809 ± 0.051 | 0.819 ± 0.061 | 0.523 ± 0.110 | 0.556 ± 0.138 | 0.637 ± 0.070 | **0.865 ± 0.045** | 0.865 ± 0.050 | 0.861 ± 0.049 | 0.860 ± 0.051 | 0.863 ± 0.047 |
+
+## AUROC
+
+| Unit | Base rate | kNN | Trust Score | Order ensemble | Bagged ensemble | SGD order ensemble | LR: kNN + TS | LR: kNN + TS + order ens. | LR: kNN + TS + bagged ens. | LR: kNN + TS + order ens. + bagged ens. | LR: kNN + TS + SGD order ens. |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Synthetic family | 0.170 | 0.910 ± 0.002 | 0.839 ± 0.004 | 0.882 ± 0.004 | 0.869 ± 0.003 | 0.905 ± 0.008 | 0.911 ± 0.003 | 0.923 ± 0.003 | 0.922 ± 0.003 | 0.927 ± 0.003 | **0.937 ± 0.004** |
+| skin | 0.052 | 0.998 ± 0.002 | 0.999 ± 0.001 | 0.981 ± 0.012 | 0.981 ± 0.010 | 0.864 ± 0.045 | 0.999 ± 0.000 | 1.000 ± 0.000 | 1.000 ± 0.000 | **1.000 ± 0.000** | 0.998 ± 0.002 |
+| letter | 0.264 | 0.991 ± 0.001 | 0.990 ± 0.001 | 0.930 ± 0.002 | 0.918 ± 0.005 | 0.819 ± 0.009 | 0.994 ± 0.001 | **0.994 ± 0.001** | 0.994 ± 0.001 | **0.994 ± 0.001** | 0.994 ± 0.001 |
+| magic | 0.266 | 0.870 ± 0.007 | 0.847 ± 0.007 | 0.801 ± 0.012 | 0.802 ± 0.013 | 0.788 ± 0.017 | 0.881 ± 0.006 | 0.887 ± 0.006 | 0.886 ± 0.006 | **0.889 ± 0.007** | 0.882 ± 0.007 |
+| digits | 0.044 | 0.981 ± 0.005 | **0.992 ± 0.001** | 0.908 ± 0.008 | 0.884 ± 0.011 | 0.926 ± 0.013 | 0.987 ± 0.004 | 0.986 ± 0.004 | 0.985 ± 0.005 | 0.983 ± 0.005 | 0.986 ± 0.004 |
+| thyroid | 0.033 | 0.720 ± 0.016 | 0.715 ± 0.025 | 0.815 ± 0.018 | 0.840 ± 0.040 | 0.671 ± 0.032 | 0.738 ± 0.022 | 0.862 ± 0.027 | 0.859 ± 0.035 | **0.896 ± 0.026** | 0.734 ± 0.024 |
+| landsat | 0.152 | 0.933 ± 0.005 | 0.940 ± 0.003 | 0.845 ± 0.012 | 0.837 ± 0.012 | 0.836 ± 0.018 | 0.949 ± 0.003 | **0.951 ± 0.004** | 0.950 ± 0.003 | 0.950 ± 0.004 | 0.948 ± 0.003 |
+| page_blocks | 0.113 | 0.957 ± 0.010 | 0.957 ± 0.011 | 0.836 ± 0.029 | 0.860 ± 0.043 | 0.897 ± 0.019 | 0.970 ± 0.009 | 0.971 ± 0.009 | 0.972 ± 0.007 | 0.973 ± 0.007 | **0.974 ± 0.007** |
+
+## T3a (primary): CFMNN's order ensemble vs a generic bagged ensemble of CFMNNs, each added to kNN + TS (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across units.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | 0.006 ± 0.004 | 9 of 10 | 0.0488 | 0.342 | 0.97 |
+| skin | -0.002 ± 0.002 | 4 of 10 | 0.275 | 1 | -0.54 |
+| letter | 0.000 ± 0.000 | 9 of 10 | 0.0137 | 0.109 | 1.07 |
+| magic | 0.001 ± 0.003 | 7 of 10 | 0.432 | 1 | 0.25 |
+| digits | 0.005 ± 0.008 | 6 of 10 | 0.232 | 1 | 0.40 |
+| thyroid | -0.016 ± 0.049 | 4 of 10 | 0.492 | 1 | -0.23 |
+| landsat | 0.004 ± 0.004 | 7 of 10 | 0.084 | 0.504 | 0.65 |
+| page_blocks | 0.004 ± 0.008 | 6 of 10 | 0.275 | 1 | 0.38 |
+
+## T3b: does the order ensemble add beyond the bagged ensemble? (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across units.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | 0.018 ± 0.003 | 10 of 10 | 0.00195 | 0.0156 | 3.86 |
+| skin | -0.001 ± 0.001 | 5 of 10 | 0.375 | 0.75 | -0.55 |
+| letter | 0.000 ± 0.000 | 9 of 10 | 0.00391 | 0.0234 | 1.43 |
+| magic | 0.004 ± 0.002 | 9 of 10 | 0.00586 | 0.0293 | 1.29 |
+| digits | -0.008 ± 0.009 | 2 of 10 | 0.0645 | 0.258 | -0.63 |
+| thyroid | 0.062 ± 0.024 | 10 of 10 | 0.00195 | 0.0156 | 1.81 |
+| landsat | 0.002 ± 0.003 | 7 of 10 | 0.131 | 0.393 | 0.55 |
+| page_blocks | -0.001 ± 0.006 | 6 of 10 | 0.922 | 0.922 | -0.12 |
+
+## T3c: does another learner's order ensemble add to kNN + TS? (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across units.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | 0.083 ± 0.008 | 10 of 10 | 0.00195 | 0.0156 | 7.33 |
+| skin | -0.001 ± 0.001 | 1 of 10 | 0.00391 | 0.0273 | -0.48 |
+| letter | -0.000 ± 0.000 | 2 of 10 | 0.0195 | 0.117 | -0.74 |
+| magic | 0.001 ± 0.002 | 7 of 10 | 0.375 | 1 | 0.34 |
+| digits | -0.003 ± 0.008 | 3 of 10 | 0.322 | 1 | -0.31 |
+| thyroid | 0.001 ± 0.006 | 5 of 10 | 1 | 1 | 0.09 |
+| landsat | -0.004 ± 0.007 | 3 of 10 | 0.232 | 1 | -0.42 |
+| page_blocks | -0.003 ± 0.006 | 4 of 10 | 0.492 | 1 | -0.31 |
+
+## T3d (replication of v2's Q1): does CFMNN's order ensemble add to kNN + TS? (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across units.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | 0.040 ± 0.005 | 10 of 10 | 0.00195 | 0.0156 | 5.57 |
+| skin | -0.000 ± 0.001 | 5 of 10 | 0.77 | 1 | -0.01 |
+| letter | 0.001 ± 0.000 | 9 of 10 | 0.00586 | 0.0234 | 1.31 |
+| magic | 0.011 ± 0.003 | 10 of 10 | 0.00195 | 0.0156 | 3.23 |
+| digits | -0.016 ± 0.012 | 0 of 10 | 0.00195 | 0.0156 | -0.91 |
+| thyroid | 0.307 ± 0.032 | 10 of 10 | 0.00195 | 0.0156 | 6.98 |
+| landsat | 0.008 ± 0.005 | 9 of 10 | 0.0137 | 0.041 | 1.15 |
+| page_blocks | -0.000 ± 0.012 | 6 of 10 | 0.557 | 1 | -0.01 |
+

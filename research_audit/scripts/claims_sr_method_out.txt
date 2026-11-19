@@ -1,0 +1,143 @@
+
+====================================================================================================
+RQ3 table: macro-F1 (points; starting model in %)
+====================================================================================================
+OK  rows per arm and dataset: [10]
+OK  starting model: [84.0, 82.0, 67.6, 72.6, 74.3, 93.1]
+OK  self-repair: [6.0, 1.5, 2.6, 3.3, 2.2, 5.7]
+OK  active learning: [6.4, 1.9, 4.9, 5.1, 1.9, 6.1]
+OK  SR then AL: [6.6, 2.6, 4.9, 5.3, 3.0, 6.2]
+OK  SR then AL, over self-repair: [0.6, 1.1, 2.3, 2.0, 0.7, 0.6]
+
+====================================================================================================
+RQ3 table: bold cells (pre-registered S3a and P3, recomputed)
+====================================================================================================
+SR vs B0 (test_macro_f1):
+                   a        b    diff       p  p_holm verdict
+unit                                                         
+thyroid      89.9757  83.9554  6.0204  0.0039  0.0117  better
+landsat      83.4606  81.9827  1.4778  0.0488  0.0488  better
+page_blocks  70.1360  67.5558  2.5801  0.0098  0.0195  better
+magic        75.8586  72.5919  3.2667  0.0020  0.0117  better
+letter       76.5947  74.3449  2.2497  0.0020  0.0117  better
+skin         98.7564  93.1002  5.6562  0.0020  0.0117  better
+OK  self-repair over the starting model: significant (better) on: ['landsat', 'letter', 'magic', 'page_blocks', 'skin', 'thyroid']
+SR+AL vs SR (test_macro_f1):
+                   a        b    diff       p  p_holm verdict
+unit                                                         
+thyroid      90.5460  89.9757  0.5703  0.3594  0.3867   level
+landsat      84.5427  83.4606  1.0821  0.0098  0.0488  better
+page_blocks  72.4172  70.1360  2.2812  0.1934  0.3867   level
+magic        77.8872  75.8586  2.0286  0.0020  0.0117  better
+letter       77.3273  76.5947  0.7326  0.0098  0.0488  better
+skin         99.3101  98.7564  0.5537  0.0645  0.1934   level
+OK  SR then AL over self-repair: significant (better) on: ['landsat', 'letter', 'magic']
+OK  SR then AL over self-repair: significantly worse on: []
+
+====================================================================================================
+RQ3 table: lowest class recall (points; starting model in %)
+====================================================================================================
+OK  starting model: [59.2, 47.3, 52.4, 71.9, 49.7, 80.9]
+OK  self-repair: [19.4, 6.4, 0.1, -2.7, 2.9, 16.7]
+OK  active learning: [19.2, 8.0, -1.9, 0.4, 1.9, 17.4]
+OK  SR then AL: [20.5, 9.1, -1.3, -1.2, 3.8, 17.9]
+
+====================================================================================================
+RQ3 table: labels and seconds
+====================================================================================================
+OK  labels, self-repair: [0, 0, 0, 0, 0, 0]
+OK  labels, AL: [1020, 944, 821, 2202, 2300, 24806]
+OK  labels, SR then AL: [1020, 944, 821, 2202, 2300, 24806]
+OK  labels constant over seeds (AL, SR then AL): True
+OK  Run T verdict: every setup matches RQ3: True
+OK  Run T seed: [50]
+OK  seconds, self-repair (cached gate): [0.2, 1.4, 0.8, 2.1, 4.7, 2.5]
+OK  seconds, SR then AL: [6.8, 17.1, 4.6, 33.3, 117.5, 145.0]
+
+====================================================================================================
+RQ3 paragraph: numbers in the wording
+====================================================================================================
+OK  labels on top of self-repair add (points): 0.6-2.3
+OK  significantly on: 3 of 6
+OK  labels read: 821-24,806
+OK  SR then AL as a multiple of self-repair: 5.5-57
+OK  active learning ahead of self-repair: Page Blocks, MAGIC: (np.float64(2.3), np.float64(1.8))
+OK  self-repair lowered MAGIC's lowest class recall by: 2.7
+
+====================================================================================================
+RQ4 for self-repair alone (post hoc): fix share, broken predictions, explanations
+====================================================================================================
+OK  fix share, self-repair (%): 59.0-87.5
+OK  fix share, shuffled retraining (%): 40.5-52.4
+SR vs Retrain, shuffled (churn_fix_share):
+                   a        b     diff       p  p_holm verdict
+unit                                                          
+thyroid      86.4449  51.8329  34.6120  0.0020  0.0117  better
+landsat      58.9646  52.3586   6.6060  0.0488  0.0742   level
+page_blocks  69.3603  42.5551  26.8052  0.0371  0.0742   level
+magic        60.3478  47.1900  13.1579  0.0020  0.0117  better
+letter       65.9260  50.9154  15.0106  0.0020  0.0117  better
+skin         87.5047  40.5352  46.9695  0.0020  0.0117  better
+OK  fix share higher on every dataset: True
+OK  fix share difference (points): 6.6-47.0
+OK  fix share significant on: ['letter', 'magic', 'skin', 'thyroid']
+SR vs Retrain, shuffled (churn_broken_share):
+                  a        b    diff       p  p_holm verdict
+unit                                                        
+thyroid      0.1944   1.0278 -0.8333  0.0020  0.0117  better
+landsat      2.4224   6.0870 -3.6646  0.0020  0.0117  better
+page_blocks  0.7299   6.8066 -6.0766  0.0039  0.0117  better
+magic        7.2450  15.5994 -8.3544  0.0020  0.0117  better
+letter       2.3550  10.4850 -8.1300  0.0020  0.0117  better
+skin         0.5431   3.8272 -3.2841  0.0020  0.0117  better
+OK  fewer broken predictions, significant on: ['landsat', 'letter', 'magic', 'page_blocks', 'skin', 'thyroid']
+OK  broken: retrain minus self-repair (points of the test rows): 0.8-8.4
+SR vs Retrain, shuffled (expl_topk_change_share):
+                 a      b   diff      p  p_holm verdict
+unit                                                   
+thyroid      0.247  0.610 -0.363  0.002  0.0098  better
+landsat      0.331  0.976 -0.645  0.002  0.0098  better
+page_blocks  0.349  0.930 -0.581  0.002  0.0098  better
+magic        0.723  0.952 -0.229  0.002  0.0098  better
+letter       0.393  0.919 -0.526  0.002  0.0098  better
+OK  fewer explanation changes, significant on: ['landsat', 'letter', 'magic', 'page_blocks', 'thyroid']
+OK  explanations: retrain minus self-repair (points of the explained rows): 22.9-64.5
+OK  Skin's top 3 never changes (3 features): 0.0
+OK  self-repair's accepted edits: 6233
+OK  misses (tight, plain): (0, 0)
+
+====================================================================================================
+Run H: last two sentences of 'Order of the training errors'
+====================================================================================================
+dataset
+thyroid          4.48
+landsat          5.84
+page_blocks      7.31
+magic           46.09
+letter          35.70
+skin           132.33
+OK  greedy-300 as a multiple of random-300, MAGIC and Letter: 36-46
+OK  greedy-300 as a multiple of random-300, 6 datasets: 4.5-132
+greedy-300 vs random-300 (test_macro_f1):
+                   a        b    diff       p  p_holm verdict
+unit                                                         
+thyroid      91.5138  91.2917  0.2221  0.2500  0.5000   level
+landsat      84.6604  84.2333  0.4272  0.0840  0.2520   level
+page_blocks  65.7861  65.5002  0.2859  0.3750  0.5000   level
+magic        79.5366  74.6696  4.8670  0.0020  0.0117  better
+letter       79.0325  76.0537  2.9789  0.0020  0.0117  better
+skin         97.8007  98.8832 -1.0825  0.0059  0.0234   worse
+OK  greedy-300 better than random-300 on: ['letter', 'magic']
+OK  no gain on the other 4: ['landsat', 'page_blocks', 'skin', 'thyroid']
+
+====================================================================================================
+FINDINGS §5.5 only: extra numbers
+====================================================================================================
+OK  accuracy gain, self-repair (points): 1.1-3.9
+OK  accuracy gain, SR then AL (points): 1.2-5.9
+OK  AL raised MAGIC's lowest class recall by: 0.4
+OK  seeds where SR lowered MAGIC's lowest class recall: 9
+OK  fix share Holm p, Landsat and Page Blocks: (0.074, 0.074)
+OK  Page Blocks: SR accepted edits per seed: 12.5
+OK  Page Blocks: seeds with SR fix share 0%: 1
+OK  time saved by leaving out AL (% of SR then AL): 82-98

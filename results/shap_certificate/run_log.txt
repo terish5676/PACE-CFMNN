@@ -1,0 +1,87 @@
+﻿0 of 60 dataset-seed pairs already done; 60 to run.
+skin seed 332: 29 accepted edits, certified 2900, changed 851, changed outside 0 (57s)
+skin seed 330: 24 accepted edits, certified 2400, changed 1765, changed outside 0 (60s)
+skin seed 333: 30 accepted edits, certified 3000, changed 1034, changed outside 0 (82s)
+skin seed 331: 40 accepted edits, certified 3998, changed 1303, changed outside 0 (83s)
+skin seed 334: 25 accepted edits, certified 2500, changed 1268, changed outside 0 (67s)
+skin seed 335: 32 accepted edits, certified 3200, changed 1948, changed outside 0 (78s)
+skin seed 337: 37 accepted edits, certified 3700, changed 2510, changed outside 0 (77s)
+skin seed 336: 38 accepted edits, certified 3800, changed 1781, changed outside 0 (89s)
+skin seed 339: 25 accepted edits, certified 2500, changed 1212, changed outside 0 (55s)
+skin seed 338: 26 accepted edits, certified 2600, changed 472, changed outside 0 (72s)
+letter seed 330: 185 accepted edits, certified 18488, changed 5587, changed outside 0 (15036s)
+letter seed 333: 190 accepted edits, certified 18996, changed 6221, changed outside 0 (15700s)
+letter seed 332: 205 accepted edits, certified 20476, changed 6730, changed outside 0 (17362s)
+letter seed 331: 213 accepted edits, certified 21226, changed 6154, changed outside 0 (18008s)
+letter seed 334: 189 accepted edits, certified 18898, changed 6184, changed outside 0 (16094s)
+letter seed 335: 198 accepted edits, certified 19781, changed 6361, changed outside 0 (17040s)
+letter seed 336: 196 accepted edits, certified 19583, changed 6536, changed outside 0 (16864s)
+letter seed 337: 202 accepted edits, certified 20180, changed 7087, changed outside 0 (17676s)
+magic seed 330: 206 accepted edits, certified 20600, changed 16421, changed outside 0 (6711s)
+magic seed 331: 182 accepted edits, certified 18194, changed 13590, changed outside 0 (5640s)
+magic seed 332: 190 accepted edits, certified 19000, changed 14938, changed outside 0 (5509s)
+magic seed 333: 179 accepted edits, certified 17900, changed 14100, changed outside 0 (5455s)
+letter seed 338: 205 accepted edits, certified 20429, changed 6027, changed outside 0 (16386s)
+letter seed 339: 200 accepted edits, certified 19992, changed 6008, changed outside 0 (15803s)
+magic seed 335: 164 accepted edits, certified 16388, changed 13920, changed outside 0 (4869s)
+magic seed 334: 199 accepted edits, certified 19900, changed 15875, changed outside 0 (6296s)
+magic seed 336: 189 accepted edits, certified 18900, changed 15470, changed outside 0 (6354s)
+magic seed 337: 171 accepted edits, certified 17100, changed 14414, changed outside 0 (5584s)
+magic seed 338: 175 accepted edits, certified 17488, changed 14387, changed outside 0 (8341s)
+magic seed 339: 195 accepted edits, certified 19500, changed 16329, changed outside 0 (8517s)
+landsat seed 330: 150 accepted edits, certified 15000, changed 12668, changed outside 0 (18173s)
+landsat seed 331: 166 accepted edits, certified 16600, changed 13577, changed outside 0 (19530s)
+landsat seed 332: 172 accepted edits, certified 17200, changed 13306, changed outside 0 (21112s)
+landsat seed 333: 180 accepted edits, certified 18000, changed 14110, changed outside 0 (22347s)
+landsat seed 334: 172 accepted edits, certified 17200, changed 14306, changed outside 0 (19558s)
+landsat seed 335: 182 accepted edits, certified 18200, changed 14081, changed outside 0 (23400s)
+landsat seed 337: 166 accepted edits, certified 16600, changed 13688, changed outside 0 (17819s)
+thyroid seed 330: 13 accepted edits, certified 1300, changed 966, changed outside 0 (38s)
+thyroid seed 331: 9 accepted edits, certified 900, changed 744, changed outside 0 (25s)
+thyroid seed 332: 13 accepted edits, certified 1300, changed 1016, changed outside 0 (36s)
+thyroid seed 333: 16 accepted edits, certified 1600, changed 1381, changed outside 0 (45s)
+thyroid seed 334: 9 accepted edits, certified 900, changed 865, changed outside 0 (26s)
+thyroid seed 335: 11 accepted edits, certified 1100, changed 929, changed outside 0 (36s)
+thyroid seed 336: 13 accepted edits, certified 1300, changed 1154, changed outside 0 (35s)
+thyroid seed 337: 14 accepted edits, certified 1360, changed 1086, changed outside 0 (36s)
+thyroid seed 338: 8 accepted edits, certified 800, changed 672, changed outside 0 (24s)
+thyroid seed 339: 11 accepted edits, certified 1100, changed 863, changed outside 0 (31s)
+page_blocks seed 330: 5 accepted edits, certified 500, changed 417, changed outside 0 (14s)
+page_blocks seed 331: 6 accepted edits, certified 600, changed 471, changed outside 0 (18s)
+page_blocks seed 332: 14 accepted edits, certified 1385, changed 1149, changed outside 0 (36s)
+page_blocks seed 333: 8 accepted edits, certified 760, changed 539, changed outside 0 (20s)
+page_blocks seed 334: 14 accepted edits, certified 1400, changed 1297, changed outside 0 (31s)
+page_blocks seed 335: 7 accepted edits, certified 700, changed 655, changed outside 0 (19s)
+page_blocks seed 336: 11 accepted edits, certified 1100, changed 922, changed outside 0 (27s)
+page_blocks seed 337: 9 accepted edits, certified 860, changed 619, changed outside 0 (21s)
+page_blocks seed 338: 12 accepted edits, certified 1200, changed 776, changed outside 0 (26s)
+page_blocks seed 339: 15 accepted edits, certified 1500, changed 1336, changed outside 0 (39s)
+landsat seed 336: 196 accepted edits, certified 19600, changed 15928, changed outside 0 (21596s)
+landsat seed 338: 178 accepted edits, certified 17800, changed 14014, changed outside 0 (13887s)
+landsat seed 339: 166 accepted edits, certified 16600, changed 13025, changed outside 0 (9875s)
+.\.venv\Scripts\python : C:\Users\praka\Documents\pace-cfmnn\scripts\run_shap_certificate.py:180: Pandas4Warning: The 
+'float_precision' argument is deprecated. Use the default float precision instead.
+At line:1 char:329
++ ... START $t0"; .\.venv\Scripts\python -B scripts/run_shap_certificate.py ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\praka\...cision instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  df = pd.read_csv(csv, float_precision="round_trip", keep_default_na=False, na_values=[""])
+# Run P6: a certificate for PACE-SHAP explanations
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). Self-repair at θ = 0.3 on the refinement run's split, seeds 330–339, 100 explained test rows, 100 explainer rows. Written by `scripts/run_shap_certificate.py`.
+
+**Check: PASS.** Over 6,085 accepted edits and 608,500 (edit, row) pairs, no row outside the certificate changed by more than 1e-12.
+
+| Dataset | d | Mode | Accepted edits | Certified share (mean per edit) | Changed share | Certified rows that changed | Median relative change (changed rows) | Largest relative change |
+|---|---|---|---|---|---|---|---|---|
+| thyroid | 21 | sampled | 117 | 99.7% | 82.7% | 83.0% | 2.1e-04 | 6.6e+00 |
+| landsat | 36 | sampled | 1,728 | 100.0% | 80.3% | 80.3% | 2.6e-04 | 1.5e+00 |
+| page_blocks | 10 | exact | 101 | 99.1% | 81.0% | 81.8% | 2.0e-03 | 2.3e+01 |
+| magic | 10 | exact | 1,850 | 100.0% | 80.8% | 80.8% | 1.0e-03 | 2.4e+00 |
+| letter | 16 | sampled | 1,983 | 99.9% | 31.7% | 31.8% | 2.0e-05 | 2.2e+00 |
+| skin | 3 | exact | 306 | 100.0% | 46.2% | 46.2% | 5.9e-04 | 2.2e+00 |
+
+Certified share: the share of the explained rows the certificate marks, per edit. Changed share: the rows whose values really changed. Certified rows that changed: of all certified (edit, row) pairs, the share whose values changed (how tight the certificate is). Relative change: a row's largest value change divided by its largest value before the edit; the median is over changed rows per edit, then over edits.
+

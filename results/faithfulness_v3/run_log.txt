@@ -1,0 +1,1410 @@
+S1 seed 31 PACE-SHAP: margin -0.139 stab 1.00, 9612.93 ms
+S1 seed 34 PACE-SHAP: margin -0.192 stab 1.00, 9654.22 ms
+S1 seed 33 PACE-SHAP: margin -0.127 stab 1.00, 9683.86 ms
+S1 seed 35 PACE-SHAP: margin -0.135 stab 1.00, 9676.29 ms
+S1 seed 32 PACE-SHAP: margin -0.178 stab 1.00, 9763.19 ms
+S1 seed 30 PACE-SHAP: margin -0.229 stab 1.00, 9893.81 ms
+S1 seed 31 PACE-SHAP-20: margin -0.134 stab 0.65, 873.83 ms
+S1 seed 33 PACE-SHAP-20: margin -0.115 stab 0.72, 878.80 ms
+S1 seed 35 PACE-SHAP-20: margin -0.127 stab 0.74, 891.09 ms
+S1 seed 34 PACE-SHAP-20: margin -0.185 stab 0.75, 913.17 ms
+S1 seed 32 PACE-SHAP-20: margin -0.147 stab 0.62, 951.54 ms
+S1 seed 33 PACE-flip: margin -0.087 stab 1.00, 3.44 ms
+S1 seed 31 PACE-flip: margin -0.092 stab 1.00, 3.72 ms
+S1 seed 35 PACE-flip: margin -0.088 stab 1.00, 3.37 ms
+S1 seed 30 PACE-SHAP-20: margin -0.212 stab 0.83, 914.01 ms
+S1 seed 34 PACE-flip: margin -0.128 stab 1.00, 3.98 ms
+S1 seed 33 PACE-multi: margin -0.022 stab 1.00, 2.73 ms
+S1 seed 35 PACE-multi: margin 0.028 stab 1.00, 2.53 ms
+S1 seed 32 PACE-flip: margin -0.133 stab 1.00, 3.80 ms
+S1 seed 30 PACE-flip: margin -0.173 stab 1.00, 3.96 ms
+S1 seed 31 PACE-multi: margin -0.042 stab 1.00, 3.12 ms
+S1 seed 34 PACE-multi: margin -0.092 stab 1.00, 2.96 ms
+S1 seed 33 PACE-contrastive: margin 0.032 stab 1.00, 0.82 ms
+S1 seed 35 PACE-contrastive: margin 0.072 stab 1.00, 1.09 ms
+S1 seed 30 PACE-multi: margin -0.083 stab 1.00, 2.56 ms
+S1 seed 32 PACE-multi: margin -0.045 stab 1.00, 3.11 ms
+S1 seed 34 PACE-contrastive: margin -0.024 stab 1.00, 1.22 ms
+S1 seed 31 PACE-contrastive: margin 0.007 stab 1.00, 1.83 ms
+S1 seed 33 PACE-decomposition: margin 0.125 stab 1.00, 1.59 ms
+S1 seed 35 PACE-decomposition: margin 0.161 stab 1.00, 1.48 ms
+S1 seed 30 PACE-contrastive: margin 0.012 stab 1.00, 1.24 ms
+S1 seed 34 PACE-decomposition: margin 0.082 stab 1.00, 1.02 ms
+S1 seed 32 PACE-contrastive: margin -0.006 stab 1.00, 1.66 ms
+S1 seed 31 PACE-decomposition: margin 0.139 stab 1.00, 1.93 ms
+S1 seed 30 PACE-decomposition: margin 0.137 stab 1.00, 1.08 ms
+S1 seed 32 PACE-decomposition: margin 0.151 stab 1.00, 1.83 ms
+S1 seed 35 KernelSHAP: margin -0.134 stab 0.78, 4557.88 ms
+S1 seed 31 KernelSHAP: margin -0.132 stab 0.66, 4527.39 ms
+S1 seed 33 KernelSHAP: margin -0.116 stab 0.69, 4592.59 ms
+S1 seed 34 KernelSHAP: margin -0.191 stab 0.73, 4660.65 ms
+S1 seed 30 KernelSHAP: margin -0.218 stab 0.80, 4641.62 ms
+S1 seed 32 KernelSHAP: margin -0.147 stab 0.64, 4710.70 ms
+S1 seed 31 KernelSHAP-strong: margin -0.134 stab nan, 22616.42 ms
+S1 seed 35 KernelSHAP-strong: margin -0.127 stab nan, 23571.24 ms
+S1 seed 34 KernelSHAP-strong: margin -0.185 stab nan, 23376.02 ms
+S1 seed 33 KernelSHAP-strong: margin -0.115 stab nan, 24246.97 ms
+S1 seed 30 KernelSHAP-strong: margin -0.212 stab nan, 23872.40 ms
+S1 seed 32 KernelSHAP-strong: margin -0.147 stab nan, 23974.21 ms
+S1 seed 31 LIME: margin -0.098 stab 0.89, 1192.50 ms
+S1 seed 31 Random: margin 0.297 stab 0.19, 0.01 ms
+S1 seed 35 LIME: margin -0.103 stab 0.89, 1177.02 ms
+S1 seed 34 LIME: margin -0.174 stab 0.91, 1165.92 ms
+S1 seed 35 Random: margin 0.240 stab 0.23, 0.00 ms
+S1 seed 34 Random: margin 0.214 stab 0.17, 0.01 ms
+S1 seed 33 LIME: margin -0.099 stab 0.85, 1141.33 ms
+S1 seed 30 LIME: margin -0.202 stab 0.95, 1214.39 ms
+S1 seed 33 Random: margin 0.293 stab 0.21, 0.00 ms
+S1 seed 30 Random: margin 0.179 stab 0.21, 0.00 ms
+S1 seed 32 LIME: margin -0.153 stab 0.92, 1159.54 ms
+S1 seed 32 Random: margin 0.288 stab 0.18, 0.00 ms
+S1 seed 36 PACE-SHAP: margin -0.074 stab 1.00, 9082.34 ms
+S1 seed 37 PACE-SHAP: margin -0.088 stab 1.00, 9299.08 ms
+S1 seed 38 PACE-SHAP: margin -0.124 stab 1.00, 9376.48 ms
+S1 seed 39 PACE-SHAP: margin -0.101 stab 1.00, 9495.75 ms
+S1 seed 36 PACE-SHAP-20: margin -0.078 stab 0.73, 922.00 ms
+S2 seed 30 PACE-SHAP: margin -0.131 stab 1.00, 9711.16 ms
+S1 seed 36 PACE-flip: margin -0.032 stab 1.00, 3.79 ms
+S1 seed 36 PACE-multi: margin 0.071 stab 1.00, 1.74 ms
+S2 seed 31 PACE-SHAP: margin -0.141 stab 1.00, 9782.49 ms
+S1 seed 37 PACE-SHAP-20: margin -0.089 stab 0.78, 883.98 ms
+S1 seed 36 PACE-contrastive: margin 0.139 stab 1.00, 0.92 ms
+S1 seed 37 PACE-flip: margin -0.052 stab 1.00, 3.50 ms
+S1 seed 38 PACE-SHAP-20: margin -0.120 stab 0.77, 893.32 ms
+S1 seed 36 PACE-decomposition: margin 0.202 stab 1.00, 1.19 ms
+S1 seed 37 PACE-multi: margin 0.034 stab 1.00, 1.89 ms
+S1 seed 38 PACE-flip: margin -0.076 stab 1.00, 3.99 ms
+S1 seed 39 PACE-SHAP-20: margin -0.106 stab 0.76, 833.78 ms
+S1 seed 37 PACE-contrastive: margin 0.107 stab 1.00, 1.31 ms
+S1 seed 38 PACE-multi: margin -0.010 stab 1.00, 1.40 ms
+S1 seed 39 PACE-flip: margin -0.031 stab 1.00, 3.51 ms
+S1 seed 37 PACE-decomposition: margin 0.213 stab 1.00, 1.15 ms
+S2 seed 30 PACE-SHAP-20: margin -0.122 stab 0.72, 818.45 ms
+S1 seed 38 PACE-contrastive: margin 0.063 stab 1.00, 1.35 ms
+S1 seed 39 PACE-multi: margin 0.005 stab 1.00, 2.32 ms
+S2 seed 30 PACE-flip: margin -0.071 stab 1.00, 2.61 ms
+S2 seed 31 PACE-SHAP-20: margin -0.133 stab 0.69, 803.83 ms
+S1 seed 38 PACE-decomposition: margin 0.158 stab 1.00, 1.27 ms
+S1 seed 39 PACE-contrastive: margin 0.074 stab 1.00, 0.89 ms
+S2 seed 30 PACE-multi: margin 0.020 stab 1.00, 2.73 ms
+S2 seed 31 PACE-flip: margin -0.089 stab 1.00, 3.59 ms
+S1 seed 39 PACE-decomposition: margin 0.166 stab 1.00, 1.45 ms
+S2 seed 30 PACE-contrastive: margin 0.074 stab 1.00, 1.39 ms
+S2 seed 31 PACE-multi: margin 0.010 stab 1.00, 2.04 ms
+S2 seed 30 PACE-decomposition: margin 0.178 stab 1.00, 1.55 ms
+S2 seed 31 PACE-contrastive: margin 0.062 stab 1.00, 1.08 ms
+S2 seed 31 PACE-decomposition: margin 0.120 stab 1.00, 1.58 ms
+S1 seed 36 KernelSHAP: margin -0.080 stab 0.73, 4631.79 ms
+S1 seed 37 KernelSHAP: margin -0.084 stab 0.80, 4814.50 ms
+S1 seed 38 KernelSHAP: margin -0.119 stab 0.72, 4692.38 ms
+S1 seed 39 KernelSHAP: margin -0.104 stab 0.72, 4768.24 ms
+S2 seed 30 KernelSHAP: margin -0.114 stab 0.69, 4921.95 ms
+S2 seed 31 KernelSHAP: margin -0.134 stab 0.64, 4736.35 ms
+S1 seed 36 KernelSHAP-strong: margin -0.078 stab nan, 24715.78 ms
+S1 seed 37 KernelSHAP-strong: margin -0.089 stab nan, 25154.59 ms
+S1 seed 39 KernelSHAP-strong: margin -0.106 stab nan, 24308.41 ms
+S1 seed 38 KernelSHAP-strong: margin -0.120 stab nan, 25410.07 ms
+S1 seed 36 LIME: margin -0.037 stab 0.86, 1235.05 ms
+S2 seed 30 KernelSHAP-strong: margin -0.122 stab nan, 24702.33 ms
+S1 seed 36 Random: margin 0.318 stab 0.23, 0.00 ms
+S2 seed 31 KernelSHAP-strong: margin -0.133 stab nan, 24975.76 ms
+S1 seed 37 LIME: margin -0.058 stab 0.92, 1225.36 ms
+S1 seed 39 LIME: margin -0.077 stab 0.89, 1250.38 ms
+S1 seed 37 Random: margin 0.305 stab 0.20, 0.01 ms
+S1 seed 38 LIME: margin -0.095 stab 0.89, 1190.73 ms
+S1 seed 39 Random: margin 0.265 stab 0.23, 0.01 ms
+S1 seed 38 Random: margin 0.310 stab 0.21, 0.00 ms
+S2 seed 30 LIME: margin -0.098 stab 0.90, 1208.28 ms
+S2 seed 31 LIME: margin -0.094 stab 0.86, 1195.89 ms
+S2 seed 30 Random: margin 0.211 stab 0.21, 0.01 ms
+S2 seed 31 Random: margin 0.259 stab 0.19, 0.00 ms
+S2 seed 32 PACE-SHAP: margin -0.137 stab 1.00, 9162.36 ms
+S2 seed 34 PACE-SHAP: margin -0.140 stab 1.00, 9485.91 ms
+S2 seed 33 PACE-SHAP: margin -0.050 stab 1.00, 9530.75 ms
+S2 seed 35 PACE-SHAP: margin -0.120 stab 1.00, 9522.93 ms
+S2 seed 32 PACE-SHAP-20: margin -0.137 stab 0.71, 967.48 ms
+S2 seed 32 PACE-flip: margin -0.085 stab 1.00, 3.29 ms
+S2 seed 32 PACE-multi: margin -0.019 stab 1.00, 1.89 ms
+S2 seed 32 PACE-contrastive: margin 0.033 stab 1.00, 1.19 ms
+S2 seed 36 PACE-SHAP: margin -0.104 stab 1.00, 9805.96 ms
+S2 seed 37 PACE-SHAP: margin -0.244 stab 1.00, 9739.89 ms
+S2 seed 32 PACE-decomposition: margin 0.132 stab 1.00, 1.19 ms
+S2 seed 34 PACE-SHAP-20: margin -0.147 stab 0.69, 855.29 ms
+S2 seed 33 PACE-SHAP-20: margin -0.049 stab 0.62, 849.63 ms
+S2 seed 35 PACE-SHAP-20: margin -0.113 stab 0.69, 877.75 ms
+S2 seed 34 PACE-flip: margin -0.095 stab 1.00, 3.06 ms
+S2 seed 33 PACE-flip: margin 0.013 stab 1.00, 4.15 ms
+S2 seed 35 PACE-flip: margin -0.053 stab 1.00, 3.78 ms
+S2 seed 34 PACE-multi: margin -0.014 stab 1.00, 1.20 ms
+S2 seed 33 PACE-multi: margin 0.034 stab 1.00, 1.83 ms
+S2 seed 35 PACE-multi: margin 0.006 stab 1.00, 2.54 ms
+S2 seed 34 PACE-contrastive: margin 0.060 stab 1.00, 0.85 ms
+S2 seed 33 PACE-contrastive: margin 0.087 stab 1.00, 1.44 ms
+S2 seed 36 PACE-SHAP-20: margin -0.110 stab 0.54, 877.49 ms
+S2 seed 37 PACE-SHAP-20: margin -0.232 stab 0.57, 872.00 ms
+S2 seed 35 PACE-contrastive: margin 0.094 stab 1.00, 1.56 ms
+S2 seed 34 PACE-decomposition: margin 0.152 stab 1.00, 1.60 ms
+S2 seed 33 PACE-decomposition: margin 0.200 stab 1.00, 1.48 ms
+S2 seed 36 PACE-flip: margin -0.048 stab 1.00, 4.26 ms
+S2 seed 37 PACE-flip: margin -0.194 stab 1.00, 3.91 ms
+S2 seed 35 PACE-decomposition: margin 0.197 stab 1.00, 1.22 ms
+S2 seed 36 PACE-multi: margin 0.018 stab 1.00, 2.08 ms
+S2 seed 37 PACE-multi: margin -0.137 stab 1.00, 2.50 ms
+S2 seed 36 PACE-contrastive: margin 0.066 stab 1.00, 1.59 ms
+S2 seed 37 PACE-contrastive: margin -0.065 stab 1.00, 1.18 ms
+S2 seed 36 PACE-decomposition: margin 0.153 stab 1.00, 1.06 ms
+S2 seed 37 PACE-decomposition: margin 0.017 stab 1.00, 1.55 ms
+S2 seed 32 KernelSHAP: margin -0.131 stab 0.70, 5092.55 ms
+S2 seed 34 KernelSHAP: margin -0.143 stab 0.69, 4892.06 ms
+S2 seed 33 KernelSHAP: margin -0.043 stab 0.62, 5027.83 ms
+S2 seed 35 KernelSHAP: margin -0.108 stab 0.70, 5072.77 ms
+S2 seed 36 KernelSHAP: margin -0.110 stab 0.56, 5027.59 ms
+S2 seed 37 KernelSHAP: margin -0.225 stab 0.60, 5154.27 ms
+S2 seed 32 KernelSHAP-strong: margin -0.137 stab nan, 25577.01 ms
+S2 seed 34 KernelSHAP-strong: margin -0.147 stab nan, 24615.07 ms
+S2 seed 33 KernelSHAP-strong: margin -0.049 stab nan, 25354.96 ms
+S2 seed 35 KernelSHAP-strong: margin -0.113 stab nan, 26047.45 ms
+S2 seed 36 KernelSHAP-strong: margin -0.110 stab nan, 25319.57 ms
+S2 seed 37 KernelSHAP-strong: margin -0.232 stab nan, 25065.30 ms
+S2 seed 32 LIME: margin -0.092 stab 0.89, 1306.46 ms
+S2 seed 32 Random: margin 0.293 stab 0.18, 0.01 ms
+S2 seed 34 LIME: margin -0.130 stab 0.84, 1452.52 ms
+S2 seed 34 Random: margin 0.156 stab 0.17, 0.01 ms
+S2 seed 33 LIME: margin -0.017 stab 0.90, 1325.68 ms
+S2 seed 33 Random: margin 0.306 stab 0.21, 0.00 ms
+S2 seed 35 LIME: margin -0.061 stab 0.93, 1264.96 ms
+S2 seed 36 LIME: margin -0.077 stab 0.88, 1196.40 ms
+S2 seed 35 Random: margin 0.338 stab 0.23, 0.00 ms
+S2 seed 37 LIME: margin -0.214 stab 0.92, 1248.81 ms
+S2 seed 36 Random: margin 0.225 stab 0.23, 0.01 ms
+S2 seed 37 Random: margin 0.161 stab 0.20, 0.00 ms
+S2 seed 38 PACE-SHAP: margin -0.121 stab 1.00, 9200.97 ms
+S2 seed 39 PACE-SHAP: margin -0.129 stab 1.00, 9471.00 ms
+S3 seed 30 PACE-SHAP: margin -0.045 stab 1.00, 9311.74 ms
+S3 seed 31 PACE-SHAP: margin -0.101 stab 1.00, 9413.19 ms
+S2 seed 38 PACE-SHAP-20: margin -0.123 stab 0.76, 1028.60 ms
+S2 seed 38 PACE-flip: margin -0.072 stab 1.00, 2.73 ms
+S3 seed 32 PACE-SHAP: margin -0.139 stab 1.00, 9678.85 ms
+S3 seed 33 PACE-SHAP: margin 0.009 stab 1.00, 9601.97 ms
+S2 seed 38 PACE-multi: margin -0.011 stab 1.00, 1.96 ms
+S2 seed 38 PACE-contrastive: margin 0.063 stab 1.00, 1.51 ms
+S2 seed 39 PACE-SHAP-20: margin -0.119 stab 0.72, 922.72 ms
+S3 seed 30 PACE-SHAP-20: margin -0.047 stab 0.62, 825.54 ms
+S2 seed 38 PACE-decomposition: margin 0.156 stab 1.00, 1.33 ms
+S2 seed 39 PACE-flip: margin -0.061 stab 1.00, 2.85 ms
+S3 seed 30 PACE-flip: margin 0.038 stab 1.00, 3.56 ms
+S2 seed 39 PACE-multi: margin 0.013 stab 1.00, 2.18 ms
+S3 seed 31 PACE-SHAP-20: margin -0.095 stab 0.70, 781.70 ms
+S3 seed 30 PACE-multi: margin 0.118 stab 1.00, 1.50 ms
+S2 seed 39 PACE-contrastive: margin 0.069 stab 1.00, 1.13 ms
+S3 seed 31 PACE-flip: margin -0.044 stab 1.00, 3.26 ms
+S3 seed 30 PACE-contrastive: margin 0.151 stab 1.00, 1.21 ms
+S3 seed 32 PACE-SHAP-20: margin -0.110 stab 0.59, 785.83 ms
+S3 seed 33 PACE-SHAP-20: margin 0.021 stab 0.63, 770.76 ms
+S2 seed 39 PACE-decomposition: margin 0.181 stab 1.00, 1.55 ms
+S3 seed 31 PACE-multi: margin -0.009 stab 1.00, 2.07 ms
+S3 seed 30 PACE-decomposition: margin 0.275 stab 1.00, 1.40 ms
+S3 seed 32 PACE-flip: margin -0.064 stab 1.00, 3.81 ms
+S3 seed 33 PACE-flip: margin 0.059 stab 1.00, 3.41 ms
+S3 seed 31 PACE-contrastive: margin 0.034 stab 1.00, 0.79 ms
+S3 seed 32 PACE-multi: margin 0.007 stab 1.00, 2.52 ms
+S3 seed 33 PACE-multi: margin 0.118 stab 1.00, 2.05 ms
+S3 seed 31 PACE-decomposition: margin 0.131 stab 1.00, 1.49 ms
+S3 seed 32 PACE-contrastive: margin 0.058 stab 1.00, 1.38 ms
+S3 seed 33 PACE-contrastive: margin 0.173 stab 1.00, 1.41 ms
+S3 seed 32 PACE-decomposition: margin 0.178 stab 1.00, 1.62 ms
+S3 seed 33 PACE-decomposition: margin 0.264 stab 1.00, 1.57 ms
+S2 seed 38 KernelSHAP: margin -0.123 stab 0.72, 5723.64 ms
+S2 seed 39 KernelSHAP: margin -0.120 stab 0.74, 5957.26 ms
+S3 seed 30 KernelSHAP: margin -0.039 stab 0.57, 5962.92 ms
+S3 seed 31 KernelSHAP: margin -0.087 stab 0.65, 5753.87 ms
+S3 seed 33 KernelSHAP: margin 0.014 stab 0.61, 5966.28 ms
+S3 seed 32 KernelSHAP: margin -0.101 stab 0.57, 6147.54 ms
+S2 seed 38 KernelSHAP-strong: margin -0.123 stab nan, 27678.91 ms
+S2 seed 39 KernelSHAP-strong: margin -0.119 stab nan, 27863.68 ms
+S3 seed 31 KernelSHAP-strong: margin -0.095 stab nan, 28515.24 ms
+S3 seed 30 KernelSHAP-strong: margin -0.047 stab nan, 28781.87 ms
+S2 seed 38 LIME: margin -0.090 stab 0.84, 1450.57 ms
+S2 seed 38 Random: margin 0.290 stab 0.21, 0.01 ms
+S3 seed 33 KernelSHAP-strong: margin 0.021 stab nan, 28551.62 ms
+S3 seed 32 KernelSHAP-strong: margin -0.110 stab nan, 28561.72 ms
+S2 seed 39 LIME: margin -0.079 stab 0.83, 1549.46 ms
+S2 seed 39 Random: margin 0.326 stab 0.23, 0.01 ms
+S3 seed 31 LIME: margin -0.011 stab 0.84, 1451.49 ms
+S3 seed 30 LIME: margin 0.003 stab 0.83, 1537.73 ms
+S3 seed 31 Random: margin 0.251 stab 0.19, 0.00 ms
+S3 seed 30 Random: margin 0.308 stab 0.21, 0.00 ms
+S3 seed 33 LIME: margin 0.072 stab 0.89, 1355.05 ms
+S3 seed 32 LIME: margin -0.054 stab 0.90, 1344.67 ms
+S3 seed 33 Random: margin 0.384 stab 0.21, 0.00 ms
+S3 seed 32 Random: margin 0.251 stab 0.18, 0.01 ms
+S3 seed 34 PACE-SHAP: margin -0.034 stab 1.00, 9570.71 ms
+S3 seed 34 PACE-SHAP-20: margin -0.026 stab 0.70, 950.07 ms
+S3 seed 35 PACE-SHAP: margin -0.180 stab 1.00, 9858.93 ms
+S3 seed 34 PACE-flip: margin 0.032 stab 1.00, 3.12 ms
+S3 seed 34 PACE-multi: margin 0.083 stab 1.00, 1.76 ms
+S3 seed 36 PACE-SHAP: margin -0.039 stab 1.00, 10103.34 ms
+S3 seed 37 PACE-SHAP: margin -0.011 stab 1.00, 10038.74 ms
+S3 seed 34 PACE-contrastive: margin 0.119 stab 1.00, 1.18 ms
+S3 seed 34 PACE-decomposition: margin 0.217 stab 1.00, 0.99 ms
+S3 seed 39 PACE-SHAP: margin 0.062 stab 1.00, 10104.91 ms
+S3 seed 38 PACE-SHAP: margin -0.073 stab 1.00, 10216.66 ms
+S3 seed 35 PACE-SHAP-20: margin -0.161 stab 0.75, 844.97 ms
+S3 seed 35 PACE-flip: margin -0.115 stab 1.00, 3.48 ms
+S3 seed 36 PACE-SHAP-20: margin -0.030 stab 0.59, 807.92 ms
+S3 seed 35 PACE-multi: margin -0.023 stab 1.00, 1.75 ms
+S3 seed 37 PACE-SHAP-20: margin 0.008 stab 0.72, 791.97 ms
+S3 seed 36 PACE-flip: margin -0.003 stab 1.00, 3.64 ms
+S3 seed 35 PACE-contrastive: margin 0.048 stab 1.00, 0.76 ms
+S3 seed 37 PACE-flip: margin 0.038 stab 1.00, 3.87 ms
+S3 seed 36 PACE-multi: margin 0.068 stab 1.00, 1.99 ms
+S3 seed 35 PACE-decomposition: margin 0.099 stab 1.00, 1.04 ms
+S3 seed 39 PACE-SHAP-20: margin 0.076 stab 0.81, 767.02 ms
+S3 seed 38 PACE-SHAP-20: margin -0.077 stab 0.76, 777.49 ms
+S3 seed 37 PACE-multi: margin 0.132 stab 1.00, 2.59 ms
+S3 seed 36 PACE-contrastive: margin 0.134 stab 1.00, 0.90 ms
+S3 seed 39 PACE-flip: margin 0.131 stab 1.00, 3.73 ms
+S3 seed 38 PACE-flip: margin -0.013 stab 1.00, 3.78 ms
+S3 seed 37 PACE-contrastive: margin 0.175 stab 1.00, 1.51 ms
+S3 seed 36 PACE-decomposition: margin 0.209 stab 1.00, 1.21 ms
+S3 seed 39 PACE-multi: margin 0.194 stab 1.00, 2.21 ms
+S3 seed 38 PACE-multi: margin 0.048 stab 1.00, 2.49 ms
+S3 seed 37 PACE-decomposition: margin 0.247 stab 1.00, 1.40 ms
+S3 seed 39 PACE-contrastive: margin 0.224 stab 1.00, 1.17 ms
+S3 seed 38 PACE-contrastive: margin 0.074 stab 1.00, 1.31 ms
+S3 seed 39 PACE-decomposition: margin 0.358 stab 1.00, 1.13 ms
+S3 seed 38 PACE-decomposition: margin 0.212 stab 1.00, 1.72 ms
+S3 seed 34 KernelSHAP: margin -0.028 stab 0.66, 4633.55 ms
+S3 seed 35 KernelSHAP: margin -0.156 stab 0.71, 4920.67 ms
+S3 seed 36 KernelSHAP: margin -0.028 stab 0.59, 5103.40 ms
+S3 seed 37 KernelSHAP: margin 0.010 stab 0.66, 5100.15 ms
+S3 seed 38 KernelSHAP: margin -0.075 stab 0.67, 4889.74 ms
+S3 seed 39 KernelSHAP: margin 0.079 stab 0.81, 4918.06 ms
+S3 seed 34 KernelSHAP-strong: margin -0.026 stab nan, 26932.80 ms
+S3 seed 35 KernelSHAP-strong: margin -0.161 stab nan, 26043.04 ms
+S3 seed 39 KernelSHAP-strong: margin 0.076 stab nan, 24743.55 ms
+S3 seed 36 KernelSHAP-strong: margin -0.030 stab nan, 25548.02 ms
+S3 seed 38 KernelSHAP-strong: margin -0.077 stab nan, 25457.31 ms
+S3 seed 37 KernelSHAP-strong: margin 0.008 stab nan, 25968.53 ms
+S3 seed 34 LIME: margin 0.051 stab 0.86, 1275.67 ms
+S3 seed 34 Random: margin 0.304 stab 0.17, 0.01 ms
+wine seed 30 PACE-SHAP: margin -0.024 stab 0.97, 56.09 ms
+wine seed 30 PACE-SHAP-20: margin -0.006 stab 0.68, 17.82 ms
+wine seed 30 PACE-flip: margin -0.001 stab 1.00, 0.45 ms
+wine seed 30 PACE-multi: margin 0.034 stab 1.00, 0.12 ms
+wine seed 30 PACE-contrastive: margin 0.077 stab 1.00, 0.04 ms
+wine seed 30 PACE-decomposition: margin 0.106 stab 1.00, 0.12 ms
+wine seed 30 KernelSHAP: margin -0.003 stab 0.68, 146.21 ms
+S3 seed 35 LIME: margin -0.126 stab 0.82, 1247.38 ms
+S3 seed 35 Random: margin 0.221 stab 0.23, 0.01 ms
+wine seed 31 PACE-SHAP: margin -0.094 stab 0.99, 58.79 ms
+wine seed 31 PACE-SHAP-20: margin -0.081 stab 0.76, 17.10 ms
+wine seed 30 KernelSHAP-strong: margin -0.006 stab nan, 1461.89 ms
+S3 seed 39 LIME: margin 0.118 stab 0.85, 1223.06 ms
+wine seed 31 PACE-flip: margin -0.068 stab 1.00, 0.25 ms
+wine seed 31 PACE-multi: margin -0.028 stab 1.00, 0.12 ms
+wine seed 31 PACE-contrastive: margin 0.004 stab 1.00, 0.06 ms
+wine seed 31 PACE-decomposition: margin -0.003 stab 1.00, 0.07 ms
+wine seed 30 LIME: margin 0.011 stab 0.90, 44.53 ms
+wine seed 30 Random: margin 0.271 stab 0.14, 0.01 ms
+S3 seed 36 LIME: margin 0.005 stab 0.89, 1246.96 ms
+wine seed 32 PACE-SHAP: margin -0.127 stab 1.00, 52.01 ms
+wine seed 32 PACE-SHAP-20: margin -0.123 stab 0.67, 13.37 ms
+wine seed 32 PACE-flip: margin -0.099 stab 1.00, 0.38 ms
+wine seed 32 PACE-multi: margin -0.075 stab 1.00, 0.12 ms
+wine seed 32 PACE-contrastive: margin -0.045 stab 1.00, 0.07 ms
+wine seed 31 KernelSHAP: margin -0.083 stab 0.73, 140.46 ms
+wine seed 32 PACE-decomposition: margin -0.011 stab 1.00, 0.13 ms
+S3 seed 39 Random: margin 0.425 stab 0.23, 0.00 ms
+wine seed 33 PACE-SHAP: margin -0.079 stab 0.99, 54.18 ms
+wine seed 33 PACE-SHAP-20: margin -0.071 stab 0.70, 14.65 ms
+wine seed 33 PACE-flip: margin -0.055 stab 1.00, 0.20 ms
+wine seed 32 KernelSHAP: margin -0.123 stab 0.69, 146.35 ms
+wine seed 33 PACE-multi: margin -0.020 stab 1.00, 0.11 ms
+S3 seed 36 Random: margin 0.374 stab 0.23, 0.00 ms
+wine seed 33 PACE-contrastive: margin 0.002 stab 1.00, 0.06 ms
+wine seed 33 PACE-decomposition: margin 0.050 stab 1.00, 0.14 ms
+S3 seed 38 LIME: margin -0.008 stab 0.84, 1194.92 ms
+wine seed 34 PACE-SHAP: margin -0.072 stab 0.99, 51.52 ms
+wine seed 34 PACE-SHAP-20: margin -0.068 stab 0.68, 15.05 ms
+wine seed 34 PACE-flip: margin -0.050 stab 1.00, 0.23 ms
+wine seed 34 PACE-multi: margin -0.035 stab 1.00, 0.06 ms
+wine seed 34 PACE-contrastive: margin -0.002 stab 1.00, 0.06 ms
+wine seed 34 PACE-decomposition: margin 0.047 stab 1.00, 0.12 ms
+wine seed 33 KernelSHAP: margin -0.069 stab 0.69, 130.79 ms
+S3 seed 38 Random: margin 0.332 stab 0.21, 0.00 ms
+wine seed 34 KernelSHAP: margin -0.067 stab 0.64, 139.26 ms
+S3 seed 37 LIME: margin 0.068 stab 0.81, 1242.25 ms
+wine seed 35 PACE-SHAP: margin -0.023 stab 1.00, 50.26 ms
+wine seed 35 PACE-SHAP-20: margin -0.014 stab 0.67, 14.90 ms
+wine seed 35 PACE-flip: margin -0.010 stab 1.00, 0.46 ms
+wine seed 35 PACE-multi: margin 0.016 stab 1.00, 0.13 ms
+wine seed 35 PACE-contrastive: margin 0.042 stab 1.00, 0.04 ms
+wine seed 35 PACE-decomposition: margin 0.089 stab 1.00, 0.12 ms
+S3 seed 37 Random: margin 0.329 stab 0.20, 0.00 ms
+wine seed 35 KernelSHAP: margin -0.016 stab 0.64, 135.92 ms
+wine seed 31 KernelSHAP-strong: margin -0.083 stab nan, 1324.14 ms
+wine seed 36 PACE-SHAP: margin -0.036 stab 0.99, 48.40 ms
+wine seed 31 LIME: margin -0.064 stab 0.93, 40.96 ms
+wine seed 31 Random: margin 0.259 stab 0.18, 0.00 ms
+wine seed 36 PACE-SHAP-20: margin -0.041 stab 0.76, 14.78 ms
+wine seed 36 PACE-flip: margin -0.025 stab 1.00, 0.33 ms
+wine seed 36 PACE-multi: margin 0.002 stab 1.00, 0.06 ms
+wine seed 36 PACE-contrastive: margin 0.025 stab 1.00, 0.03 ms
+wine seed 36 PACE-decomposition: margin 0.073 stab 1.00, 0.06 ms
+wine seed 37 PACE-SHAP: margin -0.159 stab 0.97, 41.91 ms
+wine seed 37 PACE-SHAP-20: margin -0.160 stab 0.73, 14.08 ms
+wine seed 32 KernelSHAP-strong: margin -0.124 stab nan, 1295.89 ms
+wine seed 37 PACE-flip: margin -0.121 stab 1.00, 0.36 ms
+wine seed 37 PACE-multi: margin -0.097 stab 1.00, 0.07 ms
+wine seed 37 PACE-contrastive: margin -0.049 stab 1.00, 0.06 ms
+wine seed 37 PACE-decomposition: margin -0.046 stab 1.00, 0.12 ms
+wine seed 32 LIME: margin -0.081 stab 0.90, 39.77 ms
+wine seed 32 Random: margin 0.169 stab 0.12, 0.01 ms
+wine seed 36 KernelSHAP: margin -0.035 stab 0.77, 127.67 ms
+wine seed 38 PACE-SHAP: margin -0.126 stab 0.94, 46.59 ms
+wine seed 38 PACE-SHAP-20: margin -0.127 stab 0.76, 14.79 ms
+wine seed 38 PACE-flip: margin -0.101 stab 1.00, 0.42 ms
+wine seed 33 KernelSHAP-strong: margin -0.071 stab nan, 1259.65 ms
+wine seed 38 PACE-multi: margin -0.067 stab 1.00, 0.11 ms
+wine seed 37 KernelSHAP: margin -0.158 stab 0.74, 126.88 ms
+wine seed 38 PACE-contrastive: margin -0.039 stab 1.00, 0.06 ms
+wine seed 38 PACE-decomposition: margin -0.015 stab 1.00, 0.05 ms
+wine seed 34 KernelSHAP-strong: margin -0.068 stab nan, 1128.34 ms
+wine seed 33 LIME: margin -0.029 stab 0.86, 41.04 ms
+wine seed 33 Random: margin 0.274 stab 0.15, 0.01 ms
+wine seed 34 LIME: margin -0.032 stab 0.86, 44.98 ms
+wine seed 34 Random: margin 0.186 stab 0.10, 0.00 ms
+wine seed 39 PACE-SHAP: margin -0.021 stab 0.92, 46.32 ms
+wine seed 39 PACE-SHAP-20: margin -0.009 stab 0.68, 14.54 ms
+wine seed 39 PACE-flip: margin -0.016 stab 1.00, 0.37 ms
+wine seed 38 KernelSHAP: margin -0.121 stab 0.78, 122.43 ms
+wine seed 39 PACE-multi: margin 0.022 stab 1.00, 0.11 ms
+wine seed 39 PACE-contrastive: margin 0.037 stab 1.00, 0.05 ms
+wine seed 39 PACE-decomposition: margin 0.105 stab 1.00, 0.06 ms
+wine seed 35 KernelSHAP-strong: margin -0.015 stab nan, 1121.21 ms
+wine seed 39 KernelSHAP: margin -0.008 stab 0.71, 131.33 ms
+wine seed 35 LIME: margin 0.023 stab 0.82, 43.54 ms
+wine seed 35 Random: margin 0.293 stab 0.20, 0.00 ms
+wine seed 37 KernelSHAP-strong: margin -0.160 stab nan, 1211.14 ms
+wine seed 36 KernelSHAP-strong: margin -0.040 stab nan, 1338.17 ms
+wine seed 37 LIME: margin -0.119 stab 0.88, 39.17 ms
+wine seed 36 LIME: margin -0.007 stab 0.88, 40.48 ms
+wine seed 37 Random: margin 0.171 stab 0.11, 0.01 ms
+wine seed 36 Random: margin 0.240 stab 0.15, 0.01 ms
+wine seed 38 KernelSHAP-strong: margin -0.127 stab nan, 1188.25 ms
+wine seed 38 LIME: margin -0.098 stab 0.90, 36.64 ms
+wine seed 38 Random: margin 0.184 stab 0.18, 0.01 ms
+wine seed 39 KernelSHAP-strong: margin -0.009 stab nan, 1106.00 ms
+wine seed 39 LIME: margin 0.009 stab 0.92, 39.67 ms
+wine seed 39 Random: margin 0.309 stab 0.21, 0.00 ms
+breast_cancer seed 30 PACE-SHAP: margin 0.119 stab 0.98, 557.13 ms
+breast_cancer seed 30 PACE-SHAP-20: margin 0.148 stab 0.70, 30.72 ms
+breast_cancer seed 30 PACE-flip: margin 0.143 stab 1.00, 1.51 ms
+breast_cancer seed 31 PACE-SHAP: margin 0.122 stab 0.96, 523.02 ms
+breast_cancer seed 30 PACE-multi: margin 0.155 stab 1.00, 0.18 ms
+breast_cancer seed 30 PACE-contrastive: margin 0.184 stab 1.00, 0.09 ms
+breast_cancer seed 31 PACE-SHAP-20: margin 0.131 stab 0.40, 28.45 ms
+breast_cancer seed 30 PACE-decomposition: margin 0.207 stab 1.00, 0.23 ms
+breast_cancer seed 31 PACE-flip: margin 0.142 stab 1.00, 1.61 ms
+breast_cancer seed 31 PACE-multi: margin 0.142 stab 1.00, 0.14 ms
+breast_cancer seed 31 PACE-contrastive: margin 0.193 stab 1.00, 0.07 ms
+breast_cancer seed 31 PACE-decomposition: margin 0.229 stab 1.00, 0.18 ms
+breast_cancer seed 33 PACE-SHAP: margin 0.098 stab 0.97, 495.24 ms
+breast_cancer seed 32 PACE-SHAP: margin 0.077 stab 0.97, 549.35 ms
+breast_cancer seed 33 PACE-SHAP-20: margin 0.111 stab 0.73, 30.26 ms
+breast_cancer seed 33 PACE-flip: margin 0.145 stab 1.00, 0.89 ms
+breast_cancer seed 32 PACE-SHAP-20: margin 0.091 stab 0.47, 31.17 ms
+breast_cancer seed 33 PACE-multi: margin 0.136 stab 1.00, 0.12 ms
+breast_cancer seed 32 PACE-flip: margin 0.100 stab 1.00, 1.12 ms
+breast_cancer seed 30 KernelSHAP: margin 0.181 stab 0.42, 262.05 ms
+breast_cancer seed 33 PACE-contrastive: margin 0.177 stab 1.00, 0.09 ms
+breast_cancer seed 32 PACE-multi: margin 0.117 stab 1.00, 0.12 ms
+breast_cancer seed 34 PACE-SHAP: margin 0.104 stab 0.98, 592.25 ms
+breast_cancer seed 33 PACE-decomposition: margin 0.246 stab 1.00, 0.19 ms
+breast_cancer seed 32 PACE-contrastive: margin 0.146 stab 1.00, 0.14 ms
+breast_cancer seed 31 KernelSHAP: margin 0.183 stab 0.29, 257.92 ms
+breast_cancer seed 32 PACE-decomposition: margin 0.213 stab 1.00, 0.23 ms
+breast_cancer seed 34 PACE-SHAP-20: margin 0.108 stab 0.70, 41.40 ms
+breast_cancer seed 34 PACE-flip: margin 0.123 stab 1.00, 1.31 ms
+breast_cancer seed 35 PACE-SHAP: margin 0.145 stab 0.94, 670.38 ms
+breast_cancer seed 34 PACE-multi: margin 0.136 stab 1.00, 0.23 ms
+breast_cancer seed 34 PACE-contrastive: margin 0.160 stab 1.00, 0.14 ms
+breast_cancer seed 35 PACE-SHAP-20: margin 0.148 stab 0.41, 44.59 ms
+breast_cancer seed 34 PACE-decomposition: margin 0.213 stab 1.00, 0.30 ms
+breast_cancer seed 35 PACE-flip: margin 0.168 stab 1.00, 1.33 ms
+breast_cancer seed 35 PACE-multi: margin 0.168 stab 1.00, 0.25 ms
+breast_cancer seed 33 KernelSHAP: margin 0.158 stab 0.53, 334.93 ms
+breast_cancer seed 35 PACE-contrastive: margin 0.217 stab 1.00, 0.12 ms
+breast_cancer seed 32 KernelSHAP: margin 0.142 stab 0.35, 355.00 ms
+breast_cancer seed 35 PACE-decomposition: margin 0.239 stab 1.00, 0.24 ms
+breast_cancer seed 34 KernelSHAP: margin 0.159 stab 0.44, 407.56 ms
+breast_cancer seed 35 KernelSHAP: margin 0.202 stab 0.29, 428.12 ms
+breast_cancer seed 31 KernelSHAP-strong: margin 0.130 stab nan, 3681.65 ms
+breast_cancer seed 30 KernelSHAP-strong: margin 0.147 stab nan, 3991.68 ms
+breast_cancer seed 31 LIME: margin 0.149 stab 0.69, 115.76 ms
+breast_cancer seed 31 Random: margin 0.388 stab 0.07, 0.00 ms
+breast_cancer seed 30 LIME: margin 0.143 stab 0.68, 119.43 ms
+breast_cancer seed 30 Random: margin 0.376 stab 0.09, 0.00 ms
+breast_cancer seed 32 KernelSHAP-strong: margin 0.092 stab nan, 3728.94 ms
+breast_cancer seed 33 KernelSHAP-strong: margin 0.112 stab nan, 4085.72 ms
+breast_cancer seed 32 LIME: margin 0.134 stab 0.79, 96.83 ms
+breast_cancer seed 32 Random: margin 0.386 stab 0.04, 0.01 ms
+breast_cancer seed 33 LIME: margin 0.130 stab 0.77, 91.32 ms
+breast_cancer seed 33 Random: margin 0.386 stab 0.04, 0.00 ms
+breast_cancer seed 34 KernelSHAP-strong: margin 0.109 stab nan, 3777.71 ms
+breast_cancer seed 36 PACE-SHAP: margin 0.106 stab 0.98, 639.97 ms
+breast_cancer seed 34 LIME: margin 0.137 stab 0.75, 78.76 ms
+breast_cancer seed 34 Random: margin 0.408 stab 0.06, 0.00 ms
+breast_cancer seed 37 PACE-SHAP: margin 0.059 stab 0.98, 626.04 ms
+breast_cancer seed 36 PACE-SHAP-20: margin 0.112 stab 0.47, 32.59 ms
+breast_cancer seed 35 KernelSHAP-strong: margin 0.147 stab nan, 3735.55 ms
+breast_cancer seed 36 PACE-flip: margin 0.131 stab 1.00, 0.83 ms
+breast_cancer seed 37 PACE-SHAP-20: margin 0.073 stab 0.69, 29.28 ms
+breast_cancer seed 36 PACE-multi: margin 0.144 stab 1.00, 0.11 ms
+breast_cancer seed 37 PACE-flip: margin 0.074 stab 1.00, 1.35 ms
+breast_cancer seed 36 PACE-contrastive: margin 0.182 stab 1.00, 0.08 ms
+breast_cancer seed 37 PACE-multi: margin 0.083 stab 1.00, 0.20 ms
+breast_cancer seed 36 PACE-decomposition: margin 0.226 stab 1.00, 0.17 ms
+breast_cancer seed 35 LIME: margin 0.176 stab 0.65, 85.48 ms
+breast_cancer seed 37 PACE-contrastive: margin 0.102 stab 1.00, 0.07 ms
+breast_cancer seed 37 PACE-decomposition: margin 0.140 stab 1.00, 0.17 ms
+breast_cancer seed 35 Random: margin 0.433 stab 0.08, 0.01 ms
+breast_cancer seed 38 PACE-SHAP: margin 0.132 stab 0.97, 561.25 ms
+breast_cancer seed 38 PACE-SHAP-20: margin 0.140 stab 0.30, 30.10 ms
+breast_cancer seed 38 PACE-flip: margin 0.161 stab 1.00, 1.36 ms
+breast_cancer seed 39 PACE-SHAP: margin 0.151 stab 0.94, 553.67 ms
+breast_cancer seed 38 PACE-multi: margin 0.170 stab 1.00, 0.24 ms
+thyroid seed 30 PACE-SHAP: margin 0.407 stab 0.99, 407.42 ms
+breast_cancer seed 36 KernelSHAP: margin 0.176 stab 0.37, 257.30 ms
+breast_cancer seed 38 PACE-contrastive: margin 0.210 stab 1.00, 0.06 ms
+breast_cancer seed 39 PACE-SHAP-20: margin 0.161 stab 0.59, 31.95 ms
+thyroid seed 30 PACE-SHAP-20: margin 0.407 stab 0.51, 25.63 ms
+breast_cancer seed 38 PACE-decomposition: margin 0.256 stab 1.00, 0.30 ms
+breast_cancer seed 37 KernelSHAP: margin 0.115 stab 0.39, 241.74 ms
+breast_cancer seed 39 PACE-flip: margin 0.178 stab 1.00, 1.44 ms
+thyroid seed 30 PACE-flip: margin 0.401 stab 1.00, 1.27 ms
+thyroid seed 30 PACE-multi: margin 0.436 stab 1.00, 0.11 ms
+breast_cancer seed 39 PACE-multi: margin 0.175 stab 1.00, 0.16 ms
+thyroid seed 30 PACE-contrastive: margin 0.452 stab 1.00, 0.08 ms
+thyroid seed 30 PACE-decomposition: margin 0.554 stab 1.00, 0.11 ms
+breast_cancer seed 39 PACE-contrastive: margin 0.224 stab 1.00, 0.11 ms
+thyroid seed 31 PACE-SHAP: margin 0.509 stab 1.00, 355.35 ms
+breast_cancer seed 39 PACE-decomposition: margin 0.251 stab 1.00, 0.22 ms
+thyroid seed 31 PACE-SHAP-20: margin 0.517 stab 0.46, 26.77 ms
+thyroid seed 31 PACE-flip: margin 0.494 stab 1.00, 1.33 ms
+thyroid seed 31 PACE-multi: margin 0.540 stab 1.00, 0.21 ms
+thyroid seed 31 PACE-contrastive: margin 0.554 stab 1.00, 0.10 ms
+thyroid seed 31 PACE-decomposition: margin 0.724 stab 1.00, 0.10 ms
+breast_cancer seed 38 KernelSHAP: margin 0.210 stab 0.21, 331.01 ms
+thyroid seed 30 KernelSHAP: margin 0.455 stab 0.51, 327.76 ms
+breast_cancer seed 39 KernelSHAP: margin 0.218 stab 0.46, 342.54 ms
+thyroid seed 31 KernelSHAP: margin 0.525 stab 0.44, 309.43 ms
+breast_cancer seed 36 KernelSHAP-strong: margin 0.110 stab nan, 3772.01 ms
+breast_cancer seed 36 LIME: margin 0.136 stab 0.77, 115.88 ms
+breast_cancer seed 36 Random: margin 0.414 stab 0.07, 0.01 ms
+thyroid seed 31 KernelSHAP-strong: margin 0.520 stab nan, 3069.98 ms
+breast_cancer seed 37 KernelSHAP-strong: margin 0.073 stab nan, 4271.95 ms
+breast_cancer seed 38 KernelSHAP-strong: margin 0.142 stab nan, 3546.23 ms
+thyroid seed 30 KernelSHAP-strong: margin 0.412 stab nan, 3514.04 ms
+thyroid seed 31 LIME: margin 0.541 stab 0.77, 84.54 ms
+breast_cancer seed 39 KernelSHAP-strong: margin 0.160 stab nan, 3497.51 ms
+thyroid seed 31 Random: margin 0.705 stab 0.10, 0.01 ms
+breast_cancer seed 37 LIME: margin 0.075 stab 0.67, 99.22 ms
+breast_cancer seed 38 LIME: margin 0.159 stab 0.73, 97.75 ms
+thyroid seed 30 LIME: margin 0.433 stab 0.76, 87.87 ms
+breast_cancer seed 37 Random: margin 0.364 stab 0.07, 0.00 ms
+breast_cancer seed 38 Random: margin 0.417 stab 0.08, 0.00 ms
+thyroid seed 30 Random: margin 0.603 stab 0.11, 0.01 ms
+breast_cancer seed 39 LIME: margin 0.173 stab 0.68, 83.40 ms
+breast_cancer seed 39 Random: margin 0.410 stab 0.07, 0.00 ms
+thyroid seed 32 PACE-SHAP: margin 0.619 stab 0.99, 399.92 ms
+thyroid seed 32 PACE-SHAP-20: margin 0.639 stab 0.60, 19.43 ms
+thyroid seed 32 PACE-flip: margin 0.613 stab 1.00, 0.97 ms
+thyroid seed 32 PACE-multi: margin 0.632 stab 1.00, 0.18 ms
+thyroid seed 32 PACE-contrastive: margin 0.646 stab 1.00, 0.06 ms
+thyroid seed 32 PACE-decomposition: margin 0.744 stab 1.00, 0.13 ms
+thyroid seed 33 PACE-SHAP: margin 0.642 stab 0.99, 370.47 ms
+thyroid seed 33 PACE-SHAP-20: margin 0.647 stab 0.55, 20.43 ms
+thyroid seed 33 PACE-flip: margin 0.628 stab 1.00, 1.01 ms
+thyroid seed 33 PACE-multi: margin 0.678 stab 1.00, 0.16 ms
+thyroid seed 36 PACE-SHAP: margin 0.517 stab 1.00, 398.93 ms
+thyroid seed 35 PACE-SHAP: margin 0.579 stab 0.97, 402.81 ms
+thyroid seed 33 PACE-contrastive: margin 0.685 stab 1.00, 0.08 ms
+thyroid seed 34 PACE-SHAP: margin 0.562 stab 0.97, 426.21 ms
+thyroid seed 33 PACE-decomposition: margin 0.781 stab 1.00, 0.14 ms
+thyroid seed 32 KernelSHAP: margin 0.661 stab 0.58, 199.79 ms
+thyroid seed 36 PACE-SHAP-20: margin 0.547 stab 0.44, 22.63 ms
+thyroid seed 35 PACE-SHAP-20: margin 0.579 stab 0.42, 23.69 ms
+thyroid seed 36 PACE-flip: margin 0.522 stab 1.00, 0.54 ms
+thyroid seed 35 PACE-flip: margin 0.556 stab 1.00, 0.84 ms
+thyroid seed 34 PACE-SHAP-20: margin 0.573 stab 0.59, 27.40 ms
+thyroid seed 36 PACE-multi: margin 0.535 stab 1.00, 0.19 ms
+thyroid seed 35 PACE-multi: margin 0.614 stab 1.00, 0.11 ms
+thyroid seed 34 PACE-flip: margin 0.561 stab 1.00, 1.17 ms
+thyroid seed 36 PACE-contrastive: margin 0.581 stab 1.00, 0.11 ms
+thyroid seed 35 PACE-contrastive: margin 0.621 stab 1.00, 0.15 ms
+thyroid seed 37 PACE-SHAP: margin 0.547 stab 1.00, 465.41 ms
+thyroid seed 34 PACE-multi: margin 0.593 stab 1.00, 0.23 ms
+thyroid seed 36 PACE-decomposition: margin 0.703 stab 1.00, 0.10 ms
+thyroid seed 35 PACE-decomposition: margin 0.763 stab 1.00, 0.11 ms
+thyroid seed 34 PACE-contrastive: margin 0.629 stab 1.00, 0.08 ms
+thyroid seed 37 PACE-SHAP-20: margin 0.573 stab 0.54, 32.17 ms
+thyroid seed 34 PACE-decomposition: margin 0.721 stab 1.00, 0.15 ms
+thyroid seed 37 PACE-flip: margin 0.579 stab 1.00, 1.59 ms
+thyroid seed 37 PACE-multi: margin 0.614 stab 1.00, 0.23 ms
+thyroid seed 37 PACE-contrastive: margin 0.638 stab 1.00, 0.12 ms
+thyroid seed 37 PACE-decomposition: margin 0.734 stab 1.00, 0.12 ms
+thyroid seed 33 KernelSHAP: margin 0.650 stab 0.54, 279.43 ms
+thyroid seed 36 KernelSHAP: margin 0.558 stab 0.44, 340.11 ms
+thyroid seed 35 KernelSHAP: margin 0.584 stab 0.43, 349.49 ms
+thyroid seed 34 KernelSHAP: margin 0.579 stab 0.59, 384.03 ms
+thyroid seed 37 KernelSHAP: margin 0.583 stab 0.54, 376.14 ms
+thyroid seed 32 KernelSHAP-strong: margin 0.635 stab nan, 125070.47 ms
+thyroid seed 32 LIME: margin 0.652 stab 0.79, 129.49 ms
+thyroid seed 32 Random: margin 0.788 stab 0.08, 0.02 ms
+thyroid seed 33 KernelSHAP-strong: margin 0.647 stab nan, 125146.94 ms
+thyroid seed 33 LIME: margin 0.658 stab 0.84, 126.35 ms
+thyroid seed 33 Random: margin 0.828 stab 0.09, 0.01 ms
+thyroid seed 36 KernelSHAP-strong: margin 0.547 stab nan, 125514.96 ms
+thyroid seed 35 KernelSHAP-strong: margin 0.578 stab nan, 125720.51 ms
+thyroid seed 38 PACE-SHAP: margin 0.522 stab 1.00, 585.31 ms
+thyroid seed 36 LIME: margin 0.568 stab 0.86, 135.36 ms
+thyroid seed 36 Random: margin 0.701 stab 0.09, 0.00 ms
+thyroid seed 38 PACE-SHAP-20: margin 0.537 stab 0.88, 32.49 ms
+thyroid seed 38 PACE-flip: margin 0.515 stab 1.00, 0.91 ms
+thyroid seed 35 LIME: margin 0.576 stab 0.76, 121.01 ms
+thyroid seed 38 PACE-multi: margin 0.567 stab 1.00, 0.14 ms
+thyroid seed 35 Random: margin 0.739 stab 0.10, 0.01 ms
+thyroid seed 38 PACE-contrastive: margin 0.578 stab 1.00, 0.06 ms
+shuttle seed 30 PACE-SHAP: margin 0.406 stab 1.00, 55.12 ms
+thyroid seed 38 PACE-decomposition: margin 0.741 stab 1.00, 0.06 ms
+shuttle seed 30 PACE-SHAP-20: margin 0.405 stab 0.94, 4.25 ms
+shuttle seed 30 PACE-flip: margin 0.425 stab 1.00, 0.18 ms
+shuttle seed 30 PACE-multi: margin 0.425 stab 1.00, 0.08 ms
+shuttle seed 30 PACE-contrastive: margin 0.468 stab 1.00, 0.04 ms
+shuttle seed 30 PACE-decomposition: margin 0.432 stab 1.00, 0.02 ms
+shuttle seed 31 PACE-SHAP: margin 0.445 stab 1.00, 57.42 ms
+shuttle seed 31 PACE-SHAP-20: margin 0.422 stab 0.79, 5.33 ms
+shuttle seed 31 PACE-flip: margin 0.405 stab 1.00, 0.19 ms
+shuttle seed 31 PACE-multi: margin 0.421 stab 1.00, 0.07 ms
+shuttle seed 31 PACE-contrastive: margin 0.450 stab 1.00, 0.02 ms
+shuttle seed 30 KernelSHAP: margin 0.406 stab 0.93, 74.82 ms
+thyroid seed 34 KernelSHAP-strong: margin 0.576 stab nan, 126125.07 ms
+shuttle seed 31 PACE-decomposition: margin 0.458 stab 1.00, 0.02 ms
+thyroid seed 39 PACE-SHAP: margin 0.582 stab 0.99, 656.38 ms
+thyroid seed 37 KernelSHAP-strong: margin 0.569 stab nan, 125939.14 ms
+shuttle seed 31 KernelSHAP: margin 0.421 stab 0.79, 77.24 ms
+shuttle seed 30 KernelSHAP-strong: margin 0.405 stab nan, 174.46 ms
+thyroid seed 39 PACE-SHAP-20: margin 0.604 stab 0.52, 31.68 ms
+thyroid seed 39 PACE-flip: margin 0.570 stab 1.00, 1.13 ms
+shuttle seed 30 LIME: margin 0.440 stab 0.91, 36.83 ms
+shuttle seed 30 Random: margin 0.628 stab 0.21, 0.01 ms
+thyroid seed 34 LIME: margin 0.575 stab 0.72, 118.22 ms
+thyroid seed 39 PACE-multi: margin 0.610 stab 1.00, 0.22 ms
+shuttle seed 31 KernelSHAP-strong: margin 0.422 stab nan, 158.53 ms
+thyroid seed 39 PACE-contrastive: margin 0.608 stab 1.00, 0.13 ms
+thyroid seed 34 Random: margin 0.761 stab 0.08, 0.01 ms
+thyroid seed 37 LIME: margin 0.591 stab 0.68, 112.20 ms
+shuttle seed 31 LIME: margin 0.431 stab 0.87, 29.52 ms
+shuttle seed 31 Random: margin 0.625 stab 0.24, 0.00 ms
+thyroid seed 39 PACE-decomposition: margin 0.764 stab 1.00, 0.18 ms
+thyroid seed 37 Random: margin 0.759 stab 0.10, 0.00 ms
+thyroid seed 38 KernelSHAP: margin 0.544 stab 0.86, 305.23 ms
+shuttle seed 32 PACE-SHAP: margin 0.456 stab 1.00, 55.06 ms
+shuttle seed 32 PACE-SHAP-20: margin 0.445 stab 0.32, 3.45 ms
+shuttle seed 32 PACE-flip: margin 0.460 stab 1.00, 0.10 ms
+shuttle seed 32 PACE-multi: margin 0.463 stab 1.00, 0.06 ms
+shuttle seed 32 PACE-contrastive: margin 0.480 stab 1.00, 0.03 ms
+shuttle seed 32 PACE-decomposition: margin 0.574 stab 1.00, 0.03 ms
+shuttle seed 33 PACE-SHAP: margin 0.256 stab 1.00, 30.12 ms
+shuttle seed 33 PACE-SHAP-20: margin 0.248 stab 0.71, 4.02 ms
+shuttle seed 33 PACE-flip: margin 0.255 stab 1.00, 0.15 ms
+shuttle seed 33 PACE-multi: margin 0.266 stab 1.00, 0.06 ms
+shuttle seed 33 PACE-contrastive: margin 0.268 stab 1.00, 0.04 ms
+shuttle seed 33 PACE-decomposition: margin 0.388 stab 1.00, 0.06 ms
+shuttle seed 34 PACE-SHAP: margin 0.291 stab 1.00, 37.69 ms
+shuttle seed 34 PACE-SHAP-20: margin 0.298 stab 0.51, 4.62 ms
+shuttle seed 35 PACE-SHAP: margin 0.249 stab 1.00, 40.86 ms
+shuttle seed 34 PACE-flip: margin 0.293 stab 1.00, 0.21 ms
+shuttle seed 34 PACE-multi: margin 0.281 stab 1.00, 0.10 ms
+shuttle seed 35 PACE-SHAP-20: margin 0.254 stab 0.76, 6.24 ms
+shuttle seed 34 PACE-contrastive: margin 0.279 stab 1.00, 0.03 ms
+shuttle seed 35 PACE-flip: margin 0.262 stab 1.00, 0.07 ms
+shuttle seed 34 PACE-decomposition: margin 0.332 stab 1.00, 0.04 ms
+shuttle seed 35 PACE-multi: margin 0.280 stab 1.00, 0.04 ms
+shuttle seed 32 KernelSHAP: margin 0.445 stab 0.33, 57.52 ms
+shuttle seed 35 PACE-contrastive: margin 0.299 stab 1.00, 0.03 ms
+shuttle seed 35 PACE-decomposition: margin 0.274 stab 1.00, 0.03 ms
+shuttle seed 33 KernelSHAP: margin 0.246 stab 0.75, 61.21 ms
+shuttle seed 34 KernelSHAP: margin 0.298 stab 0.50, 64.44 ms
+shuttle seed 32 KernelSHAP-strong: margin 0.445 stab nan, 127.36 ms
+shuttle seed 35 KernelSHAP: margin 0.255 stab 0.75, 64.50 ms
+shuttle seed 32 LIME: margin 0.465 stab 0.86, 23.92 ms
+shuttle seed 32 Random: margin 0.616 stab 0.23, 0.01 ms
+shuttle seed 34 KernelSHAP-strong: margin 0.298 stab nan, 112.52 ms
+shuttle seed 33 KernelSHAP-strong: margin 0.248 stab nan, 172.77 ms
+shuttle seed 35 KernelSHAP-strong: margin 0.254 stab nan, 114.14 ms
+shuttle seed 34 LIME: margin 0.284 stab 0.93, 20.43 ms
+thyroid seed 39 KernelSHAP: margin 0.610 stab 0.51, 232.29 ms
+shuttle seed 34 Random: margin 0.490 stab 0.20, 0.00 ms
+shuttle seed 33 LIME: margin 0.270 stab 0.88, 19.19 ms
+shuttle seed 33 Random: margin 0.457 stab 0.23, 0.00 ms
+shuttle seed 35 LIME: margin 0.292 stab 0.90, 19.06 ms
+shuttle seed 35 Random: margin 0.473 stab 0.22, 0.00 ms
+shuttle seed 36 PACE-SHAP: margin 0.353 stab 1.00, 26.62 ms
+shuttle seed 36 PACE-SHAP-20: margin 0.353 stab 0.80, 2.72 ms
+shuttle seed 36 PACE-flip: margin 0.353 stab 1.00, 0.12 ms
+shuttle seed 36 PACE-multi: margin 0.375 stab 1.00, 0.05 ms
+shuttle seed 36 PACE-contrastive: margin 0.381 stab 1.00, 0.02 ms
+shuttle seed 36 PACE-decomposition: margin 0.380 stab 1.00, 0.04 ms
+shuttle seed 37 PACE-SHAP: margin 0.419 stab 1.00, 32.35 ms
+shuttle seed 37 PACE-SHAP-20: margin 0.428 stab 0.47, 4.23 ms
+shuttle seed 37 PACE-flip: margin 0.432 stab 1.00, 0.14 ms
+shuttle seed 38 PACE-SHAP: margin 0.427 stab 1.00, 38.17 ms
+shuttle seed 39 PACE-SHAP: margin 0.398 stab 1.00, 37.42 ms
+shuttle seed 37 PACE-multi: margin 0.415 stab 1.00, 0.03 ms
+shuttle seed 36 KernelSHAP: margin 0.354 stab 0.80, 44.16 ms
+shuttle seed 37 PACE-contrastive: margin 0.444 stab 1.00, 0.03 ms
+shuttle seed 37 PACE-decomposition: margin 0.454 stab 1.00, 0.02 ms
+shuttle seed 38 PACE-SHAP-20: margin 0.409 stab 0.40, 3.70 ms
+shuttle seed 39 PACE-SHAP-20: margin 0.392 stab 0.18, 2.97 ms
+shuttle seed 39 PACE-flip: margin 0.412 stab 1.00, 0.09 ms
+shuttle seed 38 PACE-flip: margin 0.445 stab 1.00, 0.15 ms
+shuttle seed 39 PACE-multi: margin 0.392 stab 1.00, 0.06 ms
+shuttle seed 38 PACE-multi: margin 0.436 stab 1.00, 0.06 ms
+shuttle seed 39 PACE-contrastive: margin 0.426 stab 1.00, 0.04 ms
+shuttle seed 38 PACE-contrastive: margin 0.437 stab 1.00, 0.03 ms
+shuttle seed 38 PACE-decomposition: margin 0.474 stab 1.00, 0.02 ms
+shuttle seed 39 PACE-decomposition: margin 0.449 stab 1.00, 0.03 ms
+shuttle seed 37 KernelSHAP: margin 0.428 stab 0.48, 55.19 ms
+shuttle seed 36 KernelSHAP-strong: margin 0.353 stab nan, 134.61 ms
+shuttle seed 39 KernelSHAP: margin 0.393 stab 0.18, 69.23 ms
+shuttle seed 38 KernelSHAP: margin 0.407 stab 0.42, 75.48 ms
+shuttle seed 36 LIME: margin 0.371 stab 0.84, 28.03 ms
+shuttle seed 36 Random: margin 0.530 stab 0.23, 0.01 ms
+shuttle seed 37 KernelSHAP-strong: margin 0.428 stab nan, 132.90 ms
+shuttle seed 39 KernelSHAP-strong: margin 0.392 stab nan, 138.02 ms
+shuttle seed 37 LIME: margin 0.400 stab 0.92, 29.64 ms
+shuttle seed 37 Random: margin 0.555 stab 0.20, 0.00 ms
+shuttle seed 38 KernelSHAP-strong: margin 0.412 stab nan, 166.84 ms
+shuttle seed 39 LIME: margin 0.409 stab 0.96, 23.27 ms
+shuttle seed 39 Random: margin 0.557 stab 0.25, 0.00 ms
+shuttle seed 38 LIME: margin 0.450 stab 0.92, 24.19 ms
+shuttle seed 38 Random: margin 0.584 stab 0.22, 0.01 ms
+thyroid seed 38 KernelSHAP-strong: margin 0.538 stab nan, 2871.66 ms
+thyroid seed 38 LIME: margin 0.518 stab 0.74, 76.83 ms
+thyroid seed 38 Random: margin 0.741 stab 0.09, 0.01 ms
+magic seed 30 PACE-SHAP: margin -0.083 stab 1.00, 1301.78 ms
+thyroid seed 39 KernelSHAP-strong: margin 0.603 stab nan, 3161.87 ms
+thyroid seed 39 LIME: margin 0.595 stab 0.73, 94.22 ms
+magic seed 30 PACE-SHAP-20: margin -0.051 stab 0.51, 93.68 ms
+thyroid seed 39 Random: margin 0.768 stab 0.08, 0.01 ms
+magic seed 30 PACE-flip: margin 0.019 stab 1.00, 2.36 ms
+magic seed 33 PACE-SHAP: margin -0.040 stab 1.00, 1548.20 ms
+magic seed 32 PACE-SHAP: margin -0.069 stab 1.00, 1553.29 ms
+magic seed 31 PACE-SHAP: margin -0.048 stab 1.00, 1595.99 ms
+magic seed 30 PACE-multi: margin 0.043 stab 1.00, 1.31 ms
+magic seed 30 PACE-contrastive: margin 0.091 stab 1.00, 0.54 ms
+magic seed 30 PACE-decomposition: margin 0.098 stab 1.00, 0.78 ms
+magic seed 32 PACE-SHAP-20: margin -0.031 stab 0.57, 158.30 ms
+magic seed 33 PACE-SHAP-20: margin -0.034 stab 0.43, 158.83 ms
+magic seed 31 PACE-SHAP-20: margin -0.026 stab 0.48, 147.03 ms
+magic seed 32 PACE-flip: margin -0.003 stab 1.00, 4.22 ms
+magic seed 33 PACE-flip: margin 0.016 stab 1.00, 3.97 ms
+magic seed 31 PACE-flip: margin 0.022 stab 1.00, 2.76 ms
+magic seed 32 PACE-multi: margin 0.056 stab 1.00, 0.60 ms
+magic seed 33 PACE-multi: margin 0.093 stab 1.00, 0.57 ms
+magic seed 31 PACE-multi: margin 0.081 stab 1.00, 0.59 ms
+magic seed 32 PACE-contrastive: margin 0.063 stab 1.00, 0.38 ms
+magic seed 33 PACE-contrastive: margin 0.094 stab 1.00, 0.45 ms
+magic seed 31 PACE-contrastive: margin 0.119 stab 1.00, 0.39 ms
+magic seed 32 PACE-decomposition: margin 0.077 stab 1.00, 0.65 ms
+magic seed 33 PACE-decomposition: margin 0.100 stab 1.00, 0.54 ms
+magic seed 31 PACE-decomposition: margin 0.143 stab 1.00, 0.32 ms
+magic seed 34 PACE-SHAP: margin -0.053 stab 1.00, 1679.92 ms
+magic seed 34 PACE-SHAP-20: margin -0.054 stab 0.52, 192.10 ms
+magic seed 30 KernelSHAP: margin -0.055 stab 0.49, 1299.89 ms
+magic seed 34 PACE-flip: margin 0.013 stab 1.00, 3.86 ms
+magic seed 34 PACE-multi: margin 0.059 stab 1.00, 0.62 ms
+magic seed 34 PACE-contrastive: margin 0.086 stab 1.00, 0.46 ms
+magic seed 34 PACE-decomposition: margin 0.068 stab 1.00, 0.66 ms
+magic seed 33 KernelSHAP: margin -0.030 stab 0.38, 1229.41 ms
+magic seed 32 KernelSHAP: margin -0.037 stab 0.56, 1254.80 ms
+magic seed 31 KernelSHAP: margin -0.017 stab 0.48, 1226.15 ms
+magic seed 35 PACE-SHAP: margin -0.047 stab 1.00, 1864.02 ms
+magic seed 35 PACE-SHAP-20: margin -0.000 stab 0.47, 163.74 ms
+magic seed 35 PACE-flip: margin -0.008 stab 1.00, 3.47 ms
+magic seed 35 PACE-multi: margin 0.037 stab 1.00, 0.71 ms
+magic seed 35 PACE-contrastive: margin 0.102 stab 1.00, 0.36 ms
+magic seed 35 PACE-decomposition: margin 0.054 stab 1.00, 0.54 ms
+magic seed 34 KernelSHAP: margin -0.054 stab 0.45, 1293.65 ms
+magic seed 35 KernelSHAP: margin 0.006 stab 0.45, 1482.31 ms
+magic seed 30 KernelSHAP-strong: margin -0.051 stab nan, 6380.77 ms
+magic seed 30 LIME: margin -0.060 stab 0.73, 280.75 ms
+magic seed 33 KernelSHAP-strong: margin -0.034 stab nan, 6328.68 ms
+magic seed 32 KernelSHAP-strong: margin -0.031 stab nan, 6312.09 ms
+magic seed 30 Random: margin 0.113 stab 0.21, 0.01 ms
+magic seed 31 KernelSHAP-strong: margin -0.026 stab nan, 6451.58 ms
+magic seed 33 LIME: margin -0.026 stab 0.61, 219.64 ms
+magic seed 32 LIME: margin -0.022 stab 0.75, 218.55 ms
+magic seed 33 Random: margin 0.134 stab 0.21, 0.01 ms
+magic seed 32 Random: margin 0.130 stab 0.18, 0.01 ms
+magic seed 31 LIME: margin -0.018 stab 0.79, 231.91 ms
+magic seed 31 Random: margin 0.161 stab 0.19, 0.00 ms
+magic seed 34 KernelSHAP-strong: margin -0.054 stab nan, 5457.66 ms
+magic seed 34 LIME: margin 0.002 stab 0.68, 188.13 ms
+magic seed 34 Random: margin 0.123 stab 0.17, 0.00 ms
+magic seed 36 PACE-SHAP: margin -0.055 stab 1.00, 1238.58 ms
+magic seed 36 PACE-SHAP-20: margin -0.067 stab 0.37, 86.00 ms
+magic seed 35 KernelSHAP-strong: margin -0.000 stab nan, 5029.09 ms
+magic seed 36 PACE-flip: margin 0.007 stab 1.00, 1.83 ms
+magic seed 36 PACE-multi: margin 0.044 stab 1.00, 0.37 ms
+magic seed 36 PACE-contrastive: margin 0.071 stab 1.00, 0.15 ms
+magic seed 37 PACE-SHAP: margin -0.058 stab 1.00, 1235.38 ms
+magic seed 36 PACE-decomposition: margin 0.072 stab 1.00, 0.30 ms
+magic seed 38 PACE-SHAP: margin -0.047 stab 1.00, 1306.76 ms
+magic seed 35 LIME: margin -0.007 stab 0.66, 197.14 ms
+magic seed 37 PACE-SHAP-20: margin -0.059 stab 0.45, 80.62 ms
+magic seed 35 Random: margin 0.138 stab 0.23, 0.00 ms
+magic seed 37 PACE-flip: margin 0.029 stab 1.00, 1.58 ms
+magic seed 37 PACE-multi: margin 0.081 stab 1.00, 0.34 ms
+magic seed 39 PACE-SHAP: margin -0.022 stab 1.00, 1322.48 ms
+magic seed 38 PACE-SHAP-20: margin -0.027 stab 0.58, 87.93 ms
+magic seed 37 PACE-contrastive: margin 0.094 stab 1.00, 0.27 ms
+magic seed 38 PACE-flip: margin 0.022 stab 1.00, 1.76 ms
+magic seed 37 PACE-decomposition: margin 0.091 stab 1.00, 0.24 ms
+magic seed 38 PACE-multi: margin 0.037 stab 1.00, 0.30 ms
+magic seed 38 PACE-contrastive: margin 0.100 stab 1.00, 0.22 ms
+magic seed 39 PACE-SHAP-20: margin -0.028 stab 0.59, 102.07 ms
+magic seed 38 PACE-decomposition: margin 0.086 stab 1.00, 0.36 ms
+magic seed 39 PACE-flip: margin 0.036 stab 1.00, 1.84 ms
+magic seed 39 PACE-multi: margin 0.078 stab 1.00, 0.38 ms
+magic seed 39 PACE-contrastive: margin 0.110 stab 1.00, 0.25 ms
+magic seed 39 PACE-decomposition: margin 0.148 stab 1.00, 0.39 ms
+magic seed 36 KernelSHAP: margin -0.072 stab 0.34, 790.93 ms
+magic seed 37 KernelSHAP: margin -0.047 stab 0.45, 966.54 ms
+magic seed 38 KernelSHAP: margin -0.027 stab 0.51, 1209.35 ms
+magic seed 39 KernelSHAP: margin -0.014 stab 0.56, 1484.36 ms
+letter seed 30 PACE-SHAP: margin -0.708 stab 0.97, 3710.63 ms
+magic seed 36 KernelSHAP-strong: margin -0.067 stab nan, 5453.91 ms
+letter seed 30 PACE-SHAP-20: margin -0.705 stab 0.59, 312.75 ms
+magic seed 37 KernelSHAP-strong: margin -0.059 stab nan, 4803.06 ms
+letter seed 31 PACE-SHAP: margin -0.718 stab 0.99, 4391.39 ms
+magic seed 36 LIME: margin -0.009 stab 0.69, 268.19 ms
+letter seed 30 PACE-flip: margin -0.667 stab 1.00, 5.05 ms
+magic seed 36 Random: margin 0.133 stab 0.23, 0.00 ms
+magic seed 38 KernelSHAP-strong: margin -0.027 stab nan, 4714.72 ms
+magic seed 37 LIME: margin -0.021 stab 0.72, 220.30 ms
+magic seed 37 Random: margin 0.157 stab 0.20, 0.00 ms
+letter seed 30 PACE-multi: margin -0.564 stab 1.00, 1.11 ms
+magic seed 39 KernelSHAP-strong: margin -0.028 stab nan, 4676.70 ms
+magic seed 38 LIME: margin 0.023 stab 0.61, 220.64 ms
+magic seed 38 Random: margin 0.146 stab 0.21, 0.00 ms
+letter seed 30 PACE-contrastive: margin -0.473 stab 1.00, 0.79 ms
+letter seed 31 PACE-SHAP-20: margin -0.715 stab 0.63, 299.43 ms
+magic seed 39 LIME: margin 0.023 stab 0.67, 203.14 ms
+magic seed 39 Random: margin 0.164 stab 0.23, 0.00 ms
+letter seed 30 PACE-decomposition: margin -0.605 stab 1.00, 1.01 ms
+letter seed 31 PACE-flip: margin -0.662 stab 1.00, 6.16 ms
+letter seed 31 PACE-multi: margin -0.585 stab 1.00, 1.41 ms
+letter seed 31 PACE-contrastive: margin -0.504 stab 1.00, 0.87 ms
+letter seed 31 PACE-decomposition: margin -0.629 stab 1.00, 1.48 ms
+letter seed 32 PACE-SHAP: margin -0.693 stab 1.00, 3597.88 ms
+letter seed 33 PACE-SHAP: margin -0.680 stab 0.99, 3535.67 ms
+letter seed 30 KernelSHAP: margin -0.695 stab 0.57, 3479.06 ms
+letter seed 34 PACE-SHAP: margin -0.691 stab 0.99, 3651.72 ms
+letter seed 35 PACE-SHAP: margin -0.690 stab 0.99, 3718.74 ms
+letter seed 32 PACE-SHAP-20: margin -0.684 stab 0.60, 324.69 ms
+letter seed 33 PACE-SHAP-20: margin -0.669 stab 0.58, 316.85 ms
+letter seed 32 PACE-flip: margin -0.671 stab 1.00, 3.88 ms
+letter seed 34 PACE-SHAP-20: margin -0.695 stab 0.57, 290.96 ms
+letter seed 33 PACE-flip: margin -0.631 stab 1.00, 4.51 ms
+letter seed 31 KernelSHAP: margin -0.708 stab 0.62, 3285.90 ms
+letter seed 35 PACE-SHAP-20: margin -0.692 stab 0.68, 297.58 ms
+letter seed 32 PACE-multi: margin -0.593 stab 1.00, 1.78 ms
+letter seed 34 PACE-flip: margin -0.647 stab 1.00, 4.06 ms
+letter seed 33 PACE-multi: margin -0.511 stab 1.00, 1.04 ms
+letter seed 35 PACE-flip: margin -0.647 stab 1.00, 4.57 ms
+letter seed 32 PACE-contrastive: margin -0.497 stab 1.00, 0.92 ms
+letter seed 34 PACE-multi: margin -0.534 stab 1.00, 0.87 ms
+letter seed 33 PACE-contrastive: margin -0.416 stab 1.00, 0.92 ms
+letter seed 35 PACE-multi: margin -0.566 stab 1.00, 1.29 ms
+letter seed 32 PACE-decomposition: margin -0.609 stab 1.00, 0.62 ms
+letter seed 34 PACE-contrastive: margin -0.454 stab 1.00, 0.68 ms
+letter seed 33 PACE-decomposition: margin -0.578 stab 1.00, 0.85 ms
+letter seed 35 PACE-contrastive: margin -0.474 stab 1.00, 0.63 ms
+letter seed 34 PACE-decomposition: margin -0.615 stab 1.00, 0.83 ms
+letter seed 35 PACE-decomposition: margin -0.582 stab 1.00, 1.29 ms
+letter seed 33 KernelSHAP: margin -0.659 stab 0.57, 3239.09 ms
+letter seed 32 KernelSHAP: margin -0.679 stab 0.58, 3252.36 ms
+letter seed 34 KernelSHAP: margin -0.692 stab 0.55, 3270.69 ms
+letter seed 35 KernelSHAP: margin -0.690 stab 0.67, 3210.01 ms
+letter seed 30 KernelSHAP-strong: margin -0.706 stab nan, 31596.84 ms
+letter seed 31 KernelSHAP-strong: margin -0.715 stab nan, 31893.18 ms
+letter seed 30 LIME: margin -0.674 stab 0.78, 942.07 ms
+letter seed 30 Random: margin -0.394 stab 0.14, 0.00 ms
+letter seed 31 LIME: margin -0.683 stab 0.85, 776.44 ms
+letter seed 31 Random: margin -0.437 stab 0.15, 0.00 ms
+letter seed 36 PACE-SHAP: margin -0.648 stab 0.95, 3095.78 ms
+letter seed 37 PACE-SHAP: margin -0.713 stab 1.00, 3148.13 ms
+letter seed 33 KernelSHAP-strong: margin -0.669 stab nan, 33572.56 ms
+letter seed 36 PACE-SHAP-20: margin -0.651 stab 0.67, 358.82 ms
+letter seed 35 KernelSHAP-strong: margin -0.694 stab nan, 33275.16 ms
+letter seed 36 PACE-flip: margin -0.618 stab 1.00, 4.75 ms
+letter seed 37 PACE-SHAP-20: margin -0.694 stab 0.67, 288.84 ms
+letter seed 32 KernelSHAP-strong: margin -0.684 stab nan, 34385.12 ms
+letter seed 34 KernelSHAP-strong: margin -0.695 stab nan, 34082.90 ms
+letter seed 36 PACE-multi: margin -0.504 stab 1.00, 1.57 ms
+letter seed 37 PACE-flip: margin -0.640 stab 1.00, 4.49 ms
+letter seed 36 PACE-contrastive: margin -0.445 stab 1.00, 0.62 ms
+letter seed 37 PACE-multi: margin -0.565 stab 1.00, 1.35 ms
+letter seed 36 PACE-decomposition: margin -0.542 stab 1.00, 1.07 ms
+letter seed 37 PACE-contrastive: margin -0.481 stab 1.00, 0.93 ms
+letter seed 33 LIME: margin -0.626 stab 0.85, 831.80 ms
+letter seed 35 LIME: margin -0.667 stab 0.88, 810.55 ms
+letter seed 33 Random: margin -0.366 stab 0.09, 0.01 ms
+letter seed 37 PACE-decomposition: margin -0.618 stab 1.00, 1.02 ms
+letter seed 35 Random: margin -0.354 stab 0.18, 0.00 ms
+letter seed 34 LIME: margin -0.659 stab 0.86, 924.51 ms
+letter seed 32 LIME: margin -0.675 stab 0.89, 934.31 ms
+letter seed 34 Random: margin -0.364 stab 0.12, 0.00 ms
+letter seed 32 Random: margin -0.383 stab 0.12, 0.01 ms
+letter seed 38 PACE-SHAP: margin -0.660 stab 0.99, 3669.81 ms
+letter seed 36 KernelSHAP: margin -0.642 stab 0.63, 3922.80 ms
+letter seed 39 PACE-SHAP: margin -0.695 stab 1.00, 3769.32 ms
+letter seed 37 KernelSHAP: margin -0.688 stab 0.61, 3821.11 ms
+letter seed 38 PACE-SHAP-20: margin -0.658 stab 0.71, 322.51 ms
+letter seed 39 PACE-SHAP-20: margin -0.680 stab 0.59, 335.72 ms
+letter seed 38 PACE-flip: margin -0.618 stab 1.00, 4.95 ms
+letter seed 39 PACE-flip: margin -0.641 stab 1.00, 5.30 ms
+letter seed 38 PACE-multi: margin -0.523 stab 1.00, 1.35 ms
+letter seed 39 PACE-multi: margin -0.554 stab 1.00, 1.26 ms
+landsat seed 30 PACE-SHAP: margin -0.404 stab 0.93, 4813.26 ms
+letter seed 38 PACE-contrastive: margin -0.404 stab 1.00, 0.94 ms
+letter seed 39 PACE-contrastive: margin -0.420 stab 1.00, 0.90 ms
+landsat seed 31 PACE-SHAP: margin -0.331 stab 0.95, 4973.50 ms
+letter seed 38 PACE-decomposition: margin -0.556 stab 1.00, 1.07 ms
+letter seed 39 PACE-decomposition: margin -0.576 stab 1.00, 1.03 ms
+landsat seed 30 PACE-SHAP-20: margin -0.380 stab 0.57, 319.29 ms
+landsat seed 31 PACE-SHAP-20: margin -0.301 stab 0.57, 289.52 ms
+landsat seed 30 PACE-flip: margin -0.315 stab 1.00, 3.75 ms
+landsat seed 31 PACE-flip: margin -0.277 stab 1.00, 3.15 ms
+landsat seed 30 PACE-multi: margin -0.287 stab 1.00, 0.61 ms
+landsat seed 31 PACE-multi: margin -0.218 stab 1.00, 0.84 ms
+landsat seed 30 PACE-contrastive: margin -0.213 stab 1.00, 0.41 ms
+landsat seed 31 PACE-contrastive: margin -0.154 stab 1.00, 0.28 ms
+landsat seed 30 PACE-decomposition: margin -0.250 stab 1.00, 0.40 ms
+landsat seed 31 PACE-decomposition: margin -0.183 stab 1.00, 0.72 ms
+landsat seed 30 KernelSHAP: margin -0.277 stab 0.18, 1837.06 ms
+landsat seed 31 KernelSHAP: margin -0.180 stab 0.14, 1961.59 ms
+letter seed 38 KernelSHAP: margin -0.653 stab 0.69, 3277.92 ms
+letter seed 39 KernelSHAP: margin -0.672 stab 0.59, 3258.55 ms
+landsat seed 30 KernelSHAP-strong: margin -0.371 stab nan, 19887.23 ms
+landsat seed 31 KernelSHAP-strong: margin -0.295 stab nan, 20765.11 ms
+landsat seed 30 LIME: margin -0.347 stab 0.60, 462.10 ms
+landsat seed 30 Random: margin -0.100 stab 0.06, 0.01 ms
+landsat seed 31 LIME: margin -0.313 stab 0.48, 425.29 ms
+landsat seed 31 Random: margin -0.063 stab 0.06, 0.00 ms
+letter seed 37 KernelSHAP-strong: margin -0.696 stab nan, 38997.98 ms
+landsat seed 32 PACE-SHAP: margin -0.320 stab 0.88, 4073.93 ms
+landsat seed 32 PACE-SHAP-20: margin -0.310 stab 0.48, 311.48 ms
+letter seed 37 LIME: margin -0.688 stab 0.77, 1089.33 ms
+landsat seed 33 PACE-SHAP: margin -0.279 stab 0.94, 4406.81 ms
+letter seed 37 Random: margin -0.428 stab 0.12, 0.01 ms
+landsat seed 32 PACE-flip: margin -0.232 stab 1.00, 5.20 ms
+letter seed 36 KernelSHAP-strong: margin -0.648 stab nan, 42355.33 ms
+landsat seed 32 PACE-multi: margin -0.215 stab 1.00, 0.83 ms
+landsat seed 33 PACE-SHAP-20: margin -0.272 stab 0.70, 344.25 ms
+landsat seed 32 PACE-contrastive: margin -0.142 stab 1.00, 0.95 ms
+landsat seed 33 PACE-flip: margin -0.239 stab 1.00, 4.92 ms
+landsat seed 32 PACE-decomposition: margin -0.139 stab 1.00, 0.74 ms
+landsat seed 33 PACE-multi: margin -0.202 stab 1.00, 0.98 ms
+letter seed 36 LIME: margin -0.618 stab 0.85, 1148.73 ms
+landsat seed 33 PACE-contrastive: margin -0.097 stab 1.00, 0.57 ms
+letter seed 36 Random: margin -0.357 stab 0.10, 0.01 ms
+landsat seed 33 PACE-decomposition: margin -0.186 stab 1.00, 0.92 ms
+letter seed 39 KernelSHAP-strong: margin -0.679 stab nan, 37625.13 ms
+landsat seed 32 KernelSHAP: margin -0.231 stab 0.10, 2112.86 ms
+letter seed 38 KernelSHAP-strong: margin -0.653 stab nan, 38636.57 ms
+landsat seed 33 KernelSHAP: margin -0.174 stab 0.18, 1659.43 ms
+letter seed 39 LIME: margin -0.640 stab 0.85, 837.83 ms
+letter seed 39 Random: margin -0.375 stab 0.15, 0.01 ms
+landsat seed 34 PACE-SHAP: margin -0.347 stab 0.96, 4221.75 ms
+letter seed 38 LIME: margin -0.632 stab 0.87, 764.60 ms
+letter seed 38 Random: margin -0.352 stab 0.12, 0.01 ms
+landsat seed 34 PACE-SHAP-20: margin -0.315 stab 0.43, 291.37 ms
+landsat seed 34 PACE-flip: margin -0.241 stab 1.00, 3.55 ms
+landsat seed 34 PACE-multi: margin -0.235 stab 1.00, 0.79 ms
+landsat seed 34 PACE-contrastive: margin -0.163 stab 1.00, 0.34 ms
+landsat seed 34 PACE-decomposition: margin -0.220 stab 1.00, 0.45 ms
+landsat seed 35 PACE-SHAP: margin -0.301 stab 0.94, 3802.31 ms
+landsat seed 35 PACE-SHAP-20: margin -0.293 stab 0.52, 281.36 ms
+landsat seed 35 PACE-flip: margin -0.230 stab 1.00, 4.26 ms
+landsat seed 35 PACE-multi: margin -0.213 stab 1.00, 0.65 ms
+landsat seed 35 PACE-contrastive: margin -0.136 stab 1.00, 0.51 ms
+landsat seed 35 PACE-decomposition: margin -0.153 stab 1.00, 0.65 ms
+landsat seed 34 KernelSHAP: margin -0.251 stab 0.20, 1948.85 ms
+landsat seed 36 PACE-SHAP: margin -0.290 stab 0.91, 4031.82 ms
+landsat seed 37 PACE-SHAP: margin -0.344 stab 0.95, 4130.24 ms
+landsat seed 36 PACE-SHAP-20: margin -0.235 stab 0.50, 298.54 ms
+landsat seed 36 PACE-flip: margin -0.165 stab 1.00, 2.70 ms
+landsat seed 37 PACE-SHAP-20: margin -0.349 stab 0.43, 302.25 ms
+landsat seed 36 PACE-multi: margin -0.181 stab 1.00, 1.20 ms
+landsat seed 35 KernelSHAP: margin -0.218 stab 0.15, 1933.69 ms
+landsat seed 37 PACE-flip: margin -0.293 stab 1.00, 3.67 ms
+landsat seed 36 PACE-contrastive: margin -0.110 stab 1.00, 0.36 ms
+landsat seed 37 PACE-multi: margin -0.255 stab 1.00, 0.80 ms
+landsat seed 36 PACE-decomposition: margin -0.136 stab 1.00, 0.80 ms
+landsat seed 37 PACE-contrastive: margin -0.156 stab 1.00, 0.39 ms
+landsat seed 37 PACE-decomposition: margin -0.220 stab 1.00, 0.84 ms
+landsat seed 36 KernelSHAP: margin -0.122 stab 0.17, 2324.71 ms
+landsat seed 32 KernelSHAP-strong: margin -0.310 stab nan, 19850.46 ms
+landsat seed 37 KernelSHAP: margin -0.250 stab 0.14, 2376.60 ms
+landsat seed 32 LIME: margin -0.292 stab 0.51, 564.82 ms
+landsat seed 33 KernelSHAP-strong: margin -0.270 stab nan, 20853.24 ms
+landsat seed 32 Random: margin -0.013 stab 0.04, 0.00 ms
+landsat seed 33 LIME: margin -0.245 stab 0.50, 514.05 ms
+landsat seed 33 Random: margin -0.043 stab 0.06, 0.00 ms
+landsat seed 34 KernelSHAP-strong: margin -0.300 stab nan, 20602.04 ms
+landsat seed 38 PACE-SHAP: margin -0.342 stab 0.95, 4020.79 ms
+landsat seed 34 LIME: margin -0.316 stab 0.56, 454.34 ms
+landsat seed 34 Random: margin -0.037 stab 0.06, 0.00 ms
+landsat seed 38 PACE-SHAP-20: margin -0.318 stab 0.35, 327.48 ms
+landsat seed 38 PACE-flip: margin -0.291 stab 1.00, 2.82 ms
+page_blocks seed 30 PACE-SHAP: margin 0.031 stab 1.00, 274.18 ms
+page_blocks seed 30 PACE-SHAP-20: margin 0.046 stab 0.86, 14.81 ms
+page_blocks seed 30 PACE-flip: margin 0.041 stab 1.00, 0.56 ms
+page_blocks seed 30 PACE-multi: margin 0.086 stab 1.00, 0.06 ms
+page_blocks seed 30 PACE-contrastive: margin 0.099 stab 1.00, 0.05 ms
+page_blocks seed 30 PACE-decomposition: margin 0.104 stab 1.00, 0.07 ms
+page_blocks seed 30 KernelSHAP: margin 0.045 stab 0.86, 135.57 ms
+landsat seed 38 PACE-multi: margin -0.294 stab 1.00, 0.67 ms
+landsat seed 39 PACE-SHAP: margin -0.326 stab 0.95, 3991.44 ms
+landsat seed 38 PACE-contrastive: margin -0.204 stab 1.00, 0.59 ms
+page_blocks seed 30 KernelSHAP-strong: margin 0.046 stab nan, 569.07 ms
+page_blocks seed 30 LIME: margin 0.051 stab 0.86, 43.92 ms
+page_blocks seed 30 Random: margin 0.149 stab 0.21, 0.00 ms
+landsat seed 38 PACE-decomposition: margin -0.229 stab 1.00, 0.40 ms
+landsat seed 39 PACE-SHAP-20: margin -0.320 stab 0.62, 288.48 ms
+page_blocks seed 31 PACE-SHAP: margin 0.026 stab 1.00, 274.71 ms
+page_blocks seed 31 PACE-SHAP-20: margin 0.010 stab 0.71, 13.24 ms
+page_blocks seed 31 PACE-flip: margin 0.029 stab 1.00, 0.42 ms
+page_blocks seed 31 PACE-multi: margin 0.033 stab 1.00, 0.09 ms
+page_blocks seed 31 PACE-contrastive: margin 0.053 stab 1.00, 0.05 ms
+landsat seed 35 KernelSHAP-strong: margin -0.291 stab nan, 20438.36 ms
+page_blocks seed 31 PACE-decomposition: margin 0.082 stab 1.00, 0.08 ms
+page_blocks seed 31 KernelSHAP: margin 0.031 stab 0.62, 126.52 ms
+landsat seed 39 PACE-flip: margin -0.262 stab 1.00, 3.20 ms
+page_blocks seed 31 KernelSHAP-strong: margin 0.013 stab nan, 570.24 ms
+landsat seed 39 PACE-multi: margin -0.241 stab 1.00, 0.59 ms
+page_blocks seed 31 LIME: margin 0.026 stab 0.75, 43.39 ms
+page_blocks seed 31 Random: margin 0.072 stab 0.19, 0.01 ms
+landsat seed 39 PACE-contrastive: margin -0.164 stab 1.00, 0.51 ms
+page_blocks seed 32 PACE-SHAP: margin 0.063 stab 1.00, 272.86 ms
+landsat seed 35 LIME: margin -0.236 stab 0.44, 532.08 ms
+page_blocks seed 32 PACE-SHAP-20: margin 0.046 stab 0.27, 15.58 ms
+page_blocks seed 32 PACE-flip: margin 0.043 stab 1.00, 0.44 ms
+page_blocks seed 32 PACE-multi: margin 0.060 stab 1.00, 0.09 ms
+page_blocks seed 32 PACE-contrastive: margin 0.058 stab 1.00, 0.05 ms
+page_blocks seed 32 PACE-decomposition: margin 0.109 stab 1.00, 0.08 ms
+page_blocks seed 32 KernelSHAP: margin 0.056 stab 0.25, 125.18 ms
+landsat seed 39 PACE-decomposition: margin -0.174 stab 1.00, 0.76 ms
+landsat seed 35 Random: margin -0.064 stab 0.07, 0.01 ms
+page_blocks seed 32 KernelSHAP-strong: margin 0.046 stab nan, 532.34 ms
+page_blocks seed 32 LIME: margin 0.069 stab 0.80, 35.98 ms
+page_blocks seed 32 Random: margin 0.131 stab 0.18, 0.01 ms
+page_blocks seed 33 PACE-SHAP: margin -0.046 stab 1.00, 269.18 ms
+page_blocks seed 33 PACE-SHAP-20: margin -0.040 stab 0.33, 11.46 ms
+page_blocks seed 33 PACE-flip: margin -0.046 stab 1.00, 0.27 ms
+page_blocks seed 33 PACE-multi: margin -0.025 stab 1.00, 0.06 ms
+page_blocks seed 33 PACE-contrastive: margin 0.011 stab 1.00, 0.05 ms
+page_blocks seed 33 PACE-decomposition: margin 0.012 stab 1.00, 0.05 ms
+page_blocks seed 33 KernelSHAP: margin -0.033 stab 0.33, 94.94 ms
+page_blocks seed 34 PACE-SHAP: margin 0.155 stab 1.00, 195.88 ms
+page_blocks seed 34 PACE-SHAP-20: margin 0.085 stab 0.53, 12.36 ms
+page_blocks seed 34 PACE-flip: margin 0.165 stab 1.00, 0.25 ms
+page_blocks seed 34 PACE-multi: margin 0.129 stab 1.00, 0.09 ms
+page_blocks seed 34 PACE-contrastive: margin 0.136 stab 1.00, 0.03 ms
+page_blocks seed 34 PACE-decomposition: margin 0.193 stab 1.00, 0.04 ms
+page_blocks seed 34 KernelSHAP: margin 0.084 stab 0.51, 112.81 ms
+page_blocks seed 33 KernelSHAP-strong: margin -0.040 stab nan, 456.12 ms
+page_blocks seed 33 LIME: margin -0.054 stab 0.78, 42.99 ms
+page_blocks seed 33 Random: margin 0.051 stab 0.21, 0.00 ms
+landsat seed 38 KernelSHAP: margin -0.251 stab 0.08, 1791.06 ms
+page_blocks seed 34 KernelSHAP-strong: margin 0.085 stab nan, 489.16 ms
+page_blocks seed 34 LIME: margin 0.084 stab 0.89, 45.59 ms
+page_blocks seed 34 Random: margin 0.207 stab 0.17, 0.00 ms
+page_blocks seed 35 PACE-SHAP: margin -0.018 stab 1.00, 293.84 ms
+page_blocks seed 35 PACE-SHAP-20: margin -0.009 stab 0.32, 12.56 ms
+page_blocks seed 35 PACE-flip: margin -0.011 stab 1.00, 0.28 ms
+page_blocks seed 35 PACE-multi: margin -0.007 stab 1.00, 0.09 ms
+page_blocks seed 35 PACE-contrastive: margin 0.039 stab 1.00, 0.02 ms
+page_blocks seed 35 PACE-decomposition: margin 0.069 stab 1.00, 0.08 ms
+landsat seed 36 KernelSHAP-strong: margin -0.231 stab nan, 18742.98 ms
+page_blocks seed 35 KernelSHAP: margin -0.006 stab 0.31, 107.63 ms
+page_blocks seed 36 PACE-SHAP: margin 0.068 stab 1.00, 232.58 ms
+page_blocks seed 36 PACE-SHAP-20: margin 0.078 stab 0.33, 13.49 ms
+page_blocks seed 36 PACE-flip: margin 0.050 stab 1.00, 0.42 ms
+page_blocks seed 36 PACE-multi: margin 0.055 stab 1.00, 0.05 ms
+page_blocks seed 36 PACE-contrastive: margin 0.082 stab 1.00, 0.05 ms
+page_blocks seed 36 PACE-decomposition: margin 0.103 stab 1.00, 0.06 ms
+page_blocks seed 36 KernelSHAP: margin 0.081 stab 0.35, 122.22 ms
+page_blocks seed 35 KernelSHAP-strong: margin -0.009 stab nan, 533.11 ms
+page_blocks seed 35 LIME: margin 0.032 stab 0.75, 39.91 ms
+page_blocks seed 35 Random: margin 0.084 stab 0.23, 0.01 ms
+page_blocks seed 36 KernelSHAP-strong: margin 0.078 stab nan, 540.51 ms
+page_blocks seed 36 LIME: margin 0.072 stab 0.69, 38.11 ms
+page_blocks seed 36 Random: margin 0.116 stab 0.23, 0.01 ms
+page_blocks seed 37 PACE-SHAP: margin 0.181 stab 1.00, 277.56 ms
+page_blocks seed 37 PACE-SHAP-20: margin 0.176 stab 0.61, 12.40 ms
+page_blocks seed 37 PACE-flip: margin 0.200 stab 1.00, 0.40 ms
+page_blocks seed 37 PACE-multi: margin 0.195 stab 1.00, 0.05 ms
+page_blocks seed 37 PACE-contrastive: margin 0.197 stab 1.00, 0.04 ms
+page_blocks seed 37 PACE-decomposition: margin 0.273 stab 1.00, 0.07 ms
+landsat seed 39 KernelSHAP: margin -0.212 stab 0.15, 1668.21 ms
+landsat seed 36 LIME: margin -0.246 stab 0.54, 472.81 ms
+landsat seed 37 KernelSHAP-strong: margin -0.339 stab nan, 18987.17 ms
+page_blocks seed 37 KernelSHAP: margin 0.176 stab 0.63, 98.52 ms
+page_blocks seed 38 PACE-SHAP: margin -0.008 stab 1.00, 230.65 ms
+page_blocks seed 38 PACE-SHAP-20: margin -0.015 stab 0.35, 13.72 ms
+page_blocks seed 38 PACE-flip: margin 0.004 stab 1.00, 0.46 ms
+page_blocks seed 38 PACE-multi: margin -0.004 stab 1.00, 0.06 ms
+page_blocks seed 38 PACE-contrastive: margin 0.031 stab 1.00, 0.05 ms
+page_blocks seed 38 PACE-decomposition: margin 0.037 stab 1.00, 0.04 ms
+landsat seed 36 Random: margin -0.020 stab 0.06, 0.01 ms
+page_blocks seed 38 KernelSHAP: margin -0.012 stab 0.35, 107.78 ms
+page_blocks seed 37 KernelSHAP-strong: margin 0.176 stab nan, 466.83 ms
+page_blocks seed 37 LIME: margin 0.176 stab 0.88, 35.29 ms
+page_blocks seed 37 Random: margin 0.301 stab 0.20, 0.01 ms
+page_blocks seed 38 KernelSHAP-strong: margin -0.015 stab nan, 367.84 ms
+page_blocks seed 39 PACE-SHAP: margin 0.049 stab 1.00, 258.39 ms
+page_blocks seed 38 LIME: margin 0.001 stab 0.71, 24.55 ms
+page_blocks seed 39 PACE-SHAP-20: margin 0.044 stab 0.51, 11.84 ms
+page_blocks seed 38 Random: margin 0.076 stab 0.21, 0.00 ms
+page_blocks seed 39 PACE-flip: margin 0.039 stab 1.00, 0.23 ms
+page_blocks seed 39 PACE-multi: margin 0.036 stab 1.00, 0.04 ms
+page_blocks seed 39 PACE-contrastive: margin 0.059 stab 1.00, 0.03 ms
+page_blocks seed 39 PACE-decomposition: margin 0.122 stab 1.00, 0.03 ms
+landsat seed 37 LIME: margin -0.324 stab 0.59, 426.86 ms
+page_blocks seed 39 KernelSHAP: margin 0.041 stab 0.48, 71.57 ms
+landsat seed 37 Random: margin -0.023 stab 0.08, 0.00 ms
+page_blocks seed 39 KernelSHAP-strong: margin 0.044 stab nan, 314.39 ms
+page_blocks seed 39 LIME: margin 0.031 stab 0.80, 18.90 ms
+page_blocks seed 39 Random: margin 0.095 stab 0.23, 0.00 ms
+landsat seed 38 KernelSHAP-strong: margin -0.308 stab nan, 7700.32 ms
+landsat seed 38 LIME: margin -0.336 stab 0.48, 149.40 ms
+landsat seed 38 Random: margin -0.090 stab 0.06, 0.00 ms
+landsat seed 39 KernelSHAP-strong: margin -0.315 stab nan, 6447.93 ms
+landsat seed 39 LIME: margin -0.300 stab 0.54, 96.01 ms
+landsat seed 39 Random: margin -0.045 stab 0.07, 0.00 ms
+# RQ1 faithfulness, v3 (PACE-SHAP; separate explainer background)
+
+50 test points per dataset and seed (fewer if the test split is smaller); seeds [30, 31, 32, 33, 34, 35, 36, 37, 38, 39]. Same tests as v2 (signed ranking, margin targets), but the deletion and insertion tests copy values from one set of training rows and every explainer uses a second, disjoint set (200 rows each, or half the training set). PACE-SHAP uses the first 200 explainer rows (exact for d <= 12, otherwise 32 orders per row); PACE-SHAP-20 uses the same 20 rows as KernelSHAP; KernelSHAP-strong uses 2048 samples and no l1 feature selection (every coalition when d <= 11; no stability re-run). Each deletion or insertion copies values from one random evaluation row (10 repetitions). Mean ± 95% CI over seeds.
+
+Deletion margin AUC: lower = more faithful. Insertion margin AUC: higher = more faithful. '|attr| deletion' is the original ranking (secondary). Stability = top-3 overlap when the explainer is re-run with another seed. Ground truth = share of the top 3 (ties broken at random) that are truly relevant (synthetic sets only).
+
+| Dataset | Method | Deletion margin AUC | Insertion margin AUC | |attr| deletion (old) | Class-kept deletion AUC | Stability | Ground truth top-3 | Negative attributions |
+|---|---|---|---|---|---|---|---|---|
+| S1 | PACE-SHAP | -0.139 ± 0.035 | 0.645 ± 0.015 | 0.062 ± 0.016 | 0.428 ± 0.018 | 1.00 | 0.85 | 0.38 |
+| S1 | PACE-SHAP-20 | -0.131 ± 0.030 | 0.636 ± 0.014 | 0.078 ± 0.019 | 0.433 ± 0.015 | 0.74 | 0.81 | 0.39 |
+| S1 | PACE-flip | -0.089 ± 0.032 | 0.617 ± 0.012 | -0.089 ± 0.032 | 0.456 ± 0.016 | 1.00 | 0.55 | 0.00 |
+| S1 | PACE-multi | -0.016 ± 0.037 | 0.542 ± 0.021 | 0.095 ± 0.024 | 0.495 ± 0.019 | 1.00 | 0.51 | 0.23 |
+| S1 | PACE-contrastive | 0.047 ± 0.037 | 0.483 ± 0.021 | 0.133 ± 0.030 | 0.531 ± 0.020 | 1.00 | 0.47 | 0.29 |
+| S1 | PACE-decomposition | 0.154 ± 0.027 | 0.436 ± 0.017 | 0.167 ± 0.021 | 0.596 ± 0.014 | 1.00 | 0.32 | 0.08 |
+| S1 | KernelSHAP | -0.133 ± 0.031 | 0.635 ± 0.013 | 0.076 ± 0.018 | 0.431 ± 0.015 | 0.73 | 0.81 | 0.39 |
+| S1 | KernelSHAP-strong | -0.131 ± 0.030 | 0.636 ± 0.014 | 0.078 ± 0.019 | 0.433 ± 0.015 | – | 0.81 | 0.39 |
+| S1 | LIME | -0.109 ± 0.037 | 0.609 ± 0.016 | 0.086 ± 0.016 | 0.443 ± 0.018 | 0.90 | 0.92 | 0.42 |
+| S1 | Random | 0.271 ± 0.033 | 0.296 ± 0.024 | 0.271 ± 0.033 | 0.659 ± 0.018 | 0.21 | 0.29 | 0.00 |
+| S2 | PACE-SHAP | -0.132 ± 0.034 | 0.609 ± 0.020 | 0.079 ± 0.024 | 0.432 ± 0.018 | 1.00 | 0.79 | 0.37 |
+| S2 | PACE-SHAP-20 | -0.128 ± 0.032 | 0.593 ± 0.021 | 0.081 ± 0.018 | 0.434 ± 0.018 | 0.67 | 0.76 | 0.38 |
+| S2 | PACE-flip | -0.076 ± 0.037 | 0.561 ± 0.020 | -0.076 ± 0.037 | 0.464 ± 0.020 | 1.00 | 0.49 | 0.00 |
+| S2 | PACE-multi | -0.008 ± 0.035 | 0.480 ± 0.024 | 0.099 ± 0.018 | 0.500 ± 0.019 | 1.00 | 0.44 | 0.23 |
+| S2 | PACE-contrastive | 0.054 ± 0.032 | 0.420 ± 0.019 | 0.147 ± 0.020 | 0.534 ± 0.017 | 1.00 | 0.40 | 0.28 |
+| S2 | PACE-decomposition | 0.149 ± 0.038 | 0.405 ± 0.023 | 0.156 ± 0.037 | 0.590 ± 0.019 | 1.00 | 0.31 | 0.08 |
+| S2 | KernelSHAP | -0.125 ± 0.032 | 0.592 ± 0.021 | 0.086 ± 0.017 | 0.437 ± 0.017 | 0.67 | 0.75 | 0.38 |
+| S2 | KernelSHAP-strong | -0.128 ± 0.032 | 0.593 ± 0.021 | 0.081 ± 0.018 | 0.434 ± 0.018 | – | 0.76 | 0.38 |
+| S2 | LIME | -0.095 ± 0.036 | 0.565 ± 0.027 | 0.104 ± 0.020 | 0.452 ± 0.020 | 0.88 | 0.91 | 0.43 |
+| S2 | Random | 0.256 ± 0.047 | 0.257 ± 0.037 | 0.256 ± 0.047 | 0.650 ± 0.025 | 0.21 | 0.29 | 0.00 |
+| S3 | PACE-SHAP | -0.055 ± 0.051 | 0.639 ± 0.021 | 0.138 ± 0.037 | 0.478 ± 0.030 | 1.00 | 0.80 | 0.42 |
+| S3 | PACE-SHAP-20 | -0.044 ± 0.050 | 0.627 ± 0.021 | 0.149 ± 0.047 | 0.483 ± 0.028 | 0.69 | 0.72 | 0.43 |
+| S3 | PACE-flip | 0.006 ± 0.050 | 0.595 ± 0.022 | 0.006 ± 0.050 | 0.508 ± 0.030 | 1.00 | 0.52 | 0.00 |
+| S3 | PACE-multi | 0.074 ± 0.050 | 0.520 ± 0.033 | 0.156 ± 0.036 | 0.547 ± 0.029 | 1.00 | 0.48 | 0.23 |
+| S3 | PACE-contrastive | 0.119 ± 0.046 | 0.474 ± 0.036 | 0.184 ± 0.033 | 0.573 ± 0.027 | 1.00 | 0.44 | 0.28 |
+| S3 | PACE-decomposition | 0.219 ± 0.053 | 0.451 ± 0.033 | 0.229 ± 0.051 | 0.634 ± 0.031 | 1.00 | 0.36 | 0.08 |
+| S3 | KernelSHAP | -0.041 ± 0.048 | 0.626 ± 0.021 | 0.150 ± 0.045 | 0.485 ± 0.028 | 0.65 | 0.72 | 0.43 |
+| S3 | KernelSHAP-strong | -0.044 ± 0.050 | 0.627 ± 0.021 | 0.149 ± 0.047 | 0.483 ± 0.028 | – | 0.72 | 0.43 |
+| S3 | LIME | 0.012 ± 0.050 | 0.569 ± 0.021 | 0.167 ± 0.037 | 0.513 ± 0.030 | 0.85 | 0.89 | 0.43 |
+| S3 | Random | 0.318 ± 0.046 | 0.314 ± 0.037 | 0.318 ± 0.046 | 0.687 ± 0.025 | 0.21 | 0.29 | 0.00 |
+| wine | PACE-SHAP | -0.076 ± 0.036 | 0.533 ± 0.019 | -0.051 ± 0.033 | 0.472 ± 0.020 | 0.97 | – | 0.12 |
+| wine | PACE-SHAP-20 | -0.070 ± 0.038 | 0.526 ± 0.018 | -0.043 ± 0.034 | 0.476 ± 0.022 | 0.71 | – | 0.13 |
+| wine | PACE-flip | -0.055 ± 0.030 | 0.489 ± 0.018 | -0.055 ± 0.030 | 0.480 ± 0.018 | 1.00 | – | 0.00 |
+| wine | PACE-multi | -0.025 ± 0.032 | 0.448 ± 0.020 | 0.013 ± 0.031 | 0.498 ± 0.019 | 1.00 | – | 0.12 |
+| wine | PACE-contrastive | 0.005 ± 0.029 | 0.409 ± 0.022 | 0.046 ± 0.029 | 0.512 ± 0.018 | 1.00 | – | 0.14 |
+| wine | PACE-decomposition | 0.040 ± 0.039 | 0.446 ± 0.024 | 0.056 ± 0.037 | 0.531 ± 0.022 | 1.00 | – | 0.07 |
+| wine | KernelSHAP | -0.068 ± 0.038 | 0.524 ± 0.018 | -0.046 ± 0.034 | 0.476 ± 0.022 | 0.71 | – | 0.04 |
+| wine | KernelSHAP-strong | -0.070 ± 0.039 | 0.526 ± 0.018 | -0.043 ± 0.034 | 0.476 ± 0.022 | – | – | 0.13 |
+| wine | LIME | -0.039 ± 0.035 | 0.492 ± 0.018 | 0.002 ± 0.031 | 0.491 ± 0.019 | 0.89 | – | 0.26 |
+| wine | Random | 0.236 ± 0.038 | 0.239 ± 0.021 | 0.236 ± 0.038 | 0.641 ± 0.022 | 0.15 | – | 0.00 |
+| breast_cancer | PACE-SHAP | 0.111 ± 0.021 | 0.699 ± 0.019 | 0.173 ± 0.022 | 0.591 ± 0.013 | 0.97 | – | 0.31 |
+| breast_cancer | PACE-SHAP-20 | 0.122 ± 0.020 | 0.687 ± 0.023 | 0.190 ± 0.026 | 0.597 ± 0.013 | 0.55 | – | 0.33 |
+| breast_cancer | PACE-flip | 0.137 ± 0.022 | 0.685 ± 0.020 | 0.137 ± 0.022 | 0.606 ± 0.013 | 1.00 | – | 0.00 |
+| breast_cancer | PACE-multi | 0.143 ± 0.020 | 0.668 ± 0.021 | 0.160 ± 0.020 | 0.608 ± 0.015 | 1.00 | – | 0.05 |
+| breast_cancer | PACE-contrastive | 0.179 ± 0.026 | 0.598 ± 0.029 | 0.199 ± 0.025 | 0.625 ± 0.016 | 1.00 | – | 0.05 |
+| breast_cancer | PACE-decomposition | 0.222 ± 0.024 | 0.622 ± 0.020 | 0.230 ± 0.025 | 0.643 ± 0.014 | 1.00 | – | 0.03 |
+| breast_cancer | KernelSHAP | 0.174 ± 0.023 | 0.634 ± 0.024 | 0.207 ± 0.028 | 0.626 ± 0.012 | 0.38 | – | 0.04 |
+| breast_cancer | KernelSHAP-strong | 0.122 ± 0.020 | 0.687 ± 0.023 | 0.190 ± 0.025 | 0.598 ± 0.013 | – | – | 0.33 |
+| breast_cancer | LIME | 0.141 ± 0.020 | 0.680 ± 0.018 | 0.184 ± 0.022 | 0.600 ± 0.013 | 0.72 | – | 0.27 |
+| breast_cancer | Random | 0.398 ± 0.015 | 0.414 ± 0.015 | 0.398 ± 0.015 | 0.752 ± 0.009 | 0.07 | – | 0.00 |
+| thyroid | PACE-SHAP | 0.549 ± 0.047 | 0.915 ± 0.031 | 0.625 ± 0.050 | 0.889 ± 0.028 | 0.99 | – | 0.69 |
+| thyroid | PACE-SHAP-20 | 0.562 ± 0.049 | 0.902 ± 0.027 | 0.624 ± 0.049 | 0.898 ± 0.031 | 0.55 | – | 0.41 |
+| thyroid | PACE-flip | 0.544 ± 0.047 | 0.918 ± 0.027 | 0.544 ± 0.047 | 0.879 ± 0.031 | 1.00 | – | 0.00 |
+| thyroid | PACE-multi | 0.582 ± 0.048 | 0.904 ± 0.027 | 0.584 ± 0.049 | 0.891 ± 0.031 | 1.00 | – | 0.01 |
+| thyroid | PACE-contrastive | 0.599 ± 0.046 | 0.856 ± 0.037 | 0.603 ± 0.046 | 0.897 ± 0.029 | 1.00 | – | 0.01 |
+| thyroid | PACE-decomposition | 0.723 ± 0.046 | 0.743 ± 0.032 | 0.724 ± 0.046 | 0.916 ± 0.026 | 1.00 | – | 0.00 |
+| thyroid | KernelSHAP | 0.575 ± 0.043 | 0.892 ± 0.032 | 0.638 ± 0.047 | 0.901 ± 0.028 | 0.55 | – | 0.36 |
+| thyroid | KernelSHAP-strong | 0.562 ± 0.048 | 0.903 ± 0.028 | 0.624 ± 0.049 | 0.898 ± 0.031 | – | – | 0.41 |
+| thyroid | LIME | 0.571 ± 0.046 | 0.874 ± 0.027 | 0.640 ± 0.049 | 0.897 ± 0.029 | 0.77 | – | 0.50 |
+| thyroid | Random | 0.739 ± 0.043 | 0.736 ± 0.031 | 0.739 ± 0.043 | 0.938 ± 0.024 | 0.09 | – | 0.00 |
+| shuttle | PACE-SHAP | 0.370 ± 0.056 | 0.744 ± 0.044 | 0.381 ± 0.056 | 0.721 ± 0.024 | 1.00 | – | 0.42 |
+| shuttle | PACE-SHAP-20 | 0.365 ± 0.053 | 0.747 ± 0.050 | 0.382 ± 0.054 | 0.725 ± 0.024 | 0.59 | – | 0.39 |
+| shuttle | PACE-flip | 0.374 ± 0.056 | 0.750 ± 0.045 | 0.374 ± 0.056 | 0.723 ± 0.025 | 1.00 | – | 0.00 |
+| shuttle | PACE-multi | 0.375 ± 0.052 | 0.720 ± 0.048 | 0.375 ± 0.052 | 0.736 ± 0.022 | 1.00 | – | 0.04 |
+| shuttle | PACE-contrastive | 0.393 ± 0.058 | 0.678 ± 0.046 | 0.392 ± 0.058 | 0.764 ± 0.025 | 1.00 | – | 0.05 |
+| shuttle | PACE-decomposition | 0.421 ± 0.059 | 0.708 ± 0.053 | 0.421 ± 0.059 | 0.733 ± 0.025 | 1.00 | – | 0.00 |
+| shuttle | KernelSHAP | 0.365 ± 0.053 | 0.747 ± 0.050 | 0.383 ± 0.054 | 0.723 ± 0.023 | 0.59 | – | 0.24 |
+| shuttle | KernelSHAP-strong | 0.366 ± 0.053 | 0.747 ± 0.050 | 0.383 ± 0.054 | 0.725 ± 0.024 | – | – | 0.39 |
+| shuttle | LIME | 0.381 ± 0.053 | 0.721 ± 0.051 | 0.383 ± 0.054 | 0.732 ± 0.020 | 0.90 | – | 0.39 |
+| shuttle | Random | 0.552 ± 0.045 | 0.536 ± 0.061 | 0.552 ± 0.045 | 0.820 ± 0.019 | 0.22 | – | 0.00 |
+| magic | PACE-SHAP | -0.052 ± 0.012 | 0.290 ± 0.016 | 0.062 ± 0.021 | 0.500 ± 0.010 | 1.00 | – | 0.44 |
+| magic | PACE-SHAP-20 | -0.038 ± 0.014 | 0.279 ± 0.026 | 0.065 ± 0.016 | 0.511 ± 0.017 | 0.50 | – | 0.47 |
+| magic | PACE-flip | 0.015 ± 0.010 | 0.234 ± 0.022 | 0.015 ± 0.010 | 0.506 ± 0.015 | 1.00 | – | 0.00 |
+| magic | PACE-multi | 0.061 ± 0.015 | 0.170 ± 0.023 | 0.063 ± 0.011 | 0.556 ± 0.011 | 1.00 | – | 0.17 |
+| magic | PACE-contrastive | 0.093 ± 0.012 | 0.129 ± 0.025 | 0.094 ± 0.017 | 0.576 ± 0.018 | 1.00 | – | 0.32 |
+| magic | PACE-decomposition | 0.094 ± 0.022 | 0.144 ± 0.019 | 0.093 ± 0.022 | 0.588 ± 0.021 | 1.00 | – | 0.00 |
+| magic | KernelSHAP | -0.035 ± 0.017 | 0.272 ± 0.027 | 0.069 ± 0.019 | 0.512 ± 0.018 | 0.47 | – | 0.46 |
+| magic | KernelSHAP-strong | -0.038 ± 0.014 | 0.279 ± 0.026 | 0.065 ± 0.016 | 0.511 ± 0.017 | – | – | 0.47 |
+| magic | LIME | -0.011 ± 0.017 | 0.235 ± 0.027 | 0.069 ± 0.016 | 0.504 ± 0.016 | 0.69 | – | 0.45 |
+| magic | Random | 0.140 ± 0.012 | 0.093 ± 0.014 | 0.140 ± 0.012 | 0.641 ± 0.017 | 0.21 | – | 0.00 |
+| letter | PACE-SHAP | -0.690 ± 0.016 | -0.000 ± 0.037 | -0.683 ± 0.015 | 0.131 ± 0.009 | 0.99 | – | 0.12 |
+| letter | PACE-SHAP-20 | -0.684 ± 0.015 | -0.021 ± 0.035 | -0.675 ± 0.014 | 0.134 ± 0.009 | 0.63 | – | 0.13 |
+| letter | PACE-flip | -0.644 ± 0.013 | -0.072 ± 0.035 | -0.644 ± 0.013 | 0.134 ± 0.009 | 1.00 | – | 0.00 |
+| letter | PACE-multi | -0.550 ± 0.022 | -0.275 ± 0.032 | -0.538 ± 0.020 | 0.187 ± 0.013 | 1.00 | – | 0.13 |
+| letter | PACE-contrastive | -0.457 ± 0.025 | -0.397 ± 0.020 | -0.442 ± 0.017 | 0.248 ± 0.018 | 1.00 | – | 0.23 |
+| letter | PACE-decomposition | -0.591 ± 0.021 | -0.160 ± 0.033 | -0.590 ± 0.020 | 0.187 ± 0.012 | 1.00 | – | 0.00 |
+| letter | KernelSHAP | -0.678 ± 0.015 | -0.038 ± 0.034 | -0.677 ± 0.015 | 0.136 ± 0.009 | 0.61 | – | 0.00 |
+| letter | KernelSHAP-strong | -0.684 ± 0.016 | -0.022 ± 0.035 | -0.675 ± 0.015 | 0.134 ± 0.010 | – | – | 0.13 |
+| letter | LIME | -0.656 ± 0.018 | -0.136 ± 0.043 | -0.618 ± 0.017 | 0.139 ± 0.009 | 0.85 | – | 0.35 |
+| letter | Random | -0.381 ± 0.022 | -0.423 ± 0.030 | -0.381 ± 0.022 | 0.315 ± 0.015 | 0.13 | – | 0.00 |
+| landsat | PACE-SHAP | -0.329 ± 0.025 | 0.231 ± 0.020 | -0.326 ± 0.026 | 0.339 ± 0.015 | 0.94 | – | 0.03 |
+| landsat | PACE-SHAP-20 | -0.309 ± 0.028 | 0.206 ± 0.022 | -0.305 ± 0.027 | 0.348 ± 0.016 | 0.52 | – | 0.05 |
+| landsat | PACE-flip | -0.255 ± 0.031 | 0.134 ± 0.020 | -0.255 ± 0.031 | 0.376 ± 0.020 | 1.00 | – | 0.00 |
+| landsat | PACE-multi | -0.234 ± 0.026 | 0.072 ± 0.021 | -0.222 ± 0.026 | 0.386 ± 0.019 | 1.00 | – | 0.07 |
+| landsat | PACE-contrastive | -0.154 ± 0.026 | 0.013 ± 0.021 | -0.141 ± 0.025 | 0.431 ± 0.018 | 1.00 | – | 0.11 |
+| landsat | PACE-decomposition | -0.189 ± 0.028 | 0.126 ± 0.030 | -0.189 ± 0.028 | 0.418 ± 0.016 | 1.00 | – | 0.00 |
+| landsat | KernelSHAP | -0.217 ± 0.033 | 0.077 ± 0.031 | -0.217 ± 0.033 | 0.406 ± 0.020 | 0.15 | – | 0.00 |
+| landsat | KernelSHAP-strong | -0.303 ± 0.027 | 0.203 ± 0.024 | -0.298 ± 0.026 | 0.352 ± 0.016 | – | – | 0.06 |
+| landsat | LIME | -0.295 ± 0.029 | 0.126 ± 0.031 | -0.272 ± 0.026 | 0.355 ± 0.018 | 0.52 | – | 0.27 |
+| landsat | Random | -0.050 ± 0.021 | -0.057 ± 0.034 | -0.050 ± 0.021 | 0.495 ± 0.013 | 0.06 | – | 0.00 |
+| page_blocks | PACE-SHAP | 0.050 ± 0.052 | 0.204 ± 0.074 | 0.087 ± 0.059 | 0.756 ± 0.044 | 1.00 | – | 0.37 |
+| page_blocks | PACE-SHAP-20 | 0.042 ± 0.044 | 0.212 ± 0.081 | 0.090 ± 0.058 | 0.739 ± 0.050 | 0.48 | – | 0.47 |
+| page_blocks | PACE-flip | 0.051 ± 0.054 | 0.202 ± 0.066 | 0.051 ± 0.054 | 0.692 ± 0.058 | 1.00 | – | 0.00 |
+| page_blocks | PACE-multi | 0.056 ± 0.048 | 0.195 ± 0.077 | 0.057 ± 0.050 | 0.706 ± 0.056 | 1.00 | – | 0.11 |
+| page_blocks | PACE-contrastive | 0.077 ± 0.040 | 0.131 ± 0.059 | 0.088 ± 0.047 | 0.711 ± 0.048 | 1.00 | – | 0.29 |
+| page_blocks | PACE-decomposition | 0.111 ± 0.054 | 0.114 ± 0.057 | 0.110 ± 0.054 | 0.777 ± 0.040 | 1.00 | – | 0.00 |
+| page_blocks | KernelSHAP | 0.046 ± 0.043 | 0.205 ± 0.082 | 0.090 ± 0.055 | 0.744 ± 0.042 | 0.47 | – | 0.41 |
+| page_blocks | KernelSHAP-strong | 0.043 ± 0.044 | 0.212 ± 0.081 | 0.090 ± 0.058 | 0.743 ± 0.045 | – | – | 0.47 |
+| page_blocks | LIME | 0.049 ± 0.043 | 0.196 ± 0.079 | 0.104 ± 0.056 | 0.747 ± 0.053 | 0.79 | – | 0.56 |
+| page_blocks | Random | 0.128 ± 0.054 | 0.095 ± 0.061 | 0.128 ± 0.054 | 0.798 ± 0.036 | 0.21 | – | 0.00 |
+
+## PACE-SHAP minus KernelSHAP: deletion margin AUC (lower is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: negative = PACE-SHAP better (more negative).
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | -0.006 ± 0.007 | 2 of 10 | 0.0488 | 0.146 |
+| S2 | -0.007 ± 0.006 | 3 of 10 | 0.0273 | 0.137 |
+| S3 | -0.014 ± 0.008 | 1 of 10 | 0.00391 | 0.0273 |
+| wine | -0.008 ± 0.005 | 0 of 10 | 0.00195 | 0.0215 |
+| breast_cancer | -0.063 ± 0.005 | 0 of 10 | 0.00195 | 0.0215 |
+| thyroid | -0.026 ± 0.011 | 0 of 10 | 0.00195 | 0.0215 |
+| shuttle | +0.005 ± 0.008 | 6 of 10 | 0.275 | 0.551 |
+| magic | -0.017 ± 0.014 | 2 of 10 | 0.0273 | 0.137 |
+| letter | -0.012 ± 0.007 | 1 of 10 | 0.00586 | 0.0352 |
+| landsat | -0.112 ± 0.020 | 0 of 10 | 0.00195 | 0.0215 |
+| page_blocks | +0.004 ± 0.018 | 5 of 10 | 0.625 | 0.625 |
+
+## PACE-SHAP-20 minus KernelSHAP: deletion margin AUC (lower is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: negative = PACE-SHAP-20 better (more negative).
+
+| Dataset | Difference | Seeds where PACE-SHAP-20 is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.001 ± 0.003 | 6 of 10 | 0.492 | 1 |
+| S2 | -0.004 ± 0.003 | 3 of 10 | 0.0645 | 0.451 |
+| S3 | -0.003 ± 0.004 | 2 of 10 | 0.105 | 0.527 |
+| wine | -0.002 ± 0.002 | 2 of 10 | 0.0645 | 0.451 |
+| breast_cancer | -0.052 ± 0.007 | 0 of 10 | 0.00195 | 0.0215 |
+| thyroid | -0.012 ± 0.010 | 0 of 10 | 0.00195 | 0.0215 |
+| shuttle | +0.000 ± 0.001 | 4 of 10 | 1 | 1 |
+| magic | -0.003 ± 0.005 | 5 of 10 | 0.375 | 1 |
+| letter | -0.007 ± 0.002 | 0 of 10 | 0.00195 | 0.0215 |
+| landsat | -0.093 ± 0.014 | 0 of 10 | 0.00195 | 0.0215 |
+| page_blocks | -0.004 ± 0.005 | 3 of 10 | 0.105 | 0.527 |
+
+## PACE-SHAP minus KernelSHAP-strong: deletion margin AUC (lower is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: negative = PACE-SHAP better (more negative).
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | -0.007 ± 0.008 | 3 of 10 | 0.0371 | 0.26 |
+| S2 | -0.003 ± 0.005 | 3 of 10 | 0.131 | 0.422 |
+| S3 | -0.011 ± 0.007 | 2 of 10 | 0.00977 | 0.0781 |
+| wine | -0.006 ± 0.005 | 3 of 10 | 0.0488 | 0.293 |
+| breast_cancer | -0.011 ± 0.005 | 0 of 10 | 0.00195 | 0.0215 |
+| thyroid | -0.014 ± 0.007 | 1 of 10 | 0.00391 | 0.0352 |
+| shuttle | +0.004 ± 0.007 | 7 of 10 | 0.232 | 0.465 |
+| magic | -0.015 ± 0.014 | 4 of 10 | 0.105 | 0.422 |
+| letter | -0.006 ± 0.005 | 2 of 10 | 0.0488 | 0.293 |
+| landsat | -0.026 ± 0.014 | 0 of 10 | 0.00195 | 0.0215 |
+| page_blocks | +0.007 ± 0.017 | 6 of 10 | 0.625 | 0.625 |
+
+## PACE-SHAP minus LIME: deletion margin AUC (lower is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: negative = PACE-SHAP better (more negative).
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | -0.029 ± 0.005 | 0 of 10 | 0.00195 | 0.0215 |
+| S2 | -0.037 ± 0.010 | 0 of 10 | 0.00195 | 0.0215 |
+| S3 | -0.067 ± 0.012 | 0 of 10 | 0.00195 | 0.0215 |
+| wine | -0.037 ± 0.006 | 0 of 10 | 0.00195 | 0.0215 |
+| breast_cancer | -0.030 ± 0.008 | 0 of 10 | 0.00195 | 0.0215 |
+| thyroid | -0.022 ± 0.013 | 2 of 10 | 0.00977 | 0.0293 |
+| shuttle | -0.011 ± 0.014 | 3 of 10 | 0.16 | 0.32 |
+| magic | -0.041 ± 0.011 | 0 of 10 | 0.00195 | 0.0215 |
+| letter | -0.034 ± 0.009 | 0 of 10 | 0.00195 | 0.0215 |
+| landsat | -0.033 ± 0.013 | 0 of 10 | 0.00195 | 0.0215 |
+| page_blocks | +0.001 ± 0.022 | 4 of 10 | 0.846 | 0.846 |
+
+## PACE-SHAP minus PACE-flip: deletion margin AUC (lower is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: negative = PACE-SHAP better (more negative).
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | -0.050 ± 0.008 | 0 of 10 | 0.00195 | 0.0215 |
+| S2 | -0.056 ± 0.006 | 0 of 10 | 0.00195 | 0.0215 |
+| S3 | -0.061 ± 0.010 | 0 of 10 | 0.00195 | 0.0215 |
+| wine | -0.022 ± 0.007 | 0 of 10 | 0.00195 | 0.0215 |
+| breast_cancer | -0.025 ± 0.006 | 0 of 10 | 0.00195 | 0.0215 |
+| thyroid | +0.005 ± 0.011 | 8 of 10 | 0.131 | 0.393 |
+| shuttle | -0.004 ± 0.012 | 3 of 10 | 0.16 | 0.393 |
+| magic | -0.067 ± 0.012 | 0 of 10 | 0.00195 | 0.0215 |
+| letter | -0.046 ± 0.010 | 0 of 10 | 0.00195 | 0.0215 |
+| landsat | -0.074 ± 0.019 | 0 of 10 | 0.00195 | 0.0215 |
+| page_blocks | -0.001 ± 0.010 | 3 of 10 | 0.695 | 0.695 |
+
+## PACE-SHAP minus KernelSHAP: insertion margin AUC (higher is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: positive = PACE-SHAP better.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.010 ± 0.006 | 10 of 10 | 0.00195 | 0.0215 |
+| S2 | +0.018 ± 0.012 | 10 of 10 | 0.00195 | 0.0215 |
+| S3 | +0.013 ± 0.008 | 8 of 10 | 0.0195 | 0.0781 |
+| wine | +0.009 ± 0.006 | 9 of 10 | 0.00586 | 0.0293 |
+| breast_cancer | +0.066 ± 0.010 | 10 of 10 | 0.00195 | 0.0215 |
+| thyroid | +0.023 ± 0.010 | 10 of 10 | 0.00195 | 0.0215 |
+| shuttle | -0.003 ± 0.010 | 5 of 10 | 0.492 | 0.984 |
+| magic | +0.018 ± 0.013 | 8 of 10 | 0.0273 | 0.082 |
+| letter | +0.037 ± 0.008 | 10 of 10 | 0.00195 | 0.0215 |
+| landsat | +0.154 ± 0.022 | 10 of 10 | 0.00195 | 0.0215 |
+| page_blocks | -0.001 ± 0.021 | 6 of 10 | 0.625 | 0.984 |
+
+## PACE-SHAP-20 minus KernelSHAP: insertion margin AUC (higher is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: positive = PACE-SHAP-20 better.
+
+| Dataset | Difference | Seeds where PACE-SHAP-20 is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.001 ± 0.003 | 6 of 10 | 0.432 | 1 |
+| S2 | +0.001 ± 0.004 | 7 of 10 | 0.492 | 1 |
+| S3 | +0.000 ± 0.004 | 5 of 10 | 0.922 | 1 |
+| wine | +0.002 ± 0.002 | 7 of 10 | 0.0645 | 0.322 |
+| breast_cancer | +0.054 ± 0.009 | 10 of 10 | 0.00195 | 0.0215 |
+| thyroid | +0.010 ± 0.007 | 10 of 10 | 0.00195 | 0.0215 |
+| shuttle | +0.000 ± 0.001 | 6 of 10 | 0.625 | 1 |
+| magic | +0.007 ± 0.004 | 9 of 10 | 0.00391 | 0.0273 |
+| letter | +0.017 ± 0.004 | 10 of 10 | 0.00195 | 0.0215 |
+| landsat | +0.129 ± 0.021 | 10 of 10 | 0.00195 | 0.0215 |
+| page_blocks | +0.007 ± 0.006 | 9 of 10 | 0.00391 | 0.0273 |
+
+## PACE-SHAP minus KernelSHAP-strong: insertion margin AUC (higher is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: positive = PACE-SHAP better.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.009 ± 0.005 | 10 of 10 | 0.00195 | 0.0215 |
+| S2 | +0.016 ± 0.012 | 8 of 10 | 0.0137 | 0.0684 |
+| S3 | +0.013 ± 0.006 | 10 of 10 | 0.00195 | 0.0215 |
+| wine | +0.006 ± 0.006 | 8 of 10 | 0.00977 | 0.0684 |
+| breast_cancer | +0.012 ± 0.005 | 10 of 10 | 0.00195 | 0.0215 |
+| thyroid | +0.012 ± 0.009 | 8 of 10 | 0.0273 | 0.109 |
+| shuttle | -0.003 ± 0.009 | 4 of 10 | 0.492 | 0.984 |
+| magic | +0.011 ± 0.013 | 6 of 10 | 0.16 | 0.48 |
+| letter | +0.021 ± 0.008 | 10 of 10 | 0.00195 | 0.0215 |
+| landsat | +0.027 ± 0.021 | 9 of 10 | 0.00977 | 0.0684 |
+| page_blocks | -0.008 ± 0.023 | 3 of 10 | 0.625 | 0.984 |
+
+## PACE-SHAP minus LIME: insertion margin AUC (higher is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: positive = PACE-SHAP better.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.036 ± 0.005 | 10 of 10 | 0.00195 | 0.0215 |
+| S2 | +0.045 ± 0.011 | 10 of 10 | 0.00195 | 0.0215 |
+| S3 | +0.070 ± 0.009 | 10 of 10 | 0.00195 | 0.0215 |
+| wine | +0.041 ± 0.006 | 10 of 10 | 0.00195 | 0.0215 |
+| breast_cancer | +0.019 ± 0.006 | 10 of 10 | 0.00195 | 0.0215 |
+| thyroid | +0.041 ± 0.010 | 10 of 10 | 0.00195 | 0.0215 |
+| shuttle | +0.023 ± 0.016 | 9 of 10 | 0.0137 | 0.0273 |
+| magic | +0.056 ± 0.026 | 10 of 10 | 0.00195 | 0.0215 |
+| letter | +0.135 ± 0.017 | 10 of 10 | 0.00195 | 0.0215 |
+| landsat | +0.105 ± 0.017 | 10 of 10 | 0.00195 | 0.0215 |
+| page_blocks | +0.007 ± 0.023 | 7 of 10 | 0.232 | 0.232 |
+
+## PACE-SHAP minus PACE-flip: insertion margin AUC (higher is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: positive = PACE-SHAP better.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.029 ± 0.006 | 10 of 10 | 0.00195 | 0.0215 |
+| S2 | +0.048 ± 0.010 | 10 of 10 | 0.00195 | 0.0215 |
+| S3 | +0.044 ± 0.009 | 10 of 10 | 0.00195 | 0.0215 |
+| wine | +0.044 ± 0.009 | 10 of 10 | 0.00195 | 0.0215 |
+| breast_cancer | +0.014 ± 0.009 | 8 of 10 | 0.00977 | 0.0391 |
+| thyroid | -0.003 ± 0.009 | 4 of 10 | 0.375 | 0.75 |
+| shuttle | -0.006 ± 0.010 | 3 of 10 | 0.16 | 0.48 |
+| magic | +0.056 ± 0.009 | 10 of 10 | 0.00195 | 0.0215 |
+| letter | +0.072 ± 0.011 | 10 of 10 | 0.00195 | 0.0215 |
+| landsat | +0.097 ± 0.009 | 10 of 10 | 0.00195 | 0.0215 |
+| page_blocks | +0.002 ± 0.025 | 4 of 10 | 1 | 1 |
+
+## The model's own decision sensitivity (synthetic sets)
+
+Share of all single-feature decision flips (PACE-flip's flip mass, computed from the model) that come from the truly relevant features 0–2, and share of points where replacing some irrelevant feature can flip the decision.
+
+| Dataset | Flip mass on relevant features | Points with an irrelevant feature that flips |
+|---|---|---|
+| S1 | 0.471 ± 0.030 | 0.696 ± 0.041 |
+| S2 | 0.417 ± 0.022 | 0.826 ± 0.026 |
+| S3 | 0.464 ± 0.044 | 0.760 ± 0.023 |
+
+exit 0

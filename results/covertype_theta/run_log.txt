@@ -1,0 +1,71 @@
+﻿0 of 5 dataset-seed pairs already done; 5 to run.
+  seed 210: theta by validation 0.05 on 46,480 rows (278 s); CV accuracy 0.5: 52.23, 0.4: 55.34, 0.3: 54.89, 0.2: 59.36, 0.15: 63.29, 0.1: 66.26, 0.05: 72.63
+  seed 210: B0-0.3 (theta 0.3) trained in 1 s, 90 boxes
+  seed 210: SR-0.3: 39 of 300 edits accepted (23 s, gate on 46,480 rows)
+  seed 210: B0-val (theta 0.05) trained in 9 s, 3161 boxes
+  seed 210: SR-val: 284 of 300 edits accepted (469 s, gate on 46,480 rows)
+covertype seed 210 (theta-val 0.05): B0-0.3 50.58%, SR-0.3 51.10%, B0-val 72.98%, SR-val 73.38%; 40.8 min, peak memory 3998 MB
+  seed 211: theta by validation 0.05 on 46,480 rows (265 s); CV accuracy 0.5: 51.34, 0.4: 50.41, 0.3: 53.38, 0.2: 59.21, 0.15: 64.48, 0.1: 67.21, 0.05: 73.06
+  seed 211: B0-0.3 (theta 0.3) trained in 1 s, 88 boxes
+  seed 211: SR-0.3: 33 of 300 edits accepted (23 s, gate on 46,480 rows)
+  seed 211: B0-val (theta 0.05) trained in 9 s, 3147 boxes
+  seed 211: SR-val: 286 of 300 edits accepted (465 s, gate on 46,480 rows)
+covertype seed 211 (theta-val 0.05): B0-0.3 51.83%, SR-0.3 53.40%, B0-val 72.27%, SR-val 72.78%; 40.2 min, peak memory 3998 MB
+  seed 212: theta by validation 0.05 on 46,480 rows (163 s); CV accuracy 0.5: 52.97, 0.4: 51.74, 0.3: 53.95, 0.2: 62.32, 0.15: 62.94, 0.1: 67.04, 0.05: 73.43
+  seed 212: B0-0.3 (theta 0.3) trained in 1 s, 83 boxes
+  seed 212: SR-0.3: 20 of 300 edits accepted (28 s, gate on 46,480 rows)
+  seed 212: B0-val (theta 0.05) trained in 8 s, 2830 boxes
+  seed 212: SR-val: 280 of 300 edits accepted (427 s, gate on 46,480 rows)
+covertype seed 212 (theta-val 0.05): B0-0.3 52.09%, SR-0.3 55.09%, B0-val 72.80%, SR-val 72.86%; 35.7 min, peak memory 3998 MB
+  seed 213: theta by validation 0.05 on 46,480 rows (206 s); CV accuracy 0.5: 54.71, 0.4: 53.45, 0.3: 55.54, 0.2: 62.41, 0.15: 63.54, 0.1: 67.09, 0.05: 72.71
+  seed 213: B0-0.3 (theta 0.3) trained in 1 s, 83 boxes
+  seed 213: SR-0.3: 19 of 300 edits accepted (26 s, gate on 46,480 rows)
+  seed 213: B0-val (theta 0.05) trained in 9 s, 2993 boxes
+  seed 213: SR-val: 285 of 300 edits accepted (444 s, gate on 46,480 rows)
+covertype seed 213 (theta-val 0.05): B0-0.3 50.96%, SR-0.3 56.20%, B0-val 73.56%, SR-val 74.17%; 37.8 min, peak memory 3998 MB
+  seed 214: theta by validation 0.05 on 46,480 rows (158 s); CV accuracy 0.5: 45.75, 0.4: 52.04, 0.3: 53.69, 0.2: 60.95, 0.15: 63.11, 0.1: 66.16, 0.05: 72.41
+  seed 214: B0-0.3 (theta 0.3) trained in 1 s, 70 boxes
+  seed 214: SR-0.3: 18 of 300 edits accepted (25 s, gate on 46,480 rows)
+  seed 214: B0-val (theta 0.05) trained in 8 s, 2917 boxes
+  seed 214: SR-val: 272 of 300 edits accepted (433 s, gate on 46,480 rows)
+covertype seed 214 (theta-val 0.05): B0-0.3 48.20%, SR-0.3 53.51%, B0-val 73.03%, SR-val 73.64%; 36.1 min, peak memory 3998 MB
+# Run L: Covertype with theta chosen by validation, then self-repair
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). Descriptive: no comparison is tested. Run K's split, seeds 210–214 (5), γ = 4; 46,480 training rows, 11,621 test rows. Mean ± standard deviation over seeds. Written by `scripts/run_covertype_theta.py`.
+
+**Not the full data:** share of the rows used = [0.1].
+
+## θ chosen by validation
+
+| Seed | θ | Rows used for tuning | Seconds to tune |
+|---|---|---|---|
+| 210 | 0.05 | 46,480 | 278 |
+| 211 | 0.05 | 46,480 | 265 |
+| 212 | 0.05 | 46,480 | 163 |
+| 213 | 0.05 | 46,480 | 206 |
+| 214 | 0.05 | 46,480 | 158 |
+
+## The four models
+
+| Model | Test accuracy (%) | Test macro-F1 (%) | Boxes | Training error (%) | Training errors that are ties (%) | Test predictions decided by the nearest centroid (%) | Edits accepted | Seconds (fit or repair) | PACE-flip ms | PACE-SHAP ms |
+|---|---|---|---|---|---|---|---|---|---|---|
+| B0-0.3 | 50.73 ± 1.54 | 39.53 ± 2.94 | 82.80 ± 7.79 | 48.86 ± 1.58 | 100.00 | 97.30 | – | 0.87 ± 0.05 | 0.84 ± 0.05 | 298.85 ± 33.43 |
+| SR-0.3 | 53.86 ± 1.93 | 41.41 ± 3.93 | 78.00 ± 7.65 | 45.61 ± 1.86 | 96.82 | 93.76 | 25.80 ± 9.58 | 25.10 ± 1.89 | 0.69 ± 0.05 | 264.07 ± 25.53 |
+| B0-val | 72.93 ± 0.46 | 64.27 ± 1.44 | 3,009.60 ± 143.97 | 19.60 ± 0.32 | 100.00 | 41.01 | – | 8.82 ± 0.46 | 8.66 ± 0.35 | 9,253.93 ± 407.73 |
+| SR-val | 73.37 ± 0.57 | 64.82 ± 1.37 | 3,009.60 ± 143.97 | 18.90 ± 0.27 | 95.59 | 39.33 | 281.40 ± 5.73 | 447.77 ± 18.59 | 8.94 ± 0.13 | 9,241.73 ± 387.64 |
+
+Ties: training errors inside a box of both classes (Proposition 1's form), pooled over seeds. Centroid-decided: pooled over seeds.
+
+## For reference: Run K (seeds 170–174, not rerun)
+
+| Model | Test accuracy (%) | Test macro-F1 (%) |
+|---|---|---|
+| CFMNN (Run K) | 51.45 ± 2.75 | 39.11 ± 1.47 |
+| 10-NN (Run K) | 92.67 ± 0.08 | 87.11 ± 0.25 |
+| Random Forest (Run K) | 95.63 ± 0.05 | 92.69 ± 0.21 |
+
+## Cost of the run
+
+Minutes per seed: 38.12 ± 2.32. Peak memory of the process (MB): 3,997.89 ± 0.00. Gate rows: [46480].
+
+

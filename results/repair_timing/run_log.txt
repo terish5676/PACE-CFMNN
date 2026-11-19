@@ -1,0 +1,96 @@
+﻿0 of 6 dataset-seed pairs already done; 6 to run.
+  thyroid seed 50 Train CFMNN: 0.06s, macro-F1 83.96 (matches RQ3)
+  thyroid seed 50 SR, old gate: 0.80s, macro-F1 90.31 (matches RQ3)
+  thyroid seed 50 SR, cached gate: 0.20s, macro-F1 90.31 (matches RQ3)
+  thyroid seed 50 AL: 6.75s, macro-F1 92.78 (matches RQ3)
+  thyroid seed 50 SR+AL: 6.79s, macro-F1 92.78 (matches RQ3)
+  landsat seed 50 Train CFMNN: 0.06s, macro-F1 82.42 (matches RQ3)
+  landsat seed 50 SR, old gate: 25.63s, macro-F1 84.08 (matches RQ3)
+  landsat seed 50 SR, cached gate: 1.44s, macro-F1 84.08 (matches RQ3)
+  landsat seed 50 AL: 16.10s, macro-F1 83.87 (matches RQ3)
+  landsat seed 50 SR+AL: 17.07s, macro-F1 85.69 (matches RQ3)
+  page_blocks seed 50 Train CFMNN: 0.04s, macro-F1 66.92 (matches RQ3)
+  page_blocks seed 50 SR, old gate: 1.96s, macro-F1 69.63 (matches RQ3)
+  page_blocks seed 50 SR, cached gate: 0.82s, macro-F1 69.63 (matches RQ3)
+  page_blocks seed 50 AL: 3.92s, macro-F1 64.77 (matches RQ3)
+  page_blocks seed 50 SR+AL: 4.57s, macro-F1 69.39 (matches RQ3)
+  magic seed 50 Train CFMNN: 0.19s, macro-F1 75.45 (matches RQ3)
+  magic seed 50 SR, old gate: 48.57s, macro-F1 75.85 (matches RQ3)
+  magic seed 50 SR, cached gate: 2.15s, macro-F1 75.85 (matches RQ3)
+  magic seed 50 AL: 31.09s, macro-F1 77.29 (matches RQ3)
+  magic seed 50 SR+AL: 33.29s, macro-F1 77.92 (matches RQ3)
+  letter seed 50 Train CFMNN: 0.17s, macro-F1 73.13 (matches RQ3)
+  letter seed 50 SR, old gate: 210.62s, macro-F1 75.90 (matches RQ3)
+  letter seed 50 SR, cached gate: 4.68s, macro-F1 75.90 (matches RQ3)
+  letter seed 50 AL: 103.02s, macro-F1 75.25 (matches RQ3)
+  letter seed 50 SR+AL: 117.47s, macro-F1 76.63 (matches RQ3)
+  skin seed 50 Train CFMNN: 1.87s, macro-F1 93.52 (matches RQ3)
+  skin seed 50 SR, old gate: 12.49s, macro-F1 99.32 (matches RQ3)
+  skin seed 50 SR, cached gate: 2.52s, macro-F1 99.32 (matches RQ3)
+  skin seed 50 AL: 142.02s, macro-F1 98.94 (matches RQ3)
+  skin seed 50 SR+AL: 145.04s, macro-F1 99.18 (matches RQ3)
+# Run T: time of each repair setup on one machine (descriptive check)
+
+Made after the RQ3 results; not pre-registered, nothing is tested. Seed 50, RQ3's split, one task at a time in one process, no certificate audit. Written by `scripts/time_repair_arms.py`.
+
+Machine: Intel64 Family 6 Model 191 Stepping 2, GenuineIntel, 16 logical CPUs, Python 3.14.10.
+
+**Verdict: PASS**
+
+## Seconds
+
+SR+AL is SR with the cached gate, then AL; the AL stage alone is in brackets. AL has no cached gate.
+
+| Setup | thyroid | landsat | page_blocks | magic | letter | skin |
+|---|---|---|---|---|---|---|
+| Train CFMNN | 0.06 | 0.06 | 0.04 | 0.19 | 0.17 | 1.87 |
+| SR, old gate | 0.80 | 25.63 | 1.96 | 48.57 | 210.62 | 12.49 |
+| SR, cached gate | 0.20 | 1.44 | 0.82 | 2.15 | 4.68 | 2.52 |
+| AL | 6.75 | 16.10 | 3.92 | 31.09 | 103.02 | 142.02 |
+| SR+AL | 6.79 (6.59) | 17.07 (15.63) | 4.57 (3.74) | 33.29 (31.14) | 117.47 (112.79) | 145.04 (142.51) |
+
+Labels used beyond the training rows (AL and SR+AL; SR uses none): thyroid 1,020, landsat 944, page_blocks 821, magic 2,202, letter 2,300, skin 24,806.
+
+## Times as a multiple of SR with the cached gate
+
+| Setup | thyroid | landsat | page_blocks | magic | letter | skin |
+|---|---|---|---|---|---|---|
+| SR, old gate | 4.0× | 17.8× | 2.4× | 22.6× | 45.0× | 4.9× |
+| AL | 33.8× | 11.2× | 4.8× | 14.5× | 22.0× | 56.3× |
+| SR+AL | 34.0× | 11.9× | 5.5× | 15.5× | 25.1× | 57.5× |
+
+## Test macro-F1 against RQ3 (seed 50)
+
+| Dataset | Setup | Macro-F1 | RQ3 | Same |
+|---|---|---|---|---|
+| thyroid | Train CFMNN | 83.9577 | 83.9577 | yes |
+| thyroid | SR, old gate | 90.3064 | 90.3064 | yes |
+| thyroid | SR, cached gate | 90.3064 | 90.3064 | yes |
+| thyroid | AL | 92.7769 | 92.7769 | yes |
+| thyroid | SR+AL | 92.7769 | 92.7769 | yes |
+| landsat | Train CFMNN | 82.4176 | 82.4176 | yes |
+| landsat | SR, old gate | 84.0769 | 84.0769 | yes |
+| landsat | SR, cached gate | 84.0769 | 84.0769 | yes |
+| landsat | AL | 83.8708 | 83.8708 | yes |
+| landsat | SR+AL | 85.6910 | 85.6910 | yes |
+| page_blocks | Train CFMNN | 66.9187 | 66.9187 | yes |
+| page_blocks | SR, old gate | 69.6344 | 69.6344 | yes |
+| page_blocks | SR, cached gate | 69.6344 | 69.6344 | yes |
+| page_blocks | AL | 64.7716 | 64.7716 | yes |
+| page_blocks | SR+AL | 69.3950 | 69.3950 | yes |
+| magic | Train CFMNN | 75.4544 | 75.4544 | yes |
+| magic | SR, old gate | 75.8519 | 75.8519 | yes |
+| magic | SR, cached gate | 75.8519 | 75.8519 | yes |
+| magic | AL | 77.2879 | 77.2879 | yes |
+| magic | SR+AL | 77.9243 | 77.9243 | yes |
+| letter | Train CFMNN | 73.1257 | 73.1257 | yes |
+| letter | SR, old gate | 75.8983 | 75.8983 | yes |
+| letter | SR, cached gate | 75.8983 | 75.8983 | yes |
+| letter | AL | 75.2459 | 75.2459 | yes |
+| letter | SR+AL | 76.6296 | 76.6296 | yes |
+| skin | Train CFMNN | 93.5241 | 93.5241 | yes |
+| skin | SR, old gate | 99.3246 | 99.3246 | yes |
+| skin | SR, cached gate | 99.3246 | 99.3246 | yes |
+| skin | AL | 98.9369 | 98.9369 | yes |
+| skin | SR+AL | 99.1780 | 99.1780 | yes |
+

@@ -1,0 +1,89 @@
+
+====================================================================================================
+Completeness and setup
+====================================================================================================
+OK  rows: 20
+OK  seeds: [210, 211, 212, 213, 214]
+OK  models: ['B0-0.3', 'B0-val', 'SR-0.3', 'SR-val']
+OK  share of the rows: [0.1]
+OK  training and test rows: (46480, 11621)
+OK  tuning on every training row: [46480]
+OK  θ chosen by validation, every seed: [0.05]
+OK  CV accuracy is highest at θ = 0.05, the end of the grid, on every seed: True
+OK  CV accuracy at θ = 0.05 (%), range over seeds: (72.4, 73.4)
+CV accuracy per θ (0.5, 0.4, 0.3, 0.2, 0.15, 0.1, 0.05), per seed:
+  210: 52.2, 55.3, 54.9, 59.4, 63.3, 66.3, 72.6
+  211: 51.3, 50.4, 53.4, 59.2, 64.5, 67.2, 73.1
+  212: 53.0, 51.7, 54.0, 62.3, 62.9, 67.0, 73.4
+  213: 54.7, 53.4, 55.5, 62.4, 63.5, 67.1, 72.7
+  214: 45.8, 52.0, 53.7, 61.0, 63.1, 66.2, 72.4
+
+====================================================================================================
+The four models, mean and standard deviation over seeds
+====================================================================================================
+       test_accuracy       test_macro_f1         boxes         train_error_pct       pace_flip_ms       pace_shap_ms        
+                mean   std          mean   std    mean     std            mean   std         mean   std         mean     std
+model                                                                                                                       
+B0-0.3         50.73  1.54         39.53  2.94    82.8    7.79           48.86  1.58         0.84  0.05       298.85   33.43
+SR-0.3         53.86  1.93         41.41  3.93    78.0    7.65           45.61  1.86         0.69  0.05       264.07   25.53
+B0-val         72.93  0.46         64.27  1.44  3009.6  143.97           19.60  0.32         8.66  0.35      9253.93  407.73
+SR-val         73.37  0.57         64.82  1.37  3009.6  143.97           18.90  0.27         8.94  0.13      9241.73  387.64
+OK  accuracy means: [50.7, 53.9, 72.9, 73.4]
+OK  macro-F1 means: [39.5, 41.4, 64.3, 64.8]
+OK  boxes, means: [82.8, 78.0, 3009.6, 3009.6]
+OK  training error (%), means: [48.9, 45.6, 19.6, 18.9]
+OK  PACE-flip ms, means: [0.84, 0.69, 8.66, 8.94]
+OK  PACE-SHAP s, means (B0-0.3, B0-val): [0.3, 9.3]
+OK  PACE-SHAP mode: ['sampled']
+
+====================================================================================================
+Per seed: θ by validation against θ = 0.3, and self-repair against its start (+x)
+====================================================================================================
+      acc val - 0.3  acc SR-0.3 - B0-0.3  acc SR-val - B0-val  F1 SR-0.3 - B0-0.3  F1 SR-val - B0-val  boxes val / 0.3
+seed                                                                                                                  
+210          22.399                0.516                0.404               4.161               0.116           35.122
+211          20.437                1.575                0.516               0.752               0.624           35.761
+212          20.713                3.003                0.060               0.649               0.140           34.096
+213          22.597                5.241                0.611               3.012               0.488           36.060
+214          24.834                5.309                0.611               0.828               1.373           41.671
+OK  accuracy, θ by validation over θ = 0.3, range: (20.4, 24.8)
+OK  accuracy gain of SR-0.3: mean, range: (3.1, (0.5, 5.3))
+OK  accuracy gain of SR-val: mean, range: (0.4, (0.1, 0.6))
+OK  macro-F1 gain of SR-0.3: mean, range: (1.9, (0.6, 4.2))
+OK  macro-F1 gain of SR-val: mean, range: (0.5, (0.1, 1.4))
+OK  every repair gain is positive (accuracy and macro-F1, both θ, every seed): True
+OK  boxes at θ by validation over θ = 0.3, range (times): (34.0, 42.0)
+OK  repair never added a box: True
+
+====================================================================================================
+Ties and centroid-decided predictions, pooled over seeds
+====================================================================================================
+        train_errors  train_errors_tied_inside_both  test_centroid_decided  n_test   tie %  centroid %
+model                                                                                                 
+B0-0.3        113545                         113545                  56535   58105  100.00       97.30
+SR-0.3        105996                         102626                  54482   58105   96.82       93.76
+B0-val         45542                          45542                  23831   58105  100.00       41.01
+SR-val         43913                          41975                  22854   58105   95.59       39.33
+OK  training errors before repair (θ = 0.3, θ by validation), pooled: [113545, 45542]
+OK  ... all ties inside a box of both classes: [113545, 45542]
+OK  tie share after repair (%): [96.8, 95.6]
+OK  test predictions decided by the nearest centroid (%): [97.3, 93.8, 41.0, 39.3]
+
+====================================================================================================
+Repair: edits and seconds
+====================================================================================================
+       edits_logged               edits_already_right             edits_accepted               repair_seconds              
+               mean    min    max                mean   min   max           mean    min    max           mean    min    max
+model                                                                                                                      
+SR-0.3        300.0  300.0  300.0                56.2  37.0  74.0           25.8   18.0   39.0           25.1   23.2   27.6
+SR-val        300.0  300.0  300.0                17.8  14.0  28.0          281.4  272.0  286.0          447.8  427.5  469.0
+OK  tries per seed: [300.0]
+OK  edits accepted at θ = 0.3: mean, range: (25.8, (18, 39))
+OK  edits accepted at θ by validation: mean, range: (281.4, (272, 286))
+OK  repair seconds, means: [25.0, 448.0]
+OK  training seconds, means (θ = 0.3, θ by validation): [0.9, 8.8]
+OK  tuning seconds, range over seeds: (158.0, 278.0)
+OK  minutes per seed, range: (35.7, 40.8)
+OK  peak memory (MB), largest: 3998.0
+
+ALL OK

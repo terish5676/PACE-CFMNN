@@ -1,0 +1,56 @@
+S1 seed 0: PACE-flip 1.039 ms, occlusion point by point 149.28 ms, batched 85.89 ms, largest difference 1.1e-16
+S1 seed 1: PACE-flip 1.207 ms, occlusion point by point 192.59 ms, batched 86.36 ms, largest difference 1.1e-16
+S1 seed 2: PACE-flip 0.940 ms, occlusion point by point 153.59 ms, batched 125.46 ms, largest difference 1.1e-16
+S2 seed 0: PACE-flip 1.074 ms, occlusion point by point 128.53 ms, batched 84.05 ms, largest difference 1.1e-16
+S2 seed 1: PACE-flip 1.166 ms, occlusion point by point 144.59 ms, batched 83.92 ms, largest difference 1.2e-16
+S2 seed 2: PACE-flip 1.018 ms, occlusion point by point 86.58 ms, batched 84.64 ms, largest difference 1.1e-16
+S3 seed 0: PACE-flip 0.981 ms, occlusion point by point 128.46 ms, batched 84.33 ms, largest difference 1.1e-16
+S3 seed 1: PACE-flip 0.922 ms, occlusion point by point 85.44 ms, batched 84.01 ms, largest difference 1.1e-16
+S3 seed 2: PACE-flip 0.880 ms, occlusion point by point 144.50 ms, batched 83.80 ms, largest difference 1.2e-16
+wine seed 0: PACE-flip 0.098 ms, occlusion point by point 5.53 ms, batched 2.99 ms, largest difference 8.4e-17
+wine seed 1: PACE-flip 0.124 ms, occlusion point by point 5.78 ms, batched 3.59 ms, largest difference 1.1e-16
+wine seed 2: PACE-flip 0.108 ms, occlusion point by point 5.62 ms, batched 3.99 ms, largest difference 1.1e-16
+breast_cancer seed 0: PACE-flip 0.334 ms, occlusion point by point 22.84 ms, batched 18.11 ms, largest difference 6.1e-16
+breast_cancer seed 1: PACE-flip 0.240 ms, occlusion point by point 19.80 ms, batched 15.17 ms, largest difference 3.2e-16
+breast_cancer seed 2: PACE-flip 0.241 ms, occlusion point by point 20.80 ms, batched 27.29 ms, largest difference 3.8e-16
+thyroid seed 0: PACE-flip 0.219 ms, occlusion point by point 15.42 ms, batched 11.13 ms, largest difference 4.1e-15
+thyroid seed 1: PACE-flip 0.217 ms, occlusion point by point 14.19 ms, batched 11.22 ms, largest difference 2.8e-15
+thyroid seed 2: PACE-flip 0.230 ms, occlusion point by point 14.79 ms, batched 11.79 ms, largest difference 4.4e-15
+shuttle seed 0: PACE-flip 0.043 ms, occlusion point by point 3.45 ms, batched 1.46 ms, largest difference 1.5e-15
+shuttle seed 1: PACE-flip 0.048 ms, occlusion point by point 3.73 ms, batched 1.65 ms, largest difference 2.1e-15
+shuttle seed 2: PACE-flip 0.047 ms, occlusion point by point 3.47 ms, batched 1.67 ms, largest difference 1.3e-15
+magic seed 0: PACE-flip 0.643 ms, occlusion point by point 22.25 ms, batched 17.55 ms, largest difference 3.3e-15
+magic seed 1: PACE-flip 0.683 ms, occlusion point by point 17.79 ms, batched 15.44 ms, largest difference 1.2e-15
+magic seed 2: PACE-flip 0.749 ms, occlusion point by point 18.37 ms, batched 24.50 ms, largest difference 1.5e-15
+letter seed 0: PACE-flip 1.627 ms, occlusion point by point 106.57 ms, batched 99.58 ms, largest difference 1.1e-16
+letter seed 1: PACE-flip 1.348 ms, occlusion point by point 106.48 ms, batched 99.08 ms, largest difference 2.2e-16
+letter seed 2: PACE-flip 1.491 ms, occlusion point by point 112.77 ms, batched 104.16 ms, largest difference 1.1e-16
+landsat seed 0: PACE-flip 0.797 ms, occlusion point by point 147.08 ms, batched 161.64 ms, largest difference 6.1e-16
+landsat seed 1: PACE-flip 0.968 ms, occlusion point by point 116.02 ms, batched 106.18 ms, largest difference 4.8e-16
+landsat seed 2: PACE-flip 1.066 ms, occlusion point by point 119.18 ms, batched 112.52 ms, largest difference 3.9e-16
+page_blocks seed 0: PACE-flip 0.150 ms, occlusion point by point 4.37 ms, batched 3.73 ms, largest difference 8.7e-16
+page_blocks seed 1: PACE-flip 0.135 ms, occlusion point by point 4.39 ms, batched 3.52 ms, largest difference 5.4e-15
+page_blocks seed 2: PACE-flip 0.122 ms, occlusion point by point 3.70 ms, batched 2.86 ms, largest difference 3.1e-15
+# PACE-flip against batched occlusion
+
+Same models, test points and background as the paper's timing (`run_faithfulness.py`; 50 test points per seed, 36 for Wine; seeds [0, 1, 2]; 32 values per feature). Milliseconds per explained point, mean over seeds. PACE-flip and batched occlusion: median of 3 runs; point-by-point occlusion: one run, as in the paper's timing table. Times depend on the machine; compare within a row. A descriptive check added after the pre-submission review, not planned in advance.
+
+| Dataset | PACE-flip | Occlusion, point by point | Occlusion, batched | Point by point vs PACE-flip | Batched vs PACE-flip | Batching gain | Largest difference |
+|---|---|---|---|---|---|---|---|
+| S1 | 1.06 | 165.2 | 99.2 | 156× | 93× | 1.7× | 1.1e-16 |
+| S2 | 1.09 | 119.9 | 84.2 | 110× | 78× | 1.4× | 1.2e-16 |
+| S3 | 0.928 | 119.5 | 84.0 | 129× | 91× | 1.4× | 1.2e-16 |
+| Wine | 0.110 | 5.64 | 3.53 | 51× | 32× | 1.6× | 1.1e-16 |
+| Breast Cancer | 0.272 | 21.1 | 20.2 | 78× | 74× | 1.0× | 6.1e-16 |
+| Thyroid | 0.222 | 14.8 | 11.4 | 67× | 51× | 1.3× | 4.4e-15 |
+| Shuttle | 0.046 | 3.55 | 1.59 | 77× | 34× | 2.2× | 2.1e-15 |
+| MAGIC | 0.692 | 19.5 | 19.2 | 28× | 28× | 1.0× | 3.3e-15 |
+| Letter | 1.49 | 108.6 | 100.9 | 73× | 68× | 1.1× | 2.2e-16 |
+| Landsat | 0.944 | 127.4 | 126.8 | 135× | 134× | 1.0× | 6.1e-16 |
+| Page Blocks | 0.136 | 4.15 | 3.37 | 31× | 25× | 1.2× | 5.4e-15 |
+
+- **PACE-flip vs batched occlusion:** 25–134× faster.
+- **PACE-flip vs point-by-point occlusion (this run):** 28–156× faster.
+- **Batching** makes occlusion 1.0–2.2× faster.
+- **Same scores:** batched occlusion differs from point-by-point occlusion and from PACE-flip by at most 5.4e-15 (floating-point rounding).
+

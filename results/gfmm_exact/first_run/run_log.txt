@@ -1,0 +1,163 @@
+﻿0 of 60 dataset-seed pairs already done; 60 to run.
+S1 seed 313 Online GFMM (2339 boxes): PACE-SHAP-min vs brute force 8.3e-17
+S1 seed 312 Online GFMM (2364 boxes): PACE-SHAP-min vs brute force 1.1e-16
+S1 seed 310 Online GFMM (2358 boxes): PACE-SHAP-min vs brute force 2.2e-16
+S1 seed 311 Online GFMM (2367 boxes): PACE-SHAP-min vs brute force 2.1e-16
+S1 seed 313 IOL-GFMM (2339 boxes): PACE-SHAP-min vs brute force 8.4e-17
+S1 seed 312 IOL-GFMM (2364 boxes): PACE-SHAP-min vs brute force 1.1e-16
+S1 seed 310 IOL-GFMM (2358 boxes): PACE-SHAP-min vs brute force 2.2e-16
+S1 seed 311 IOL-GFMM (2367 boxes): PACE-SHAP-min vs brute force 2.1e-16
+S1 seed 314 Online GFMM (2389 boxes): PACE-SHAP-min vs brute force 1.4e-16
+S1 seed 316 Online GFMM (2355 boxes): PACE-SHAP-min vs brute force 2.2e-16
+S1 seed 315 Online GFMM (2385 boxes): PACE-SHAP-min vs brute force 2.2e-16
+S1 seed 317 Online GFMM (2363 boxes): PACE-SHAP-min vs brute force 8.3e-17
+S1 seed 316 IOL-GFMM (2355 boxes): PACE-SHAP-min vs brute force 2.2e-16
+S1 seed 314 IOL-GFMM (2390 boxes): PACE-SHAP-min vs brute force 1.4e-16
+S1 seed 315 IOL-GFMM (2385 boxes): PACE-SHAP-min vs brute force 2.2e-16
+S1 seed 317 IOL-GFMM (2363 boxes): PACE-SHAP-min vs brute force 8.3e-17
+S1 seed 318 Online GFMM (2347 boxes): PACE-SHAP-min vs brute force 1.2e-16
+S1 seed 319 Online GFMM (2362 boxes): PACE-SHAP-min vs brute force 1.1e-16
+S2 seed 311 Online GFMM (2424 boxes): PACE-SHAP-min vs brute force 1.1e-16
+S2 seed 310 Online GFMM (2445 boxes): PACE-SHAP-min vs brute force 1.1e-16
+S1 seed 318 IOL-GFMM (2349 boxes): PACE-SHAP-min vs brute force 1.2e-16
+S1 seed 319 IOL-GFMM (2362 boxes): PACE-SHAP-min vs brute force 1.1e-16
+S2 seed 311 IOL-GFMM (2424 boxes): PACE-SHAP-min vs brute force 9.7e-17
+S2 seed 310 IOL-GFMM (2445 boxes): PACE-SHAP-min vs brute force 1.1e-16
+S2 seed 312 Online GFMM (2408 boxes): PACE-SHAP-min vs brute force 1.4e-16
+S2 seed 313 Online GFMM (2428 boxes): PACE-SHAP-min vs brute force 6.9e-17
+S2 seed 314 Online GFMM (2435 boxes): PACE-SHAP-min vs brute force 1.1e-16
+S2 seed 315 Online GFMM (2412 boxes): PACE-SHAP-min vs brute force 1.2e-16
+S2 seed 312 IOL-GFMM (2409 boxes): PACE-SHAP-min vs brute force 1.4e-16
+S2 seed 313 IOL-GFMM (2428 boxes): PACE-SHAP-min vs brute force 6.9e-17
+S2 seed 315 IOL-GFMM (2412 boxes): PACE-SHAP-min vs brute force 1.2e-16
+S2 seed 314 IOL-GFMM (2436 boxes): PACE-SHAP-min vs brute force 1.2e-16
+S2 seed 316 Online GFMM (2431 boxes): PACE-SHAP-min vs brute force 8.9e-17
+S2 seed 317 Online GFMM (2426 boxes): PACE-SHAP-min vs brute force 8.3e-17
+S2 seed 319 Online GFMM (2420 boxes): PACE-SHAP-min vs brute force 8.3e-17
+S2 seed 318 Online GFMM (2435 boxes): PACE-SHAP-min vs brute force 2.1e-16
+S2 seed 316 IOL-GFMM (2431 boxes): PACE-SHAP-min vs brute force 8.9e-17
+S2 seed 317 IOL-GFMM (2427 boxes): PACE-SHAP-min vs brute force 8.3e-17
+S2 seed 319 IOL-GFMM (2420 boxes): PACE-SHAP-min vs brute force 9.0e-17
+S2 seed 318 IOL-GFMM (2435 boxes): PACE-SHAP-min vs brute force 2.1e-16
+S3 seed 310 Online GFMM (2424 boxes): PACE-SHAP-min vs brute force 1.7e-16
+S3 seed 311 Online GFMM (2445 boxes): PACE-SHAP-min vs brute force 1.9e-16
+S3 seed 312 Online GFMM (2425 boxes): PACE-SHAP-min vs brute force 9.7e-17
+S3 seed 313 Online GFMM (2401 boxes): PACE-SHAP-min vs brute force 2.7e-16
+S3 seed 310 IOL-GFMM (2424 boxes): PACE-SHAP-min vs brute force 1.7e-16
+S3 seed 311 IOL-GFMM (2445 boxes): PACE-SHAP-min vs brute force 1.9e-16
+S3 seed 312 IOL-GFMM (2425 boxes): PACE-SHAP-min vs brute force 9.7e-17
+S3 seed 313 IOL-GFMM (2401 boxes): PACE-SHAP-min vs brute force 2.7e-16
+S3 seed 314 Online GFMM (2406 boxes): PACE-SHAP-min vs brute force 1.9e-16
+S3 seed 315 Online GFMM (2408 boxes): PACE-SHAP-min vs brute force 6.9e-17
+S3 seed 316 Online GFMM (2418 boxes): PACE-SHAP-min vs brute force 2.1e-16
+S3 seed 317 Online GFMM (2415 boxes): PACE-SHAP-min vs brute force 1.3e-16
+S3 seed 314 IOL-GFMM (2406 boxes): PACE-SHAP-min vs brute force 1.9e-16
+S3 seed 315 IOL-GFMM (2408 boxes): PACE-SHAP-min vs brute force 6.9e-17
+S3 seed 316 IOL-GFMM (2418 boxes): PACE-SHAP-min vs brute force 2.1e-16
+shuttle seed 310 Online GFMM (33 boxes): PACE-SHAP-min vs brute force 1.0e-17
+S3 seed 317 IOL-GFMM (2415 boxes): PACE-SHAP-min vs brute force 1.3e-16
+shuttle seed 310 IOL-GFMM (125 boxes): PACE-SHAP-min vs brute force 5.1e-16
+shuttle seed 311 Online GFMM (32 boxes): PACE-SHAP-min vs brute force 3.2e-16
+shuttle seed 312 Online GFMM (32 boxes): PACE-SHAP-min vs brute force 2.8e-17
+shuttle seed 311 IOL-GFMM (1499 boxes): PACE-SHAP-min vs brute force 6.7e-16
+shuttle seed 313 Online GFMM (34 boxes): PACE-SHAP-min vs brute force 4.4e-16
+shuttle seed 312 IOL-GFMM (1844 boxes): PACE-SHAP-min vs brute force 4.2e-17
+shuttle seed 314 Online GFMM (32 boxes): PACE-SHAP-min vs brute force 1.1e-16
+shuttle seed 314 IOL-GFMM (65 boxes): PACE-SHAP-min vs brute force 3.3e-16
+shuttle seed 315 Online GFMM (34 boxes): PACE-SHAP-min vs brute force 6.9e-18
+shuttle seed 315 IOL-GFMM (67 boxes): PACE-SHAP-min vs brute force 5.6e-17
+shuttle seed 316 Online GFMM (33 boxes): PACE-SHAP-min vs brute force 3.3e-16
+S3 seed 318 Online GFMM (2396 boxes): PACE-SHAP-min vs brute force 6.9e-17
+S3 seed 319 Online GFMM (2397 boxes): PACE-SHAP-min vs brute force 1.9e-16
+shuttle seed 313 IOL-GFMM (2979 boxes): PACE-SHAP-min vs brute force 3.4e-16
+shuttle seed 317 Online GFMM (30 boxes): PACE-SHAP-min vs brute force 5.0e-16
+shuttle seed 317 IOL-GFMM (75 boxes): PACE-SHAP-min vs brute force 5.0e-16
+shuttle seed 318 Online GFMM (35 boxes): PACE-SHAP-min vs brute force 3.3e-16
+shuttle seed 318 IOL-GFMM (127 boxes): PACE-SHAP-min vs brute force 4.4e-16
+shuttle seed 319 Online GFMM (31 boxes): PACE-SHAP-min vs brute force 3.3e-16
+shuttle seed 319 IOL-GFMM (986 boxes): PACE-SHAP-min vs brute force 3.3e-16
+shuttle seed 316 IOL-GFMM (3520 boxes): PACE-SHAP-min vs brute force 2.2e-16
+magic seed 310 Online GFMM (332 boxes): PACE-SHAP-min vs brute force 1.4e-16
+magic seed 311 Online GFMM (306 boxes): PACE-SHAP-min vs brute force 4.5e-17
+S3 seed 318 IOL-GFMM (2396 boxes): PACE-SHAP-min vs brute force 6.9e-17
+S3 seed 319 IOL-GFMM (2397 boxes): PACE-SHAP-min vs brute force 1.9e-16
+magic seed 312 Online GFMM (309 boxes): PACE-SHAP-min vs brute force 3.5e-17
+magic seed 313 Online GFMM (349 boxes): PACE-SHAP-min vs brute force 8.3e-17
+magic seed 310 IOL-GFMM (2267 boxes): PACE-SHAP-min vs brute force 1.5e-16
+magic seed 311 IOL-GFMM (2321 boxes): PACE-SHAP-min vs brute force 9.0e-17
+magic seed 314 Online GFMM (324 boxes): PACE-SHAP-min vs brute force 6.6e-17
+magic seed 315 Online GFMM (322 boxes): PACE-SHAP-min vs brute force 3.6e-16
+magic seed 312 IOL-GFMM (2141 boxes): PACE-SHAP-min vs brute force 6.9e-17
+magic seed 316 Online GFMM (325 boxes): PACE-SHAP-min vs brute force 1.2e-16
+magic seed 313 IOL-GFMM (2296 boxes): PACE-SHAP-min vs brute force 2.2e-16
+magic seed 317 Online GFMM (316 boxes): PACE-SHAP-min vs brute force 1.1e-16
+magic seed 314 IOL-GFMM (2235 boxes): PACE-SHAP-min vs brute force 5.6e-17
+magic seed 315 IOL-GFMM (2306 boxes): PACE-SHAP-min vs brute force 6.7e-16
+magic seed 318 Online GFMM (317 boxes): PACE-SHAP-min vs brute force 8.1e-17
+magic seed 319 Online GFMM (327 boxes): PACE-SHAP-min vs brute force 4.5e-17
+magic seed 316 IOL-GFMM (2312 boxes): PACE-SHAP-min vs brute force 1.9e-16
+page_blocks seed 310 Online GFMM (88 boxes): PACE-SHAP-min vs brute force 1.4e-16
+page_blocks seed 310 IOL-GFMM (181 boxes): PACE-SHAP-min vs brute force 1.1e-16
+page_blocks seed 311 Online GFMM (87 boxes): PACE-SHAP-min vs brute force 3.9e-16
+page_blocks seed 311 IOL-GFMM (191 boxes): PACE-SHAP-min vs brute force 2.8e-16
+page_blocks seed 312 Online GFMM (76 boxes): PACE-SHAP-min vs brute force 2.2e-16
+magic seed 317 IOL-GFMM (2301 boxes): PACE-SHAP-min vs brute force 1.1e-16
+page_blocks seed 313 Online GFMM (86 boxes): PACE-SHAP-min vs brute force 1.1e-16
+page_blocks seed 312 IOL-GFMM (187 boxes): PACE-SHAP-min vs brute force 2.6e-16
+page_blocks seed 314 Online GFMM (85 boxes): PACE-SHAP-min vs brute force 2.5e-16
+page_blocks seed 313 IOL-GFMM (191 boxes): PACE-SHAP-min vs brute force 1.1e-16
+page_blocks seed 315 Online GFMM (87 boxes): PACE-SHAP-min vs brute force 6.1e-16
+page_blocks seed 314 IOL-GFMM (180 boxes): PACE-SHAP-min vs brute force 2.8e-16
+page_blocks seed 316 Online GFMM (83 boxes): PACE-SHAP-min vs brute force 4.3e-16
+page_blocks seed 315 IOL-GFMM (192 boxes): PACE-SHAP-min vs brute force 2.5e-16
+page_blocks seed 317 Online GFMM (79 boxes): PACE-SHAP-min vs brute force 6.8e-16
+page_blocks seed 316 IOL-GFMM (187 boxes): PACE-SHAP-min vs brute force 2.1e-16
+page_blocks seed 318 Online GFMM (82 boxes): PACE-SHAP-min vs brute force 3.6e-16
+page_blocks seed 317 IOL-GFMM (185 boxes): PACE-SHAP-min vs brute force 3.3e-16
+page_blocks seed 319 Online GFMM (86 boxes): PACE-SHAP-min vs brute force 8.3e-17
+page_blocks seed 318 IOL-GFMM (174 boxes): PACE-SHAP-min vs brute force 3.9e-16
+page_blocks seed 319 IOL-GFMM (187 boxes): PACE-SHAP-min vs brute force 1.7e-16
+magic seed 318 IOL-GFMM (2151 boxes): PACE-SHAP-min vs brute force 8.0e-17
+magic seed 319 IOL-GFMM (2218 boxes): PACE-SHAP-min vs brute force 1.4e-16
+.\.venv\Scripts\python : C:\Users\praka\Documents\pace-cfmnn\scripts\run_gfmm_exact.py:195: Pandas4Warning: The 
+'float_precision' argument is deprecated. Use the default float precision instead.
+At line:1 char:329
++ ... START $t0"; .\.venv\Scripts\python -B scripts/run_gfmm_exact.py --par ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\praka\...cision instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  frames = [pd.read_csv(out / f"{p}.csv", float_precision="round_trip") for p in ("check", "timing")
+# Run P4: exact PACE-SHAP for GFMM-family networks
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). Written by `scripts/run_gfmm_exact.py`.
+
+**Check: FAIL.** The adapter predicts like hyperbox-brain on every explained point; PACE-SHAP-min equals the brute force within 1e-12 on every point; where timed, shap's ExactExplainer agrees within 1e-09.
+- S2 seed 310 IOL-GFMM: the adapter predicts unlike hyperbox-brain
+- S2 seed 312 IOL-GFMM: the adapter predicts unlike hyperbox-brain
+- S2 seed 314 IOL-GFMM: the adapter predicts unlike hyperbox-brain
+- S2 seed 316 IOL-GFMM: the adapter predicts unlike hyperbox-brain
+- S2 seed 317 IOL-GFMM: the adapter predicts unlike hyperbox-brain
+- S2 seed 318 IOL-GFMM: the adapter predicts unlike hyperbox-brain
+- S3 seed 311 IOL-GFMM: the adapter predicts unlike hyperbox-brain
+- S3 seed 316 IOL-GFMM: the adapter predicts unlike hyperbox-brain
+- S3 seed 318 IOL-GFMM: the adapter predicts unlike hyperbox-brain
+- page_blocks seed 311 IOL-GFMM: the adapter predicts unlike hyperbox-brain
+
+## Check (seeds 310–319)
+
+| Dataset | Model | Points explained | Points compared | Boxes (mean) | Largest difference from brute force | (Row, box) pairs skipped |
+|---|---|---|---|---|---|---|
+| S1 | Online GFMM | 100 | 30 | 2363 | 2.2e-16 | 0.009 |
+| S1 | IOL-GFMM | 100 | 30 | 2363 | 2.2e-16 | 0.009 |
+| S2 | Online GFMM | 100 | 30 | 2426 | 2.1e-16 | 0.009 |
+| S2 | IOL-GFMM | 100 | 30 | 2427 | 2.1e-16 | 0.009 |
+| S3 | Online GFMM | 100 | 30 | 2414 | 2.7e-16 | 0.010 |
+| S3 | IOL-GFMM | 100 | 30 | 2414 | 2.7e-16 | 0.010 |
+| shuttle | Online GFMM | 100 | 30 | 33 | 5.0e-16 | 0.816 |
+| shuttle | IOL-GFMM | 100 | 30 | 1129 | 6.7e-16 | 0.739 |
+| magic | Online GFMM | 100 | 30 | 323 | 3.6e-16 | 0.703 |
+| magic | IOL-GFMM | 100 | 30 | 2255 | 6.7e-16 | 0.673 |
+| page_blocks | Online GFMM | 100 | 30 | 84 | 6.8e-16 | 0.712 |
+| page_blocks | IOL-GFMM | 100 | 30 | 186 | 3.9e-16 | 0.691 |
+

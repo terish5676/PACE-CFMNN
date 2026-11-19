@@ -1,0 +1,117 @@
+
+====================================================================================================
+The run's rows and its reproduction check
+====================================================================================================
+OK  rows: 1820
+OK  datasets: ['S1', 'S2', 'S3', 'breast_cancer', 'digits', 'landsat', 'letter', 'magic', 'page_blocks', 'shuttle', 'skin', 'thyroid', 'wine']
+OK  seeds: [70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+OK  theta grid: [0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5]
+OK  B0 rows checked against the readable-baselines run: 503
+OK  ... largest |accuracy - readable| and |macro-F1 - readable| are at most 1e-9: True
+OK  one theta-val row per dataset and seed: 260
+OK  B0 at theta = 0.3 changes nothing against itself: 0
+OK  fixed + broken <= changed on every row: True
+OK  the log's only error-like lines are the pandas warning block: ['+ FullyQualifiedErrorId : NativeCommandError']
+
+====================================================================================================
+P1 (primary): NFR, repair (SR-0.3) vs re-tune (B0 at theta-val), lower is better
+====================================================================================================
+OK  SR rows read from the repair-at-theta run: 520
+                n       a        b     diff       p  p_holm verdict
+unit                                                               
+S1             20  0.0000   6.7300  -6.7300  0.0001  0.0011  better
+S2             20  0.0000  10.4550 -10.4550  0.0001  0.0011  better
+S3             20  0.0000   8.3800  -8.3800  0.0001  0.0011  better
+wine           20  0.0000   0.8333  -0.8333  0.0143  0.0143  better
+breast_cancer  20  0.0439   1.8421  -1.7982  0.0004  0.0026  better
+digits         20  0.0000   1.3194  -1.3194  0.0022  0.0066  better
+thyroid        20  0.1563   0.7778  -0.6215  0.0004  0.0026  better
+shuttle        20  0.0849   0.0203   0.0647  0.0001  0.0011   worse
+skin           20  0.3446   0.1598   0.1849  0.0006  0.0030   worse
+magic          20  7.7603   8.9051  -1.1448  0.0006  0.0030  better
+letter         20  2.4900   1.5612   0.9288  0.0000  0.0000   worse
+landsat        20  2.6690   4.5571  -1.8881  0.0001  0.0011  better
+page_blocks    20  1.1416   1.8539  -0.7123  0.0064  0.0128  better
+OK  P1 tally (better, level, worse): (10, 0, 3)
+OK  P1 worse on: ['letter', 'shuttle', 'skin']
+OK  ... by (mean differences): [0.065, 0.185, 0.929]
+OK  largest Holm p: 0.0143
+OK  NFR of repair on S1, S2, S3, Wine, Digits (repair changes nothing there): [0.0, 0.0, 0.0, 0.0, 0.0]
+OK  ... and of re-tuning there: [6.73, 10.455, 8.38, 0.833, 1.319]
+OK  NFR of re-tuning, range over the 13: (0.02, 10.455)
+OK  NFR of repair, range over the 13: (0.0, 7.76)
+OK  MAGIC: repair 7.760, re-tune 8.905: (7.76, 8.905)
+OK  datasets where repair changes no test prediction: ['S1', 'S2', 'S3', 'digits', 'wine']
+
+====================================================================================================
+Descriptive: accuracy, PFR and fix share after each update
+====================================================================================================
+              accuracy           boxes          changed_pct           pfr           nfr        fix_share       
+model           B0-val SR-0.3   B0-val   SR-0.3      B0-val SR-0.3 B0-val SR-0.3 B0-val SR-0.3    B0-val SR-0.3
+dataset                                                                                                        
+S1               90.64  89.12   788.50  1516.20       14.98   0.00   8.25   0.00   6.73   0.00     55.15    NaN
+S2               81.59  80.82   924.55  1533.30       21.67   0.00  11.22   0.00  10.46   0.00     51.70    NaN
+S3               88.07  87.80  1032.15  1525.35       17.02   0.00   8.64   0.00   8.38   0.00     51.16    NaN
+breast_cancer    95.92  95.66   140.35    42.75        4.17   0.31   2.32   0.26   1.84   0.04     51.09  80.00
+digits           95.83  96.01   431.65   294.35        2.71   0.00   1.14   0.00   1.32   0.00     43.31    NaN
+landsat          90.03  86.34  2123.70   198.80       14.97   7.03   9.47   3.89   4.56   2.67     63.18  55.15
+letter           95.12  77.59  5324.90   564.45       25.24  11.13  21.53   4.93   1.56   2.49     85.32  44.25
+magic            81.76  76.71  5728.40   285.35       27.94  20.59  19.03  12.83   8.91   7.76     67.98  62.03
+page_blocks      95.37  87.56   317.95    25.05       14.65   5.28  12.18   3.66   1.85   1.14     81.14  66.87
+shuttle          99.94  99.84    87.10    13.90        0.21   0.24   0.18   0.15   0.02   0.08     87.33  61.89
+skin             99.77  99.34  2012.55    86.60        4.11   4.05   3.95   3.70   0.16   0.34     95.60  90.84
+thyroid          97.38  98.44    21.95    53.30        1.59   1.40   0.80   1.24   0.78   0.16     50.30  90.20
+wine             98.19  98.33    41.10    31.35        1.53   0.00   0.69   0.00   0.83   0.00     38.89    NaN
+OK  accuracy, re-tune vs repair (the repair-at-theta run's P1, 1 / 5 / 7 for repair): (7, 5, 1)
+OK  re-tune more accurate on: ['S1', 'landsat', 'letter', 'magic', 'page_blocks', 'shuttle', 'skin']
+OK  repair more accurate on: ['thyroid']
+OK  accuracy after the update, repair / re-tune: Letter, MAGIC, Page Blocks, Landsat: [(77.59, 95.12), (76.71, 81.76), (87.56, 95.37), (86.34, 90.03)]
+OK  fix share of re-tuning: Letter, Page Blocks, Skin: [85.3, 81.1, 95.6]
+OK  fix share of repair: Thyroid, Skin, Letter: [90.2, 90.8, 44.3]
+OK  share of test predictions changed, re-tune, range: (0.21, 27.94)
+OK  ... repair, range: (0.0, 20.59)
+boxes, re-tune / repair: {'S1': 0.52, 'S2': 0.6, 'S3': 0.68, 'breast_cancer': 3.28, 'digits': 1.47, 'landsat': 10.68, 'letter': 9.43, 'magic': 20.07, 'page_blocks': 12.69, 'shuttle': 6.27, 'skin': 23.24, 'thyroid': 0.41, 'wine': 1.31}
+OK  boxes, re-tune / repair, where re-tune is more accurate, except S1: (6.3, 23.2)
+OK  ... on S1 (theta-val is larger than 0.3 there): 0.52
+
+====================================================================================================
+theta chosen by validation
+====================================================================================================
+OK  theta-val is 0.05 on all 20 seeds: ['letter', 'magic', 'shuttle', 'skin']
+
+====================================================================================================
+Descriptive: boxes needed to match repair (the fewest mean boxes reaching SR-0.3's mean accuracy)
+====================================================================================================
+{'S1': (0.5, 0.48), 'S2': (0.5, 0.5), 'S3': (0.4, 0.74), 'wine': (0.3, 1.0), 'breast_cancer': (0.2, 2.06), 'digits': (0.3, 1.0), 'thyroid': None, 'shuttle': (0.05, 6.24), 'skin': (0.05, 23.21), 'magic': (0.15, 4.94), 'letter': (0.2, 2.38), 'landsat': (0.2, 2.48), 'page_blocks': (0.2, 1.84)}
+OK  not reached on: ['thyroid']
+OK  Skin, Shuttle, MAGIC: (theta, boxes / boxes at 0.3): [(0.05, 23.21), (0.05, 6.24), (0.15, 4.94)]
+OK  Letter: (0.2, 2.38)
+OK  range of the ratio where reached: (0.48, 23.21)
+OK  datasets needing more boxes than at 0.3, and their range: (['breast_cancer', 'shuttle', 'skin', 'magic', 'letter', 'landsat', 'page_blocks'], 1.84)
+OK  datasets needing fewer boxes than at 0.3 (a larger theta): ['S1', 'S2', 'S3']
+
+====================================================================================================
+Repair at theta-val: its flips against B0-val
+====================================================================================================
+                 nfr    pfr
+dataset                    
+S1             0.005  0.025
+S2             0.065  0.070
+S3             0.020  0.050
+breast_cancer  0.000  0.088
+digits         0.000  0.000
+landsat        0.000  0.004
+letter         0.006  0.004
+magic          0.007  0.007
+page_blocks    0.406  0.671
+shuttle        0.006  0.016
+skin           0.041  0.178
+thyroid        0.285  1.837
+wine           0.000  0.000
+OK  largest mean NFR of SR-val against B0-val: ('page_blocks', 0.406)
+OK  ... the next largest: 0.285
+
+====================================================================================================
+Verdict
+====================================================================================================
+ALL OK

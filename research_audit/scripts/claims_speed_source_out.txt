@@ -1,0 +1,39 @@
+
+====================================================================================================
+Rows and the check
+====================================================================================================
+OK  rows: 54
+OK  datasets: ['S1', 'S2', 'S3', 'magic', 'page_blocks', 'shuttle']
+OK  seeds: [240, 241, 242]
+OK  points and explainer rows: ([2], [200])
+OK  d per dataset: {'S1': 10, 'S2': 10, 'S3': 10, 'magic': 10, 'page_blocks': 10, 'shuttle': 9}
+OK  no pruning agrees with PACE-SHAP within 1e-12: True
+OK  ExactExplainer agrees within 1e-9: True
+OK  largest difference over both arms (2 s.f.): 2.5e-16
+
+====================================================================================================
+The split of the speed-up (means over seeds)
+====================================================================================================
+             PACE-SHAP  PACE-SHAP, no pruning  shap ExactExplainer  structure  pruning   total  skipped     boxes
+dataset                                                                                                          
+S1              1948.7                 3823.1              27819.8      7.277    1.962  14.276    0.624  1523.000
+S2              1957.4                 3845.7              28329.5      7.367    1.965  14.473    0.623  1538.667
+S3              1889.5                 3813.7              27695.2      7.262    2.018  14.657    0.635  1523.333
+shuttle            8.7                   15.2                162.9     10.731    1.755  18.831    0.719    13.000
+magic            256.0                  730.0               5800.2      7.945    2.851  22.653    0.759   285.333
+page_blocks       29.4                   77.7                669.0      8.610    2.639  22.722    0.681    27.000
+OK  structure factor per dataset: [7.3, 7.4, 7.3, 10.7, 7.9, 8.6]
+OK  pruning factor per dataset: [2.0, 2.0, 2.0, 1.8, 2.9, 2.6]
+OK  total per dataset: [14.3, 14.5, 14.7, 18.8, 22.7, 22.7]
+OK  structure range: (7.3, 10.7)
+OK  pruning range: (1.8, 2.9)
+OK  total range: (14.3, 22.7)
+OK  share of pairs skipped, range: (np.float64(0.623), np.float64(0.759))
+OK  structure exceeds pruning on every dataset: True
+OK  S1 ms: ExactExplainer, no pruning, PACE-SHAP: [27819.8, 3823.1, 1948.7]
+OK  ms per point, PACE-SHAP, range: (8.7, 1957.4)
+
+====================================================================================================
+Verdict
+====================================================================================================
+ALL OK

@@ -1,0 +1,427 @@
+magic seed 2 PACE-contrastive: margin 0.072 insertion 0.154 stab 1.00, 0.11 ms
+magic seed 0 PACE-contrastive: margin 0.058 insertion 0.167 stab 1.00, 0.15 ms
+magic seed 3 PACE-contrastive: margin 0.073 insertion 0.071 stab 1.00, 0.21 ms
+magic seed 1 PACE-contrastive: margin 0.068 insertion 0.189 stab 1.00, 0.21 ms
+magic seed 2 PACE-multi: margin 0.063 insertion 0.221 stab 1.00, 0.32 ms
+magic seed 0 PACE-multi: margin 0.072 insertion 0.203 stab 1.00, 0.31 ms
+magic seed 3 PACE-multi: margin 0.036 insertion 0.135 stab 1.00, 0.46 ms
+magic seed 1 PACE-multi: margin 0.051 insertion 0.202 stab 1.00, 0.42 ms
+magic seed 2 PACE-flip: margin 0.050 insertion 0.265 stab 1.00, 1.76 ms
+magic seed 0 PACE-flip: margin 0.037 insertion 0.216 stab 1.00, 1.21 ms
+magic seed 3 PACE-flip: margin 0.009 insertion 0.192 stab 1.00, 1.37 ms
+magic seed 1 PACE-flip: margin 0.009 insertion 0.245 stab 1.00, 1.27 ms
+magic seed 2 Occlusion (brute force): margin 0.050 insertion 0.265 stab 1.00, 46.70 ms
+magic seed 0 Occlusion (brute force): margin 0.037 insertion 0.216 stab 1.00, 47.54 ms
+magic seed 3 Occlusion (brute force): margin 0.009 insertion 0.192 stab 1.00, 46.39 ms
+magic seed 2 PACE-decomposition: margin 0.125 insertion 0.119 stab 1.00, 0.34 ms
+magic seed 0 PACE-decomposition: margin 0.096 insertion 0.127 stab 1.00, 0.29 ms
+magic seed 3 PACE-decomposition: margin 0.080 insertion 0.112 stab 1.00, 0.16 ms
+magic seed 1 Occlusion (brute force): margin 0.009 insertion 0.245 stab 1.00, 52.10 ms
+magic seed 1 PACE-decomposition: margin 0.065 insertion 0.169 stab 1.00, 0.29 ms
+magic seed 2 KernelSHAP: margin 0.025 insertion 0.266 stab 0.54, 586.97 ms
+magic seed 1 KernelSHAP: margin -0.006 insertion 0.278 stab 0.38, 586.68 ms
+magic seed 3 KernelSHAP: margin -0.070 insertion 0.225 stab 0.36, 592.22 ms
+magic seed 0 KernelSHAP: margin -0.016 insertion 0.249 stab 0.46, 647.08 ms
+magic seed 2 LIME: margin 0.031 insertion 0.228 stab 0.62, 139.80 ms
+magic seed 1 LIME: margin -0.039 insertion 0.276 stab 0.68, 137.32 ms
+magic seed 2 Random: margin 0.184 insertion 0.125 stab 0.27, 0.00 ms
+magic seed 3 LIME: margin -0.019 insertion 0.185 stab 0.71, 143.32 ms
+magic seed 1 Random: margin 0.164 insertion 0.099 stab 0.22, 0.00 ms
+magic seed 3 Random: margin 0.083 insertion 0.031 stab 0.18, 0.00 ms
+magic seed 4 PACE-contrastive: margin 0.107 insertion 0.050 stab 1.00, 0.15 ms
+magic seed 5 PACE-contrastive: margin 0.076 insertion 0.122 stab 1.00, 0.12 ms
+magic seed 0 LIME: margin -0.015 insertion 0.236 stab 0.70, 151.46 ms
+magic seed 4 PACE-multi: margin 0.072 insertion 0.101 stab 1.00, 0.21 ms
+magic seed 6 PACE-contrastive: margin 0.081 insertion 0.112 stab 1.00, 0.11 ms
+magic seed 5 PACE-multi: margin 0.068 insertion 0.157 stab 1.00, 0.17 ms
+magic seed 0 Random: margin 0.141 insertion 0.091 stab 0.19, 0.00 ms
+magic seed 4 PACE-flip: margin 0.029 insertion 0.198 stab 1.00, 0.98 ms
+magic seed 6 PACE-multi: margin 0.058 insertion 0.185 stab 1.00, 0.33 ms
+magic seed 5 PACE-flip: margin -0.023 insertion 0.257 stab 1.00, 1.48 ms
+magic seed 7 PACE-contrastive: margin 0.119 insertion 0.156 stab 1.00, 0.10 ms
+magic seed 6 PACE-flip: margin 0.014 insertion 0.247 stab 1.00, 1.46 ms
+magic seed 7 PACE-multi: margin 0.085 insertion 0.225 stab 1.00, 0.31 ms
+magic seed 4 Occlusion (brute force): margin 0.029 insertion 0.198 stab 1.00, 43.27 ms
+magic seed 7 PACE-flip: margin 0.050 insertion 0.269 stab 1.00, 1.43 ms
+magic seed 5 Occlusion (brute force): margin -0.023 insertion 0.257 stab 1.00, 47.88 ms
+magic seed 4 PACE-decomposition: margin 0.091 insertion 0.127 stab 1.00, 0.17 ms
+magic seed 6 Occlusion (brute force): margin 0.014 insertion 0.247 stab 1.00, 47.04 ms
+magic seed 5 PACE-decomposition: margin 0.055 insertion 0.149 stab 1.00, 0.27 ms
+magic seed 6 PACE-decomposition: margin 0.084 insertion 0.160 stab 1.00, 0.27 ms
+magic seed 7 Occlusion (brute force): margin 0.050 insertion 0.269 stab 1.00, 43.17 ms
+magic seed 7 PACE-decomposition: margin 0.082 insertion 0.194 stab 1.00, 0.26 ms
+magic seed 4 KernelSHAP: margin -0.045 insertion 0.267 stab 0.47, 516.67 ms
+magic seed 5 KernelSHAP: margin -0.061 insertion 0.287 stab 0.48, 531.81 ms
+magic seed 7 KernelSHAP: margin -0.000 insertion 0.281 stab 0.31, 486.67 ms
+magic seed 6 KernelSHAP: margin -0.031 insertion 0.265 stab 0.42, 550.25 ms
+magic seed 4 LIME: margin -0.005 insertion 0.190 stab 0.72, 144.01 ms
+magic seed 5 LIME: margin -0.024 insertion 0.269 stab 0.72, 148.19 ms
+magic seed 4 Random: margin 0.132 insertion 0.075 stab 0.21, 0.00 ms
+magic seed 7 LIME: margin -0.021 insertion 0.269 stab 0.81, 141.62 ms
+magic seed 5 Random: margin 0.087 insertion 0.126 stab 0.22, 0.00 ms
+magic seed 7 Random: margin 0.153 insertion 0.117 stab 0.18, 0.00 ms
+magic seed 8 PACE-contrastive: margin 0.063 insertion 0.122 stab 1.00, 0.16 ms
+magic seed 6 LIME: margin -0.003 insertion 0.221 stab 0.66, 157.38 ms
+magic seed 9 PACE-contrastive: margin 0.153 insertion 0.150 stab 1.00, 0.11 ms
+magic seed 6 Random: margin 0.145 insertion 0.134 stab 0.20, 0.00 ms
+magic seed 8 PACE-multi: margin 0.076 insertion 0.158 stab 1.00, 0.29 ms
+magic seed 9 PACE-multi: margin 0.092 insertion 0.200 stab 1.00, 0.18 ms
+magic seed 8 PACE-flip: margin 0.036 insertion 0.230 stab 1.00, 1.64 ms
+magic seed 9 PACE-flip: margin 0.081 insertion 0.238 stab 1.00, 1.03 ms
+magic seed 8 Occlusion (brute force): margin 0.036 insertion 0.230 stab 1.00, 46.09 ms
+magic seed 9 Occlusion (brute force): margin 0.081 insertion 0.238 stab 1.00, 42.16 ms
+magic seed 8 PACE-decomposition: margin 0.109 insertion 0.147 stab 1.00, 0.15 ms
+letter seed 0 PACE-contrastive: margin -0.424 insertion -0.395 stab 1.00, 0.35 ms
+magic seed 9 PACE-decomposition: margin 0.106 insertion 0.173 stab 1.00, 0.28 ms
+letter seed 1 PACE-contrastive: margin -0.484 insertion -0.438 stab 1.00, 0.73 ms
+letter seed 0 PACE-multi: margin -0.542 insertion -0.255 stab 1.00, 0.76 ms
+letter seed 1 PACE-multi: margin -0.587 insertion -0.319 stab 1.00, 0.54 ms
+letter seed 0 PACE-flip: margin -0.626 insertion -0.055 stab 1.00, 3.89 ms
+letter seed 1 PACE-flip: margin -0.682 insertion -0.088 stab 1.00, 3.08 ms
+magic seed 8 KernelSHAP: margin -0.005 insertion 0.261 stab 0.44, 514.81 ms
+magic seed 9 KernelSHAP: margin 0.003 insertion 0.296 stab 0.34, 541.19 ms
+letter seed 0 Occlusion (brute force): margin -0.626 insertion -0.056 stab 1.00, 245.71 ms
+magic seed 8 LIME: margin 0.023 insertion 0.175 stab 0.55, 146.22 ms
+letter seed 1 Occlusion (brute force): margin -0.682 insertion -0.087 stab 1.00, 251.37 ms
+magic seed 8 Random: margin 0.114 insertion 0.121 stab 0.20, 0.00 ms
+magic seed 9 LIME: margin 0.061 insertion 0.190 stab 0.67, 141.52 ms
+magic seed 9 Random: margin 0.180 insertion 0.102 stab 0.21, 0.00 ms
+letter seed 0 PACE-decomposition: margin -0.581 insertion -0.156 stab 1.00, 0.47 ms
+letter seed 1 PACE-decomposition: margin -0.637 insertion -0.182 stab 1.00, 0.77 ms
+letter seed 3 PACE-contrastive: margin -0.480 insertion -0.340 stab 1.00, 0.36 ms
+letter seed 2 PACE-contrastive: margin -0.493 insertion -0.401 stab 1.00, 0.70 ms
+letter seed 3 PACE-multi: margin -0.558 insertion -0.247 stab 1.00, 0.89 ms
+letter seed 2 PACE-multi: margin -0.565 insertion -0.284 stab 1.00, 1.06 ms
+letter seed 3 PACE-flip: margin -0.641 insertion -0.065 stab 1.00, 2.69 ms
+letter seed 2 PACE-flip: margin -0.674 insertion -0.089 stab 1.00, 2.45 ms
+letter seed 3 Occlusion (brute force): margin -0.641 insertion -0.065 stab 1.00, 236.01 ms
+letter seed 2 Occlusion (brute force): margin -0.674 insertion -0.089 stab 1.00, 271.63 ms
+letter seed 3 PACE-decomposition: margin -0.578 insertion -0.138 stab 1.00, 0.52 ms
+letter seed 2 PACE-decomposition: margin -0.601 insertion -0.143 stab 1.00, 0.45 ms
+letter seed 0 KernelSHAP: margin -0.671 insertion 0.010 stab 0.62, 1839.88 ms
+letter seed 1 KernelSHAP: margin -0.724 insertion -0.069 stab 0.60, 1875.56 ms
+letter seed 0 LIME: margin -0.628 insertion -0.097 stab 0.87, 494.91 ms
+letter seed 1 LIME: margin -0.689 insertion -0.161 stab 0.80, 483.52 ms
+letter seed 0 Random: margin -0.405 insertion -0.415 stab 0.12, 0.00 ms
+letter seed 1 Random: margin -0.446 insertion -0.447 stab 0.15, 0.00 ms
+letter seed 4 PACE-contrastive: margin -0.407 insertion -0.359 stab 1.00, 0.41 ms
+letter seed 5 PACE-contrastive: margin -0.474 insertion -0.407 stab 1.00, 0.52 ms
+letter seed 3 KernelSHAP: margin -0.664 insertion -0.039 stab 0.64, 1894.92 ms
+letter seed 4 PACE-multi: margin -0.533 insertion -0.197 stab 1.00, 0.48 ms
+letter seed 2 KernelSHAP: margin -0.687 insertion -0.051 stab 0.61, 1940.96 ms
+letter seed 5 PACE-multi: margin -0.595 insertion -0.245 stab 1.00, 0.79 ms
+letter seed 4 PACE-flip: margin -0.628 insertion 0.018 stab 1.00, 2.20 ms
+letter seed 5 PACE-flip: margin -0.657 insertion -0.035 stab 1.00, 2.27 ms
+letter seed 4 Occlusion (brute force): margin -0.628 insertion 0.018 stab 1.00, 240.81 ms
+letter seed 3 LIME: margin -0.648 insertion -0.125 stab 0.90, 460.03 ms
+letter seed 5 Occlusion (brute force): margin -0.657 insertion -0.035 stab 1.00, 252.18 ms
+letter seed 4 PACE-decomposition: margin -0.550 insertion -0.094 stab 1.00, 0.46 ms
+letter seed 2 LIME: margin -0.656 insertion -0.157 stab 0.87, 487.23 ms
+letter seed 3 Random: margin -0.410 insertion -0.388 stab 0.08, 0.00 ms
+letter seed 5 PACE-decomposition: margin -0.607 insertion -0.111 stab 1.00, 0.62 ms
+letter seed 2 Random: margin -0.415 insertion -0.428 stab 0.15, 0.00 ms
+letter seed 6 PACE-contrastive: margin -0.400 insertion -0.320 stab 1.00, 0.38 ms
+letter seed 7 PACE-contrastive: margin -0.531 insertion -0.427 stab 1.00, 0.35 ms
+letter seed 6 PACE-multi: margin -0.516 insertion -0.219 stab 1.00, 1.03 ms
+letter seed 7 PACE-multi: margin -0.616 insertion -0.334 stab 1.00, 0.62 ms
+letter seed 6 PACE-flip: margin -0.635 insertion -0.030 stab 1.00, 3.05 ms
+letter seed 7 PACE-flip: margin -0.692 insertion -0.156 stab 1.00, 5.51 ms
+letter seed 6 Occlusion (brute force): margin -0.635 insertion -0.030 stab 1.00, 349.94 ms
+letter seed 7 Occlusion (brute force): margin -0.692 insertion -0.156 stab 1.00, 286.07 ms
+letter seed 6 PACE-decomposition: margin -0.608 insertion -0.099 stab 1.00, 0.75 ms
+letter seed 7 PACE-decomposition: margin -0.674 insertion -0.174 stab 1.00, 1.18 ms
+letter seed 4 KernelSHAP: margin -0.684 insertion 0.046 stab 0.66, 2644.94 ms
+letter seed 5 KernelSHAP: margin -0.698 insertion -0.008 stab 0.58, 2993.25 ms
+letter seed 4 LIME: margin -0.656 insertion -0.055 stab 0.86, 782.08 ms
+letter seed 4 Random: margin -0.316 insertion -0.384 stab 0.14, 0.00 ms
+letter seed 5 LIME: margin -0.670 insertion -0.088 stab 0.85, 850.86 ms
+letter seed 8 PACE-contrastive: margin -0.480 insertion -0.422 stab 1.00, 0.80 ms
+letter seed 5 Random: margin -0.373 insertion -0.422 stab 0.12, 0.00 ms
+letter seed 8 PACE-multi: margin -0.572 insertion -0.259 stab 1.00, 1.59 ms
+letter seed 6 KernelSHAP: margin -0.682 insertion 0.015 stab 0.56, 3719.62 ms
+letter seed 9 PACE-contrastive: margin -0.435 insertion -0.351 stab 1.00, 0.48 ms
+letter seed 8 PACE-flip: margin -0.683 insertion -0.073 stab 1.00, 3.50 ms
+letter seed 9 PACE-multi: margin -0.536 insertion -0.200 stab 1.00, 0.63 ms
+letter seed 9 PACE-flip: margin -0.645 insertion 0.013 stab 1.00, 3.10 ms
+letter seed 8 Occlusion (brute force): margin -0.683 insertion -0.073 stab 1.00, 323.53 ms
+letter seed 6 LIME: margin -0.665 insertion -0.065 stab 0.85, 589.65 ms
+letter seed 8 PACE-decomposition: margin -0.663 insertion -0.110 stab 1.00, 0.68 ms
+letter seed 9 Occlusion (brute force): margin -0.645 insertion 0.013 stab 1.00, 330.31 ms
+letter seed 6 Random: margin -0.358 insertion -0.370 stab 0.10, 0.00 ms
+letter seed 7 KernelSHAP: margin -0.715 insertion -0.110 stab 0.58, 4812.79 ms
+letter seed 9 PACE-decomposition: margin -0.616 insertion -0.069 stab 1.00, 0.89 ms
+landsat seed 0 PACE-contrastive: margin -0.103 insertion 0.043 stab 1.00, 0.20 ms
+landsat seed 0 PACE-multi: margin -0.185 insertion 0.105 stab 1.00, 0.59 ms
+landsat seed 0 PACE-flip: margin -0.265 insertion 0.179 stab 1.00, 3.75 ms
+letter seed 7 LIME: margin -0.710 insertion -0.197 stab 0.76, 910.90 ms
+landsat seed 0 Occlusion (brute force): margin -0.265 insertion 0.179 stab 1.00, 409.82 ms
+letter seed 7 Random: margin -0.499 insertion -0.468 stab 0.11, 0.00 ms
+landsat seed 0 PACE-decomposition: margin -0.130 insertion 0.177 stab 1.00, 0.75 ms
+landsat seed 1 PACE-contrastive: margin -0.195 insertion -0.005 stab 1.00, 0.74 ms
+landsat seed 1 PACE-multi: margin -0.259 insertion 0.050 stab 1.00, 0.56 ms
+landsat seed 1 PACE-flip: margin -0.285 insertion 0.092 stab 1.00, 2.02 ms
+landsat seed 1 Occlusion (brute force): margin -0.285 insertion 0.092 stab 1.00, 337.28 ms
+landsat seed 1 PACE-decomposition: margin -0.216 insertion 0.104 stab 1.00, 0.41 ms
+letter seed 8 KernelSHAP: margin -0.702 insertion -0.063 stab 0.62, 3407.80 ms
+landsat seed 0 KernelSHAP: margin -0.228 insertion 0.160 stab 0.12, 1384.55 ms
+letter seed 9 KernelSHAP: margin -0.679 insertion 0.016 stab 0.62, 3385.72 ms
+landsat seed 0 LIME: margin -0.246 insertion 0.145 stab 0.45, 573.20 ms
+landsat seed 0 Random: margin -0.021 insertion -0.011 stab 0.06, 0.01 ms
+letter seed 8 LIME: margin -0.657 insertion -0.145 stab 0.82, 954.05 ms
+letter seed 9 LIME: margin -0.650 insertion -0.046 stab 0.89, 900.79 ms
+landsat seed 2 PACE-contrastive: margin -0.111 insertion 0.007 stab 1.00, 0.31 ms
+letter seed 8 Random: margin -0.405 insertion -0.475 stab 0.15, 0.01 ms
+letter seed 9 Random: margin -0.362 insertion -0.334 stab 0.12, 0.00 ms
+landsat seed 1 KernelSHAP: margin -0.271 insertion 0.068 stab 0.13, 2121.95 ms
+landsat seed 2 PACE-multi: margin -0.203 insertion 0.078 stab 1.00, 0.46 ms
+landsat seed 3 PACE-contrastive: margin -0.160 insertion -0.003 stab 1.00, 0.25 ms
+landsat seed 4 PACE-contrastive: margin -0.170 insertion -0.021 stab 1.00, 0.32 ms
+landsat seed 2 PACE-flip: margin -0.247 insertion 0.129 stab 1.00, 4.36 ms
+landsat seed 3 PACE-multi: margin -0.247 insertion 0.018 stab 1.00, 1.41 ms
+landsat seed 4 PACE-multi: margin -0.241 insertion 0.045 stab 1.00, 0.67 ms
+landsat seed 3 PACE-flip: margin -0.305 insertion 0.096 stab 1.00, 2.31 ms
+landsat seed 1 LIME: margin -0.358 insertion 0.137 stab 0.43, 459.80 ms
+landsat seed 4 PACE-flip: margin -0.290 insertion 0.113 stab 1.00, 2.58 ms
+landsat seed 1 Random: margin -0.135 insertion -0.042 stab 0.08, 0.00 ms
+landsat seed 2 Occlusion (brute force): margin -0.247 insertion 0.129 stab 1.00, 442.27 ms
+landsat seed 5 PACE-contrastive: margin -0.169 insertion 0.046 stab 1.00, 0.27 ms
+landsat seed 2 PACE-decomposition: margin -0.173 insertion 0.120 stab 1.00, 0.71 ms
+landsat seed 3 Occlusion (brute force): margin -0.305 insertion 0.096 stab 1.00, 405.45 ms
+landsat seed 5 PACE-multi: margin -0.210 insertion 0.104 stab 1.00, 1.52 ms
+landsat seed 4 Occlusion (brute force): margin -0.290 insertion 0.113 stab 1.00, 389.42 ms
+landsat seed 3 PACE-decomposition: margin -0.227 insertion 0.104 stab 1.00, 0.33 ms
+landsat seed 5 PACE-flip: margin -0.268 insertion 0.160 stab 1.00, 2.27 ms
+landsat seed 4 PACE-decomposition: margin -0.244 insertion 0.138 stab 1.00, 0.33 ms
+landsat seed 5 Occlusion (brute force): margin -0.268 insertion 0.160 stab 1.00, 788.41 ms
+landsat seed 5 PACE-decomposition: margin -0.202 insertion 0.169 stab 1.00, 0.31 ms
+landsat seed 2 KernelSHAP: margin -0.234 insertion 0.155 stab 0.17, 1911.74 ms
+landsat seed 3 KernelSHAP: margin -0.289 insertion 0.074 stab 0.26, 1851.80 ms
+landsat seed 4 KernelSHAP: margin -0.287 insertion 0.096 stab 0.21, 1679.49 ms
+landsat seed 2 LIME: margin -0.284 insertion 0.123 stab 0.51, 458.24 ms
+landsat seed 3 LIME: margin -0.345 insertion 0.127 stab 0.47, 383.33 ms
+landsat seed 2 Random: margin 0.003 insertion -0.081 stab 0.03, 0.00 ms
+landsat seed 4 LIME: margin -0.354 insertion 0.089 stab 0.50, 311.68 ms
+landsat seed 5 KernelSHAP: margin -0.211 insertion 0.090 stab 0.13, 1589.66 ms
+landsat seed 3 Random: margin -0.093 insertion -0.095 stab 0.05, 0.00 ms
+landsat seed 6 PACE-contrastive: margin -0.160 insertion 0.025 stab 1.00, 0.25 ms
+landsat seed 4 Random: margin -0.086 insertion -0.070 stab 0.04, 0.00 ms
+landsat seed 6 PACE-multi: margin -0.249 insertion 0.061 stab 1.00, 0.44 ms
+landsat seed 7 PACE-contrastive: margin -0.075 insertion 0.109 stab 1.00, 0.26 ms
+landsat seed 8 PACE-contrastive: margin -0.107 insertion 0.066 stab 1.00, 0.26 ms
+landsat seed 6 PACE-flip: margin -0.272 insertion 0.117 stab 1.00, 2.54 ms
+landsat seed 7 PACE-multi: margin -0.130 insertion 0.147 stab 1.00, 0.38 ms
+landsat seed 8 PACE-multi: margin -0.173 insertion 0.116 stab 1.00, 0.36 ms
+landsat seed 7 PACE-flip: margin -0.177 insertion 0.218 stab 1.00, 1.43 ms
+landsat seed 8 PACE-flip: margin -0.212 insertion 0.183 stab 1.00, 1.97 ms
+landsat seed 5 LIME: margin -0.335 insertion 0.167 stab 0.47, 442.58 ms
+landsat seed 5 Random: margin -0.064 insertion -0.040 stab 0.06, 0.00 ms
+landsat seed 6 Occlusion (brute force): margin -0.272 insertion 0.117 stab 1.00, 267.04 ms
+landsat seed 9 PACE-contrastive: margin -0.178 insertion 0.051 stab 1.00, 0.27 ms
+landsat seed 6 PACE-decomposition: margin -0.214 insertion 0.135 stab 1.00, 0.33 ms
+landsat seed 7 Occlusion (brute force): margin -0.177 insertion 0.218 stab 1.00, 397.49 ms
+landsat seed 8 Occlusion (brute force): margin -0.212 insertion 0.183 stab 1.00, 386.66 ms
+landsat seed 9 PACE-multi: margin -0.237 insertion 0.097 stab 1.00, 0.31 ms
+landsat seed 7 PACE-decomposition: margin -0.090 insertion 0.204 stab 1.00, 0.38 ms
+landsat seed 8 PACE-decomposition: margin -0.133 insertion 0.208 stab 1.00, 0.63 ms
+landsat seed 9 PACE-flip: margin -0.276 insertion 0.145 stab 1.00, 3.63 ms
+landsat seed 9 Occlusion (brute force): margin -0.276 insertion 0.145 stab 1.00, 596.59 ms
+landsat seed 9 PACE-decomposition: margin -0.190 insertion 0.156 stab 1.00, 0.44 ms
+landsat seed 6 KernelSHAP: margin -0.256 insertion 0.093 stab 0.22, 1740.10 ms
+landsat seed 8 KernelSHAP: margin -0.128 insertion 0.113 stab 0.16, 1554.24 ms
+landsat seed 7 KernelSHAP: margin -0.167 insertion 0.201 stab 0.26, 1703.13 ms
+landsat seed 6 LIME: margin -0.291 insertion 0.084 stab 0.56, 332.67 ms
+landsat seed 6 Random: margin -0.059 insertion -0.115 stab 0.04, 0.00 ms
+page_blocks seed 0 PACE-contrastive: margin 0.070 insertion 0.182 stab 1.00, 0.04 ms
+page_blocks seed 0 PACE-multi: margin 0.060 insertion 0.246 stab 1.00, 0.08 ms
+page_blocks seed 0 PACE-flip: margin 0.077 insertion 0.254 stab 1.00, 0.36 ms
+page_blocks seed 0 Occlusion (brute force): margin 0.077 insertion 0.254 stab 1.00, 14.77 ms
+page_blocks seed 0 PACE-decomposition: margin 0.158 insertion 0.146 stab 1.00, 0.03 ms
+page_blocks seed 0 KernelSHAP: margin 0.068 insertion 0.237 stab 0.20, 83.34 ms
+landsat seed 8 LIME: margin -0.239 insertion 0.197 stab 0.48, 435.52 ms
+page_blocks seed 0 LIME: margin 0.058 insertion 0.266 stab 0.79, 36.15 ms
+page_blocks seed 0 Random: margin 0.144 insertion 0.133 stab 0.19, 0.01 ms
+page_blocks seed 1 PACE-contrastive: margin 0.141 insertion 0.231 stab 1.00, 0.03 ms
+page_blocks seed 1 PACE-multi: margin 0.132 insertion 0.321 stab 1.00, 0.07 ms
+page_blocks seed 1 PACE-flip: margin 0.139 insertion 0.287 stab 1.00, 0.33 ms
+page_blocks seed 1 Occlusion (brute force): margin 0.139 insertion 0.286 stab 1.00, 10.56 ms
+page_blocks seed 1 PACE-decomposition: margin 0.209 insertion 0.224 stab 1.00, 0.05 ms
+landsat seed 7 LIME: margin -0.222 insertion 0.239 stab 0.47, 398.95 ms
+landsat seed 9 KernelSHAP: margin -0.255 insertion 0.140 stab 0.21, 1327.15 ms
+page_blocks seed 1 KernelSHAP: margin 0.147 insertion 0.320 stab 0.45, 94.25 ms
+landsat seed 8 Random: margin 0.031 insertion -0.023 stab 0.06, 0.00 ms
+page_blocks seed 2 PACE-contrastive: margin 0.069 insertion 0.100 stab 1.00, 0.05 ms
+page_blocks seed 2 PACE-multi: margin 0.047 insertion 0.190 stab 1.00, 0.10 ms
+page_blocks seed 1 LIME: margin 0.158 insertion 0.328 stab 0.89, 39.17 ms
+page_blocks seed 2 PACE-flip: margin 0.036 insertion 0.241 stab 1.00, 0.18 ms
+page_blocks seed 1 Random: margin 0.235 insertion 0.211 stab 0.22, 0.00 ms
+page_blocks seed 3 PACE-contrastive: margin 0.163 insertion 0.191 stab 1.00, 0.02 ms
+page_blocks seed 2 Occlusion (brute force): margin 0.036 insertion 0.241 stab 1.00, 7.04 ms
+page_blocks seed 3 PACE-multi: margin 0.096 insertion 0.349 stab 1.00, 0.04 ms
+page_blocks seed 2 PACE-decomposition: margin 0.096 insertion 0.137 stab 1.00, 0.06 ms
+page_blocks seed 3 PACE-flip: margin 0.066 insertion 0.355 stab 1.00, 0.18 ms
+page_blocks seed 3 Occlusion (brute force): margin 0.066 insertion 0.355 stab 1.00, 11.26 ms
+page_blocks seed 3 PACE-decomposition: margin 0.255 insertion 0.171 stab 1.00, 0.04 ms
+landsat seed 7 Random: margin 0.032 insertion 0.032 stab 0.04, 0.00 ms
+page_blocks seed 2 KernelSHAP: margin 0.037 insertion 0.230 stab 0.63, 52.74 ms
+page_blocks seed 4 PACE-contrastive: margin 0.104 insertion 0.200 stab 1.00, 0.02 ms
+page_blocks seed 4 PACE-multi: margin 0.050 insertion 0.327 stab 1.00, 0.07 ms
+page_blocks seed 4 PACE-flip: margin 0.041 insertion 0.366 stab 1.00, 0.18 ms
+page_blocks seed 2 LIME: margin 0.022 insertion 0.213 stab 0.83, 17.35 ms
+page_blocks seed 4 Occlusion (brute force): margin 0.041 insertion 0.368 stab 1.00, 8.79 ms
+page_blocks seed 3 KernelSHAP: margin 0.063 insertion 0.304 stab 0.55, 63.84 ms
+page_blocks seed 2 Random: margin 0.149 insertion 0.068 stab 0.27, 0.00 ms
+page_blocks seed 4 PACE-decomposition: margin 0.114 insertion 0.215 stab 1.00, 0.05 ms
+page_blocks seed 5 PACE-contrastive: margin 0.141 insertion 0.233 stab 1.00, 0.02 ms
+page_blocks seed 5 PACE-multi: margin 0.117 insertion 0.336 stab 1.00, 0.04 ms
+page_blocks seed 5 PACE-flip: margin 0.114 insertion 0.314 stab 1.00, 0.29 ms
+page_blocks seed 3 LIME: margin 0.074 insertion 0.367 stab 0.75, 19.10 ms
+page_blocks seed 5 Occlusion (brute force): margin 0.114 insertion 0.314 stab 1.00, 8.16 ms
+page_blocks seed 3 Random: margin 0.242 insertion 0.204 stab 0.18, 0.00 ms
+page_blocks seed 5 PACE-decomposition: margin 0.247 insertion 0.226 stab 1.00, 0.05 ms
+page_blocks seed 6 PACE-contrastive: margin 0.095 insertion 0.110 stab 1.00, 0.03 ms
+page_blocks seed 6 PACE-multi: margin 0.089 insertion 0.165 stab 1.00, 0.04 ms
+page_blocks seed 6 PACE-flip: margin 0.068 insertion 0.166 stab 1.00, 0.20 ms
+page_blocks seed 6 Occlusion (brute force): margin 0.068 insertion 0.166 stab 1.00, 6.98 ms
+page_blocks seed 6 PACE-decomposition: margin 0.092 insertion 0.104 stab 1.00, 0.03 ms
+page_blocks seed 4 KernelSHAP: margin 0.027 insertion 0.378 stab 0.48, 59.53 ms
+page_blocks seed 5 KernelSHAP: margin 0.091 insertion 0.360 stab 0.24, 51.62 ms
+page_blocks seed 4 LIME: margin 0.077 insertion 0.290 stab 0.68, 19.82 ms
+page_blocks seed 4 Random: margin 0.196 insertion 0.144 stab 0.21, 0.00 ms
+page_blocks seed 7 PACE-contrastive: margin 0.244 insertion 0.317 stab 1.00, 0.02 ms
+page_blocks seed 7 PACE-multi: margin 0.177 insertion 0.501 stab 1.00, 0.04 ms
+page_blocks seed 7 PACE-flip: margin 0.194 insertion 0.464 stab 1.00, 0.17 ms
+page_blocks seed 5 LIME: margin 0.108 insertion 0.360 stab 0.92, 18.19 ms
+page_blocks seed 5 Random: margin 0.259 insertion 0.194 stab 0.22, 0.00 ms
+page_blocks seed 6 KernelSHAP: margin 0.060 insertion 0.181 stab 0.48, 54.31 ms
+page_blocks seed 7 Occlusion (brute force): margin 0.194 insertion 0.466 stab 1.00, 8.21 ms
+page_blocks seed 7 PACE-decomposition: margin 0.308 insertion 0.274 stab 1.00, 0.04 ms
+page_blocks seed 8 PACE-contrastive: margin 0.058 insertion 0.093 stab 1.00, 0.05 ms
+page_blocks seed 8 PACE-multi: margin 0.017 insertion 0.131 stab 1.00, 0.04 ms
+page_blocks seed 8 PACE-flip: margin -0.020 insertion 0.148 stab 1.00, 0.24 ms
+page_blocks seed 6 LIME: margin 0.066 insertion 0.161 stab 0.90, 23.63 ms
+page_blocks seed 8 Occlusion (brute force): margin -0.020 insertion 0.148 stab 1.00, 9.48 ms
+page_blocks seed 6 Random: margin 0.124 insertion 0.090 stab 0.20, 0.00 ms
+page_blocks seed 8 PACE-decomposition: margin 0.027 insertion 0.097 stab 1.00, 0.06 ms
+page_blocks seed 9 PACE-contrastive: margin -0.050 insertion -0.042 stab 1.00, 0.02 ms
+page_blocks seed 9 PACE-multi: margin -0.062 insertion 0.011 stab 1.00, 0.04 ms
+page_blocks seed 9 PACE-flip: margin -0.079 insertion 0.072 stab 1.00, 0.29 ms
+page_blocks seed 9 Occlusion (brute force): margin -0.079 insertion 0.074 stab 1.00, 7.60 ms
+page_blocks seed 9 PACE-decomposition: margin -0.056 insertion -0.008 stab 1.00, 0.03 ms
+page_blocks seed 7 KernelSHAP: margin 0.166 insertion 0.480 stab 0.50, 61.36 ms
+landsat seed 9 LIME: margin -0.284 insertion 0.113 stab 0.48, 240.73 ms
+page_blocks seed 7 LIME: margin 0.198 insertion 0.427 stab 0.91, 19.17 ms
+page_blocks seed 8 KernelSHAP: margin -0.025 insertion 0.157 stab 0.70, 58.43 ms
+page_blocks seed 7 Random: margin 0.321 insertion 0.319 stab 0.18, 0.00 ms
+page_blocks seed 8 LIME: margin -0.012 insertion 0.141 stab 0.80, 17.71 ms
+page_blocks seed 9 KernelSHAP: margin -0.079 insertion 0.055 stab 0.35, 58.60 ms
+page_blocks seed 8 Random: margin 0.094 insertion 0.045 stab 0.20, 0.00 ms
+page_blocks seed 9 LIME: margin -0.068 insertion 0.045 stab 0.79, 13.64 ms
+page_blocks seed 9 Random: margin 0.021 insertion -0.054 stab 0.21, 0.00 ms
+landsat seed 9 Random: margin -0.072 insertion -0.005 stab 0.04, 0.00 ms
+# RQ1 faithfulness, fair protocol (v2)
+
+50 test points per dataset and seed (fewer if the test split is smaller); seeds [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]. Features are ranked by signed attribution, most supportive of the predicted class first; KernelSHAP and LIME explain the predicted class's margin (KernelSHAP with 20 real background rows). Each deletion or insertion copies values from one random real background row (10 repetitions). Mean ± 95% CI over seeds.
+
+Deletion margin AUC: lower = more faithful. Insertion margin AUC: higher = more faithful. '|attr| deletion' is the original ranking (secondary). Stability = top-3 overlap when the explainer is re-run with another seed. Ground truth = share of the top 3 (ties broken at random) that are truly relevant (synthetic sets only).
+
+| Dataset | Method | Deletion margin AUC | Insertion margin AUC | |attr| deletion (old) | Class-kept deletion AUC | Stability | Ground truth top-3 | Negative attributions |
+|---|---|---|---|---|---|---|---|---|
+| magic | PACE-contrastive | 0.087 ± 0.022 | 0.129 ± 0.031 | 0.090 ± 0.013 | 0.568 ± 0.023 | 1.00 | – | 0.32 |
+| magic | PACE-multi | 0.067 ± 0.012 | 0.179 ± 0.029 | 0.069 ± 0.010 | 0.557 ± 0.019 | 1.00 | – | 0.17 |
+| magic | PACE-flip | 0.029 ± 0.021 | 0.236 ± 0.019 | 0.029 ± 0.021 | 0.506 ± 0.016 | 1.00 | – | 0.00 |
+| magic | Occlusion (brute force) | 0.029 ± 0.021 | 0.236 ± 0.019 | 0.029 ± 0.021 | 0.506 ± 0.016 | 1.00 | – | 0.00 |
+| magic | PACE-decomposition | 0.089 ± 0.015 | 0.148 ± 0.019 | 0.089 ± 0.015 | 0.584 ± 0.013 | 1.00 | – | 0.00 |
+| magic | KernelSHAP | -0.021 ± 0.022 | 0.268 ± 0.015 | 0.083 ± 0.014 | 0.522 ± 0.017 | 0.42 | – | 0.45 |
+| magic | LIME | -0.001 ± 0.022 | 0.224 ± 0.027 | 0.068 ± 0.015 | 0.509 ± 0.019 | 0.68 | – | 0.42 |
+| magic | Random | 0.138 ± 0.025 | 0.102 ± 0.022 | 0.138 ± 0.025 | 0.634 ± 0.017 | 0.21 | – | 0.00 |
+| letter | PACE-contrastive | -0.461 ± 0.030 | -0.386 ± 0.029 | -0.446 ± 0.028 | 0.254 ± 0.016 | 1.00 | – | 0.22 |
+| letter | PACE-multi | -0.562 ± 0.022 | -0.256 ± 0.033 | -0.550 ± 0.021 | 0.185 ± 0.015 | 1.00 | – | 0.13 |
+| letter | PACE-flip | -0.656 ± 0.018 | -0.056 ± 0.037 | -0.656 ± 0.018 | 0.127 ± 0.009 | 1.00 | – | 0.00 |
+| letter | Occlusion (brute force) | -0.656 ± 0.018 | -0.056 ± 0.037 | -0.656 ± 0.018 | 0.127 ± 0.009 | 1.00 | – | 0.00 |
+| letter | PACE-decomposition | -0.611 ± 0.027 | -0.128 ± 0.026 | -0.610 ± 0.027 | 0.175 ± 0.012 | 1.00 | – | 0.00 |
+| letter | KernelSHAP | -0.690 ± 0.014 | -0.025 ± 0.035 | -0.688 ± 0.014 | 0.132 ± 0.007 | 0.61 | – | 0.00 |
+| letter | LIME | -0.663 ± 0.016 | -0.114 ± 0.037 | -0.624 ± 0.015 | 0.136 ± 0.010 | 0.85 | – | 0.36 |
+| letter | Random | -0.399 ± 0.036 | -0.413 ± 0.032 | -0.399 ± 0.036 | 0.305 ± 0.020 | 0.12 | – | 0.00 |
+| landsat | PACE-contrastive | -0.143 ± 0.029 | 0.032 ± 0.028 | -0.138 ± 0.024 | 0.436 ± 0.017 | 1.00 | – | 0.10 |
+| landsat | PACE-multi | -0.213 ± 0.029 | 0.082 ± 0.028 | -0.209 ± 0.029 | 0.398 ± 0.018 | 1.00 | – | 0.06 |
+| landsat | PACE-flip | -0.260 ± 0.028 | 0.143 ± 0.030 | -0.260 ± 0.028 | 0.374 ± 0.017 | 1.00 | – | 0.00 |
+| landsat | Occlusion (brute force) | -0.260 ± 0.028 | 0.143 ± 0.030 | -0.260 ± 0.028 | 0.374 ± 0.017 | 1.00 | – | 0.00 |
+| landsat | PACE-decomposition | -0.182 ± 0.035 | 0.151 ± 0.027 | -0.182 ± 0.035 | 0.419 ± 0.017 | 1.00 | – | 0.00 |
+| landsat | KernelSHAP | -0.233 ± 0.037 | 0.119 ± 0.031 | -0.232 ± 0.037 | 0.398 ± 0.020 | 0.19 | – | 0.00 |
+| landsat | LIME | -0.296 ± 0.036 | 0.142 ± 0.034 | -0.272 ± 0.032 | 0.356 ± 0.017 | 0.48 | – | 0.26 |
+| landsat | Random | -0.046 ± 0.040 | -0.045 ± 0.032 | -0.046 ± 0.040 | 0.496 ± 0.020 | 0.05 | – | 0.00 |
+| page_blocks | PACE-contrastive | 0.104 ± 0.055 | 0.162 ± 0.071 | 0.119 ± 0.059 | 0.717 ± 0.060 | 1.00 | – | 0.27 |
+| page_blocks | PACE-multi | 0.072 ± 0.047 | 0.258 ± 0.099 | 0.079 ± 0.052 | 0.709 ± 0.052 | 1.00 | – | 0.12 |
+| page_blocks | PACE-flip | 0.064 ± 0.055 | 0.267 ± 0.083 | 0.064 ± 0.055 | 0.695 ± 0.057 | 1.00 | – | 0.00 |
+| page_blocks | Occlusion (brute force) | 0.064 ± 0.055 | 0.267 ± 0.084 | 0.064 ± 0.055 | 0.695 ± 0.057 | 1.00 | – | 0.00 |
+| page_blocks | PACE-decomposition | 0.145 ± 0.080 | 0.159 ± 0.059 | 0.146 ± 0.080 | 0.774 ± 0.056 | 1.00 | – | 0.00 |
+| page_blocks | KernelSHAP | 0.055 ± 0.052 | 0.270 ± 0.088 | 0.117 ± 0.059 | 0.749 ± 0.057 | 0.46 | – | 0.50 |
+| page_blocks | LIME | 0.068 ± 0.055 | 0.260 ± 0.085 | 0.131 ± 0.066 | 0.739 ± 0.055 | 0.83 | – | 0.54 |
+| page_blocks | Random | 0.178 ± 0.064 | 0.135 ± 0.075 | 0.178 ± 0.064 | 0.800 ± 0.036 | 0.21 | – | 0.00 |
+
+## PACE-flip minus KernelSHAP: deletion margin AUC (lower is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: negative = PACE-flip better (more negative).
+
+| Dataset | Difference | Seeds where PACE-flip is higher | p | p (Holm) |
+|---|---|---|---|---|
+| magic | +0.050 ± 0.016 | 10 of 10 | 0.00195 | 0.00781 |
+| letter | +0.034 ± 0.010 | 10 of 10 | 0.00195 | 0.00781 |
+| landsat | -0.027 ± 0.018 | 0 of 10 | 0.00195 | 0.00781 |
+| page_blocks | +0.008 ± 0.008 | 8 of 10 | 0.0371 | 0.0371 |
+
+## PACE-flip minus LIME: deletion margin AUC (lower is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: negative = PACE-flip better (more negative).
+
+| Dataset | Difference | Seeds where PACE-flip is higher | p | p (Holm) |
+|---|---|---|---|---|
+| magic | +0.030 ± 0.015 | 10 of 10 | 0.00195 | 0.00781 |
+| letter | +0.007 ± 0.013 | 8 of 10 | 0.193 | 0.387 |
+| landsat | +0.036 ± 0.020 | 9 of 10 | 0.00586 | 0.0176 |
+| page_blocks | -0.005 ± 0.011 | 4 of 10 | 0.432 | 0.432 |
+
+## PACE-flip minus PACE-multi: deletion margin AUC (lower is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: negative = PACE-flip better (more negative).
+
+| Dataset | Difference | Seeds where PACE-flip is higher | p | p (Holm) |
+|---|---|---|---|---|
+| magic | -0.038 ± 0.016 | 0 of 10 | 0.00195 | 0.00781 |
+| letter | -0.094 ± 0.013 | 0 of 10 | 0.00195 | 0.00781 |
+| landsat | -0.046 ± 0.012 | 0 of 10 | 0.00195 | 0.00781 |
+| page_blocks | -0.009 ± 0.013 | 3 of 10 | 0.232 | 0.232 |
+
+## PACE-flip minus KernelSHAP: insertion margin AUC (higher is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: positive = PACE-flip better.
+
+| Dataset | Difference | Seeds where PACE-flip is higher | p | p (Holm) |
+|---|---|---|---|---|
+| magic | -0.032 ± 0.014 | 0 of 10 | 0.00195 | 0.00781 |
+| letter | -0.031 ± 0.013 | 0 of 10 | 0.00195 | 0.00781 |
+| landsat | +0.024 ± 0.020 | 9 of 10 | 0.0488 | 0.0977 |
+| page_blocks | -0.004 ± 0.020 | 4 of 10 | 0.846 | 0.846 |
+
+## PACE-flip minus LIME: insertion margin AUC (higher is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: positive = PACE-flip better.
+
+| Dataset | Difference | Seeds where PACE-flip is higher | p | p (Holm) |
+|---|---|---|---|---|
+| magic | +0.012 ± 0.021 | 6 of 10 | 0.322 | 0.967 |
+| letter | +0.058 ± 0.010 | 10 of 10 | 0.00195 | 0.00781 |
+| landsat | +0.001 ± 0.021 | 5 of 10 | 0.846 | 1 |
+| page_blocks | +0.007 ± 0.026 | 6 of 10 | 0.77 | 1 |
+
+## PACE-flip minus PACE-multi: insertion margin AUC (higher is better)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Sign: positive = PACE-flip better.
+
+| Dataset | Difference | Seeds where PACE-flip is higher | p | p (Holm) |
+|---|---|---|---|---|
+| magic | +0.057 ± 0.019 | 10 of 10 | 0.00195 | 0.00781 |
+| letter | +0.200 ± 0.012 | 10 of 10 | 0.00195 | 0.00781 |
+| landsat | +0.061 ± 0.009 | 10 of 10 | 0.00195 | 0.00781 |
+| page_blocks | +0.009 ± 0.024 | 7 of 10 | 0.375 | 0.375 |
+

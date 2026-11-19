@@ -1,0 +1,35 @@
+S1 seed 0 timed
+S1 seed 1 timed
+S1 seed 2 timed
+S2 seed 0 timed
+S2 seed 1 timed
+S2 seed 2 timed
+S3 seed 0 timed
+S3 seed 1 timed
+S3 seed 2 timed
+wine seed 0 timed
+wine seed 1 timed
+wine seed 2 timed
+breast_cancer seed 0 timed
+breast_cancer seed 1 timed
+breast_cancer seed 2 timed
+thyroid seed 0 timed
+thyroid seed 1 timed
+thyroid seed 2 timed
+shuttle seed 0 timed
+shuttle seed 1 timed
+shuttle seed 2 timed
+# Milliseconds per explanation (batch of points, measured alone)
+
+Seeds [0, 1, 2]. Mean over seeds.
+
+| Dataset | PACE-contrastive | PACE-multi | PACE-flip | Occlusion (brute force) | PACE-decomposition | KernelSHAP | LIME | Random |
+|---|---|---|---|---|---|---|---|---|
+| S1 | 0.266 | 0.468 | 0.894 | 78.553 | 0.297 | 1067.901 | 265.334 | 0.002 |
+| S2 | 0.262 | 0.469 | 0.888 | 84.442 | 0.301 | 1048.926 | 281.025 | 0.002 |
+| S3 | 0.267 | 0.474 | 0.899 | 83.962 | 0.312 | 1030.918 | 256.874 | 0.002 |
+| wine | 0.018 | 0.032 | 0.114 | 5.596 | 0.040 | 33.221 | 11.614 | 0.002 |
+| breast_cancer | 0.030 | 0.047 | 0.251 | 22.762 | 0.062 | 84.268 | 24.027 | 0.002 |
+| thyroid | 0.029 | 0.043 | 0.225 | 14.742 | 0.048 | 77.501 | 22.979 | 0.002 |
+| shuttle | 0.013 | 0.020 | 0.047 | 3.732 | 0.014 | 17.566 | 8.143 | 0.001 |
+

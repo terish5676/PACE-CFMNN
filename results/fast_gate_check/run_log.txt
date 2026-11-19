@@ -1,0 +1,97 @@
+﻿0 of 60 dataset-seed pairs already done; 60 to run.
+skin seed 59: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 6.5s
+letter seed 51: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 10.0s
+skin seed 56: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 8.6s
+skin seed 51: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 8.7s
+skin seed 53: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 8.9s
+skin seed 55: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 9.2s
+skin seed 54: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 9.4s
+skin seed 58: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 10.6s
+skin seed 52: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 10.8s
+skin seed 57: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 11.4s
+letter seed 52: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 11.1s
+magic seed 51: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 6.3s
+letter seed 53: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 11.3s
+letter seed 56: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 10.8s
+letter seed 54: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 11.6s
+letter seed 55: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 11.4s
+letter seed 58: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 11.6s
+letter seed 57: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 12.2s
+letter seed 59: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 11.6s
+magic seed 53: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 5.6s
+magic seed 52: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 6.0s
+magic seed 54: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 6.2s
+magic seed 55: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 5.1s
+magic seed 56: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 5.6s
+magic seed 58: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 4.8s
+magic seed 57: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 5.4s
+magic seed 59: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 4.9s
+landsat seed 51: 281 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 3.5s
+landsat seed 52: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 3.3s
+landsat seed 53: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 3.6s
+landsat seed 54: 265 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 3.1s
+landsat seed 55: 295 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 3.1s
+landsat seed 56: 285 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 3.3s
+landsat seed 57: 270 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 3.4s
+landsat seed 58: 287 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 3.1s
+page_blocks seed 52: 273 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 1.8s
+landsat seed 59: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 3.4s
+page_blocks seed 51: 249 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 2.7s
+page_blocks seed 53: 273 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 2.0s
+page_blocks seed 56: 165 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 1.4s
+page_blocks seed 55: 273 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 1.7s
+page_blocks seed 54: 237 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 2.1s
+page_blocks seed 58: 165 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 1.3s
+thyroid seed 51: 44 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 0.4s
+thyroid seed 52: 65 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 0.5s
+thyroid seed 53: 28 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 0.4s
+thyroid seed 55: 84 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 0.4s
+thyroid seed 54: 55 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 0.6s
+thyroid seed 56: 50 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 0.5s
+thyroid seed 57: 95 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 0.5s
+page_blocks seed 59: 225 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 1.9s
+thyroid seed 59: 38 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 0.3s
+thyroid seed 58: 64 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 0.4s
+page_blocks seed 57: 273 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 2.8s
+skin seed 50: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 6.6s, standard 28.1s, equal True
+page_blocks seed 50: 215 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 2.0s, standard 4.2s, equal True
+thyroid seed 50: 73 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 0.4s, standard 1.6s, equal True
+landsat seed 50: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 3.8s, standard 31.2s, equal True
+magic seed 50: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 6.1s, standard 58.6s, equal True
+letter seed 50: 300 edits, mismatches 0, macro-F1 diff 0.00e+00, cached 10.2s, standard 223.7s, equal True
+# Run E: the cached gate
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). RQ3's SR arm replayed with `fast_gate=True`, seeds 50–59, and compared with `results/refinement_v2_confirmatory/`. Written by `scripts/check_fast_gate.py`.
+
+**Verdict: PASS**
+
+- Replayed runs equal to the committed edit log and macro-F1 (to 1e-12): 60 of 60 expected (60 present).
+- Seed 50, standard gate equal to the cached gate (edit log, model, test predictions): 6 of 6 datasets (6 run).
+- Largest macro-F1 difference: 0.00e+00; edits that differ: 0.
+
+## Per dataset
+
+| Dataset | Seeds matching | Edits (total) | Mismatched edits | Max macro-F1 diff |
+|---|---|---|---|---|
+| thyroid | 10 of 10 | 596 | 0 | 0.00e+00 |
+| landsat | 10 of 10 | 2883 | 0 | 0.00e+00 |
+| page_blocks | 10 of 10 | 2348 | 0 | 0.00e+00 |
+| magic | 10 of 10 | 3000 | 0 | 0.00e+00 |
+| letter | 10 of 10 | 3000 | 0 | 0.00e+00 |
+| skin | 10 of 10 | 3000 | 0 | 0.00e+00 |
+
+## Speed on seed 50 (not part of the pass rule)
+
+Both gates ran in the same process on the same machine; several tasks shared the CPU, so read the ratio, not the seconds.
+
+| Dataset | Standard gate (s) | Cached gate (s) | Standard ÷ cached |
+|---|---|---|---|
+| landsat | 31.2 | 3.8 | 8.13 |
+| letter | 223.7 | 10.2 | 21.92 |
+| magic | 58.6 | 6.1 | 9.55 |
+| page_blocks | 4.2 | 2.0 | 2.10 |
+| skin | 28.1 | 6.6 | 4.23 |
+| thyroid | 1.6 | 0.4 | 3.69 |
+
+Total over these datasets: standard 347 s, cached 29 s, ratio 11.87.
+

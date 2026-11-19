@@ -1,0 +1,315 @@
+
+====================================================================================================
+v3 faithfulness (seeds 30-39): counts
+====================================================================================================
+seeds [np.int64(30), np.int64(31), np.int64(32), np.int64(33), np.int64(34), np.int64(35), np.int64(36), np.int64(37), np.int64(38), np.int64(39)] n per dataset/seed: {'S1': 50, 'S2': 50, 'S3': 50, 'breast_cancer': 50, 'landsat': 50, 'letter': 50, 'magic': 50, 'page_blocks': 50, 'shuttle': 50, 'thyroid': 50, 'wine': 36}
+  PACE-SHAP vs KernelSHAP [margin_auc]: 6 better / 5 level / 0 worse; better: ['S3', 'wine', 'breast_cancer', 'thyroid', 'letter', 'landsat']; worse: []
+  PACE-SHAP vs KernelSHAP [insertion_margin_auc]: 7 better / 4 level / 0 worse; better: ['S1', 'S2', 'wine', 'breast_cancer', 'thyroid', 'letter', 'landsat']; worse: []
+  PACE-SHAP vs KernelSHAP-strong [margin_auc]: 3 better / 8 level / 0 worse; better: ['breast_cancer', 'thyroid', 'landsat']; worse: []
+  PACE-SHAP vs KernelSHAP-strong [insertion_margin_auc]: 4 better / 7 level / 0 worse; better: ['S1', 'S3', 'breast_cancer', 'letter']; worse: []
+  PACE-SHAP vs LIME [margin_auc]: 9 better / 2 level / 0 worse; better: ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'thyroid', 'magic', 'letter', 'landsat']; worse: []
+  PACE-SHAP vs LIME [insertion_margin_auc]: 10 better / 1 level / 0 worse; better: ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'thyroid', 'shuttle', 'magic', 'letter', 'landsat']; worse: []
+  PACE-SHAP vs PACE-flip [margin_auc]: 8 better / 3 level / 0 worse; better: ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'magic', 'letter', 'landsat']; worse: []
+  PACE-SHAP vs PACE-flip [insertion_margin_auc]: 8 better / 3 level / 0 worse; better: ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'magic', 'letter', 'landsat']; worse: []
+  PACE-SHAP-20 vs KernelSHAP [margin_auc]: 4 better / 7 level / 0 worse; better: ['breast_cancer', 'thyroid', 'letter', 'landsat']; worse: []
+  PACE-SHAP-20 vs KernelSHAP [insertion_margin_auc]: 6 better / 5 level / 0 worse; better: ['breast_cancer', 'thyroid', 'magic', 'letter', 'landsat', 'page_blocks']; worse: []
+  any method significantly better than PACE-SHAP in v3?
+
+====================================================================================================
+v3: effect sizes, PACE-SHAP vs KernelSHAP by deletion (Figure 2)
+====================================================================================================
+-- vs KernelSHAP
+         unit    diff      lo      hi      dz      p  p_holm verdict  rel_gap_%  ci_excludes_0
+           S1 -0.0063 -0.0137  0.0011 -0.6116 0.0488  0.1465   level     1.5627          False
+           S2 -0.0068 -0.0127 -0.0008 -0.8163 0.0273  0.1367   level     1.7778           True
+           S3 -0.0140 -0.0221 -0.0058 -1.2243 0.0039  0.0273  better     3.8904           True
+         wine -0.0078 -0.0123 -0.0032 -1.2275 0.0020  0.0215  better     2.5492           True
+breast_cancer -0.0630 -0.0682 -0.0578 -8.6305 0.0020  0.0215  better    28.1512           True
+      thyroid -0.0262 -0.0370 -0.0154 -1.7347 0.0020  0.0215  better    15.9427           True
+      shuttle  0.0048 -0.0034  0.0130  0.4222 0.2754  0.5508   level    -2.5985          False
+        magic -0.0174 -0.0316 -0.0031 -0.8731 0.0273  0.1367   level     9.9440           True
+       letter -0.0121 -0.0187 -0.0054 -1.3027 0.0059  0.0352  better     4.0712           True
+      landsat -0.1121 -0.1325 -0.0917 -3.9384 0.0020  0.0215  better    67.1773           True
+  page_blocks  0.0037 -0.0143  0.0218  0.1470 0.6250  0.6250   level    -4.5319          False
+   CI excludes 0 but not significant: ['S2', 'magic']
+   d_z among significant wins: 1.22–8.63
+-- vs KernelSHAP-strong
+         unit    diff      lo      hi      dz      p  p_holm verdict  rel_gap_%  ci_excludes_0
+           S1 -0.0075 -0.0152  0.0002 -0.6958 0.0371  0.2598   level     1.8614          False
+           S2 -0.0033 -0.0081  0.0016 -0.4803 0.1309  0.4219   level     0.8448          False
+           S3 -0.0112 -0.0183 -0.0041 -1.1299 0.0098  0.0781   level     3.0942           True
+         wine -0.0059 -0.0110 -0.0009 -0.8451 0.0488  0.2930   level     1.9416           True
+breast_cancer -0.0109 -0.0161 -0.0057 -1.4891 0.0020  0.0215  better     3.9445           True
+      thyroid -0.0138 -0.0206 -0.0070 -1.4580 0.0039  0.0352  better     7.8162           True
+      shuttle  0.0044 -0.0030  0.0118  0.4221 0.2324  0.4648   level    -2.3586          False
+        magic -0.0145 -0.0290 -0.0000 -0.7169 0.1055  0.4219   level     8.1638           True
+       letter -0.0059 -0.0113 -0.0005 -0.7787 0.0488  0.2930   level     1.9385           True
+      landsat -0.0256 -0.0392 -0.0120 -1.3446 0.0020  0.0215  better    10.1038           True
+  page_blocks  0.0075 -0.0098  0.0248  0.3105 0.6250  0.6250   level    -8.7533          False
+   CI excludes 0 but not significant: ['S3', 'wine', 'magic', 'letter']
+   d_z among significant wins: 1.34–1.49
+
+====================================================================================================
+v3: mean deletion-margin AUC table (paper table after Figure 2)
+====================================================================================================
+method         PACE-SHAP  KernelSHAP  KernelSHAP-strong    LIME  PACE-flip  Random
+dataset                                                                           
+S1               -0.1389     -0.1326            -0.1314 -0.1095    -0.0892  0.2708
+S2               -0.1317     -0.1249            -0.1285 -0.0951    -0.0755  0.2565
+S3               -0.0552     -0.0412            -0.0440  0.0117     0.0057  0.3179
+wine             -0.0761     -0.0684            -0.0702 -0.0387    -0.0545  0.2356
+breast_cancer     0.1114      0.1743             0.1222  0.1412     0.1366  0.3981
+thyroid           0.5486      0.5748             0.5624  0.5708     0.5440  0.7392
+shuttle           0.3701      0.3652             0.3657  0.3812     0.3741  0.5516
+magic            -0.0522     -0.0348            -0.0377 -0.0115     0.0153  0.1400
+letter           -0.6897     -0.6776            -0.6838 -0.6561    -0.6441 -0.3811
+landsat          -0.3287     -0.2166            -0.3031 -0.2954    -0.2546 -0.0497
+page_blocks       0.0501      0.0464             0.0426  0.0487     0.0514  0.1282
+lowest per row: {'S1': 'PACE-SHAP', 'S2': 'PACE-SHAP', 'S3': 'PACE-SHAP', 'wine': 'PACE-SHAP', 'breast_cancer': 'PACE-SHAP', 'thyroid': 'PACE-flip', 'shuttle': 'KernelSHAP', 'magic': 'PACE-SHAP', 'letter': 'PACE-SHAP', 'landsat': 'PACE-SHAP', 'page_blocks': 'KernelSHAP-strong'}
+
+====================================================================================================
+v3: stability, ground truth and flip mass
+====================================================================================================
+PACE-SHAP sampled-mode datasets (d > 12): ['wine', 'breast_cancer', 'thyroid', 'letter', 'landsat']
+  PACE-SHAP stability on sampled: 0.94–0.99  exact: 1.00–1.00
+  LIME: 0.52–0.90
+  KernelSHAP: 0.15–0.73
+  PACE-flip: 1.00–1.00
+  PACE-SHAP-20: 0.48–0.74
+  post hoc: PACE-SHAP-20 vs KernelSHAP stability: 5 better / 6 level / 0 worse; better: ['S3', 'breast_cancer', 'magic', 'letter', 'landsat']; worse: []
+  ground truth top-3 LIME: 0.89–0.92
+  ground truth top-3 PACE-SHAP: 0.79–0.85
+  ground truth top-3 KernelSHAP: 0.72–0.81
+  ground truth top-3 PACE-flip: 0.49–0.55
+  flip mass on relevant features: 41.7–47.1
+  LIME vs PACE-SHAP deletion: 0 better / 2 level / 9 worse; better: []; worse: ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'thyroid', 'magic', 'letter', 'landsat']
+  LIME vs PACE-SHAP insertion: 0 better / 1 level / 10 worse; better: []; worse: ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'thyroid', 'shuttle', 'magic', 'letter', 'landsat']
+
+====================================================================================================
+v3 timing (3 seeds)
+====================================================================================================
+PACE-SHAP / KernelSHAP time: {'S1': 2.23, 'S2': 2.32, 'S3': 2.25, 'breast_cancer': 1.96, 'landsat': 3.04, 'letter': 1.22, 'magic': 1.53, 'page_blocks': 2.37, 'shuttle': 0.73, 'thyroid': 1.57, 'wine': 0.43}
+  slower on: ['S1', 'S2', 'S3', 'breast_cancer', 'landsat', 'letter', 'magic', 'page_blocks', 'thyroid'] range 1.22–3.04
+KernelSHAP / PACE-SHAP-20 time: 4.35–14.47
+
+====================================================================================================
+v2 first explanation run (seeds 0-9)
+====================================================================================================
+seeds [np.int64(0), np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6), np.int64(7), np.int64(8), np.int64(9)] methods ['PACE-contrastive', 'PACE-multi', 'PACE-flip', 'Occlusion (brute force)', 'PACE-decomposition', 'KernelSHAP', 'LIME', 'Random']
+  KernelSHAP vs PACE-flip [margin_auc]: 6 better / 2 level / 3 worse; better: ['S1', 'S2', 'S3', 'wine', 'magic', 'letter']; worse: ['breast_cancer', 'thyroid', 'landsat']
+  KernelSHAP vs PACE-flip [insertion_margin_auc]: 6 better / 3 level / 2 worse; better: ['S1', 'S2', 'S3', 'wine', 'magic', 'letter']; worse: ['breast_cancer', 'thyroid']
+  max |Occlusion (brute force) - PACE-flip| deletion AUC over dataset-seeds: 1.20e-03
+
+====================================================================================================
+Speed: PACE-flip vs occlusion, LIME, KernelSHAP (faithfulness/timing.csv)
+====================================================================================================
+seeds [np.int64(0), np.int64(1), np.int64(2)]
+PACE-flip ms per explanation: 0.047–1.367
+  Occlusion (brute force) / PACE-flip: 29–141
+  LIME / PACE-flip: 89–316
+  KernelSHAP / PACE-flip: 292–1194
+occlusion_batched seeds [np.int64(0), np.int64(1), np.int64(2)]
+  loop / batched: 1.01–2.23
+  batched / PACE-flip: 25–134
+  max diff batched vs flip: 5.428600277634921e-15
+speed_uci datasets ['landsat', 'letter', 'magic', 'page_blocks']
+  share of boxes skipped: 76–92
+  (v3 has skip columns?) []
+
+====================================================================================================
+Exact PACE-SHAP vs ExactExplainer (review_v1/exact)
+====================================================================================================
+datasets ['S1', 'S2', 'S3', 'magic', 'page_blocks', 'shuttle'] seeds [np.int64(30), np.int64(31), np.int64(32)] n [10]
+  max abs diff (all exact rows): 3.3306690738754696e-16
+method       KernelSHAP, every coalition  PACE-SHAP  shap ExactExplainer
+dataset                                                                 
+S1                               54136.8     2499.0              53707.6
+S2                               52775.8     2359.2              52990.5
+S3                               57595.2     2519.6              53775.9
+magic                            10198.0      376.1              11435.5
+page_blocks                       1106.6       68.0               1121.3
+shuttle                            505.9       19.2                477.7
+  ExactExplainer / PACE-SHAP: {'S1': 21.5, 'S2': 22.5, 'S3': 21.3, 'magic': 30.4, 'page_blocks': 16.5, 'shuttle': 24.8}
+                                                     rel_l1_error  top3_overlap  ms_per_explanation
+dataset method                       orders_per_row                                                
+letter  PACE-SHAP, exact (reference) NaN                   0.0000        1.0000          41655.3576
+        PACE-SHAP, sampled           8.0                   0.0281        1.0000            635.4851
+                                     16.0                  0.0237        1.0000            746.7621
+                                     32.0                  0.0170        1.0000            909.3714
+                                     64.0                  0.0099        1.0000           1288.6017
+wine    PACE-SHAP, exact (reference) NaN                   0.0000        1.0000            262.6052
+        PACE-SHAP, sampled           8.0                   0.0202        0.9676              7.2963
+                                     16.0                  0.0145        0.9815              9.1418
+                                     32.0                  0.0096        0.9954             13.3965
+                                     64.0                  0.0072        1.0000             24.6981
+
+====================================================================================================
+Planned test, seeds 50-59 (review_v1/faithfulness)
+====================================================================================================
+  raw PACE-SHAP vs KernelSHAP [margin_auc_raw]: 10 better / 1 level / 0 worse; better: ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'thyroid', 'shuttle', 'magic', 'letter', 'landsat']; worse: []
+  raw PACE-SHAP vs KernelSHAP [insertion_margin_auc_raw]: 11 better / 0 level / 0 worse; better: ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'thyroid', 'shuttle', 'magic', 'letter', 'landsat', 'page_blocks']; worse: []
+  datasets with >= 10 untied points in every seed: 9 ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'thyroid', 'shuttle', 'letter', 'landsat']
+  untied PACE-SHAP vs KernelSHAP [margin_auc_untied]: 7 better / 2 level / 0 worse; better: ['S1', 'S2', 'S3', 'breast_cancer', 'thyroid', 'letter', 'landsat']; worse: []
+  untied PACE-SHAP vs KernelSHAP [insertion_margin_auc_untied]: 6 better / 3 level / 0 worse; better: ['S1', 'S3', 'breast_cancer', 'thyroid', 'letter', 'landsat']; worse: []
+  LIME (200 rows) vs PACE-SHAP [margin_auc]: 0 better / 2 level / 9 worse; better: []; worse: ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'thyroid', 'magic', 'letter', 'landsat']
+  LIME (200 rows) vs PACE-SHAP [insertion_margin_auc]: 0 better / 0 level / 11 worse; better: []; worse: ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'thyroid', 'shuttle', 'magic', 'letter', 'landsat', 'page_blocks']
+  stability PACE-SHAP vs KernelSHAP [stability_fixed]: 11 better / 0 level / 0 worse; better: ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'thyroid', 'shuttle', 'magic', 'letter', 'landsat', 'page_blocks']; worse: []
+  stability PACE-SHAP vs KernelSHAP [stability_new]: 10 better / 1 level / 0 worse; better: ['S1', 'S2', 'S3', 'wine', 'breast_cancer', 'thyroid', 'shuttle', 'magic', 'letter', 'landsat']; worse: []
+  any method better than PACE-SHAP here?
+  ties_v3.csv columns: ['dataset', 'seed', 'n', 'n_tied', 'n_near_tie', 'median_margin']
+               n_tied  n_near_tie
+dataset                          
+S1                0.0         4.2
+S2                0.0         4.4
+S3                0.0         3.4
+breast_cancer     0.6         6.2
+landsat          12.4        24.5
+letter           27.7        27.7
+magic            37.5        44.5
+page_blocks      39.3        44.9
+shuttle           5.6        47.1
+thyroid           2.3        39.4
+wine              0.0         0.1
+
+====================================================================================================
+Conditional replacement (extensions_v1/conditional, seeds 40-49)
+====================================================================================================
+  PACE-SHAP-cond vs KernelSHAP-cond [cond_margin_auc]: 6 better / 7 level / 0 worse; better: ['S3', 'breast_cancer', 'thyroid', 'shuttle', 'magic', 'landsat']; worse: []
+  PACE-SHAP-cond vs KernelSHAP-cond [cond_insertion_margin_auc]: 6 better / 7 level / 0 worse; better: ['S1', 'S3', 'breast_cancer', 'shuttle', 'landsat', 'page_blocks']; worse: []
+  PACE-SHAP vs PACE-SHAP-cond [cond_margin_auc]: 10 better / 2 level / 1 worse; better: ['S1', 'S2', 'S3', 'S1c', 'S2c', 'wine', 'breast_cancer', 'thyroid', 'letter', 'landsat']; worse: ['shuttle']
+  PACE-SHAP vs PACE-SHAP-cond [cond_insertion_margin_auc]: 9 better / 4 level / 0 worse; better: ['S1', 'S2', 'S3', 'S1c', 'S2c', 'wine', 'breast_cancer', 'thyroid', 'letter']; worse: []
+  matched comparison, usual tests:
+  PACE-SHAP vs KernelSHAP [margin_auc]: 3 better / 10 level / 0 worse; better: ['S3', 'breast_cancer', 'landsat']; worse: []
+  PACE-SHAP vs KernelSHAP [insertion_margin_auc]: 2 better / 11 level / 0 worse; better: ['breast_cancer', 'landsat']; worse: []
+  Shuttle cond deletion: cond 0.452 vs usual 0.482, cond better in 9 seeds
+method         flip_cond  flip_int   lime  points  shap_cond  shap_int  test_cond  test_int
+dataset                                                                                    
+S1                   5.0       4.9   13.0     4.4        1.2       3.8        2.0       3.9
+S1c                  7.9      11.0   35.2     5.2        1.6      13.7        3.1      13.8
+S2                   5.4       5.2   12.8     6.0        1.3       4.2        2.2       4.2
+S2c                  8.2      11.5   35.8     4.6        1.5      13.9        3.3      14.0
+S3                   5.5       5.5   13.3     6.0        1.4       4.1        2.2       4.0
+breast_cancer        3.3       4.0   62.4     3.2        1.2      12.7        1.8      12.7
+landsat              9.6      26.3  100.0     6.4        4.6      67.1        8.4      66.8
+letter              21.7      31.9   99.5     5.2       10.1      62.7       26.2      62.6
+magic                5.9      13.9   71.2     4.0        2.4      20.3        3.7      20.1
+page_blocks         12.6      23.5   99.7     5.4        6.0      29.6        9.3      30.1
+shuttle             61.3      66.1  100.0     5.0       56.7      70.6       57.4      70.4
+thyroid              5.6       6.1  100.0     4.8        2.6       8.9        4.0       8.8
+wine                 6.4       8.1   48.1     4.7        1.4      16.5        2.6      16.1
+  outside Shuttle: cond max 10.1, usual max 67.1
+  test inputs off (usual game) on Shuttle/Letter/Landsat: {'shuttle': 70.4, 'letter': 62.6, 'landsat': 66.8}
+-- posthoc_sigma.csv: datasets ['S1', 'S1c', 'S2c', 'magic', 'page_blocks', 'shuttle'], seeds [np.int64(40), np.int64(41), np.int64(42), np.int64(43), np.int64(44)]
+                   eff_rows_small  off_share  margin_auc  cond_margin_auc
+dataset     sigma                                                        
+S1          0.1             1.699      0.013      -0.105           -0.115
+            0.2             5.755      0.015      -0.115           -0.129
+            0.3            16.166      0.017      -0.126           -0.140
+            0.5            55.760      0.026      -0.137           -0.160
+            1.0           158.086      0.035      -0.140           -0.171
+            inf           200.000      0.037      -0.143           -0.176
+S1c         0.1             1.787      0.017      -0.045           -0.052
+            0.2             6.170      0.020      -0.058           -0.066
+            0.3            17.070      0.029      -0.068           -0.075
+            0.5            57.166      0.061      -0.073           -0.086
+            1.0           158.261      0.106      -0.076           -0.091
+            inf           200.000      0.138      -0.077           -0.091
+S2c         0.1             1.772      0.016      -0.074           -0.095
+            0.2             6.030      0.019      -0.092           -0.114
+            0.3            16.564      0.029      -0.100           -0.126
+            0.5            55.633      0.064      -0.107           -0.138
+            1.0           157.175      0.111      -0.111           -0.145
+            inf           200.000      0.145      -0.116           -0.150
+magic       0.1             4.045      0.022       0.059            0.039
+            0.2            18.680      0.023       0.035            0.028
+            0.3            42.981      0.028       0.012            0.023
+            0.5            97.159      0.050      -0.029            0.022
+            1.0           167.149      0.117      -0.059            0.026
+            inf           200.000      0.201      -0.057            0.041
+page_blocks 0.1            25.033      0.055       0.056            0.135
+            0.2            68.577      0.079       0.050            0.132
+            0.3           106.559      0.110       0.044            0.128
+            0.5           149.206      0.158       0.033            0.126
+            1.0           180.785      0.213       0.022            0.127
+            inf           200.000      0.271       0.015            0.128
+shuttle     0.1             8.383      0.571       0.308            0.417
+            0.2            30.492      0.632       0.299            0.410
+            0.3            63.478      0.656       0.291            0.410
+            0.5           117.898      0.678       0.281            0.412
+            1.0           172.569      0.695       0.284            0.416
+            inf           200.000      0.707       0.279            0.455
+-- posthoc_rows.csv: datasets ['S1', 'magic', 'page_blocks', 'shuttle'], seeds [np.int64(40), np.int64(41), np.int64(42), np.int64(43), np.int64(44)]
+                  eff_rows_small  off_share  margin_auc  cond_margin_auc
+dataset     rows                                                        
+S1          200          100.850      0.025      -0.124           -0.145
+            800          401.673      0.023      -0.135           -0.163
+magic       200          102.022      0.111       0.001            0.040
+            800          406.802      0.108      -0.008            0.038
+page_blocks 200          112.517      0.163       0.036            0.131
+            800          449.593      0.159       0.035            0.130
+shuttle     200          104.191      0.639       0.293            0.436
+            800          416.353      0.633       0.290            0.426
+  datasets where the 0.1 game rests on about one row (eff rows, large coalitions) -- from runs? see extra:
+  extra.csv columns: ['dataset', 'seed', 'flip_mass_relevant', 'flip_mass_x3']
+
+====================================================================================================
+Counterfactuals (extensions_v1/counterfactuals, seeds 40-49)
+====================================================================================================
+           ds nboth      vP      vD      vS  l1_P  l1_D  l1_h  feat_P  feat_D  feat_h  plaus_P  plaus_D  plaus_h   ms_P      ms_D  ms_h
+           S1 30-30 100.000 100.000 100.000 0.386 0.410 0.387   1.577   1.317   0.021    1.162    1.226    0.021  6.978  6784.345 0.021
+           S2 30-30 100.000 100.000 100.000 0.363 0.391 0.336   1.557   1.317   0.021    1.114    1.194    0.021  7.234  6996.266 0.021
+           S3 30-30 100.000 100.000 100.000 0.370 0.395 0.336   1.443   1.360   0.238    1.138    1.236    0.021  6.424  6700.441 0.021
+         wine 30-30 100.000 100.000 100.000 0.701 0.804 0.021   3.440   2.347   0.021    1.317    1.671    0.021  4.032   560.007 0.021
+breast_cancer 30-30 100.000 100.000 100.000 1.426 1.660 0.068  10.957   4.507   0.021    1.683    3.014    0.021  9.490  1243.469 0.021
+      thyroid 27-30  99.333  97.333  99.333 0.156 0.292 0.021   1.904   1.605   0.021    0.246    0.513    0.021  3.075   959.131 0.021
+      shuttle 30-30 100.000 100.000 100.000 0.117 0.248 0.021   3.293   1.367   0.021    0.154    0.285    0.021  7.580  1045.278 0.021
+        magic 30-30 100.000 100.000 100.000 0.250 0.327 0.027   2.560   1.410   0.021    0.255    0.457    0.021  7.849  2966.484 0.021
+       letter 29-30 100.000  98.667 100.000 0.214 0.322 0.021   2.656   1.452   0.021    0.725    0.920    0.021 31.234 12445.506 0.021
+      landsat 29-30 100.000  99.667 100.000 1.016 1.100 0.387  10.639   3.315   0.021    1.691    2.529    0.021 24.504  3769.645 0.021
+  page_blocks 28-30 100.000  98.667 100.000 0.239 0.348 0.059   2.182   1.374   0.021    0.236    0.512    0.021  7.956   556.029 0.021
+speed-up DiCE/PACE: 70–1043
+PACE-sparse vs DiCE:
+           ds  sF_P  sF_D  sF_diff  sF_h  sL_P  sL_D  sL_h  sP_P  sP_D  sP_h     sT_P      sT_D  sT_h   oneS   oneD  farther
+           S1 1.033 1.317   -0.283 0.021 0.245 0.410 0.021 1.273 1.226 0.021  128.974  6784.345 0.021 96.667 68.333    9.518
+           S2 1.050 1.317   -0.267 0.021 0.217 0.391 0.021 1.227 1.194 0.021  129.723  6996.266 0.021 95.000 68.333   10.164
+           S3 1.027 1.360   -0.333 0.021 0.233 0.395 0.021 1.243 1.236 0.322  123.541  6700.441 0.021 97.333 64.000    9.176
+         wine 1.887 2.347   -0.460 0.021 0.593 0.804 0.021 1.604 1.671 0.021   43.859   560.007 0.021 31.000 18.333   21.748
+breast_cancer 3.363 4.507   -1.143 0.021 1.188 1.660 0.021 2.605 3.014 0.021 4361.697  1243.469 0.021 22.000 16.000   54.830
+      thyroid 1.471 1.605   -0.134 0.021 0.139 0.292 0.021 0.292 0.513 0.021   15.835   959.131 0.021 62.906 52.520   18.167
+      shuttle 2.307 1.367    0.940 0.021 0.103 0.248 0.021 0.170 0.285 0.021   12.885  1045.278 0.021 23.333 63.333   10.749
+        magic 1.080 1.410   -0.330 0.021 0.110 0.327 0.021 0.279 0.457 0.021   47.349  2966.484 0.021 93.667 59.667    9.060
+       letter 1.159 1.452   -0.294 0.021 0.112 0.322 0.021 0.759 0.920 0.021   99.100 12445.506 0.021 85.494 56.115    4.743
+      landsat 2.814 3.315   -0.501 0.021 0.812 1.100 0.021 2.197 2.529 0.021 1301.901  3769.645 0.021 49.161 41.103   29.856
+  page_blocks 1.037 1.374   -0.337 0.021 0.089 0.348 0.021 0.288 0.512 0.021   25.202   556.029 0.021 96.333 62.595   21.856
+nearest unlike neighbour features changed: 5.9–30.3  Thyroid locks kept: 9.333333333333334
+locks kept PACE/DiCE on Thyroid: {'lockP': 1.0, 'lockD': 1.0}
+
+====================================================================================================
+Global importance
+====================================================================================================
+-- global_importance/runs.csv seeds [np.int64(0), np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6), np.int64(7), np.int64(8), np.int64(9)]
+  PACE-flip, averaged vs Mean abs KernelSHAP: higher mean on 10/11; 3 better / 8 level / 0 worse; better: ['shuttle', 'letter', 'landsat']; worse: []
+   lower mean on: ['magic']
+  mean seconds per dataset, max over datasets: {'Mean abs KernelSHAP': 175.6, 'PACE data-based': 2.1, 'PACE model-only': 0.5, 'PACE-flip, averaged': 11.1, 'Permutation importance': 349.6}
+  max seconds in one run: {'Mean abs KernelSHAP': 181.5, 'PACE data-based': 3.4, 'PACE model-only': 1.1, 'PACE-flip, averaged': 14.3, 'Permutation importance': 428.9}
+  min ground-truth top3 per method on S1-S3: {'Mean abs KernelSHAP': 1.0, 'PACE data-based': 1.0, 'PACE model-only': 1.0, 'PACE-flip, averaged': 1.0, 'Permutation importance': 1.0}
+-- extensions_v1/global_importance/runs.csv seeds [np.int64(40), np.int64(41), np.int64(42), np.int64(43), np.int64(44), np.int64(45), np.int64(46), np.int64(47), np.int64(48), np.int64(49)]
+  PACE-flip, averaged vs Mean abs KernelSHAP: higher mean on 10/11; 3 better / 8 level / 0 worse; better: ['letter', 'landsat', 'page_blocks']; worse: []
+   lower mean on: ['magic']
+  Mean abs PACE-SHAP vs Mean abs KernelSHAP: higher mean on 7/11; 0 better / 11 level / 0 worse; better: []; worse: []
+   lower mean on: ['S1', 'wine', 'breast_cancer', 'page_blocks']
+  mean seconds per dataset, max over datasets: {'Mean abs KernelSHAP': 236.8, 'Mean abs PACE-SHAP': 475.3, 'Mean abs PACE-SHAP-20': 45.6, 'PACE data-based': 2.8, 'PACE model-only': 0.6, 'PACE-flip, averaged': 15.7, 'PACE-flip, normalised': 16.9, 'Permutation importance': 451.3}
+  max seconds in one run: {'Mean abs KernelSHAP': 244.2, 'Mean abs PACE-SHAP': 489.9, 'Mean abs PACE-SHAP-20': 48.0, 'PACE data-based': 3.2, 'PACE model-only': 0.7, 'PACE-flip, averaged': 17.0, 'PACE-flip, normalised': 19.9, 'Permutation importance': 480.9}
+  min ground-truth top3 per method on S1-S3: {'Mean abs KernelSHAP': 1.0, 'Mean abs PACE-SHAP': 1.0, 'Mean abs PACE-SHAP-20': 1.0, 'PACE data-based': 1.0, 'PACE model-only': 1.0, 'PACE-flip, averaged': 1.0, 'PACE-flip, normalised': 1.0, 'Permutation importance': 1.0}
+
+====================================================================================================
+Interactions (extensions_v1/interactions)
+====================================================================================================
+  S1: (x0,x1) strongest in 10/10 seeds; lead ratio 1.62 (1.16-2.01)
+  S1c: (x0,x1) strongest in 0/10 seeds; lead ratio 0.59 (0.49-0.77)
+  S2: (x0,x1) strongest in 10/10 seeds; lead ratio 1.35 (1.29-1.53)
+  S2c: (x0,x1) strongest in 0/10 seeds; lead ratio 0.41 (0.32-0.49)
+  S3: (x0,x1) strongest in 10/10 seeds; lead ratio 2.06 (1.58-2.80)
+  magic: (x0,x1) strongest in 1/10 seeds; lead ratio 0.44 (0.14-1.08)
+  page_blocks: (x0,x1) strongest in 0/10 seeds; lead ratio 0.13 (0.03-0.28)
+  shuttle: (x0,x1) strongest in 0/10 seeds; lead ratio 0.02 (0.00-0.10)

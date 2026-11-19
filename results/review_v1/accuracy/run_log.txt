@@ -1,0 +1,86 @@
+0 of 65 dataset-seed pairs already done; 65 to run.
+S1 seed 0: CFMNN 89.9%, 10-NN 95.7%, Random Forest 99.6%
+S1 seed 1: CFMNN 87.6%, 10-NN 94.0%, Random Forest 99.6%
+S1 seed 2: CFMNN 89.9%, 10-NN 96.2%, Random Forest 99.4%
+S1 seed 3: CFMNN 90.1%, 10-NN 94.9%, Random Forest 99.6%
+S1 seed 4: CFMNN 90.4%, 10-NN 94.9%, Random Forest 99.6%
+S2 seed 0: CFMNN 79.0%, 10-NN 84.9%, Random Forest 90.2%
+S2 seed 1: CFMNN 79.6%, 10-NN 83.6%, Random Forest 88.0%
+S2 seed 2: CFMNN 82.9%, 10-NN 88.3%, Random Forest 91.4%
+S2 seed 3: CFMNN 81.7%, 10-NN 87.0%, Random Forest 90.9%
+S2 seed 4: CFMNN 79.7%, 10-NN 85.4%, Random Forest 89.9%
+S3 seed 0: CFMNN 86.3%, 10-NN 88.2%, Random Forest 100.0%
+S3 seed 1: CFMNN 86.3%, 10-NN 89.2%, Random Forest 100.0%
+S3 seed 2: CFMNN 86.8%, 10-NN 88.5%, Random Forest 99.9%
+S3 seed 3: CFMNN 87.7%, 10-NN 87.9%, Random Forest 100.0%
+S3 seed 4: CFMNN 88.0%, 10-NN 89.5%, Random Forest 100.0%
+wine seed 0: CFMNN 100.0%, 10-NN 97.2%, Random Forest 100.0%
+wine seed 1: CFMNN 94.4%, 10-NN 91.7%, Random Forest 100.0%
+wine seed 2: CFMNN 97.2%, 10-NN 94.4%, Random Forest 100.0%
+wine seed 3: CFMNN 100.0%, 10-NN 100.0%, Random Forest 100.0%
+wine seed 4: CFMNN 100.0%, 10-NN 94.4%, Random Forest 100.0%
+breast_cancer seed 0: CFMNN 93.9%, 10-NN 94.7%, Random Forest 95.6%
+breast_cancer seed 1: CFMNN 96.5%, 10-NN 98.2%, Random Forest 96.5%
+breast_cancer seed 2: CFMNN 94.7%, 10-NN 97.4%, Random Forest 98.2%
+breast_cancer seed 3: CFMNN 95.6%, 10-NN 98.2%, Random Forest 97.4%
+breast_cancer seed 4: CFMNN 96.5%, 10-NN 98.2%, Random Forest 97.4%
+digits seed 0: CFMNN 94.7%, 10-NN 96.9%, Random Forest 97.8%
+digits seed 1: CFMNN 95.8%, 10-NN 98.9%, Random Forest 97.5%
+digits seed 2: CFMNN 95.0%, 10-NN 98.1%, Random Forest 97.8%
+digits seed 3: CFMNN 95.3%, 10-NN 98.1%, Random Forest 97.8%
+digits seed 4: CFMNN 95.8%, 10-NN 98.1%, Random Forest 97.2%
+thyroid seed 0: CFMNN 96.7%, 10-NN 94.0%, Random Forest 99.7%
+thyroid seed 1: CFMNN 97.6%, 10-NN 94.0%, Random Forest 99.5%
+thyroid seed 2: CFMNN 96.9%, 10-NN 94.2%, Random Forest 99.7%
+thyroid seed 3: CFMNN 98.0%, 10-NN 94.4%, Random Forest 99.7%
+thyroid seed 4: CFMNN 96.6%, 10-NN 94.2%, Random Forest 99.5%
+shuttle seed 0: CFMNN 99.8%, 10-NN 99.8%, Random Forest 100.0%
+shuttle seed 1: CFMNN 99.8%, 10-NN 99.8%, Random Forest 100.0%
+shuttle seed 2: CFMNN 99.8%, 10-NN 99.8%, Random Forest 100.0%
+shuttle seed 3: CFMNN 99.8%, 10-NN 99.8%, Random Forest 100.0%
+shuttle seed 4: CFMNN 99.7%, 10-NN 99.8%, Random Forest 100.0%
+skin seed 0: CFMNN 93.6%, 10-NN 100.0%, Random Forest 100.0%
+skin seed 1: CFMNN 92.9%, 10-NN 99.9%, Random Forest 100.0%
+skin seed 2: CFMNN 94.5%, 10-NN 99.9%, Random Forest 100.0%
+skin seed 3: CFMNN 98.3%, 10-NN 99.9%, Random Forest 100.0%
+skin seed 4: CFMNN 94.5%, 10-NN 99.9%, Random Forest 100.0%
+magic seed 0: CFMNN 71.5%, 10-NN 83.8%, Random Forest 89.6%
+magic seed 1: CFMNN 72.7%, 10-NN 84.1%, Random Forest 88.5%
+magic seed 2: CFMNN 72.2%, 10-NN 83.6%, Random Forest 87.5%
+magic seed 3: CFMNN 73.4%, 10-NN 83.4%, Random Forest 88.3%
+magic seed 4: CFMNN 72.6%, 10-NN 83.0%, Random Forest 87.7%
+letter seed 0: CFMNN 74.6%, 10-NN 94.7%, Random Forest 96.4%
+letter seed 1: CFMNN 73.4%, 10-NN 94.3%, Random Forest 96.0%
+letter seed 2: CFMNN 74.8%, 10-NN 93.7%, Random Forest 96.0%
+letter seed 3: CFMNN 75.3%, 10-NN 93.8%, Random Forest 96.1%
+letter seed 4: CFMNN 75.0%, 10-NN 94.4%, Random Forest 96.2%
+landsat seed 0: CFMNN 83.1%, 10-NN 90.1%, Random Forest 91.6%
+landsat seed 1: CFMNN 83.7%, 10-NN 90.2%, Random Forest 92.5%
+landsat seed 2: CFMNN 84.5%, 10-NN 89.6%, Random Forest 92.5%
+landsat seed 3: CFMNN 86.1%, 10-NN 89.7%, Random Forest 90.4%
+landsat seed 4: CFMNN 84.1%, 10-NN 89.2%, Random Forest 91.4%
+page_blocks seed 0: CFMNN 91.5%, 10-NN 95.0%, Random Forest 97.7%
+page_blocks seed 1: CFMNN 90.8%, 10-NN 95.4%, Random Forest 97.9%
+page_blocks seed 2: CFMNN 86.6%, 10-NN 94.2%, Random Forest 96.5%
+page_blocks seed 3: CFMNN 84.8%, 10-NN 95.0%, Random Forest 97.2%
+page_blocks seed 4: CFMNN 77.6%, 10-NN 94.6%, Random Forest 97.0%
+# Review Test 4 (descriptive): accuracy of the explained model and two references
+
+Rules: [`../PREREGISTRATION.md`](../PREREGISTRATION.md) (Test 4). The paper's 80/20 split, seeds [0, 1, 2, 3, 4]; accuracy (%) on the test rows, mean ± standard deviation over seeds.
+
+| Dataset | Training rows | CFMNN | 10-NN | Random Forest | CFMNN minus the better reference |
+|---|---|---|---|---|---|
+| S1 | 4000 | 89.6 ± 1.1 | 95.1 ± 0.8 | 99.6 ± 0.1 | -10.0 |
+| S2 | 4000 | 80.6 ± 1.6 | 85.8 ± 1.8 | 90.1 ± 1.3 | -9.5 |
+| S3 | 4000 | 87.0 ± 0.8 | 88.7 ± 0.7 | 100.0 ± 0.0 | -13.0 |
+| wine | 142 | 98.3 ± 2.5 | 95.6 ± 3.2 | 100.0 ± 0.0 | -1.7 |
+| breast_cancer | 455 | 95.4 ± 1.1 | 97.4 ± 1.5 | 97.0 ± 1.0 | -1.9 |
+| digits | 1437 | 95.3 ± 0.5 | 98.0 ± 0.7 | 97.6 ± 0.2 | -2.7 |
+| thyroid | 5760 | 97.2 ± 0.6 | 94.2 ± 0.2 | 99.6 ± 0.1 | -2.5 |
+| shuttle | 46400 | 99.8 ± 0.0 | 99.8 ± 0.0 | 100.0 ± 0.0 | -0.2 |
+| skin | 196045 | 94.7 ± 2.1 | 99.9 ± 0.0 | 100.0 ± 0.0 | -5.2 |
+| magic | 15216 | 72.5 ± 0.7 | 83.6 ± 0.4 | 88.3 ± 0.8 | -15.8 |
+| letter | 16000 | 74.6 ± 0.7 | 94.2 ± 0.4 | 96.2 ± 0.2 | -21.5 |
+| landsat | 5148 | 84.3 ± 1.1 | 89.8 ± 0.4 | 91.7 ± 0.9 | -7.4 |
+| page_blocks | 4378 | 86.3 ± 5.6 | 94.8 ± 0.4 | 97.3 ± 0.6 | -11.0 |
+

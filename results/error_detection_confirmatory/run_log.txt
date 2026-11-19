@@ -1,0 +1,355 @@
+S1 seed 10: acc 88.1% errors 237 AUPRC PRS 0.242 PD+U* 0.385 margin 0.356 EI cov 1.00 (25s)
+S1 seed 11: acc 88.3% errors 233 AUPRC PRS 0.262 PD+U* 0.371 margin 0.334 EI cov 1.00 (25s)
+S1 seed 12: acc 88.5% errors 229 AUPRC PRS 0.285 PD+U* 0.422 margin 0.382 EI cov 1.00 (25s)
+S1 seed 13: acc 87.6% errors 248 AUPRC PRS 0.285 PD+U* 0.400 margin 0.368 EI cov 1.00 (25s)
+S1 seed 14: acc 87.2% errors 255 AUPRC PRS 0.326 PD+U* 0.462 margin 0.410 EI cov 1.00 (26s)
+S1 seed 15: acc 88.9% errors 222 AUPRC PRS 0.277 PD+U* 0.387 margin 0.355 EI cov 1.00 (26s)
+S1 seed 16: acc 87.7% errors 246 AUPRC PRS 0.297 PD+U* 0.387 margin 0.344 EI cov 1.00 (25s)
+S1 seed 17: acc 88.8% errors 223 AUPRC PRS 0.256 PD+U* 0.362 margin 0.338 EI cov 1.00 (25s)
+S1 seed 18: acc 88.4% errors 231 AUPRC PRS 0.263 PD+U* 0.405 margin 0.368 EI cov 1.00 (26s)
+S1 seed 19: acc 88.8% errors 224 AUPRC PRS 0.265 PD+U* 0.365 margin 0.338 EI cov 1.00 (25s)
+S2 seed 10: acc 78.2% errors 436 AUPRC PRS 0.320 PD+U* 0.427 margin 0.406 EI cov 1.00 (26s)
+S2 seed 11: acc 80.8% errors 383 AUPRC PRS 0.282 PD+U* 0.362 margin 0.350 EI cov 1.00 (26s)
+S2 seed 12: acc 77.8% errors 443 AUPRC PRS 0.357 PD+U* 0.418 margin 0.409 EI cov 1.00 (28s)
+S2 seed 13: acc 80.6% errors 388 AUPRC PRS 0.297 PD+U* 0.388 margin 0.381 EI cov 1.00 (26s)
+S2 seed 14: acc 76.6% errors 469 AUPRC PRS 0.328 PD+U* 0.457 margin 0.447 EI cov 1.00 (26s)
+S2 seed 15: acc 81.2% errors 375 AUPRC PRS 0.273 PD+U* 0.347 margin 0.332 EI cov 1.00 (26s)
+S2 seed 16: acc 80.2% errors 397 AUPRC PRS 0.345 PD+U* 0.424 margin 0.406 EI cov 1.00 (25s)
+S2 seed 17: acc 78.3% errors 434 AUPRC PRS 0.337 PD+U* 0.450 margin 0.436 EI cov 1.00 (26s)
+S2 seed 18: acc 79.8% errors 405 AUPRC PRS 0.331 PD+U* 0.424 margin 0.408 EI cov 1.00 (26s)
+S2 seed 19: acc 80.2% errors 396 AUPRC PRS 0.298 PD+U* 0.400 margin 0.395 EI cov 1.00 (26s)
+S3 seed 10: acc 86.0% errors 280 AUPRC PRS 0.317 PD+U* 0.438 margin 0.413 EI cov 1.00 (26s)
+S3 seed 11: acc 85.1% errors 298 AUPRC PRS 0.322 PD+U* 0.402 margin 0.374 EI cov 1.00 (27s)
+S3 seed 12: acc 86.7% errors 267 AUPRC PRS 0.262 PD+U* 0.382 margin 0.365 EI cov 1.00 (26s)
+S3 seed 13: acc 86.5% errors 271 AUPRC PRS 0.267 PD+U* 0.417 margin 0.400 EI cov 1.00 (34s)
+S3 seed 14: acc 85.3% errors 294 AUPRC PRS 0.340 PD+U* 0.440 margin 0.414 EI cov 1.00 (34s)
+S3 seed 15: acc 86.1% errors 278 AUPRC PRS 0.273 PD+U* 0.402 margin 0.368 EI cov 1.00 (26s)
+S3 seed 16: acc 86.8% errors 265 AUPRC PRS 0.324 PD+U* 0.471 margin 0.444 EI cov 1.00 (26s)
+S3 seed 17: acc 87.2% errors 256 AUPRC PRS 0.291 PD+U* 0.393 margin 0.358 EI cov 1.00 (27s)
+S3 seed 18: acc 86.7% errors 266 AUPRC PRS 0.280 PD+U* 0.409 margin 0.390 EI cov 1.00 (27s)
+S3 seed 19: acc 85.5% errors 289 AUPRC PRS 0.271 PD+U* 0.391 margin 0.366 EI cov 1.00 (26s)
+S2-imbalanced seed 10: acc 89.6% errors 208 AUPRC PRS 0.298 PD+U* 0.413 margin 0.419 EI cov 1.00 (26s)
+S2-imbalanced seed 11: acc 90.3% errors 194 AUPRC PRS 0.237 PD+U* 0.423 margin 0.408 EI cov 1.00 (26s)
+S2-imbalanced seed 12: acc 90.4% errors 192 AUPRC PRS 0.249 PD+U* 0.388 margin 0.366 EI cov 1.00 (26s)
+S2-imbalanced seed 13: acc 89.8% errors 204 AUPRC PRS 0.215 PD+U* 0.351 margin 0.349 EI cov 1.00 (26s)
+S2-imbalanced seed 14: acc 90.2% errors 195 AUPRC PRS 0.239 PD+U* 0.417 margin 0.406 EI cov 1.00 (26s)
+S2-imbalanced seed 15: acc 89.6% errors 207 AUPRC PRS 0.244 PD+U* 0.397 margin 0.377 EI cov 1.00 (26s)
+S2-imbalanced seed 16: acc 88.9% errors 221 AUPRC PRS 0.265 PD+U* 0.388 margin 0.360 EI cov 1.00 (29s)
+S2-imbalanced seed 17: acc 90.5% errors 190 AUPRC PRS 0.296 PD+U* 0.431 margin 0.404 EI cov 1.00 (31s)
+S2-imbalanced seed 18: acc 90.0% errors 199 AUPRC PRS 0.211 PD+U* 0.399 margin 0.409 EI cov 1.00 (27s)
+S2-imbalanced seed 19: acc 90.3% errors 194 AUPRC PRS 0.237 PD+U* 0.365 margin 0.364 EI cov 1.00 (26s)
+S2-label-noise seed 10: acc 75.0% errors 500 AUPRC PRS 0.313 PD+U* 0.405 margin 0.398 EI cov 1.00 (25s)
+S2-label-noise seed 11: acc 74.7% errors 506 AUPRC PRS 0.336 PD+U* 0.399 margin 0.390 EI cov 1.00 (29s)
+S2-label-noise seed 12: acc 73.8% errors 525 AUPRC PRS 0.352 PD+U* 0.425 margin 0.412 EI cov 1.00 (31s)
+S2-label-noise seed 13: acc 74.4% errors 512 AUPRC PRS 0.368 PD+U* 0.398 margin 0.392 EI cov 1.00 (25s)
+S2-label-noise seed 14: acc 73.3% errors 534 AUPRC PRS 0.367 PD+U* 0.434 margin 0.419 EI cov 1.00 (25s)
+S2-label-noise seed 15: acc 73.5% errors 530 AUPRC PRS 0.347 PD+U* 0.445 margin 0.422 EI cov 1.00 (25s)
+S2-label-noise seed 16: acc 75.8% errors 483 AUPRC PRS 0.349 PD+U* 0.412 margin 0.401 EI cov 1.00 (25s)
+S2-label-noise seed 17: acc 74.6% errors 508 AUPRC PRS 0.374 PD+U* 0.448 margin 0.430 EI cov 1.00 (25s)
+S2-label-noise seed 18: acc 75.0% errors 501 AUPRC PRS 0.336 PD+U* 0.417 margin 0.398 EI cov 1.00 (25s)
+S2-label-noise seed 19: acc 73.2% errors 537 AUPRC PRS 0.386 PD+U* 0.459 margin 0.435 EI cov 1.00 (25s)
+S2-shifted seed 10: acc 78.9% errors 1054 AUPRC PRS 0.331 PD+U* 0.413 margin 0.399 EI cov 1.00 (54s)
+S2-shifted seed 11: acc 80.2% errors 989 AUPRC PRS 0.318 PD+U* 0.421 margin 0.400 EI cov 1.00 (57s)
+S2-shifted seed 12: acc 80.2% errors 991 AUPRC PRS 0.346 PD+U* 0.406 margin 0.387 EI cov 1.00 (55s)
+S2-shifted seed 13: acc 79.3% errors 1036 AUPRC PRS 0.335 PD+U* 0.420 margin 0.402 EI cov 1.00 (59s)
+S2-shifted seed 14: acc 79.0% errors 1052 AUPRC PRS 0.317 PD+U* 0.420 margin 0.404 EI cov 1.00 (53s)
+S2-shifted seed 15: acc 78.8% errors 1061 AUPRC PRS 0.325 PD+U* 0.384 margin 0.368 EI cov 1.00 (58s)
+S2-shifted seed 16: acc 79.7% errors 1016 AUPRC PRS 0.336 PD+U* 0.406 margin 0.387 EI cov 1.00 (57s)
+S2-shifted seed 17: acc 80.0% errors 1002 AUPRC PRS 0.333 PD+U* 0.407 margin 0.386 EI cov 1.00 (57s)
+S2-shifted seed 18: acc 79.5% errors 1023 AUPRC PRS 0.338 PD+U* 0.432 margin 0.406 EI cov 1.00 (53s)
+S2-shifted seed 19: acc 78.9% errors 1053 AUPRC PRS 0.355 PD+U* 0.415 margin 0.399 EI cov 1.00 (54s)
+wine seed 10: acc 97.8% errors 4 AUPRC PRS 0.084 PD+U* 0.287 margin 0.456 EI cov 1.00 (0s)
+wine seed 11: acc 96.1% errors 7 AUPRC PRS 0.274 PD+U* 0.325 margin 0.420 EI cov 1.00 (0s)
+wine seed 12: acc 96.6% errors 6 AUPRC PRS 0.106 PD+U* 0.195 margin 0.247 EI cov 1.00 (0s)
+wine seed 13: acc 97.2% errors 5 AUPRC PRS 0.324 PD+U* 0.318 margin 0.295 EI cov 1.00 (0s)
+wine seed 14: acc 98.3% errors 3 AUPRC PRS 0.687 PD+U* 0.259 margin 0.463 EI cov 1.00 (0s)
+wine seed 15: acc 96.1% errors 7 AUPRC PRS 0.120 PD+U* 0.178 margin 0.263 EI cov 1.00 (0s)
+wine seed 16: acc 97.8% errors 4 AUPRC PRS 0.166 PD+U* 0.108 margin 0.124 EI cov 1.00 (0s)
+wine seed 17: acc 97.8% errors 4 AUPRC PRS 0.086 PD+U* 0.721 margin 0.483 EI cov 1.00 (0s)
+wine seed 18: acc 96.1% errors 7 AUPRC PRS 0.393 PD+U* 0.385 margin 0.693 EI cov 1.00 (0s)
+wine seed 19: acc 96.1% errors 7 AUPRC PRS 0.188 PD+U* 0.390 margin 0.477 EI cov 1.00 (0s)
+breast_cancer seed 10: acc 95.1% errors 28 AUPRC PRS 0.208 PD+U* 0.405 margin 0.403 EI cov 1.00 (3s)
+breast_cancer seed 11: acc 96.3% errors 21 AUPRC PRS 0.239 PD+U* 0.256 margin 0.236 EI cov 1.00 (2s)
+breast_cancer seed 12: acc 95.6% errors 25 AUPRC PRS 0.195 PD+U* 0.245 margin 0.254 EI cov 1.00 (3s)
+breast_cancer seed 13: acc 95.8% errors 24 AUPRC PRS 0.183 PD+U* 0.331 margin 0.313 EI cov 1.00 (2s)
+breast_cancer seed 14: acc 96.3% errors 21 AUPRC PRS 0.185 PD+U* 0.217 margin 0.250 EI cov 1.00 (3s)
+breast_cancer seed 15: acc 94.7% errors 30 AUPRC PRS 0.351 PD+U* 0.272 margin 0.283 EI cov 1.00 (3s)
+breast_cancer seed 16: acc 95.3% errors 27 AUPRC PRS 0.288 PD+U* 0.373 margin 0.354 EI cov 1.00 (2s)
+breast_cancer seed 17: acc 96.0% errors 23 AUPRC PRS 0.370 PD+U* 0.342 margin 0.306 EI cov 1.00 (3s)
+breast_cancer seed 18: acc 95.6% errors 25 AUPRC PRS 0.278 PD+U* 0.330 margin 0.252 EI cov 1.00 (3s)
+breast_cancer seed 19: acc 96.5% errors 20 AUPRC PRS 0.266 PD+U* 0.170 margin 0.205 EI cov 1.00 (2s)
+digits seed 10: acc 95.0% errors 89 AUPRC PRS 0.189 PD+U* 0.330 margin 0.326 EI cov 1.00 (42s)
+digits seed 11: acc 95.3% errors 85 AUPRC PRS 0.184 PD+U* 0.438 margin 0.426 EI cov 1.00 (42s)
+digits seed 12: acc 95.3% errors 85 AUPRC PRS 0.196 PD+U* 0.453 margin 0.433 EI cov 1.00 (49s)
+digits seed 13: acc 95.5% errors 80 AUPRC PRS 0.187 PD+U* 0.372 margin 0.363 EI cov 1.00 (44s)
+digits seed 14: acc 95.5% errors 80 AUPRC PRS 0.211 PD+U* 0.412 margin 0.398 EI cov 1.00 (43s)
+digits seed 15: acc 95.8% errors 76 AUPRC PRS 0.199 PD+U* 0.485 margin 0.448 EI cov 1.00 (43s)
+digits seed 16: acc 96.4% errors 64 AUPRC PRS 0.137 PD+U* 0.338 margin 0.323 EI cov 1.00 (43s)
+digits seed 17: acc 95.9% errors 74 AUPRC PRS 0.201 PD+U* 0.405 margin 0.419 EI cov 1.00 (44s)
+digits seed 18: acc 95.4% errors 82 AUPRC PRS 0.195 PD+U* 0.442 margin 0.435 EI cov 1.00 (46s)
+digits seed 19: acc 95.9% errors 74 AUPRC PRS 0.189 PD+U* 0.297 margin 0.284 EI cov 1.00 (43s)
+thyroid seed 10: acc 96.7% errors 95 AUPRC PRS 0.078 PD+U* 0.228 margin 0.266 EI cov 1.00 (5s)
+thyroid seed 11: acc 96.8% errors 92 AUPRC PRS 0.075 PD+U* 0.205 margin 0.219 EI cov 1.00 (5s)
+thyroid seed 12: acc 96.7% errors 94 AUPRC PRS 0.070 PD+U* 0.283 margin 0.249 EI cov 1.00 (5s)
+thyroid seed 13: acc 96.3% errors 106 AUPRC PRS 0.094 PD+U* 0.266 margin 0.280 EI cov 1.00 (5s)
+thyroid seed 14: acc 97.0% errors 86 AUPRC PRS 0.069 PD+U* 0.127 margin 0.180 EI cov 1.00 (5s)
+thyroid seed 15: acc 96.2% errors 108 AUPRC PRS 0.062 PD+U* 0.220 margin 0.345 EI cov 1.00 (5s)
+thyroid seed 16: acc 97.2% errors 80 AUPRC PRS 0.059 PD+U* 0.175 margin 0.214 EI cov 1.00 (5s)
+thyroid seed 17: acc 96.1% errors 112 AUPRC PRS 0.081 PD+U* 0.275 margin 0.363 EI cov 1.00 (6s)
+thyroid seed 18: acc 97.0% errors 87 AUPRC PRS 0.092 PD+U* 0.259 margin 0.221 EI cov 1.00 (5s)
+thyroid seed 19: acc 96.8% errors 91 AUPRC PRS 0.067 PD+U* 0.253 margin 0.268 EI cov 1.00 (5s)
+shuttle seed 10: acc 99.8% errors 49 AUPRC PRS 0.026 PD+U* 0.010 margin 0.013 EI cov 1.00 (15s)
+shuttle seed 11: acc 99.8% errors 43 AUPRC PRS 0.051 PD+U* 0.008 margin 0.009 EI cov 1.00 (15s)
+shuttle seed 12: acc 99.7% errors 59 AUPRC PRS 0.078 PD+U* 0.010 margin 0.011 EI cov 1.00 (15s)
+shuttle seed 13: acc 99.8% errors 41 AUPRC PRS 0.002 PD+U* 0.009 margin 0.010 EI cov 1.00 (14s)
+shuttle seed 14: acc 97.7% errors 452 AUPRC PRS 0.034 PD+U* 0.796 margin 0.170 EI cov 1.00 (15s)
+shuttle seed 15: acc 99.8% errors 39 AUPRC PRS 0.059 PD+U* 0.009 margin 0.010 EI cov 1.00 (14s)
+shuttle seed 16: acc 99.8% errors 46 AUPRC PRS 0.019 PD+U* 0.009 margin 0.010 EI cov 1.00 (15s)
+shuttle seed 17: acc 99.7% errors 61 AUPRC PRS 0.066 PD+U* 0.012 margin 0.012 EI cov 1.00 (14s)
+shuttle seed 18: acc 99.8% errors 40 AUPRC PRS 0.065 PD+U* 0.008 margin 0.009 EI cov 1.00 (15s)
+shuttle seed 19: acc 99.8% errors 45 AUPRC PRS 0.035 PD+U* 0.007 margin 0.009 EI cov 1.00 (16s)
+skin seed 10: acc 95.6% errors 889 AUPRC PRS 0.142 PD+U* 0.458 margin 0.231 EI cov 1.00 (46s)
+skin seed 11: acc 91.7% errors 1667 AUPRC PRS 0.203 PD+U* 0.487 margin 0.388 EI cov 1.00 (50s)
+skin seed 12: acc 96.1% errors 772 AUPRC PRS 0.138 PD+U* 0.367 margin 0.201 EI cov 1.00 (53s)
+skin seed 13: acc 99.5% errors 101 AUPRC PRS 0.143 PD+U* 0.294 margin 0.023 EI cov 1.00 (50s)
+skin seed 14: acc 92.8% errors 1441 AUPRC PRS 0.197 PD+U* 0.522 margin 0.349 EI cov 1.00 (47s)
+skin seed 15: acc 96.0% errors 802 AUPRC PRS 0.156 PD+U* 0.453 margin 0.192 EI cov 1.00 (47s)
+skin seed 16: acc 94.6% errors 1072 AUPRC PRS 0.185 PD+U* 0.430 margin 0.259 EI cov 1.00 (48s)
+skin seed 17: acc 95.9% errors 825 AUPRC PRS 0.191 PD+U* 0.418 margin 0.198 EI cov 1.00 (47s)
+skin seed 18: acc 98.2% errors 369 AUPRC PRS 0.137 PD+U* 0.381 margin 0.088 EI cov 1.00 (45s)
+skin seed 19: acc 94.1% errors 1175 AUPRC PRS 0.108 PD+U* 0.421 margin 0.278 EI cov 1.00 (46s)
+magic seed 10: acc 72.6% errors 2085 AUPRC PRS 0.339 PD+U* 0.444 margin 0.322 EI cov 1.00 (25s)
+magic seed 11: acc 72.2% errors 2115 AUPRC PRS 0.326 PD+U* 0.460 margin 0.338 EI cov 1.00 (27s)
+magic seed 12: acc 72.0% errors 2132 AUPRC PRS 0.347 PD+U* 0.431 margin 0.327 EI cov 1.00 (27s)
+magic seed 13: acc 74.6% errors 1930 AUPRC PRS 0.323 PD+U* 0.438 margin 0.298 EI cov 1.00 (27s)
+magic seed 14: acc 74.4% errors 1945 AUPRC PRS 0.305 PD+U* 0.418 margin 0.306 EI cov 1.00 (27s)
+magic seed 15: acc 68.2% errors 2418 AUPRC PRS 0.340 PD+U* 0.464 margin 0.383 EI cov 1.00 (30s)
+magic seed 16: acc 74.2% errors 1962 AUPRC PRS 0.321 PD+U* 0.412 margin 0.300 EI cov 1.00 (31s)
+magic seed 17: acc 71.3% errors 2181 AUPRC PRS 0.345 PD+U* 0.448 margin 0.349 EI cov 1.00 (29s)
+magic seed 18: acc 69.7% errors 2303 AUPRC PRS 0.348 PD+U* 0.455 margin 0.354 EI cov 1.00 (27s)
+magic seed 19: acc 74.3% errors 1953 AUPRC PRS 0.303 PD+U* 0.418 margin 0.304 EI cov 1.00 (26s)
+letter seed 10: acc 74.6% errors 2029 AUPRC PRS 0.538 PD+U* 0.580 margin 0.410 EI cov 1.00 (97s)
+letter seed 11: acc 73.9% errors 2085 AUPRC PRS 0.563 PD+U* 0.596 margin 0.422 EI cov 1.00 (111s)
+letter seed 12: acc 73.8% errors 2097 AUPRC PRS 0.534 PD+U* 0.592 margin 0.428 EI cov 1.00 (101s)
+letter seed 13: acc 74.9% errors 2011 AUPRC PRS 0.521 PD+U* 0.571 margin 0.389 EI cov 1.00 (101s)
+letter seed 14: acc 74.6% errors 2036 AUPRC PRS 0.535 PD+U* 0.580 margin 0.405 EI cov 1.00 (90s)
+letter seed 15: acc 74.5% errors 2040 AUPRC PRS 0.563 PD+U* 0.588 margin 0.414 EI cov 1.00 (91s)
+letter seed 16: acc 74.4% errors 2052 AUPRC PRS 0.541 PD+U* 0.584 margin 0.413 EI cov 1.00 (96s)
+letter seed 17: acc 73.4% errors 2127 AUPRC PRS 0.551 PD+U* 0.593 margin 0.418 EI cov 1.00 (104s)
+letter seed 18: acc 73.2% errors 2140 AUPRC PRS 0.547 PD+U* 0.568 margin 0.410 EI cov 1.00 (97s)
+letter seed 19: acc 73.8% errors 2092 AUPRC PRS 0.566 PD+U* 0.609 margin 0.417 EI cov 1.00 (94s)
+landsat seed 10: acc 84.1% errors 410 AUPRC PRS 0.295 PD+U* 0.416 margin 0.356 EI cov 1.00 (16s)
+landsat seed 11: acc 83.6% errors 423 AUPRC PRS 0.356 PD+U* 0.435 margin 0.329 EI cov 1.00 (18s)
+landsat seed 12: acc 84.4% errors 401 AUPRC PRS 0.336 PD+U* 0.412 margin 0.329 EI cov 1.00 (16s)
+landsat seed 13: acc 84.1% errors 409 AUPRC PRS 0.333 PD+U* 0.386 margin 0.326 EI cov 1.00 (17s)
+landsat seed 14: acc 85.7% errors 368 AUPRC PRS 0.311 PD+U* 0.353 margin 0.258 EI cov 1.00 (16s)
+landsat seed 15: acc 84.6% errors 397 AUPRC PRS 0.292 PD+U* 0.407 margin 0.322 EI cov 1.00 (18s)
+landsat seed 16: acc 84.8% errors 392 AUPRC PRS 0.289 PD+U* 0.428 margin 0.332 EI cov 1.00 (18s)
+landsat seed 17: acc 86.1% errors 359 AUPRC PRS 0.268 PD+U* 0.386 margin 0.284 EI cov 1.00 (16s)
+landsat seed 18: acc 85.1% errors 383 AUPRC PRS 0.320 PD+U* 0.377 margin 0.307 EI cov 1.00 (16s)
+landsat seed 19: acc 83.7% errors 419 AUPRC PRS 0.332 PD+U* 0.397 margin 0.315 EI cov 1.00 (16s)
+page_blocks seed 10: acc 80.2% errors 433 AUPRC PRS 0.405 PD+U* 0.521 margin 0.227 EI cov 1.00 (2s)
+page_blocks seed 11: acc 88.6% errors 250 AUPRC PRS 0.310 PD+U* 0.327 margin 0.135 EI cov 1.00 (2s)
+page_blocks seed 12: acc 88.0% errors 262 AUPRC PRS 0.260 PD+U* 0.445 margin 0.198 EI cov 1.00 (2s)
+page_blocks seed 13: acc 88.7% errors 247 AUPRC PRS 0.233 PD+U* 0.297 margin 0.166 EI cov 1.00 (2s)
+page_blocks seed 14: acc 76.3% errors 520 AUPRC PRS 0.582 PD+U* 0.687 margin 0.277 EI cov 1.00 (2s)
+page_blocks seed 15: acc 87.1% errors 282 AUPRC PRS 0.423 PD+U* 0.539 margin 0.190 EI cov 1.00 (2s)
+page_blocks seed 16: acc 85.5% errors 318 AUPRC PRS 0.305 PD+U* 0.377 margin 0.227 EI cov 1.00 (2s)
+page_blocks seed 17: acc 84.7% errors 334 AUPRC PRS 0.335 PD+U* 0.436 margin 0.170 EI cov 1.00 (2s)
+page_blocks seed 18: acc 91.1% errors 194 AUPRC PRS 0.203 PD+U* 0.499 margin 0.147 EI cov 1.00 (2s)
+page_blocks seed 19: acc 89.1% errors 238 AUPRC PRS 0.240 PD+U* 0.321 margin 0.152 EI cov 1.00 (2s)
+# RQ2 confirmatory run (pre-registered)
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). Seeds [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]. Main model (fixed centroid + search). Datasets under 2,000 rows: stratified 5-fold cross-validation with pooled out-of-fold scores; others: role split 50/20/10/10/10 with at most 20,000 evaluation rows. PRS ranks fitted on inner-validation rows only. Eligible: at least 50 errors in every seed. Mean ± 95% CI over seeds.
+
+Tested units: the synthetic family (per seed, the mean over 6 synthetic sets: S1, S2, S3, S2-imbalanced, S2-label-noise, S2-shifted) and each eligible real dataset (digits, thyroid, skin, magic, letter, landsat, page_blocks). Per-set synthetic rows below are descriptive only.
+
+Baselines (all read the training labels; the PACE signals do not): Trust Score (Jiang et al. 2018), disagreement of 5 CFMNNs trained on the same rows in other orders, and the share of the 10 nearest training rows with another label.
+
+## Datasets
+
+| Dataset | Split | Eligible | Accuracy (%) | Errors (min over seeds) | Evaluation rows | Boxes | Tied points | Error rate in ties | EI coverage |
+|---|---|---|---|---|---|---|---|---|---|
+| S1 | role split | yes | 88.3 ± 0.4 | 222 | 2000 | 978 | 0.000 | nan | 1.00 |
+| S2 | role split | yes | 79.4 ± 1.1 | 375 | 2000 | 989 | 0.000 | 1.000 | 1.00 |
+| S3 | role split | yes | 86.2 ± 0.5 | 256 | 2000 | 984 | 0.000 | nan | 1.00 |
+| S2-imbalanced | role split | yes | 90.0 ± 0.3 | 190 | 2000 | 992 | 0.000 | nan | 1.00 |
+| S2-label-noise | role split | yes | 74.3 ± 0.6 | 483 | 2000 | 1000 | 0.000 | 1.000 | 1.00 |
+| S2-shifted | role split | yes | 79.4 ± 0.4 | 989 | 5000 | 989 | 0.000 | 0.250 | 1.00 |
+| wine | 5-fold CV | no | 97.0 ± 0.6 | 3 | 178 | 27 | 0.000 | nan | 1.00 |
+| breast_cancer | 5-fold CV | no | 95.7 ± 0.4 | 20 | 569 | 38 | 0.003 | 0.238 | 1.00 |
+| digits | 5-fold CV | yes | 95.6 ± 0.3 | 64 | 1797 | 240 | 0.004 | 0.327 | 1.00 |
+| thyroid | role split | yes | 96.7 ± 0.3 | 80 | 2880 | 44 | 0.049 | 0.380 | 1.00 |
+| shuttle | role split | no | 99.6 ± 0.5 | 39 | 20000 | 13 | 0.128 | 0.029 | 1.00 |
+| skin | role split | yes | 95.4 ± 1.7 | 101 | 20000 | 80 | 0.206 | 0.221 | 1.00 |
+| magic | role split | yes | 72.4 ± 1.5 | 1930 | 7608 | 233 | 0.725 | 0.330 | 1.00 |
+| letter | role split | yes | 74.1 ± 0.4 | 2011 | 8000 | 456 | 0.525 | 0.423 | 1.00 |
+| landsat | role split | yes | 84.6 ± 0.6 | 359 | 2575 | 153 | 0.213 | 0.338 | 1.00 |
+| page_blocks | role split | yes | 85.9 ± 3.3 | 194 | 2190 | 23 | 0.650 | 0.192 | 1.00 |
+
+## AUPRC (higher is better; compare with the base error rate)
+
+| Dataset | Base error rate | PRS | PD + U | PD | EI | U | PRS* | PD + U* | U* | Margin | Entropy | Random | Trust Score | Order ensemble | kNN disagreement |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| S1 | 0.117 | 0.276 ± 0.017 | 0.351 ± 0.022 | 0.361 ± 0.024 | 0.139 ± 0.008 | 0.280 ± 0.017 | 0.320 ± 0.017 | 0.395 ± 0.022 | 0.359 ± 0.017 | 0.359 ± 0.017 | 0.360 ± 0.017 | 0.117 ± 0.006 | 0.649 ± 0.029 | 0.782 ± 0.013 | **0.862 ± 0.009** |
+| S2 | 0.206 | 0.317 ± 0.020 | 0.363 ± 0.021 | 0.360 ± 0.025 | 0.217 ± 0.014 | 0.319 ± 0.015 | 0.366 ± 0.023 | 0.410 ± 0.025 | 0.397 ± 0.025 | 0.397 ± 0.025 | 0.399 ± 0.025 | 0.211 ± 0.012 | 0.537 ± 0.024 | 0.608 ± 0.014 | **0.686 ± 0.024** |
+| S3 | 0.138 | 0.295 ± 0.020 | 0.362 ± 0.019 | 0.379 ± 0.022 | 0.153 ± 0.008 | 0.291 ± 0.016 | 0.346 ± 0.021 | 0.414 ± 0.020 | 0.389 ± 0.020 | 0.389 ± 0.020 | 0.390 ± 0.020 | 0.138 ± 0.004 | 0.553 ± 0.019 | **0.780 ± 0.015** | 0.674 ± 0.010 |
+| S2-imbalanced | 0.100 | 0.249 ± 0.021 | 0.330 ± 0.025 | 0.301 ± 0.025 | 0.131 ± 0.009 | 0.280 ± 0.019 | 0.299 ± 0.020 | 0.397 ± 0.018 | 0.386 ± 0.018 | 0.386 ± 0.018 | 0.389 ± 0.019 | 0.100 ± 0.008 | 0.516 ± 0.024 | 0.561 ± 0.020 | **0.606 ± 0.020** |
+| S2-label-noise | 0.257 | 0.353 ± 0.015 | 0.394 ± 0.012 | 0.386 ± 0.016 | 0.266 ± 0.013 | 0.350 ± 0.011 | 0.388 ± 0.018 | 0.424 ± 0.015 | 0.410 ± 0.012 | 0.410 ± 0.012 | 0.411 ± 0.012 | 0.256 ± 0.009 | 0.515 ± 0.016 | 0.570 ± 0.015 | **0.648 ± 0.014** |
+| S2-shifted | 0.206 | 0.333 ± 0.008 | 0.371 ± 0.008 | 0.367 ± 0.009 | 0.225 ± 0.006 | 0.322 ± 0.005 | 0.377 ± 0.008 | 0.412 ± 0.009 | 0.394 ± 0.008 | 0.394 ± 0.008 | 0.396 ± 0.009 | 0.205 ± 0.005 | 0.533 ± 0.009 | 0.614 ± 0.014 | **0.688 ± 0.011** |
+| Synthetic family | 0.171 | 0.304 ± 0.008 | 0.362 ± 0.009 | 0.359 ± 0.011 | 0.188 ± 0.004 | 0.307 ± 0.007 | 0.349 ± 0.007 | 0.409 ± 0.010 | 0.389 ± 0.009 | 0.389 ± 0.009 | 0.391 ± 0.009 | 0.171 ± 0.004 | 0.551 ± 0.010 | 0.652 ± 0.007 | **0.694 ± 0.006** |
+| digits | 0.044 | 0.189 ± 0.014 | 0.401 ± 0.026 | 0.231 ± 0.047 | 0.068 ± 0.012 | 0.384 ± 0.024 | 0.189 ± 0.023 | 0.397 ± 0.044 | 0.394 ± 0.044 | 0.386 ± 0.041 | 0.135 ± 0.016 | 0.045 ± 0.004 | **0.857 ± 0.030** | 0.601 ± 0.056 | 0.825 ± 0.019 |
+| thyroid | 0.033 | 0.075 ± 0.008 | 0.086 ± 0.010 | 0.214 ± 0.026 | 0.228 ± 0.039 | 0.067 ± 0.011 | 0.227 ± 0.035 | 0.229 ± 0.035 | 0.344 ± 0.072 | 0.261 ± 0.042 | 0.085 ± 0.018 | 0.038 ± 0.005 | 0.114 ± 0.019 | **0.426 ± 0.075** | 0.094 ± 0.012 |
+| skin | 0.046 | 0.160 ± 0.023 | 0.159 ± 0.030 | 0.355 ± 0.041 | 0.154 ± 0.046 | 0.080 ± 0.020 | 0.383 ± 0.037 | 0.423 ± 0.046 | 0.392 ± 0.069 | 0.221 ± 0.078 | 0.221 ± 0.078 | 0.046 ± 0.017 | 0.976 ± 0.039 | 0.751 ± 0.132 | **0.991 ± 0.010** |
+| magic | 0.276 | 0.330 ± 0.012 | 0.342 ± 0.008 | 0.397 ± 0.010 | 0.287 ± 0.016 | 0.274 ± 0.011 | 0.403 ± 0.015 | 0.439 ± 0.013 | 0.417 ± 0.016 | 0.328 ± 0.020 | 0.328 ± 0.020 | 0.277 ± 0.016 | 0.694 ± 0.022 | 0.586 ± 0.032 | **0.722 ± 0.019** |
+| letter | 0.259 | 0.546 ± 0.011 | 0.397 ± 0.006 | 0.507 ± 0.014 | 0.412 ± 0.010 | 0.265 ± 0.005 | 0.557 ± 0.011 | 0.586 ± 0.009 | 0.571 ± 0.007 | 0.413 ± 0.007 | 0.440 ± 0.010 | 0.260 ± 0.005 | 0.968 ± 0.003 | 0.785 ± 0.004 | **0.970 ± 0.002** |
+| landsat | 0.154 | 0.313 ± 0.019 | 0.308 ± 0.023 | 0.338 ± 0.018 | 0.267 ± 0.011 | 0.283 ± 0.022 | 0.362 ± 0.013 | 0.400 ± 0.018 | 0.373 ± 0.017 | 0.316 ± 0.020 | 0.289 ± 0.026 | 0.155 ± 0.011 | **0.737 ± 0.013** | 0.539 ± 0.032 | 0.727 ± 0.015 |
+| page_blocks | 0.141 | 0.330 ± 0.082 | 0.286 ± 0.099 | 0.416 ± 0.117 | 0.221 ± 0.038 | 0.157 ± 0.038 | 0.367 ± 0.074 | 0.445 ± 0.087 | 0.367 ± 0.048 | 0.189 ± 0.032 | 0.155 ± 0.054 | 0.140 ± 0.032 | 0.852 ± 0.042 | 0.624 ± 0.124 | **0.862 ± 0.044** |
+
+## AUROC (0.5 = random)
+
+| Dataset | Base error rate | PRS | PD + U | PD | EI | U | PRS* | PD + U* | U* | Margin | Entropy | Random | Trust Score | Order ensemble | kNN disagreement |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| S1 | 0.117 | 0.742 ± 0.008 | 0.798 ± 0.008 | 0.747 ± 0.012 | 0.548 ± 0.010 | 0.777 ± 0.008 | 0.784 ± 0.009 | 0.841 ± 0.007 | 0.836 ± 0.006 | 0.836 ± 0.006 | 0.837 ± 0.006 | 0.494 ± 0.010 | 0.912 ± 0.007 | 0.959 ± 0.004 | **0.979 ± 0.002** |
+| S2 | 0.206 | 0.649 ± 0.011 | 0.690 ± 0.010 | 0.671 ± 0.008 | 0.517 ± 0.009 | 0.671 ± 0.010 | 0.698 ± 0.010 | 0.747 ± 0.006 | 0.744 ± 0.006 | 0.744 ± 0.006 | 0.748 ± 0.006 | 0.509 ± 0.011 | 0.806 ± 0.009 | 0.856 ± 0.006 | **0.898 ± 0.007** |
+| S3 | 0.138 | 0.717 ± 0.009 | 0.771 ± 0.009 | 0.740 ± 0.010 | 0.534 ± 0.011 | 0.748 ± 0.009 | 0.766 ± 0.006 | 0.819 ± 0.008 | 0.815 ± 0.008 | 0.815 ± 0.008 | 0.818 ± 0.008 | 0.496 ± 0.009 | 0.860 ± 0.009 | **0.952 ± 0.005** | 0.926 ± 0.004 |
+| S2-imbalanced | 0.100 | 0.745 ± 0.018 | 0.807 ± 0.011 | 0.708 ± 0.014 | 0.566 ± 0.020 | 0.797 ± 0.011 | 0.794 ± 0.016 | 0.869 ± 0.008 | 0.867 ± 0.008 | 0.867 ± 0.008 | 0.871 ± 0.008 | 0.493 ± 0.015 | 0.890 ± 0.008 | 0.881 ± 0.009 | **0.923 ± 0.008** |
+| S2-label-noise | 0.257 | 0.624 ± 0.010 | 0.650 ± 0.008 | 0.645 ± 0.011 | 0.518 ± 0.014 | 0.631 ± 0.007 | 0.664 ± 0.012 | 0.695 ± 0.011 | 0.691 ± 0.010 | 0.691 ± 0.010 | 0.694 ± 0.010 | 0.494 ± 0.006 | 0.744 ± 0.012 | 0.790 ± 0.009 | **0.833 ± 0.007** |
+| S2-shifted | 0.206 | 0.660 ± 0.006 | 0.693 ± 0.005 | 0.678 ± 0.006 | 0.533 ± 0.007 | 0.673 ± 0.005 | 0.708 ± 0.007 | 0.747 ± 0.005 | 0.743 ± 0.005 | 0.743 ± 0.005 | 0.747 ± 0.005 | 0.491 ± 0.008 | 0.809 ± 0.004 | 0.860 ± 0.006 | **0.898 ± 0.004** |
+| Synthetic family | 0.171 | 0.690 ± 0.005 | 0.735 ± 0.004 | 0.698 ± 0.004 | 0.536 ± 0.005 | 0.716 ± 0.004 | 0.735 ± 0.004 | 0.786 ± 0.003 | 0.783 ± 0.003 | 0.783 ± 0.003 | 0.786 ± 0.003 | 0.496 ± 0.003 | 0.837 ± 0.004 | 0.883 ± 0.003 | **0.909 ± 0.003** |
+| digits | 0.044 | 0.814 ± 0.014 | 0.938 ± 0.007 | 0.670 ± 0.026 | 0.544 ± 0.020 | 0.937 ± 0.006 | 0.820 ± 0.014 | 0.942 ± 0.006 | 0.943 ± 0.007 | 0.943 ± 0.007 | 0.763 ± 0.020 | 0.493 ± 0.032 | **0.991 ± 0.001** | 0.900 ± 0.018 | 0.981 ± 0.004 |
+| thyroid | 0.033 | 0.701 ± 0.024 | 0.355 ± 0.029 | 0.867 ± 0.030 | **0.891 ± 0.014** | 0.296 ± 0.024 | 0.881 ± 0.012 | 0.777 ± 0.017 | 0.759 ± 0.023 | 0.757 ± 0.022 | 0.601 ± 0.026 | 0.514 ± 0.017 | 0.717 ± 0.018 | 0.823 ± 0.042 | 0.705 ± 0.022 |
+| skin | 0.046 | 0.768 ± 0.046 | 0.596 ± 0.070 | 0.847 ± 0.056 | 0.865 ± 0.029 | 0.569 ± 0.068 | 0.942 ± 0.013 | 0.959 ± 0.006 | 0.956 ± 0.005 | 0.916 ± 0.008 | 0.916 ± 0.008 | 0.497 ± 0.006 | **0.998 ± 0.004** | 0.981 ± 0.011 | 0.997 ± 0.004 |
+| magic | 0.276 | 0.566 ± 0.016 | 0.568 ± 0.016 | 0.660 ± 0.012 | 0.526 ± 0.011 | 0.511 ± 0.014 | 0.656 ± 0.012 | 0.704 ± 0.010 | 0.682 ± 0.011 | 0.605 ± 0.008 | 0.605 ± 0.008 | 0.501 ± 0.005 | 0.854 ± 0.006 | 0.809 ± 0.014 | **0.875 ± 0.006** |
+| letter | 0.259 | 0.780 ± 0.007 | 0.613 ± 0.007 | 0.781 ± 0.008 | 0.732 ± 0.007 | 0.480 ± 0.006 | 0.809 ± 0.006 | 0.826 ± 0.006 | 0.825 ± 0.004 | 0.748 ± 0.006 | 0.698 ± 0.007 | 0.500 ± 0.004 | 0.989 ± 0.001 | 0.927 ± 0.002 | **0.991 ± 0.000** |
+| landsat | 0.154 | 0.733 ± 0.011 | 0.637 ± 0.014 | 0.709 ± 0.011 | 0.706 ± 0.011 | 0.603 ± 0.014 | 0.775 ± 0.009 | 0.803 ± 0.010 | 0.791 ± 0.010 | 0.778 ± 0.012 | 0.705 ± 0.027 | 0.500 ± 0.015 | **0.937 ± 0.003** | 0.847 ± 0.013 | 0.932 ± 0.003 |
+| page_blocks | 0.141 | 0.721 ± 0.024 | 0.670 ± 0.049 | 0.784 ± 0.048 | 0.633 ± 0.031 | 0.500 ± 0.063 | 0.756 ± 0.026 | 0.801 ± 0.021 | 0.757 ± 0.034 | 0.639 ± 0.040 | 0.483 ± 0.059 | 0.495 ± 0.009 | 0.956 ± 0.008 | 0.850 ± 0.050 | **0.966 ± 0.009** |
+
+## Precision when the top 10% are flagged
+
+| Dataset | Base error rate | PRS | PD + U | PD | EI | U | PRS* | PD + U* | U* | Margin | Entropy | Random | Trust Score | Order ensemble | kNN disagreement |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| S1 | 0.117 | 0.305 ± 0.022 | 0.391 ± 0.025 | 0.445 ± 0.030 | 0.146 ± 0.021 | 0.313 ± 0.019 | 0.350 ± 0.021 | 0.426 ± 0.021 | 0.400 ± 0.020 | 0.400 ± 0.020 | 0.403 ± 0.019 | 0.104 ± 0.017 | 0.650 ± 0.030 | 0.800 ± 0.016 | **0.865 ± 0.017** |
+| S2 | 0.206 | 0.373 ± 0.024 | 0.446 ± 0.034 | 0.501 ± 0.030 | 0.214 ± 0.022 | 0.356 ± 0.018 | 0.442 ± 0.039 | 0.481 ± 0.032 | 0.463 ± 0.030 | 0.463 ± 0.030 | 0.460 ± 0.030 | 0.206 ± 0.015 | 0.625 ± 0.026 | 0.765 ± 0.018 | **0.807 ± 0.033** |
+| S3 | 0.138 | 0.342 ± 0.018 | 0.443 ± 0.019 | 0.483 ± 0.019 | 0.155 ± 0.016 | 0.330 ± 0.022 | 0.401 ± 0.020 | 0.468 ± 0.020 | 0.448 ± 0.022 | 0.448 ± 0.022 | 0.447 ± 0.021 | 0.128 ± 0.008 | 0.590 ± 0.023 | **0.855 ± 0.023** | 0.714 ± 0.018 |
+| S2-imbalanced | 0.100 | 0.277 ± 0.030 | 0.362 ± 0.019 | 0.437 ± 0.014 | 0.148 ± 0.015 | 0.316 ± 0.023 | 0.331 ± 0.025 | 0.426 ± 0.018 | 0.416 ± 0.013 | 0.416 ± 0.013 | 0.416 ± 0.014 | 0.090 ± 0.015 | 0.497 ± 0.025 | **0.599 ± 0.027** | 0.589 ± 0.019 |
+| S2-label-noise | 0.257 | 0.402 ± 0.033 | 0.479 ± 0.022 | 0.518 ± 0.026 | 0.262 ± 0.031 | 0.392 ± 0.017 | 0.454 ± 0.033 | 0.500 ± 0.018 | 0.477 ± 0.020 | 0.477 ± 0.020 | 0.477 ± 0.020 | 0.248 ± 0.016 | 0.633 ± 0.032 | 0.747 ± 0.020 | **0.810 ± 0.016** |
+| S2-shifted | 0.206 | 0.398 ± 0.012 | 0.460 ± 0.013 | 0.497 ± 0.015 | 0.236 ± 0.010 | 0.368 ± 0.013 | 0.452 ± 0.012 | 0.479 ± 0.015 | 0.458 ± 0.011 | 0.458 ± 0.011 | 0.461 ± 0.010 | 0.199 ± 0.004 | 0.629 ± 0.010 | 0.771 ± 0.017 | **0.810 ± 0.014** |
+| Synthetic family | 0.171 | 0.349 ± 0.010 | 0.430 ± 0.012 | 0.480 ± 0.010 | 0.194 ± 0.008 | 0.346 ± 0.011 | 0.405 ± 0.012 | 0.463 ± 0.009 | 0.443 ± 0.009 | 0.443 ± 0.009 | 0.444 ± 0.010 | 0.163 ± 0.007 | 0.604 ± 0.011 | 0.756 ± 0.009 | **0.766 ± 0.005** |
+| digits | 0.044 | 0.167 ± 0.013 | 0.309 ± 0.019 | 0.176 ± 0.021 | 0.059 ± 0.011 | 0.307 ± 0.019 | 0.174 ± 0.014 | 0.320 ± 0.024 | 0.323 ± 0.025 | 0.323 ± 0.025 | 0.165 ± 0.017 | 0.034 ± 0.007 | **0.423 ± 0.025** | 0.364 ± 0.030 | 0.407 ± 0.028 |
+| thyroid | 0.033 | 0.065 ± 0.009 | 0.059 ± 0.008 | **0.233 ± 0.020** | 0.196 ± 0.022 | 0.056 ± 0.008 | 0.221 ± 0.026 | 0.220 ± 0.027 | 0.215 ± 0.025 | 0.215 ± 0.025 | 0.083 ± 0.012 | 0.035 ± 0.009 | 0.107 ± 0.012 | 0.227 ± 0.033 | 0.119 ± 0.012 |
+| skin | 0.046 | 0.193 ± 0.058 | 0.139 ± 0.047 | 0.298 ± 0.086 | 0.162 ± 0.060 | 0.110 ± 0.038 | 0.283 ± 0.079 | 0.338 ± 0.099 | 0.330 ± 0.100 | 0.221 ± 0.078 | 0.221 ± 0.078 | 0.044 ± 0.017 | 0.454 ± 0.165 | 0.423 ± 0.146 | **0.454 ± 0.166** |
+| magic | 0.276 | 0.351 ± 0.021 | 0.447 ± 0.009 | 0.484 ± 0.013 | 0.278 ± 0.025 | 0.243 ± 0.013 | 0.473 ± 0.018 | 0.504 ± 0.010 | 0.483 ± 0.013 | 0.330 ± 0.020 | 0.330 ± 0.020 | 0.276 ± 0.023 | 0.804 ± 0.023 | 0.744 ± 0.028 | **0.859 ± 0.017** |
+| letter | 0.259 | 0.658 ± 0.014 | 0.574 ± 0.009 | 0.588 ± 0.025 | 0.425 ± 0.015 | 0.367 ± 0.013 | 0.635 ± 0.015 | 0.672 ± 0.009 | 0.653 ± 0.009 | 0.422 ± 0.007 | 0.538 ± 0.015 | 0.265 ± 0.013 | 0.993 ± 0.003 | 0.907 ± 0.005 | **0.998 ± 0.001** |
+| landsat | 0.154 | 0.350 ± 0.026 | 0.417 ± 0.028 | 0.480 ± 0.028 | 0.310 ± 0.023 | 0.388 ± 0.033 | 0.416 ± 0.012 | 0.468 ± 0.018 | 0.445 ± 0.017 | 0.338 ± 0.022 | 0.327 ± 0.038 | 0.144 ± 0.017 | 0.767 ± 0.021 | 0.650 ± 0.033 | **0.783 ± 0.022** |
+| page_blocks | 0.141 | 0.389 ± 0.108 | 0.349 ± 0.145 | 0.490 ± 0.143 | 0.261 ± 0.046 | 0.103 ± 0.030 | 0.435 ± 0.102 | 0.501 ± 0.116 | 0.443 ± 0.063 | 0.192 ± 0.031 | 0.138 ± 0.079 | 0.135 ± 0.033 | 0.863 ± 0.069 | 0.725 ± 0.161 | **0.885 ± 0.064** |
+
+## P1 (primary): PD + U* minus the plain margin (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across the units in this table; d_z = mean difference / its standard deviation.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | 0.020 ± 0.003 | 10 of 10 | 0.00195 | 0.0156 | 5.29 |
+| digits | 0.012 ± 0.009 | 9 of 10 | 0.0371 | 0.0742 | 0.91 |
+| thyroid | -0.031 ± 0.036 | 2 of 10 | 0.105 | 0.105 | -0.63 |
+| skin | 0.202 ± 0.044 | 10 of 10 | 0.00195 | 0.0156 | 3.26 |
+| magic | 0.111 ± 0.011 | 10 of 10 | 0.00195 | 0.0156 | 6.97 |
+| letter | 0.173 ± 0.007 | 10 of 10 | 0.00195 | 0.0156 | 18.87 |
+| landsat | 0.084 ± 0.012 | 10 of 10 | 0.00195 | 0.0156 | 5.11 |
+| page_blocks | 0.256 ± 0.068 | 10 of 10 | 0.00195 | 0.0156 | 2.68 |
+
+## P2 (primary): does EI add value? PRS* minus PD + U* (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across the units in this table; d_z = mean difference / its standard deviation.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | -0.060 ± 0.006 | 0 of 10 | 0.00195 | 0.0156 | -7.31 |
+| digits | -0.208 ± 0.029 | 0 of 10 | 0.00195 | 0.0156 | -5.16 |
+| thyroid | -0.002 ± 0.019 | 5 of 10 | 0.922 | 0.922 | -0.06 |
+| skin | -0.040 ± 0.047 | 1 of 10 | 0.0645 | 0.129 | -0.60 |
+| magic | -0.036 ± 0.007 | 0 of 10 | 0.00195 | 0.0156 | -3.61 |
+| letter | -0.029 ± 0.009 | 0 of 10 | 0.00195 | 0.0156 | -2.41 |
+| landsat | -0.037 ± 0.008 | 0 of 10 | 0.00195 | 0.0156 | -3.55 |
+| page_blocks | -0.078 ± 0.027 | 0 of 10 | 0.00195 | 0.0156 | -2.03 |
+
+## Secondary: PD + U* minus Trust Score (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across the units in this table; d_z = mean difference / its standard deviation.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | -0.142 ± 0.010 | 0 of 10 | 0.00195 | 0.0156 | -10.03 |
+| digits | -0.460 ± 0.049 | 0 of 10 | 0.00195 | 0.0156 | -6.74 |
+| thyroid | 0.115 ± 0.044 | 9 of 10 | 0.00391 | 0.0156 | 1.87 |
+| skin | -0.553 ± 0.032 | 0 of 10 | 0.00195 | 0.0156 | -12.55 |
+| magic | -0.255 ± 0.015 | 0 of 10 | 0.00195 | 0.0156 | -11.84 |
+| letter | -0.382 ± 0.008 | 0 of 10 | 0.00195 | 0.0156 | -33.54 |
+| landsat | -0.337 ± 0.021 | 0 of 10 | 0.00195 | 0.0156 | -11.59 |
+| page_blocks | -0.407 ± 0.082 | 0 of 10 | 0.00195 | 0.0156 | -3.54 |
+
+## Secondary: PD + U* minus order-ensemble disagreement (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across the units in this table; d_z = mean difference / its standard deviation.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | -0.244 ± 0.012 | 0 of 10 | 0.00195 | 0.0156 | -14.50 |
+| digits | -0.203 ± 0.055 | 0 of 10 | 0.00195 | 0.0156 | -2.67 |
+| thyroid | -0.197 ± 0.070 | 0 of 10 | 0.00195 | 0.0156 | -2.02 |
+| skin | -0.328 ± 0.098 | 1 of 10 | 0.00391 | 0.0156 | -2.39 |
+| magic | -0.147 ± 0.027 | 0 of 10 | 0.00195 | 0.0156 | -3.90 |
+| letter | -0.199 ± 0.010 | 0 of 10 | 0.00195 | 0.0156 | -14.20 |
+| landsat | -0.140 ± 0.035 | 0 of 10 | 0.00195 | 0.0156 | -2.83 |
+| page_blocks | -0.179 ± 0.110 | 2 of 10 | 0.00977 | 0.0156 | -1.17 |
+
+## Secondary: PD + U* minus kNN disagreement (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across the units in this table; d_z = mean difference / its standard deviation.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | -0.285 ± 0.010 | 0 of 10 | 0.00195 | 0.0156 | -21.13 |
+| digits | -0.427 ± 0.047 | 0 of 10 | 0.00195 | 0.0156 | -6.52 |
+| thyroid | 0.135 ± 0.036 | 10 of 10 | 0.00195 | 0.0156 | 2.68 |
+| skin | -0.569 ± 0.039 | 0 of 10 | 0.00195 | 0.0156 | -10.42 |
+| magic | -0.283 ± 0.013 | 0 of 10 | 0.00195 | 0.0156 | -15.85 |
+| letter | -0.384 ± 0.008 | 0 of 10 | 0.00195 | 0.0156 | -32.69 |
+| landsat | -0.327 ± 0.016 | 0 of 10 | 0.00195 | 0.0156 | -14.70 |
+| page_blocks | -0.418 ± 0.083 | 0 of 10 | 0.00195 | 0.0156 | -3.59 |
+
+## Secondary: U* minus U, on real datasets with at least 1% tied points (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across the units in this table; d_z = mean difference / its standard deviation.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| thyroid | 0.277 ± 0.074 | 10 of 10 | 0.00195 | 0.0117 | 2.68 |
+| skin | 0.312 ± 0.057 | 10 of 10 | 0.00195 | 0.0117 | 3.91 |
+| magic | 0.143 ± 0.012 | 10 of 10 | 0.00195 | 0.0117 | 8.55 |
+| letter | 0.306 ± 0.006 | 10 of 10 | 0.00195 | 0.0117 | 38.57 |
+| landsat | 0.091 ± 0.020 | 10 of 10 | 0.00195 | 0.0117 | 3.19 |
+| page_blocks | 0.210 ± 0.047 | 10 of 10 | 0.00195 | 0.0117 | 3.17 |
+
+## Signal checks and cost
+
+| Dataset | Clipped coordinates | Plausibility | rho(PD, U) | rho(PD, EI) | Signal time (s) | Baseline time (s) |
+|---|---|---|---|---|---|---|
+| S1 | 0.012 | 0.95 | 0.57 | 0.03 | 21.6 | 3.0 |
+| S2 | 0.011 | 0.94 | 0.59 | -0.01 | 22.1 | 3.1 |
+| S3 | 0.012 | 0.94 | 0.58 | 0.01 | 24.0 | 3.1 |
+| S2-imbalanced | 0.011 | 0.95 | 0.48 | 0.07 | 22.5 | 3.7 |
+| S2-label-noise | 0.011 | 0.95 | 0.60 | -0.00 | 22.0 | 3.2 |
+| S2-shifted | 0.012 | 0.94 | 0.59 | 0.01 | 48.8 | 5.7 |
+| wine | 0.002 | 0.94 | 0.26 | 0.03 | 0.0 | 0.0 |
+| breast_cancer | 0.002 | 0.95 | 0.28 | 0.18 | 0.3 | 0.2 |
+| digits | 0.000 | 0.94 | 0.27 | 0.07 | 7.6 | 0.8 |
+| thyroid | 0.025 | 0.94 | -0.02 | 0.47 | 3.4 | 1.1 |
+| shuttle | 0.000 | 0.00 | -0.37 | 0.16 | 7.1 | 6.5 |
+| skin | 0.011 | 0.72 | 0.13 | 0.42 | 19.9 | 23.1 |
+| magic | 0.004 | 0.94 | 0.21 | 0.29 | 22.4 | 4.2 |
+| letter | 0.000 | 0.91 | -0.45 | 0.77 | 87.0 | 9.1 |
+| landsat | 0.000 | 0.94 | 0.05 | 0.45 | 14.1 | 1.9 |
+| page_blocks | 0.084 | 0.94 | -0.21 | 0.64 | 1.0 | 0.6 |
+

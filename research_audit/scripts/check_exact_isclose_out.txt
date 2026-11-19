@@ -1,0 +1,81 @@
+shap 0.54.1
+
+Part 1: near-equal values in each of the 60 tasks
+dataset      seed  committed diff  near-equal pairs per point   largest gap
+S1           159        1.04e-16  [0, 0, 0, 0, 0]              0.0e+00
+S1           158        7.85e-17  [0, 0, 0, 0, 0]              0.0e+00
+S1           152        1.27e-10  [0, 0, 0, 0, 1]              5.7e-06
+S1           157        1.39e-16  [0, 0, 0, 0, 0]              0.0e+00
+S2           150        8.33e-17  [0, 0, 0, 0, 0]              0.0e+00
+S1           150        1.67e-16  [0, 0, 0, 0, 0]              0.0e+00
+S1           153        1.25e-16  [0, 0, 0, 0, 0]              0.0e+00
+S1           151        1.18e-16  [0, 0, 0, 0, 0]              0.0e+00
+S1           156        1.28e-16  [0, 0, 0, 0, 0]              0.0e+00
+S2           151        1.25e-16  [0, 0, 0, 0, 0]              0.0e+00
+S1           154        9.02e-17  [0, 0, 0, 0, 0]              0.0e+00
+S1           155        2.22e-16  [0, 0, 0, 0, 0]              0.0e+00
+S2           154        1.11e-16  [0, 0, 0, 0, 0]              0.0e+00
+S2           152        9.71e-17  [0, 0, 0, 0, 0]              0.0e+00
+S2           155        1.18e-16  [0, 0, 0, 0, 0]              0.0e+00
+S2           157        7.98e-17  [0, 0, 0, 0, 0]              0.0e+00
+S2           153        2.08e-16  [0, 0, 0, 0, 0]              0.0e+00
+S2           156        9.71e-17  [0, 0, 0, 0, 0]              0.0e+00
+S2           159        1.08e-10  [1, 0, 0, 0, 0]              4.9e-06
+shuttle      150        1.36e-16  [0, 0, 0, 0, 0]              0.0e+00
+S2           158        8.33e-17  [0, 0, 0, 0, 0]              0.0e+00
+S3           151        1.18e-16  [0, 0, 0, 0, 0]              0.0e+00
+S3           152        1.11e-16  [0, 0, 0, 0, 0]              0.0e+00
+shuttle      151        1.62e-16  [0, 0, 0, 0, 0]              0.0e+00
+shuttle      152        1.20e-16  [0, 0, 0, 0, 0]              0.0e+00
+S3           150        1.60e-10  [1, 0, 0, 0, 0]              3.3e-06
+shuttle      154        2.51e-16  [0, 0, 0, 0, 0]              0.0e+00
+shuttle      153        1.94e-16  [0, 0, 0, 0, 0]              0.0e+00
+shuttle      155        1.59e-16  [0, 0, 0, 0, 0]              0.0e+00
+shuttle      156        1.93e-16  [0, 0, 0, 0, 0]              0.0e+00
+S3           153        1.32e-16  [0, 0, 0, 0, 0]              0.0e+00
+shuttle      157        2.22e-16  [0, 0, 0, 0, 0]              0.0e+00
+shuttle      158        2.70e-16  [0, 0, 0, 0, 0]              0.0e+00
+shuttle      159        2.19e-16  [0, 0, 0, 0, 0]              0.0e+00
+magic        154        1.11e-16  [0, 0, 0, 0, 0]              0.0e+00
+magic        150        1.46e-16  [0, 0, 0, 0, 0]              0.0e+00
+magic        151        7.72e-17  [0, 0, 0, 0, 0]              0.0e+00
+magic        153        6.51e-17  [0, 0, 0, 0, 0]              0.0e+00
+magic        155        6.68e-17  [0, 0, 0, 0, 0]              0.0e+00
+page_blocks  150        5.39e-17  [0, 0, 0, 0, 0]              0.0e+00
+page_blocks  151        1.17e-16  [0, 0, 0, 0, 0]              0.0e+00
+magic        152        1.32e-16  [1, 0, 0, 0, 0]              2.9e-07
+page_blocks  152        3.23e-17  [0, 0, 0, 0, 0]              0.0e+00
+page_blocks  153        9.76e-17  [0, 0, 0, 0, 0]              0.0e+00
+page_blocks  154        3.48e-17  [0, 0, 0, 0, 0]              0.0e+00
+page_blocks  155        5.56e-17  [0, 0, 0, 0, 0]              0.0e+00
+page_blocks  156        6.59e-17  [0, 0, 0, 0, 0]              0.0e+00
+page_blocks  157        1.77e-16  [0, 0, 0, 0, 0]              0.0e+00
+page_blocks  158        1.71e-17  [0, 0, 0, 0, 0]              0.0e+00
+page_blocks  159        6.33e-17  [0, 0, 0, 0, 0]              0.0e+00
+magic        158        7.14e-11  [0, 1, 0, 0, 0]              3.3e-06
+magic        156        1.53e-16  [0, 0, 0, 0, 0]              0.0e+00
+magic        157        1.18e-16  [0, 0, 0, 0, 0]              0.0e+00
+magic        159        9.54e-17  [0, 0, 0, 0, 0]              0.0e+00
+S3           154        1.32e-16  [0, 0, 0, 0, 0]              0.0e+00
+S3           156        1.60e-16  [0, 0, 0, 0, 0]              0.0e+00
+S3           155        1.60e-16  [0, 0, 0, 0, 0]              0.0e+00
+S3           157        2.22e-16  [0, 0, 0, 0, 0]              0.0e+00
+S3           159        9.86e-11  [0, 0, 1, 0, 0]              4.4e-06
+S3           158        1.86e-16  [0, 0, 0, 0, 0]              0.0e+00
+
+tasks above 1e-14: 5; each has exactly one near-equal pair: True; gaps 3.3e-06 to 5.7e-06
+tasks at or below 1e-14: 55; largest committed difference 2.7e-16; with a near-equal pair: [('magic', 152)]
+OK  5 tasks above 1e-14
+OK  each of them has exactly one near-equal pair
+OK  the other 55 are at most 2.7e-16
+
+Part 2: the point holding the near-equal pair, ExactExplainer with and without np.isclose
+S1     seed 152 point 4: |PACE - shipped| 1.272e-10 (committed 1.272e-10); |PACE - exact equality| 3.296e-17
+S2     seed 159 point 0: |PACE - shipped| 1.080e-10 (committed 1.080e-10); |PACE - exact equality| 6.028e-17
+S3     seed 150 point 0: |PACE - shipped| 1.604e-10 (committed 1.604e-10); |PACE - exact equality| 1.145e-16
+magic  seed 158 point 1: |PACE - shipped| 7.142e-11 (committed 7.142e-11); |PACE - exact equality| 1.336e-16
+S3     seed 159 point 2: |PACE - shipped| 9.857e-11 (committed 9.857e-11); |PACE - exact equality| 4.163e-17
+
+as shipped: 7.1e-11 to 1.6e-10; with exact equality: at most 1.3e-16
+OK  as shipped, each point reproduces its task's committed difference
+OK  with exact equality, every difference is below 1e-15

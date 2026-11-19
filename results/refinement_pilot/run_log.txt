@@ -1,0 +1,131 @@
+  S2 seed 0 order_ensemble | A+B: test macro-F1 78.59 -> 79.39, boxes 991 -> 1090, wrong 153, shrink possible 0 accepted 0 (64s)
+  S2 seed 0 order_ensemble | A+B+C: test macro-F1 78.59 -> 79.39, boxes 991 -> 1090, wrong 153, shrink possible 0 accepted 0 (53s)
+  S2 seed 0 order_ensemble | A+B+C'-random: test macro-F1 78.59 -> 79.39, boxes 991 -> 1090, wrong 153, shrink possible 0 accepted 0 (54s)
+  S2 seed 0 order_ensemble | A+B+C'-volume: test macro-F1 78.59 -> 79.39, boxes 991 -> 1090, wrong 153, shrink possible 0 accepted 0 (58s)
+  S2 seed 0 random | A+B: test macro-F1 78.59 -> 78.60, boxes 991 -> 1085, wrong 50, shrink possible 0 accepted 0 (30s)
+  S2 seed 0 margin | A+B: test macro-F1 78.59 -> 77.99, boxes 991 -> 1088, wrong 105, shrink possible 0 accepted 0 (32s)
+  S2 seed 0 pd_u_star | A+B: test macro-F1 78.59 -> 79.00, boxes 991 -> 1090, wrong 110, shrink possible 0 accepted 0 (190s)
+S2 seed 0 done in 482s
+  S2 seed 1 order_ensemble | A+B: test macro-F1 79.76 -> 79.39, boxes 989 -> 1082, wrong 166, shrink possible 0 accepted 0 (56s)
+  S2 seed 1 order_ensemble | A+B+C: test macro-F1 79.76 -> 79.39, boxes 989 -> 1082, wrong 166, shrink possible 0 accepted 0 (52s)
+  S2 seed 1 order_ensemble | A+B+C'-random: test macro-F1 79.76 -> 79.39, boxes 989 -> 1082, wrong 166, shrink possible 0 accepted 0 (65s)
+  S2 seed 1 order_ensemble | A+B+C'-volume: test macro-F1 79.76 -> 79.39, boxes 989 -> 1082, wrong 166, shrink possible 0 accepted 0 (53s)
+  S2 seed 1 random | A+B: test macro-F1 79.76 -> 79.76, boxes 989 -> 1081, wrong 58, shrink possible 0 accepted 0 (27s)
+  S2 seed 1 margin | A+B: test macro-F1 79.76 -> 80.57, boxes 989 -> 1087, wrong 105, shrink possible 0 accepted 0 (29s)
+  S2 seed 1 pd_u_star | A+B: test macro-F1 79.76 -> 80.57, boxes 989 -> 1087, wrong 111, shrink possible 0 accepted 0 (206s)
+S2 seed 1 done in 487s
+  S2 seed 2 order_ensemble | A+B: test macro-F1 82.19 -> 81.99, boxes 985 -> 1083, wrong 168, shrink possible 0 accepted 0 (50s)
+  S2 seed 2 order_ensemble | A+B+C: test macro-F1 82.19 -> 81.99, boxes 985 -> 1083, wrong 168, shrink possible 0 accepted 0 (48s)
+  S2 seed 2 order_ensemble | A+B+C'-random: test macro-F1 82.19 -> 81.99, boxes 985 -> 1083, wrong 168, shrink possible 0 accepted 0 (48s)
+  S2 seed 2 order_ensemble | A+B+C'-volume: test macro-F1 82.19 -> 81.99, boxes 985 -> 1083, wrong 168, shrink possible 0 accepted 0 (50s)
+  S2 seed 2 random | A+B: test macro-F1 82.19 -> 81.80, boxes 985 -> 1083, wrong 46, shrink possible 0 accepted 0 (33s)
+  S2 seed 2 margin | A+B: test macro-F1 82.19 -> 82.00, boxes 985 -> 1083, wrong 104, shrink possible 0 accepted 0 (31s)
+  S2 seed 2 pd_u_star | A+B: test macro-F1 82.19 -> 81.39, boxes 985 -> 1083, wrong 102, shrink possible 0 accepted 0 (228s)
+S2 seed 2 done in 488s
+  thyroid seed 0 order_ensemble | A+B: test macro-F1 81.10 -> 83.40, boxes 49 -> 53, wrong 41, shrink possible 31 accepted 0 (16s)
+  thyroid seed 0 order_ensemble | A+B+C: test macro-F1 81.10 -> 87.53, boxes 49 -> 51, wrong 36, shrink possible 19 accepted 17 (16s)
+  thyroid seed 0 order_ensemble | A+B+C'-random: test macro-F1 81.10 -> 86.27, boxes 49 -> 48, wrong 35, shrink possible 16 accepted 14 (15s)
+  thyroid seed 0 order_ensemble | A+B+C'-volume: test macro-F1 81.10 -> 89.00, boxes 49 -> 52, wrong 33, shrink possible 17 accepted 15 (17s)
+  thyroid seed 0 random | A+B: test macro-F1 81.10 -> 84.03, boxes 49 -> 52, wrong 9, shrink possible 7 accepted 0 (7s)
+  thyroid seed 0 margin | A+B: test macro-F1 81.10 -> 82.37, boxes 49 -> 50, wrong 24, shrink possible 24 accepted 0 (7s)
+  thyroid seed 0 pd_u_star | A+B: test macro-F1 81.10 -> 82.37, boxes 49 -> 50, wrong 24, shrink possible 24 accepted 0 (33s)
+thyroid seed 0 done in 110s
+  thyroid seed 1 order_ensemble | A+B: test macro-F1 86.20 -> 88.85, boxes 45 -> 49, wrong 38, shrink possible 31 accepted 0 (17s)
+  thyroid seed 1 order_ensemble | A+B+C: test macro-F1 86.20 -> 88.30, boxes 45 -> 48, wrong 38, shrink possible 27 accepted 17 (17s)
+  thyroid seed 1 order_ensemble | A+B+C'-random: test macro-F1 86.20 -> 94.27, boxes 45 -> 43, wrong 38, shrink possible 17 accepted 14 (14s)
+  thyroid seed 1 order_ensemble | A+B+C'-volume: test macro-F1 86.20 -> 93.11, boxes 45 -> 48, wrong 25, shrink possible 15 accepted 12 (16s)
+  thyroid seed 1 random | A+B: test macro-F1 86.20 -> 86.90, boxes 45 -> 45, wrong 10, shrink possible 9 accepted 0 (6s)
+  thyroid seed 1 margin | A+B: test macro-F1 86.20 -> 86.90, boxes 45 -> 46, wrong 24, shrink possible 22 accepted 0 (6s)
+  thyroid seed 1 pd_u_star | A+B: test macro-F1 86.20 -> 86.90, boxes 45 -> 46, wrong 23, shrink possible 21 accepted 0 (26s)
+thyroid seed 1 done in 104s
+  thyroid seed 2 order_ensemble | A+B: test macro-F1 86.91 -> 88.27, boxes 47 -> 51, wrong 43, shrink possible 26 accepted 0 (15s)
+  thyroid seed 2 order_ensemble | A+B+C: test macro-F1 86.91 -> 87.87, boxes 47 -> 51, wrong 43, shrink possible 25 accepted 10 (15s)
+  thyroid seed 2 order_ensemble | A+B+C'-random: test macro-F1 86.91 -> 88.70, boxes 47 -> 51, wrong 42, shrink possible 13 accepted 9 (15s)
+  thyroid seed 2 order_ensemble | A+B+C'-volume: test macro-F1 86.91 -> 90.42, boxes 47 -> 51, wrong 35, shrink possible 16 accepted 16 (15s)
+  thyroid seed 2 random | A+B: test macro-F1 86.91 -> 87.30, boxes 47 -> 49, wrong 10, shrink possible 7 accepted 0 (6s)
+  thyroid seed 2 margin | A+B: test macro-F1 86.91 -> 86.28, boxes 47 -> 47, wrong 32, shrink possible 27 accepted 0 (6s)
+  thyroid seed 2 pd_u_star | A+B: test macro-F1 86.91 -> 86.28, boxes 47 -> 47, wrong 31, shrink possible 26 accepted 0 (30s)
+thyroid seed 2 done in 103s
+  landsat seed 0 order_ensemble | A+B: test macro-F1 85.11 -> 85.57, boxes 147 -> 156, wrong 140, shrink possible 108 accepted 0 (35s)
+  landsat seed 0 order_ensemble | A+B+C: test macro-F1 85.11 -> 83.37, boxes 147 -> 153, wrong 158, shrink possible 116 accepted 55 (37s)
+  landsat seed 0 order_ensemble | A+B+C'-random: test macro-F1 85.11 -> 84.69, boxes 147 -> 155, wrong 140, shrink possible 102 accepted 52 (36s)
+  landsat seed 0 order_ensemble | A+B+C'-volume: test macro-F1 85.11 -> 85.92, boxes 147 -> 155, wrong 132, shrink possible 97 accepted 65 (35s)
+  landsat seed 0 random | A+B: test macro-F1 85.11 -> 84.78, boxes 147 -> 157, wrong 40, shrink possible 30 accepted 0 (21s)
+  landsat seed 0 margin | A+B: test macro-F1 85.11 -> 84.98, boxes 147 -> 149, wrong 105, shrink possible 98 accepted 0 (21s)
+  landsat seed 0 pd_u_star | A+B: test macro-F1 85.11 -> 84.41, boxes 147 -> 150, wrong 109, shrink possible 95 accepted 0 (99s)
+landsat seed 0 done in 284s
+  landsat seed 1 order_ensemble | A+B: test macro-F1 81.41 -> 80.66, boxes 149 -> 156, wrong 157, shrink possible 122 accepted 0 (33s)
+  landsat seed 1 order_ensemble | A+B+C: test macro-F1 81.41 -> 82.55, boxes 149 -> 154, wrong 151, shrink possible 113 accepted 61 (36s)
+  landsat seed 1 order_ensemble | A+B+C'-random: test macro-F1 81.41 -> 82.28, boxes 149 -> 155, wrong 150, shrink possible 109 accepted 52 (44s)
+  landsat seed 1 order_ensemble | A+B+C'-volume: test macro-F1 81.41 -> 82.74, boxes 149 -> 155, wrong 143, shrink possible 108 accepted 73 (45s)
+  landsat seed 1 random | A+B: test macro-F1 81.41 -> 82.09, boxes 149 -> 156, wrong 54, shrink possible 39 accepted 0 (20s)
+  landsat seed 1 margin | A+B: test macro-F1 81.41 -> 81.25, boxes 149 -> 150, wrong 112, shrink possible 103 accepted 0 (25s)
+  landsat seed 1 pd_u_star | A+B: test macro-F1 81.41 -> 80.76, boxes 149 -> 150, wrong 129, shrink possible 113 accepted 0 (144s)
+landsat seed 1 done in 348s
+  landsat seed 2 order_ensemble | A+B: test macro-F1 81.49 -> 80.67, boxes 144 -> 156, wrong 154, shrink possible 110 accepted 0 (37s)
+  landsat seed 2 order_ensemble | A+B+C: test macro-F1 81.49 -> 83.52, boxes 144 -> 154, wrong 163, shrink possible 115 accepted 66 (41s)
+  landsat seed 2 order_ensemble | A+B+C'-random: test macro-F1 81.49 -> 83.47, boxes 144 -> 153, wrong 153, shrink possible 104 accepted 50 (40s)
+  landsat seed 2 order_ensemble | A+B+C'-volume: test macro-F1 81.49 -> 81.06, boxes 144 -> 155, wrong 153, shrink possible 103 accepted 82 (39s)
+  landsat seed 2 random | A+B: test macro-F1 81.49 -> 81.37, boxes 144 -> 157, wrong 44, shrink possible 36 accepted 0 (31s)
+  landsat seed 2 margin | A+B: test macro-F1 81.49 -> 80.78, boxes 144 -> 146, wrong 122, shrink possible 110 accepted 0 (33s)
+  landsat seed 2 pd_u_star | A+B: test macro-F1 81.49 -> 81.73, boxes 144 -> 147, wrong 124, shrink possible 107 accepted 0 (139s)
+landsat seed 2 done in 361s
+  page_blocks seed 0 order_ensemble | A+B: test macro-F1 78.61 -> 79.63, boxes 28 -> 28, wrong 54, shrink possible 49 accepted 0 (22s)
+  page_blocks seed 0 order_ensemble | A+B+C: test macro-F1 78.61 -> 80.46, boxes 28 -> 28, wrong 52, shrink possible 45 accepted 9 (12s)
+  page_blocks seed 0 order_ensemble | A+B+C'-random: test macro-F1 78.61 -> 80.47, boxes 28 -> 28, wrong 55, shrink possible 48 accepted 13 (12s)
+  page_blocks seed 0 order_ensemble | A+B+C'-volume: test macro-F1 78.61 -> 81.37, boxes 28 -> 28, wrong 51, shrink possible 43 accepted 12 (10s)
+  page_blocks seed 0 random | A+B: test macro-F1 78.61 -> 78.18, boxes 28 -> 28, wrong 19, shrink possible 19 accepted 0 (5s)
+  page_blocks seed 0 margin | A+B: test macro-F1 78.61 -> 79.33, boxes 28 -> 28, wrong 49, shrink possible 49 accepted 0 (4s)
+  page_blocks seed 0 pd_u_star | A+B: test macro-F1 78.61 -> 80.01, boxes 28 -> 28, wrong 64, shrink possible 64 accepted 0 (14s)
+page_blocks seed 0 done in 78s
+  page_blocks seed 1 order_ensemble | A+B: test macro-F1 74.53 -> 72.07, boxes 25 -> 27, wrong 84, shrink possible 78 accepted 0 (9s)
+  page_blocks seed 1 order_ensemble | A+B+C: test macro-F1 74.53 -> 78.29, boxes 25 -> 27, wrong 67, shrink possible 61 accepted 8 (11s)
+  page_blocks seed 1 order_ensemble | A+B+C'-random: test macro-F1 74.53 -> 79.22, boxes 25 -> 27, wrong 66, shrink possible 60 accepted 9 (13s)
+  page_blocks seed 1 order_ensemble | A+B+C'-volume: test macro-F1 74.53 -> 76.45, boxes 25 -> 27, wrong 62, shrink possible 57 accepted 11 (13s)
+  page_blocks seed 1 random | A+B: test macro-F1 74.53 -> 74.81, boxes 25 -> 26, wrong 25, shrink possible 23 accepted 0 (4s)
+  page_blocks seed 1 margin | A+B: test macro-F1 74.53 -> 73.23, boxes 25 -> 25, wrong 35, shrink possible 35 accepted 0 (6s)
+  page_blocks seed 1 pd_u_star | A+B: test macro-F1 74.53 -> 72.32, boxes 25 -> 25, wrong 71, shrink possible 71 accepted 0 (16s)
+page_blocks seed 1 done in 74s
+  page_blocks seed 2 order_ensemble | A+B: test macro-F1 77.55 -> 73.70, boxes 22 -> 22, wrong 82, shrink possible 67 accepted 0 (16s)
+  page_blocks seed 2 order_ensemble | A+B+C: test macro-F1 77.55 -> 79.22, boxes 22 -> 22, wrong 72, shrink possible 54 accepted 19 (15s)
+  page_blocks seed 2 order_ensemble | A+B+C'-random: test macro-F1 77.55 -> 81.35, boxes 22 -> 22, wrong 63, shrink possible 45 accepted 17 (10s)
+  page_blocks seed 2 order_ensemble | A+B+C'-volume: test macro-F1 77.55 -> 76.59, boxes 22 -> 22, wrong 68, shrink possible 54 accepted 12 (11s)
+  page_blocks seed 2 random | A+B: test macro-F1 77.55 -> 77.61, boxes 22 -> 22, wrong 21, shrink possible 18 accepted 0 (4s)
+  page_blocks seed 2 margin | A+B: test macro-F1 77.55 -> 78.72, boxes 22 -> 22, wrong 43, shrink possible 43 accepted 0 (3s)
+  page_blocks seed 2 pd_u_star | A+B: test macro-F1 77.55 -> 77.94, boxes 22 -> 22, wrong 52, shrink possible 52 accepted 0 (11s)
+page_blocks seed 2 done in 72s
+  magic seed 0 order_ensemble | A+B: test macro-F1 71.17 -> 71.73, boxes 231 -> 237, wrong 235, shrink possible 213 accepted 0 (113s)
+  magic seed 0 order_ensemble | A+B+C: test macro-F1 71.17 -> 76.48, boxes 231 -> 233, wrong 189, shrink possible 168 accepted 161 (119s)
+  magic seed 0 order_ensemble | A+B+C'-random: test macro-F1 71.17 -> 77.40, boxes 231 -> 233, wrong 202, shrink possible 170 accepted 154 (134s)
+  magic seed 0 order_ensemble | A+B+C'-volume: test macro-F1 71.17 -> 77.57, boxes 231 -> 235, wrong 197, shrink possible 168 accepted 163 (189s)
+  magic seed 0 random | A+B: test macro-F1 71.17 -> 70.73, boxes 231 -> 237, wrong 82, shrink possible 80 accepted 0 (102s)
+  magic seed 0 margin | A+B: test macro-F1 71.17 -> 71.35, boxes 231 -> 231, wrong 105, shrink possible 105 accepted 0 (99s)
+  magic seed 0 pd_u_star | A+B: test macro-F1 71.17 -> 71.11, boxes 231 -> 231, wrong 155, shrink possible 155 accepted 0 (523s)
+magic seed 0 done in 1281s
+  magic seed 1 order_ensemble | A+B: test macro-F1 74.30 -> 73.98, boxes 235 -> 239, wrong 220, shrink possible 202 accepted 0 (185s)
+  magic seed 1 order_ensemble | A+B+C: test macro-F1 74.30 -> 76.27, boxes 235 -> 234, wrong 192, shrink possible 160 accepted 152 (192s)
+  magic seed 1 order_ensemble | A+B+C'-random: test macro-F1 74.30 -> 76.12, boxes 235 -> 235, wrong 199, shrink possible 174 accepted 161 (181s)
+  magic seed 1 order_ensemble | A+B+C'-volume: test macro-F1 74.30 -> 76.97, boxes 235 -> 237, wrong 201, shrink possible 178 accepted 174 (181s)
+  magic seed 1 random | A+B: test macro-F1 74.30 -> 74.17, boxes 235 -> 241, wrong 70, shrink possible 65 accepted 0 (97s)
+  magic seed 1 margin | A+B: test macro-F1 74.30 -> 74.48, boxes 235 -> 235, wrong 73, shrink possible 73 accepted 0 (102s)
+  magic seed 1 pd_u_star | A+B: test macro-F1 74.30 -> 74.46, boxes 235 -> 235, wrong 143, shrink possible 143 accepted 0 (522s)
+magic seed 1 done in 1463s
+  magic seed 2 order_ensemble | A+B: test macro-F1 74.51 -> 74.92, boxes 226 -> 228, wrong 222, shrink possible 211 accepted 0 (1061s)
+  magic seed 2 order_ensemble | A+B+C: test macro-F1 74.51 -> 77.73, boxes 226 -> 223, wrong 191, shrink possible 165 accepted 158 (70s)
+  magic seed 2 order_ensemble | A+B+C'-random: test macro-F1 74.51 -> 77.82, boxes 226 -> 225, wrong 171, shrink possible 154 accepted 145 (83s)
+  magic seed 2 order_ensemble | A+B+C'-volume: test macro-F1 74.51 -> 80.42, boxes 226 -> 227, wrong 189, shrink possible 176 accepted 176 (74s)
+  magic seed 2 random | A+B: test macro-F1 74.51 -> 74.65, boxes 226 -> 230, wrong 69, shrink possible 67 accepted 0 (34s)
+  magic seed 2 margin | A+B: test macro-F1 74.51 -> 74.44, boxes 226 -> 226, wrong 83, shrink possible 83 accepted 0 (38s)
+  magic seed 2 pd_u_star | A+B: test macro-F1 74.51 -> 74.76, boxes 226 -> 226, wrong 153, shrink possible 153 accepted 0 (201s)
+magic seed 2 done in 1565s
+Traceback (most recent call last):
+  File "C:\Users\godsp\Downloads\ML research\pace-cfmnn\scripts\run_refinement.py", line 202, in <module>
+    parts = [done[t] for t in tasks if t in done]
+    
+  File "C:\Users\godsp\Downloads\ML research\pace-cfmnn\scripts\run_refinement.py", line 198, in main
+    tasks = [(n, s) for n in a.datasets or PILOT_DATASETS for s in a.seeds or PILOT_SEEDS]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\godsp\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u0394' in position 1511: character maps to <undefined>

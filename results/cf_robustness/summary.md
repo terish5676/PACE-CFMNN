@@ -1,0 +1,228 @@
+# Run B: counterfactual baselines and robustness
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). B1's design, seeds 110–119 (10), 30 points per seed. Each comparison: paired two-sided Wilcoxon over seeds on the per-seed mean over points, Holm across datasets; better / level / worse for the first method (for r1 lower is better; for r3 higher). Written by `scripts/run_cf_robustness.py`.
+
+## Primary comparisons
+
+**PACE vs DiCE random, r1** (lower is better): better 11, level 0, worse 0
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | -4.0021 | 0.0020 | 0.0215 | better |
+| S2 | -3.8025 | 0.0020 | 0.0215 | better |
+| S3 | -3.4662 | 0.0020 | 0.0215 | better |
+| wine | -3.6238 | 0.0020 | 0.0215 | better |
+| breast_cancer | -4.1074 | 0.0020 | 0.0215 | better |
+| thyroid | -5.6567 | 0.0020 | 0.0215 | better |
+| shuttle | -13.6770 | 0.0020 | 0.0215 | better |
+| magic | -8.3848 | 0.0020 | 0.0215 | better |
+| letter | -3.4016 | 0.0020 | 0.0215 | better |
+| landsat | -2.3792 | 0.0020 | 0.0215 | better |
+| page_blocks | -10.4737 | 0.0020 | 0.0215 | better |
+
+**PACE-sparse vs DiCE random, r1** (lower is better): better 11, level 0, worse 0
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | -3.8056 | 0.0020 | 0.0215 | better |
+| S2 | -3.5604 | 0.0020 | 0.0215 | better |
+| S3 | -3.1741 | 0.0020 | 0.0215 | better |
+| wine | -2.9364 | 0.0020 | 0.0215 | better |
+| breast_cancer | -1.8553 | 0.0098 | 0.0215 | better |
+| thyroid | -5.4674 | 0.0020 | 0.0215 | better |
+| shuttle | -13.3067 | 0.0020 | 0.0215 | better |
+| magic | -8.6147 | 0.0020 | 0.0215 | better |
+| letter | -3.5528 | 0.0020 | 0.0215 | better |
+| landsat | -1.5228 | 0.0020 | 0.0215 | better |
+| page_blocks | -10.1072 | 0.0020 | 0.0215 | better |
+
+**PACE vs DiCE random, r3** (higher is better): better 1, level 7, worse 3
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | -0.0358 | 0.2754 | 0.8262 | level |
+| S2 | -0.0683 | 0.0098 | 0.0586 | level |
+| S3 | +0.0933 | 0.0273 | 0.1094 | level |
+| wine | -0.1350 | 0.0020 | 0.0215 | worse |
+| breast_cancer | -0.2125 | 0.0020 | 0.0215 | worse |
+| thyroid | +0.0358 | 0.5078 | 0.8262 | level |
+| shuttle | +0.2125 | 0.0039 | 0.0312 | better |
+| magic | -0.0700 | 0.0098 | 0.0586 | level |
+| letter | -0.0150 | 0.3828 | 0.8262 | level |
+| landsat | -0.1175 | 0.0078 | 0.0547 | level |
+| page_blocks | -0.3083 | 0.0020 | 0.0215 | worse |
+
+**PACE-sparse vs DiCE random, r3** (higher is better): better 1, level 3, worse 7
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | -0.1375 | 0.0020 | 0.0215 | worse |
+| S2 | -0.1100 | 0.0020 | 0.0215 | worse |
+| S3 | -0.0675 | 0.0195 | 0.0586 | level |
+| wine | -0.1342 | 0.0020 | 0.0215 | worse |
+| breast_cancer | -0.0817 | 0.0020 | 0.0215 | worse |
+| thyroid | -0.0375 | 0.2070 | 0.4141 | level |
+| shuttle | +0.2108 | 0.0039 | 0.0215 | better |
+| magic | -0.1075 | 0.0020 | 0.0215 | worse |
+| letter | -0.0308 | 0.3203 | 0.4141 | level |
+| landsat | -0.1117 | 0.0020 | 0.0215 | worse |
+| page_blocks | -0.1800 | 0.0020 | 0.0215 | worse |
+
+## Validity: found and confirmed by the model (share of points), mean over points and seeds
+
+| Dataset | PACE | PACE-sparse | DiCE random | DiCE genetic | DiCE kdtree | Nearest unlike neighbour | Brute force |
+|---|---|---|---|---|---|---|---|
+| S1 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
+| S2 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
+| S3 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
+| wine | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 0.867 |
+| breast_cancer | 1.000 | 1.000 | 1.000 | 0.977 | 0.990 | 1.000 | 0.423 |
+| thyroid | 1.000 | 1.000 | 0.993 | 0.693 | 0.607 | 1.000 | 0.873 |
+| shuttle | 1.000 | 1.000 | 1.000 | 0.893 | 0.900 | 1.000 | 1.000 |
+| magic | 1.000 | 1.000 | 0.987 | 0.917 | 0.893 | 1.000 | 0.990 |
+| letter | 1.000 | 1.000 | 0.977 | 0.930 | 0.933 | 1.000 | 0.990 |
+| landsat | 1.000 | 1.000 | 0.987 | 0.893 | 0.880 | 1.000 | 0.740 |
+| page_blocks | 1.000 | 1.000 | 0.983 | 0.900 | 0.930 | 1.000 | 0.980 |
+
+## Features changed (of the found answers), mean over points and seeds
+
+| Dataset | PACE | PACE-sparse | DiCE random | DiCE genetic | DiCE kdtree | Nearest unlike neighbour | Brute force |
+|---|---|---|---|---|---|---|---|
+| S1 | 1.55 | 1.05 | 1.38 | 10.00 | 10.00 | 10.00 | 1.69 |
+| S2 | 1.63 | 1.06 | 1.38 | 10.00 | 10.00 | 10.00 | 1.63 |
+| S3 | 1.50 | 1.04 | 1.37 | 10.00 | 10.00 | 10.00 | 1.63 |
+| wine | 3.38 | 1.92 | 2.38 | 12.88 | 12.93 | 12.71 | 1.93 |
+| breast_cancer | 10.78 | 3.49 | 4.46 | 29.94 | 29.98 | 29.99 | 1.89 |
+| thyroid | 1.98 | 1.49 | 1.40 | 5.84 | 6.21 | 5.89 | 1.44 |
+| shuttle | 3.52 | 2.45 | 1.41 | 8.96 | 8.95 | 7.71 | 1.58 |
+| magic | 2.45 | 1.08 | 1.42 | 9.99 | 9.99 | 9.98 | 1.34 |
+| letter | 2.90 | 1.18 | 1.50 | 13.96 | 13.65 | 7.35 | 1.31 |
+| landsat | 11.27 | 2.87 | 3.62 | 33.88 | 33.57 | 31.21 | 1.61 |
+| page_blocks | 2.05 | 1.01 | 1.36 | 9.43 | 9.59 | 9.53 | 1.57 |
+
+## L1 distance (of the found answers), mean over points and seeds
+
+| Dataset | PACE | PACE-sparse | DiCE random | DiCE genetic | DiCE kdtree | Nearest unlike neighbour | Brute force |
+|---|---|---|---|---|---|---|---|
+| S1 | 0.398 | 0.239 | 0.436 | 1.352 | 1.432 | 1.422 | 0.202 |
+| S2 | 0.348 | 0.212 | 0.394 | 1.276 | 1.346 | 1.335 | 0.180 |
+| S3 | 0.380 | 0.226 | 0.393 | 1.326 | 1.405 | 1.392 | 0.191 |
+| wine | 0.689 | 0.592 | 0.791 | 1.975 | 2.032 | 1.888 | 0.526 |
+| breast_cancer | 1.413 | 1.209 | 1.704 | 2.969 | 3.031 | 2.760 | 0.357 |
+| thyroid | 0.154 | 0.123 | 0.248 | 0.363 | 0.704 | 0.476 | 0.257 |
+| shuttle | 0.128 | 0.116 | 0.271 | 0.466 | 0.437 | 0.259 | 0.160 |
+| magic | 0.245 | 0.111 | 0.319 | 0.415 | 0.398 | 0.306 | 0.059 |
+| letter | 0.229 | 0.124 | 0.328 | 0.860 | 0.783 | 0.753 | 0.148 |
+| landsat | 1.094 | 0.882 | 1.199 | 2.578 | 2.375 | 2.313 | 0.197 |
+| page_blocks | 0.249 | 0.098 | 0.304 | 0.730 | 0.598 | 0.256 | 0.129 |
+
+## Plausibility: L1 to the nearest training point of the target class, mean over points and seeds
+
+| Dataset | PACE | PACE-sparse | DiCE random | DiCE genetic | DiCE kdtree | Nearest unlike neighbour | Brute force |
+|---|---|---|---|---|---|---|---|
+| S1 | 1.155 | 1.284 | 1.215 | 0.337 | 0.000 | 0.000 | 1.337 |
+| S2 | 1.124 | 1.238 | 1.195 | 0.312 | 0.000 | 0.000 | 1.281 |
+| S3 | 1.127 | 1.253 | 1.236 | 0.366 | 0.000 | 0.000 | 1.312 |
+| wine | 1.278 | 1.572 | 1.622 | 0.221 | 0.001 | 0.000 | 1.561 |
+| breast_cancer | 1.824 | 2.689 | 3.108 | 0.290 | 0.270 | 0.075 | 1.988 |
+| thyroid | 0.280 | 0.306 | 0.499 | 0.154 | 0.003 | 0.004 | 0.299 |
+| shuttle | 0.157 | 0.177 | 0.299 | 0.043 | 0.018 | 0.005 | 0.217 |
+| magic | 0.250 | 0.282 | 0.437 | 0.142 | 0.138 | 0.158 | 0.277 |
+| letter | 0.748 | 0.797 | 0.960 | 0.456 | 0.531 | 0.345 | 0.835 |
+| landsat | 1.659 | 2.225 | 2.555 | 0.643 | 0.661 | 0.440 | 1.746 |
+| page_blocks | 0.221 | 0.296 | 0.468 | 0.163 | 0.115 | 0.144 | 0.258 |
+
+## Milliseconds per point, mean over points and seeds
+
+| Dataset | PACE | PACE-sparse | DiCE random | DiCE genetic | DiCE kdtree | Nearest unlike neighbour | Brute force |
+|---|---|---|---|---|---|---|---|
+| S1 | 3 | 56 | 7211 | 4374 | 126909 | 0 | 3332 |
+| S2 | 3 | 56 | 8871 | 4513 | 133990 | 0 | 3516 |
+| S3 | 3 | 56 | 7596 | 4313 | 129468 | 0 | 3533 |
+| wine | 2 | 21 | 2078 | 163 | 49691 | 0 | 184 |
+| breast_cancer | 4 | 1964 | 1089 | 307 | 100441 | 0 | 2105 |
+| thyroid | 1 | 7 | 881 | 2163 | 16199 | 0 | 106 |
+| shuttle | 3 | 6 | 1763 | 227207 | 22204 | 1 | 33 |
+| magic | 3 | 20 | 4129 | 2106 | 118352 | 1 | 652 |
+| letter | 13 | 49 | 13124 | 11406 | 231822 | 0 | 2152 |
+| landsat | 10 | 3993 | 13162 | 2304 | 569018 | 0 | 16371 |
+| page_blocks | 3 | 10 | 714 | 1147 | 34501 | 0 | 76 |
+
+## r1, input sensitivity (lower is steadier), mean over points and seeds
+
+| Dataset | PACE | PACE-sparse | DiCE random | DiCE genetic | DiCE kdtree | Nearest unlike neighbour | Brute force |
+|---|---|---|---|---|---|---|---|
+| S1 | 1.582 | 1.781 | 5.581 |  |  | 1.680 | 2.061 |
+| S2 | 1.571 | 1.813 | 5.374 |  |  | 1.713 | 1.900 |
+| S3 | 1.440 | 1.733 | 4.906 |  |  | 1.601 | 1.767 |
+| wine | 1.187 | 1.875 | 4.811 |  |  | 0.575 | 1.921 |
+| breast_cancer | 1.205 | 3.457 | 5.313 |  |  | 0.528 | 2.006 |
+| thyroid | 1.081 | 1.270 | 6.738 |  |  | 0.828 | 1.249 |
+| shuttle | 1.157 | 1.527 | 14.821 |  |  | 0.322 | 1.413 |
+| magic | 2.216 | 1.993 | 10.610 |  |  | 1.141 | 1.225 |
+| letter | 2.223 | 2.066 | 5.615 |  |  | 1.278 | 2.334 |
+| landsat | 1.442 | 2.298 | 3.821 |  |  | 0.743 | 1.490 |
+| page_blocks | 2.005 | 2.389 | 12.423 |  |  | 0.516 | 3.381 |
+
+## r2, share of 20 noisy copies of the answer still the target, mean over points and seeds
+
+| Dataset | PACE | PACE-sparse | DiCE random | DiCE genetic | DiCE kdtree | Nearest unlike neighbour | Brute force |
+|---|---|---|---|---|---|---|---|
+| S1 | 0.867 | 0.546 | 0.844 | 0.975 | 1.000 | 1.000 | 0.561 |
+| S2 | 0.864 | 0.529 | 0.823 | 0.976 | 0.995 | 0.995 | 0.552 |
+| S3 | 0.899 | 0.568 | 0.826 | 0.974 | 1.000 | 1.000 | 0.570 |
+| wine | 0.760 | 0.624 | 0.849 | 0.991 | 1.000 | 1.000 | 0.595 |
+| breast_cancer | 0.459 | 0.601 | 0.830 | 0.843 | 0.849 | 0.660 | 0.517 |
+| thyroid | 0.615 | 0.619 | 0.859 | 0.587 | 0.716 | 0.819 | 0.685 |
+| shuttle | 0.608 | 0.624 | 0.912 | 0.842 | 0.799 | 0.779 | 0.846 |
+| magic | 0.751 | 0.588 | 0.870 | 0.754 | 0.721 | 0.721 | 0.597 |
+| letter | 0.524 | 0.448 | 0.814 | 0.677 | 0.698 | 0.584 | 0.592 |
+| landsat | 0.436 | 0.529 | 0.762 | 0.705 | 0.642 | 0.612 | 0.511 |
+| page_blocks | 0.561 | 0.659 | 0.928 | 0.723 | 0.825 | 0.503 | 0.465 |
+
+## r3, share of 4 refitted models that confirm the answer, mean over points and seeds
+
+| Dataset | PACE | PACE-sparse | DiCE random | DiCE genetic | DiCE kdtree | Nearest unlike neighbour | Brute force |
+|---|---|---|---|---|---|---|---|
+| S1 | 0.432 | 0.330 | 0.468 | 0.899 | 1.000 | 1.000 | 0.247 |
+| S2 | 0.391 | 0.349 | 0.459 | 0.900 | 1.000 | 1.000 | 0.292 |
+| S3 | 0.548 | 0.388 | 0.455 | 0.924 | 1.000 | 1.000 | 0.277 |
+| wine | 0.275 | 0.276 | 0.410 | 0.989 | 1.000 | 1.000 | 0.293 |
+| breast_cancer | 0.171 | 0.302 | 0.383 | 0.789 | 0.783 | 0.846 | 0.272 |
+| thyroid | 0.493 | 0.420 | 0.458 | 0.594 | 0.771 | 0.662 | 0.518 |
+| shuttle | 0.978 | 0.976 | 0.765 | 0.856 | 0.821 | 0.990 | 0.490 |
+| magic | 0.431 | 0.393 | 0.501 | 0.562 | 0.525 | 0.426 | 0.382 |
+| letter | 0.269 | 0.253 | 0.284 | 0.524 | 0.492 | 0.497 | 0.228 |
+| landsat | 0.235 | 0.241 | 0.352 | 0.598 | 0.550 | 0.540 | 0.267 |
+| page_blocks | 0.278 | 0.406 | 0.586 | 0.541 | 0.686 | 0.320 | 0.196 |
+
+## r4, target margin at the answer, mean over points and seeds
+
+| Dataset | PACE | PACE-sparse | DiCE random | DiCE genetic | DiCE kdtree | Nearest unlike neighbour | Brute force |
+|---|---|---|---|---|---|---|---|
+| S1 | 0.043 | 0.004 | 0.028 | 0.129 | 0.161 | 0.164 | 0.006 |
+| S2 | 0.038 | 0.004 | 0.025 | 0.113 | 0.138 | 0.141 | 0.005 |
+| S3 | 0.049 | 0.006 | 0.029 | 0.122 | 0.156 | 0.158 | 0.007 |
+| wine | 0.019 | 0.004 | 0.018 | 0.145 | 0.167 | 0.146 | 0.003 |
+| breast_cancer | 0.002 | 0.002 | 0.008 | 0.016 | 0.016 | 0.016 | 0.001 |
+| thyroid | 0.001 | 0.001 | 0.006 | 0.000 | 0.001 | 0.001 | 0.001 |
+| shuttle | 0.000 | 0.001 | 0.021 | 0.009 | 0.005 | 0.001 | 0.005 |
+| magic | 0.000 | 0.001 | 0.009 | 0.002 | 0.002 | 0.001 | 0.000 |
+| letter | 0.002 | 0.001 | 0.009 | 0.008 | 0.007 | 0.007 | 0.005 |
+| landsat | 0.001 | 0.001 | 0.004 | 0.008 | 0.007 | 0.006 | 0.001 |
+| page_blocks | 0.001 | 0.003 | 0.016 | 0.006 | 0.006 | 0.001 | 0.000 |
+
+## Counts over all datasets and seeds
+
+```
+                          points  found   valid
+method                                         
+PACE                        3300   3300  3300.0
+PACE-sparse                 3300   3300  3300.0
+DiCE random                 3300   3300  3278.0
+DiCE genetic                3300   3278  3061.0
+DiCE kdtree                 3300   3224  3040.0
+Nearest unlike neighbour    3300   3300  3300.0
+Brute force                 3300   2959  2959.0
+```
+

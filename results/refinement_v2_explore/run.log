@@ -1,0 +1,1006 @@
+  letter seed 0 B0: macro-F1 74.25, labels 0, churn 0.00% (1s)
+  skin seed 2 B0: macro-F1 92.97, labels 0, churn 0.00% (1s)
+  skin seed 0 B0: macro-F1 83.85, labels 0, churn 0.00% (1s)
+  skin seed 1 B0: macro-F1 93.42, labels 0, churn 0.00% (1s)
+  letter seed 0 B9 refit, all pool labels: macro-F1 75.59, labels 4000, churn 11.10% (5s)
+  skin seed 2 B9 refit, all pool labels: macro-F1 94.93, labels 49011, churn 1.05% (18s)
+  skin seed 0 B9 refit, all pool labels: macro-F1 82.60, labels 49011, churn 1.35% (19s)
+  skin seed 1 B9 refit, all pool labels: macro-F1 94.26, labels 49011, churn 0.80% (19s)
+  letter seed 0 OE | A+B: macro-F1 75.09, labels 2300, churn 2.90% (589s)
+  skin seed 2 OE | A+B: macro-F1 94.24, labels 24806, churn 0.70% (799s)
+  skin seed 1 OE | A+B: macro-F1 93.47, labels 24806, churn 0.10% (817s)
+  skin seed 0 OE | A+B: macro-F1 83.85, labels 24806, churn 0.05% (819s)
+  letter seed 0 OE | A+B+C'-volume: macro-F1 76.70, labels 2300, churn 9.20% (665s)
+  skin seed 2 OE | A+B+C'-volume: macro-F1 99.15, labels 24806, churn 3.90% (682s)
+  skin seed 1 OE | A+B+C'-volume: macro-F1 99.14, labels 24806, churn 4.40% (695s)
+  skin seed 0 OE | A+B+C'-volume: macro-F1 98.66, labels 24806, churn 8.00% (714s)
+  letter seed 0 OE | A+B+C: macro-F1 75.89, labels 2300, churn 10.15% (499s)
+  skin seed 2 OE | A+B+C: macro-F1 98.87, labels 24806, churn 4.10% (619s)
+  skin seed 1 OE | A+B+C: macro-F1 99.23, labels 24806, churn 4.25% (626s)
+  skin seed 0 OE | A+B+C: macro-F1 98.19, labels 24806, churn 8.25% (653s)
+  letter seed 0 OE | A+B+C-fewest: macro-F1 75.73, labels 2300, churn 7.30% (469s)
+  skin seed 2 OE | A+B+C-fewest: macro-F1 99.12, labels 24806, churn 3.90% (608s)
+  letter seed 0 OE | A+B+C-paceshap: macro-F1 75.56, labels 2300, churn 8.55% (529s)
+  skin seed 1 OE | A+B+C-fewest: macro-F1 98.73, labels 24806, churn 3.75% (623s)
+  skin seed 0 OE | A+B+C-fewest: macro-F1 99.04, labels 24806, churn 7.95% (617s)
+  skin seed 2 OE | A+B+C-paceshap: macro-F1 99.29, labels 24806, churn 4.15% (624s)
+  skin seed 1 OE | A+B+C-paceshap: macro-F1 98.60, labels 24806, churn 4.10% (650s)
+  skin seed 0 OE | A+B+C-paceshap: macro-F1 97.50, labels 24806, churn 7.90% (661s)
+  skin seed 2 OE | A+B+C-oracle: macro-F1 99.63, labels 24806, churn 3.95% (661s)
+  skin seed 1 OE | A+B+C-oracle: macro-F1 99.14, labels 24806, churn 4.25% (702s)
+  skin seed 2 random | A+B+C'-volume: macro-F1 98.84, labels 24806, churn 3.45% (135s)
+  skin seed 0 OE | A+B+C-oracle: macro-F1 99.32, labels 24806, churn 8.30% (681s)
+  skin seed 1 random | A+B+C'-volume: macro-F1 96.18, labels 24806, churn 2.05% (163s)
+  skin seed 2 margin | A+B+C'-volume: macro-F1 98.91, labels 24806, churn 3.65% (158s)
+  skin seed 0 random | A+B+C'-volume: macro-F1 96.75, labels 24806, churn 6.70% (159s)
+  skin seed 1 margin | A+B+C'-volume: macro-F1 97.31, labels 24806, churn 4.10% (173s)
+  skin seed 2 knn | A+B+C'-volume: macro-F1 99.60, labels 24806, churn 4.00% (168s)
+  skin seed 0 margin | A+B+C'-volume: macro-F1 98.31, labels 24806, churn 8.25% (173s)
+  skin seed 2 oracle_errors | A+B+C'-volume: macro-F1 99.35, labels 24806, churn 4.10% (165s)
+  skin seed 2 kNN, train only: macro-F1 99.89, labels 0, churn 4.15% (1s)
+  skin seed 2 RF, train only: macro-F1 99.91, labels 0, churn 4.10% (10s)
+  skin seed 2 CFMNN refit, +bought: macro-F1 94.05, labels 300, churn 0.85% (9s)
+  skin seed 2 kNN, +bought: macro-F1 99.89, labels 300, churn 4.15% (1s)
+  skin seed 2 RF, +bought: macro-F1 99.93, labels 300, churn 4.10% (10s)
+  skin seed 1 knn | A+B+C'-volume: macro-F1 99.32, labels 24806, churn 4.35% (215s)
+  skin seed 2 CFMNN refit, +bought +acceptance: macro-F1 94.76, labels 24806, churn 0.90% (11s)
+  skin seed 2 kNN, +bought +acceptance: macro-F1 99.90, labels 24806, churn 4.15% (1s)
+  skin seed 2 RF, +bought +acceptance: macro-F1 99.93, labels 24806, churn 4.10% (13s)
+  skin seed 0 knn | A+B+C'-volume: macro-F1 99.44, labels 24806, churn 8.35% (211s)
+  skin seed 2 SR-300: macro-F1 99.00, labels 24506, churn 4.15% (16s)
+  skin seed 2 SR-300-train: macro-F1 99.00, labels 0, churn 4.15% (61s)
+  skin seed 2 SR-all: macro-F1 98.39, labels 24506, churn 4.40% (45s)
+  skin seed 1 oracle_errors | A+B+C'-volume: macro-F1 99.60, labels 24806, churn 4.40% (174s)
+  skin seed 1 kNN, train only: macro-F1 99.94, labels 0, churn 4.35% (1s)
+  skin seed 1 RF, train only: macro-F1 99.95, labels 0, churn 4.35% (9s)
+  skin seed 1 CFMNN refit, +bought: macro-F1 93.25, labels 300, churn 0.60% (10s)
+  skin seed 1 kNN, +bought: macro-F1 99.95, labels 300, churn 4.35% (1s)
+  skin seed 1 RF, +bought: macro-F1 99.96, labels 300, churn 4.35% (10s)
+  skin seed 1 CFMNN refit, +bought +acceptance: macro-F1 93.37, labels 24806, churn 0.45% (11s)
+  skin seed 1 kNN, +bought +acceptance: macro-F1 99.96, labels 24806, churn 4.30% (1s)
+  skin seed 1 RF, +bought +acceptance: macro-F1 99.96, labels 24806, churn 4.30% (11s)
+  skin seed 0 oracle_errors | A+B+C'-volume: macro-F1 98.74, labels 24806, churn 8.00% (218s)
+  skin seed 0 kNN, train only: macro-F1 99.87, labels 0, churn 8.70% (1s)
+  skin seed 0 RF, train only: macro-F1 99.93, labels 0, churn 8.75% (9s)
+  skin seed 0 CFMNN refit, +bought: macro-F1 83.44, labels 300, churn 0.30% (9s)
+  skin seed 0 kNN, +bought: macro-F1 99.87, labels 300, churn 8.70% (1s)
+  skin seed 0 RF, +bought: macro-F1 99.92, labels 300, churn 8.75% (9s)
+  skin seed 1 SR-300: macro-F1 98.51, labels 24506, churn 4.70% (39s)
+  skin seed 0 CFMNN refit, +bought +acceptance: macro-F1 78.73, labels 24806, churn 2.70% (11s)
+  skin seed 0 kNN, +bought +acceptance: macro-F1 99.91, labels 24806, churn 8.65% (1s)
+  skin seed 0 RF, +bought +acceptance: macro-F1 99.92, labels 24806, churn 8.70% (12s)
+  skin seed 0 SR-300: macro-F1 97.69, labels 24506, churn 8.10% (26s)
+  skin seed 0 SR-300-train: macro-F1 97.69, labels 0, churn 8.10% (106s)
+  skin seed 1 SR-300-train: macro-F1 99.11, labels 0, churn 4.65% (176s)
+  skin seed 0 SR-all: macro-F1 98.15, labels 24506, churn 8.60% (44s)
+  skin seed 1 SR-all: macro-F1 98.48, labels 24506, churn 5.00% (60s)
+  skin seed 2 SR-all + OE | A+B+C'-volume: macro-F1 99.49, labels 24806, churn 3.95% (618s)
+skin seed 2 done in 5494s
+  letter seed 1 B0: macro-F1 74.28, labels 0, churn 0.00% (1s)
+  letter seed 1 B9 refit, all pool labels: macro-F1 75.42, labels 4000, churn 10.05% (3s)
+  letter seed 0 OE | A+B+C-oracle: macro-F1 77.48, labels 2300, churn 13.30% (3018s)
+  skin seed 0 SR-all + OE | A+B+C'-volume: macro-F1 99.46, labels 24806, churn 8.50% (638s)
+skin seed 0 done in 5854s
+  letter seed 2 B0: macro-F1 74.32, labels 0, churn 0.00% (1s)
+  letter seed 2 B9 refit, all pool labels: macro-F1 75.42, labels 4000, churn 10.55% (3s)
+  skin seed 1 SR-all + OE | A+B+C'-volume: macro-F1 99.44, labels 24806, churn 4.40% (658s)
+skin seed 1 done in 5907s
+  magic seed 0 B0: macro-F1 71.17, labels 0, churn 0.00% (0s)
+  magic seed 0 B9 refit, all pool labels: macro-F1 71.65, labels 3804, churn 5.31% (2s)
+  letter seed 1 OE | A+B: macro-F1 74.93, labels 2300, churn 2.80% (448s)
+  magic seed 0 OE | A+B: macro-F1 71.73, labels 2202, churn 2.37% (176s)
+  letter seed 0 random | A+B+C'-volume: macro-F1 75.49, labels 2300, churn 4.05% (386s)
+  magic seed 0 OE | A+B+C'-volume: macro-F1 77.57, labels 2202, churn 15.46% (174s)
+  letter seed 2 OE | A+B: macro-F1 75.16, labels 2300, churn 2.70% (460s)
+  magic seed 0 OE | A+B+C: macro-F1 76.48, labels 2202, churn 22.66% (178s)
+  letter seed 1 OE | A+B+C'-volume: macro-F1 76.67, labels 2300, churn 8.85% (542s)
+  magic seed 0 OE | A+B+C-fewest: macro-F1 78.63, labels 2202, churn 14.77% (177s)
+  letter seed 0 margin | A+B+C'-volume: macro-F1 76.29, labels 2300, churn 6.45% (447s)
+  magic seed 0 OE | A+B+C-paceshap: macro-F1 78.56, labels 2202, churn 21.77% (184s)
+  letter seed 2 OE | A+B+C'-volume: macro-F1 77.18, labels 2300, churn 9.25% (536s)
+  letter seed 1 OE | A+B+C: macro-F1 77.15, labels 2300, churn 9.40% (570s)
+  letter seed 0 knn | A+B+C'-volume: macro-F1 77.17, labels 2300, churn 9.15% (508s)
+  magic seed 0 OE | A+B+C-oracle: macro-F1 78.84, labels 2202, churn 20.93% (462s)
+  magic seed 0 random | A+B+C'-volume: macro-F1 75.97, labels 2202, churn 13.09% (108s)
+  letter seed 2 OE | A+B+C: macro-F1 77.08, labels 2300, churn 10.30% (558s)
+  magic seed 0 margin | A+B+C'-volume: macro-F1 76.27, labels 2202, churn 15.56% (112s)
+  magic seed 0 knn | A+B+C'-volume: macro-F1 79.80, labels 2202, churn 19.87% (115s)
+  letter seed 1 OE | A+B+C-fewest: macro-F1 77.83, labels 2300, churn 8.40% (530s)
+  letter seed 0 oracle_errors | A+B+C'-volume: macro-F1 76.53, labels 2300, churn 10.70% (482s)
+  letter seed 0 kNN, train only: macro-F1 91.02, labels 0, churn 26.15% (0s)
+  letter seed 0 RF, train only: macro-F1 95.35, labels 0, churn 25.25% (2s)
+  letter seed 0 CFMNN refit, +bought: macro-F1 74.13, labels 300, churn 3.15% (3s)
+  letter seed 0 kNN, +bought: macro-F1 91.50, labels 300, churn 26.35% (0s)
+  letter seed 0 RF, +bought: macro-F1 95.29, labels 300, churn 25.20% (3s)
+  letter seed 0 CFMNN refit, +bought +acceptance: macro-F1 74.77, labels 2300, churn 7.00% (4s)
+  letter seed 0 kNN, +bought +acceptance: macro-F1 92.28, labels 2300, churn 26.30% (1s)
+  letter seed 0 RF, +bought +acceptance: macro-F1 96.23, labels 2300, churn 25.40% (3s)
+  magic seed 0 oracle_errors | A+B+C'-volume: macro-F1 75.49, labels 2202, churn 18.98% (112s)
+  magic seed 0 kNN, train only: macro-F1 78.70, labels 0, churn 27.44% (0s)
+  magic seed 0 RF, train only: macro-F1 85.61, labels 0, churn 26.45% (5s)
+  magic seed 0 CFMNN refit, +bought: macro-F1 71.18, labels 300, churn 2.52% (1s)
+  magic seed 0 kNN, +bought: macro-F1 78.86, labels 300, churn 27.81% (0s)
+  magic seed 0 RF, +bought: macro-F1 85.02, labels 300, churn 26.71% (5s)
+  magic seed 0 CFMNN refit, +bought +acceptance: macro-F1 72.69, labels 2202, churn 6.36% (2s)
+  magic seed 0 kNN, +bought +acceptance: macro-F1 79.47, labels 2202, churn 27.60% (0s)
+  magic seed 0 RF, +bought +acceptance: macro-F1 85.50, labels 2202, churn 26.50% (6s)
+  magic seed 0 SR-300: macro-F1 75.57, labels 1902, churn 21.19% (95s)
+  letter seed 0 SR-300: macro-F1 77.00, labels 2000, churn 8.60% (268s)
+  letter seed 2 OE | A+B+C-fewest: macro-F1 77.46, labels 2300, churn 7.40% (527s)
+  magic seed 0 SR-300-train: macro-F1 76.14, labels 0, churn 21.19% (264s)
+  letter seed 1 OE | A+B+C-paceshap: macro-F1 77.26, labels 2300, churn 9.30% (606s)
+  magic seed 0 SR-all: macro-F1 74.92, labels 1902, churn 27.55% (329s)
+  letter seed 2 OE | A+B+C-paceshap: macro-F1 77.16, labels 2300, churn 10.35% (593s)
+  magic seed 0 SR-all + OE | A+B+C'-volume: macro-F1 78.68, labels 2202, churn 24.19% (195s)
+magic seed 0 done in 2722s
+  magic seed 1 B0: macro-F1 74.30, labels 0, churn 0.00% (0s)
+  magic seed 1 B9 refit, all pool labels: macro-F1 74.97, labels 3804, churn 8.89% (1s)
+  magic seed 1 OE | A+B: macro-F1 73.98, labels 2202, churn 2.94% (173s)
+  letter seed 0 SR-300-train: macro-F1 77.21, labels 0, churn 10.35% (1000s)
+  magic seed 1 OE | A+B+C'-volume: macro-F1 76.97, labels 2202, churn 14.04% (172s)
+  magic seed 1 OE | A+B+C: macro-F1 76.27, labels 2202, churn 19.77% (175s)
+  magic seed 1 OE | A+B+C-fewest: macro-F1 76.86, labels 2202, churn 10.88% (175s)
+  magic seed 1 OE | A+B+C-paceshap: macro-F1 76.17, labels 2202, churn 17.51% (183s)
+  magic seed 1 OE | A+B+C-oracle: macro-F1 78.60, labels 2202, churn 17.09% (440s)
+  magic seed 1 random | A+B+C'-volume: macro-F1 74.20, labels 2202, churn 8.78% (109s)
+  magic seed 1 margin | A+B+C'-volume: macro-F1 74.62, labels 2202, churn 12.83% (112s)
+  letter seed 0 SR-all: macro-F1 77.80, labels 2000, churn 17.10% (1284s)
+  magic seed 1 knn | A+B+C'-volume: macro-F1 78.12, labels 2202, churn 14.14% (116s)
+  magic seed 1 oracle_errors | A+B+C'-volume: macro-F1 76.03, labels 2202, churn 18.35% (114s)
+  magic seed 1 kNN, train only: macro-F1 78.98, labels 0, churn 23.61% (0s)
+  magic seed 1 RF, train only: macro-F1 84.95, labels 0, churn 21.71% (5s)
+  magic seed 1 CFMNN refit, +bought: macro-F1 74.44, labels 300, churn 2.10% (1s)
+  magic seed 1 kNN, +bought: macro-F1 78.83, labels 300, churn 23.71% (0s)
+  magic seed 1 RF, +bought: macro-F1 84.75, labels 300, churn 21.19% (5s)
+  magic seed 1 CFMNN refit, +bought +acceptance: macro-F1 74.58, labels 2202, churn 6.10% (1s)
+  magic seed 1 kNN, +bought +acceptance: macro-F1 78.96, labels 2202, churn 23.03% (0s)
+  magic seed 1 RF, +bought +acceptance: macro-F1 85.31, labels 2202, churn 21.40% (6s)
+  magic seed 1 SR-300: macro-F1 75.02, labels 1902, churn 21.03% (108s)
+  letter seed 0 SR-all + OE | A+B+C'-volume: macro-F1 79.01, labels 2300, churn 17.70% (560s)
+letter seed 0 done in 10809s
+  magic seed 2 B0: macro-F1 74.51, labels 0, churn 0.00% (0s)
+  magic seed 2 B9 refit, all pool labels: macro-F1 75.14, labels 3804, churn 7.62% (2s)
+  magic seed 1 SR-300-train: macro-F1 75.13, labels 0, churn 21.45% (325s)
+  magic seed 2 OE | A+B: macro-F1 74.92, labels 2202, churn 3.79% (172s)
+  magic seed 2 OE | A+B+C'-volume: macro-F1 80.42, labels 2202, churn 13.99% (172s)
+  letter seed 1 OE | A+B+C-oracle: macro-F1 77.92, labels 2300, churn 15.45% (2937s)
+  magic seed 1 SR-all: macro-F1 71.65, labels 1902, churn 31.07% (364s)
+  magic seed 2 OE | A+B+C: macro-F1 77.73, labels 2202, churn 18.30% (173s)
+  magic seed 1 SR-all + OE | A+B+C'-volume: macro-F1 79.67, labels 2202, churn 22.56% (173s)
+magic seed 1 done in 2783s
+  landsat seed 0 B0: macro-F1 85.11, labels 0, churn 0.00% (0s)
+  landsat seed 0 B9 refit, all pool labels: macro-F1 85.23, labels 1287, churn 3.42% (1s)
+  letter seed 2 OE | A+B+C-oracle: macro-F1 78.54, labels 2300, churn 14.65% (2855s)
+  magic seed 2 OE | A+B+C-fewest: macro-F1 78.73, labels 2202, churn 12.15% (175s)
+  landsat seed 0 OE | A+B: macro-F1 85.57, labels 944, churn 3.11% (96s)
+  letter seed 1 random | A+B+C'-volume: macro-F1 75.60, labels 2300, churn 4.45% (346s)
+  landsat seed 0 OE | A+B+C'-volume: macro-F1 85.92, labels 944, churn 4.66% (92s)
+  magic seed 2 OE | A+B+C-paceshap: macro-F1 78.49, labels 2202, churn 17.98% (176s)
+  landsat seed 0 OE | A+B+C: macro-F1 83.37, labels 944, churn 6.99% (98s)
+  letter seed 2 random | A+B+C'-volume: macro-F1 75.20, labels 2300, churn 4.95% (357s)
+  landsat seed 0 OE | A+B+C-fewest: macro-F1 85.53, labels 944, churn 4.04% (96s)
+  landsat seed 0 OE | A+B+C-paceshap: macro-F1 83.83, labels 944, churn 8.39% (107s)
+  letter seed 1 margin | A+B+C'-volume: macro-F1 75.30, labels 2300, churn 5.10% (396s)
+  magic seed 2 OE | A+B+C-oracle: macro-F1 80.03, labels 2202, churn 16.77% (428s)
+  letter seed 2 margin | A+B+C'-volume: macro-F1 76.33, labels 2300, churn 7.75% (391s)
+  magic seed 2 random | A+B+C'-volume: macro-F1 75.56, labels 2202, churn 9.67% (108s)
+  magic seed 2 margin | A+B+C'-volume: macro-F1 74.33, labels 2202, churn 9.94% (115s)
+  letter seed 1 knn | A+B+C'-volume: macro-F1 77.26, labels 2300, churn 9.35% (443s)
+  landsat seed 0 OE | A+B+C-oracle: macro-F1 84.24, labels 944, churn 7.61% (537s)
+  magic seed 2 knn | A+B+C'-volume: macro-F1 78.79, labels 2202, churn 15.83% (115s)
+  landsat seed 0 random | A+B+C'-volume: macro-F1 84.43, labels 944, churn 2.64% (65s)
+  magic seed 2 oracle_errors | A+B+C'-volume: macro-F1 74.48, labels 2202, churn 18.40% (114s)
+  magic seed 2 kNN, train only: macro-F1 80.47, labels 0, churn 21.92% (0s)
+  magic seed 2 RF, train only: macro-F1 85.58, labels 0, churn 21.45% (5s)
+  landsat seed 0 margin | A+B+C'-volume: macro-F1 84.89, labels 944, churn 2.95% (69s)
+  magic seed 2 CFMNN refit, +bought: macro-F1 74.90, labels 300, churn 2.42% (2s)
+  magic seed 2 kNN, +bought: macro-F1 80.51, labels 300, churn 22.13% (0s)
+  magic seed 2 RF, +bought: macro-F1 86.62, labels 300, churn 21.24% (5s)
+  magic seed 2 CFMNN refit, +bought +acceptance: macro-F1 74.42, labels 2202, churn 5.73% (2s)
+  magic seed 2 kNN, +bought +acceptance: macro-F1 81.04, labels 2202, churn 22.50% (0s)
+  magic seed 2 RF, +bought +acceptance: macro-F1 86.75, labels 2202, churn 21.35% (7s)
+  letter seed 2 knn | A+B+C'-volume: macro-F1 77.84, labels 2300, churn 8.85% (454s)
+  landsat seed 0 knn | A+B+C'-volume: macro-F1 84.99, labels 944, churn 5.28% (67s)
+  magic seed 2 SR-300: macro-F1 75.99, labels 1902, churn 17.30% (105s)
+  landsat seed 0 oracle_errors | A+B+C'-volume: macro-F1 85.61, labels 944, churn 5.43% (74s)
+  landsat seed 0 kNN, train only: macro-F1 87.28, labels 0, churn 13.20% (0s)
+  landsat seed 0 RF, train only: macro-F1 90.71, labels 0, churn 11.49% (2s)
+  landsat seed 0 CFMNN refit, +bought: macro-F1 84.80, labels 300, churn 3.73% (1s)
+  landsat seed 0 kNN, +bought: macro-F1 88.12, labels 300, churn 12.89% (0s)
+  landsat seed 0 RF, +bought: macro-F1 90.71, labels 300, churn 9.78% (1s)
+  landsat seed 0 CFMNN refit, +bought +acceptance: macro-F1 85.09, labels 944, churn 4.19% (1s)
+  landsat seed 0 kNN, +bought +acceptance: macro-F1 88.78, labels 944, churn 11.96% (0s)
+  landsat seed 0 RF, +bought +acceptance: macro-F1 91.70, labels 944, churn 10.71% (2s)
+  landsat seed 0 SR-300: macro-F1 85.21, labels 644, churn 7.92% (38s)
+  letter seed 1 oracle_errors | A+B+C'-volume: macro-F1 77.36, labels 2300, churn 9.85% (451s)
+  letter seed 1 kNN, train only: macro-F1 91.82, labels 0, churn 25.45% (0s)
+  letter seed 1 RF, train only: macro-F1 94.79, labels 0, churn 24.70% (3s)
+  letter seed 1 CFMNN refit, +bought: macro-F1 74.63, labels 300, churn 3.30% (3s)
+  letter seed 1 kNN, +bought: macro-F1 92.10, labels 300, churn 25.50% (0s)
+  letter seed 1 RF, +bought: macro-F1 95.20, labels 300, churn 24.95% (3s)
+  letter seed 1 CFMNN refit, +bought +acceptance: macro-F1 74.86, labels 2300, churn 8.05% (4s)
+  letter seed 1 kNN, +bought +acceptance: macro-F1 92.46, labels 2300, churn 25.35% (1s)
+  letter seed 1 RF, +bought +acceptance: macro-F1 96.15, labels 2300, churn 24.80% (3s)
+  landsat seed 0 SR-300-train: macro-F1 85.01, labels 0, churn 7.30% (120s)
+  landsat seed 0 SR-all: macro-F1 85.21, labels 644, churn 7.92% (39s)
+  magic seed 2 SR-300-train: macro-F1 76.37, labels 0, churn 16.46% (290s)
+  landsat seed 0 SR-all + OE | A+B+C'-volume: macro-F1 84.83, labels 944, churn 5.75% (104s)
+landsat seed 0 done in 1623s
+  landsat seed 1 B0: macro-F1 81.41, labels 0, churn 0.00% (0s)
+  landsat seed 1 B9 refit, all pool labels: macro-F1 81.06, labels 1287, churn 3.73% (1s)
+  letter seed 2 oracle_errors | A+B+C'-volume: macro-F1 77.13, labels 2300, churn 9.65% (461s)
+  letter seed 2 kNN, train only: macro-F1 92.40, labels 0, churn 25.70% (0s)
+  letter seed 2 RF, train only: macro-F1 94.75, labels 0, churn 25.30% (3s)
+  letter seed 2 CFMNN refit, +bought: macro-F1 74.90, labels 300, churn 3.50% (2s)
+  letter seed 2 kNN, +bought: macro-F1 92.59, labels 300, churn 25.75% (0s)
+  letter seed 2 RF, +bought: macro-F1 95.45, labels 300, churn 24.85% (3s)
+  letter seed 2 CFMNN refit, +bought +acceptance: macro-F1 75.19, labels 2300, churn 8.75% (3s)
+  letter seed 2 kNN, +bought +acceptance: macro-F1 93.44, labels 2300, churn 25.40% (1s)
+  letter seed 2 RF, +bought +acceptance: macro-F1 95.83, labels 2300, churn 25.15% (3s)
+  landsat seed 1 OE | A+B: macro-F1 80.66, labels 944, churn 3.26% (91s)
+  letter seed 1 SR-300: macro-F1 75.78, labels 2000, churn 8.75% (376s)
+  landsat seed 1 OE | A+B+C'-volume: macro-F1 82.74, labels 944, churn 5.75% (103s)
+  landsat seed 1 OE | A+B+C: macro-F1 82.55, labels 944, churn 6.68% (101s)
+  magic seed 2 SR-all: macro-F1 70.93, labels 1902, churn 28.39% (402s)
+  landsat seed 1 OE | A+B+C-fewest: macro-F1 81.91, labels 944, churn 5.28% (95s)
+  landsat seed 1 OE | A+B+C-paceshap: macro-F1 81.83, labels 944, churn 6.83% (111s)
+  letter seed 2 SR-300: macro-F1 76.51, labels 2000, churn 8.65% (426s)
+  magic seed 2 SR-all + OE | A+B+C'-volume: macro-F1 75.08, labels 2202, churn 24.13% (187s)
+magic seed 2 done in 2774s
+  landsat seed 2 B0: macro-F1 81.49, labels 0, churn 0.00% (0s)
+  landsat seed 2 B9 refit, all pool labels: macro-F1 81.45, labels 1287, churn 5.75% (1s)
+  landsat seed 2 OE | A+B: macro-F1 80.67, labels 944, churn 3.57% (98s)
+  landsat seed 2 OE | A+B+C'-volume: macro-F1 81.06, labels 944, churn 7.76% (100s)
+  landsat seed 2 OE | A+B+C: macro-F1 83.52, labels 944, churn 8.85% (99s)
+  landsat seed 2 OE | A+B+C-fewest: macro-F1 82.61, labels 944, churn 5.59% (97s)
+  landsat seed 1 OE | A+B+C-oracle: macro-F1 83.28, labels 944, churn 5.75% (545s)
+  landsat seed 2 OE | A+B+C-paceshap: macro-F1 82.45, labels 944, churn 7.61% (112s)
+  landsat seed 1 random | A+B+C'-volume: macro-F1 82.71, labels 944, churn 4.66% (66s)
+  landsat seed 1 margin | A+B+C'-volume: macro-F1 83.15, labels 944, churn 4.35% (82s)
+  landsat seed 1 knn | A+B+C'-volume: macro-F1 83.34, labels 944, churn 5.28% (72s)
+  landsat seed 1 oracle_errors | A+B+C'-volume: macro-F1 82.77, labels 944, churn 5.75% (72s)
+  landsat seed 1 kNN, train only: macro-F1 86.67, labels 0, churn 13.20% (0s)
+  landsat seed 1 RF, train only: macro-F1 87.92, labels 0, churn 10.56% (1s)
+  landsat seed 1 CFMNN refit, +bought: macro-F1 80.96, labels 300, churn 2.95% (1s)
+  landsat seed 1 kNN, +bought: macro-F1 86.78, labels 300, churn 12.58% (0s)
+  landsat seed 1 RF, +bought: macro-F1 88.40, labels 300, churn 12.11% (2s)
+  landsat seed 1 CFMNN refit, +bought +acceptance: macro-F1 81.15, labels 944, churn 4.04% (1s)
+  landsat seed 1 kNN, +bought +acceptance: macro-F1 86.05, labels 944, churn 12.73% (0s)
+  landsat seed 1 RF, +bought +acceptance: macro-F1 88.17, labels 944, churn 12.11% (2s)
+  landsat seed 1 SR-300: macro-F1 83.15, labels 644, churn 6.21% (47s)
+  letter seed 1 SR-300-train: macro-F1 76.32, labels 0, churn 9.15% (1310s)
+  landsat seed 1 SR-300-train: macro-F1 83.46, labels 0, churn 5.75% (150s)
+  landsat seed 2 OE | A+B+C-oracle: macro-F1 84.40, labels 944, churn 9.63% (515s)
+  landsat seed 1 SR-all: macro-F1 83.49, labels 644, churn 6.06% (48s)
+  landsat seed 2 random | A+B+C'-volume: macro-F1 82.00, labels 944, churn 3.42% (66s)
+  landsat seed 1 SR-all + OE | A+B+C'-volume: macro-F1 81.94, labels 944, churn 6.99% (105s)
+landsat seed 1 done in 1709s
+  thyroid seed 0 B0: macro-F1 81.10, labels 0, churn 0.00% (0s)
+  thyroid seed 0 B9 refit, all pool labels: macro-F1 81.10, labels 1440, churn 0.56% (1s)
+  landsat seed 2 margin | A+B+C'-volume: macro-F1 81.71, labels 944, churn 4.97% (72s)
+  thyroid seed 0 OE | A+B: macro-F1 83.40, labels 1020, churn 0.69% (40s)
+  landsat seed 2 knn | A+B+C'-volume: macro-F1 81.49, labels 944, churn 5.59% (69s)
+  thyroid seed 0 OE | A+B+C'-volume: macro-F1 89.00, labels 1020, churn 1.94% (41s)
+  thyroid seed 0 OE | A+B+C: macro-F1 87.53, labels 1020, churn 2.22% (41s)
+  landsat seed 2 oracle_errors | A+B+C'-volume: macro-F1 82.86, labels 944, churn 5.43% (72s)
+  landsat seed 2 kNN, train only: macro-F1 85.43, labels 0, churn 15.84% (0s)
+  landsat seed 2 RF, train only: macro-F1 88.00, labels 0, churn 13.51% (1s)
+  landsat seed 2 CFMNN refit, +bought: macro-F1 81.94, labels 300, churn 4.50% (1s)
+  landsat seed 2 kNN, +bought: macro-F1 85.96, labels 300, churn 15.37% (0s)
+  landsat seed 2 RF, +bought: macro-F1 89.27, labels 300, churn 13.98% (1s)
+  landsat seed 2 CFMNN refit, +bought +acceptance: macro-F1 80.93, labels 944, churn 6.37% (1s)
+  landsat seed 2 kNN, +bought +acceptance: macro-F1 85.68, labels 944, churn 15.68% (0s)
+  landsat seed 2 RF, +bought +acceptance: macro-F1 89.17, labels 944, churn 13.98% (2s)
+  thyroid seed 0 OE | A+B+C-fewest: macro-F1 87.31, labels 1020, churn 1.39% (39s)
+  letter seed 2 SR-300-train: macro-F1 76.83, labels 0, churn 11.05% (1356s)
+  landsat seed 2 SR-300: macro-F1 82.19, labels 644, churn 7.30% (39s)
+  thyroid seed 0 OE | A+B+C-paceshap: macro-F1 87.47, labels 1020, churn 1.94% (39s)
+  thyroid seed 0 OE | A+B+C-oracle: macro-F1 89.00, labels 1020, churn 1.94% (54s)
+  thyroid seed 0 random | A+B+C'-volume: macro-F1 85.97, labels 1020, churn 1.25% (20s)
+  thyroid seed 0 margin | A+B+C'-volume: macro-F1 87.91, labels 1020, churn 1.94% (21s)
+  thyroid seed 0 knn | A+B+C'-volume: macro-F1 89.10, labels 1020, churn 1.67% (21s)
+  landsat seed 2 SR-300-train: macro-F1 83.03, labels 0, churn 6.83% (131s)
+  thyroid seed 0 oracle_errors | A+B+C'-volume: macro-F1 90.89, labels 1020, churn 2.22% (22s)
+  thyroid seed 0 kNN, train only: macro-F1 58.81, labels 0, churn 3.89% (0s)
+  thyroid seed 0 RF, train only: macro-F1 96.54, labels 0, churn 4.31% (1s)
+  thyroid seed 0 CFMNN refit, +bought: macro-F1 82.31, labels 300, churn 0.28% (0s)
+  thyroid seed 0 kNN, +bought: macro-F1 60.26, labels 300, churn 4.17% (0s)
+  thyroid seed 0 RF, +bought: macro-F1 97.04, labels 300, churn 4.17% (1s)
+  thyroid seed 0 CFMNN refit, +bought +acceptance: macro-F1 82.31, labels 1020, churn 0.28% (1s)
+  thyroid seed 0 kNN, +bought +acceptance: macro-F1 60.85, labels 1020, churn 3.89% (0s)
+  thyroid seed 0 RF, +bought +acceptance: macro-F1 97.04, labels 1020, churn 4.17% (1s)
+  thyroid seed 0 SR-300: macro-F1 90.01, labels 720, churn 2.08% (2s)
+  thyroid seed 0 SR-300-train: macro-F1 90.01, labels 0, churn 2.08% (5s)
+  thyroid seed 0 SR-all: macro-F1 90.01, labels 720, churn 2.08% (2s)
+  landsat seed 2 SR-all: macro-F1 81.69, labels 644, churn 8.23% (45s)
+  thyroid seed 0 SR-all + OE | A+B+C'-volume: macro-F1 89.84, labels 1020, churn 2.22% (40s)
+thyroid seed 0 done in 397s
+  thyroid seed 1 B0: macro-F1 86.20, labels 0, churn 0.00% (0s)
+  thyroid seed 1 B9 refit, all pool labels: macro-F1 86.99, labels 1440, churn 1.11% (1s)
+  thyroid seed 1 OE | A+B: macro-F1 88.85, labels 1020, churn 0.42% (38s)
+  landsat seed 2 SR-all + OE | A+B+C'-volume: macro-F1 82.15, labels 944, churn 7.61% (98s)
+landsat seed 2 done in 1634s
+  thyroid seed 2 B0: macro-F1 86.91, labels 0, churn 0.00% (0s)
+  thyroid seed 1 OE | A+B+C'-volume: macro-F1 93.11, labels 1020, churn 1.81% (37s)
+  thyroid seed 2 B9 refit, all pool labels: macro-F1 87.27, labels 1440, churn 0.69% (1s)
+  thyroid seed 1 OE | A+B+C: macro-F1 88.30, labels 1020, churn 2.08% (36s)
+  thyroid seed 2 OE | A+B: macro-F1 88.27, labels 1020, churn 0.42% (38s)
+  thyroid seed 1 OE | A+B+C-fewest: macro-F1 91.39, labels 1020, churn 0.97% (37s)
+  thyroid seed 2 OE | A+B+C'-volume: macro-F1 90.42, labels 1020, churn 0.97% (38s)
+  thyroid seed 1 OE | A+B+C-paceshap: macro-F1 94.27, labels 1020, churn 1.81% (36s)
+  thyroid seed 2 OE | A+B+C: macro-F1 87.87, labels 1020, churn 0.28% (38s)
+  thyroid seed 2 OE | A+B+C-fewest: macro-F1 88.96, labels 1020, churn 0.56% (38s)
+  thyroid seed 1 OE | A+B+C-oracle: macro-F1 91.93, labels 1020, churn 2.22% (47s)
+  thyroid seed 1 random | A+B+C'-volume: macro-F1 87.79, labels 1020, churn 0.69% (17s)
+  thyroid seed 2 OE | A+B+C-paceshap: macro-F1 89.49, labels 1020, churn 0.69% (38s)
+  thyroid seed 1 margin | A+B+C'-volume: macro-F1 91.82, labels 1020, churn 1.25% (19s)
+  thyroid seed 1 knn | A+B+C'-volume: macro-F1 92.01, labels 1020, churn 0.97% (19s)
+  thyroid seed 1 oracle_errors | A+B+C'-volume: macro-F1 94.80, labels 1020, churn 1.67% (19s)
+  thyroid seed 1 kNN, train only: macro-F1 53.58, labels 0, churn 5.42% (0s)
+  thyroid seed 1 RF, train only: macro-F1 97.58, labels 0, churn 3.06% (1s)
+  thyroid seed 1 CFMNN refit, +bought: macro-F1 87.07, labels 300, churn 0.56% (0s)
+  thyroid seed 1 kNN, +bought: macro-F1 58.30, labels 300, churn 5.42% (0s)
+  thyroid seed 1 RF, +bought: macro-F1 98.05, labels 300, churn 2.92% (1s)
+  thyroid seed 1 CFMNN refit, +bought +acceptance: macro-F1 83.74, labels 1020, churn 0.83% (0s)
+  thyroid seed 1 kNN, +bought +acceptance: macro-F1 58.30, labels 1020, churn 5.42% (0s)
+  thyroid seed 1 RF, +bought +acceptance: macro-F1 98.05, labels 1020, churn 2.92% (1s)
+  thyroid seed 1 SR-300: macro-F1 93.92, labels 720, churn 1.67% (1s)
+  thyroid seed 2 OE | A+B+C-oracle: macro-F1 89.90, labels 1020, churn 0.83% (48s)
+  thyroid seed 1 SR-300-train: macro-F1 93.92, labels 0, churn 1.67% (3s)
+  thyroid seed 1 SR-all: macro-F1 93.92, labels 720, churn 1.67% (1s)
+  thyroid seed 2 random | A+B+C'-volume: macro-F1 87.87, labels 1020, churn 0.28% (18s)
+  thyroid seed 2 margin | A+B+C'-volume: macro-F1 89.90, labels 1020, churn 0.83% (18s)
+  thyroid seed 1 SR-all + OE | A+B+C'-volume: macro-F1 94.19, labels 1020, churn 1.94% (37s)
+thyroid seed 1 done in 356s
+  page_blocks seed 0 B0: macro-F1 78.61, labels 0, churn 0.00% (0s)
+  page_blocks seed 0 B9 refit, all pool labels: macro-F1 77.14, labels 1094, churn 4.56% (0s)
+  thyroid seed 2 knn | A+B+C'-volume: macro-F1 87.30, labels 1020, churn 0.14% (19s)
+  page_blocks seed 0 OE | A+B: macro-F1 79.63, labels 821, churn 1.64% (19s)
+  thyroid seed 2 oracle_errors | A+B+C'-volume: macro-F1 89.90, labels 1020, churn 0.83% (17s)
+  thyroid seed 2 kNN, train only: macro-F1 51.24, labels 0, churn 5.97% (0s)
+  thyroid seed 2 RF, train only: macro-F1 97.59, labels 0, churn 2.50% (1s)
+  thyroid seed 2 CFMNN refit, +bought: macro-F1 86.85, labels 300, churn 0.56% (0s)
+  thyroid seed 2 kNN, +bought: macro-F1 54.89, labels 300, churn 5.69% (0s)
+  thyroid seed 2 RF, +bought: macro-F1 96.49, labels 300, churn 2.36% (1s)
+  thyroid seed 2 CFMNN refit, +bought +acceptance: macro-F1 86.28, labels 1020, churn 0.69% (0s)
+  thyroid seed 2 kNN, +bought +acceptance: macro-F1 59.33, labels 1020, churn 5.14% (0s)
+  thyroid seed 2 RF, +bought +acceptance: macro-F1 95.33, labels 1020, churn 2.22% (1s)
+  thyroid seed 2 SR-300: macro-F1 87.67, labels 720, churn 0.69% (1s)
+  thyroid seed 2 SR-300-train: macro-F1 89.09, labels 0, churn 0.56% (2s)
+  page_blocks seed 0 OE | A+B+C'-volume: macro-F1 81.37, labels 821, churn 1.82% (19s)
+  thyroid seed 2 SR-all: macro-F1 87.67, labels 720, churn 0.69% (1s)
+  page_blocks seed 0 OE | A+B+C: macro-F1 80.46, labels 821, churn 2.01% (20s)
+  thyroid seed 2 SR-all + OE | A+B+C'-volume: macro-F1 90.42, labels 1020, churn 0.97% (36s)
+thyroid seed 2 done in 358s
+  page_blocks seed 1 B0: macro-F1 74.53, labels 0, churn 0.00% (0s)
+  page_blocks seed 1 B9 refit, all pool labels: macro-F1 74.21, labels 1094, churn 1.46% (0s)
+  page_blocks seed 0 OE | A+B+C-fewest: macro-F1 81.06, labels 821, churn 4.74% (19s)
+  page_blocks seed 1 OE | A+B: macro-F1 72.07, labels 821, churn 1.64% (18s)
+  page_blocks seed 0 OE | A+B+C-paceshap: macro-F1 80.88, labels 821, churn 2.55% (19s)
+  page_blocks seed 1 OE | A+B+C'-volume: macro-F1 76.45, labels 821, churn 3.65% (19s)
+  page_blocks seed 0 OE | A+B+C-oracle: macro-F1 80.22, labels 821, churn 6.57% (25s)
+  page_blocks seed 0 random | A+B+C'-volume: macro-F1 80.15, labels 821, churn 1.09% (8s)
+  page_blocks seed 1 OE | A+B+C: macro-F1 78.29, labels 821, churn 2.74% (19s)
+  page_blocks seed 0 margin | A+B+C'-volume: macro-F1 81.30, labels 821, churn 2.37% (9s)
+  page_blocks seed 0 knn | A+B+C'-volume: macro-F1 82.38, labels 821, churn 2.92% (9s)
+  page_blocks seed 1 OE | A+B+C-fewest: macro-F1 81.55, labels 821, churn 5.84% (20s)
+  page_blocks seed 0 oracle_errors | A+B+C'-volume: macro-F1 81.69, labels 821, churn 2.01% (8s)
+  page_blocks seed 0 kNN, train only: macro-F1 52.59, labels 0, churn 7.48% (0s)
+  page_blocks seed 0 RF, train only: macro-F1 86.63, labels 0, churn 5.66% (1s)
+  page_blocks seed 0 CFMNN refit, +bought: macro-F1 76.57, labels 273, churn 4.74% (0s)
+  page_blocks seed 0 kNN, +bought: macro-F1 63.14, labels 273, churn 7.66% (0s)
+  page_blocks seed 0 RF, +bought: macro-F1 85.79, labels 273, churn 5.29% (1s)
+  page_blocks seed 0 CFMNN refit, +bought +acceptance: macro-F1 74.98, labels 821, churn 7.30% (0s)
+  page_blocks seed 0 kNN, +bought +acceptance: macro-F1 62.41, labels 821, churn 7.48% (0s)
+  page_blocks seed 0 RF, +bought +acceptance: macro-F1 86.18, labels 821, churn 5.47% (1s)
+  page_blocks seed 0 SR-300: macro-F1 77.02, labels 548, churn 3.28% (3s)
+  page_blocks seed 0 SR-300-train: macro-F1 77.43, labels 0, churn 2.01% (8s)
+  page_blocks seed 1 OE | A+B+C-paceshap: macro-F1 79.74, labels 821, churn 2.37% (20s)
+  page_blocks seed 0 SR-all: macro-F1 77.02, labels 548, churn 3.28% (3s)
+  page_blocks seed 0 SR-all + OE | A+B+C'-volume: macro-F1 78.03, labels 821, churn 4.01% (20s)
+page_blocks seed 0 done in 195s
+  page_blocks seed 2 B0: macro-F1 77.55, labels 0, churn 0.00% (0s)
+  page_blocks seed 2 B9 refit, all pool labels: macro-F1 60.62, labels 1094, churn 6.57% (0s)
+  page_blocks seed 1 OE | A+B+C-oracle: macro-F1 78.82, labels 821, churn 6.93% (25s)
+  page_blocks seed 1 random | A+B+C'-volume: macro-F1 77.54, labels 821, churn 1.64% (8s)
+  page_blocks seed 2 OE | A+B: macro-F1 73.70, labels 821, churn 1.64% (18s)
+  page_blocks seed 1 margin | A+B+C'-volume: macro-F1 78.50, labels 821, churn 4.93% (8s)
+  page_blocks seed 1 knn | A+B+C'-volume: macro-F1 76.45, labels 821, churn 3.65% (9s)
+  page_blocks seed 2 OE | A+B+C'-volume: macro-F1 76.59, labels 821, churn 6.20% (18s)
+  page_blocks seed 1 oracle_errors | A+B+C'-volume: macro-F1 77.93, labels 821, churn 3.65% (9s)
+  page_blocks seed 1 kNN, train only: macro-F1 66.35, labels 0, churn 7.30% (0s)
+  page_blocks seed 1 RF, train only: macro-F1 81.62, labels 0, churn 7.12% (1s)
+  page_blocks seed 1 CFMNN refit, +bought: macro-F1 72.32, labels 273, churn 1.46% (0s)
+  page_blocks seed 1 kNN, +bought: macro-F1 66.84, labels 273, churn 6.93% (0s)
+  page_blocks seed 1 RF, +bought: macro-F1 83.75, labels 273, churn 6.93% (1s)
+  page_blocks seed 1 CFMNN refit, +bought +acceptance: macro-F1 71.22, labels 821, churn 3.28% (0s)
+  page_blocks seed 1 kNN, +bought +acceptance: macro-F1 75.89, labels 821, churn 6.39% (0s)
+  page_blocks seed 1 RF, +bought +acceptance: macro-F1 81.77, labels 821, churn 6.93% (1s)
+  page_blocks seed 1 SR-300: macro-F1 77.65, labels 548, churn 6.39% (4s)
+  page_blocks seed 1 SR-300-train: macro-F1 74.32, labels 0, churn 4.93% (8s)
+  page_blocks seed 2 OE | A+B+C: macro-F1 79.22, labels 821, churn 5.66% (18s)
+  page_blocks seed 1 SR-all: macro-F1 77.65, labels 548, churn 6.39% (3s)
+  page_blocks seed 2 OE | A+B+C-fewest: macro-F1 82.06, labels 821, churn 5.29% (18s)
+  page_blocks seed 1 SR-all + OE | A+B+C'-volume: macro-F1 77.16, labels 821, churn 6.20% (18s)
+page_blocks seed 1 done in 194s
+  page_blocks seed 2 OE | A+B+C-paceshap: macro-F1 79.35, labels 821, churn 6.57% (17s)
+  page_blocks seed 2 OE | A+B+C-oracle: macro-F1 78.64, labels 821, churn 6.20% (21s)
+  page_blocks seed 2 random | A+B+C'-volume: macro-F1 77.90, labels 821, churn 3.83% (6s)
+  page_blocks seed 2 margin | A+B+C'-volume: macro-F1 73.79, labels 821, churn 7.85% (7s)
+  page_blocks seed 2 knn | A+B+C'-volume: macro-F1 72.74, labels 821, churn 6.20% (7s)
+  page_blocks seed 2 oracle_errors | A+B+C'-volume: macro-F1 75.16, labels 821, churn 6.39% (7s)
+  page_blocks seed 2 kNN, train only: macro-F1 59.76, labels 0, churn 5.84% (0s)
+  page_blocks seed 2 RF, train only: macro-F1 85.48, labels 0, churn 6.57% (1s)
+  page_blocks seed 2 CFMNN refit, +bought: macro-F1 71.90, labels 273, churn 2.74% (0s)
+  page_blocks seed 2 kNN, +bought: macro-F1 71.12, labels 273, churn 6.02% (0s)
+  page_blocks seed 2 RF, +bought: macro-F1 84.56, labels 273, churn 6.75% (1s)
+  page_blocks seed 2 CFMNN refit, +bought +acceptance: macro-F1 71.51, labels 821, churn 4.01% (0s)
+  page_blocks seed 2 kNN, +bought +acceptance: macro-F1 71.55, labels 821, churn 6.20% (0s)
+  page_blocks seed 2 RF, +bought +acceptance: macro-F1 84.27, labels 821, churn 6.93% (1s)
+  page_blocks seed 2 SR-300: macro-F1 76.53, labels 548, churn 7.30% (1s)
+  page_blocks seed 2 SR-300-train: macro-F1 81.34, labels 0, churn 1.82% (5s)
+  page_blocks seed 2 SR-all: macro-F1 76.53, labels 548, churn 7.30% (1s)
+  page_blocks seed 2 SR-all + OE | A+B+C'-volume: macro-F1 78.24, labels 821, churn 6.02% (17s)
+page_blocks seed 2 done in 167s
+  letter seed 1 SR-all: macro-F1 76.85, labels 2000, churn 17.05% (1516s)
+  letter seed 2 SR-all: macro-F1 78.47, labels 2000, churn 15.60% (1539s)
+  letter seed 1 SR-all + OE | A+B+C'-volume: macro-F1 77.98, labels 2300, churn 16.85% (466s)
+letter seed 1 done in 11032s
+  letter seed 2 SR-all + OE | A+B+C'-volume: macro-F1 79.46, labels 2300, churn 16.25% (419s)
+letter seed 2 done in 11029s
+# Refinement v2: exploratory checks E1–E4
+
+Seeds 0, 1, 2; descriptive only (means over seeds, no p-values). v1's split, budget (min(300, a quarter of the pool)), 10 rounds, gate and box cap. Written by `scripts/run_refinement_explore.py` from `runs.csv`.
+
+## Labels used beyond the training rows
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| B9 refit, all pool labels | 1,440 | 1,287 | 1,094 | 3,804 | 4,000 | 49,011 |
+| OE | A+B | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| OE | A+B+C'-volume | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| OE | A+B+C | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| OE | A+B+C-fewest | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| OE | A+B+C-paceshap | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| OE | A+B+C-oracle | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| random | A+B+C'-volume | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| margin | A+B+C'-volume | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| knn | A+B+C'-volume | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| oracle_errors | A+B+C'-volume | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| kNN, train only | 0 | 0 | 0 | 0 | 0 | 0 |
+| RF, train only | 0 | 0 | 0 | 0 | 0 | 0 |
+| CFMNN refit, +bought | 300 | 300 | 273 | 300 | 300 | 300 |
+| kNN, +bought | 300 | 300 | 273 | 300 | 300 | 300 |
+| RF, +bought | 300 | 300 | 273 | 300 | 300 | 300 |
+| CFMNN refit, +bought +acceptance | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| kNN, +bought +acceptance | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| RF, +bought +acceptance | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| SR-300 | 720 | 644 | 548 | 1,902 | 2,000 | 24,506 |
+| SR-300-train | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR-all | 720 | 644 | 548 | 1,902 | 2,000 | 24,506 |
+| SR-all + OE | A+B+C'-volume | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+
+## Test macro-F1 (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 84.7 | 82.7 | 76.9 | 73.3 | 74.3 | 90.1 |
+| B9 refit, all pool labels | 85.1 | 82.6 | 70.7 | 73.9 | 75.5 | 90.6 |
+| OE | A+B | 86.8 | 82.3 | 75.1 | 73.5 | 75.1 | 90.5 |
+| OE | A+B+C'-volume | 90.8 | 83.2 | 78.1 | 78.3 | 76.9 | 99.0 |
+| OE | A+B+C | 87.9 | 83.1 | 79.3 | 76.8 | 76.7 | 98.8 |
+| OE | A+B+C-fewest | 89.2 | 83.3 | 81.6 | 78.1 | 77.0 | 99.0 |
+| OE | A+B+C-paceshap | 90.4 | 82.7 | 80.0 | 77.7 | 76.7 | 98.5 |
+| OE | A+B+C-oracle | 90.3 | 84.0 | 79.2 | 79.2 | 78.0 | 99.4 |
+| random | A+B+C'-volume | 87.2 | 83.0 | 78.5 | 75.2 | 75.4 | 97.3 |
+| margin | A+B+C'-volume | 89.9 | 83.3 | 77.9 | 75.1 | 76.0 | 98.2 |
+| knn | A+B+C'-volume | 89.5 | 83.3 | 77.2 | 78.9 | 77.4 | 99.5 |
+| oracle_errors | A+B+C'-volume | 91.9 | 83.7 | 78.3 | 75.3 | 77.0 | 99.2 |
+| kNN, train only | 54.5 | 86.5 | 59.6 | 79.4 | 91.7 | 99.9 |
+| RF, train only | 97.2 | 88.9 | 84.6 | 85.4 | 95.0 | 99.9 |
+| CFMNN refit, +bought | 85.4 | 82.6 | 73.6 | 73.5 | 74.6 | 90.2 |
+| kNN, +bought | 57.8 | 87.0 | 67.0 | 79.4 | 92.1 | 99.9 |
+| RF, +bought | 97.2 | 89.5 | 84.7 | 85.5 | 95.3 | 99.9 |
+| CFMNN refit, +bought +acceptance | 84.1 | 82.4 | 72.6 | 73.9 | 74.9 | 89.0 |
+| kNN, +bought +acceptance | 59.5 | 86.8 | 69.9 | 79.8 | 92.7 | 99.9 |
+| RF, +bought +acceptance | 96.8 | 89.7 | 84.1 | 85.9 | 96.1 | 99.9 |
+| SR-300 | 90.5 | 83.5 | 77.1 | 75.5 | 76.4 | 98.4 |
+| SR-300-train | 91.0 | 83.8 | 77.7 | 75.9 | 76.8 | 98.6 |
+| SR-all | 90.5 | 83.5 | 77.1 | 72.5 | 77.7 | 98.3 |
+| SR-all + OE | A+B+C'-volume | 91.5 | 83.0 | 77.8 | 77.8 | 78.8 | 99.5 |
+
+## Change in test macro-F1 against B0 (points)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B9 refit, all pool labels | +0.38 | -0.09 | -6.24 | +0.59 | +1.19 | +0.51 |
+| OE | A+B | +2.11 | -0.37 | -1.77 | +0.22 | +0.78 | +0.43 |
+| OE | A+B+C'-volume | +6.11 | +0.57 | +1.24 | +4.99 | +2.57 | +8.90 |
+| OE | A+B+C | +3.17 | +0.47 | +2.42 | +3.50 | +2.42 | +8.68 |
+| OE | A+B+C-fewest | +4.48 | +0.68 | +4.66 | +4.75 | +2.72 | +8.88 |
+| OE | A+B+C-paceshap | +5.67 | +0.03 | +3.09 | +4.41 | +2.38 | +8.38 |
+| OE | A+B+C-oracle | +5.54 | +1.31 | +2.33 | +5.83 | +3.70 | +9.28 |
+| random | A+B+C'-volume | +2.47 | +0.38 | +1.63 | +1.92 | +1.15 | +7.17 |
+| margin | A+B+C'-volume | +5.14 | +0.58 | +0.96 | +1.75 | +1.69 | +8.09 |
+| knn | A+B+C'-volume | +4.73 | +0.60 | +0.29 | +5.58 | +3.14 | +9.37 |
+| oracle_errors | A+B+C'-volume | +7.13 | +1.08 | +1.36 | +2.00 | +2.72 | +9.14 |
+| kNN, train only | -30.19 | +3.79 | -17.33 | +6.05 | +17.46 | +9.82 |
+| RF, train only | +12.50 | +6.20 | +7.68 | +12.05 | +20.68 | +9.85 |
+| CFMNN refit, +bought | +0.68 | -0.10 | -3.30 | +0.18 | +0.27 | +0.16 |
+| kNN, +bought | -26.92 | +4.28 | -9.86 | +6.07 | +17.78 | +9.82 |
+| RF, +bought | +12.46 | +6.79 | +7.80 | +12.14 | +21.03 | +9.85 |
+| CFMNN refit, +bought +acceptance | -0.62 | -0.28 | -4.33 | +0.57 | +0.66 | -1.13 |
+| kNN, +bought +acceptance | -25.24 | +4.17 | -6.95 | +6.50 | +18.44 | +9.84 |
+| RF, +bought +acceptance | +12.07 | +7.01 | +7.18 | +12.52 | +21.79 | +9.85 |
+| SR-300 | +5.80 | +0.85 | +0.17 | +2.20 | +2.15 | +8.31 |
+| SR-300-train | +6.27 | +1.16 | +0.80 | +2.55 | +2.50 | +8.51 |
+| SR-all | +5.80 | +0.79 | +0.17 | -0.83 | +3.42 | +8.25 |
+| SR-all + OE | A+B+C'-volume | +6.75 | +0.30 | +0.91 | +4.48 | +4.53 | +9.38 |
+
+## Lowest class recall (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 61.1 | 58.7 | 58.9 | 71.7 | 44.1 | 73.9 |
+| B9 refit, all pool labels | 59.0 | 56.1 | 60.1 | 72.7 | 47.9 | 75.5 |
+| OE | A+B | 63.9 | 55.0 | 58.9 | 72.2 | 45.7 | 75.0 |
+| OE | A+B+C'-volume | 76.9 | 55.6 | 51.5 | 73.4 | 48.3 | 97.9 |
+| OE | A+B+C | 74.6 | 58.2 | 59.8 | 70.5 | 52.7 | 97.5 |
+| OE | A+B+C-fewest | 69.4 | 55.6 | 57.9 | 73.0 | 53.6 | 97.7 |
+| OE | A+B+C-paceshap | 76.9 | 54.0 | 60.1 | 69.3 | 46.4 | 96.8 |
+| OE | A+B+C-oracle | 75.6 | 56.1 | 44.2 | 73.3 | 53.1 | 98.7 |
+| random | A+B+C'-volume | 68.5 | 58.2 | 54.3 | 70.6 | 44.6 | 93.4 |
+| margin | A+B+C'-volume | 76.9 | 57.7 | 44.2 | 69.8 | 50.5 | 95.3 |
+| knn | A+B+C'-volume | 72.2 | 60.3 | 54.3 | 66.1 | 53.2 | 99.2 |
+| oracle_errors | A+B+C'-volume | 80.6 | 61.9 | 54.3 | 69.6 | 51.8 | 98.4 |
+| kNN, train only | 2.7 | 61.9 | 6.1 | 59.9 | 80.5 | 99.9 |
+| RF, train only | 96.9 | 64.6 | 52.5 | 75.1 | 85.8 | 99.9 |
+| CFMNN refit, +bought | 60.9 | 53.4 | 62.6 | 71.8 | 43.7 | 74.4 |
+| kNN, +bought | 6.4 | 66.1 | 29.0 | 59.9 | 80.1 | 99.9 |
+| RF, +bought | 95.0 | 67.7 | 55.6 | 75.1 | 87.8 | 99.9 |
+| CFMNN refit, +bought +acceptance | 58.1 | 54.0 | 62.6 | 72.5 | 46.6 | 71.9 |
+| kNN, +bought +acceptance | 9.1 | 64.6 | 32.1 | 60.2 | 82.1 | 99.9 |
+| RF, +bought +acceptance | 92.9 | 66.1 | 55.6 | 75.5 | 88.5 | 99.9 |
+| SR-300 | 78.5 | 58.2 | 45.5 | 67.8 | 50.3 | 96.2 |
+| SR-300-train | 80.6 | 60.3 | 64.6 | 68.3 | 50.7 | 96.7 |
+| SR-all | 78.5 | 59.3 | 45.5 | 69.4 | 56.1 | 95.4 |
+| SR-all + OE | A+B+C'-volume | 80.6 | 58.2 | 48.2 | 70.0 | 55.7 | 99.1 |
+
+## E1: self-repair
+
+### Training error at the end (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| SR-300 | 0.3 | 7.3 | 5.5 | 19.6 | 18.6 | 1.0 |
+| SR-300-train | 0.3 | 6.4 | 6.2 | 19.8 | 17.5 | 0.9 |
+| SR-all | 0.3 | 7.2 | 5.5 | 23.6 | 15.5 | 1.1 |
+| SR-all + OE | A+B+C'-volume | 0.5 | 7.6 | 5.2 | 18.5 | 15.2 | 0.4 |
+| OE | A+B+C'-volume | 0.7 | 8.6 | 5.3 | 18.9 | 19.0 | 0.7 |
+| B0 | 1.6 | 9.2 | 6.9 | 22.9 | 21.2 | 5.8 |
+
+### Accepted shrinks
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| SR-300 | 14 | 150 | 18 | 203 | 152 | 36 |
+| SR-300-train | 14 | 162 | 11 | 206 | 194 | 36 |
+| SR-all | 14 | 156 | 18 | 782 | 642 | 74 |
+
+## E2: which feature to cut
+
+### Accepted shrinks
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B+C | 15 | 61 | 12 | 157 | 106 | 55 |
+| OE | A+B+C'-volume | 14 | 73 | 12 | 171 | 125 | 70 |
+| OE | A+B+C-fewest | 23 | 80 | 25 | 171 | 155 | 69 |
+| OE | A+B+C-paceshap | 15 | 52 | 16 | 158 | 104 | 62 |
+| OE | A+B+C-oracle | 15 | 85 | 24 | 153 | 178 | 54 |
+
+### Mean share of the box's width cut
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B+C | 0.218 | 0.278 | 0.160 | 0.270 | 0.216 | 0.192 |
+| OE | A+B+C'-volume | 0.001 | 0.043 | 0.011 | 0.067 | 0.005 | 0.093 |
+| OE | A+B+C-fewest | 0.128 | 0.115 | 0.124 | 0.119 | 0.045 | 0.144 |
+| OE | A+B+C-paceshap | 0.331 | 0.270 | 0.210 | 0.262 | 0.196 | 0.190 |
+| OE | A+B+C-oracle | 0.075 | 0.157 | 0.092 | 0.209 | 0.138 | 0.150 |
+
+### Mean training members cut
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B+C | 31 | 5 | 29 | 21 | 8 | 102 |
+| OE | A+B+C'-volume | 125 | 3 | 12 | 7 | 4 | 85 |
+| OE | A+B+C-fewest | 3 | 2 | 5 | 4 | 2 | 64 |
+| OE | A+B+C-paceshap | 86 | 7 | 26 | 19 | 7 | 91 |
+| OE | A+B+C-oracle | 116 | 5 | 6 | 22 | 8 | 102 |
+
+## E3: which points to buy
+
+### Share of bought points the model got wrong (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| random | A+B+C'-volume | 2.8 | 14.1 | 7.4 | 23.2 | 25.9 | 2.7 |
+| margin | A+B+C'-volume | 5.0 | 33.3 | 12.8 | 27.3 | 41.4 | 8.7 |
+| OE | A+B+C'-volume | 10.3 | 47.6 | 22.1 | 65.2 | 88.3 | 35.1 |
+| knn | A+B+C'-volume | 7.4 | 54.6 | 25.5 | 69.1 | 98.7 | 57.8 |
+| oracle_errors | A+B+C'-volume | 11.0 | 68.7 | 29.7 | 94.8 | 98.6 | 62.4 |
+
+## E4: auditability
+
+Audit rows: a fixed sample of at most 2,000 test rows. Churn is against B0.
+
+### Predictions changed (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B9 refit, all pool labels | 0.79 | 4.30 | 4.20 | 7.27 | 10.57 | 1.07 |
+| OE | A+B | 0.51 | 3.31 | 1.64 | 3.03 | 2.80 | 0.28 |
+| OE | A+B+C'-volume | 1.57 | 6.06 | 3.89 | 14.49 | 9.10 | 5.43 |
+| OE | A+B+C | 1.53 | 7.51 | 3.47 | 20.24 | 9.95 | 5.53 |
+| OE | A+B+C-fewest | 0.97 | 4.97 | 5.29 | 12.60 | 7.70 | 5.20 |
+| OE | A+B+C-paceshap | 1.48 | 7.61 | 3.83 | 19.09 | 9.40 | 5.38 |
+| OE | A+B+C-oracle | 1.67 | 7.66 | 6.57 | 18.26 | 14.47 | 5.50 |
+| random | A+B+C'-volume | 0.74 | 3.57 | 2.19 | 10.52 | 4.48 | 4.07 |
+| margin | A+B+C'-volume | 1.34 | 4.09 | 5.05 | 12.78 | 6.43 | 5.33 |
+| knn | A+B+C'-volume | 0.93 | 5.38 | 4.26 | 16.61 | 9.12 | 5.57 |
+| oracle_errors | A+B+C'-volume | 1.57 | 5.54 | 4.01 | 18.58 | 10.07 | 5.50 |
+| kNN, train only | 5.09 | 14.08 | 6.87 | 24.33 | 25.77 | 5.73 |
+| RF, train only | 3.29 | 11.85 | 6.45 | 23.20 | 25.08 | 5.73 |
+| CFMNN refit, +bought | 0.46 | 3.73 | 2.98 | 2.35 | 3.32 | 0.58 |
+| kNN, +bought | 5.09 | 13.61 | 6.87 | 24.55 | 25.87 | 5.73 |
+| RF, +bought | 3.15 | 11.96 | 6.33 | 23.05 | 25.00 | 5.73 |
+| CFMNN refit, +bought +acceptance | 0.60 | 4.87 | 4.87 | 6.06 | 7.93 | 1.35 |
+| kNN, +bought +acceptance | 4.81 | 13.46 | 6.69 | 24.38 | 25.68 | 5.70 |
+| RF, +bought +acceptance | 3.10 | 12.27 | 6.45 | 23.08 | 25.12 | 5.70 |
+| SR-300 | 1.48 | 7.14 | 5.66 | 19.84 | 8.67 | 5.65 |
+| SR-300-train | 1.44 | 6.63 | 2.92 | 19.70 | 10.18 | 5.63 |
+| SR-all | 1.48 | 7.40 | 5.66 | 29.00 | 16.58 | 6.00 |
+| SR-all + OE | A+B+C'-volume | 1.71 | 6.78 | 5.41 | 23.62 | 16.93 | 5.62 |
+
+### Predictions fixed (wrong → right)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B9 refit, all pool labels | 4 | 13 | 4 | 74 | 84 | 13 |
+| OE | A+B | 3 | 10 | 3 | 31 | 26 | 5 |
+| OE | A+B+C'-volume | 10 | 21 | 14 | 188 | 91 | 107 |
+| OE | A+B+C | 8 | 25 | 14 | 230 | 89 | 106 |
+| OE | A+B+C-fewest | 7 | 18 | 20 | 168 | 77 | 102 |
+| OE | A+B+C-paceshap | 9 | 24 | 15 | 230 | 86 | 102 |
+| OE | A+B+C-oracle | 10 | 27 | 24 | 232 | 137 | 109 |
+| random | A+B+C'-volume | 4 | 12 | 9 | 122 | 41 | 79 |
+| margin | A+B+C'-volume | 9 | 15 | 18 | 142 | 62 | 99 |
+| knn | A+B+C'-volume | 6 | 18 | 15 | 221 | 96 | 110 |
+| oracle_errors | A+B+C'-volume | 11 | 20 | 15 | 200 | 100 | 108 |
+| kNN, train only | 7 | 55 | 22 | 307 | 392 | 114 |
+| RF, train only | 21 | 56 | 28 | 337 | 431 | 114 |
+| CFMNN refit, +bought | 2 | 12 | 2 | 24 | 25 | 8 |
+| kNN, +bought | 7 | 54 | 23 | 309 | 397 | 114 |
+| RF, +bought | 21 | 58 | 28 | 337 | 433 | 114 |
+| CFMNN refit, +bought +acceptance | 2 | 15 | 3 | 62 | 60 | 10 |
+| kNN, +bought +acceptance | 7 | 54 | 24 | 311 | 404 | 114 |
+| RF, +bought +acceptance | 21 | 60 | 28 | 340 | 447 | 114 |
+| SR-300 | 10 | 24 | 16 | 216 | 76 | 103 |
+| SR-300-train | 10 | 24 | 6 | 218 | 88 | 104 |
+| SR-all | 10 | 24 | 16 | 271 | 150 | 106 |
+| SR-all + OE | A+B+C'-volume | 11 | 22 | 18 | 273 | 164 | 110 |
+
+### Predictions broken (right → wrong)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B9 refit, all pool labels | 2 | 12 | 17 | 65 | 60 | 8 |
+| OE | A+B | 0 | 10 | 6 | 27 | 11 | 1 |
+| OE | A+B+C'-volume | 1 | 16 | 6 | 88 | 40 | 2 |
+| OE | A+B+C | 3 | 21 | 5 | 155 | 42 | 4 |
+| OE | A+B+C-fewest | 0 | 11 | 7 | 72 | 24 | 2 |
+| OE | A+B+C-paceshap | 1 | 23 | 6 | 133 | 39 | 6 |
+| OE | A+B+C-oracle | 2 | 18 | 11 | 115 | 66 | 1 |
+| random | A+B+C'-volume | 1 | 9 | 3 | 78 | 18 | 3 |
+| margin | A+B+C'-volume | 1 | 11 | 8 | 101 | 28 | 8 |
+| knn | A+B+C'-volume | 0 | 15 | 7 | 95 | 35 | 2 |
+| oracle_errors | A+B+C'-volume | 1 | 14 | 7 | 153 | 47 | 2 |
+| kNN, train only | 29 | 31 | 15 | 156 | 48 | 1 |
+| RF, train only | 2 | 18 | 7 | 104 | 23 | 1 |
+| CFMNN refit, +bought | 1 | 10 | 14 | 21 | 19 | 4 |
+| kNN, +bought | 29 | 28 | 13 | 158 | 46 | 1 |
+| RF, +bought | 2 | 16 | 6 | 102 | 18 | 1 |
+| CFMNN refit, +bought +acceptance | 2 | 14 | 23 | 53 | 46 | 17 |
+| kNN, +bought +acceptance | 27 | 28 | 12 | 152 | 41 | 0 |
+| RF, +bought +acceptance | 2 | 16 | 7 | 99 | 16 | 0 |
+| SR-300 | 1 | 19 | 12 | 161 | 34 | 10 |
+| SR-300-train | 1 | 17 | 7 | 157 | 39 | 9 |
+| SR-all | 1 | 20 | 12 | 281 | 84 | 14 |
+| SR-all + OE | A+B+C'-volume | 1 | 19 | 10 | 177 | 75 | 2 |
+
+### E4, tight certificate
+
+### Changes outside it (must be 0)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 0 | 0 | 0 | 0 | 0 | 0 |
+| OE | A+B+C'-volume | 0 | 0 | 0 | 0 | 0 | 0 |
+| OE | A+B+C | 0 | 0 | 0 | 0 | 0 | 0 |
+| OE | A+B+C-fewest | 0 | 0 | 0 | 0 | 0 | 0 |
+| OE | A+B+C-paceshap | 0 | 0 | 0 | 0 | 0 | 0 |
+| OE | A+B+C-oracle | 0 | 0 | 0 | 0 | 0 | 0 |
+| random | A+B+C'-volume | 0 | 0 | 0 | 0 | 0 | 0 |
+| margin | A+B+C'-volume | 0 | 0 | 0 | 0 | 0 | 0 |
+| knn | A+B+C'-volume | 0 | 0 | 0 | 0 | 0 | 0 |
+| oracle_errors | A+B+C'-volume | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR-300 | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR-300-train | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR-all | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR-all + OE | A+B+C'-volume | 0 | 0 | 0 | 0 | 0 | 0 |
+
+### Size per edit (% of audit rows)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 1.61 | 3.08 | 35.95 | 14.83 | 1.49 | 7.86 |
+| OE | A+B+C'-volume | 1.31 | 3.07 | 30.71 | 15.08 | 1.96 | 6.66 |
+| OE | A+B+C | 1.57 | 3.04 | 29.06 | 12.48 | 1.99 | 6.31 |
+| OE | A+B+C-fewest | 1.17 | 3.12 | 21.78 | 15.19 | 2.09 | 5.50 |
+| OE | A+B+C-paceshap | 1.20 | 2.69 | 26.94 | 11.98 | 1.82 | 5.65 |
+| OE | A+B+C-oracle | 1.23 | 2.66 | 24.24 | 11.02 | 2.16 | 5.54 |
+| random | A+B+C'-volume | 0.90 | 2.07 | 31.41 | 14.25 | 1.36 | 2.07 |
+| margin | A+B+C'-volume | 1.67 | 4.03 | 26.43 | 17.09 | 1.86 | 8.75 |
+| knn | A+B+C'-volume | 1.39 | 2.72 | 23.44 | 14.66 | 2.09 | 6.46 |
+| oracle_errors | A+B+C'-volume | 1.21 | 2.64 | 25.81 | 14.27 | 1.91 | 6.20 |
+| SR-300 | 1.07 | 2.19 | 9.61 | 7.77 | 1.37 | 3.49 |
+| SR-300-train | 1.06 | 2.39 | 10.38 | 7.79 | 1.44 | 3.48 |
+| SR-all | 1.07 | 2.17 | 9.61 | 4.10 | 1.11 | 3.11 |
+| SR-all + OE | A+B+C'-volume | 1.28 | 2.01 | 16.63 | 3.61 | 1.12 | 3.35 |
+
+### Precision: changed rows / certified rows, over all edits (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 0.2 | 0.7 | 0.0 | 0.1 | 1.0 | 0.0 |
+| OE | A+B+C'-volume | 0.7 | 1.6 | 0.1 | 0.8 | 2.6 | 0.4 |
+| OE | A+B+C | 0.6 | 2.3 | 0.1 | 1.8 | 2.9 | 0.5 |
+| OE | A+B+C-fewest | 0.5 | 1.3 | 0.2 | 0.6 | 2.1 | 0.5 |
+| OE | A+B+C-paceshap | 0.9 | 2.4 | 0.2 | 1.7 | 2.8 | 0.6 |
+| OE | A+B+C-oracle | 0.8 | 3.3 | 0.2 | 1.4 | 4.4 | 0.4 |
+| random | A+B+C'-volume | 0.6 | 1.1 | 0.1 | 0.5 | 1.5 | 0.7 |
+| margin | A+B+C'-volume | 0.4 | 1.0 | 0.1 | 0.5 | 1.6 | 0.3 |
+| knn | A+B+C'-volume | 0.5 | 1.7 | 0.2 | 0.9 | 2.6 | 0.6 |
+| oracle_errors | A+B+C'-volume | 0.7 | 2.4 | 0.2 | 1.5 | 2.9 | 0.7 |
+| SR-300 | 9.4 | 4.6 | 5.8 | 2.8 | 5.5 | 6.3 |
+| SR-300-train | 9.0 | 4.3 | 3.7 | 2.7 | 5.4 | 6.3 |
+| SR-all | 9.4 | 4.7 | 5.8 | 3.7 | 5.0 | 3.6 |
+| SR-all + OE | A+B+C'-volume | 0.8 | 3.2 | 0.3 | 4.0 | 4.4 | 1.0 |
+
+### Rows some edit could have changed (% of audit rows)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 4.9 | 22.9 | 59.5 | 72.6 | 46.9 | 21.9 |
+| OE | A+B+C'-volume | 5.0 | 23.4 | 58.0 | 73.9 | 49.8 | 22.0 |
+| OE | A+B+C | 5.2 | 23.7 | 55.9 | 74.7 | 49.8 | 22.1 |
+| OE | A+B+C-fewest | 5.0 | 23.1 | 53.6 | 73.7 | 50.2 | 22.0 |
+| OE | A+B+C-paceshap | 5.5 | 23.8 | 51.3 | 74.5 | 49.6 | 22.1 |
+| OE | A+B+C-oracle | 5.0 | 23.7 | 57.5 | 74.6 | 50.3 | 22.0 |
+| random | A+B+C'-volume | 4.7 | 22.1 | 46.0 | 72.5 | 48.1 | 21.9 |
+| margin | A+B+C'-volume | 4.6 | 21.9 | 41.9 | 72.0 | 49.1 | 21.9 |
+| knn | A+B+C'-volume | 4.8 | 23.1 | 50.1 | 73.3 | 50.0 | 22.1 |
+| oracle_errors | A+B+C'-volume | 4.9 | 24.0 | 49.6 | 74.2 | 50.2 | 22.1 |
+| SR-300 | 4.4 | 21.9 | 41.1 | 73.0 | 45.1 | 21.6 |
+| SR-300-train | 4.4 | 21.8 | 33.2 | 73.0 | 47.0 | 21.6 |
+| SR-all | 4.4 | 22.1 | 41.1 | 75.2 | 50.7 | 21.7 |
+| SR-all + OE | A+B+C'-volume | 5.0 | 24.0 | 44.7 | 76.1 | 51.4 | 22.0 |
+
+### Explained rows outside it (of 100)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 94 | 76 | 41 | 33 | 52 | 76 |
+| OE | A+B+C'-volume | 94 | 75 | 45 | 32 | 51 | 76 |
+| OE | A+B+C | 94 | 75 | 47 | 30 | 49 | 76 |
+| OE | A+B+C-fewest | 94 | 75 | 52 | 32 | 49 | 76 |
+| OE | A+B+C-paceshap | 94 | 75 | 52 | 30 | 49 | 76 |
+| OE | A+B+C-oracle | 94 | 76 | 45 | 29 | 50 | 76 |
+| random | A+B+C'-volume | 94 | 76 | 58 | 32 | 54 | 76 |
+| margin | A+B+C'-volume | 94 | 76 | 63 | 34 | 51 | 76 |
+| knn | A+B+C'-volume | 94 | 76 | 54 | 33 | 51 | 76 |
+| oracle_errors | A+B+C'-volume | 94 | 74 | 56 | 31 | 52 | 76 |
+| SR-300 | 94 | 77 | 64 | 32 | 55 | 76 |
+| SR-300-train | 94 | 77 | 71 | 32 | 52 | 76 |
+| SR-all | 94 | 77 | 64 | 29 | 51 | 76 |
+| SR-all + OE | A+B+C'-volume | 94 | 76 | 60 | 27 | 49 | 76 |
+
+### PACE-flip top-3 changed on those rows (share)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 0.10 | 0.29 | 0.28 | 0.11 | 0.09 | 0.00 |
+| OE | A+B+C'-volume | 0.19 | 0.35 | 0.32 | 0.39 | 0.22 | 0.00 |
+| OE | A+B+C | 0.28 | 0.43 | 0.55 | 0.55 | 0.28 | 0.00 |
+| OE | A+B+C-fewest | 0.17 | 0.34 | 0.57 | 0.38 | 0.14 | 0.00 |
+| OE | A+B+C-paceshap | 0.36 | 0.39 | 0.46 | 0.49 | 0.21 | 0.00 |
+| OE | A+B+C-oracle | 0.25 | 0.41 | 0.59 | 0.50 | 0.26 | 0.00 |
+| random | A+B+C'-volume | 0.14 | 0.23 | 0.14 | 0.18 | 0.08 | 0.00 |
+| margin | A+B+C'-volume | 0.21 | 0.22 | 0.07 | 0.23 | 0.09 | 0.00 |
+| knn | A+B+C'-volume | 0.17 | 0.49 | 0.26 | 0.41 | 0.21 | 0.00 |
+| oracle_errors | A+B+C'-volume | 0.28 | 0.41 | 0.39 | 0.36 | 0.22 | 0.00 |
+| SR-300 | 0.32 | 0.23 | 0.23 | 0.29 | 0.13 | 0.00 |
+| SR-300-train | 0.32 | 0.22 | 0.10 | 0.30 | 0.16 | 0.00 |
+| SR-all | 0.32 | 0.23 | 0.23 | 0.63 | 0.29 | 0.00 |
+| SR-all + OE | A+B+C'-volume | 0.25 | 0.41 | 0.48 | 0.61 | 0.31 | 0.00 |
+
+### E4, box-level certificate
+
+### Changes outside it (must be 0)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 0 | 0 | 0 | 0 | 0 | 0 |
+| OE | A+B+C'-volume | 0 | 0 | 0 | 0 | 0 | 0 |
+| OE | A+B+C | 0 | 0 | 0 | 0 | 0 | 0 |
+| OE | A+B+C-fewest | 0 | 0 | 0 | 0 | 0 | 0 |
+| OE | A+B+C-paceshap | 0 | 0 | 0 | 0 | 0 | 0 |
+| OE | A+B+C-oracle | 0 | 0 | 0 | 0 | 0 | 0 |
+| random | A+B+C'-volume | 0 | 0 | 0 | 0 | 0 | 0 |
+| margin | A+B+C'-volume | 0 | 0 | 0 | 0 | 0 | 0 |
+| knn | A+B+C'-volume | 0 | 0 | 0 | 0 | 0 | 0 |
+| oracle_errors | A+B+C'-volume | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR-300 | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR-300-train | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR-all | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR-all + OE | A+B+C'-volume | 0 | 0 | 0 | 0 | 0 | 0 |
+
+### Size per edit (% of audit rows)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 29.54 | 4.77 | 62.96 | 15.69 | 1.66 | 9.83 |
+| OE | A+B+C'-volume | 26.52 | 5.30 | 60.75 | 16.85 | 2.20 | 7.95 |
+| OE | A+B+C | 29.70 | 5.28 | 60.76 | 14.66 | 2.23 | 8.09 |
+| OE | A+B+C-fewest | 31.93 | 5.27 | 61.75 | 16.89 | 2.36 | 7.56 |
+| OE | A+B+C-paceshap | 24.55 | 4.81 | 62.11 | 14.33 | 2.04 | 7.43 |
+| OE | A+B+C-oracle | 25.68 | 4.94 | 61.33 | 12.99 | 2.43 | 7.21 |
+| random | A+B+C'-volume | 37.77 | 5.40 | 72.07 | 15.90 | 1.77 | 21.06 |
+| margin | A+B+C'-volume | 39.45 | 7.31 | 71.93 | 19.13 | 2.13 | 9.66 |
+| knn | A+B+C'-volume | 32.12 | 4.69 | 53.74 | 17.20 | 2.37 | 7.87 |
+| oracle_errors | A+B+C'-volume | 37.24 | 5.23 | 65.69 | 16.12 | 2.17 | 7.64 |
+| SR-300 | 23.22 | 4.07 | 16.32 | 8.57 | 1.55 | 3.95 |
+| SR-300-train | 23.31 | 4.13 | 19.48 | 8.61 | 1.62 | 3.94 |
+| SR-all | 23.22 | 4.04 | 16.32 | 5.42 | 1.28 | 3.66 |
+| SR-all + OE | A+B+C'-volume | 23.34 | 4.02 | 56.70 | 5.61 | 1.31 | 5.56 |
+
+### Precision: changed rows / certified rows, over all edits (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 0.0 | 0.5 | 0.0 | 0.1 | 0.9 | 0.0 |
+| OE | A+B+C'-volume | 0.0 | 0.9 | 0.1 | 0.7 | 2.3 | 0.4 |
+| OE | A+B+C | 0.0 | 1.3 | 0.1 | 1.5 | 2.6 | 0.4 |
+| OE | A+B+C-fewest | 0.0 | 0.8 | 0.1 | 0.5 | 1.9 | 0.4 |
+| OE | A+B+C-paceshap | 0.0 | 1.3 | 0.1 | 1.4 | 2.5 | 0.4 |
+| OE | A+B+C-oracle | 0.0 | 1.8 | 0.1 | 1.2 | 3.9 | 0.3 |
+| random | A+B+C'-volume | 0.0 | 0.4 | 0.0 | 0.4 | 1.1 | 0.1 |
+| margin | A+B+C'-volume | 0.0 | 0.6 | 0.0 | 0.4 | 1.4 | 0.2 |
+| knn | A+B+C'-volume | 0.0 | 1.0 | 0.1 | 0.7 | 2.3 | 0.5 |
+| oracle_errors | A+B+C'-volume | 0.0 | 1.2 | 0.1 | 1.4 | 2.6 | 0.5 |
+| SR-300 | 0.4 | 2.5 | 3.6 | 2.5 | 4.9 | 5.6 |
+| SR-300-train | 0.4 | 2.5 | 2.3 | 2.5 | 4.8 | 5.6 |
+| SR-all | 0.4 | 2.5 | 3.6 | 2.8 | 4.3 | 3.0 |
+| SR-all + OE | A+B+C'-volume | 0.0 | 1.6 | 0.1 | 2.6 | 3.8 | 0.6 |
+
+### Rows some edit could have changed (% of audit rows)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 98.8 | 64.1 | 98.8 | 88.6 | 66.4 | 49.6 |
+| OE | A+B+C'-volume | 98.6 | 68.2 | 99.0 | 91.0 | 75.4 | 60.7 |
+| OE | A+B+C | 99.1 | 67.6 | 98.8 | 91.0 | 76.9 | 57.0 |
+| OE | A+B+C-fewest | 98.7 | 68.4 | 99.1 | 91.0 | 77.2 | 56.2 |
+| OE | A+B+C-paceshap | 99.2 | 69.8 | 98.9 | 91.3 | 74.8 | 56.0 |
+| OE | A+B+C-oracle | 99.4 | 70.1 | 98.7 | 91.0 | 74.9 | 48.3 |
+| random | A+B+C'-volume | 98.4 | 87.8 | 99.1 | 90.9 | 82.9 | 97.7 |
+| margin | A+B+C'-volume | 94.8 | 65.2 | 97.1 | 88.6 | 78.2 | 42.2 |
+| knn | A+B+C'-volume | 96.7 | 72.4 | 99.5 | 90.7 | 77.8 | 46.2 |
+| oracle_errors | A+B+C'-volume | 98.8 | 86.9 | 99.3 | 90.9 | 77.5 | 58.1 |
+| SR-300 | 86.3 | 71.1 | 79.1 | 89.6 | 62.1 | 25.9 |
+| SR-300-train | 86.1 | 70.5 | 69.4 | 89.6 | 66.2 | 25.9 |
+| SR-all | 86.3 | 71.1 | 79.1 | 92.2 | 84.4 | 28.3 |
+| SR-all + OE | A+B+C'-volume | 99.0 | 77.8 | 98.5 | 93.3 | 88.8 | 45.1 |
+
+### Explained rows outside it (of 100)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 1 | 37 | 2 | 11 | 33 | 52 |
+| OE | A+B+C'-volume | 1 | 34 | 2 | 8 | 24 | 38 |
+| OE | A+B+C | 0 | 34 | 2 | 8 | 23 | 43 |
+| OE | A+B+C-fewest | 1 | 32 | 2 | 9 | 23 | 43 |
+| OE | A+B+C-paceshap | 1 | 32 | 2 | 8 | 23 | 44 |
+| OE | A+B+C-oracle | 0 | 30 | 2 | 9 | 25 | 49 |
+| random | A+B+C'-volume | 1 | 14 | 1 | 10 | 17 | 2 |
+| margin | A+B+C'-volume | 6 | 36 | 3 | 12 | 20 | 56 |
+| knn | A+B+C'-volume | 3 | 27 | 1 | 9 | 22 | 51 |
+| oracle_errors | A+B+C'-volume | 1 | 13 | 1 | 10 | 26 | 41 |
+| SR-300 | 13 | 29 | 25 | 11 | 36 | 72 |
+| SR-300-train | 13 | 29 | 33 | 11 | 31 | 72 |
+| SR-all | 13 | 29 | 25 | 7 | 14 | 68 |
+| SR-all + OE | A+B+C'-volume | 1 | 22 | 2 | 5 | 10 | 55 |
+
+### PACE-flip top-3 changed on those rows (share)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 0.00 | 0.15 | 0.00 | 0.07 | 0.08 | 0.00 |
+| OE | A+B+C'-volume | 0.00 | 0.11 | 0.00 | 0.25 | 0.15 | 0.00 |
+| OE | A+B+C | 0.00 | 0.16 | 0.00 | 0.23 | 0.15 | 0.00 |
+| OE | A+B+C-fewest | 0.00 | 0.16 | 0.00 | 0.21 | 0.07 | 0.00 |
+| OE | A+B+C-paceshap | 0.00 | 0.22 | 0.10 | 0.33 | 0.13 | 0.00 |
+| OE | A+B+C-oracle | 0.00 | 0.14 | 0.00 | 0.26 | 0.13 | 0.00 |
+| random | A+B+C'-volume | 0.00 | 0.11 | 0.00 | 0.04 | 0.04 | 0.00 |
+| margin | A+B+C'-volume | 0.00 | 0.10 | 0.00 | 0.04 | 0.07 | 0.00 |
+| knn | A+B+C'-volume | 0.00 | 0.36 | 0.00 | 0.19 | 0.12 | 0.00 |
+| oracle_errors | A+B+C'-volume | 0.00 | 0.31 | 0.00 | 0.10 | 0.14 | 0.00 |
+| SR-300 | 0.04 | 0.09 | 0.04 | 0.04 | 0.07 | 0.00 |
+| SR-300-train | 0.05 | 0.09 | 0.00 | 0.04 | 0.08 | 0.00 |
+| SR-all | 0.04 | 0.09 | 0.04 | 0.28 | 0.17 | 0.00 |
+| SR-all + OE | A+B+C'-volume | 0.00 | 0.16 | 0.00 | 0.17 | 0.28 | 0.00 |
+
+### Audit rows whose prediction one edit changed (mean)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| OE | A+B | 0.03 | 0.14 | 0.08 | 0.30 | 0.28 | 0.02 |
+| OE | A+B+C'-volume | 0.06 | 0.32 | 0.15 | 2.35 | 1.02 | 0.60 |
+| OE | A+B+C | 0.06 | 0.46 | 0.17 | 4.26 | 1.15 | 0.66 |
+| OE | A+B+C-fewest | 0.04 | 0.27 | 0.23 | 1.68 | 0.87 | 0.53 |
+| OE | A+B+C-paceshap | 0.07 | 0.41 | 0.22 | 3.83 | 1.02 | 0.65 |
+| OE | A+B+C-oracle | 0.07 | 0.57 | 0.32 | 3.01 | 1.89 | 0.49 |
+| random | A+B+C'-volume | 0.03 | 0.15 | 0.09 | 1.28 | 0.40 | 0.28 |
+| margin | A+B+C'-volume | 0.04 | 0.27 | 0.13 | 1.49 | 0.58 | 0.43 |
+| knn | A+B+C'-volume | 0.04 | 0.29 | 0.21 | 2.43 | 1.08 | 0.81 |
+| oracle_errors | A+B+C'-volume | 0.05 | 0.40 | 0.20 | 4.20 | 1.12 | 0.81 |
+| SR-300 | 0.72 | 0.65 | 2.63 | 4.08 | 1.51 | 4.59 |
+| SR-300-train | 0.68 | 0.65 | 1.90 | 4.07 | 1.56 | 4.60 |
+| SR-all | 0.72 | 0.65 | 2.63 | 2.86 | 1.11 | 2.24 |
+| SR-all + OE | A+B+C'-volume | 0.07 | 0.42 | 0.30 | 2.73 | 0.99 | 0.64 |
+
+### PACE-flip top-3 changed, all 100 explained rows (share)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B9 refit, all pool labels | 0.15 | 0.61 | 0.57 | 0.46 | 0.48 | 0.00 |
+| OE | A+B | 0.10 | 0.40 | 0.41 | 0.18 | 0.18 | 0.00 |
+| OE | A+B+C'-volume | 0.23 | 0.47 | 0.45 | 0.67 | 0.39 | 0.00 |
+| OE | A+B+C | 0.30 | 0.55 | 0.61 | 0.79 | 0.46 | 0.00 |
+| OE | A+B+C-fewest | 0.20 | 0.48 | 0.69 | 0.60 | 0.37 | 0.00 |
+| OE | A+B+C-paceshap | 0.39 | 0.51 | 0.57 | 0.78 | 0.43 | 0.00 |
+| OE | A+B+C-oracle | 0.28 | 0.53 | 0.70 | 0.75 | 0.50 | 0.00 |
+| random | A+B+C'-volume | 0.17 | 0.35 | 0.24 | 0.50 | 0.22 | 0.00 |
+| margin | A+B+C'-volume | 0.23 | 0.36 | 0.26 | 0.53 | 0.26 | 0.00 |
+| knn | A+B+C'-volume | 0.19 | 0.57 | 0.43 | 0.72 | 0.38 | 0.00 |
+| oracle_errors | A+B+C'-volume | 0.31 | 0.54 | 0.52 | 0.69 | 0.36 | 0.00 |
+| CFMNN refit, +bought | 0.10 | 0.43 | 0.46 | 0.18 | 0.21 | 0.00 |
+| CFMNN refit, +bought +acceptance | 0.21 | 0.62 | 0.59 | 0.45 | 0.43 | 0.00 |
+| SR-300 | 0.34 | 0.39 | 0.39 | 0.70 | 0.34 | 0.00 |
+| SR-300-train | 0.35 | 0.38 | 0.25 | 0.69 | 0.38 | 0.00 |
+| SR-all | 0.34 | 0.40 | 0.39 | 0.87 | 0.57 | 0.00 |
+| SR-all + OE | A+B+C'-volume | 0.28 | 0.54 | 0.61 | 0.82 | 0.57 | 0.00 |
+
+### kNN and RF: predictions changed against the same learner on train only (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| kNN, +bought | 0.60 | 2.12 | 0.97 | 0.89 | 1.38 | 0.00 |
+| RF, +bought | 0.14 | 2.59 | 0.73 | 2.37 | 2.42 | 0.00 |
+| kNN, +bought +acceptance | 0.93 | 3.11 | 1.22 | 2.93 | 3.88 | 0.03 |
+| RF, +bought +acceptance | 0.19 | 2.85 | 0.67 | 2.65 | 2.87 | 0.03 |
+
+
+exit 0

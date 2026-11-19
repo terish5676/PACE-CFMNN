@@ -1,0 +1,301 @@
+skin seed 0: errors 1775 inner errors 2253 AUPRC LR all 0.998 LR kNN+TS 1.000 kNN 0.999 (183s)
+skin seed 1: errors 859 inner errors 1021 AUPRC LR all 0.999 LR kNN+TS 0.999 kNN 0.999 (186s)
+skin seed 2: errors 815 inner errors 1037 AUPRC LR all 0.998 LR kNN+TS 0.997 kNN 0.998 (199s)
+skin seed 3: errors 333 inner errors 437 AUPRC LR all 0.991 LR kNN+TS 0.989 kNN 0.993 (203s)
+skin seed 4: errors 691 inner errors 878 AUPRC LR all 0.997 LR kNN+TS 0.997 kNN 0.992 (152s)
+skin seed 5: errors 837 inner errors 1070 AUPRC LR all 0.999 LR kNN+TS 0.993 kNN 0.995 (146s)
+skin seed 7: errors 744 inner errors 975 AUPRC LR all 0.997 LR kNN+TS 0.997 kNN 0.993 (131s)
+skin seed 6: errors 1083 inner errors 1199 AUPRC LR all 0.996 LR kNN+TS 0.998 kNN 0.994 (132s)
+skin seed 8: errors 294 inner errors 347 AUPRC LR all 0.997 LR kNN+TS 0.996 kNN 0.989 (178s)
+skin seed 9: errors 761 inner errors 920 AUPRC LR all 0.996 LR kNN+TS 0.996 kNN 0.993 (195s)
+letter seed 0: errors 2056 inner errors 534 AUPRC LR all 0.986 LR kNN+TS 0.984 kNN 0.972 (605s)
+letter seed 1: errors 2155 inner errors 546 AUPRC LR all 0.987 LR kNN+TS 0.984 kNN 0.972 (600s)
+letter seed 2: errors 2156 inner errors 550 AUPRC LR all 0.984 LR kNN+TS 0.982 kNN 0.970 (356s)
+letter seed 3: errors 2154 inner errors 543 AUPRC LR all 0.983 LR kNN+TS 0.981 kNN 0.968 (372s)
+letter seed 4: errors 2112 inner errors 528 AUPRC LR all 0.987 LR kNN+TS 0.985 kNN 0.973 (347s)
+letter seed 5: errors 2125 inner errors 520 AUPRC LR all 0.985 LR kNN+TS 0.983 kNN 0.968 (349s)
+letter seed 6: errors 2117 inner errors 522 AUPRC LR all 0.986 LR kNN+TS 0.983 kNN 0.971 (396s)
+letter seed 7: errors 2182 inner errors 526 AUPRC LR all 0.988 LR kNN+TS 0.986 kNN 0.976 (395s)
+letter seed 8: errors 2155 inner errors 511 AUPRC LR all 0.987 LR kNN+TS 0.986 kNN 0.972 (389s)
+letter seed 9: errors 2022 inner errors 507 AUPRC LR all 0.984 LR kNN+TS 0.982 kNN 0.965 (368s)
+magic seed 0: errors 2121 inner errors 564 AUPRC LR all 0.769 LR kNN+TS 0.759 kNN 0.724 (96s)
+magic seed 1: errors 1815 inner errors 491 AUPRC LR all 0.712 LR kNN+TS 0.696 kNN 0.650 (98s)
+magic seed 2: errors 1869 inner errors 474 AUPRC LR all 0.728 LR kNN+TS 0.715 kNN 0.668 (90s)
+magic seed 3: errors 2108 inner errors 509 AUPRC LR all 0.768 LR kNN+TS 0.762 kNN 0.720 (89s)
+magic seed 4: errors 2244 inner errors 568 AUPRC LR all 0.797 LR kNN+TS 0.784 kNN 0.753 (90s)
+magic seed 5: errors 2059 inner errors 528 AUPRC LR all 0.770 LR kNN+TS 0.758 kNN 0.716 (90s)
+magic seed 6: errors 1868 inner errors 478 AUPRC LR all 0.719 LR kNN+TS 0.701 kNN 0.655 (98s)
+magic seed 7: errors 1964 inner errors 508 AUPRC LR all 0.746 LR kNN+TS 0.730 kNN 0.688 (92s)
+magic seed 9: errors 2031 inner errors 501 AUPRC LR all 0.750 LR kNN+TS 0.743 kNN 0.702 (89s)
+magic seed 8: errors 2004 inner errors 499 AUPRC LR all 0.758 LR kNN+TS 0.746 kNN 0.703 (94s)
+shuttle seed 1: errors 47 inner errors 15 AUPRC LR all 0.654 LR kNN+TS 0.703 kNN 0.467 (40s)
+shuttle seed 0: errors 42 inner errors 13 AUPRC LR all 0.624 LR kNN+TS 0.765 kNN 0.492 (42s)
+shuttle seed 2: errors 40 inner errors 12 AUPRC LR all 0.708 LR kNN+TS 0.700 kNN 0.500 (49s)
+shuttle seed 3: errors 51 inner errors 12 AUPRC LR all 0.569 LR kNN+TS 0.747 kNN 0.512 (52s)
+shuttle seed 4: errors 52 inner errors 13 AUPRC LR all 0.551 LR kNN+TS 0.747 kNN 0.645 (65s)
+shuttle seed 5: errors 41 inner errors 12 AUPRC LR all 0.661 LR kNN+TS 0.538 kNN 0.453 (63s)
+shuttle seed 6: errors 53 inner errors 19 AUPRC LR all 0.848 LR kNN+TS 0.678 kNN 0.557 (44s)
+shuttle seed 7: errors 43 inner errors 13 AUPRC LR all 0.914 LR kNN+TS 0.726 kNN 0.451 (44s)
+shuttle seed 8: errors 48 inner errors 10 AUPRC LR all 0.769 LR kNN+TS 0.638 kNN 0.517 (43s)
+shuttle seed 9: errors 44 inner errors 11 AUPRC LR all 0.748 LR kNN+TS 0.591 kNN 0.371 (43s)
+S2-shifted seed 1: errors 951 inner errors 99 AUPRC LR all 0.692 LR kNN+TS 0.672 kNN 0.646 (179s)
+S2-shifted seed 0: errors 984 inner errors 105 AUPRC LR all 0.715 LR kNN+TS 0.678 kNN 0.648 (184s)
+S2-shifted seed 3: errors 1075 inner errors 118 AUPRC LR all 0.762 LR kNN+TS 0.750 kNN 0.709 (181s)
+S2-shifted seed 2: errors 991 inner errors 105 AUPRC LR all 0.730 LR kNN+TS 0.710 kNN 0.668 (184s)
+S2-shifted seed 4: errors 1061 inner errors 98 AUPRC LR all 0.760 LR kNN+TS 0.743 kNN 0.703 (179s)
+S2-shifted seed 5: errors 1073 inner errors 104 AUPRC LR all 0.762 LR kNN+TS 0.745 kNN 0.706 (184s)
+S2-shifted seed 6: errors 1035 inner errors 94 AUPRC LR all 0.753 LR kNN+TS 0.739 kNN 0.701 (186s)
+S2-shifted seed 7: errors 990 inner errors 93 AUPRC LR all 0.738 LR kNN+TS 0.711 kNN 0.671 (191s)
+S2-shifted seed 8: errors 1032 inner errors 95 AUPRC LR all 0.744 LR kNN+TS 0.722 kNN 0.682 (256s)
+S2-shifted seed 9: errors 1022 inner errors 104 AUPRC LR all 0.735 LR kNN+TS 0.699 kNN 0.667 (258s)
+S1 seed 0: errors 266 inner errors 68 AUPRC LR all 0.938 LR kNN+TS 0.922 kNN 0.892 (91s)
+S1 seed 1: errors 219 inner errors 61 AUPRC LR all 0.891 LR kNN+TS 0.853 kNN 0.813 (87s)
+S1 seed 2: errors 224 inner errors 62 AUPRC LR all 0.897 LR kNN+TS 0.874 kNN 0.844 (91s)
+S1 seed 3: errors 237 inner errors 48 AUPRC LR all 0.914 LR kNN+TS 0.883 kNN 0.848 (94s)
+S1 seed 4: errors 234 inner errors 50 AUPRC LR all 0.914 LR kNN+TS 0.881 kNN 0.853 (82s)
+S1 seed 5: errors 207 inner errors 55 AUPRC LR all 0.910 LR kNN+TS 0.875 kNN 0.839 (86s)
+S1 seed 6: errors 251 inner errors 55 AUPRC LR all 0.912 LR kNN+TS 0.887 kNN 0.851 (87s)
+S1 seed 7: errors 210 inner errors 46 AUPRC LR all 0.908 LR kNN+TS 0.896 kNN 0.877 (88s)
+S1 seed 8: errors 251 inner errors 49 AUPRC LR all 0.923 LR kNN+TS 0.910 kNN 0.886 (87s)
+S1 seed 9: errors 259 inner errors 50 AUPRC LR all 0.918 LR kNN+TS 0.875 kNN 0.847 (89s)
+S2 seed 0: errors 403 inner errors 105 AUPRC LR all 0.725 LR kNN+TS 0.688 kNN 0.664 (86s)
+S2 seed 1: errors 436 inner errors 99 AUPRC LR all 0.736 LR kNN+TS 0.701 kNN 0.664 (84s)
+S2 seed 2: errors 367 inner errors 105 AUPRC LR all 0.735 LR kNN+TS 0.715 kNN 0.677 (83s)
+S2 seed 3: errors 398 inner errors 118 AUPRC LR all 0.767 LR kNN+TS 0.742 kNN 0.709 (86s)
+S2 seed 4: errors 416 inner errors 98 AUPRC LR all 0.737 LR kNN+TS 0.727 kNN 0.689 (83s)
+S2 seed 5: errors 426 inner errors 104 AUPRC LR all 0.747 LR kNN+TS 0.722 kNN 0.682 (95s)
+S2 seed 6: errors 423 inner errors 94 AUPRC LR all 0.734 LR kNN+TS 0.716 kNN 0.678 (101s)
+S2 seed 7: errors 396 inner errors 93 AUPRC LR all 0.739 LR kNN+TS 0.725 kNN 0.686 (94s)
+S2 seed 8: errors 411 inner errors 95 AUPRC LR all 0.707 LR kNN+TS 0.696 kNN 0.655 (92s)
+S2 seed 9: errors 395 inner errors 104 AUPRC LR all 0.750 LR kNN+TS 0.733 kNN 0.694 (95s)
+S3 seed 0: errors 281 inner errors 79 AUPRC LR all 0.876 LR kNN+TS 0.717 kNN 0.661 (94s)
+S3 seed 1: errors 256 inner errors 65 AUPRC LR all 0.859 LR kNN+TS 0.686 kNN 0.636 (99s)
+S3 seed 2: errors 301 inner errors 60 AUPRC LR all 0.846 LR kNN+TS 0.704 kNN 0.673 (101s)
+S3 seed 3: errors 267 inner errors 68 AUPRC LR all 0.839 LR kNN+TS 0.731 kNN 0.683 (107s)
+S3 seed 4: errors 267 inner errors 65 AUPRC LR all 0.874 LR kNN+TS 0.754 kNN 0.700 (96s)
+S3 seed 5: errors 291 inner errors 75 AUPRC LR all 0.863 LR kNN+TS 0.751 kNN 0.701 (99s)
+S3 seed 6: errors 302 inner errors 83 AUPRC LR all 0.894 LR kNN+TS 0.782 kNN 0.737 (87s)
+S3 seed 7: errors 264 inner errors 77 AUPRC LR all 0.848 LR kNN+TS 0.727 kNN 0.683 (79s)
+S3 seed 8: errors 253 inner errors 63 AUPRC LR all 0.815 LR kNN+TS 0.683 kNN 0.629 (84s)
+S3 seed 9: errors 295 inner errors 71 AUPRC LR all 0.870 LR kNN+TS 0.762 kNN 0.715 (88s)
+S2-imbalanced seed 0: errors 183 inner errors 39 AUPRC LR all 0.639 LR kNN+TS 0.631 kNN 0.603 (99s)
+S2-imbalanced seed 1: errors 183 inner errors 35 AUPRC LR all 0.645 LR kNN+TS 0.636 kNN 0.602 (102s)
+S2-imbalanced seed 2: errors 180 inner errors 52 AUPRC LR all 0.665 LR kNN+TS 0.619 kNN 0.586 (93s)
+S2-imbalanced seed 3: errors 202 inner errors 41 AUPRC LR all 0.626 LR kNN+TS 0.633 kNN 0.605 (91s)
+S2-imbalanced seed 4: errors 182 inner errors 47 AUPRC LR all 0.624 LR kNN+TS 0.625 kNN 0.601 (108s)
+S2-imbalanced seed 5: errors 195 inner errors 46 AUPRC LR all 0.634 LR kNN+TS 0.658 kNN 0.628 (110s)
+S2-imbalanced seed 6: errors 196 inner errors 43 AUPRC LR all 0.731 LR kNN+TS 0.688 kNN 0.651 (79s)
+S2-imbalanced seed 7: errors 193 inner errors 55 AUPRC LR all 0.629 LR kNN+TS 0.604 kNN 0.555 (68s)
+S2-imbalanced seed 8: errors 215 inner errors 44 AUPRC LR all 0.681 LR kNN+TS 0.648 kNN 0.623 (53s)
+S2-imbalanced seed 9: errors 193 inner errors 50 AUPRC LR all 0.617 LR kNN+TS 0.600 kNN 0.560 (51s)
+S2-label-noise seed 0: errors 559 inner errors 118 AUPRC LR all 0.720 LR kNN+TS 0.706 kNN 0.668 (54s)
+S2-label-noise seed 1: errors 530 inner errors 122 AUPRC LR all 0.690 LR kNN+TS 0.676 kNN 0.632 (49s)
+S2-label-noise seed 2: errors 504 inner errors 116 AUPRC LR all 0.658 LR kNN+TS 0.650 kNN 0.617 (43s)
+S2-label-noise seed 3: errors 526 inner errors 126 AUPRC LR all 0.710 LR kNN+TS 0.708 kNN 0.677 (44s)
+S2-label-noise seed 4: errors 530 inner errors 146 AUPRC LR all 0.694 LR kNN+TS 0.682 kNN 0.653 (43s)
+S2-label-noise seed 5: errors 495 inner errors 149 AUPRC LR all 0.676 LR kNN+TS 0.670 kNN 0.632 (46s)
+S2-label-noise seed 6: errors 510 inner errors 139 AUPRC LR all 0.686 LR kNN+TS 0.668 kNN 0.637 (46s)
+S2-label-noise seed 7: errors 508 inner errors 129 AUPRC LR all 0.705 LR kNN+TS 0.675 kNN 0.654 (41s)
+S2-label-noise seed 8: errors 490 inner errors 119 AUPRC LR all 0.664 LR kNN+TS 0.656 kNN 0.620 (42s)
+wine seed 0: errors 4 inner errors 6 AUPRC LR all 0.295 LR kNN+TS 0.201 kNN 0.185 (1s)
+wine seed 1: errors 7 inner errors 5 AUPRC LR all 0.376 LR kNN+TS 0.310 kNN 0.680 (1s)
+wine seed 2: errors 5 inner errors 8 AUPRC LR all 0.311 LR kNN+TS 0.451 kNN 0.576 (1s)
+wine seed 3: errors 7 inner errors 6 AUPRC LR all 0.090 LR kNN+TS 0.080 kNN 0.476 (1s)
+wine seed 4: errors 6 inner errors 6 AUPRC LR all 0.133 LR kNN+TS 0.105 kNN 0.325 (1s)
+wine seed 5: errors 7 inner errors 5 AUPRC LR all 0.457 LR kNN+TS 0.509 kNN 0.510 (1s)
+wine seed 6: errors 3 inner errors 6 AUPRC LR all 0.198 LR kNN+TS 0.057 kNN 0.111 (1s)
+wine seed 7: errors 7 inner errors 4 AUPRC LR all 0.654 LR kNN+TS 0.559 kNN 0.528 (1s)
+wine seed 8: errors 8 inner errors 3 AUPRC LR all 0.410 LR kNN+TS 0.438 kNN 0.613 (1s)
+wine seed 9: errors 3 inner errors 3 AUPRC LR all 0.067 LR kNN+TS 0.035 kNN 0.153 (1s)
+breast_cancer seed 0: errors 32 inner errors 19 AUPRC LR all 0.641 LR kNN+TS 0.637 kNN 0.602 (3s)
+S2-label-noise seed 9: errors 516 inner errors 138 AUPRC LR all 0.698 LR kNN+TS 0.679 kNN 0.653 (40s)
+breast_cancer seed 1: errors 27 inner errors 23 AUPRC LR all 0.581 LR kNN+TS 0.603 kNN 0.544 (3s)
+breast_cancer seed 2: errors 31 inner errors 28 AUPRC LR all 0.423 LR kNN+TS 0.643 kNN 0.567 (3s)
+breast_cancer seed 3: errors 24 inner errors 21 AUPRC LR all 0.647 LR kNN+TS 0.635 kNN 0.613 (3s)
+breast_cancer seed 4: errors 28 inner errors 29 AUPRC LR all 0.472 LR kNN+TS 0.571 kNN 0.573 (3s)
+breast_cancer seed 5: errors 17 inner errors 15 AUPRC LR all 0.167 LR kNN+TS 0.171 kNN 0.331 (3s)
+breast_cancer seed 6: errors 30 inner errors 22 AUPRC LR all 0.518 LR kNN+TS 0.582 kNN 0.617 (3s)
+breast_cancer seed 7: errors 37 inner errors 17 AUPRC LR all 0.594 LR kNN+TS 0.680 kNN 0.753 (3s)
+breast_cancer seed 8: errors 23 inner errors 19 AUPRC LR all 0.483 LR kNN+TS 0.523 kNN 0.486 (3s)
+breast_cancer seed 9: errors 29 inner errors 22 AUPRC LR all 0.531 LR kNN+TS 0.462 kNN 0.637 (3s)
+digits seed 0: errors 78 inner errors 67 AUPRC LR all 0.902 LR kNN+TS 0.874 kNN 0.791 (64s)
+digits seed 1: errors 86 inner errors 64 AUPRC LR all 0.920 LR kNN+TS 0.904 kNN 0.863 (65s)
+digits seed 2: errors 74 inner errors 70 AUPRC LR all 0.768 LR kNN+TS 0.860 kNN 0.795 (81s)
+digits seed 3: errors 83 inner errors 67 AUPRC LR all 0.796 LR kNN+TS 0.883 kNN 0.855 (80s)
+digits seed 4: errors 84 inner errors 73 AUPRC LR all 0.855 LR kNN+TS 0.894 kNN 0.847 (69s)
+digits seed 5: errors 84 inner errors 68 AUPRC LR all 0.840 LR kNN+TS 0.880 kNN 0.846 (69s)
+digits seed 6: errors 72 inner errors 63 AUPRC LR all 0.806 LR kNN+TS 0.868 kNN 0.805 (63s)
+digits seed 7: errors 78 inner errors 50 AUPRC LR all 0.792 LR kNN+TS 0.871 kNN 0.812 (63s)
+digits seed 8: errors 75 inner errors 61 AUPRC LR all 0.732 LR kNN+TS 0.853 kNN 0.806 (55s)
+digits seed 9: errors 74 inner errors 73 AUPRC LR all 0.824 LR kNN+TS 0.834 kNN 0.789 (54s)
+thyroid seed 1: errors 83 inner errors 25 AUPRC LR all 0.671 LR kNN+TS 0.112 kNN 0.088 (5s)
+thyroid seed 0: errors 94 inner errors 17 AUPRC LR all 0.492 LR kNN+TS 0.142 kNN 0.117 (6s)
+thyroid seed 2: errors 89 inner errors 25 AUPRC LR all 0.420 LR kNN+TS 0.140 kNN 0.139 (5s)
+thyroid seed 3: errors 108 inner errors 25 AUPRC LR all 0.597 LR kNN+TS 0.160 kNN 0.118 (5s)
+thyroid seed 4: errors 97 inner errors 20 AUPRC LR all 0.619 LR kNN+TS 0.138 kNN 0.102 (9s)
+thyroid seed 5: errors 95 inner errors 25 AUPRC LR all 0.653 LR kNN+TS 0.114 kNN 0.106 (10s)
+thyroid seed 6: errors 78 inner errors 21 AUPRC LR all 0.482 LR kNN+TS 0.126 kNN 0.110 (10s)
+thyroid seed 7: errors 88 inner errors 21 AUPRC LR all 0.477 LR kNN+TS 0.136 kNN 0.122 (10s)
+thyroid seed 8: errors 89 inner errors 24 AUPRC LR all 0.690 LR kNN+TS 0.126 kNN 0.105 (9s)
+thyroid seed 9: errors 82 inner errors 34 AUPRC LR all 0.503 LR kNN+TS 0.111 kNN 0.098 (10s)
+landsat seed 0: errors 367 inner errors 95 AUPRC LR all 0.740 LR kNN+TS 0.738 kNN 0.687 (37s)
+landsat seed 1: errors 417 inner errors 108 AUPRC LR all 0.833 LR kNN+TS 0.804 kNN 0.764 (38s)
+landsat seed 2: errors 421 inner errors 101 AUPRC LR all 0.772 LR kNN+TS 0.760 kNN 0.712 (40s)
+landsat seed 3: errors 349 inner errors 117 AUPRC LR all 0.747 LR kNN+TS 0.736 kNN 0.688 (40s)
+landsat seed 4: errors 433 inner errors 113 AUPRC LR all 0.794 LR kNN+TS 0.789 kNN 0.748 (39s)
+landsat seed 5: errors 370 inner errors 101 AUPRC LR all 0.749 LR kNN+TS 0.742 kNN 0.676 (39s)
+landsat seed 6: errors 400 inner errors 92 AUPRC LR all 0.784 LR kNN+TS 0.772 kNN 0.715 (38s)
+landsat seed 7: errors 364 inner errors 90 AUPRC LR all 0.772 LR kNN+TS 0.760 kNN 0.711 (37s)
+landsat seed 8: errors 431 inner errors 113 AUPRC LR all 0.763 LR kNN+TS 0.773 kNN 0.722 (37s)
+landsat seed 9: errors 401 inner errors 108 AUPRC LR all 0.762 LR kNN+TS 0.758 kNN 0.713 (37s)
+page_blocks seed 0: errors 156 inner errors 46 AUPRC LR all 0.745 LR kNN+TS 0.713 kNN 0.656 (4s)
+page_blocks seed 1: errors 174 inner errors 43 AUPRC LR all 0.805 LR kNN+TS 0.832 kNN 0.767 (4s)
+page_blocks seed 2: errors 181 inner errors 36 AUPRC LR all 0.728 LR kNN+TS 0.744 kNN 0.690 (4s)
+page_blocks seed 3: errors 259 inner errors 54 AUPRC LR all 0.861 LR kNN+TS 0.871 kNN 0.813 (4s)
+page_blocks seed 4: errors 194 inner errors 53 AUPRC LR all 0.830 LR kNN+TS 0.857 kNN 0.810 (3s)
+page_blocks seed 5: errors 259 inner errors 66 AUPRC LR all 0.895 LR kNN+TS 0.901 kNN 0.876 (3s)
+page_blocks seed 6: errors 293 inner errors 91 AUPRC LR all 0.890 LR kNN+TS 0.891 kNN 0.852 (3s)
+page_blocks seed 7: errors 927 inner errors 225 AUPRC LR all 0.988 LR kNN+TS 0.987 kNN 0.976 (3s)
+page_blocks seed 8: errors 246 inner errors 56 AUPRC LR all 0.910 LR kNN+TS 0.921 kNN 0.879 (3s)
+page_blocks seed 9: errors 252 inner errors 58 AUPRC LR all 0.862 LR kNN+TS 0.869 kNN 0.833 (3s)
+# RQ2 v2 (exploratory design run): CFMNN's own uncertainty vs data-based trust signals
+
+Seeds [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]. Same splits and eligibility (at least 50 errors in every seed) as the RQ2 confirmatory run. Learned combinations: logistic regression on standardised signals, fitted on the inner rows with their labels. Mean ± 95% CI over seeds.
+
+Tested units: the synthetic family (S1, S2, S3, S2-imbalanced, S2-label-noise, S2-shifted) and digits, thyroid, skin, magic, letter, landsat, page_blocks.
+
+## Datasets
+
+| Dataset | Split | Eligible | Accuracy (%) | Errors (min) | Inner errors (min) |
+|---|---|---|---|---|---|
+| S1 | role split | yes | 88.2 | 207 | 46 |
+| S2 | role split | yes | 79.6 | 367 | 93 |
+| S3 | role split | yes | 86.1 | 253 | 60 |
+| S2-imbalanced | role split | yes | 90.4 | 180 | 35 |
+| S2-label-noise | role split | yes | 74.2 | 490 | 116 |
+| S2-shifted | role split | yes | 79.6 | 951 | 93 |
+| wine | 5-fold CV | no | 96.8 | 3 | 3 |
+| breast_cancer | 5-fold CV | no | 95.1 | 17 | 15 |
+| digits | 5-fold CV | yes | 95.6 | 72 | 50 |
+| thyroid | role split | yes | 96.9 | 78 | 17 |
+| shuttle | role split | no | 99.8 | 40 | 10 |
+| skin | role split | yes | 95.9 | 294 | 347 |
+| magic | role split | yes | 73.6 | 1815 | 474 |
+| letter | role split | yes | 73.5 | 2022 | 507 |
+| landsat | role split | yes | 84.6 | 349 | 90 |
+| page_blocks | role split | yes | 86.6 | 156 | 36 |
+
+## AUPRC (higher is better)
+
+| Unit | Base rate | kNN | Trust Score | Order ensemble | U* | Box evidence | LR: kNN + TS | LR: native | LR: all | LR: all + PD |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Synthetic family | 0.170 | 0.690 ± 0.009 | 0.548 ± 0.009 | 0.647 ± 0.008 | 0.388 ± 0.006 | 0.227 ± 0.004 | 0.727 ± 0.010 | 0.703 ± 0.007 | **0.764 ± 0.007** | 0.761 ± 0.007 |
+| digits | 0.044 | 0.821 ± 0.021 | 0.859 ± 0.018 | 0.591 ± 0.022 | 0.384 ± 0.028 | 0.460 ± 0.035 | **0.872 ± 0.014** | 0.672 ± 0.034 | 0.823 ± 0.041 | 0.806 ± 0.033 |
+| thyroid | 0.031 | 0.110 ± 0.010 | 0.113 ± 0.016 | 0.455 ± 0.049 | 0.323 ± 0.064 | 0.065 ± 0.013 | 0.130 ± 0.011 | 0.560 ± 0.071 | **0.560 ± 0.069** | 0.540 ± 0.077 |
+| skin | 0.041 | 0.994 ± 0.002 | 0.988 ± 0.008 | 0.785 ± 0.083 | 0.379 ± 0.049 | 0.269 ± 0.116 | 0.996 ± 0.002 | 0.929 ± 0.041 | 0.997 ± 0.002 | **0.997 ± 0.001** |
+| magic | 0.264 | 0.698 ± 0.023 | 0.672 ± 0.022 | 0.561 ± 0.030 | 0.407 ± 0.014 | 0.288 ± 0.010 | 0.739 ± 0.020 | 0.621 ± 0.027 | **0.752 ± 0.019** | 0.752 ± 0.019 |
+| letter | 0.265 | 0.971 ± 0.002 | 0.972 ± 0.003 | 0.795 ± 0.011 | 0.585 ± 0.011 | 0.666 ± 0.011 | 0.984 ± 0.001 | 0.909 ± 0.006 | **0.986 ± 0.001** | 0.985 ± 0.001 |
+| landsat | 0.154 | 0.714 ± 0.019 | 0.725 ± 0.015 | 0.519 ± 0.037 | 0.397 ± 0.033 | 0.268 ± 0.015 | 0.763 ± 0.016 | 0.621 ± 0.030 | **0.771 ± 0.019** | 0.769 ± 0.020 |
+| page_blocks | 0.134 | 0.815 ± 0.067 | 0.799 ± 0.072 | 0.511 ± 0.130 | 0.372 ± 0.072 | 0.236 ± 0.078 | **0.858 ± 0.058** | 0.658 ± 0.105 | 0.851 ± 0.056 | 0.846 ± 0.054 |
+
+## AUROC
+
+| Unit | Base rate | kNN | Trust Score | Order ensemble | U* | Box evidence | LR: kNN + TS | LR: native | LR: all | LR: all + PD |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Synthetic family | 0.170 | 0.909 ± 0.003 | 0.838 ± 0.002 | 0.883 ± 0.003 | 0.783 ± 0.002 | 0.586 ± 0.004 | 0.910 ± 0.003 | 0.897 ± 0.001 | **0.923 ± 0.002** | 0.922 ± 0.002 |
+| digits | 0.044 | 0.982 ± 0.005 | **0.991 ± 0.001** | 0.900 ± 0.010 | 0.939 ± 0.003 | 0.937 ± 0.007 | 0.989 ± 0.002 | 0.973 ± 0.003 | 0.989 ± 0.003 | 0.986 ± 0.004 |
+| thyroid | 0.031 | 0.749 ± 0.012 | 0.741 ± 0.014 | 0.852 ± 0.035 | 0.736 ± 0.026 | 0.707 ± 0.040 | 0.761 ± 0.015 | **0.942 ± 0.013** | 0.940 ± 0.014 | 0.936 ± 0.018 |
+| skin | 0.041 | 0.998 ± 0.001 | 0.999 ± 0.000 | 0.981 ± 0.008 | 0.954 ± 0.010 | 0.917 ± 0.020 | 1.000 ± 0.001 | 0.996 ± 0.002 | **1.000 ± 0.000** | **1.000 ± 0.000** |
+| magic | 0.264 | 0.868 ± 0.006 | 0.848 ± 0.006 | 0.803 ± 0.012 | 0.680 ± 0.007 | 0.581 ± 0.013 | 0.881 ± 0.005 | 0.824 ± 0.008 | 0.887 ± 0.004 | **0.887 ± 0.004** |
+| letter | 0.265 | 0.991 ± 0.001 | 0.989 ± 0.001 | 0.928 ± 0.005 | 0.828 ± 0.005 | 0.871 ± 0.004 | 0.994 ± 0.000 | 0.966 ± 0.002 | **0.994 ± 0.000** | 0.994 ± 0.000 |
+| landsat | 0.154 | 0.931 ± 0.004 | 0.934 ± 0.002 | 0.840 ± 0.010 | 0.802 ± 0.009 | 0.676 ± 0.015 | 0.944 ± 0.002 | 0.902 ± 0.007 | **0.946 ± 0.003** | 0.946 ± 0.003 |
+| page_blocks | 0.134 | 0.958 ± 0.013 | 0.951 ± 0.013 | 0.821 ± 0.045 | 0.784 ± 0.028 | 0.738 ± 0.045 | 0.969 ± 0.009 | 0.928 ± 0.020 | 0.968 ± 0.010 | **0.969 ± 0.009** |
+
+## Q1 (primary): do CFMNN-native signals add to the data-based baselines? LR(all) minus LR(kNN + TS) (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across units.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | 0.038 ± 0.005 | 10 of 10 | 0.00195 | 0.0156 | 5.52 |
+| digits | -0.049 ± 0.035 | 2 of 10 | 0.0195 | 0.0781 | -0.99 |
+| thyroid | 0.430 ± 0.073 | 10 of 10 | 0.00195 | 0.0156 | 4.23 |
+| skin | 0.001 ± 0.002 | 6 of 10 | 0.432 | 0.432 | 0.31 |
+| magic | 0.012 ± 0.003 | 10 of 10 | 0.00195 | 0.0156 | 3.42 |
+| letter | 0.002 ± 0.001 | 10 of 10 | 0.00195 | 0.0156 | 2.39 |
+| landsat | 0.008 ± 0.007 | 9 of 10 | 0.0195 | 0.0781 | 0.86 |
+| page_blocks | -0.007 ± 0.012 | 2 of 10 | 0.131 | 0.262 | -0.41 |
+
+## Q2a: LR(all) minus kNN disagreement (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across units.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | 0.074 ± 0.005 | 10 of 10 | 0.00195 | 0.0156 | 11.33 |
+| digits | 0.002 ± 0.039 | 5 of 10 | 1 | 1 | 0.05 |
+| thyroid | 0.450 ± 0.076 | 10 of 10 | 0.00195 | 0.0156 | 4.23 |
+| skin | 0.002 ± 0.002 | 8 of 10 | 0.0371 | 0.0742 | 0.87 |
+| magic | 0.054 ± 0.005 | 10 of 10 | 0.00195 | 0.0156 | 7.59 |
+| letter | 0.015 ± 0.001 | 10 of 10 | 0.00195 | 0.0156 | 7.44 |
+| landsat | 0.058 ± 0.008 | 10 of 10 | 0.00195 | 0.0156 | 5.50 |
+| page_blocks | 0.036 ± 0.015 | 10 of 10 | 0.00195 | 0.0156 | 1.68 |
+
+## Q2b: LR(all) minus Trust Score (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across units.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | 0.216 ± 0.006 | 10 of 10 | 0.00195 | 0.0156 | 25.30 |
+| digits | -0.035 ± 0.034 | 2 of 10 | 0.0371 | 0.0371 | -0.75 |
+| thyroid | 0.447 ± 0.066 | 10 of 10 | 0.00195 | 0.0156 | 4.84 |
+| skin | 0.009 ± 0.007 | 10 of 10 | 0.00195 | 0.0156 | 1.02 |
+| magic | 0.080 ± 0.006 | 10 of 10 | 0.00195 | 0.0156 | 9.41 |
+| letter | 0.014 ± 0.003 | 10 of 10 | 0.00195 | 0.0156 | 3.46 |
+| landsat | 0.047 ± 0.010 | 10 of 10 | 0.00195 | 0.0156 | 3.47 |
+| page_blocks | 0.052 ± 0.021 | 10 of 10 | 0.00195 | 0.0156 | 1.80 |
+
+## Q3: CFMNN-native signals alone, LR(native) minus kNN disagreement (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across units.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | 0.013 ± 0.008 | 9 of 10 | 0.00586 | 0.0156 | 1.14 |
+| digits | -0.149 ± 0.036 | 0 of 10 | 0.00195 | 0.0156 | -2.95 |
+| thyroid | 0.450 ± 0.077 | 10 of 10 | 0.00195 | 0.0156 | 4.16 |
+| skin | -0.065 ± 0.040 | 0 of 10 | 0.00195 | 0.0156 | -1.16 |
+| magic | -0.077 ± 0.020 | 0 of 10 | 0.00195 | 0.0156 | -2.68 |
+| letter | -0.062 ± 0.006 | 0 of 10 | 0.00195 | 0.0156 | -7.85 |
+| landsat | -0.092 ± 0.020 | 0 of 10 | 0.00195 | 0.0156 | -3.37 |
+| page_blocks | -0.157 ± 0.069 | 0 of 10 | 0.00195 | 0.0156 | -1.63 |
+
+## Design check: does PD add? LR(all + PD) minus LR(all) (AUPRC)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across units.
+
+| Unit | Difference | Seeds where first is higher | p | p (Holm) | d_z |
+|---|---|---|---|---|---|
+| Synthetic family | -0.003 ± 0.003 | 1 of 10 | 0.0137 | 0.0957 | -0.95 |
+| digits | -0.017 ± 0.018 | 2 of 10 | 0.0488 | 0.244 | -0.68 |
+| thyroid | -0.020 ± 0.026 | 2 of 10 | 0.0137 | 0.0957 | -0.56 |
+| skin | 0.000 ± 0.001 | 4 of 10 | 0.557 | 0.75 | 0.02 |
+| magic | -0.000 ± 0.000 | 3 of 10 | 0.375 | 0.75 | -0.36 |
+| letter | -0.000 ± 0.000 | 3 of 10 | 0.232 | 0.697 | -0.46 |
+| landsat | -0.002 ± 0.001 | 1 of 10 | 0.00391 | 0.0312 | -1.28 |
+| page_blocks | -0.005 ± 0.006 | 3 of 10 | 0.105 | 0.422 | -0.60 |
+
+## Drop-one (descriptive): AUPRC lost when a signal is removed from LR(all)
+
+| Unit | U* | Margin | Tie | Box evidence | Box count | Order ensemble | kNN | Trust Score |
+|---|---|---|---|---|---|---|---|---|
+| Synthetic family | -0.000 | +0.000 | +0.000 | -0.003 | -0.003 | +0.035 | +0.049 | -0.003 |
+| digits | -0.043 | +0.002 | -0.000 | +0.008 | +0.011 | -0.014 | +0.011 | +0.041 |
+| thyroid | +0.004 | +0.012 | +0.001 | -0.007 | -0.007 | +0.281 | +0.035 | +0.001 |
+| skin | -0.001 | -0.000 | +0.000 | -0.001 | +0.000 | -0.000 | +0.001 | +0.000 |
+| magic | +0.001 | -0.001 | +0.000 | -0.000 | -0.000 | +0.010 | +0.035 | +0.011 |
+| letter | -0.000 | +0.000 | +0.000 | +0.001 | +0.001 | +0.001 | +0.004 | +0.006 |
+| landsat | -0.000 | +0.001 | -0.001 | -0.002 | -0.001 | +0.003 | +0.017 | +0.023 |
+| page_blocks | -0.003 | -0.002 | -0.002 | -0.001 | -0.004 | -0.000 | +0.030 | +0.020 |
+

@@ -1,0 +1,168 @@
+# Global feature importance (RQ1 extension B2)
+
+Paper's 80/20 split, main model (fixed centroid + search); seeds [40, 41, 42, 43, 44, 45, 46, 47, 48, 49]; mean ± 95% CI over seeds. Spearman rank agreement with permutation importance (accuracy drop when a feature is shuffled on the test rows) and with mean abs KernelSHAP over 50 test rows. Ground truth = share of the top 3 that are the truly relevant features (S1-S3 only). KernelSHAP explains the predicted class's margin with 20 real background rows (fair setting); seconds were measured with several runs sharing the CPU, so compare them within a dataset only.
+
+Extension rankings: mean abs PACE-SHAP (exact Shapley values of the margin on the same 50 points, 200 rows; sampled with 32 orders per row when d > 12), mean abs PACE-SHAP-20 (KernelSHAP's own 20 rows) and PACE-flip, normalised (each point's scores scaled to sum 1 before averaging).
+
+| Dataset | Ranking | Agreement with permutation importance | Agreement with mean abs SHAP | Ground truth top 3 | Seconds |
+|---|---|---|---|---|---|
+| S1 | PACE data-based | 0.75 ± 0.11 | 0.68 ± 0.09 | 1.00 ± 0.00 | 0.958 ± 0.072 |
+| S1 | PACE model-only | 0.60 ± 0.06 | 0.59 ± 0.09 | 1.00 ± 0.00 | 0.477 ± 0.072 |
+| S1 | PACE-flip, averaged | 0.79 ± 0.06 | 0.62 ± 0.07 | 1.00 ± 0.00 | 2.370 ± 0.176 |
+| S1 | PACE-flip, normalised | 0.83 ± 0.06 | 0.62 ± 0.08 | 1.00 ± 0.00 | 2.622 ± 0.104 |
+| S1 | Mean abs PACE-SHAP | 0.68 ± 0.09 | 0.85 ± 0.06 | 1.00 ± 0.00 | 475.307 ± 2.405 |
+| S1 | Mean abs PACE-SHAP-20 | 0.70 ± 0.10 | 0.98 ± 0.01 | 1.00 ± 0.00 | 45.620 ± 1.346 |
+| S1 | Permutation importance | 1 (reference) | 0.69 ± 0.11 | 1.00 ± 0.00 | 121.890 ± 2.941 |
+| S1 | Mean abs KernelSHAP | 0.69 ± 0.11 | 1 (reference) | 1.00 ± 0.00 | 235.068 ± 2.778 |
+| S2 | PACE data-based | 0.64 ± 0.09 | 0.60 ± 0.09 | 1.00 ± 0.00 | 1.040 ± 0.107 |
+| S2 | PACE model-only | 0.62 ± 0.10 | 0.72 ± 0.11 | 1.00 ± 0.00 | 0.552 ± 0.060 |
+| S2 | PACE-flip, averaged | 0.64 ± 0.09 | 0.65 ± 0.13 | 1.00 ± 0.00 | 2.620 ± 0.212 |
+| S2 | PACE-flip, normalised | 0.72 ± 0.09 | 0.68 ± 0.07 | 1.00 ± 0.00 | 2.603 ± 0.181 |
+| S2 | Mean abs PACE-SHAP | 0.64 ± 0.09 | 0.85 ± 0.09 | 1.00 ± 0.00 | 475.313 ± 5.711 |
+| S2 | Mean abs PACE-SHAP-20 | 0.59 ± 0.09 | 0.96 ± 0.03 | 1.00 ± 0.00 | 42.950 ± 2.782 |
+| S2 | Permutation importance | 1 (reference) | 0.62 ± 0.10 | 1.00 ± 0.00 | 119.961 ± 4.926 |
+| S2 | Mean abs KernelSHAP | 0.62 ± 0.10 | 1 (reference) | 1.00 ± 0.00 | 236.848 ± 3.402 |
+| S3 | PACE data-based | 0.68 ± 0.11 | 0.61 ± 0.10 | 1.00 ± 0.00 | 1.113 ± 0.088 |
+| S3 | PACE model-only | 0.63 ± 0.10 | 0.70 ± 0.08 | 1.00 ± 0.00 | 0.513 ± 0.059 |
+| S3 | PACE-flip, averaged | 0.80 ± 0.07 | 0.62 ± 0.08 | 1.00 ± 0.00 | 2.638 ± 0.167 |
+| S3 | PACE-flip, normalised | 0.80 ± 0.09 | 0.59 ± 0.06 | 1.00 ± 0.00 | 2.630 ± 0.164 |
+| S3 | Mean abs PACE-SHAP | 0.67 ± 0.11 | 0.73 ± 0.11 | 1.00 ± 0.00 | 468.369 ± 4.991 |
+| S3 | Mean abs PACE-SHAP-20 | 0.66 ± 0.10 | 0.97 ± 0.02 | 1.00 ± 0.00 | 39.999 ± 2.252 |
+| S3 | Permutation importance | 1 (reference) | 0.67 ± 0.11 | 1.00 ± 0.00 | 118.841 ± 3.854 |
+| S3 | Mean abs KernelSHAP | 0.67 ± 0.11 | 1 (reference) | 1.00 ± 0.00 | 233.321 ± 3.293 |
+| wine | PACE data-based | 0.44 ± 0.15 | 0.75 ± 0.05 | – | 0.003 ± 0.000 |
+| wine | PACE model-only | 0.33 ± 0.24 | 0.91 ± 0.03 | – | 0.004 ± 0.000 |
+| wine | PACE-flip, averaged | 0.48 ± 0.29 | 0.68 ± 0.13 | – | 0.015 ± 0.003 |
+| wine | PACE-flip, normalised | 0.51 ± 0.15 | 0.88 ± 0.03 | – | 0.011 ± 0.002 |
+| wine | Mean abs PACE-SHAP | 0.37 ± 0.20 | 0.98 ± 0.01 | – | 3.862 ± 0.219 |
+| wine | Mean abs PACE-SHAP-20 | 0.38 ± 0.22 | 0.99 ± 0.01 | – | 0.518 ± 0.061 |
+| wine | Permutation importance | 1 (reference) | 0.39 ± 0.22 | – | 0.498 ± 0.041 |
+| wine | Mean abs KernelSHAP | 0.39 ± 0.22 | 1 (reference) | – | 4.385 ± 0.251 |
+| breast_cancer | PACE data-based | 0.54 ± 0.13 | 0.79 ± 0.06 | – | 0.010 ± 0.002 |
+| breast_cancer | PACE model-only | 0.58 ± 0.13 | 0.84 ± 0.04 | – | 0.004 ± 0.001 |
+| breast_cancer | PACE-flip, averaged | 0.65 ± 0.18 | 0.84 ± 0.02 | – | 0.117 ± 0.012 |
+| breast_cancer | PACE-flip, normalised | 0.66 ± 0.15 | 0.91 ± 0.03 | – | 0.131 ± 0.024 |
+| breast_cancer | Mean abs PACE-SHAP | 0.63 ± 0.14 | 0.96 ± 0.01 | – | 27.808 ± 1.490 |
+| breast_cancer | Mean abs PACE-SHAP-20 | 0.64 ± 0.15 | 0.96 ± 0.01 | – | 1.440 ± 0.148 |
+| breast_cancer | Permutation importance | 1 (reference) | 0.63 ± 0.13 | – | 3.347 ± 0.309 |
+| breast_cancer | Mean abs KernelSHAP | 0.63 ± 0.13 | 1 (reference) | – | 16.360 ± 1.116 |
+| thyroid | PACE data-based | 0.66 ± 0.07 | 0.57 ± 0.07 | – | 0.088 ± 0.021 |
+| thyroid | PACE model-only | 0.47 ± 0.11 | 0.46 ± 0.07 | – | 0.003 ± 0.000 |
+| thyroid | PACE-flip, averaged | 0.58 ± 0.09 | 0.52 ± 0.11 | – | 1.339 ± 0.190 |
+| thyroid | PACE-flip, normalised | 0.56 ± 0.06 | 0.45 ± 0.11 | – | 1.216 ± 0.162 |
+| thyroid | Mean abs PACE-SHAP | 0.53 ± 0.11 | 0.82 ± 0.06 | – | 19.143 ± 1.396 |
+| thyroid | Mean abs PACE-SHAP-20 | 0.49 ± 0.11 | 0.99 ± 0.00 | – | 1.176 ± 0.141 |
+| thyroid | Permutation importance | 1 (reference) | 0.48 ± 0.10 | – | 21.737 ± 2.811 |
+| thyroid | Mean abs KernelSHAP | 0.48 ± 0.10 | 1 (reference) | – | 14.362 ± 2.264 |
+| shuttle | PACE data-based | 0.49 ± 0.09 | 0.53 ± 0.09 | – | 0.145 ± 0.016 |
+| shuttle | PACE model-only | 0.35 ± 0.17 | 0.41 ± 0.13 | – | 0.002 ± 0.000 |
+| shuttle | PACE-flip, averaged | 0.94 ± 0.08 | 0.90 ± 0.06 | – | 2.215 ± 0.262 |
+| shuttle | PACE-flip, normalised | 0.90 ± 0.12 | 0.90 ± 0.08 | – | 2.300 ± 0.318 |
+| shuttle | Mean abs PACE-SHAP | 0.91 ± 0.05 | 0.97 ± 0.03 | – | 2.009 ± 0.291 |
+| shuttle | Mean abs PACE-SHAP-20 | 0.90 ± 0.05 | 1.00 ± 0.01 | – | 0.203 ± 0.031 |
+| shuttle | Permutation importance | 1 (reference) | 0.89 ± 0.05 | – | 10.655 ± 1.032 |
+| shuttle | Mean abs KernelSHAP | 0.89 ± 0.05 | 1 (reference) | – | 2.794 ± 0.247 |
+| magic | PACE data-based | 0.35 ± 0.11 | 0.17 ± 0.20 | – | 0.683 ± 0.095 |
+| magic | PACE model-only | 0.45 ± 0.23 | 0.45 ± 0.20 | – | 0.015 ± 0.004 |
+| magic | PACE-flip, averaged | 0.52 ± 0.13 | 0.27 ± 0.23 | – | 7.190 ± 0.562 |
+| magic | PACE-flip, normalised | 0.65 ± 0.07 | 0.38 ± 0.17 | – | 7.379 ± 0.552 |
+| magic | Mean abs PACE-SHAP | 0.68 ± 0.12 | 0.80 ± 0.15 | – | 55.998 ± 3.533 |
+| magic | Mean abs PACE-SHAP-20 | 0.61 ± 0.13 | 0.99 ± 0.01 | – | 3.849 ± 0.347 |
+| magic | Permutation importance | 1 (reference) | 0.61 ± 0.13 | – | 81.458 ± 3.304 |
+| magic | Mean abs KernelSHAP | 0.61 ± 0.13 | 1 (reference) | – | 42.880 ± 1.474 |
+| letter | PACE data-based | 0.79 ± 0.02 | 0.68 ± 0.06 | – | 2.750 ± 0.158 |
+| letter | PACE model-only | 0.80 ± 0.02 | 0.81 ± 0.03 | – | 0.201 ± 0.027 |
+| letter | PACE-flip, averaged | 0.94 ± 0.01 | 0.82 ± 0.05 | – | 15.722 ± 0.516 |
+| letter | PACE-flip, normalised | 0.96 ± 0.01 | 0.87 ± 0.04 | – | 16.885 ± 1.286 |
+| letter | Mean abs PACE-SHAP | 0.89 ± 0.04 | 0.95 ± 0.02 | – | 147.956 ± 7.274 |
+| letter | Mean abs PACE-SHAP-20 | 0.87 ± 0.05 | 0.99 ± 0.01 | – | 14.527 ± 0.691 |
+| letter | Permutation importance | 1 (reference) | 0.85 ± 0.06 | – | 451.292 ± 14.465 |
+| letter | Mean abs KernelSHAP | 0.85 ± 0.06 | 1 (reference) | – | 143.688 ± 6.539 |
+| landsat | PACE data-based | 0.42 ± 0.07 | 0.47 ± 0.11 | – | 0.542 ± 0.059 |
+| landsat | PACE model-only | 0.63 ± 0.08 | 0.72 ± 0.08 | – | 0.041 ± 0.008 |
+| landsat | PACE-flip, averaged | 0.87 ± 0.03 | 0.67 ± 0.06 | – | 3.617 ± 0.143 |
+| landsat | PACE-flip, normalised | 0.84 ± 0.04 | 0.72 ± 0.04 | – | 3.371 ± 0.319 |
+| landsat | Mean abs PACE-SHAP | 0.62 ± 0.04 | 0.89 ± 0.03 | – | 162.749 ± 27.619 |
+| landsat | Mean abs PACE-SHAP-20 | 0.62 ± 0.06 | 0.91 ± 0.02 | – | 10.240 ± 3.143 |
+| landsat | Permutation importance | 1 (reference) | 0.61 ± 0.05 | – | 186.981 ± 9.130 |
+| landsat | Mean abs KernelSHAP | 0.61 ± 0.05 | 1 (reference) | – | 78.477 ± 8.386 |
+| page_blocks | PACE data-based | 0.50 ± 0.26 | 0.51 ± 0.16 | – | 0.024 ± 0.005 |
+| page_blocks | PACE model-only | -0.11 ± 0.18 | -0.21 ± 0.14 | – | 0.003 ± 0.001 |
+| page_blocks | PACE-flip, averaged | 0.51 ± 0.26 | 0.49 ± 0.15 | – | 0.644 ± 0.055 |
+| page_blocks | PACE-flip, normalised | 0.51 ± 0.22 | 0.39 ± 0.18 | – | 0.649 ± 0.054 |
+| page_blocks | Mean abs PACE-SHAP | 0.15 ± 0.29 | 0.93 ± 0.04 | – | 11.957 ± 0.509 |
+| page_blocks | Mean abs PACE-SHAP-20 | 0.20 ± 0.26 | 0.99 ± 0.01 | – | 0.616 ± 0.065 |
+| page_blocks | Permutation importance | 1 (reference) | 0.18 ± 0.26 | – | 2.540 ± 0.154 |
+| page_blocks | Mean abs KernelSHAP | 0.18 ± 0.26 | 1 (reference) | – | 4.847 ± 0.317 |
+
+## Mean abs PACE-SHAP minus Mean abs KernelSHAP: agreement with permutation importance (primary)
+
+Spearman rho with permutation importance; paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across datasets. Positive = Mean abs PACE-SHAP agrees better.
+
+| Dataset | Difference | Seeds where Mean abs PACE-SHAP is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | -0.01 ± 0.07 | 5 of 10 | 0.625 | 1 |
+| S2 | +0.02 ± 0.08 | 7 of 10 | 0.389 | 1 |
+| S3 | +0.01 ± 0.13 | 6 of 10 | 0.826 | 1 |
+| wine | -0.02 ± 0.04 | 3 of 10 | 0.469 | 1 |
+| breast_cancer | -0.01 ± 0.02 | 4 of 10 | 0.625 | 1 |
+| thyroid | +0.05 ± 0.08 | 7 of 10 | 0.16 | 1 |
+| shuttle | +0.02 ± 0.04 | 4 of 10 | 0.469 | 1 |
+| magic | +0.07 ± 0.16 | 6 of 10 | 0.496 | 1 |
+| letter | +0.04 ± 0.04 | 8 of 10 | 0.0391 | 0.43 |
+| landsat | +0.01 ± 0.05 | 5 of 10 | 0.695 | 1 |
+| page_blocks | -0.03 ± 0.09 | 7 of 10 | 0.562 | 1 |
+
+## Mean abs PACE-SHAP-20 minus Mean abs KernelSHAP: agreement with permutation importance (secondary)
+
+Spearman rho with permutation importance; paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across datasets. Positive = Mean abs PACE-SHAP-20 agrees better.
+
+| Dataset | Difference | Seeds where Mean abs PACE-SHAP-20 is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.01 ± 0.04 | 4 of 10 | 0.688 | 1 |
+| S2 | -0.03 ± 0.06 | 6 of 10 | 0.539 | 1 |
+| S3 | -0.00 ± 0.02 | 3 of 10 | 0.68 | 1 |
+| wine | -0.01 ± 0.03 | 3 of 10 | 0.641 | 1 |
+| breast_cancer | +0.01 ± 0.03 | 6 of 10 | 0.492 | 1 |
+| thyroid | +0.01 ± 0.01 | 7 of 10 | 0.375 | 1 |
+| shuttle | +0.01 ± 0.01 | 2 of 10 | 0.5 | 1 |
+| magic | -0.01 ± 0.04 | 3 of 10 | 1 | 1 |
+| letter | +0.02 ± 0.02 | 7 of 10 | 0.105 | 1 |
+| landsat | +0.01 ± 0.03 | 5 of 10 | 0.625 | 1 |
+| page_blocks | +0.01 ± 0.02 | 3 of 10 | 0.25 | 1 |
+
+## PACE-flip, normalised minus PACE-flip, averaged: agreement with permutation importance (secondary)
+
+Spearman rho with permutation importance; paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across datasets. Positive = PACE-flip, normalised agrees better.
+
+| Dataset | Difference | Seeds where PACE-flip, normalised is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.04 ± 0.06 | 8 of 10 | 0.0938 | 0.562 |
+| S2 | +0.08 ± 0.06 | 8 of 10 | 0.00781 | 0.0703 |
+| S3 | +0.00 ± 0.05 | 4 of 10 | 0.844 | 1 |
+| wine | +0.03 ± 0.25 | 5 of 10 | 0.846 | 1 |
+| breast_cancer | +0.01 ± 0.06 | 5 of 10 | 0.77 | 1 |
+| thyroid | -0.02 ± 0.06 | 5 of 10 | 0.77 | 1 |
+| shuttle | -0.03 ± 0.04 | 2 of 10 | 0.0781 | 0.547 |
+| magic | +0.13 ± 0.09 | 9 of 10 | 0.00391 | 0.043 |
+| letter | +0.02 ± 0.01 | 9 of 10 | 0.00391 | 0.043 |
+| landsat | -0.03 ± 0.03 | 1 of 10 | 0.0371 | 0.297 |
+| page_blocks | -0.00 ± 0.09 | 5 of 10 | 0.734 | 1 |
+
+## PACE-flip, averaged minus Mean abs KernelSHAP: agreement with permutation importance (secondary)
+
+Spearman rho with permutation importance; paired over seeds; two-sided Wilcoxon signed-rank test, Holm-corrected across datasets. Positive = PACE-flip, averaged agrees better.
+
+| Dataset | Difference | Seeds where PACE-flip, averaged is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.10 ± 0.15 | 6 of 10 | 0.375 | 1 |
+| S2 | +0.02 ± 0.12 | 6 of 10 | 0.787 | 1 |
+| S3 | +0.13 ± 0.14 | 7 of 10 | 0.105 | 0.738 |
+| wine | +0.09 ± 0.25 | 6 of 10 | 0.492 | 1 |
+| breast_cancer | +0.02 ± 0.08 | 6 of 10 | 0.625 | 1 |
+| thyroid | +0.10 ± 0.09 | 8 of 10 | 0.0371 | 0.297 |
+| shuttle | +0.04 ± 0.06 | 7 of 10 | 0.16 | 0.961 |
+| magic | -0.10 ± 0.17 | 2 of 10 | 0.232 | 1 |
+| letter | +0.09 ± 0.05 | 9 of 10 | 0.00391 | 0.0352 |
+| landsat | +0.26 ± 0.06 | 10 of 10 | 0.00195 | 0.0215 |
+| page_blocks | +0.33 ± 0.19 | 10 of 10 | 0.00195 | 0.0215 |

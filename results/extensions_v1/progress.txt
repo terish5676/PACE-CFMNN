@@ -1,0 +1,11 @@
+B4 start Sat Oct 31 02:50:04 IST 2026
+B4 exit 0 Sat Oct 31 03:55:10 IST 2026
+B2 exit 0 Sat Oct 31 05:54:28 IST 2026
+B1 exit 0 Sat Oct 31 07:59:14 IST 2026
+B3 stopped Sat Oct 31 10:54 IST 2026 (first run, to restart with shared model calls; its log is conditional/stopped_run_log.txt)
+B3 restart Sat Oct 31 10:57:12 IST 2026 (shared model calls, commit e5c2469)
+B3 exit 0 Sat Oct 31 20:50:18 IST 2026
+Post hoc sigma check start Sat Oct 31 21:12:19 IST 2026
+Post hoc sigma check exit 0 Sat Oct 31 21:40:40 IST 2026
+Post hoc rows check start Sat Oct 31 21:53:45 IST 2026
+Post hoc rows check exit 0 Sat Oct 31 22:43:34 IST 2026

@@ -1,0 +1,63 @@
+S1 seed 0: 82s
+S1 seed 1: 87s
+S1 seed 2: 82s
+S2 seed 0: 82s
+S2 seed 1: 77s
+S2 seed 2: 76s
+S3 seed 0: 79s
+S3 seed 1: 82s
+S3 seed 2: 80s
+wine seed 0: 2s
+wine seed 1: 2s
+wine seed 2: 2s
+breast_cancer seed 0: 5s
+breast_cancer seed 1: 4s
+breast_cancer seed 2: 4s
+thyroid seed 0: 10s
+thyroid seed 1: 11s
+thyroid seed 2: 12s
+shuttle seed 0: 9s
+shuttle seed 1: 9s
+shuttle seed 2: 10s
+# Global feature importance
+
+Paper's 80/20 split, main model (fixed centroid + search); seeds [0, 1, 2]; mean ± 95% CI over seeds. Spearman rank agreement with permutation importance (accuracy drop when a feature is shuffled on the test rows) and with mean abs KernelSHAP over 50 test rows. Ground truth = share of the top 3 that are the truly relevant features (S1-S3 only).
+
+| Dataset | Ranking | Agreement with permutation importance | Agreement with mean abs SHAP | Ground truth top 3 | Seconds |
+|---|---|---|---|---|---|
+| S1 | PACE data-based | 0.64 ± 0.36 | 0.60 ± 0.14 | 1.00 ± 0.00 | 0.430 ± 0.300 |
+| S1 | PACE model-only | 0.56 ± 0.46 | 0.81 ± 0.28 | 1.00 ± 0.00 | 0.271 ± 0.181 |
+| S1 | PACE-flip, averaged | 0.72 ± 0.50 | 0.74 ± 0.22 | 1.00 ± 0.00 | 1.166 ± 0.634 |
+| S1 | Permutation importance | 1 (reference) | 0.52 ± 0.54 | 1.00 ± 0.00 | 39.659 ± 6.615 |
+| S1 | Mean abs KernelSHAP | 0.52 ± 0.54 | 1 (reference) | 1.00 ± 0.00 | 41.286 ± 2.030 |
+| S2 | PACE data-based | 0.54 ± 0.39 | 0.78 ± 0.15 | 1.00 ± 0.00 | 0.360 ± 0.135 |
+| S2 | PACE model-only | 0.65 ± 0.16 | 0.60 ± 0.08 | 1.00 ± 0.00 | 0.233 ± 0.061 |
+| S2 | PACE-flip, averaged | 0.76 ± 0.26 | 0.57 ± 0.34 | 1.00 ± 0.00 | 0.993 ± 0.345 |
+| S2 | Permutation importance | 1 (reference) | 0.59 ± 0.26 | 1.00 ± 0.00 | 38.023 ± 3.754 |
+| S2 | Mean abs KernelSHAP | 0.59 ± 0.26 | 1 (reference) | 1.00 ± 0.00 | 38.241 ± 4.531 |
+| S3 | PACE data-based | 0.65 ± 0.50 | 0.71 ± 0.21 | 1.00 ± 0.00 | 0.357 ± 0.192 |
+| S3 | PACE model-only | 0.71 ± 0.68 | 0.62 ± 0.29 | 1.00 ± 0.00 | 0.271 ± 0.192 |
+| S3 | PACE-flip, averaged | 0.71 ± 0.40 | 0.52 ± 0.20 | 1.00 ± 0.00 | 1.183 ± 0.487 |
+| S3 | Permutation importance | 1 (reference) | 0.53 ± 0.31 | 1.00 ± 0.00 | 39.080 ± 9.362 |
+| S3 | Mean abs KernelSHAP | 0.53 ± 0.31 | 1 (reference) | 1.00 ± 0.00 | 38.982 ± 10.332 |
+| wine | PACE data-based | 0.52 ± 0.10 | 0.51 ± 0.56 | – | 0.001 ± 0.000 |
+| wine | PACE model-only | 0.32 ± 0.50 | 0.85 ± 0.25 | – | 0.002 ± 0.001 |
+| wine | PACE-flip, averaged | 0.42 ± 1.06 | 0.50 ± 0.33 | – | 0.005 ± 0.000 |
+| wine | Permutation importance | 1 (reference) | 0.21 ± 0.29 | – | 0.220 ± 0.017 |
+| wine | Mean abs KernelSHAP | 0.21 ± 0.29 | 1 (reference) | – | 1.310 ± 0.127 |
+| breast_cancer | PACE data-based | 0.49 ± 0.32 | 0.86 ± 0.12 | – | 0.005 ± 0.003 |
+| breast_cancer | PACE model-only | 0.66 ± 0.27 | 0.81 ± 0.11 | – | 0.002 ± 0.002 |
+| breast_cancer | PACE-flip, averaged | 0.63 ± 0.22 | 0.82 ± 0.21 | – | 0.034 ± 0.008 |
+| breast_cancer | Permutation importance | 1 (reference) | 0.65 ± 0.14 | – | 1.173 ± 0.214 |
+| breast_cancer | Mean abs KernelSHAP | 0.65 ± 0.14 | 1 (reference) | – | 2.992 ± 0.471 |
+| thyroid | PACE data-based | 0.57 ± 0.35 | 0.66 ± 0.15 | – | 0.034 ± 0.008 |
+| thyroid | PACE model-only | 0.41 ± 0.46 | 0.30 ± 0.42 | – | 0.001 ± 0.000 |
+| thyroid | PACE-flip, averaged | 0.52 ± 0.40 | 0.45 ± 0.36 | – | 0.382 ± 0.056 |
+| thyroid | Permutation importance | 1 (reference) | 0.54 ± 0.07 | – | 7.153 ± 1.355 |
+| thyroid | Mean abs KernelSHAP | 0.54 ± 0.07 | 1 (reference) | – | 3.264 ± 0.949 |
+| shuttle | PACE data-based | 0.57 ± 0.02 | 0.28 ± 0.44 | – | 0.058 ± 0.016 |
+| shuttle | PACE model-only | 0.58 ± 0.50 | 0.44 ± 0.45 | – | 0.001 ± 0.000 |
+| shuttle | PACE-flip, averaged | 0.97 ± 0.07 | 0.82 ± 0.12 | – | 0.718 ± 0.133 |
+| shuttle | Permutation importance | 1 (reference) | 0.77 ± 0.26 | – | 4.831 ± 1.379 |
+| shuttle | Mean abs KernelSHAP | 0.77 ± 0.26 | 1 (reference) | – | 1.657 ± 0.675 |
+

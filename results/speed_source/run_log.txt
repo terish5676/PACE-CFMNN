@@ -1,0 +1,48 @@
+﻿0 of 18 dataset-seed pairs already done; 18 to run.
+S1 seed 240: ms PACE-SHAP 1917, PACE-SHAP, no pruning 3780, shap ExactExplainer 27650; pairs skipped 0.637; largest difference 7.6e-17
+S1 seed 241: ms PACE-SHAP 1965, PACE-SHAP, no pruning 3850, shap ExactExplainer 27880; pairs skipped 0.622; largest difference 7.1e-17
+S1 seed 242: ms PACE-SHAP 1965, PACE-SHAP, no pruning 3839, shap ExactExplainer 27930; pairs skipped 0.613; largest difference 1.1e-16
+S2 seed 240: ms PACE-SHAP 1853, PACE-SHAP, no pruning 3823, shap ExactExplainer 28330; pairs skipped 0.648; largest difference 1.2e-16
+S2 seed 241: ms PACE-SHAP 2060, PACE-SHAP, no pruning 3842, shap ExactExplainer 27905; pairs skipped 0.598; largest difference 9.0e-17
+S2 seed 242: ms PACE-SHAP 1959, PACE-SHAP, no pruning 3872, shap ExactExplainer 28754; pairs skipped 0.622; largest difference 6.6e-17
+S3 seed 240: ms PACE-SHAP 1938, PACE-SHAP, no pruning 3867, shap ExactExplainer 27682; pairs skipped 0.625; largest difference 1.2e-16
+S3 seed 241: ms PACE-SHAP 1915, PACE-SHAP, no pruning 3811, shap ExactExplainer 27830; pairs skipped 0.630; largest difference 4.7e-17
+S3 seed 242: ms PACE-SHAP 1816, PACE-SHAP, no pruning 3763, shap ExactExplainer 27574; pairs skipped 0.652; largest difference 9.0e-17
+shuttle seed 240: ms PACE-SHAP 6, PACE-SHAP, no pruning 15, shap ExactExplainer 158; pairs skipped 0.752; largest difference 2.5e-16
+shuttle seed 241: ms PACE-SHAP 12, PACE-SHAP, no pruning 13, shap ExactExplainer 150; pairs skipped 0.677; largest difference 1.5e-16
+shuttle seed 242: ms PACE-SHAP 7, PACE-SHAP, no pruning 18, shap ExactExplainer 180; pairs skipped 0.728; largest difference 1.1e-16
+magic seed 240: ms PACE-SHAP 313, PACE-SHAP, no pruning 743, shap ExactExplainer 5878; pairs skipped 0.685; largest difference 3.1e-17
+magic seed 241: ms PACE-SHAP 242, PACE-SHAP, no pruning 700, shap ExactExplainer 5616; pairs skipped 0.765; largest difference 4.3e-17
+magic seed 242: ms PACE-SHAP 214, PACE-SHAP, no pruning 747, shap ExactExplainer 5906; pairs skipped 0.826; largest difference 2.6e-17
+page_blocks seed 240: ms PACE-SHAP 32, PACE-SHAP, no pruning 74, shap ExactExplainer 580; pairs skipped 0.627; largest difference 1.0e-17
+page_blocks seed 241: ms PACE-SHAP 32, PACE-SHAP, no pruning 81, shap ExactExplainer 659; pairs skipped 0.669; largest difference 6.0e-17
+page_blocks seed 242: ms PACE-SHAP 25, PACE-SHAP, no pruning 78, shap ExactExplainer 768; pairs skipped 0.748; largest difference 2.0e-17
+.\.venv\Scripts\python : C:\Users\praka\Documents\pace-cfmnn\scripts\run_speed_source.py:157: Pandas4Warning: The 
+'float_precision' argument is deprecated. Use the default float precision instead.
+At line:1 char:457
++ ... 0=Get-Date; .\.venv\Scripts\python -B scripts/run_speed_source.py *>& ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\praka\...cision instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  text = summarise(pd.read_csv(csv, float_precision="round_trip"), out)
+C:\Users\praka\Documents\pace-cfmnn\scripts\run_speed_source.py:159: Pandas4Warning: The 'float_precision' argument is 
+deprecated. Use the default float precision instead.
+  ok, _ = check(pd.read_csv(csv, float_precision="round_trip"))
+# Run P (descriptive): where PACE-SHAP's speed comes from
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). v3's models and 200 explainer rows, seeds 240, 241, 242, 2 points per seed, one task at a time. Milliseconds per explanation (mean over seeds), each including its explainer's set-up. Written by `scripts/run_speed_source.py`.
+
+**Check: PASS.** PACE-SHAP without pruning agrees with PACE-SHAP within 1e-12, and shap's ExactExplainer within 1e-09, on every point.
+
+| Dataset | d | Boxes | ms ExactExplainer | ms no pruning | ms PACE-SHAP | Structure (ExactExplainer ÷ no pruning) | Pruning (no pruning ÷ PACE-SHAP) | Total (ExactExplainer ÷ PACE-SHAP) | (Row, box) pairs skipped | Largest difference: no pruning | Largest difference: ExactExplainer |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| S1 | 10 | 1523 | 27819.8 | 3823.1 | 1948.7 | 7.3× | 2.0× | 14.3× | 0.624 | 3.1e-17 | 1.1e-16 |
+| S2 | 10 | 1539 | 28329.5 | 3845.7 | 1957.4 | 7.4× | 2.0× | 14.5× | 0.623 | 1.4e-17 | 1.2e-16 |
+| S3 | 10 | 1523 | 27695.2 | 3813.7 | 1889.5 | 7.3× | 2.0× | 14.7× | 0.635 | 2.8e-17 | 1.2e-16 |
+| shuttle | 9 | 13 | 162.9 | 15.2 | 8.7 | 10.7× | 1.8× | 18.8× | 0.719 | 0.0e+00 | 2.5e-16 |
+| magic | 10 | 285 | 5800.2 | 730.0 | 256.0 | 7.9× | 2.9× | 22.7× | 0.759 | 3.5e-18 | 4.3e-17 |
+| page_blocks | 10 | 27 | 669.0 | 77.7 | 29.4 | 8.6× | 2.6× | 22.7× | 0.681 | 2.2e-19 | 6.0e-17 |
+
+Boxes: mean over seeds. (Row, box) pairs skipped: PACE-SHAP's own count (`stats_['share_of_boxes_skipped']`), the share of explainer-row and box pairs that pruning removed. Largest difference: the largest absolute difference from PACE-SHAP over every point, feature and seed.
+

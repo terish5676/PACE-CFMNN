@@ -1,0 +1,230 @@
+﻿0 of 130 dataset-seed pairs already done; 130 to run.
+letter seed 221: CFMNN 75.8% (541 boxes, 3510/3510 ties, 1 s), Simpson-scratch 68.9% (536 boxes, 4568/4642 ties, 1 s)
+letter seed 220: CFMNN 76.3% (560 boxes, 3195/3195 ties, 1 s), Simpson-scratch 69.6% (554 boxes, 4253/4289 ties, 1 s)
+skin seed 220: CFMNN 96.3% (88 boxes, 7206/7206 ties, 6 s), Simpson-scratch 98.0% (76 boxes, 336/3897 ties, 7 s)
+skin seed 223: CFMNN 94.1% (81 boxes, 11842/11842 ties, 5 s), Simpson-scratch 94.5% (76 boxes, 6195/10565 ties, 8 s)
+skin seed 228: CFMNN 96.5% (84 boxes, 6684/6684 ties, 6 s), Simpson-scratch 98.4% (73 boxes, 853/2900 ties, 7 s)
+skin seed 224: CFMNN 95.8% (78 boxes, 8574/8574 ties, 6 s), Simpson-scratch 97.6% (79 boxes, 3392/4705 ties, 8 s)
+skin seed 229: CFMNN 91.6% (82 boxes, 16266/16266 ties, 6 s), Simpson-scratch 98.4% (73 boxes, 1278/3351 ties, 7 s)
+skin seed 226: CFMNN 96.0% (77 boxes, 7938/7938 ties, 6 s), Simpson-scratch 94.9% (76 boxes, 5007/9771 ties, 8 s)
+skin seed 227: CFMNN 93.6% (92 boxes, 12511/12511 ties, 6 s), Simpson-scratch 97.7% (79 boxes, 677/4446 ties, 7 s)
+skin seed 225: CFMNN 95.8% (82 boxes, 8381/8381 ties, 6 s), Simpson-scratch 98.3% (76 boxes, 559/3541 ties, 7 s)
+skin seed 221: CFMNN 95.6% (85 boxes, 8552/8552 ties, 6 s), Simpson-scratch 98.8% (75 boxes, 183/2282 ties, 7 s)
+letter seed 222: CFMNN 74.2% (544 boxes, 3515/3515 ties, 0 s), Simpson-scratch 67.0% (543 boxes, 4577/4632 ties, 1 s)
+skin seed 222: CFMNN 97.2% (91 boxes, 5568/5568 ties, 6 s), Simpson-scratch 96.9% (84 boxes, 1056/6160 ties, 7 s)
+letter seed 223: CFMNN 76.4% (581 boxes, 3269/3269 ties, 0 s), Simpson-scratch 66.6% (580 boxes, 4558/4623 ties, 1 s)
+S1 seed 220: CFMNN 90.7% (1521 boxes, 0/0 ties, 0 s), Simpson-scratch 90.5% (1521 boxes, 0/0 ties, 1 s)
+S1 seed 221: CFMNN 91.8% (1532 boxes, 0/0 ties, 0 s), Simpson-scratch 92.3% (1532 boxes, 0/0 ties, 1 s)
+S1 seed 223: CFMNN 89.4% (1521 boxes, 0/0 ties, 0 s), Simpson-scratch 88.4% (1522 boxes, 0/0 ties, 1 s)
+S1 seed 222: CFMNN 87.9% (1513 boxes, 0/0 ties, 1 s), Simpson-scratch 89.6% (1505 boxes, 0/0 ties, 1 s)
+S1 seed 224: CFMNN 88.0% (1508 boxes, 0/0 ties, 1 s), Simpson-scratch 88.6% (1514 boxes, 0/0 ties, 1 s)
+S1 seed 225: CFMNN 89.6% (1524 boxes, 0/0 ties, 0 s), Simpson-scratch 89.7% (1524 boxes, 0/0 ties, 1 s)
+S1 seed 226: CFMNN 90.0% (1521 boxes, 0/0 ties, 1 s), Simpson-scratch 90.6% (1524 boxes, 0/1 ties, 1 s)
+S1 seed 227: CFMNN 89.5% (1513 boxes, 0/0 ties, 1 s), Simpson-scratch 89.8% (1514 boxes, 0/0 ties, 1 s)
+S1 seed 228: CFMNN 91.6% (1508 boxes, 0/0 ties, 0 s), Simpson-scratch 91.7% (1509 boxes, 0/0 ties, 1 s)
+letter seed 224: CFMNN 73.8% (540 boxes, 3405/3405 ties, 1 s), Simpson-scratch 66.2% (540 boxes, 4586/4663 ties, 1 s)
+S1 seed 229: CFMNN 90.0% (1524 boxes, 0/0 ties, 1 s), Simpson-scratch 90.0% (1526 boxes, 0/0 ties, 1 s)
+letter seed 228: CFMNN 75.8% (552 boxes, 3443/3443 ties, 1 s), Simpson-scratch 66.0% (547 boxes, 4940/4993 ties, 1 s)
+letter seed 229: CFMNN 75.0% (569 boxes, 3469/3469 ties, 1 s), Simpson-scratch 68.6% (569 boxes, 4504/4560 ties, 1 s)
+S2 seed 221: CFMNN 79.2% (1538 boxes, 0/0 ties, 1 s), Simpson-scratch 79.1% (1536 boxes, 0/0 ties, 1 s)
+letter seed 227: CFMNN 74.4% (584 boxes, 3314/3314 ties, 1 s), Simpson-scratch 66.2% (583 boxes, 4624/4652 ties, 1 s)
+letter seed 225: CFMNN 74.3% (527 boxes, 3434/3434 ties, 1 s), Simpson-scratch 65.5% (527 boxes, 4814/4891 ties, 1 s)
+letter seed 226: CFMNN 76.4% (579 boxes, 3246/3246 ties, 1 s), Simpson-scratch 65.3% (576 boxes, 4677/4739 ties, 1 s)
+S2 seed 220: CFMNN 80.9% (1547 boxes, 0/0 ties, 1 s), Simpson-scratch 81.8% (1547 boxes, 0/0 ties, 1 s)
+S2 seed 222: CFMNN 84.1% (1516 boxes, 0/0 ties, 0 s), Simpson-scratch 82.7% (1516 boxes, 0/0 ties, 1 s)
+S2 seed 223: CFMNN 81.3% (1535 boxes, 0/0 ties, 0 s), Simpson-scratch 83.2% (1530 boxes, 0/0 ties, 1 s)
+S2 seed 224: CFMNN 81.1% (1545 boxes, 0/0 ties, 0 s), Simpson-scratch 81.3% (1542 boxes, 0/0 ties, 1 s)
+S2 seed 225: CFMNN 80.9% (1528 boxes, 0/0 ties, 1 s), Simpson-scratch 80.8% (1520 boxes, 0/1 ties, 1 s)
+S2 seed 226: CFMNN 82.2% (1551 boxes, 0/0 ties, 0 s), Simpson-scratch 81.0% (1550 boxes, 0/1 ties, 1 s)
+S2 seed 227: CFMNN 81.7% (1523 boxes, 1/1 ties, 1 s), Simpson-scratch 81.3% (1528 boxes, 0/2 ties, 1 s)
+S3 seed 220: CFMNN 88.0% (1510 boxes, 0/0 ties, 0 s), Simpson-scratch 88.2% (1508 boxes, 0/0 ties, 1 s)
+S2 seed 229: CFMNN 82.0% (1542 boxes, 0/0 ties, 1 s), Simpson-scratch 81.3% (1537 boxes, 0/0 ties, 1 s)
+S2 seed 228: CFMNN 79.1% (1543 boxes, 0/0 ties, 0 s), Simpson-scratch 79.8% (1537 boxes, 0/0 ties, 1 s)
+S3 seed 221: CFMNN 87.4% (1547 boxes, 0/0 ties, 1 s), Simpson-scratch 86.9% (1542 boxes, 0/0 ties, 1 s)
+S3 seed 222: CFMNN 87.1% (1530 boxes, 0/0 ties, 1 s), Simpson-scratch 87.3% (1534 boxes, 0/0 ties, 1 s)
+S3 seed 223: CFMNN 87.8% (1523 boxes, 0/0 ties, 1 s), Simpson-scratch 87.7% (1523 boxes, 0/0 ties, 1 s)
+S3 seed 225: CFMNN 87.8% (1524 boxes, 0/0 ties, 1 s), Simpson-scratch 87.4% (1524 boxes, 0/0 ties, 1 s)
+S3 seed 226: CFMNN 89.2% (1520 boxes, 0/0 ties, 1 s), Simpson-scratch 88.9% (1521 boxes, 0/0 ties, 1 s)
+S3 seed 224: CFMNN 88.3% (1543 boxes, 0/0 ties, 1 s), Simpson-scratch 88.4% (1541 boxes, 0/0 ties, 1 s)
+S3 seed 227: CFMNN 88.4% (1530 boxes, 0/0 ties, 0 s), Simpson-scratch 87.8% (1524 boxes, 0/0 ties, 1 s)
+S3 seed 228: CFMNN 86.8% (1527 boxes, 0/0 ties, 1 s), Simpson-scratch 86.8% (1526 boxes, 0/0 ties, 1 s)
+S3 seed 229: CFMNN 87.6% (1522 boxes, 0/0 ties, 1 s), Simpson-scratch 87.7% (1523 boxes, 0/0 ties, 1 s)
+shuttle seed 221: CFMNN 99.7% (13 boxes, 82/82 ties, 1 s), Simpson-scratch 86.4% (13 boxes, 97/6296 ties, 4 s)
+shuttle seed 223: CFMNN 99.8% (13 boxes, 88/88 ties, 1 s), Simpson-scratch 88.3% (13 boxes, 71/5358 ties, 3 s)
+shuttle seed 220: CFMNN 99.8% (15 boxes, 91/91 ties, 1 s), Simpson-scratch 88.1% (15 boxes, 80/5465 ties, 4 s)
+shuttle seed 222: CFMNN 99.8% (13 boxes, 89/89 ties, 2 s), Simpson-scratch 88.5% (13 boxes, 98/5381 ties, 4 s)
+shuttle seed 224: CFMNN 99.8% (13 boxes, 88/88 ties, 1 s), Simpson-scratch 96.2% (13 boxes, 15/1692 ties, 3 s)
+shuttle seed 225: CFMNN 99.8% (14 boxes, 87/87 ties, 1 s), Simpson-scratch 82.9% (15 boxes, 7/8139 ties, 5 s)
+shuttle seed 226: CFMNN 99.7% (13 boxes, 91/91 ties, 1 s), Simpson-scratch 78.3% (13 boxes, 5/10026 ties, 4 s)
+shuttle seed 228: CFMNN 99.8% (13 boxes, 88/88 ties, 1 s), Simpson-scratch 71.0% (15 boxes, 10/13362 ties, 4 s)
+shuttle seed 229: CFMNN 99.8% (14 boxes, 93/93 ties, 1 s), Simpson-scratch 91.6% (14 boxes, 22/3906 ties, 4 s)
+shuttle seed 227: CFMNN 99.8% (13 boxes, 89/89 ties, 1 s), Simpson-scratch 86.2% (14 boxes, 86/6328 ties, 5 s)
+wine seed 220: CFMNN 100.0% (29 boxes, 0/0 ties, 0 s), Simpson-scratch 100.0% (29 boxes, 0/0 ties, 0 s)
+wine seed 222: CFMNN 94.4% (29 boxes, 0/0 ties, 0 s), Simpson-scratch 94.4% (29 boxes, 0/0 ties, 0 s)
+wine seed 221: CFMNN 97.2% (31 boxes, 0/0 ties, 0 s), Simpson-scratch 97.2% (31 boxes, 0/0 ties, 0 s)
+wine seed 223: CFMNN 94.4% (30 boxes, 0/0 ties, 0 s), Simpson-scratch 94.4% (30 boxes, 0/0 ties, 0 s)
+wine seed 224: CFMNN 100.0% (31 boxes, 0/0 ties, 0 s), Simpson-scratch 100.0% (31 boxes, 0/0 ties, 0 s)
+wine seed 225: CFMNN 100.0% (32 boxes, 0/0 ties, 0 s), Simpson-scratch 100.0% (32 boxes, 0/0 ties, 0 s)
+wine seed 226: CFMNN 94.4% (29 boxes, 0/0 ties, 0 s), Simpson-scratch 94.4% (29 boxes, 0/0 ties, 0 s)
+wine seed 227: CFMNN 97.2% (31 boxes, 0/0 ties, 0 s), Simpson-scratch 97.2% (31 boxes, 0/0 ties, 0 s)
+wine seed 228: CFMNN 100.0% (30 boxes, 0/0 ties, 0 s), Simpson-scratch 100.0% (30 boxes, 0/0 ties, 0 s)
+wine seed 229: CFMNN 97.2% (29 boxes, 0/0 ties, 0 s), Simpson-scratch 97.2% (29 boxes, 0/0 ties, 0 s)
+magic seed 220: CFMNN 72.6% (276 boxes, 3918/3918 ties, 1 s), Simpson-scratch 70.7% (265 boxes, 123/4310 ties, 3 s)
+breast_cancer seed 220: CFMNN 94.7% (43 boxes, 2/2 ties, 0 s), Simpson-scratch 95.6% (43 boxes, 0/3 ties, 0 s)
+breast_cancer seed 221: CFMNN 97.4% (41 boxes, 3/3 ties, 0 s), Simpson-scratch 98.2% (38 boxes, 0/6 ties, 0 s)
+breast_cancer seed 222: CFMNN 93.9% (44 boxes, 3/3 ties, 0 s), Simpson-scratch 93.0% (45 boxes, 0/4 ties, 0 s)
+magic seed 221: CFMNN 69.2% (275 boxes, 4260/4260 ties, 1 s), Simpson-scratch 69.3% (266 boxes, 17/4617 ties, 3 s)
+breast_cancer seed 223: CFMNN 92.1% (40 boxes, 5/5 ties, 0 s), Simpson-scratch 94.7% (41 boxes, 0/4 ties, 0 s)
+breast_cancer seed 224: CFMNN 95.6% (44 boxes, 3/3 ties, 0 s), Simpson-scratch 97.4% (45 boxes, 0/6 ties, 0 s)
+breast_cancer seed 227: CFMNN 92.1% (43 boxes, 3/3 ties, 0 s), Simpson-scratch 96.5% (41 boxes, 0/4 ties, 0 s)
+breast_cancer seed 225: CFMNN 95.6% (41 boxes, 4/4 ties, 0 s), Simpson-scratch 98.2% (40 boxes, 0/4 ties, 0 s)
+breast_cancer seed 226: CFMNN 99.1% (39 boxes, 5/5 ties, 0 s), Simpson-scratch 99.1% (40 boxes, 0/4 ties, 0 s)
+breast_cancer seed 228: CFMNN 98.2% (45 boxes, 4/4 ties, 0 s), Simpson-scratch 99.1% (45 boxes, 0/5 ties, 0 s)
+breast_cancer seed 229: CFMNN 95.6% (42 boxes, 3/3 ties, 0 s), Simpson-scratch 93.0% (41 boxes, 0/4 ties, 0 s)
+magic seed 222: CFMNN 67.5% (275 boxes, 4687/4687 ties, 1 s), Simpson-scratch 68.9% (287 boxes, 28/4654 ties, 3 s)
+magic seed 223: CFMNN 69.3% (295 boxes, 4430/4430 ties, 1 s), Simpson-scratch 68.7% (285 boxes, 5/4807 ties, 3 s)
+magic seed 226: CFMNN 70.6% (276 boxes, 4318/4318 ties, 1 s), Simpson-scratch 70.2% (264 boxes, 49/4354 ties, 3 s)
+magic seed 224: CFMNN 73.1% (290 boxes, 4004/4004 ties, 1 s), Simpson-scratch 66.1% (288 boxes, 254/4894 ties, 3 s)
+digits seed 222: CFMNN 96.1% (295 boxes, 0/0 ties, 0 s), Simpson-scratch 96.1% (295 boxes, 0/0 ties, 0 s)
+magic seed 225: CFMNN 70.2% (280 boxes, 4333/4333 ties, 1 s), Simpson-scratch 69.9% (257 boxes, 105/4477 ties, 3 s)
+digits seed 221: CFMNN 95.3% (286 boxes, 0/0 ties, 0 s), Simpson-scratch 95.3% (286 boxes, 0/0 ties, 0 s)
+digits seed 223: CFMNN 98.1% (298 boxes, 0/0 ties, 0 s), Simpson-scratch 98.1% (298 boxes, 0/0 ties, 0 s)
+digits seed 220: CFMNN 95.6% (292 boxes, 0/0 ties, 0 s), Simpson-scratch 95.3% (292 boxes, 0/0 ties, 0 s)
+digits seed 225: CFMNN 94.4% (289 boxes, 0/0 ties, 0 s), Simpson-scratch 94.2% (289 boxes, 0/0 ties, 0 s)
+digits seed 224: CFMNN 96.7% (296 boxes, 0/0 ties, 0 s), Simpson-scratch 96.7% (296 boxes, 0/0 ties, 0 s)
+thyroid seed 220: CFMNN 96.5% (56 boxes, 91/91 ties, 0 s), Simpson-scratch 95.1% (56 boxes, 201/201 ties, 0 s)
+thyroid seed 222: CFMNN 97.2% (55 boxes, 107/107 ties, 0 s), Simpson-scratch 94.9% (55 boxes, 254/254 ties, 0 s)
+thyroid seed 221: CFMNN 97.8% (56 boxes, 126/126 ties, 0 s), Simpson-scratch 98.0% (56 boxes, 129/129 ties, 0 s)
+thyroid seed 223: CFMNN 96.8% (51 boxes, 95/95 ties, 0 s), Simpson-scratch 94.4% (51 boxes, 270/270 ties, 0 s)
+digits seed 228: CFMNN 96.1% (295 boxes, 0/0 ties, 0 s), Simpson-scratch 96.1% (295 boxes, 0/0 ties, 0 s)
+digits seed 229: CFMNN 96.1% (289 boxes, 0/0 ties, 0 s), Simpson-scratch 95.8% (289 boxes, 0/0 ties, 0 s)
+thyroid seed 224: CFMNN 95.8% (52 boxes, 190/190 ties, 0 s), Simpson-scratch 97.2% (52 boxes, 153/153 ties, 0 s)
+digits seed 226: CFMNN 95.8% (294 boxes, 0/0 ties, 0 s), Simpson-scratch 95.3% (294 boxes, 0/0 ties, 0 s)
+thyroid seed 225: CFMNN 97.2% (55 boxes, 123/123 ties, 0 s), Simpson-scratch 96.8% (55 boxes, 119/119 ties, 0 s)
+thyroid seed 227: CFMNN 97.5% (51 boxes, 91/91 ties, 0 s), Simpson-scratch 95.3% (51 boxes, 217/217 ties, 0 s)
+magic seed 227: CFMNN 68.2% (271 boxes, 4535/4535 ties, 1 s), Simpson-scratch 67.9% (282 boxes, 248/4930 ties, 3 s)
+digits seed 227: CFMNN 96.4% (299 boxes, 0/0 ties, 0 s), Simpson-scratch 95.8% (299 boxes, 0/0 ties, 0 s)
+thyroid seed 226: CFMNN 96.9% (52 boxes, 106/106 ties, 0 s), Simpson-scratch 94.7% (52 boxes, 264/264 ties, 0 s)
+thyroid seed 229: CFMNN 97.7% (50 boxes, 92/92 ties, 0 s), Simpson-scratch 98.8% (50 boxes, 33/33 ties, 0 s)
+thyroid seed 228: CFMNN 97.3% (54 boxes, 101/101 ties, 0 s), Simpson-scratch 95.3% (54 boxes, 206/206 ties, 0 s)
+magic seed 229: CFMNN 70.9% (278 boxes, 4099/4099 ties, 1 s), Simpson-scratch 67.4% (279 boxes, 118/4736 ties, 3 s)
+magic seed 228: CFMNN 74.6% (289 boxes, 3560/3560 ties, 1 s), Simpson-scratch 67.7% (255 boxes, 41/4799 ties, 3 s)
+page_blocks seed 220: CFMNN 89.7% (20 boxes, 374/374 ties, 0 s), Simpson-scratch 86.7% (20 boxes, 527/570 ties, 0 s)
+page_blocks seed 221: CFMNN 88.3% (28 boxes, 454/454 ties, 0 s), Simpson-scratch 93.8% (28 boxes, 137/287 ties, 0 s)
+page_blocks seed 222: CFMNN 82.9% (26 boxes, 750/750 ties, 0 s), Simpson-scratch 94.2% (26 boxes, 170/223 ties, 0 s)
+landsat seed 222: CFMNN 84.6% (188 boxes, 552/552 ties, 0 s), Simpson-scratch 85.0% (196 boxes, 420/566 ties, 1 s)
+landsat seed 220: CFMNN 83.5% (199 boxes, 573/573 ties, 0 s), Simpson-scratch 85.6% (194 boxes, 365/496 ties, 1 s)
+landsat seed 224: CFMNN 87.2% (201 boxes, 478/478 ties, 0 s), Simpson-scratch 85.8% (185 boxes, 393/516 ties, 0 s)
+page_blocks seed 223: CFMNN 86.6% (27 boxes, 561/561 ties, 0 s), Simpson-scratch 89.9% (27 boxes, 71/364 ties, 0 s)
+landsat seed 223: CFMNN 85.5% (210 boxes, 521/521 ties, 0 s), Simpson-scratch 84.8% (209 boxes, 395/543 ties, 1 s)
+page_blocks seed 224: CFMNN 85.7% (24 boxes, 584/584 ties, 0 s), Simpson-scratch 66.3% (24 boxes, 1176/1424 ties, 0 s)
+landsat seed 221: CFMNN 85.9% (199 boxes, 531/531 ties, 0 s), Simpson-scratch 84.8% (199 boxes, 344/561 ties, 0 s)
+landsat seed 226: CFMNN 85.6% (208 boxes, 431/431 ties, 0 s), Simpson-scratch 85.3% (198 boxes, 465/594 ties, 0 s)
+landsat seed 227: CFMNN 85.2% (195 boxes, 505/505 ties, 0 s), Simpson-scratch 84.5% (188 boxes, 362/507 ties, 0 s)
+landsat seed 225: CFMNN 82.7% (210 boxes, 547/547 ties, 0 s), Simpson-scratch 85.5% (199 boxes, 409/507 ties, 1 s)
+page_blocks seed 225: CFMNN 88.4% (25 boxes, 461/461 ties, 0 s), Simpson-scratch 93.8% (26 boxes, 172/217 ties, 0 s)
+page_blocks seed 227: CFMNN 88.8% (29 boxes, 413/413 ties, 0 s), Simpson-scratch 92.2% (30 boxes, 158/236 ties, 0 s)
+page_blocks seed 226: CFMNN 86.2% (25 boxes, 609/609 ties, 0 s), Simpson-scratch 82.8% (27 boxes, 633/759 ties, 0 s)
+landsat seed 229: CFMNN 84.9% (211 boxes, 476/476 ties, 0 s), Simpson-scratch 83.5% (207 boxes, 413/559 ties, 1 s)
+page_blocks seed 228: CFMNN 86.0% (24 boxes, 594/594 ties, 0 s), Simpson-scratch 89.9% (24 boxes, 204/416 ties, 0 s)
+page_blocks seed 229: CFMNN 91.3% (27 boxes, 428/428 ties, 0 s), Simpson-scratch 91.3% (26 boxes, 211/342 ties, 0 s)
+landsat seed 228: CFMNN 84.9% (199 boxes, 486/486 ties, 0 s), Simpson-scratch 84.3% (198 boxes, 375/481 ties, 1 s)
+0 of 60 dataset-seed pairs already done; 60 to run.
+S1 seed 224: 1514 boxes, 51 contractions, largest difference 1.5e-16
+S1 seed 226: 1524 boxes, 63 contractions, largest difference 1.5e-16
+S1 seed 229: 1526 boxes, 55 contractions, largest difference 1.2e-16
+S1 seed 227: 1514 boxes, 52 contractions, largest difference 1.0e-16
+S1 seed 223: 1522 boxes, 70 contractions, largest difference 1.4e-16
+S1 seed 225: 1524 boxes, 44 contractions, largest difference 1.1e-16
+S1 seed 222: 1505 boxes, 51 contractions, largest difference 1.4e-10
+S1 seed 228: 1509 boxes, 67 contractions, largest difference 9.0e-17
+S1 seed 221: 1532 boxes, 44 contractions, largest difference 1.3e-16
+S1 seed 220: 1521 boxes, 62 contractions, largest difference 6.9e-17
+S2 seed 221: 1536 boxes, 170 contractions, largest difference 1.4e-16
+S2 seed 220: 1547 boxes, 157 contractions, largest difference 6.8e-17
+S2 seed 222: 1516 boxes, 181 contractions, largest difference 9.7e-17
+S2 seed 224: 1542 boxes, 157 contractions, largest difference 1.1e-16
+S2 seed 223: 1530 boxes, 179 contractions, largest difference 7.6e-17
+S2 seed 226: 1550 boxes, 178 contractions, largest difference 5.8e-17
+S2 seed 225: 1520 boxes, 176 contractions, largest difference 1.2e-16
+S2 seed 227: 1528 boxes, 167 contractions, largest difference 7.6e-17
+S3 seed 220: 1508 boxes, 77 contractions, largest difference 1.0e-16
+S3 seed 223: 1523 boxes, 88 contractions, largest difference 1.3e-16
+S3 seed 222: 1534 boxes, 80 contractions, largest difference 9.7e-17
+S2 seed 228: 1537 boxes, 180 contractions, largest difference 9.0e-17
+S2 seed 229: 1537 boxes, 186 contractions, largest difference 1.6e-16
+S3 seed 221: 1542 boxes, 73 contractions, largest difference 1.0e-16
+shuttle seed 220: 15 boxes, 24731 contractions, largest difference 6.5e-17
+shuttle seed 221: 13 boxes, 15108 contractions, largest difference 1.4e-16
+shuttle seed 222: 13 boxes, 23824 contractions, largest difference 2.0e-16
+shuttle seed 223: 13 boxes, 14534 contractions, largest difference 1.4e-16
+shuttle seed 224: 13 boxes, 15962 contractions, largest difference 7.8e-17
+shuttle seed 226: 13 boxes, 23719 contractions, largest difference 1.2e-16
+shuttle seed 225: 15 boxes, 29069 contractions, largest difference 2.5e-16
+shuttle seed 227: 14 boxes, 32795 contractions, largest difference 1.3e-16
+shuttle seed 228: 15 boxes, 21716 contractions, largest difference 3.1e-16
+shuttle seed 229: 14 boxes, 23086 contractions, largest difference 1.5e-16
+magic seed 220: 265 boxes, 20667 contractions, largest difference 1.1e-16
+magic seed 221: 266 boxes, 20694 contractions, largest difference 9.7e-17
+magic seed 225: 257 boxes, 20428 contractions, largest difference 4.4e-17
+magic seed 224: 288 boxes, 21650 contractions, largest difference 1.1e-16
+magic seed 223: 285 boxes, 21629 contractions, largest difference 1.2e-16
+magic seed 222: 287 boxes, 22064 contractions, largest difference 8.7e-17
+page_blocks seed 220: 20 boxes, 383 contractions, largest difference 1.3e-16
+page_blocks seed 221: 28 boxes, 187 contractions, largest difference 8.7e-17
+page_blocks seed 222: 26 boxes, 195 contractions, largest difference 1.4e-16
+page_blocks seed 223: 27 boxes, 351 contractions, largest difference 1.7e-16
+page_blocks seed 224: 24 boxes, 154 contractions, largest difference 4.0e-17
+page_blocks seed 225: 26 boxes, 124 contractions, largest difference 6.8e-17
+page_blocks seed 226: 27 boxes, 1139 contractions, largest difference 6.7e-17
+page_blocks seed 227: 30 boxes, 166 contractions, largest difference 3.0e-17
+page_blocks seed 228: 24 boxes, 373 contractions, largest difference 1.1e-16
+page_blocks seed 229: 26 boxes, 326 contractions, largest difference 1.9e-16
+magic seed 226: 264 boxes, 22015 contractions, largest difference 6.7e-17
+magic seed 228: 255 boxes, 20776 contractions, largest difference 6.2e-17
+magic seed 227: 282 boxes, 20096 contractions, largest difference 7.1e-17
+magic seed 229: 279 boxes, 20766 contractions, largest difference 9.8e-17
+S3 seed 224: 1541 boxes, 84 contractions, largest difference 9.8e-17
+S3 seed 225: 1524 boxes, 62 contractions, largest difference 7.6e-17
+S3 seed 226: 1521 boxes, 95 contractions, largest difference 1.3e-16
+S3 seed 227: 1524 boxes, 79 contractions, largest difference 1.3e-16
+S3 seed 229: 1523 boxes, 65 contractions, largest difference 1.5e-16
+S3 seed 228: 1526 boxes, 66 contractions, largest difference 5.6e-17
+# Run M: Simpson's fuzzy min-max classifier trained from scratch
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). The exact check is a check; everything else is descriptive (no test). θ = 0.3, γ = 4 for both models. Means over seeds; shares pooled over seeds. Written by `scripts/run_simpson_fmm.py`.
+
+## PACE-SHAP on SimpsonFMM against shap's ExactExplainer
+
+**Check: PASS** (largest difference 1.4e-10; the plan's limit is 1e-09).
+
+| Dataset | Seeds | Points | Boxes (mean) | Contractions (mean) | Largest difference | ms PACE-SHAP | ms ExactExplainer |
+|---|---|---|---|---|---|---|---|
+| S1 | 10 | 50 | 1,519.1 | 55.9 | 1.4e-10 | 7,765.2 | 87,691.9 |
+| S2 | 10 | 50 | 1,534.3 | 173.1 | 1.6e-16 | 6,863.4 | 88,138.4 |
+| S3 | 10 | 50 | 1,526.6 | 76.9 | 1.5e-16 | 5,411.5 | 68,160.5 |
+| shuttle | 10 | 50 | 13.8 | 22,454.4 | 3.1e-16 | 17.9 | 375.8 |
+| magic | 10 | 50 | 272.8 | 21,078.5 | 1.2e-16 | 525.2 | 15,701.3 |
+| page_blocks | 10 | 50 | 25.8 | 339.8 | 1.9e-16 | 79.2 | 1,868.1 |
+
+## SimpsonFMM beside CFMNN (13 accuracy datasets)
+
+| Dataset | Accuracy CFMNN | Accuracy Simpson | Macro-F1 CFMNN | Macro-F1 Simpson | Boxes CFMNN | Boxes Simpson | Training error % CFMNN | Training error % Simpson | Ties % CFMNN | Ties % Simpson | Tie-rule-decided test % CFMNN | Tie-rule-decided test % Simpson | Contractions | Pairs still overlapping | Seconds CFMNN | Seconds Simpson |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| S1 | 89.85 | 90.12 | 89.85 | 90.12 | 1,518.5 | 1,519.1 | 0.00 | 0.00 | nan | 0.0 | 0.0 | 0.0 | 55.9 | 0.0 | 0.5 | 1.1 |
+| S2 | 81.25 | 81.23 | 81.25 | 81.22 | 1,536.8 | 1,534.3 | 0.00 | 0.01 | 100.0 | 0.0 | 0.0 | 0.0 | 173.1 | 0.0 | 0.5 | 1.1 |
+| S3 | 87.84 | 87.71 | 86.47 | 86.33 | 1,527.6 | 1,526.6 | 0.00 | 0.00 | nan | nan | 0.0 | 0.0 | 76.9 | 0.0 | 0.5 | 1.0 |
+| wine | 97.50 | 97.50 | 97.60 | 97.60 | 30.1 | 30.1 | 0.00 | 0.00 | nan | nan | 0.0 | 0.0 | 0.3 | 0.0 | 0.0 | 0.0 |
+| breast_cancer | 95.44 | 96.49 | 95.09 | 96.24 | 42.2 | 41.9 | 0.77 | 0.97 | 100.0 | 0.0 | 0.5 | 0.0 | 77.6 | 0.0 | 0.0 | 0.0 |
+| digits | 96.06 | 95.86 | 96.04 | 95.84 | 293.3 | 293.3 | 0.00 | 0.00 | nan | nan | 0.4 | 0.4 | 0.0 | 0.0 | 0.1 | 0.3 |
+| thyroid | 97.07 | 96.04 | 85.39 | 78.31 | 53.2 | 53.2 | 1.95 | 3.20 | 100.0 | 100.0 | 5.4 | 5.4 | 0.0 | 0.0 | 0.2 | 0.3 |
+| shuttle | 99.77 | 85.76 | 85.88 | 75.40 | 13.4 | 13.8 | 0.19 | 14.21 | 100.0 | 0.7 | 13.0 | 0.3 | 22,454.4 | 0.0 | 1.4 | 4.2 |
+| skin | 95.26 | 97.34 | 92.09 | 95.76 | 84.0 | 76.7 | 4.77 | 2.63 | 100.0 | 37.8 | 19.6 | 5.4 | 5,301.7 | 0.0 | 5.7 | 7.4 |
+| magic | 70.62 | 68.68 | 69.53 | 67.00 | 280.5 | 272.8 | 27.70 | 30.61 | 100.0 | 2.1 | 77.3 | 1.5 | 21,078.5 | 0.0 | 0.7 | 3.0 |
+| letter | 75.25 | 66.99 | 75.04 | 66.72 | 557.7 | 555.5 | 21.12 | 29.18 | 100.0 | 98.7 | 56.3 | 55.6 | 71.4 | 0.2 | 0.6 | 1.1 |
+| landsat | 85.01 | 84.93 | 82.37 | 82.86 | 202.0 | 197.3 | 9.91 | 10.35 | 100.0 | 73.9 | 25.7 | 20.9 | 384.1 | 1.5 | 0.3 | 0.5 |
+| page_blocks | 87.39 | 88.09 | 63.75 | 63.87 | 25.5 | 25.8 | 11.94 | 11.05 | 100.0 | 71.4 | 73.0 | 55.9 | 339.8 | 0.0 | 0.2 | 0.2 |
+
+Ties: training errors inside a box of both classes (Proposition 1's form), pooled. Tie-rule-decided: test predictions whose class the tie rule decides (CFMNN: nearest centroid; Simpson: the lowest box index), pooled. Pairs still overlapping: pairs of boxes of different classes that Simpson's test still finds overlapping after training (a box made as a new point is never tested).
+
+

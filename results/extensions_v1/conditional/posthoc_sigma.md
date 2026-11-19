@@ -1,0 +1,127 @@
+# Post hoc: B3's conditional game at other values of sigma
+
+**Post hoc, not pre-registered.** B3 fixed σ = 0.1 in advance and its results stand as run. This check asks whether B3's conditional explainers did worse because, at σ = 0.1, the conditional game rests on about one explainer row for large coalitions.
+
+Datasets S1, S1c, S2c, Shuttle, MAGIC, Page Blocks (those where PACE-SHAP is exact, d ≤ 12); seeds [40, 41, 42, 43, 44]; B3's models, 50 test points, 200 explainer rows, evaluation rows and tests, recomputed with the same code. Only PACE-SHAP-cond, at σ = 0.1, 0.2, 0.3, 0.5, 1; σ = inf is plain PACE-SHAP (all rows weighted equally). Every σ comes from one shared table of margins, and the realism inputs use the same coalitions and random draws for every σ.
+
+Descriptive only: with 5 seeds a two-sided Wilcoxon test cannot reach p < 0.05, so no tests are run. Cells give the mean over seeds and, for σ < inf, in brackets the number of seeds where PACE-SHAP-cond is more faithful than PACE-SHAP.
+
+## Check: sigma = 0.1 and inf repeat B3
+
+Largest absolute difference from B3's own results, over all datasets and seeds here.
+
+| sigma | B3 method | Faithfulness, ground truth, x3 share | Inputs off the data |
+|---|---|---|---|
+| 0.1 | PACE-SHAP-cond | 0.0e+00 | 0.0e+00 |
+| inf | PACE-SHAP | 0.0e+00 | 0.0e+00 |
+
+## 1. Effective explainer rows
+
+Kish effective rows (Σw)² / Σw² of the row weights, median over points and over coalitions with half the features or more (not all); then the median over seeds. 1 means one row carries all the weight; σ = inf weights all 200 rows equally.
+
+| Dataset | σ = 0.1 | σ = 0.2 | σ = 0.3 | σ = 0.5 | σ = 1 | σ = inf |
+|---|---|---|---|---|---|---|
+| S1 | 1.1 | 3.0 | 9.6 | 54.8 | 170.2 | 200 |
+| S1c | 1.1 | 3.2 | 10.4 | 55.9 | 169.4 | 200 |
+| S2c | 1.1 | 3.1 | 10.2 | 54.3 | 168.0 | 200 |
+| Shuttle | 3.4 | 14.3 | 44.4 | 111.2 | 172.9 | 200 |
+| MAGIC | 2.3 | 12.4 | 34.2 | 90.4 | 168.1 | 200 |
+| Page Blocks | 14.9 | 56.0 | 93.4 | 142.7 | 181.1 | 200 |
+
+Smaller coalitions (1 feature up to just under half), same summary:
+
+| Dataset | σ = 0.1 | σ = 0.2 | σ = 0.3 | σ = 0.5 | σ = 1 | σ = inf |
+|---|---|---|---|---|---|---|
+| S1 | 1.7 | 5.8 | 16.0 | 55.3 | 158.3 | 200 |
+| S1c | 1.8 | 6.1 | 16.9 | 56.7 | 158.2 | 200 |
+| S2c | 1.8 | 6.1 | 16.7 | 55.6 | 156.9 | 200 |
+| Shuttle | 7.5 | 27.3 | 61.3 | 117.5 | 172.0 | 200 |
+| MAGIC | 3.9 | 18.5 | 42.8 | 96.1 | 166.5 | 200 |
+| Page Blocks | 24.0 | 67.7 | 106.4 | 148.6 | 182.0 | 200 |
+
+## 2. Inputs off the data (%)
+
+Share of the game's inputs whose nearest training row is farther than the 95th percentile of the training rows' own nearest-neighbour distances (B3's measure, 200 inputs per point). Last column: the explained points themselves.
+
+| Dataset | σ = 0.1 | σ = 0.2 | σ = 0.3 | σ = 0.5 | σ = 1 | σ = inf | Points |
+|---|---|---|---|---|---|---|---|
+| S1 | 1.3 | 1.5 | 1.7 | 2.6 | 3.5 | 3.7 | 4.8 |
+| S1c | 1.7 | 2.0 | 2.9 | 6.1 | 10.6 | 13.8 | 6.0 |
+| S2c | 1.6 | 1.9 | 2.9 | 6.4 | 11.1 | 14.5 | 5.2 |
+| Shuttle | 57.1 | 63.2 | 65.6 | 67.8 | 69.5 | 70.7 | 6.0 |
+| MAGIC | 2.2 | 2.3 | 2.8 | 5.0 | 11.7 | 20.1 | 3.6 |
+| Page Blocks | 5.5 | 7.9 | 11.0 | 15.8 | 21.3 | 27.1 | 4.8 |
+
+## 3. Conditional test, deletion (lower = more faithful)
+
+| Dataset | σ = 0.1 | σ = 0.2 | σ = 0.3 | σ = 0.5 | σ = 1 | σ = inf |
+|---|---|---|---|---|---|---|
+| S1 | -0.115 (0/5) | -0.129 (0/5) | -0.140 (0/5) | -0.160 (0/5) | -0.171 (1/5) | -0.176 |
+| S1c | -0.052 (0/5) | -0.066 (0/5) | -0.075 (1/5) | -0.086 (2/5) | -0.091 (3/5) | -0.091 |
+| S2c | -0.095 (0/5) | -0.114 (0/5) | -0.126 (0/5) | -0.138 (1/5) | -0.145 (2/5) | -0.150 |
+| Shuttle | 0.417 (5/5) | 0.410 (5/5) | 0.410 (5/5) | 0.412 (5/5) | 0.416 (5/5) | 0.455 |
+| MAGIC | 0.039 (3/5) | 0.028 (5/5) | 0.023 (4/5) | 0.022 (4/5) | 0.026 (5/5) | 0.041 |
+| Page Blocks | 0.135 (2/5) | 0.132 (1/5) | 0.128 (2/5) | 0.126 (3/5) | 0.127 (3/5) | 0.128 |
+
+## 4. Conditional test, insertion (higher = more faithful)
+
+| Dataset | σ = 0.1 | σ = 0.2 | σ = 0.3 | σ = 0.5 | σ = 1 | σ = inf |
+|---|---|---|---|---|---|---|
+| S1 | 0.735 (0/5) | 0.747 (0/5) | 0.756 (0/5) | 0.763 (1/5) | 0.770 (2/5) | 0.771 |
+| S1c | 0.776 (0/5) | 0.788 (0/5) | 0.794 (0/5) | 0.800 (0/5) | 0.805 (3/5) | 0.805 |
+| S2c | 0.710 (0/5) | 0.726 (0/5) | 0.736 (0/5) | 0.744 (1/5) | 0.744 (2/5) | 0.746 |
+| Shuttle | 0.754 (2/5) | 0.754 (2/5) | 0.757 (3/5) | 0.765 (4/5) | 0.762 (4/5) | 0.755 |
+| MAGIC | 0.156 (0/5) | 0.165 (1/5) | 0.169 (2/5) | 0.178 (3/5) | 0.181 (4/5) | 0.174 |
+| Page Blocks | 0.276 (2/5) | 0.280 (3/5) | 0.278 (4/5) | 0.279 (4/5) | 0.277 (3/5) | 0.276 |
+
+## 5. Interventional test, deletion (lower = more faithful)
+
+| Dataset | σ = 0.1 | σ = 0.2 | σ = 0.3 | σ = 0.5 | σ = 1 | σ = inf |
+|---|---|---|---|---|---|---|
+| S1 | -0.105 (0/5) | -0.115 (0/5) | -0.126 (0/5) | -0.137 (1/5) | -0.140 (1/5) | -0.143 |
+| S1c | -0.045 (0/5) | -0.058 (0/5) | -0.068 (0/5) | -0.073 (2/5) | -0.076 (2/5) | -0.077 |
+| S2c | -0.074 (0/5) | -0.092 (0/5) | -0.100 (0/5) | -0.107 (0/5) | -0.111 (0/5) | -0.116 |
+| Shuttle | 0.308 (0/5) | 0.299 (1/5) | 0.291 (1/5) | 0.281 (2/5) | 0.284 (2/5) | 0.279 |
+| MAGIC | 0.059 (0/5) | 0.035 (0/5) | 0.012 (0/5) | -0.029 (0/5) | -0.059 (4/5) | -0.057 |
+| Page Blocks | 0.056 (0/5) | 0.050 (0/5) | 0.044 (0/5) | 0.033 (0/5) | 0.022 (1/5) | 0.015 |
+
+## 6. Interventional test, insertion (higher = more faithful)
+
+| Dataset | σ = 0.1 | σ = 0.2 | σ = 0.3 | σ = 0.5 | σ = 1 | σ = inf |
+|---|---|---|---|---|---|---|
+| S1 | 0.627 (0/5) | 0.637 (0/5) | 0.643 (0/5) | 0.654 (0/5) | 0.661 (1/5) | 0.663 |
+| S1c | 0.669 (0/5) | 0.679 (1/5) | 0.688 (1/5) | 0.692 (1/5) | 0.696 (2/5) | 0.698 |
+| S2c | 0.636 (0/5) | 0.650 (0/5) | 0.662 (0/5) | 0.669 (2/5) | 0.673 (3/5) | 0.673 |
+| Shuttle | 0.648 (0/5) | 0.657 (0/5) | 0.665 (0/5) | 0.685 (2/5) | 0.689 (3/5) | 0.688 |
+| MAGIC | 0.152 (0/5) | 0.164 (0/5) | 0.178 (0/5) | 0.219 (0/5) | 0.256 (1/5) | 0.269 |
+| Page Blocks | 0.245 (1/5) | 0.256 (0/5) | 0.263 (1/5) | 0.281 (1/5) | 0.289 (2/5) | 0.290 |
+
+## 7. Ground truth: share of the true features x0–x2 in the top 3
+
+| Dataset | σ = 0.1 | σ = 0.2 | σ = 0.3 | σ = 0.5 | σ = 1 | σ = inf |
+|---|---|---|---|---|---|---|
+| S1 | 0.71 | 0.76 | 0.81 | 0.85 | 0.87 | 0.87 |
+| S1c | 0.62 | 0.65 | 0.68 | 0.69 | 0.71 | 0.71 |
+| S2c | 0.61 | 0.65 | 0.67 | 0.68 | 0.69 | 0.68 |
+
+## 8. x3's share of |attribution| (x3 is a noisy copy of x0 the true rule does not use)
+
+Last column: the model's own use of x3 (its share of PACE-flip's flip mass, from B3).
+
+| Dataset | σ = 0.1 | σ = 0.2 | σ = 0.3 | σ = 0.5 | σ = 1 | σ = inf | Model's use |
+|---|---|---|---|---|---|---|---|
+| S1c | 0.173 | 0.182 | 0.190 | 0.200 | 0.203 | 0.197 | 0.187 |
+| S2c | 0.155 | 0.164 | 0.174 | 0.184 | 0.186 | 0.177 | 0.129 |
+
+## 9. Distance from PACE-SHAP
+
+Per point Σ|φ_σ − φ_PACE-SHAP| / Σ|φ_PACE-SHAP|, mean over points and seeds.
+
+| Dataset | σ = 0.1 | σ = 0.2 | σ = 0.3 | σ = 0.5 | σ = 1 |
+|---|---|---|---|---|---|
+| S1 | 1.19 | 0.92 | 0.66 | 0.38 | 0.16 |
+| S1c | 0.98 | 0.76 | 0.55 | 0.36 | 0.17 |
+| S2c | 1.00 | 0.77 | 0.56 | 0.36 | 0.18 |
+| Shuttle | 1.23 | 1.06 | 0.95 | 0.79 | 0.57 |
+| MAGIC | 1.03 | 0.93 | 0.86 | 0.72 | 0.41 |
+| Page Blocks | 1.16 | 0.99 | 0.89 | 0.73 | 0.49 |

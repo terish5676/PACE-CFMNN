@@ -1,0 +1,17 @@
+# Python 3.10 or newer. Developed with Python 3.14 and the versions noted on the right.
+numpy>=2.0          # 2.5.3
+scipy>=1.13         # 1.18.1
+scikit-learn>=1.5   # 1.9.1
+pandas>=2.2         # 3.0.5
+
+# XAI baselines: imported only inside xai_baselines.py's functions. Needed for the RQ1 scripts that
+# compare against KernelSHAP, LIME or DiCE (faithfulness, counterfactuals, global importance, the
+# review scripts) and their tests; the trust-signal and repair scripts run without them.
+shap>=0.54          # 0.54.1
+lime>=0.2           # 0.2.0.1
+dice-ml>=0.12       # 0.12
+
+# Readable baselines: imported only inside scripts/run_readable_baselines.py's make(). Needed for
+# that script (EBM and GFMM) and two of its tests, which skip without them.
+interpret-core>=0.7     # 0.7.8
+hyperbox-brain>=0.1.6   # 0.1.6

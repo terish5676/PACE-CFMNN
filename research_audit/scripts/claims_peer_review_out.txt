@@ -1,0 +1,169 @@
+
+====================================================================================================
+PR1. Equivalence, like for like and usual setting (§7, abstract, contributions)
+====================================================================================================
+OK  same rows, deletion: equivalent on: 12 of 13
+OK  same rows, deletion: the one not equivalent: ['landsat']
+OK  same rows, insertion: equivalent on: 12 of 13
+OK  same rows, insertion: the one not equivalent: ['landsat']
+OK  Landsat deletion difference (95% interval): -0.045 (-0.053 to -0.036)
+OK  usual setting, deletion: equivalent on: 6 of 11
+
+====================================================================================================
+PR2. The synthetic sets as one unit (§7)
+====================================================================================================
+usual, deletion: 6 better / 3 level / 0 worse; better: ['synthetic', 'breast_cancer', 'landsat', 'letter', 'thyroid', 'wine']; worse: []
+usual, insertion: 6 better / 3 level / 0 worse; better: ['synthetic', 'breast_cancer', 'landsat', 'letter', 'thyroid', 'wine']; worse: []
+same rows, deletion: 3 better / 6 level / 0 worse; better: ['synthetic', 'breast_cancer', 'landsat']; worse: []
+same rows, insertion: 2 better / 7 level / 0 worse; better: ['breast_cancer', 'landsat']; worse: []
+OK  usual setting, better on (deletion, insertion): (6, 6)
+OK  same rows, deletion, better on: 3
+across 9 units, ('usual', 'deletion'): 7 of 9 favour PACE-SHAP, median -0.0121, p = 0.0195
+across 9 units, ('usual', 'insertion'): 7 of 9 favour PACE-SHAP, median +0.0181, p = 0.0195
+across 9 units, ('same rows', 'deletion'): 6 of 9 favour PACE-SHAP, median -0.0006, p = 0.2031
+across 9 units, ('same rows', 'insertion'): 9 of 9 favour PACE-SHAP, median +0.0015, p = 0.0039
+OK  across units p: usual deletion, usual insertion, same-rows deletion, same-rows insertion: (np.float64(0.02), np.float64(0.02), np.float64(0.2), np.float64(0.004))
+OK  same rows, insertion: units favouring PACE-SHAP, median: (9, 0.0015)
+
+====================================================================================================
+PR3. The other PACE explanations against KernelSHAP and random (§7)
+====================================================================================================
+OK  PACE-contrastive worse than KernelSHAP on: 9
+    vs random (better/level/worse): 11/0/0; level on []
+OK  PACE-decomposition worse than KernelSHAP on: 11
+    vs random (better/level/worse): 9/2/0; level on ['page_blocks', 'thyroid']
+OK  PACE-multi worse than KernelSHAP on: 6
+    vs random (better/level/worse): 11/0/0; level on []
+OK  score breakdown not significantly better than random on: 2
+
+====================================================================================================
+PR4. Tied and untied points side by side (§7 table; tie test, seeds 50-59)
+====================================================================================================
+OK  S1: ('0%', '-0.0007, better', '-0.0071, better')
+OK  S2: ('0%', '-0.0013, better', '-0.0104, better')
+OK  S3: ('0%', '-0.0019, better', '-0.0132, better')
+OK  wine: ('0%', '-0.0025, better', '-0.0065, level')
+OK  breast_cancer: ('1%', '-0.0104, better', '-0.0603, better')
+OK  thyroid: ('4%', '-0.0010, better', '-0.0423, better')
+OK  shuttle: ('15%', '-0.0008, better', '+0.0007, level')
+OK  landsat: ('26%', '-0.0155, better', '-0.1236, better')
+OK  letter: ('50%', '-0.0042, better', '-0.0202, better')
+OK  page_blocks: ('70%', '-0.0003, level', 'too few untied points')
+OK  magic: ('77%', '-0.0005, better', 'too few untied points')
+OK  datasets with at least 10 untied points in every seed: 9
+
+====================================================================================================
+PR5. Test rows decided by the nearest-centroid rule (§7 Ties; base model, seeds 0-4)
+====================================================================================================
+tied % of test rows: {'S1': 0.0, 'S2': 0.0, 'S3': 0.0, 'breast_cancer': 0.35, 'digits': 0.67, 'landsat': 24.74, 'letter': 56.52, 'magic': 76.25, 'page_blocks': 72.84, 'shuttle': 12.59, 'skin': 20.22, 'thyroid': 5.28, 'wine': 0.0}
+tied % of test errors: {'S1': 0.0, 'S2': 0.0, 'S3': 0.0, 'breast_cancer': 0.0, 'digits': 7.14, 'landsat': 53.42, 'letter': 90.58, 'magic': 90.29, 'page_blocks': 94.95, 'shuttle': 83.05, 'skin': 99.89, 'thyroid': 59.8, 'wine': 0.0}
+OK  0% on S1-S3 and Wine: True
+OK  under 1% on Breast Cancer and Digits: True
+OK  Thyroid, Shuttle, Skin, Landsat, Letter, Page Blocks, MAGIC (rounded): [5, 13, 20, 25, 57, 73, 76]
+OK  errors on tied rows, Skin/MAGIC/Letter/Page Blocks within 90-100%: True
+OK  errors on tied rows, Shuttle: 83
+OK  errors on tied rows, Landsat and Thyroid within 53-60%: (53, 60)
+
+====================================================================================================
+PR6. Repair with intervals and equivalence (§9)
+====================================================================================================
+OK  SR - B0 macro-F1, thyroid: 6.0 (2.6 to 9.5)
+OK  SR - B0 macro-F1, landsat: 1.5 (0.2 to 2.8)
+OK  SR - B0 macro-F1, page_blocks: 2.6 (0.8 to 4.4)
+OK  SR - B0 macro-F1, magic: 3.3 (2.2 to 4.4)
+OK  SR - B0 macro-F1, letter: 2.2 (1.8 to 2.7)
+OK  SR - B0 macro-F1, skin: 5.7 (3.7 to 7.6)
+OK  SR and AL equivalent within 1 point on: 0
+OK  Retrain, appended - B0: range, significant on: ('-2.6 to +0.8', ['letter'])
+OK  Retrain, shuffled - B0: range, significant on: ('-3.4 to +1.8', [])
+OK  appended retraining on Letter: +0.85
+
+====================================================================================================
+PR7. Fix share and broken predictions (§10 table)
+====================================================================================================
+OK  broken, % of test rows, SR+AL: [0.19, 2.36, 0.82, 6.85, 3.06, 0.22]
+OK  broken, % of test rows, Retrain, shuffled: [1.03, 6.09, 6.81, 15.6, 10.48, 3.83]
+OK  broken, % of test rows, Retrain, appended: [0.39, 1.77, 3.23, 2.97, 2.33, 0.49]
+OK  fix share, SR+AL: [85.3, 64.2, 81.9, 64.8, 66.2, 94.1]
+OK  fix share, shuffled: [51.8, 52.4, 42.6, 47.2, 50.9, 40.5]
+fixed - broken (points), shuffled: {'thyroid': 0.19, 'landsat': 0.68, 'page_blocks': -1.61, 'magic': -1.73, 'letter': 0.42, 'skin': -1.04}
+
+====================================================================================================
+PR8. Cost of the trust signals (§8)
+====================================================================================================
+OK  signals slower than the three standard methods on: 14 of 16
+OK  Letter seconds per seed (signals, standard): (87, 9)
+
+====================================================================================================
+PR9. Where the base model errs; boxes and conditions (§1, §6; seeds 70-89)
+====================================================================================================
+               train_error_pct   boxes     rpb
+dataset                                       
+S1                         0.0  1516.2     2.6
+S2                         0.0  1533.3     2.6
+S3                         0.0  1525.4     2.6
+breast_cancer              0.8    42.8    10.7
+digits                     0.0   294.4     4.9
+landsat                   10.4   198.8    25.9
+letter                    21.3   564.8    28.4
+magic                     26.6   285.6    53.4
+page_blocks               14.4    25.0   175.9
+shuttle                    0.2    14.0  3335.5
+skin                       4.0    86.7  2267.6
+thyroid                    1.6    53.8   107.6
+wine                       0.0    31.4     4.5
+OK  training error 0% on S1-S3, Wine, Digits: True
+OK  under 2% on Breast Cancer, Thyroid, Shuttle: True
+OK  Skin: 4
+OK  Landsat and Page Blocks (range): (10, 14)
+OK  Letter and MAGIC (range): (21, 27)
+OK  training rows per box on S1-S3: 2.6
+OK  rows per box, other real datasets: 10.7-3,336
+OK  boxes at theta = 0.3 (mean per dataset): 14-1,533
+readable-baselines run, same seeds: boxes 14-1,533
+OK  share of features a box limits: 79-100%
+
+====================================================================================================
+PR10. Training rows a shrink cuts off (§5; second repair run, seeds 50-59)
+====================================================================================================
+OK  Skin, Page Blocks, Letter, Landsat, MAGIC, Thyroid (%): [2, 6, 10, 22, 32, 48]
+
+====================================================================================================
+PR11. How often a counterfactual survives a refit (§7; seeds 110-119)
+====================================================================================================
+OK  PACE, share of refits still giving the target class: 17-55% (98% on Shuttle)
+OK  PACE-sparse, share of refits still giving the target class: 24-42% (98% on Shuttle)
+
+====================================================================================================
+PR12. Figure 1 (refit of the 2-D case)
+====================================================================================================
+OK  training rows cut off with the shrink: 2
+OK  certificate, share of the square: 17%
+OK  prediction changed, share of the square: 0.2%
+OK  changes outside the certificate: 0
+OK  the circled row is class 0 (blue) inside a class-1 (orange) box: (0, 1)
+
+====================================================================================================
+PR13. What the tests can detect (§6)
+====================================================================================================
+exact two-sided p: all 10 agree 0.00195; 9 agree (rank 1 against) 0.00391; 9 agree (rank 2 against) 0.00586; 8 agree (best case) 0.00977; Holm thresholds 0.05/11 = 0.00455, 0.05/13 = 0.00385
+OK  smallest p with 10 seeds: 0.002
+OK  Holm across 11 reachable with 9 of 10, not with 8: (np.True_, np.False_)
+OK  Holm across 13 needs all 10: (np.True_, np.False_)
+
+====================================================================================================
+PR14. The S1-S3 generators (§6 Setup)
+====================================================================================================
+OK  weights on x0, x1, x2: [2.0, 1.5, -1.0]
+OK  threshold (the median of the score): 1.25
+OK  rows, features, S1 margin, S2 noise sd: (5000, 10, 0.1, 0.25)
+OK  S3 margin: 0.02
+OK  S3 rule (x0 > 0.5 and x1 < 0.4) or x2 > 0.8: True
+OK  S1 shape: (5000, 10)
+OK  S2 shape: (5000, 10)
+OK  S3 shape: (5000, 10)
+
+====================================================================================================
+PR15. Software versions in Appendix C against requirements-lock.txt
+====================================================================================================
+OK  versions: {'numpy': '2.5.3', 'scipy': '1.18.1', 'scikit-learn': '1.9.1', 'pandas': '3.0.5', 'shap': '0.54.1', 'lime': '0.2.0.1', 'dice-ml': '0.12', 'interpret-core': '0.7.8', 'hyperbox-brain': '0.1.6'}

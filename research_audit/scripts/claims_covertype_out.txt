@@ -1,0 +1,46 @@
+
+====================================================================================================
+Completeness
+====================================================================================================
+OK  rows: 15
+OK  seeds: [170, 171, 172, 173, 174]
+OK  full data: [1.0]
+OK  training and test rows: (464809, 116203)
+
+====================================================================================================
+Accuracy and macro-F1 (%), mean and standard deviation over seeds
+====================================================================================================
+              test_accuracy       test_macro_f1       fit_seconds       predict_seconds      
+                       mean   std          mean   std        mean   std            mean   std
+model                                                                                        
+10-NN                 92.67  0.08         87.11  0.25        0.03  0.00           34.43  0.33
+CFMNN                 51.45  2.75         39.11  1.47       10.26  0.23            4.93  0.17
+Random Forest         95.63  0.05         92.69  0.21       33.55  0.52            0.56  0.01
+OK  accuracy means (CFMNN, 10-NN, Random Forest): [51.4, 92.7, 95.6]
+OK  CFMNN accuracy standard deviation: 2.7
+OK  macro-F1 means: [39.1, 87.1, 92.7]
+OK  CFMNN accuracy range over seeds: (47.7, 55.1)
+
+====================================================================================================
+CFMNN: size, ties, centroid-decided predictions, explanation time
+====================================================================================================
+    seed  boxes  fit_seconds  train_error_pct  train_errors  train_errors_tied_inside_both  test_centroid_decided_pct  pace_flip_ms  pace_shap_ms  peak_memory_mb  task_seconds
+0    170  117.0        10.10            49.39      229585.0                       229585.0                      98.76          1.19        452.32         3052.14        131.24
+3    171  124.0        10.55            44.91      208742.0                       208742.0                      98.83          1.28        496.06         3052.14        135.44
+6    172  121.0        10.49            46.94      218190.0                       218190.0                      99.01          1.06        447.35         3055.68        133.18
+9    173  116.0        10.06            52.12      242275.0                       242275.0                      99.01          1.06        440.01         3055.68        129.76
+12   174  117.0        10.12            49.31      229218.0                       229218.0                      98.86          1.00        432.95         3069.37        131.11
+OK  seconds to train, mean: 10.3
+OK  boxes, mean: 119
+OK  training error (%), mean: 48.5
+OK  training errors, pooled: 1128010
+OK  ... ties inside a box of both classes: 1128010
+OK  test predictions decided by the nearest centroid (%), pooled: 98.9
+OK  test errors among them (%), pooled: 99.9
+OK  PACE-flip ms, mean: 1.1
+OK  PACE-SHAP ms, mean: 454
+OK  PACE-SHAP mode: ['sampled']
+OK  peak memory (GB), largest: 3.0
+OK  minutes per seed, mean: 2.2
+
+ALL OK

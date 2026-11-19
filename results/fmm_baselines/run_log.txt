@@ -1,0 +1,479 @@
+﻿0 of 300 dataset-seed-family tasks already done; 300 to run.
+skin seed 250 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 99.9, KNEFMNN-0.3 F1 98.6 (836s)
+skin seed 250 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 99.8, IOL-GFMM-0.3 F1 99.4 (1014s)
+skin seed 250 RFMNN (theta-val 0.05): RFMNN-val F1 99.9, RFMNN-0.3 F1 99.6 (1217s)
+skin seed 250 CFMNN (theta-val 0.05): CFMNN-val F1 99.8, CFMNN-SR-val F1 99.9, CFMNN-0.3 F1 87.4, CFMNN-SR-0.3 F1 99.3 (1638s)
+skin seed 251 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 99.9, KNEFMNN-0.3 F1 98.9 (869s)
+skin seed 251 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 99.9, IOL-GFMM-0.3 F1 99.4 (781s)
+skin seed 251 CFMNN (theta-val 0.05): CFMNN-val F1 99.7, CFMNN-SR-val F1 99.8, CFMNN-0.3 F1 88.0, CFMNN-SR-0.3 F1 99.3 (2461s)
+skin seed 251 RFMNN (theta-val 0.05): RFMNN-val F1 99.9, RFMNN-0.3 F1 99.6 (1260s)
+skin seed 252 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 99.9, KNEFMNN-0.3 F1 97.5 (871s)
+skin seed 252 CFMNN (theta-val 0.05): CFMNN-val F1 99.6, CFMNN-SR-val F1 99.9, CFMNN-0.3 F1 88.8, CFMNN-SR-0.3 F1 97.7 (1508s)
+skin seed 250 EFMNN (theta-val 0.05): EFMNN-val F1 99.9, EFMNN-0.3 F1 99.5 (3729s)
+skin seed 252 RFMNN (theta-val 0.05): RFMNN-val F1 99.9, RFMNN-0.3 F1 99.5 (1284s)
+skin seed 252 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 99.9, IOL-GFMM-0.3 F1 99.1 (938s)
+skin seed 251 EFMNN (theta-val 0.05): EFMNN-val F1 99.9, EFMNN-0.3 F1 99.5 (3739s)
+skin seed 253 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 99.8, KNEFMNN-0.3 F1 98.0 (869s)
+skin seed 253 RFMNN (theta-val 0.05): RFMNN-val F1 99.9, RFMNN-0.3 F1 99.7 (1224s)
+skin seed 253 CFMNN (theta-val 0.05): CFMNN-val F1 99.7, CFMNN-SR-val F1 99.9, CFMNN-0.3 F1 88.9, CFMNN-SR-0.3 F1 98.7 (2265s)
+skin seed 253 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 99.9, IOL-GFMM-0.3 F1 98.8 (1478s)
+skin seed 252 EFMNN (theta-val 0.05): EFMNN-val F1 99.8, EFMNN-0.3 F1 99.4 (3654s)
+skin seed 254 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 99.9, KNEFMNN-0.3 F1 98.2 (845s)
+skin seed 254 CFMNN (theta-val 0.05): CFMNN-val F1 99.8, CFMNN-SR-val F1 99.9, CFMNN-0.3 F1 88.8, CFMNN-SR-0.3 F1 98.8 (2096s)
+skin seed 254 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 99.9, IOL-GFMM-0.3 F1 99.2 (732s)
+skin seed 254 RFMNN (theta-val 0.05): RFMNN-val F1 99.9, RFMNN-0.3 F1 99.6 (1216s)
+skin seed 253 EFMNN (theta-val 0.05): EFMNN-val F1 99.9, EFMNN-0.3 F1 99.5 (3851s)
+skin seed 255 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 99.9, KNEFMNN-0.3 F1 98.8 (836s)
+skin seed 255 CFMNN (theta-val 0.05): CFMNN-val F1 99.7, CFMNN-SR-val F1 99.9, CFMNN-0.3 F1 92.5, CFMNN-SR-0.3 F1 98.9 (2051s)
+skin seed 255 RFMNN (theta-val 0.05): RFMNN-val F1 99.9, RFMNN-0.3 F1 99.5 (1350s)
+skin seed 254 EFMNN (theta-val 0.05): EFMNN-val F1 99.9, EFMNN-0.3 F1 99.6 (3681s)
+skin seed 256 CFMNN (theta-val 0.05): CFMNN-val F1 99.6, CFMNN-SR-val F1 99.9, CFMNN-0.3 F1 94.9, CFMNN-SR-0.3 F1 98.7 (1700s)
+skin seed 256 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 99.8, KNEFMNN-0.3 F1 98.2 (840s)
+skin seed 255 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 99.9, IOL-GFMM-0.3 F1 98.8 (1879s)
+skin seed 255 EFMNN (theta-val 0.05): EFMNN-val F1 99.9, EFMNN-0.3 F1 98.4 (3788s)
+skin seed 256 RFMNN (theta-val 0.05): RFMNN-val F1 99.9, RFMNN-0.3 F1 99.4 (1347s)
+skin seed 256 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 99.9, IOL-GFMM-0.3 F1 99.3 (1269s)
+skin seed 257 CFMNN (theta-val 0.05): CFMNN-val F1 99.7, CFMNN-SR-val F1 99.9, CFMNN-0.3 F1 88.9, CFMNN-SR-0.3 F1 99.3 (1635s)
+skin seed 257 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 99.8, IOL-GFMM-0.3 F1 98.4 (766s)
+skin seed 257 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 99.9, KNEFMNN-0.3 F1 97.6 (871s)
+skin seed 257 RFMNN (theta-val 0.05): RFMNN-val F1 99.9, RFMNN-0.3 F1 99.4 (1320s)
+skin seed 256 EFMNN (theta-val 0.05): EFMNN-val F1 99.9, EFMNN-0.3 F1 99.0 (3556s)
+skin seed 258 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 99.9, KNEFMNN-0.3 F1 97.9 (837s)
+skin seed 258 CFMNN (theta-val 0.05): CFMNN-val F1 99.4, CFMNN-SR-val F1 99.9, CFMNN-0.3 F1 92.5, CFMNN-SR-0.3 F1 99.2 (1515s)
+skin seed 258 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 99.9, IOL-GFMM-0.3 F1 98.9 (984s)
+skin seed 258 RFMNN (theta-val 0.05): RFMNN-val F1 99.9, RFMNN-0.3 F1 99.4 (1303s)
+skin seed 257 EFMNN (theta-val 0.05): EFMNN-val F1 99.9, EFMNN-0.3 F1 99.5 (3749s)
+skin seed 259 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 99.9, KNEFMNN-0.3 F1 96.7 (868s)
+skin seed 259 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 99.9, IOL-GFMM-0.3 F1 99.1 (789s)
+skin seed 259 CFMNN (theta-val 0.05): CFMNN-val F1 99.7, CFMNN-SR-val F1 99.9, CFMNN-0.3 F1 85.3, CFMNN-SR-0.3 F1 98.5 (2051s)
+skin seed 259 RFMNN (theta-val 0.05): RFMNN-val F1 99.9, RFMNN-0.3 F1 99.7 (1201s)
+letter seed 250 RFMNN (theta-val 0.05): RFMNN-val F1 94.5, RFMNN-0.3 F1 83.7 (744s)
+letter seed 250 CFMNN (theta-val 0.05): CFMNN-val F1 94.7, CFMNN-SR-val F1 94.7, CFMNN-0.3 F1 74.6, CFMNN-SR-0.3 F1 76.5 (1372s)
+skin seed 258 EFMNN (theta-val 0.05): EFMNN-val F1 99.9, EFMNN-0.3 F1 99.6 (4057s)
+letter seed 250 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 92.5, IOL-GFMM-0.3 F1 87.3 (554s)
+skin seed 259 EFMNN (theta-val 0.05): EFMNN-val F1 99.9, EFMNN-0.3 F1 99.6 (3899s)
+letter seed 251 CFMNN (theta-val 0.05): CFMNN-val F1 95.5, CFMNN-SR-val F1 95.5, CFMNN-0.3 F1 75.6, CFMNN-SR-0.3 F1 78.0 (1299s)
+letter seed 251 RFMNN (theta-val 0.05): RFMNN-val F1 95.6, RFMNN-0.3 F1 85.1 (710s)
+letter seed 251 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 92.1, IOL-GFMM-0.3 F1 87.3 (620s)
+letter seed 250 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 94.5, KNEFMNN-0.3 F1 83.2 (3840s)
+letter seed 252 CFMNN (theta-val 0.05): CFMNN-val F1 94.1, CFMNN-SR-val F1 94.1, CFMNN-0.3 F1 76.1, CFMNN-SR-0.3 F1 77.1 (1136s)
+letter seed 252 RFMNN (theta-val 0.05): RFMNN-val F1 94.6, RFMNN-0.3 F1 84.3 (551s)
+letter seed 251 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 95.6, KNEFMNN-0.3 F1 84.1 (3800s)
+letter seed 252 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 90.3, IOL-GFMM-0.3 F1 86.8 (566s)
+letter seed 250 EFMNN (theta-val 0.05): EFMNN-val F1 94.5, EFMNN-0.3 F1 78.7 (6188s)
+letter seed 253 CFMNN (theta-val 0.05): CFMNN-val F1 95.0, CFMNN-SR-val F1 95.0, CFMNN-0.3 F1 75.1, CFMNN-SR-0.3 F1 76.1 (1066s)
+letter seed 253 RFMNN (theta-val 0.05): RFMNN-val F1 95.2, RFMNN-0.3 F1 84.5 (597s)
+letter seed 251 EFMNN (theta-val 0.05): EFMNN-val F1 95.6, EFMNN-0.3 F1 77.2 (6059s)
+letter seed 253 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 92.0, IOL-GFMM-0.3 F1 87.0 (581s)
+letter seed 252 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 94.6, KNEFMNN-0.3 F1 83.7 (3893s)
+letter seed 254 CFMNN (theta-val 0.05): CFMNN-val F1 94.9, CFMNN-SR-val F1 94.9, CFMNN-0.3 F1 75.3, CFMNN-SR-0.3 F1 76.9 (1341s)
+letter seed 252 EFMNN (theta-val 0.05): EFMNN-val F1 94.6, EFMNN-0.3 F1 78.0 (6090s)
+letter seed 254 RFMNN (theta-val 0.05): RFMNN-val F1 94.8, RFMNN-0.3 F1 84.5 (747s)
+letter seed 254 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 91.8, IOL-GFMM-0.3 F1 87.2 (608s)
+letter seed 253 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 95.2, KNEFMNN-0.3 F1 84.3 (3905s)
+letter seed 255 CFMNN (theta-val 0.05): CFMNN-val F1 94.7, CFMNN-SR-val F1 94.8, CFMNN-0.3 F1 76.2, CFMNN-SR-0.3 F1 77.6 (1173s)
+letter seed 255 RFMNN (theta-val 0.05): RFMNN-val F1 95.1, RFMNN-0.3 F1 84.9 (576s)
+letter seed 253 EFMNN (theta-val 0.05): EFMNN-val F1 95.2, EFMNN-0.3 F1 77.6 (5981s)
+letter seed 254 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 94.8, KNEFMNN-0.3 F1 83.9 (3857s)
+letter seed 255 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 91.4, IOL-GFMM-0.3 F1 86.6 (591s)
+letter seed 256 CFMNN (theta-val 0.05): CFMNN-val F1 94.9, CFMNN-SR-val F1 94.9, CFMNN-0.3 F1 74.6, CFMNN-SR-0.3 F1 77.9 (1257s)
+letter seed 256 RFMNN (theta-val 0.05): RFMNN-val F1 94.8, RFMNN-0.3 F1 84.8 (589s)
+letter seed 254 EFMNN (theta-val 0.05): EFMNN-val F1 94.8, EFMNN-0.3 F1 77.6 (5919s)
+letter seed 256 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 91.7, IOL-GFMM-0.3 F1 87.2 (591s)
+letter seed 255 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 95.1, KNEFMNN-0.3 F1 83.5 (3964s)
+letter seed 257 CFMNN (theta-val 0.05): CFMNN-val F1 94.6, CFMNN-SR-val F1 94.6, CFMNN-0.3 F1 74.9, CFMNN-SR-0.3 F1 78.0 (1243s)
+letter seed 257 RFMNN (theta-val 0.05): RFMNN-val F1 95.0, RFMNN-0.3 F1 84.0 (598s)
+letter seed 256 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 94.8, KNEFMNN-0.3 F1 83.5 (3842s)
+letter seed 257 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 92.0, IOL-GFMM-0.3 F1 87.1 (552s)
+letter seed 255 EFMNN (theta-val 0.05): EFMNN-val F1 95.1, EFMNN-0.3 F1 77.7 (6058s)
+letter seed 258 CFMNN (theta-val 0.05): CFMNN-val F1 94.8, CFMNN-SR-val F1 94.8, CFMNN-0.3 F1 75.9, CFMNN-SR-0.3 F1 78.9 (1056s)
+letter seed 258 RFMNN (theta-val 0.05): RFMNN-val F1 95.6, RFMNN-0.3 F1 84.4 (576s)
+letter seed 257 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 95.0, KNEFMNN-0.3 F1 82.7 (3850s)
+letter seed 258 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 91.5, IOL-GFMM-0.3 F1 87.7 (557s)
+letter seed 256 EFMNN (theta-val 0.05): EFMNN-val F1 94.8, EFMNN-0.3 F1 77.0 (6119s)
+letter seed 259 CFMNN (theta-val 0.05): CFMNN-val F1 95.1, CFMNN-SR-val F1 95.1, CFMNN-0.3 F1 73.7, CFMNN-SR-0.3 F1 77.6 (1019s)
+letter seed 259 RFMNN (theta-val 0.05): RFMNN-val F1 95.4, RFMNN-0.3 F1 85.1 (721s)
+letter seed 258 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 95.6, KNEFMNN-0.3 F1 84.0 (3772s)
+letter seed 257 EFMNN (theta-val 0.05): EFMNN-val F1 95.0, EFMNN-0.3 F1 78.5 (6002s)
+letter seed 259 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 91.5, IOL-GFMM-0.3 F1 87.2 (544s)
+magic seed 250 CFMNN (theta-val 0.05): CFMNN-val F1 80.8, CFMNN-SR-val F1 80.8, CFMNN-0.3 F1 73.9, CFMNN-SR-0.3 F1 76.1 (436s)
+magic seed 250 RFMNN (theta-val 0.05): RFMNN-val F1 79.5, RFMNN-0.3 F1 74.6 (305s)
+magic seed 250 IOL-GFMM (theta-val 0.3): IOL-GFMM-val F1 81.3, IOL-GFMM-0.3 F1 81.3 (879s)
+letter seed 259 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 95.4, KNEFMNN-0.3 F1 82.4 (3818s)
+letter seed 258 EFMNN (theta-val 0.05): EFMNN-val F1 95.6, EFMNN-0.3 F1 77.5 (5814s)
+magic seed 251 CFMNN (theta-val 0.05): CFMNN-val F1 79.9, CFMNN-SR-val F1 79.9, CFMNN-0.3 F1 69.1, CFMNN-SR-0.3 F1 73.8 (449s)
+magic seed 251 RFMNN (theta-val 0.05): RFMNN-val F1 79.9, RFMNN-0.3 F1 75.6 (340s)
+magic seed 251 IOL-GFMM (theta-val 0.3): IOL-GFMM-val F1 81.1, IOL-GFMM-0.3 F1 81.1 (914s)
+magic seed 250 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 79.8, KNEFMNN-0.3 F1 71.4 (2963s)
+magic seed 252 CFMNN (theta-val 0.05): CFMNN-val F1 80.0, CFMNN-SR-val F1 80.0, CFMNN-0.3 F1 70.0, CFMNN-SR-0.3 F1 73.0 (502s)
+magic seed 250 EFMNN (theta-val 0.05): EFMNN-val F1 79.4, EFMNN-0.3 F1 70.1 (4012s)
+letter seed 259 EFMNN (theta-val 0.05): EFMNN-val F1 95.4, EFMNN-0.3 F1 75.8 (5954s)
+magic seed 252 RFMNN (theta-val 0.05): RFMNN-val F1 79.8, RFMNN-0.3 F1 75.0 (311s)
+magic seed 253 CFMNN (theta-val 0.05): CFMNN-val F1 79.9, CFMNN-SR-val F1 79.9, CFMNN-0.3 F1 71.1, CFMNN-SR-0.3 F1 74.5 (468s)
+magic seed 251 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 80.6, KNEFMNN-0.3 F1 70.9 (2888s)
+magic seed 252 IOL-GFMM (theta-val 0.15): IOL-GFMM-val F1 81.3, IOL-GFMM-0.3 F1 79.7 (1132s)
+magic seed 253 RFMNN (theta-val 0.05): RFMNN-val F1 79.4, RFMNN-0.3 F1 77.1 (296s)
+magic seed 251 EFMNN (theta-val 0.05): EFMNN-val F1 79.9, EFMNN-0.3 F1 71.4 (3798s)
+magic seed 254 CFMNN (theta-val 0.05): CFMNN-val F1 79.7, CFMNN-SR-val F1 79.7, CFMNN-0.3 F1 71.5, CFMNN-SR-0.3 F1 74.3 (354s)
+magic seed 253 IOL-GFMM (theta-val 0.3): IOL-GFMM-val F1 82.4, IOL-GFMM-0.3 F1 82.4 (814s)
+magic seed 252 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 80.0, KNEFMNN-0.3 F1 70.3 (2871s)
+magic seed 254 RFMNN (theta-val 0.05): RFMNN-val F1 79.4, RFMNN-0.3 F1 75.3 (329s)
+magic seed 252 EFMNN (theta-val 0.05): EFMNN-val F1 79.8, EFMNN-0.3 F1 75.3 (4025s)
+magic seed 255 CFMNN (theta-val 0.05): CFMNN-val F1 79.9, CFMNN-SR-val F1 79.9, CFMNN-0.3 F1 73.1, CFMNN-SR-0.3 F1 76.5 (339s)
+magic seed 253 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 79.4, KNEFMNN-0.3 F1 68.7 (2931s)
+magic seed 254 IOL-GFMM (theta-val 0.2): IOL-GFMM-val F1 80.6, IOL-GFMM-0.3 F1 81.0 (990s)
+magic seed 255 RFMNN (theta-val 0.05): RFMNN-val F1 78.9, RFMNN-0.3 F1 76.1 (308s)
+magic seed 253 EFMNN (theta-val 0.05): EFMNN-val F1 79.4, EFMNN-0.3 F1 68.3 (3970s)
+magic seed 256 CFMNN (theta-val 0.05): CFMNN-val F1 79.7, CFMNN-SR-val F1 79.7, CFMNN-0.3 F1 73.6, CFMNN-SR-0.3 F1 75.2 (388s)
+magic seed 255 IOL-GFMM (theta-val 0.4): IOL-GFMM-val F1 80.7, IOL-GFMM-0.3 F1 81.5 (961s)
+magic seed 254 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 79.4, KNEFMNN-0.3 F1 72.4 (2943s)
+magic seed 256 RFMNN (theta-val 0.05): RFMNN-val F1 78.7, RFMNN-0.3 F1 76.1 (298s)
+magic seed 254 EFMNN (theta-val 0.05): EFMNN-val F1 79.5, EFMNN-0.3 F1 64.2 (4050s)
+magic seed 257 CFMNN (theta-val 0.05): CFMNN-val F1 79.0, CFMNN-SR-val F1 79.0, CFMNN-0.3 F1 73.0, CFMNN-SR-0.3 F1 75.1 (367s)
+magic seed 256 IOL-GFMM (theta-val 0.4): IOL-GFMM-val F1 81.4, IOL-GFMM-0.3 F1 80.7 (981s)
+magic seed 255 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 79.4, KNEFMNN-0.3 F1 72.6 (2919s)
+magic seed 257 RFMNN (theta-val 0.05): RFMNN-val F1 79.5, RFMNN-0.3 F1 75.9 (299s)
+magic seed 255 EFMNN (theta-val 0.05): EFMNN-val F1 79.0, EFMNN-0.3 F1 58.9 (3888s)
+magic seed 257 IOL-GFMM (theta-val 0.3): IOL-GFMM-val F1 80.1, IOL-GFMM-0.3 F1 80.1 (784s)
+magic seed 258 CFMNN (theta-val 0.05): CFMNN-val F1 79.8, CFMNN-SR-val F1 79.8, CFMNN-0.3 F1 69.4, CFMNN-SR-0.3 F1 74.7 (403s)
+magic seed 256 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 79.2, KNEFMNN-0.3 F1 72.9 (2960s)
+magic seed 258 RFMNN (theta-val 0.05): RFMNN-val F1 79.1, RFMNN-0.3 F1 76.3 (316s)
+magic seed 256 EFMNN (theta-val 0.05): EFMNN-val F1 78.7, EFMNN-0.3 F1 67.3 (3996s)
+magic seed 258 IOL-GFMM (theta-val 0.3): IOL-GFMM-val F1 81.4, IOL-GFMM-0.3 F1 81.4 (777s)
+magic seed 257 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 79.3, KNEFMNN-0.3 F1 70.6 (2957s)
+magic seed 259 CFMNN (theta-val 0.05): CFMNN-val F1 79.5, CFMNN-SR-val F1 79.5, CFMNN-0.3 F1 69.6, CFMNN-SR-0.3 F1 73.6 (334s)
+magic seed 259 RFMNN (theta-val 0.05): RFMNN-val F1 79.1, RFMNN-0.3 F1 77.5 (300s)
+magic seed 257 EFMNN (theta-val 0.05): EFMNN-val F1 79.5, EFMNN-0.3 F1 69.4 (4085s)
+magic seed 259 IOL-GFMM (theta-val 0.2): IOL-GFMM-val F1 80.1, IOL-GFMM-0.3 F1 80.9 (899s)
+landsat seed 250 CFMNN (theta-val 0.1): CFMNN-val F1 88.4, CFMNN-SR-val F1 88.4, CFMNN-0.3 F1 82.6, CFMNN-SR-0.3 F1 83.5 (158s)
+magic seed 258 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 80.1, KNEFMNN-0.3 F1 72.9 (2949s)
+landsat seed 250 RFMNN (theta-val 0.05): RFMNN-val F1 88.4, RFMNN-0.3 F1 83.1 (115s)
+landsat seed 250 IOL-GFMM (theta-val 0.3): IOL-GFMM-val F1 85.3, IOL-GFMM-0.3 F1 85.3 (80s)
+landsat seed 250 EFMNN (theta-val 0.05): EFMNN-val F1 88.4, EFMNN-0.3 F1 80.6 (403s)
+landsat seed 250 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 88.5, KNEFMNN-0.3 F1 83.1 (431s)
+landsat seed 251 CFMNN (theta-val 0.05): CFMNN-val F1 88.7, CFMNN-SR-val F1 88.7, CFMNN-0.3 F1 79.6, CFMNN-SR-0.3 F1 82.5 (142s)
+landsat seed 251 RFMNN (theta-val 0.05): RFMNN-val F1 88.5, RFMNN-0.3 F1 83.0 (114s)
+landsat seed 251 IOL-GFMM (theta-val 0.2): IOL-GFMM-val F1 87.5, IOL-GFMM-0.3 F1 86.4 (87s)
+landsat seed 251 EFMNN (theta-val 0.05): EFMNN-val F1 88.5, EFMNN-0.3 F1 83.0 (416s)
+landsat seed 251 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 87.2, KNEFMNN-0.3 F1 82.4 (416s)
+landsat seed 252 CFMNN (theta-val 0.05): CFMNN-val F1 88.9, CFMNN-SR-val F1 88.9, CFMNN-0.3 F1 82.8, CFMNN-SR-0.3 F1 84.4 (170s)
+landsat seed 252 RFMNN (theta-val 0.05): RFMNN-val F1 87.9, RFMNN-0.3 F1 83.5 (122s)
+magic seed 258 EFMNN (theta-val 0.05): EFMNN-val F1 79.1, EFMNN-0.3 F1 71.1 (3977s)
+landsat seed 252 IOL-GFMM (theta-val 0.2): IOL-GFMM-val F1 86.2, IOL-GFMM-0.3 F1 86.4 (91s)
+landsat seed 253 CFMNN (theta-val 0.05): CFMNN-val F1 88.1, CFMNN-SR-val F1 88.1, CFMNN-0.3 F1 82.5, CFMNN-SR-0.3 F1 83.4 (133s)
+landsat seed 252 EFMNN (theta-val 0.05): EFMNN-val F1 87.9, EFMNN-0.3 F1 80.2 (401s)
+landsat seed 252 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 87.9, KNEFMNN-0.3 F1 81.6 (406s)
+landsat seed 253 RFMNN (theta-val 0.05): RFMNN-val F1 88.2, RFMNN-0.3 F1 81.1 (121s)
+landsat seed 253 IOL-GFMM (theta-val 0.3): IOL-GFMM-val F1 86.9, IOL-GFMM-0.3 F1 86.9 (88s)
+landsat seed 254 CFMNN (theta-val 0.05): CFMNN-val F1 89.7, CFMNN-SR-val F1 89.7, CFMNN-0.3 F1 83.6, CFMNN-SR-0.3 F1 84.8 (153s)
+landsat seed 253 EFMNN (theta-val 0.05): EFMNN-val F1 88.2, EFMNN-0.3 F1 80.3 (470s)
+landsat seed 253 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 87.4, KNEFMNN-0.3 F1 83.5 (406s)
+magic seed 259 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 79.0, KNEFMNN-0.3 F1 71.5 (2893s)
+landsat seed 254 IOL-GFMM (theta-val 0.2): IOL-GFMM-val F1 85.9, IOL-GFMM-0.3 F1 85.9 (96s)
+landsat seed 254 RFMNN (theta-val 0.05): RFMNN-val F1 90.1, RFMNN-0.3 F1 83.3 (139s)
+landsat seed 254 EFMNN (theta-val 0.05): EFMNN-val F1 90.1, EFMNN-0.3 F1 82.6 (401s)
+landsat seed 255 CFMNN (theta-val 0.1): CFMNN-val F1 87.3, CFMNN-SR-val F1 87.3, CFMNN-0.3 F1 80.7, CFMNN-SR-0.3 F1 82.7 (158s)
+landsat seed 255 IOL-GFMM (theta-val 0.2): IOL-GFMM-val F1 86.4, IOL-GFMM-0.3 F1 85.9 (91s)
+landsat seed 254 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 88.8, KNEFMNN-0.3 F1 84.9 (422s)
+landsat seed 255 RFMNN (theta-val 0.05): RFMNN-val F1 88.5, RFMNN-0.3 F1 80.5 (137s)
+landsat seed 256 CFMNN (theta-val 0.05): CFMNN-val F1 89.7, CFMNN-SR-val F1 89.7, CFMNN-0.3 F1 81.3, CFMNN-SR-0.3 F1 82.5 (132s)
+landsat seed 255 EFMNN (theta-val 0.05): EFMNN-val F1 88.5, EFMNN-0.3 F1 79.1 (408s)
+landsat seed 255 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 87.6, KNEFMNN-0.3 F1 84.7 (417s)
+landsat seed 256 RFMNN (theta-val 0.05): RFMNN-val F1 89.0, RFMNN-0.3 F1 82.2 (123s)
+landsat seed 256 IOL-GFMM (theta-val 0.2): IOL-GFMM-val F1 86.1, IOL-GFMM-0.3 F1 86.6 (88s)
+landsat seed 257 CFMNN (theta-val 0.05): CFMNN-val F1 88.5, CFMNN-SR-val F1 88.5, CFMNN-0.3 F1 80.4, CFMNN-SR-0.3 F1 81.9 (159s)
+landsat seed 256 EFMNN (theta-val 0.05): EFMNN-val F1 89.0, EFMNN-0.3 F1 80.8 (416s)
+landsat seed 256 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 89.0, KNEFMNN-0.3 F1 82.8 (422s)
+magic seed 259 EFMNN (theta-val 0.05): EFMNN-val F1 79.2, EFMNN-0.3 F1 74.4 (3802s)
+landsat seed 257 RFMNN (theta-val 0.05): RFMNN-val F1 89.0, RFMNN-0.3 F1 82.5 (128s)
+landsat seed 257 IOL-GFMM (theta-val 0.3): IOL-GFMM-val F1 86.1, IOL-GFMM-0.3 F1 86.1 (95s)
+landsat seed 258 CFMNN (theta-val 0.05): CFMNN-val F1 87.7, CFMNN-SR-val F1 87.7, CFMNN-0.3 F1 83.3, CFMNN-SR-0.3 F1 83.8 (153s)
+landsat seed 258 RFMNN (theta-val 0.05): RFMNN-val F1 88.0, RFMNN-0.3 F1 82.3 (131s)
+landsat seed 257 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 88.9, KNEFMNN-0.3 F1 85.2 (417s)
+landsat seed 258 IOL-GFMM (theta-val 0.1): IOL-GFMM-val F1 86.1, IOL-GFMM-0.3 F1 84.7 (112s)
+landsat seed 257 EFMNN (theta-val 0.05): EFMNN-val F1 89.0, EFMNN-0.3 F1 79.1 (466s)
+landsat seed 259 CFMNN (theta-val 0.05): CFMNN-val F1 90.3, CFMNN-SR-val F1 90.3, CFMNN-0.3 F1 82.8, CFMNN-SR-0.3 F1 83.1 (171s)
+landsat seed 259 RFMNN (theta-val 0.05): RFMNN-val F1 88.9, RFMNN-0.3 F1 78.1 (130s)
+thyroid seed 250 CFMNN (theta-val 0.5): CFMNN-val F1 84.9, CFMNN-SR-val F1 93.2, CFMNN-0.3 F1 84.8, CFMNN-SR-0.3 F1 91.7 (12s)
+landsat seed 258 EFMNN (theta-val 0.05): EFMNN-val F1 88.0, EFMNN-0.3 F1 81.9 (453s)
+landsat seed 259 IOL-GFMM (theta-val 0.2): IOL-GFMM-val F1 87.3, IOL-GFMM-0.3 F1 85.8 (100s)
+landsat seed 258 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 86.9, KNEFMNN-0.3 F1 81.5 (422s)
+thyroid seed 250 RFMNN (theta-val 0.5): RFMNN-val F1 85.5, RFMNN-0.3 F1 79.0 (38s)
+thyroid seed 251 CFMNN (theta-val 0.5): CFMNN-val F1 88.8, CFMNN-SR-val F1 95.6, CFMNN-0.3 F1 84.8, CFMNN-SR-0.3 F1 93.4 (10s)
+thyroid seed 250 IOL-GFMM (theta-val 0.5): IOL-GFMM-val F1 82.8, IOL-GFMM-0.3 F1 80.7 (34s)
+thyroid seed 250 EFMNN (theta-val 0.5): EFMNN-val F1 68.8, EFMNN-0.3 F1 64.1 (168s)
+thyroid seed 250 KNEFMNN (theta-val 0.4): KNEFMNN-val F1 65.1, KNEFMNN-0.3 F1 68.0 (134s)
+thyroid seed 251 RFMNN (theta-val 0.4): RFMNN-val F1 84.6, RFMNN-0.3 F1 77.0 (40s)
+thyroid seed 251 IOL-GFMM (theta-val 0.4): IOL-GFMM-val F1 84.4, IOL-GFMM-0.3 F1 82.9 (39s)
+thyroid seed 252 CFMNN (theta-val 0.5): CFMNN-val F1 89.5, CFMNN-SR-val F1 93.0, CFMNN-0.3 F1 85.5, CFMNN-SR-0.3 F1 90.0 (11s)
+landsat seed 259 EFMNN (theta-val 0.05): EFMNN-val F1 88.9, EFMNN-0.3 F1 79.2 (419s)
+thyroid seed 251 KNEFMNN (theta-val 0.2): KNEFMNN-val F1 74.7, KNEFMNN-0.3 F1 70.2 (142s)
+landsat seed 259 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 88.6, KNEFMNN-0.3 F1 81.4 (414s)
+thyroid seed 253 CFMNN (theta-val 0.5): CFMNN-val F1 85.5, CFMNN-SR-val F1 92.3, CFMNN-0.3 F1 79.7, CFMNN-SR-0.3 F1 90.8 (11s)
+thyroid seed 251 EFMNN (theta-val 0.4): EFMNN-val F1 67.1, EFMNN-0.3 F1 67.1 (174s)
+thyroid seed 252 RFMNN (theta-val 0.5): RFMNN-val F1 70.4, RFMNN-0.3 F1 76.2 (39s)
+thyroid seed 252 IOL-GFMM (theta-val 0.4): IOL-GFMM-val F1 78.1, IOL-GFMM-0.3 F1 78.0 (38s)
+thyroid seed 253 RFMNN (theta-val 0.5): RFMNN-val F1 78.0, RFMNN-0.3 F1 67.6 (36s)
+thyroid seed 253 IOL-GFMM (theta-val 0.5): IOL-GFMM-val F1 80.8, IOL-GFMM-0.3 F1 78.8 (35s)
+thyroid seed 254 CFMNN (theta-val 0.5): CFMNN-val F1 90.7, CFMNN-SR-val F1 95.4, CFMNN-0.3 F1 87.2, CFMNN-SR-0.3 F1 92.9 (9s)
+thyroid seed 252 KNEFMNN (theta-val 0.2): KNEFMNN-val F1 73.9, KNEFMNN-0.3 F1 73.7 (145s)
+thyroid seed 252 EFMNN (theta-val 0.5): EFMNN-val F1 64.1, EFMNN-0.3 F1 66.7 (177s)
+thyroid seed 254 RFMNN (theta-val 0.5): RFMNN-val F1 78.2, RFMNN-0.3 F1 77.0 (36s)
+thyroid seed 255 CFMNN (theta-val 0.5): CFMNN-val F1 88.6, CFMNN-SR-val F1 94.5, CFMNN-0.3 F1 89.9, CFMNN-SR-0.3 F1 96.1 (10s)
+thyroid seed 254 IOL-GFMM (theta-val 0.5): IOL-GFMM-val F1 75.2, IOL-GFMM-0.3 F1 75.2 (35s)
+thyroid seed 253 KNEFMNN (theta-val 0.2): KNEFMNN-val F1 66.1, KNEFMNN-0.3 F1 66.2 (143s)
+thyroid seed 253 EFMNN (theta-val 0.4): EFMNN-val F1 59.7, EFMNN-0.3 F1 62.4 (171s)
+thyroid seed 254 KNEFMNN (theta-val 0.2): KNEFMNN-val F1 76.0, KNEFMNN-0.3 F1 67.5 (139s)
+thyroid seed 255 RFMNN (theta-val 0.5): RFMNN-val F1 81.8, RFMNN-0.3 F1 70.6 (43s)
+thyroid seed 255 IOL-GFMM (theta-val 0.5): IOL-GFMM-val F1 80.8, IOL-GFMM-0.3 F1 74.7 (36s)
+thyroid seed 256 CFMNN (theta-val 0.3): CFMNN-val F1 84.5, CFMNN-SR-val F1 93.4, CFMNN-0.3 F1 84.5, CFMNN-SR-0.3 F1 93.4 (9s)
+thyroid seed 254 EFMNN (theta-val 0.4): EFMNN-val F1 66.4, EFMNN-0.3 F1 70.2 (174s)
+thyroid seed 256 RFMNN (theta-val 0.5): RFMNN-val F1 77.0, RFMNN-0.3 F1 79.5 (38s)
+thyroid seed 257 CFMNN (theta-val 0.5): CFMNN-val F1 89.9, CFMNN-SR-val F1 94.6, CFMNN-0.3 F1 85.8, CFMNN-SR-0.3 F1 93.4 (8s)
+thyroid seed 256 IOL-GFMM (theta-val 0.5): IOL-GFMM-val F1 79.9, IOL-GFMM-0.3 F1 81.4 (34s)
+thyroid seed 255 KNEFMNN (theta-val 0.5): KNEFMNN-val F1 77.1, KNEFMNN-0.3 F1 67.6 (149s)
+thyroid seed 255 EFMNN (theta-val 0.5): EFMNN-val F1 67.9, EFMNN-0.3 F1 64.4 (179s)
+thyroid seed 257 RFMNN (theta-val 0.5): RFMNN-val F1 79.4, RFMNN-0.3 F1 70.1 (39s)
+thyroid seed 256 KNEFMNN (theta-val 0.2): KNEFMNN-val F1 74.5, KNEFMNN-0.3 F1 73.3 (135s)
+thyroid seed 258 CFMNN (theta-val 0.5): CFMNN-val F1 87.3, CFMNN-SR-val F1 97.3, CFMNN-0.3 F1 85.9, CFMNN-SR-0.3 F1 93.3 (10s)
+thyroid seed 257 IOL-GFMM (theta-val 0.4): IOL-GFMM-val F1 77.3, IOL-GFMM-0.3 F1 75.3 (34s)
+thyroid seed 256 EFMNN (theta-val 0.4): EFMNN-val F1 61.0, EFMNN-0.3 F1 67.7 (166s)
+thyroid seed 258 RFMNN (theta-val 0.5): RFMNN-val F1 80.0, RFMNN-0.3 F1 76.1 (39s)
+thyroid seed 259 CFMNN (theta-val 0.5): CFMNN-val F1 87.6, CFMNN-SR-val F1 93.5, CFMNN-0.3 F1 81.6, CFMNN-SR-0.3 F1 89.3 (8s)
+thyroid seed 258 IOL-GFMM (theta-val 0.4): IOL-GFMM-val F1 74.4, IOL-GFMM-0.3 F1 75.4 (36s)
+thyroid seed 257 KNEFMNN (theta-val 0.2): KNEFMNN-val F1 73.6, KNEFMNN-0.3 F1 71.3 (141s)
+thyroid seed 257 EFMNN (theta-val 0.4): EFMNN-val F1 61.4, EFMNN-0.3 F1 62.3 (173s)
+thyroid seed 259 RFMNN (theta-val 0.4): RFMNN-val F1 79.3, RFMNN-0.3 F1 74.6 (37s)
+thyroid seed 259 IOL-GFMM (theta-val 0.5): IOL-GFMM-val F1 83.3, IOL-GFMM-0.3 F1 77.4 (33s)
+page_blocks seed 250 CFMNN (theta-val 0.05): CFMNN-val F1 78.1, CFMNN-SR-val F1 79.5, CFMNN-0.3 F1 63.7, CFMNN-SR-0.3 F1 62.8 (25s)
+thyroid seed 258 KNEFMNN (theta-val 0.3): KNEFMNN-val F1 70.9, KNEFMNN-0.3 F1 70.9 (136s)
+page_blocks seed 250 RFMNN (theta-val 0.05): RFMNN-val F1 79.9, RFMNN-0.3 F1 80.2 (16s)
+page_blocks seed 250 IOL-GFMM (theta-val 0.4): IOL-GFMM-val F1 85.0, IOL-GFMM-0.3 F1 82.6 (13s)
+thyroid seed 258 EFMNN (theta-val 0.5): EFMNN-val F1 68.0, EFMNN-0.3 F1 68.4 (174s)
+page_blocks seed 250 KNEFMNN (theta-val 0.1): KNEFMNN-val F1 78.5, KNEFMNN-0.3 F1 54.9 (69s)
+page_blocks seed 251 CFMNN (theta-val 0.05): CFMNN-val F1 72.9, CFMNN-SR-val F1 72.5, CFMNN-0.3 F1 53.5, CFMNN-SR-0.3 F1 55.2 (28s)
+thyroid seed 259 KNEFMNN (theta-val 0.2): KNEFMNN-val F1 74.7, KNEFMNN-0.3 F1 68.9 (138s)
+page_blocks seed 251 IOL-GFMM (theta-val 0.5): IOL-GFMM-val F1 69.7, IOL-GFMM-0.3 F1 64.3 (10s)
+page_blocks seed 251 RFMNN (theta-val 0.05): RFMNN-val F1 77.1, RFMNN-0.3 F1 64.6 (15s)
+thyroid seed 259 EFMNN (theta-val 0.5): EFMNN-val F1 64.5, EFMNN-0.3 F1 67.6 (169s)
+page_blocks seed 250 EFMNN (theta-val 0.05): EFMNN-val F1 80.3, EFMNN-0.3 F1 65.6 (106s)
+page_blocks seed 252 CFMNN (theta-val 0.05): CFMNN-val F1 82.5, CFMNN-SR-val F1 82.5, CFMNN-0.3 F1 51.8, CFMNN-SR-0.3 F1 58.3 (24s)
+page_blocks seed 252 RFMNN (theta-val 0.05): RFMNN-val F1 79.7, RFMNN-0.3 F1 72.5 (15s)
+page_blocks seed 252 IOL-GFMM (theta-val 0.3): IOL-GFMM-val F1 74.0, IOL-GFMM-0.3 F1 74.0 (11s)
+page_blocks seed 251 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 72.6, KNEFMNN-0.3 F1 52.1 (76s)
+page_blocks seed 253 CFMNN (theta-val 0.05): CFMNN-val F1 74.7, CFMNN-SR-val F1 76.1, CFMNN-0.3 F1 66.4, CFMNN-SR-0.3 F1 68.0 (31s)
+page_blocks seed 251 EFMNN (theta-val 0.05): EFMNN-val F1 76.4, EFMNN-0.3 F1 57.3 (101s)
+page_blocks seed 253 RFMNN (theta-val 0.05): RFMNN-val F1 68.8, RFMNN-0.3 F1 78.6 (14s)
+page_blocks seed 253 IOL-GFMM (theta-val 0.5): IOL-GFMM-val F1 62.6, IOL-GFMM-0.3 F1 69.1 (13s)
+page_blocks seed 252 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 81.6, KNEFMNN-0.3 F1 66.6 (80s)
+page_blocks seed 254 CFMNN (theta-val 0.05): CFMNN-val F1 79.5, CFMNN-SR-val F1 80.3, CFMNN-0.3 F1 61.7, CFMNN-SR-0.3 F1 74.3 (24s)
+page_blocks seed 252 EFMNN (theta-val 0.05): EFMNN-val F1 79.7, EFMNN-0.3 F1 59.0 (108s)
+page_blocks seed 254 RFMNN (theta-val 0.05): RFMNN-val F1 82.3, RFMNN-0.3 F1 73.1 (14s)
+page_blocks seed 254 IOL-GFMM (theta-val 0.2): IOL-GFMM-val F1 73.9, IOL-GFMM-0.3 F1 69.2 (13s)
+page_blocks seed 253 EFMNN (theta-val 0.05): EFMNN-val F1 69.3, EFMNN-0.3 F1 69.3 (100s)
+page_blocks seed 255 CFMNN (theta-val 0.05): CFMNN-val F1 68.4, CFMNN-SR-val F1 72.1, CFMNN-0.3 F1 76.0, CFMNN-SR-0.3 F1 78.0 (22s)
+page_blocks seed 253 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 69.4, KNEFMNN-0.3 F1 67.7 (80s)
+page_blocks seed 255 RFMNN (theta-val 0.05): RFMNN-val F1 78.9, RFMNN-0.3 F1 73.5 (13s)
+page_blocks seed 255 IOL-GFMM (theta-val 0.05): IOL-GFMM-val F1 75.5, IOL-GFMM-0.3 F1 78.1 (14s)
+page_blocks seed 254 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 78.7, KNEFMNN-0.3 F1 64.6 (73s)
+page_blocks seed 256 CFMNN (theta-val 0.05): CFMNN-val F1 73.6, CFMNN-SR-val F1 89.1, CFMNN-0.3 F1 49.7, CFMNN-SR-0.3 F1 53.3 (25s)
+page_blocks seed 254 EFMNN (theta-val 0.05): EFMNN-val F1 81.5, EFMNN-0.3 F1 64.3 (108s)
+page_blocks seed 256 RFMNN (theta-val 0.05): RFMNN-val F1 85.0, RFMNN-0.3 F1 72.9 (12s)
+page_blocks seed 256 IOL-GFMM (theta-val 0.5): IOL-GFMM-val F1 81.7, IOL-GFMM-0.3 F1 75.9 (12s)
+page_blocks seed 255 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 78.9, KNEFMNN-0.3 F1 64.5 (70s)
+page_blocks seed 257 CFMNN (theta-val 0.05): CFMNN-val F1 74.4, CFMNN-SR-val F1 78.4, CFMNN-0.3 F1 59.6, CFMNN-SR-0.3 F1 61.9 (26s)
+page_blocks seed 255 EFMNN (theta-val 0.05): EFMNN-val F1 78.9, EFMNN-0.3 F1 64.5 (99s)
+page_blocks seed 257 RFMNN (theta-val 0.05): RFMNN-val F1 81.3, RFMNN-0.3 F1 77.2 (14s)
+page_blocks seed 257 IOL-GFMM (theta-val 0.4): IOL-GFMM-val F1 73.9, IOL-GFMM-0.3 F1 75.3 (12s)
+page_blocks seed 256 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 66.0, KNEFMNN-0.3 F1 72.9 (80s)
+page_blocks seed 258 CFMNN (theta-val 0.05): CFMNN-val F1 80.4, CFMNN-SR-val F1 81.5, CFMNN-0.3 F1 59.6, CFMNN-SR-0.3 F1 60.2 (25s)
+page_blocks seed 256 EFMNN (theta-val 0.1): EFMNN-val F1 79.8, EFMNN-0.3 F1 67.4 (101s)
+page_blocks seed 258 RFMNN (theta-val 0.05): RFMNN-val F1 80.5, RFMNN-0.3 F1 76.2 (14s)
+page_blocks seed 258 IOL-GFMM (theta-val 0.3): IOL-GFMM-val F1 79.5, IOL-GFMM-0.3 F1 79.5 (11s)
+page_blocks seed 257 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 75.7, KNEFMNN-0.3 F1 64.9 (83s)
+page_blocks seed 259 CFMNN (theta-val 0.05): CFMNN-val F1 75.9, CFMNN-SR-val F1 75.0, CFMNN-0.3 F1 66.1, CFMNN-SR-0.3 F1 70.5 (23s)
+page_blocks seed 257 EFMNN (theta-val 0.05): EFMNN-val F1 75.2, EFMNN-0.3 F1 64.6 (106s)
+page_blocks seed 259 RFMNN (theta-val 0.1): RFMNN-val F1 79.5, RFMNN-0.3 F1 73.0 (14s)
+page_blocks seed 259 IOL-GFMM (theta-val 0.5): IOL-GFMM-val F1 71.1, IOL-GFMM-0.3 F1 70.6 (12s)
+page_blocks seed 258 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 81.7, KNEFMNN-0.3 F1 71.6 (75s)
+page_blocks seed 258 EFMNN (theta-val 0.05): EFMNN-val F1 85.8, EFMNN-0.3 F1 68.5 (104s)
+page_blocks seed 259 KNEFMNN (theta-val 0.05): KNEFMNN-val F1 76.6, KNEFMNN-0.3 F1 70.4 (62s)
+page_blocks seed 259 EFMNN (theta-val 0.05): EFMNN-val F1 76.8, EFMNN-0.3 F1 70.4 (86s)
+.\.venv\Scripts\python : C:\Users\praka\Documents\pace-cfmnn\scripts\run_fmm_baselines.py:317: Pandas4Warning: The 
+'float_precision' argument is deprecated. Use the default float precision instead.
+At line:1 char:329
++ ... START $t0"; .\.venv\Scripts\python -B scripts/run_fmm_baselines.py -- ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\praka\...cision instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  df = pd.read_csv(csv, float_precision="round_trip", keep_default_na=False, na_values=[""])
+# Run P2: CFMNN with self-repair against tuned fuzzy min-max networks
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). The paper split, seeds 250–259 (10); theta by 3-fold cross-validation for every model. Written by `scripts/run_fmm_baselines.py`.
+
+## Primary: test macro-F1, CFMNN-SR-val against each tuned baseline
+
+Holm across all 24 tests. better 6, no significant difference 17, worse 1. Mixed: CFMNN with repair is significantly worse in 1 of 24 comparisons; the paper names them.
+
+| Baseline | Dataset | Seeds | CFMNN-SR-val | Baseline | Difference | Seeds better / worse | p | p (Holm) | Verdict for CFMNN-SR-val |
+|---|---|---|---|---|---|---|---|---|---|
+| EFMNN-val | thyroid | 10 | 94.28 | 64.88 | +29.40 | 10 / 0 | 0.0020 | 0.0469 | better |
+| EFMNN-val | landsat | 10 | 88.73 | 88.65 | +0.08 | 4 / 6 | 1.0000 | 1.0000 | no significant difference |
+| EFMNN-val | page_blocks | 10 | 78.69 | 78.38 | +0.31 | 4 / 6 | 1.0000 | 1.0000 | no significant difference |
+| EFMNN-val | magic | 10 | 79.81 | 79.34 | +0.48 | 9 / 1 | 0.0273 | 0.4648 | no significant difference |
+| EFMNN-val | letter | 10 | 94.84 | 95.06 | -0.22 | 3 / 7 | 0.0645 | 0.8379 | no significant difference |
+| EFMNN-val | skin | 10 | 99.89 | 99.89 | +0.01 | 8 / 2 | 0.1309 | 1.0000 | no significant difference |
+| KNEFMNN-val | thyroid | 10 | 94.28 | 72.65 | +21.63 | 10 / 0 | 0.0020 | 0.0469 | better |
+| KNEFMNN-val | landsat | 10 | 88.73 | 88.08 | +0.65 | 7 / 3 | 0.0273 | 0.4648 | no significant difference |
+| KNEFMNN-val | page_blocks | 10 | 78.69 | 75.99 | +2.71 | 6 / 4 | 0.3750 | 1.0000 | no significant difference |
+| KNEFMNN-val | magic | 10 | 79.81 | 79.62 | +0.19 | 7 / 3 | 0.2324 | 1.0000 | no significant difference |
+| KNEFMNN-val | letter | 10 | 94.84 | 95.06 | -0.22 | 3 / 7 | 0.0645 | 0.8379 | no significant difference |
+| KNEFMNN-val | skin | 10 | 99.89 | 99.88 | +0.01 | 6 / 4 | 0.2754 | 1.0000 | no significant difference |
+| RFMNN-val | thyroid | 10 | 94.28 | 79.41 | +14.87 | 10 / 0 | 0.0020 | 0.0469 | better |
+| RFMNN-val | landsat | 10 | 88.73 | 88.65 | +0.08 | 4 / 6 | 1.0000 | 1.0000 | no significant difference |
+| RFMNN-val | page_blocks | 10 | 78.69 | 79.30 | -0.60 | 4 / 6 | 0.6250 | 1.0000 | no significant difference |
+| RFMNN-val | magic | 10 | 79.81 | 79.32 | +0.49 | 9 / 1 | 0.0273 | 0.4648 | no significant difference |
+| RFMNN-val | letter | 10 | 94.84 | 95.06 | -0.22 | 3 / 7 | 0.0645 | 0.8379 | no significant difference |
+| RFMNN-val | skin | 10 | 99.89 | 99.92 | -0.02 | 2 / 8 | 0.0488 | 0.6836 | no significant difference |
+| IOL-GFMM-val | thyroid | 10 | 94.28 | 79.69 | +14.59 | 10 / 0 | 0.0020 | 0.0469 | better |
+| IOL-GFMM-val | landsat | 10 | 88.73 | 86.40 | +2.34 | 10 / 0 | 0.0020 | 0.0469 | better |
+| IOL-GFMM-val | page_blocks | 10 | 78.69 | 74.69 | +4.01 | 8 / 2 | 0.0645 | 0.8379 | no significant difference |
+| IOL-GFMM-val | magic | 10 | 79.81 | 81.04 | -1.22 | 0 / 10 | 0.0020 | 0.0469 | worse |
+| IOL-GFMM-val | letter | 10 | 94.84 | 91.67 | +3.17 | 10 / 0 | 0.0020 | 0.0469 | better |
+| IOL-GFMM-val | skin | 10 | 99.89 | 99.89 | +0.00 | 6 / 4 | 0.6953 | 1.0000 | no significant difference |
+
+## Secondary: test accuracy, tuned
+
+CFMNN-SR-val against each; Holm across 24 tests. better 6, no significant difference 17, worse 1.
+
+| Baseline | Dataset | Difference | Seeds better / worse | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| EFMNN-val | thyroid | +4.80 | 10 / 0 | 0.0469 | better |
+| EFMNN-val | landsat | +0.22 | 5 / 5 | 1.0000 | no significant difference |
+| EFMNN-val | page_blocks | -0.20 | 3 / 7 | 1.0000 | no significant difference |
+| EFMNN-val | magic | +0.30 | 8 / 2 | 0.8750 | no significant difference |
+| EFMNN-val | letter | -0.22 | 3 / 7 | 0.8750 | no significant difference |
+| EFMNN-val | skin | +0.00 | 8 / 2 | 0.8789 | no significant difference |
+| KNEFMNN-val | thyroid | +3.72 | 10 / 0 | 0.0469 | better |
+| KNEFMNN-val | landsat | +0.82 | 8 / 1 | 0.1328 | no significant difference |
+| KNEFMNN-val | page_blocks | -0.21 | 2 / 8 | 0.8789 | no significant difference |
+| KNEFMNN-val | magic | -0.12 | 5 / 5 | 1.0000 | no significant difference |
+| KNEFMNN-val | letter | -0.22 | 3 / 7 | 0.8750 | no significant difference |
+| KNEFMNN-val | skin | +0.01 | 6 / 4 | 1.0000 | no significant difference |
+| RFMNN-val | thyroid | +2.61 | 10 / 0 | 0.0469 | better |
+| RFMNN-val | landsat | +0.22 | 5 / 5 | 1.0000 | no significant difference |
+| RFMNN-val | page_blocks | -0.43 | 1 / 8 | 0.8203 | no significant difference |
+| RFMNN-val | magic | +0.31 | 8 / 2 | 0.8750 | no significant difference |
+| RFMNN-val | letter | -0.22 | 3 / 7 | 0.8750 | no significant difference |
+| RFMNN-val | skin | -0.02 | 2 / 8 | 0.6250 | no significant difference |
+| IOL-GFMM-val | thyroid | +2.33 | 10 / 0 | 0.0469 | better |
+| IOL-GFMM-val | landsat | +1.63 | 10 / 0 | 0.0469 | better |
+| IOL-GFMM-val | page_blocks | -0.32 | 2 / 8 | 1.0000 | no significant difference |
+| IOL-GFMM-val | magic | -1.30 | 0 / 10 | 0.0469 | worse |
+| IOL-GFMM-val | letter | +3.18 | 10 / 0 | 0.0469 | better |
+| IOL-GFMM-val | skin | +0.00 | 6 / 4 | 1.0000 | no significant difference |
+
+## Secondary: test macro-F1 at a fixed theta = 0.3
+
+CFMNN-SR-0.3 against each; Holm across 24 tests. better 7, no significant difference 11, worse 6.
+
+| Baseline | Dataset | Difference | Seeds better / worse | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| EFMNN-0.3 | thyroid | +26.34 | 10 / 0 | 0.0469 | better |
+| EFMNN-0.3 | landsat | +2.59 | 9 / 1 | 0.0469 | better |
+| EFMNN-0.3 | page_blocks | -0.85 | 3 / 7 | 1.0000 | no significant difference |
+| EFMNN-0.3 | magic | +5.64 | 8 / 2 | 0.1074 | no significant difference |
+| EFMNN-0.3 | letter | -0.11 | 4 / 6 | 1.0000 | no significant difference |
+| EFMNN-0.3 | skin | -0.53 | 1 / 9 | 0.2188 | no significant difference |
+| KNEFMNN-0.3 | thyroid | +22.66 | 10 / 0 | 0.0469 | better |
+| KNEFMNN-0.3 | landsat | +0.16 | 5 / 5 | 1.0000 | no significant difference |
+| KNEFMNN-0.3 | page_blocks | -0.79 | 6 / 4 | 1.0000 | no significant difference |
+| KNEFMNN-0.3 | magic | +3.25 | 10 / 0 | 0.0469 | better |
+| KNEFMNN-0.3 | letter | -6.07 | 0 / 10 | 0.0469 | worse |
+| KNEFMNN-0.3 | skin | +0.81 | 10 / 0 | 0.0469 | better |
+| RFMNN-0.3 | thyroid | +17.67 | 10 / 0 | 0.0469 | better |
+| RFMNN-0.3 | landsat | +1.34 | 8 / 2 | 0.2188 | no significant difference |
+| RFMNN-0.3 | page_blocks | -9.93 | 2 / 8 | 0.1367 | no significant difference |
+| RFMNN-0.3 | magic | -1.24 | 2 / 8 | 0.2188 | no significant difference |
+| RFMNN-0.3 | letter | -7.08 | 0 / 10 | 0.0469 | worse |
+| RFMNN-0.3 | skin | -0.68 | 0 / 10 | 0.0469 | worse |
+| IOL-GFMM-0.3 | thyroid | +14.45 | 10 / 0 | 0.0469 | better |
+| IOL-GFMM-0.3 | landsat | -2.74 | 0 / 10 | 0.0469 | worse |
+| IOL-GFMM-0.3 | page_blocks | -9.65 | 1 / 9 | 0.1367 | no significant difference |
+| IOL-GFMM-0.3 | magic | -6.33 | 0 / 10 | 0.0469 | worse |
+| IOL-GFMM-0.3 | letter | -9.68 | 0 / 10 | 0.0469 | worse |
+| IOL-GFMM-0.3 | skin | -0.17 | 3 / 7 | 1.0000 | no significant difference |
+
+## Descriptive: test macro-F1, tuned CFMNN without repair
+
+CFMNN-val against each; Holm across 24 tests. better 5, no significant difference 15, worse 4.
+
+| Baseline | Dataset | Difference | Seeds better / worse | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| EFMNN-val | thyroid | +22.86 | 10 / 0 | 0.0469 | better |
+| EFMNN-val | landsat | +0.08 | 4 / 6 | 1.0000 | no significant difference |
+| EFMNN-val | page_blocks | -2.34 | 2 / 8 | 0.9609 | no significant difference |
+| EFMNN-val | magic | +0.47 | 9 / 1 | 0.3555 | no significant difference |
+| EFMNN-val | letter | -0.22 | 3 / 7 | 0.6445 | no significant difference |
+| EFMNN-val | skin | -0.20 | 0 / 10 | 0.0469 | worse |
+| KNEFMNN-val | thyroid | +15.09 | 10 / 0 | 0.0469 | better |
+| KNEFMNN-val | landsat | +0.65 | 7 / 3 | 0.3555 | no significant difference |
+| KNEFMNN-val | page_blocks | +0.05 | 5 / 5 | 1.0000 | no significant difference |
+| KNEFMNN-val | magic | +0.18 | 7 / 3 | 1.0000 | no significant difference |
+| KNEFMNN-val | letter | -0.22 | 3 / 7 | 0.6445 | no significant difference |
+| KNEFMNN-val | skin | -0.19 | 0 / 10 | 0.0469 | worse |
+| RFMNN-val | thyroid | +8.33 | 9 / 1 | 0.0586 | no significant difference |
+| RFMNN-val | landsat | +0.08 | 4 / 6 | 1.0000 | no significant difference |
+| RFMNN-val | page_blocks | -3.26 | 2 / 8 | 0.7383 | no significant difference |
+| RFMNN-val | magic | +0.49 | 9 / 1 | 0.3555 | no significant difference |
+| RFMNN-val | letter | -0.22 | 3 / 7 | 0.6445 | no significant difference |
+| RFMNN-val | skin | -0.23 | 0 / 10 | 0.0469 | worse |
+| IOL-GFMM-val | thyroid | +8.05 | 10 / 0 | 0.0469 | better |
+| IOL-GFMM-val | landsat | +2.34 | 10 / 0 | 0.0469 | better |
+| IOL-GFMM-val | page_blocks | +1.35 | 7 / 3 | 1.0000 | no significant difference |
+| IOL-GFMM-val | magic | -1.23 | 0 / 10 | 0.0469 | worse |
+| IOL-GFMM-val | letter | +3.17 | 10 / 0 | 0.0469 | better |
+| IOL-GFMM-val | skin | -0.20 | 1 / 9 | 0.0586 | no significant difference |
+
+## Test macro-F1 (%), mean over seeds
+
+| Dataset | CFMNN-SR-val | CFMNN-val | EFMNN-val | KNEFMNN-val | RFMNN-val | IOL-GFMM-val | CFMNN-SR-0.3 | CFMNN-0.3 | EFMNN-0.3 | KNEFMNN-0.3 | RFMNN-0.3 | IOL-GFMM-0.3 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| thyroid | 94.28 | 87.74 | 64.88 | 72.65 | 79.41 | 79.69 | 92.43 | 84.97 | 66.09 | 69.76 | 74.76 | 77.98 |
+| landsat | 88.73 | 88.73 | 88.65 | 88.08 | 88.65 | 86.40 | 83.27 | 81.95 | 80.69 | 83.11 | 81.94 | 86.01 |
+| page_blocks | 78.69 | 76.04 | 78.38 | 75.99 | 79.30 | 74.69 | 64.24 | 60.81 | 65.09 | 65.02 | 74.17 | 73.88 |
+| magic | 79.81 | 79.81 | 79.34 | 79.62 | 79.32 | 81.04 | 74.69 | 71.43 | 69.05 | 71.43 | 75.93 | 81.01 |
+| letter | 94.84 | 94.84 | 95.06 | 95.06 | 95.06 | 91.67 | 77.46 | 75.19 | 77.57 | 83.53 | 84.54 | 87.14 |
+| skin | 99.89 | 99.69 | 99.89 | 99.88 | 99.92 | 99.89 | 98.86 | 89.60 | 99.38 | 98.04 | 99.53 | 99.02 |
+
+## Boxes, mean over seeds
+
+| Dataset | CFMNN-SR-val | CFMNN-val | EFMNN-val | KNEFMNN-val | RFMNN-val | IOL-GFMM-val | CFMNN-SR-0.3 | CFMNN-0.3 | EFMNN-0.3 | KNEFMNN-0.3 | RFMNN-0.3 | IOL-GFMM-0.3 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| thyroid | 17 | 18 | 743 | 528 | 787 | 300 | 53 | 53 | 1170 | 413 | 1210 | 387 |
+| landsat | 2299 | 2299 | 5139 | 5134 | 5139 | 994 | 204 | 204 | 2412 | 752 | 3105 | 549 |
+| page_blocks | 327 | 328 | 2024 | 1008 | 2056 | 253 | 25 | 26 | 580 | 96 | 918 | 188 |
+| magic | 5747 | 5747 | 12986 | 11095 | 12988 | 2340 | 290 | 290 | 6332 | 1589 | 9492 | 2282 |
+| letter | 5343 | 5343 | 15075 | 15075 | 15075 | 15075 | 568 | 568 | 5512 | 1171 | 7158 | 1843 |
+| skin | 2010 | 2012 | 10998 | 2329 | 11116 | 2087 | 89 | 89 | 1197 | 78 | 6228 | 849 |
+
+## Seconds (tuning + fit + repair), mean over seeds
+
+| Dataset | CFMNN-SR-val | CFMNN-val | EFMNN-val | KNEFMNN-val | RFMNN-val | IOL-GFMM-val | CFMNN-SR-0.3 | CFMNN-0.3 | EFMNN-0.3 | KNEFMNN-0.3 | RFMNN-0.3 | IOL-GFMM-0.3 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| thyroid | 7 | 5 | 161 | 134 | 36 | 34 | 4 | 0 | 11 | 6 | 1 | 1 |
+| landsat | 42 | 17 | 365 | 377 | 104 | 88 | 107 | 0 | 43 | 25 | 4 | 5 |
+| page_blocks | 18 | 3 | 96 | 72 | 13 | 12 | 8 | 0 | 5 | 2 | 0 | 0 |
+| magic | 239 | 40 | 3487 | 2768 | 272 | 855 | 157 | 1 | 450 | 150 | 12 | 103 |
+| letter | 360 | 72 | 5488 | 3598 | 556 | 487 | 816 | 1 | 457 | 187 | 10 | 17 |
+| skin | 1787 | 179 | 3615 | 825 | 1177 | 1010 | 87 | 6 | 117 | 18 | 43 | 33 |
+
+## Theta chosen by cross-validation (count over seeds)
+
+- CFMNN: thyroid 0.3 ×1, 0.5 ×9; landsat 0.05 ×8, 0.1 ×2; page_blocks 0.05 ×10; magic 0.05 ×10; letter 0.05 ×10; skin 0.05 ×10
+- EFMNN: thyroid 0.4 ×5, 0.5 ×5; landsat 0.05 ×10; page_blocks 0.05 ×9, 0.1 ×1; magic 0.05 ×10; letter 0.05 ×10; skin 0.05 ×10
+- KNEFMNN: thyroid 0.2 ×7, 0.3 ×1, 0.4 ×1, 0.5 ×1; landsat 0.05 ×10; page_blocks 0.05 ×9, 0.1 ×1; magic 0.05 ×10; letter 0.05 ×10; skin 0.05 ×10
+- RFMNN: thyroid 0.4 ×2, 0.5 ×8; landsat 0.05 ×10; page_blocks 0.05 ×9, 0.1 ×1; magic 0.05 ×10; letter 0.05 ×10; skin 0.05 ×10
+- IOL-GFMM: thyroid 0.4 ×4, 0.5 ×6; landsat 0.1 ×1, 0.2 ×6, 0.3 ×3; page_blocks 0.05 ×1, 0.2 ×1, 0.3 ×2, 0.4 ×2, 0.5 ×4; magic 0.15 ×1, 0.2 ×2, 0.3 ×5, 0.4 ×2; letter 0.05 ×10; skin 0.05 ×10
+

@@ -1,0 +1,412 @@
+# Run C: RQ1 with 200 points per seed, tie-aware
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). Protocol v3, seeds 110–119 (10), 200 test points per dataset and seed (fewer if the test split is smaller). Deletion margin AUC: lower is more faithful. Insertion margin AUC: higher is more faithful. Each comparison: paired over seeds, two-sided Wilcoxon signed-rank test, Holm across datasets. Written by `scripts/run_more_points.py`.
+
+## Primary comparisons
+
+**PACE-SHAP minus KernelSHAP, margin_auc** (negative favours PACE-SHAP): PACE-SHAP is better on 7, level on 4, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | -0.0180 ± 0.0119 | 1 of 10 | 0.0137 | 0.0547 | level |
+| letter | -0.0143 ± 0.0028 | 0 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | +0.0066 ± 0.0106 | 7 of 10 | 0.131 | 0.262 | level |
+| page_blocks | -0.0088 ± 0.0125 | 2 of 10 | 0.16 | 0.262 | level |
+| thyroid | -0.0269 ± 0.0129 | 1 of 10 | 0.00391 | 0.0215 | better |
+| landsat | -0.1156 ± 0.0179 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S1 | -0.0068 ± 0.0064 | 3 of 10 | 0.0371 | 0.111 | level |
+| S2 | -0.0118 ± 0.0035 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S3 | -0.0112 ± 0.0043 | 0 of 10 | 0.00195 | 0.0215 | better |
+| wine | -0.0128 ± 0.0058 | 0 of 10 | 0.00195 | 0.0215 | better |
+| breast_cancer | -0.0644 ± 0.0124 | 0 of 10 | 0.00195 | 0.0215 | better |
+
+**PACE-SHAP minus KernelSHAP, insertion_margin_auc** (positive favours PACE-SHAP): PACE-SHAP is better on 8, level on 3, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | +0.0152 ± 0.0125 | 9 of 10 | 0.0195 | 0.0586 | level |
+| letter | +0.0399 ± 0.0073 | 10 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | +0.0018 ± 0.0106 | 6 of 10 | 0.625 | 0.625 | level |
+| page_blocks | +0.0132 ± 0.0173 | 8 of 10 | 0.105 | 0.211 | level |
+| thyroid | +0.0204 ± 0.0094 | 9 of 10 | 0.00391 | 0.0215 | better |
+| landsat | +0.1521 ± 0.0175 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S1 | +0.0115 ± 0.0047 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S2 | +0.0097 ± 0.0030 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S3 | +0.0120 ± 0.0056 | 10 of 10 | 0.00195 | 0.0215 | better |
+| wine | +0.0151 ± 0.0123 | 9 of 10 | 0.00977 | 0.0391 | better |
+| breast_cancer | +0.0686 ± 0.0102 | 10 of 10 | 0.00195 | 0.0215 | better |
+
+**PACE-SHAP minus KernelSHAP-same, margin_auc** (negative favours PACE-SHAP): PACE-SHAP is better on 4, level on 7, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | -0.0017 ± 0.0021 | 3 of 10 | 0.105 | 0.336 | level |
+| letter | -0.0062 ± 0.0016 | 0 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | -0.0001 ± 0.0004 | 4 of 10 | 0.557 | 0.75 | level |
+| page_blocks | -0.0011 ± 0.0008 | 1 of 10 | 0.0137 | 0.0957 | level |
+| thyroid | -0.0466 ± 0.0117 | 0 of 10 | 0.00195 | 0.0215 | better |
+| landsat | -0.1082 ± 0.0070 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S1 | -0.0008 ± 0.0016 | 4 of 10 | 0.375 | 0.75 | level |
+| S2 | -0.0016 ± 0.0013 | 3 of 10 | 0.0488 | 0.244 | level |
+| S3 | -0.0015 ± 0.0013 | 1 of 10 | 0.0371 | 0.223 | level |
+| wine | -0.0011 ± 0.0015 | 2 of 10 | 0.084 | 0.336 | level |
+| breast_cancer | -0.0512 ± 0.0060 | 0 of 10 | 0.00195 | 0.0215 | better |
+
+**PACE-SHAP minus KernelSHAP-same, insertion_margin_auc** (positive favours PACE-SHAP): PACE-SHAP is better on 5, level on 6, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | +0.0018 ± 0.0028 | 7 of 10 | 0.16 | 0.48 | level |
+| letter | +0.0177 ± 0.0043 | 10 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | -0.0000 ± 0.0003 | 4 of 10 | 0.922 | 0.922 | level |
+| page_blocks | +0.0008 ± 0.0013 | 5 of 10 | 0.375 | 0.75 | level |
+| thyroid | +0.0374 ± 0.0083 | 10 of 10 | 0.00195 | 0.0215 | better |
+| landsat | +0.1469 ± 0.0081 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S1 | +0.0011 ± 0.0011 | 7 of 10 | 0.0645 | 0.258 | level |
+| S2 | +0.0019 ± 0.0013 | 9 of 10 | 0.00977 | 0.0586 | level |
+| S3 | +0.0017 ± 0.0011 | 8 of 10 | 0.00977 | 0.0586 | level |
+| wine | +0.0033 ± 0.0019 | 10 of 10 | 0.00195 | 0.0215 | better |
+| breast_cancer | +0.0557 ± 0.0054 | 10 of 10 | 0.00195 | 0.0215 | better |
+
+## Tied and near-tied points (margin <= 1e-12, margin < 0.01), mean over seeds
+
+```
+               points   tied   near  tied_share_%  near_share_%
+dataset                                                        
+S1              200.0    0.0   13.2           0.0           6.6
+S2              200.0    0.0   18.7           0.0           9.4
+S3              200.0    0.0   14.7           0.0           7.4
+wine             36.0    0.0    0.4           0.0           1.1
+breast_cancer   114.0    0.5    9.3           0.4           8.2
+thyroid         200.0   13.1  152.4           6.6          76.2
+shuttle         200.0   24.8  187.7          12.4          93.8
+magic           200.0  160.2  184.9          80.1          92.4
+letter          200.0  112.4  112.7          56.2          56.4
+landsat         200.0   50.4  102.5          25.2          51.2
+page_blocks     200.0  139.6  177.4          69.8          88.7
+```
+
+## The same comparisons on untied points only (datasets with at least 10 untied points in every seed: S1, S2, S3, wine, breast_cancer, thyroid, shuttle, magic, letter, landsat, page_blocks)
+
+**PACE-SHAP minus KernelSHAP, margin_auc, untied points** (negative favours PACE-SHAP): PACE-SHAP is better on 7, level on 4, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | -0.0180 ± 0.0183 | 1 of 10 | 0.0371 | 0.148 | level |
+| letter | -0.0153 ± 0.0046 | 0 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | +0.0069 ± 0.0116 | 8 of 10 | 0.105 | 0.211 | level |
+| page_blocks | -0.0049 ± 0.0179 | 6 of 10 | 0.846 | 0.846 | level |
+| thyroid | -0.0247 ± 0.0144 | 1 of 10 | 0.00586 | 0.0293 | better |
+| landsat | -0.1240 ± 0.0181 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S1 | -0.0068 ± 0.0064 | 3 of 10 | 0.0371 | 0.148 | level |
+| S2 | -0.0118 ± 0.0035 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S3 | -0.0112 ± 0.0043 | 0 of 10 | 0.00195 | 0.0215 | better |
+| wine | -0.0128 ± 0.0058 | 0 of 10 | 0.00195 | 0.0215 | better |
+| breast_cancer | -0.0645 ± 0.0125 | 0 of 10 | 0.00195 | 0.0215 | better |
+
+**PACE-SHAP minus KernelSHAP, insertion_margin_auc, untied points** (positive favours PACE-SHAP): PACE-SHAP is better on 8, level on 3, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | +0.0146 ± 0.0126 | 8 of 10 | 0.0273 | 0.082 | level |
+| letter | +0.0348 ± 0.0094 | 10 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | +0.0014 ± 0.0109 | 4 of 10 | 0.77 | 0.77 | level |
+| page_blocks | +0.0111 ± 0.0211 | 7 of 10 | 0.322 | 0.645 | level |
+| thyroid | +0.0177 ± 0.0098 | 9 of 10 | 0.00977 | 0.0488 | better |
+| landsat | +0.1464 ± 0.0167 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S1 | +0.0115 ± 0.0047 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S2 | +0.0097 ± 0.0030 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S3 | +0.0120 ± 0.0056 | 10 of 10 | 0.00195 | 0.0215 | better |
+| wine | +0.0151 ± 0.0123 | 9 of 10 | 0.00977 | 0.0488 | better |
+| breast_cancer | +0.0683 ± 0.0100 | 10 of 10 | 0.00195 | 0.0215 | better |
+
+**PACE-SHAP minus KernelSHAP-same, margin_auc, untied points** (negative favours PACE-SHAP): PACE-SHAP is better on 4, level on 7, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | -0.0024 ± 0.0059 | 5 of 10 | 0.275 | 0.826 | level |
+| letter | -0.0077 ± 0.0029 | 1 of 10 | 0.00391 | 0.0312 | better |
+| shuttle | -0.0002 ± 0.0004 | 5 of 10 | 0.625 | 0.826 | level |
+| page_blocks | -0.0024 ± 0.0024 | 4 of 10 | 0.084 | 0.42 | level |
+| thyroid | -0.0495 ± 0.0123 | 0 of 10 | 0.00195 | 0.0215 | better |
+| landsat | -0.1164 ± 0.0060 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S1 | -0.0008 ± 0.0016 | 4 of 10 | 0.375 | 0.826 | level |
+| S2 | -0.0016 ± 0.0013 | 3 of 10 | 0.0488 | 0.293 | level |
+| S3 | -0.0015 ± 0.0013 | 1 of 10 | 0.0371 | 0.26 | level |
+| wine | -0.0011 ± 0.0015 | 2 of 10 | 0.084 | 0.42 | level |
+| breast_cancer | -0.0512 ± 0.0062 | 0 of 10 | 0.00195 | 0.0215 | better |
+
+**PACE-SHAP minus KernelSHAP-same, insertion_margin_auc, untied points** (positive favours PACE-SHAP): PACE-SHAP is better on 5, level on 6, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | +0.0025 ± 0.0060 | 8 of 10 | 0.232 | 0.697 | level |
+| letter | +0.0184 ± 0.0065 | 10 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | -0.0000 ± 0.0004 | 5 of 10 | 0.922 | 0.922 | level |
+| page_blocks | +0.0015 ± 0.0030 | 6 of 10 | 0.322 | 0.697 | level |
+| thyroid | +0.0390 ± 0.0086 | 10 of 10 | 0.00195 | 0.0215 | better |
+| landsat | +0.1390 ± 0.0072 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S1 | +0.0011 ± 0.0011 | 7 of 10 | 0.0645 | 0.258 | level |
+| S2 | +0.0019 ± 0.0013 | 9 of 10 | 0.00977 | 0.0586 | level |
+| S3 | +0.0017 ± 0.0011 | 8 of 10 | 0.00977 | 0.0586 | level |
+| wine | +0.0033 ± 0.0019 | 10 of 10 | 0.00195 | 0.0215 | better |
+| breast_cancer | +0.0553 ± 0.0054 | 10 of 10 | 0.00195 | 0.0215 | better |
+
+## The same comparisons on the raw (undivided) margin AUCs
+
+**PACE-SHAP minus KernelSHAP, margin_auc (raw)** (negative favours PACE-SHAP): PACE-SHAP is better on 11, level on 0, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | -0.0005 ± 0.0002 | 0 of 10 | 0.00195 | 0.0215 | better |
+| letter | -0.0041 ± 0.0006 | 0 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | -0.0008 ± 0.0006 | 1 of 10 | 0.00586 | 0.0215 | better |
+| page_blocks | -0.0004 ± 0.0002 | 0 of 10 | 0.00195 | 0.0215 | better |
+| thyroid | -0.0009 ± 0.0007 | 1 of 10 | 0.00391 | 0.0215 | better |
+| landsat | -0.0163 ± 0.0009 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S1 | -0.0011 ± 0.0006 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S2 | -0.0014 ± 0.0004 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S3 | -0.0015 ± 0.0006 | 0 of 10 | 0.00195 | 0.0215 | better |
+| wine | -0.0041 ± 0.0019 | 0 of 10 | 0.00195 | 0.0215 | better |
+| breast_cancer | -0.0104 ± 0.0011 | 0 of 10 | 0.00195 | 0.0215 | better |
+
+**PACE-SHAP minus KernelSHAP, insertion_margin_auc (raw)** (positive favours PACE-SHAP): PACE-SHAP is better on 11, level on 0, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | +0.0006 ± 0.0002 | 10 of 10 | 0.00195 | 0.0215 | better |
+| letter | +0.0020 ± 0.0004 | 10 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | +0.0006 ± 0.0005 | 9 of 10 | 0.0137 | 0.0293 | better |
+| page_blocks | +0.0006 ± 0.0004 | 9 of 10 | 0.0137 | 0.0293 | better |
+| thyroid | +0.0012 ± 0.0009 | 10 of 10 | 0.00195 | 0.0215 | better |
+| landsat | +0.0120 ± 0.0009 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S1 | +0.0020 ± 0.0007 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S2 | +0.0018 ± 0.0004 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S3 | +0.0021 ± 0.0008 | 10 of 10 | 0.00195 | 0.0215 | better |
+| wine | +0.0041 ± 0.0032 | 8 of 10 | 0.00977 | 0.0293 | better |
+| breast_cancer | +0.0114 ± 0.0014 | 10 of 10 | 0.00195 | 0.0215 | better |
+
+**PACE-SHAP minus KernelSHAP-same, margin_auc (raw)** (negative favours PACE-SHAP): PACE-SHAP is better on 5, level on 6, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | -0.0000 ± 0.0001 | 3 of 10 | 0.16 | 0.48 | level |
+| letter | -0.0025 ± 0.0002 | 0 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | +0.0000 ± 0.0000 | 7 of 10 | 0.375 | 0.75 | level |
+| page_blocks | -0.0000 ± 0.0001 | 5 of 10 | 0.922 | 0.922 | level |
+| thyroid | -0.0002 ± 0.0001 | 0 of 10 | 0.00195 | 0.0215 | better |
+| landsat | -0.0159 ± 0.0010 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S1 | -0.0001 ± 0.0002 | 3 of 10 | 0.105 | 0.422 | level |
+| S2 | -0.0003 ± 0.0002 | 2 of 10 | 0.0137 | 0.0684 | level |
+| S3 | -0.0002 ± 0.0001 | 2 of 10 | 0.00977 | 0.0586 | level |
+| wine | -0.0008 ± 0.0004 | 0 of 10 | 0.00195 | 0.0215 | better |
+| breast_cancer | -0.0096 ± 0.0010 | 0 of 10 | 0.00195 | 0.0215 | better |
+
+**PACE-SHAP minus KernelSHAP-same, insertion_margin_auc (raw)** (positive favours PACE-SHAP): PACE-SHAP is better on 6, level on 5, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | +0.0001 ± 0.0001 | 7 of 10 | 0.0273 | 0.137 | level |
+| letter | +0.0007 ± 0.0001 | 10 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | -0.0000 ± 0.0000 | 6 of 10 | 0.922 | 0.922 | level |
+| page_blocks | +0.0000 ± 0.0000 | 6 of 10 | 0.232 | 0.697 | level |
+| thyroid | +0.0004 ± 0.0001 | 10 of 10 | 0.00195 | 0.0215 | better |
+| landsat | +0.0116 ± 0.0007 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S1 | +0.0001 ± 0.0002 | 6 of 10 | 0.232 | 0.697 | level |
+| S2 | +0.0004 ± 0.0001 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S3 | +0.0003 ± 0.0002 | 8 of 10 | 0.0273 | 0.137 | level |
+| wine | +0.0012 ± 0.0003 | 10 of 10 | 0.00195 | 0.0215 | better |
+| breast_cancer | +0.0104 ± 0.0012 | 10 of 10 | 0.00195 | 0.0215 | better |
+
+## The class-kept AUCs (deletion: lower is more faithful; insertion: higher)
+
+**PACE-SHAP minus KernelSHAP, class-kept deletion AUC** (negative favours PACE-SHAP): PACE-SHAP is better on 7, level on 4, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | -0.0126 ± 0.0097 | 1 of 10 | 0.0371 | 0.148 | level |
+| letter | -0.0066 ± 0.0021 | 0 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | -0.0014 ± 0.0092 | 4 of 10 | 1 | 1 | level |
+| page_blocks | -0.0062 ± 0.0220 | 3 of 10 | 0.375 | 0.75 | level |
+| thyroid | -0.0098 ± 0.0060 | 1 of 10 | 0.00391 | 0.0234 | better |
+| landsat | -0.0697 ± 0.0079 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S1 | -0.0036 ± 0.0039 | 2 of 10 | 0.0645 | 0.193 | level |
+| S2 | -0.0060 ± 0.0016 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S3 | -0.0063 ± 0.0029 | 1 of 10 | 0.00391 | 0.0234 | better |
+| wine | -0.0066 ± 0.0047 | 0 of 10 | 0.00195 | 0.0215 | better |
+| breast_cancer | -0.0350 ± 0.0066 | 0 of 10 | 0.00195 | 0.0215 | better |
+
+**PACE-SHAP minus KernelSHAP, class-kept insertion AUC** (positive favours PACE-SHAP): PACE-SHAP is better on 6, level on 5, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | +0.0106 ± 0.0083 | 8 of 10 | 0.0137 | 0.0684 | level |
+| letter | +0.0222 ± 0.0048 | 10 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | +0.0056 ± 0.0067 | 7 of 10 | 0.16 | 0.32 | level |
+| page_blocks | +0.0167 ± 0.0113 | 9 of 10 | 0.0195 | 0.0781 | level |
+| thyroid | +0.0027 ± 0.0051 | 7 of 10 | 0.275 | 0.32 | level |
+| landsat | +0.0719 ± 0.0089 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S1 | +0.0049 ± 0.0019 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S2 | +0.0036 ± 0.0022 | 9 of 10 | 0.00586 | 0.0352 | better |
+| S3 | +0.0053 ± 0.0027 | 10 of 10 | 0.00195 | 0.0215 | better |
+| wine | +0.0076 ± 0.0071 | 8 of 10 | 0.0195 | 0.0781 | level |
+| breast_cancer | +0.0197 ± 0.0052 | 10 of 10 | 0.00195 | 0.0215 | better |
+
+**PACE-SHAP minus KernelSHAP-same, class-kept deletion AUC** (negative favours PACE-SHAP): PACE-SHAP is better on 4, level on 7, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | -0.0011 ± 0.0018 | 4 of 10 | 0.375 | 1 | level |
+| letter | -0.0016 ± 0.0008 | 1 of 10 | 0.00586 | 0.0469 | better |
+| shuttle | +0.0000 ± 0.0003 | 6 of 10 | 0.773 | 1 | level |
+| page_blocks | +0.0005 ± 0.0014 | 7 of 10 | 0.16 | 0.654 | level |
+| thyroid | -0.0152 ± 0.0045 | 0 of 10 | 0.00195 | 0.0215 | better |
+| landsat | -0.0653 ± 0.0026 | 0 of 10 | 0.00195 | 0.0215 | better |
+| S1 | -0.0004 ± 0.0012 | 4 of 10 | 0.557 | 1 | level |
+| S2 | -0.0008 ± 0.0009 | 4 of 10 | 0.131 | 0.654 | level |
+| S3 | -0.0010 ± 0.0011 | 2 of 10 | 0.0625 | 0.438 | level |
+| wine | +0.0007 ± 0.0008 | 7 of 10 | 0.0801 | 0.48 | level |
+| breast_cancer | -0.0273 ± 0.0041 | 0 of 10 | 0.00195 | 0.0215 | better |
+
+**PACE-SHAP minus KernelSHAP-same, class-kept insertion AUC** (positive favours PACE-SHAP): PACE-SHAP is better on 4, level on 7, worse on 0 of 11 datasets.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) | Verdict |
+|---|---|---|---|---|---|
+| magic | +0.0005 ± 0.0016 | 6 of 10 | 0.625 | 1 | level |
+| letter | +0.0092 ± 0.0029 | 10 of 10 | 0.00195 | 0.0215 | better |
+| shuttle | +0.0000 ± 0.0001 | 3 of 10 | 0.945 | 1 | level |
+| page_blocks | +0.0000 ± 0.0008 | 5 of 10 | 1 | 1 | level |
+| thyroid | +0.0062 ± 0.0037 | 9 of 10 | 0.00391 | 0.0312 | better |
+| landsat | +0.0689 ± 0.0043 | 10 of 10 | 0.00195 | 0.0215 | better |
+| S1 | +0.0002 ± 0.0004 | 9 of 10 | 0.0645 | 0.451 | level |
+| S2 | +0.0006 ± 0.0008 | 7 of 10 | 0.129 | 0.645 | level |
+| S3 | +0.0008 ± 0.0008 | 8 of 10 | 0.0645 | 0.451 | level |
+| wine | +0.0004 ± 0.0014 | 5 of 10 | 0.945 | 1 | level |
+| breast_cancer | +0.0143 ± 0.0030 | 10 of 10 | 0.00195 | 0.0215 | better |
+
+## All methods: deletion and insertion margin AUC, stability, milliseconds
+
+| Dataset | Method | Deletion margin AUC | Insertion margin AUC | Class-kept deletion AUC | Stability | ms per explanation |
+|---|---|---|---|---|---|---|
+| magic | PACE-SHAP | -0.051 ± 0.018 | 0.251 ± 0.018 | 0.507 ± 0.015 | 1.00 | 688.30 |
+| magic | PACE-SHAP-20 | -0.035 ± 0.015 | 0.240 ± 0.024 | 0.518 ± 0.013 | 0.47 | 41.19 |
+| magic | PACE-flip | 0.016 ± 0.010 | 0.207 ± 0.012 | 0.504 ± 0.009 | 1.00 | 1.01 |
+| magic | PACE-multi | 0.049 ± 0.010 | 0.151 ± 0.015 | 0.550 ± 0.010 | 1.00 | 0.14 |
+| magic | PACE-contrastive | 0.069 ± 0.011 | 0.111 ± 0.015 | 0.564 ± 0.011 | 1.00 | 0.08 |
+| magic | PACE-decomposition | 0.078 ± 0.009 | 0.118 ± 0.014 | 0.586 ± 0.011 | 1.00 | 0.10 |
+| magic | KernelSHAP | -0.033 ± 0.016 | 0.235 ± 0.022 | 0.520 ± 0.013 | 0.46 | 302.84 |
+| magic | KernelSHAP-strong | -0.035 ± 0.015 | 0.240 ± 0.024 | 0.518 ± 0.013 | – | 1517.19 |
+| magic | LIME | -0.004 ± 0.021 | 0.190 ± 0.022 | 0.508 ± 0.016 | 0.66 | 80.49 |
+| magic | Random | 0.116 ± 0.010 | 0.087 ± 0.013 | 0.631 ± 0.006 | 0.20 | 0.00 |
+| magic | KernelSHAP-same | -0.049 ± 0.017 | 0.249 ± 0.020 | 0.508 ± 0.014 | 0.84 | 3575.30 |
+| letter | PACE-SHAP | -0.694 ± 0.005 | 0.006 ± 0.016 | 0.128 ± 0.005 | 0.97 | 2481.15 |
+| letter | PACE-SHAP-20 | -0.687 ± 0.005 | -0.016 ± 0.015 | 0.133 ± 0.004 | 0.63 | 179.70 |
+| letter | PACE-flip | -0.645 ± 0.007 | -0.074 ± 0.014 | 0.132 ± 0.006 | 1.00 | 1.85 |
+| letter | PACE-multi | -0.553 ± 0.007 | -0.279 ± 0.011 | 0.184 ± 0.006 | 1.00 | 0.45 |
+| letter | PACE-contrastive | -0.455 ± 0.009 | -0.396 ± 0.010 | 0.250 ± 0.007 | 1.00 | 0.30 |
+| letter | PACE-decomposition | -0.595 ± 0.009 | -0.148 ± 0.019 | 0.185 ± 0.006 | 1.00 | 0.31 |
+| letter | KernelSHAP | -0.680 ± 0.005 | -0.034 ± 0.019 | 0.135 ± 0.004 | 0.61 | 1061.40 |
+| letter | KernelSHAP-strong | -0.687 ± 0.005 | -0.015 ± 0.015 | 0.133 ± 0.004 | – | 11131.43 |
+| letter | LIME | -0.653 ± 0.005 | -0.126 ± 0.016 | 0.139 ± 0.005 | 0.85 | 274.53 |
+| letter | Random | -0.394 ± 0.013 | -0.414 ± 0.009 | 0.309 ± 0.007 | 0.12 | 0.00 |
+| letter | KernelSHAP-same | -0.688 ± 0.005 | -0.011 ± 0.019 | 0.130 ± 0.004 | 0.86 | 11035.52 |
+| shuttle | PACE-SHAP | 0.344 ± 0.044 | 0.732 ± 0.030 | 0.697 ± 0.026 | 1.00 | 18.43 |
+| shuttle | PACE-SHAP-20 | 0.337 ± 0.038 | 0.732 ± 0.034 | 0.699 ± 0.022 | 0.71 | 1.83 |
+| shuttle | PACE-flip | 0.356 ± 0.044 | 0.736 ± 0.032 | 0.704 ± 0.025 | 1.00 | 0.07 |
+| shuttle | PACE-multi | 0.355 ± 0.039 | 0.695 ± 0.041 | 0.719 ± 0.023 | 1.00 | 0.01 |
+| shuttle | PACE-contrastive | 0.380 ± 0.037 | 0.648 ± 0.050 | 0.749 ± 0.023 | 1.00 | 0.01 |
+| shuttle | PACE-decomposition | 0.376 ± 0.051 | 0.704 ± 0.025 | 0.704 ± 0.028 | 1.00 | 0.01 |
+| shuttle | KernelSHAP | 0.337 ± 0.038 | 0.730 ± 0.036 | 0.698 ± 0.022 | 0.70 | 27.01 |
+| shuttle | KernelSHAP-strong | 0.337 ± 0.038 | 0.732 ± 0.034 | 0.698 ± 0.022 | – | 74.22 |
+| shuttle | LIME | 0.362 ± 0.038 | 0.697 ± 0.041 | 0.716 ± 0.022 | 0.89 | 13.03 |
+| shuttle | Random | 0.519 ± 0.041 | 0.518 ± 0.040 | 0.801 ± 0.022 | 0.22 | 0.00 |
+| shuttle | KernelSHAP-same | 0.344 ± 0.044 | 0.732 ± 0.030 | 0.697 ± 0.026 | 0.99 | 215.25 |
+| page_blocks | PACE-SHAP | 0.052 ± 0.040 | 0.279 ± 0.084 | 0.724 ± 0.031 | 1.00 | 82.76 |
+| page_blocks | PACE-SHAP-20 | 0.060 ± 0.048 | 0.267 ± 0.076 | 0.730 ± 0.036 | 0.46 | 6.06 |
+| page_blocks | PACE-flip | 0.059 ± 0.040 | 0.271 ± 0.076 | 0.657 ± 0.044 | 1.00 | 0.19 |
+| page_blocks | PACE-multi | 0.070 ± 0.042 | 0.261 ± 0.083 | 0.680 ± 0.045 | 1.00 | 0.02 |
+| page_blocks | PACE-contrastive | 0.090 ± 0.044 | 0.173 ± 0.063 | 0.676 ± 0.041 | 1.00 | 0.01 |
+| page_blocks | PACE-decomposition | 0.129 ± 0.050 | 0.171 ± 0.059 | 0.750 ± 0.024 | 1.00 | 0.01 |
+| page_blocks | KernelSHAP | 0.061 ± 0.048 | 0.266 ± 0.078 | 0.730 ± 0.035 | 0.47 | 43.31 |
+| page_blocks | KernelSHAP-strong | 0.060 ± 0.048 | 0.267 ± 0.076 | 0.730 ± 0.036 | – | 211.42 |
+| page_blocks | LIME | 0.065 ± 0.046 | 0.253 ± 0.071 | 0.700 ± 0.043 | 0.83 | 17.75 |
+| page_blocks | Random | 0.171 ± 0.054 | 0.136 ± 0.061 | 0.772 ± 0.029 | 0.20 | 0.00 |
+| page_blocks | KernelSHAP-same | 0.053 ± 0.039 | 0.278 ± 0.083 | 0.724 ± 0.032 | 0.89 | 413.26 |
+| thyroid | PACE-SHAP | 0.510 ± 0.013 | 0.900 ± 0.009 | 0.877 ± 0.013 | 0.99 | 216.42 |
+| thyroid | PACE-SHAP-20 | 0.525 ± 0.023 | 0.890 ± 0.012 | 0.883 ± 0.012 | 0.49 | 10.53 |
+| thyroid | PACE-flip | 0.512 ± 0.015 | 0.902 ± 0.008 | 0.869 ± 0.013 | 1.00 | 0.41 |
+| thyroid | PACE-multi | 0.557 ± 0.014 | 0.878 ± 0.011 | 0.891 ± 0.010 | 1.00 | 0.06 |
+| thyroid | PACE-contrastive | 0.581 ± 0.012 | 0.837 ± 0.013 | 0.897 ± 0.010 | 1.00 | 0.04 |
+| thyroid | PACE-decomposition | 0.710 ± 0.010 | 0.715 ± 0.019 | 0.915 ± 0.008 | 1.00 | 0.04 |
+| thyroid | KernelSHAP | 0.537 ± 0.022 | 0.879 ± 0.015 | 0.887 ± 0.012 | 0.49 | 114.63 |
+| thyroid | KernelSHAP-strong | 0.524 ± 0.023 | 0.890 ± 0.012 | 0.882 ± 0.012 | – | 1106.07 |
+| thyroid | LIME | 0.542 ± 0.015 | 0.857 ± 0.011 | 0.889 ± 0.009 | 0.79 | 36.46 |
+| thyroid | Random | 0.718 ± 0.011 | 0.709 ± 0.015 | 0.931 ± 0.005 | 0.09 | 0.00 |
+| thyroid | KernelSHAP-same | 0.556 ± 0.020 | 0.863 ± 0.013 | 0.892 ± 0.012 | 0.92 | 1037.79 |
+| landsat | PACE-SHAP | -0.353 ± 0.024 | 0.239 ± 0.018 | 0.329 ± 0.013 | 0.94 | 2436.06 |
+| landsat | PACE-SHAP-20 | -0.337 ± 0.030 | 0.217 ± 0.019 | 0.339 ± 0.016 | 0.55 | 120.75 |
+| landsat | PACE-flip | -0.266 ± 0.029 | 0.115 ± 0.019 | 0.375 ± 0.018 | 1.00 | 1.26 |
+| landsat | PACE-multi | -0.237 ± 0.023 | 0.067 ± 0.018 | 0.390 ± 0.013 | 1.00 | 0.24 |
+| landsat | PACE-contrastive | -0.165 ± 0.020 | 0.008 ± 0.017 | 0.429 ± 0.012 | 1.00 | 0.15 |
+| landsat | PACE-decomposition | -0.194 ± 0.029 | 0.123 ± 0.016 | 0.415 ± 0.016 | 1.00 | 0.21 |
+| landsat | KernelSHAP | -0.238 ± 0.032 | 0.087 ± 0.026 | 0.399 ± 0.016 | 0.17 | 595.94 |
+| landsat | KernelSHAP-strong | -0.332 ± 0.029 | 0.215 ± 0.020 | 0.341 ± 0.015 | – | 6254.41 |
+| landsat | LIME | -0.310 ± 0.026 | 0.134 ± 0.021 | 0.351 ± 0.013 | 0.51 | 163.74 |
+| landsat | Random | -0.054 ± 0.023 | -0.055 ± 0.018 | 0.496 ± 0.012 | 0.05 | 0.00 |
+| landsat | KernelSHAP-same | -0.245 ± 0.026 | 0.092 ± 0.021 | 0.395 ± 0.013 | 0.17 | 6350.52 |
+| S1 | PACE-SHAP | -0.122 ± 0.012 | 0.661 ± 0.010 | 0.437 ± 0.006 | 1.00 | 6911.45 |
+| S1 | PACE-SHAP-20 | -0.115 ± 0.011 | 0.651 ± 0.007 | 0.441 ± 0.006 | 0.72 | 605.94 |
+| S1 | PACE-flip | -0.068 ± 0.011 | 0.631 ± 0.008 | 0.466 ± 0.006 | 1.00 | 1.19 |
+| S1 | PACE-multi | -0.004 ± 0.008 | 0.557 ± 0.011 | 0.502 ± 0.005 | 1.00 | 0.65 |
+| S1 | PACE-contrastive | 0.051 ± 0.008 | 0.507 ± 0.012 | 0.533 ± 0.004 | 1.00 | 0.44 |
+| S1 | PACE-decomposition | 0.174 ± 0.006 | 0.453 ± 0.011 | 0.606 ± 0.003 | 1.00 | 0.43 |
+| S1 | KernelSHAP | -0.115 ± 0.011 | 0.650 ± 0.007 | 0.441 ± 0.006 | 0.70 | 1539.28 |
+| S1 | KernelSHAP-strong | -0.115 ± 0.011 | 0.651 ± 0.007 | 0.441 ± 0.006 | – | 8099.71 |
+| S1 | LIME | -0.090 ± 0.012 | 0.621 ± 0.012 | 0.454 ± 0.006 | 0.89 | 397.34 |
+| S1 | Random | 0.288 ± 0.014 | 0.299 ± 0.012 | 0.667 ± 0.009 | 0.20 | 0.00 |
+| S1 | KernelSHAP-same | -0.121 ± 0.012 | 0.660 ± 0.010 | 0.438 ± 0.007 | 0.92 | 15506.71 |
+| S2 | PACE-SHAP | -0.144 ± 0.009 | 0.616 ± 0.009 | 0.425 ± 0.006 | 1.00 | 6727.32 |
+| S2 | PACE-SHAP-20 | -0.135 ± 0.011 | 0.608 ± 0.009 | 0.429 ± 0.007 | 0.72 | 584.75 |
+| S2 | PACE-flip | -0.088 ± 0.011 | 0.570 ± 0.010 | 0.454 ± 0.006 | 1.00 | 1.21 |
+| S2 | PACE-multi | -0.010 ± 0.011 | 0.487 ± 0.010 | 0.499 ± 0.005 | 1.00 | 0.66 |
+| S2 | PACE-contrastive | 0.049 ± 0.009 | 0.431 ± 0.010 | 0.532 ± 0.005 | 1.00 | 0.39 |
+| S2 | PACE-decomposition | 0.151 ± 0.008 | 0.404 ± 0.009 | 0.594 ± 0.004 | 1.00 | 0.49 |
+| S2 | KernelSHAP | -0.132 ± 0.011 | 0.606 ± 0.010 | 0.431 ± 0.006 | 0.70 | 1558.73 |
+| S2 | KernelSHAP-strong | -0.135 ± 0.011 | 0.608 ± 0.009 | 0.429 ± 0.007 | – | 8097.14 |
+| S2 | LIME | -0.102 ± 0.012 | 0.573 ± 0.009 | 0.448 ± 0.007 | 0.88 | 388.69 |
+| S2 | Random | 0.258 ± 0.010 | 0.256 ± 0.013 | 0.651 ± 0.005 | 0.20 | 0.00 |
+| S2 | KernelSHAP-same | -0.142 ± 0.009 | 0.614 ± 0.009 | 0.426 ± 0.006 | 0.90 | 16551.00 |
+| S3 | PACE-SHAP | -0.064 ± 0.013 | 0.648 ± 0.011 | 0.471 ± 0.007 | 1.00 | 5878.39 |
+| S3 | PACE-SHAP-20 | -0.054 ± 0.015 | 0.638 ± 0.012 | 0.477 ± 0.008 | 0.66 | 492.26 |
+| S3 | PACE-flip | -0.009 ± 0.019 | 0.608 ± 0.011 | 0.500 ± 0.010 | 1.00 | 1.21 |
+| S3 | PACE-multi | 0.068 ± 0.018 | 0.528 ± 0.011 | 0.542 ± 0.009 | 1.00 | 0.73 |
+| S3 | PACE-contrastive | 0.113 ± 0.017 | 0.481 ± 0.015 | 0.569 ± 0.009 | 1.00 | 0.35 |
+| S3 | PACE-decomposition | 0.204 ± 0.016 | 0.470 ± 0.010 | 0.624 ± 0.009 | 1.00 | 0.47 |
+| S3 | KernelSHAP | -0.052 ± 0.015 | 0.636 ± 0.012 | 0.477 ± 0.008 | 0.64 | 1349.79 |
+| S3 | KernelSHAP-strong | -0.054 ± 0.015 | 0.638 ± 0.012 | 0.477 ± 0.008 | – | 5842.96 |
+| S3 | LIME | 0.001 ± 0.014 | 0.580 ± 0.009 | 0.507 ± 0.008 | 0.87 | 288.16 |
+| S3 | Random | 0.313 ± 0.016 | 0.316 ± 0.019 | 0.682 ± 0.008 | 0.20 | 0.00 |
+| S3 | KernelSHAP-same | -0.062 ± 0.014 | 0.646 ± 0.010 | 0.472 ± 0.007 | 0.89 | 11947.83 |
+| wine | PACE-SHAP | -0.072 ± 0.031 | 0.533 ± 0.019 | 0.471 ± 0.019 | 0.98 | 21.04 |
+| wine | PACE-SHAP-20 | -0.062 ± 0.030 | 0.522 ± 0.024 | 0.478 ± 0.018 | 0.77 | 6.21 |
+| wine | PACE-flip | -0.051 ± 0.031 | 0.488 ± 0.021 | 0.478 ± 0.019 | 1.00 | 0.16 |
+| wine | PACE-multi | -0.022 ± 0.037 | 0.443 ± 0.029 | 0.496 ± 0.023 | 1.00 | 0.04 |
+| wine | PACE-contrastive | 0.007 ± 0.035 | 0.401 ± 0.027 | 0.507 ± 0.022 | 1.00 | 0.02 |
+| wine | PACE-decomposition | 0.042 ± 0.034 | 0.442 ± 0.024 | 0.530 ± 0.018 | 1.00 | 0.04 |
+| wine | KernelSHAP | -0.060 ± 0.031 | 0.518 ± 0.025 | 0.477 ± 0.018 | 0.76 | 53.33 |
+| wine | KernelSHAP-strong | -0.062 ± 0.030 | 0.522 ± 0.024 | 0.477 ± 0.018 | – | 476.83 |
+| wine | LIME | -0.040 ± 0.031 | 0.495 ± 0.020 | 0.487 ± 0.017 | 0.85 | 20.25 |
+| wine | Random | 0.222 ± 0.019 | 0.249 ± 0.020 | 0.631 ± 0.010 | 0.14 | 0.00 |
+| wine | KernelSHAP-same | -0.071 ± 0.031 | 0.529 ± 0.020 | 0.470 ± 0.019 | 0.90 | 174.04 |
+| breast_cancer | PACE-SHAP | 0.121 ± 0.009 | 0.702 ± 0.011 | 0.600 ± 0.007 | 0.97 | 308.91 |
+| breast_cancer | PACE-SHAP-20 | 0.132 ± 0.012 | 0.690 ± 0.008 | 0.606 ± 0.008 | 0.60 | 14.41 |
+| breast_cancer | PACE-flip | 0.148 ± 0.011 | 0.688 ± 0.010 | 0.615 ± 0.008 | 1.00 | 0.40 |
+| breast_cancer | PACE-multi | 0.152 ± 0.010 | 0.675 ± 0.010 | 0.614 ± 0.008 | 1.00 | 0.08 |
+| breast_cancer | PACE-contrastive | 0.181 ± 0.017 | 0.614 ± 0.016 | 0.629 ± 0.010 | 1.00 | 0.03 |
+| breast_cancer | PACE-decomposition | 0.234 ± 0.016 | 0.627 ± 0.019 | 0.653 ± 0.009 | 1.00 | 0.06 |
+| breast_cancer | KernelSHAP | 0.186 ± 0.018 | 0.633 ± 0.013 | 0.635 ± 0.011 | 0.43 | 119.63 |
+| breast_cancer | KernelSHAP-strong | 0.133 ± 0.012 | 0.690 ± 0.009 | 0.607 ± 0.008 | – | 1189.63 |
+| breast_cancer | LIME | 0.149 ± 0.010 | 0.682 ± 0.012 | 0.610 ± 0.007 | 0.71 | 36.25 |
+| breast_cancer | Random | 0.409 ± 0.011 | 0.417 ± 0.014 | 0.760 ± 0.008 | 0.06 | 0.00 |
+| breast_cancer | KernelSHAP-same | 0.172 ± 0.013 | 0.646 ± 0.013 | 0.627 ± 0.008 | 0.57 | 1183.20 |
+

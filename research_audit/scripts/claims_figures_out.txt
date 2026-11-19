@@ -1,0 +1,6 @@
+Figure 3: 55 values, largest absolute difference from faithfulness/timing.csv = 5.0e-05 ms
+Figure 3 occlusion/PACE-flip ratios: 29-141
+Figure 4 S3: mean 2.06
+Figure 4 S1: mean 1.62
+Figure 4 S2: mean 1.35
+Figure 4: 30 values, largest absolute difference from interactions/runs.csv = 5.0e-05

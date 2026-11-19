@@ -1,0 +1,53 @@
+order: same rows, two orders -> the test point at 0.42 is class B, then class A
+toy: x = (np.float64(0.37), np.float64(0.46)), distance to A's centroid 0.188, to B's 0.117
+toy cut shares: feature 1 25.4%, feature 2 21.8%; chosen feature 2, face 0.400 -> 0.461; dropped members 1; membership of x in B after = 0.9990 = 1 - γε/(2d) with d = 2
+toy map: 4.49% of grid points changed, all inside the tight certificate, which holds 6.2% of them; 86% of the changed points lie outside the old box B
+outside: predictions changed for x in [0.2980, 0.3030], all below the old face 0.40
+
+Test macro-F1 (%), mean over seeds 50-59
+  B0                 Thyroid 83.96  Landsat 81.98  Page Blocks 67.56  MAGIC 72.59  Letter 74.34  Skin 93.10
+  SR                 Thyroid 89.98  Landsat 83.46  Page Blocks 70.14  MAGIC 75.86  Letter 76.59  Skin 98.76
+  AL                 Thyroid 90.33  Landsat 83.93  Page Blocks 72.44  MAGIC 77.66  Letter 76.27  Skin 99.23
+  SR+AL              Thyroid 90.55  Landsat 84.54  Page Blocks 72.42  MAGIC 77.89  Letter 77.33  Skin 99.31
+  Retrain, shuffled  Thyroid 85.73  Landsat 82.86  Page Blocks 64.18  MAGIC 71.10  Letter 74.70  Skin 91.18
+  Retrain, appended  Thyroid 84.35  Landsat 82.26  Page Blocks 64.96  MAGIC 72.33  Letter 75.19  Skin 92.62
+  RF, every label    Thyroid 97.67  Landsat 89.56  Page Blocks 82.37  MAGIC 86.77  Letter 95.86  Skin 99.93
+Lowest class recall (%)
+  B0                 Thyroid 59.19  Landsat 47.29  Page Blocks 52.42  MAGIC 71.86  Letter 49.65  Skin 80.92
+  SR                 Thyroid 78.56  Landsat 53.70  Page Blocks 52.50  MAGIC 69.13  Letter 52.58  Skin 97.57
+  SR+AL              Thyroid 79.67  Landsat 56.43  Page Blocks 51.16  MAGIC 70.64  Letter 53.41  Skin 98.79
+Fixed (% of test rows)
+  SR                 Thyroid 1.26  Landsat 3.62  Page Blocks 2.76  MAGIC 11.15  Letter 4.59  Skin 3.92
+  SR+AL              Thyroid 1.40  Landsat 4.49  Page Blocks 5.40  MAGIC 12.73  Letter 6.00  Skin 3.95
+  Retrain, shuffled  Thyroid 1.22  Landsat 6.77  Page Blocks 5.20  MAGIC 13.87  Letter 10.90  Skin 2.79
+  Retrain, appended  Thyroid 0.42  Landsat 2.17  Page Blocks 2.15  MAGIC 2.61  Letter 3.20  Skin 0.23
+Broken (% of test rows)
+  SR                 Thyroid 0.19  Landsat 2.42  Page Blocks 0.73  MAGIC 7.25  Letter 2.35  Skin 0.54
+  SR+AL              Thyroid 0.19  Landsat 2.36  Page Blocks 0.82  MAGIC 6.85  Letter 3.06  Skin 0.22
+  Retrain, shuffled  Thyroid 1.03  Landsat 6.09  Page Blocks 6.81  MAGIC 15.60  Letter 10.48  Skin 3.83
+  Retrain, appended  Thyroid 0.39  Landsat 1.77  Page Blocks 3.23  MAGIC 2.97  Letter 2.33  Skin 0.49
+Fix share (%)
+  SR                 Thyroid 86.44  Landsat 58.96  Page Blocks 69.36  MAGIC 60.35  Letter 65.93  Skin 87.50
+  SR+AL              Thyroid 85.29  Landsat 64.22  Page Blocks 81.94  MAGIC 64.80  Letter 66.23  Skin 94.14
+  Retrain, shuffled  Thyroid 51.83  Landsat 52.36  Page Blocks 42.56  MAGIC 47.19  Letter 50.92  Skin 40.54
+  Retrain, appended  Thyroid 51.17  Landsat 54.96  Page Blocks 31.96  MAGIC 46.42  Letter 57.75  Skin 44.38
+Changed (% of test rows)
+  SR                 Thyroid 1.46  Landsat 6.51  Page Blocks 3.92  MAGIC 18.40  Letter 10.64  Skin 4.46
+  SR+AL              Thyroid 1.62  Landsat 7.41  Page Blocks 6.79  MAGIC 19.57  Letter 13.46  Skin 4.18
+  Retrain, shuffled  Thyroid 2.36  Landsat 14.01  Page Blocks 12.63  MAGIC 29.47  Letter 30.00  Skin 6.61
+  Retrain, appended  Thyroid 0.83  Landsat 4.36  Page Blocks 5.55  MAGIC 5.58  Letter 8.00  Skin 0.73
+Sizes and time (SR arm unless named)
+  Thyroid: n_train 3600, boxes 45.5 -> 44.9, train error 1.66% -> 0.40%, SR time 3.3s, retrain shuffled 0.40s, tight cert precision 10.4%, tight cert size 1.2%
+  Landsat: n_train 3217, boxes 146.4 -> 146.2, train error 9.36% -> 5.98%, SR time 147.5s, retrain shuffled 0.61s, tight cert precision 4.8%, tight cert size 2.0%
+  Page Blocks: n_train 2736, boxes 22.0 -> 22.0, train error 10.37% -> 8.43%, SR time 7.2s, retrain shuffled 0.21s, tight cert precision 2.1%, tight cert size 20.0%
+  MAGIC: n_train 9510, boxes 232.0 -> 231.9, train error 24.55% -> 19.69%, SR time 204.4s, retrain shuffled 1.24s, tight cert precision 2.8%, tight cert size 7.6%
+  Letter: n_train 10000, boxes 461.1 -> 461.0, train error 20.23% -> 16.65%, SR time 1029.7s, retrain shuffled 1.84s, tight cert precision 5.3%, tight cert size 1.4%
+  Skin: n_train 122528, boxes 82.1 -> 82.1, train error 4.19% -> 0.76%, SR time 91.7s, retrain shuffled 10.84s, tight cert precision 5.4%, tight cert size 3.1%
+Edit log, SR arm, mean per seed
+  Thyroid: errors taken 59.6, already right 38.7, not inside 0.0, shrinks tried 20.9, accepted 12.9, rejected for macro-F1 4.6, for class recall 3.4; accepted edits that fixed their row 79.8%; members dropped per accepted edit: mean 135.3, median 12, max 2119; share of width cut: mean 0.1%; boxes removed per seed 0.60
+  Landsat: errors taken 288.3, already right 101.7, not inside 3.1, shrinks tried 183.5, accepted 166.3, rejected for macro-F1 1.1, for class recall 16.1; accepted edits that fixed their row 51.5%; members dropped per accepted edit: mean 4.2, median 2, max 286; share of width cut: mean 5.5%; boxes removed per seed 0.20
+  Page Blocks: errors taken 234.8, already right 51.6, not inside 2.1, shrinks tried 181.1, accepted 12.5, rejected for macro-F1 55.1, for class recall 113.5; accepted edits that fixed their row 67.2%; members dropped per accepted edit: mean 12.7, median 2, max 364; share of width cut: mean 2.3%; boxes removed per seed 0.00
+  MAGIC: errors taken 300.0, already right 100.0, not inside 1.3, shrinks tried 198.7, accepted 196.2, rejected for macro-F1 1.4, for class recall 1.1; accepted edits that fixed their row 57.5%; members dropped per accepted edit: mean 15.6, median 3, max 586; share of width cut: mean 7.4%; boxes removed per seed 0.10
+  Letter: errors taken 300.0, already right 41.6, not inside 0.3, shrinks tried 258.1, accepted 201.8, rejected for macro-F1 0.4, for class recall 55.9; accepted edits that fixed their row 44.6%; members dropped per accepted edit: mean 5.1, median 3, max 118; share of width cut: mean 0.5%; boxes removed per seed 0.10
+  Skin: errors taken 300.0, already right 261.1, not inside 0.8, shrinks tried 38.1, accepted 33.6, rejected for macro-F1 4.1, for class recall 0.4; accepted edits that fixed their row 78.6%; members dropped per accepted edit: mean 72.6, median 10, max 1287; share of width cut: mean 10.7%; boxes removed per seed 0.00
+  all SR shrinks: 8804 tried, 6233 accepted; cert misses (loose, tight) over all edit arms: 0, 0 in 46153 edits

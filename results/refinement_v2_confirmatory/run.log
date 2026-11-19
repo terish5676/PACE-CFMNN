@@ -1,0 +1,1043 @@
+  skin seed 53 B0: macro-F1 87.04, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin seed 52 B0: macro-F1 94.24, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin seed 51 B0: macro-F1 91.82, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin seed 50 B0: macro-F1 93.52, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin seed 53 B9: macro-F1 87.34, labels 49011, changed 0.62%, broken 0.24% (16s)
+  skin seed 52 B9: macro-F1 94.20, labels 49011, changed 0.33%, broken 0.18% (16s)
+  skin seed 51 B9: macro-F1 91.92, labels 49011, changed 0.10%, broken 0.02% (16s)
+  skin seed 50 B9: macro-F1 93.40, labels 49011, changed 0.47%, broken 0.27% (16s)
+  skin seed 53 AL: macro-F1 99.34, labels 24806, changed 7.22%, broken 0.12% (719s)
+  skin seed 52 AL: macro-F1 99.43, labels 24806, changed 3.36%, broken 0.09% (725s)
+  skin seed 51 AL: macro-F1 99.38, labels 24806, changed 4.65%, broken 0.07% (725s)
+  skin seed 50 AL: macro-F1 98.94, labels 24806, changed 4.24%, broken 0.47% (728s)
+  skin seed 50 SR: macro-F1 99.32, labels 0, changed 3.71%, broken 0.09% (52s)
+  skin seed 53 SR: macro-F1 98.48, labels 0, changed 7.79%, broken 0.69% (91s)
+  skin seed 51 SR: macro-F1 98.10, labels 0, changed 5.63%, broken 0.97% (83s)
+  skin seed 52 SR: macro-F1 99.40, labels 0, changed 3.43%, broken 0.13% (119s)
+  skin seed 50 SR+AL: macro-F1 99.18, labels 24806, changed 4.07%, broken 0.31% (616s)
+  skin seed 50 Retrain, appended: macro-F1 92.32, labels 24806, changed 0.77%, broken 0.72% (11s)
+  skin seed 53 SR+AL: macro-F1 99.29, labels 24806, changed 7.53%, broken 0.29% (603s)
+  skin seed 51 SR+AL: macro-F1 99.22, labels 24806, changed 4.77%, broken 0.18% (605s)
+  skin seed 50 Retrain, shuffled: macro-F1 89.11, labels 24806, changed 7.86%, broken 5.17% (11s)
+  skin seed 50 kNN, training rows: macro-F1 99.88, labels 0, changed 3.96%, broken 0.03% (0s)
+  skin seed 50 kNN, every label: macro-F1 99.89, labels 24806, changed 3.95%, broken 0.02% (1s)
+  skin seed 53 Retrain, appended: macro-F1 85.52, labels 24806, changed 1.13%, broken 0.95% (11s)
+  skin seed 51 Retrain, appended: macro-F1 92.07, labels 24806, changed 0.43%, broken 0.14% (11s)
+  skin seed 50 RF, training rows: macro-F1 99.89, labels 0, changed 3.94%, broken 0.01% (8s)
+  skin seed 53 Retrain, shuffled: macro-F1 96.65, labels 24806, changed 7.28%, broken 1.00% (11s)
+  skin seed 53 kNN, training rows: macro-F1 99.87, labels 0, changed 7.42%, broken 0.04% (1s)
+  skin seed 53 kNN, every label: macro-F1 99.88, labels 24806, changed 7.42%, broken 0.04% (1s)
+  skin seed 51 Retrain, shuffled: macro-F1 88.71, labels 24806, changed 10.37%, broken 6.00% (11s)
+  skin seed 51 kNN, training rows: macro-F1 99.87, labels 0, changed 4.89%, broken 0.02% (1s)
+  skin seed 51 kNN, every label: macro-F1 99.89, labels 24806, changed 4.90%, broken 0.02% (1s)
+  skin seed 50 RF, every label: macro-F1 99.92, labels 24806, changed 3.95%, broken 0.01% (12s)
+skin seed 50 done in 1486s
+  skin seed 53 RF, training rows: macro-F1 99.89, labels 0, changed 7.40%, broken 0.03% (9s)
+  skin seed 52 SR+AL: macro-F1 99.46, labels 24806, changed 3.51%, broken 0.16% (605s)
+  skin seed 51 RF, training rows: macro-F1 99.94, labels 0, changed 4.91%, broken 0.01% (9s)
+  skin seed 54 B0: macro-F1 94.78, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin seed 53 RF, every label: macro-F1 99.92, labels 24806, changed 7.41%, broken 0.02% (11s)
+skin seed 53 done in 1501s
+  skin seed 52 Retrain, appended: macro-F1 94.41, labels 24806, changed 0.31%, broken 0.11% (10s)
+  skin seed 51 RF, every label: macro-F1 99.94, labels 24806, changed 4.91%, broken 0.01% (11s)
+skin seed 51 done in 1504s
+  skin seed 54 B9: macro-F1 92.44, labels 49011, changed 1.89%, broken 1.61% (12s)
+  skin seed 55 B0: macro-F1 91.16, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin seed 52 Retrain, shuffled: macro-F1 92.68, labels 24806, changed 6.24%, broken 3.60% (10s)
+  skin seed 52 kNN, training rows: macro-F1 99.88, labels 0, changed 3.55%, broken 0.04% (1s)
+  skin seed 52 kNN, every label: macro-F1 99.88, labels 24806, changed 3.55%, broken 0.04% (1s)
+  skin seed 56 B0: macro-F1 92.93, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin seed 52 RF, training rows: macro-F1 99.91, labels 0, changed 3.55%, broken 0.03% (8s)
+  skin seed 55 B9: macro-F1 90.63, labels 49011, changed 0.50%, broken 0.40% (12s)
+  skin seed 56 B9: macro-F1 92.90, labels 49011, changed 0.80%, broken 0.41% (12s)
+  skin seed 52 RF, every label: macro-F1 99.91, labels 24806, changed 3.57%, broken 0.04% (10s)
+skin seed 52 done in 1535s
+  skin seed 57 B0: macro-F1 96.63, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin seed 57 B9: macro-F1 96.60, labels 49011, changed 0.13%, broken 0.07% (12s)
+  skin seed 54 AL: macro-F1 99.26, labels 24806, changed 3.08%, broken 0.16% (593s)
+  skin seed 56 AL: macro-F1 99.45, labels 24806, changed 4.35%, broken 0.20% (605s)
+  skin seed 55 AL: macro-F1 98.55, labels 24806, changed 5.74%, broken 0.65% (614s)
+  skin seed 57 AL: macro-F1 99.34, labels 24806, changed 1.97%, broken 0.13% (599s)
+  skin seed 54 SR: macro-F1 97.33, labels 0, changed 4.70%, broken 1.59% (93s)
+  skin seed 56 SR: macro-F1 99.47, labels 0, changed 4.31%, broken 0.18% (88s)
+  skin seed 55 SR: macro-F1 98.65, labels 0, changed 5.12%, broken 0.31% (97s)
+  skin seed 57 SR: macro-F1 98.71, labels 0, changed 2.52%, broken 0.60% (121s)
+  skin seed 54 SR+AL: macro-F1 99.25, labels 24806, changed 3.49%, broken 0.37% (593s)
+  skin seed 54 Retrain, appended: macro-F1 93.04, labels 24806, changed 1.28%, broken 1.15% (10s)
+  skin seed 54 Retrain, shuffled: macro-F1 88.33, labels 24806, changed 6.72%, broken 5.12% (11s)
+  skin seed 54 kNN, training rows: macro-F1 99.88, labels 0, changed 3.24%, broken 0.03% (1s)
+  skin seed 54 kNN, every label: macro-F1 99.90, labels 24806, changed 3.23%, broken 0.02% (1s)
+  skin seed 54 RF, training rows: macro-F1 99.92, labels 0, changed 3.25%, broken 0.02% (9s)
+  skin seed 56 SR+AL: macro-F1 99.34, labels 24806, changed 4.53%, broken 0.33% (607s)
+  skin seed 54 RF, every label: macro-F1 99.94, labels 24806, changed 3.24%, broken 0.01% (11s)
+skin seed 54 done in 1355s
+  skin seed 55 SR+AL: macro-F1 99.52, labels 24806, changed 5.30%, broken 0.12% (603s)
+  skin seed 56 Retrain, appended: macro-F1 91.04, labels 24806, changed 1.51%, broken 1.27% (11s)
+  skin seed 58 B0: macro-F1 95.30, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin seed 55 Retrain, appended: macro-F1 91.85, labels 24806, changed 0.86%, broken 0.24% (11s)
+  skin seed 56 Retrain, shuffled: macro-F1 86.86, labels 24806, changed 6.03%, broken 4.61% (11s)
+  skin seed 56 kNN, training rows: macro-F1 99.90, labels 0, changed 4.31%, broken 0.03% (1s)
+  skin seed 56 kNN, every label: macro-F1 99.93, labels 24806, changed 4.30%, broken 0.02% (1s)
+  skin seed 58 B9: macro-F1 95.22, labels 49011, changed 0.20%, broken 0.12% (12s)
+  skin seed 56 RF, training rows: macro-F1 99.93, labels 0, changed 4.33%, broken 0.03% (8s)
+  skin seed 55 Retrain, shuffled: macro-F1 95.76, labels 24806, changed 6.97%, broken 2.15% (10s)
+  skin seed 55 kNN, training rows: macro-F1 99.90, labels 0, changed 5.36%, broken 0.02% (1s)
+  skin seed 55 kNN, every label: macro-F1 99.91, labels 24806, changed 5.36%, broken 0.02% (1s)
+  skin seed 56 RF, every label: macro-F1 99.94, labels 24806, changed 4.32%, broken 0.02% (12s)
+skin seed 56 done in 1380s
+  skin seed 55 RF, training rows: macro-F1 99.91, labels 0, changed 5.38%, broken 0.03% (9s)
+  skin seed 57 SR+AL: macro-F1 99.05, labels 24806, changed 1.97%, broken 0.22% (600s)
+  skin seed 55 RF, every label: macro-F1 99.90, labels 24806, changed 5.39%, broken 0.04% (10s)
+skin seed 55 done in 1393s
+  skin seed 59 B0: macro-F1 93.58, labels 0, changed 0.00%, broken 0.00% (0s)
+  skin seed 57 Retrain, appended: macro-F1 96.76, labels 24806, changed 0.20%, broken 0.06% (10s)
+  letter seed 50 B0: macro-F1 73.13, labels 0, changed 0.00%, broken 0.00% (0s)
+  letter seed 50 B9: macro-F1 74.19, labels 4000, changed 8.35%, broken 1.90% (2s)
+  skin seed 59 B9: macro-F1 92.76, labels 49011, changed 1.03%, broken 0.75% (12s)
+  skin seed 57 Retrain, shuffled: macro-F1 93.66, labels 24806, changed 4.01%, broken 2.90% (11s)
+  skin seed 57 kNN, training rows: macro-F1 99.83, labels 0, changed 2.12%, broken 0.04% (0s)
+  skin seed 57 kNN, every label: macro-F1 99.86, labels 24806, changed 2.14%, broken 0.04% (1s)
+  skin seed 57 RF, training rows: macro-F1 99.91, labels 0, changed 2.13%, broken 0.02% (9s)
+  skin seed 57 RF, every label: macro-F1 99.93, labels 24806, changed 2.13%, broken 0.01% (11s)
+skin seed 57 done in 1400s
+  letter seed 51 B0: macro-F1 75.37, labels 0, changed 0.00%, broken 0.00% (0s)
+  letter seed 51 B9: macro-F1 76.39, labels 4000, changed 9.10%, broken 2.65% (2s)
+  letter seed 50 AL: macro-F1 75.25, labels 2300, changed 9.20%, broken 1.85% (473s)
+  letter seed 51 AL: macro-F1 76.50, labels 2300, changed 8.05%, broken 2.05% (492s)
+  skin seed 58 AL: macro-F1 99.44, labels 24806, changed 2.85%, broken 0.14% (638s)
+  skin seed 59 AL: macro-F1 99.19, labels 24806, changed 3.80%, broken 0.20% (621s)
+  skin seed 59 SR: macro-F1 99.55, labels 0, changed 3.91%, broken 0.13% (51s)
+  skin seed 58 SR: macro-F1 98.56, labels 0, changed 3.47%, broken 0.74% (122s)
+  skin seed 59 SR+AL: macro-F1 99.27, labels 24806, changed 3.75%, broken 0.14% (634s)
+  skin seed 59 Retrain, appended: macro-F1 94.27, labels 24806, changed 0.41%, broken 0.00% (11s)
+  skin seed 59 Retrain, shuffled: macro-F1 87.46, labels 24806, changed 6.08%, broken 4.67% (11s)
+  skin seed 59 kNN, training rows: macro-F1 99.94, labels 0, changed 3.93%, broken 0.01% (1s)
+  skin seed 59 kNN, every label: macro-F1 99.95, labels 24806, changed 3.93%, broken 0.01% (1s)
+  skin seed 59 RF, training rows: macro-F1 99.96, labels 0, changed 3.93%, broken 0.01% (9s)
+  skin seed 59 RF, every label: macro-F1 99.94, labels 24806, changed 3.94%, broken 0.02% (12s)
+skin seed 59 done in 1386s
+  letter seed 52 B0: macro-F1 74.58, labels 0, changed 0.00%, broken 0.00% (0s)
+  letter seed 52 B9: macro-F1 75.51, labels 4000, changed 9.55%, broken 2.85% (2s)
+  skin seed 58 SR+AL: macro-F1 99.51, labels 24806, changed 2.85%, broken 0.11% (652s)
+  letter seed 50 SR: macro-F1 75.90, labels 0, changed 10.25%, broken 2.15% (910s)
+  skin seed 58 Retrain, appended: macro-F1 94.94, labels 24806, changed 0.37%, broken 0.29% (11s)
+  skin seed 58 Retrain, shuffled: macro-F1 92.61, labels 24806, changed 4.56%, broken 3.06% (11s)
+  skin seed 58 kNN, training rows: macro-F1 99.88, labels 0, changed 2.93%, broken 0.03% (1s)
+  skin seed 58 kNN, every label: macro-F1 99.88, labels 24806, changed 2.94%, broken 0.04% (1s)
+  skin seed 58 RF, training rows: macro-F1 99.91, labels 0, changed 2.92%, broken 0.02% (10s)
+  skin seed 58 RF, every label: macro-F1 99.92, labels 24806, changed 2.93%, broken 0.02% (13s)
+skin seed 58 done in 1498s
+  letter seed 53 B0: macro-F1 74.83, labels 0, changed 0.00%, broken 0.00% (0s)
+  letter seed 53 B9: macro-F1 75.24, labels 4000, changed 9.75%, broken 3.15% (3s)
+  letter seed 51 SR: macro-F1 78.37, labels 0, changed 11.55%, broken 2.20% (934s)
+  letter seed 50 SR+AL: macro-F1 76.63, labels 2300, changed 12.70%, broken 2.35% (518s)
+  letter seed 50 Retrain, appended: macro-F1 73.51, labels 2300, changed 7.60%, broken 2.00% (2s)
+  letter seed 50 Retrain, shuffled: macro-F1 72.77, labels 2300, changed 30.95%, broken 11.35% (2s)
+  letter seed 50 kNN, training rows: macro-F1 92.09, labels 0, changed 27.10%, broken 2.60% (0s)
+  letter seed 50 kNN, every label: macro-F1 92.82, labels 2300, changed 26.80%, broken 2.25% (0s)
+  letter seed 50 RF, training rows: macro-F1 95.24, labels 0, changed 25.95%, broken 0.90% (3s)
+  letter seed 50 RF, every label: macro-F1 95.83, labels 2300, changed 26.15%, broken 0.90% (3s)
+letter seed 50 done in 1943s
+  letter seed 52 AL: macro-F1 77.17, labels 2300, changed 10.45%, broken 2.10% (553s)
+  letter seed 54 B0: macro-F1 72.27, labels 0, changed 0.00%, broken 0.00% (0s)
+  letter seed 54 B9: macro-F1 72.96, labels 4000, changed 10.35%, broken 3.10% (2s)
+  letter seed 53 AL: macro-F1 77.54, labels 2300, changed 8.25%, broken 1.45% (565s)
+  letter seed 51 SR+AL: macro-F1 79.61, labels 2300, changed 13.95%, broken 2.80% (542s)
+  letter seed 51 Retrain, appended: macro-F1 75.47, labels 2300, changed 7.40%, broken 2.30% (2s)
+  letter seed 51 Retrain, shuffled: macro-F1 71.71, labels 2300, changed 31.35%, broken 12.90% (2s)
+  letter seed 51 kNN, training rows: macro-F1 92.74, labels 0, changed 24.75%, broken 2.10% (0s)
+  letter seed 51 kNN, every label: macro-F1 93.77, labels 2300, changed 24.55%, broken 1.60% (0s)
+  letter seed 51 RF, training rows: macro-F1 96.03, labels 0, changed 24.20%, broken 0.85% (3s)
+  letter seed 51 RF, every label: macro-F1 96.20, labels 2300, changed 24.00%, broken 0.85% (3s)
+letter seed 51 done in 2012s
+  letter seed 55 B0: macro-F1 73.48, labels 0, changed 0.00%, broken 0.00% (0s)
+  letter seed 55 B9: macro-F1 73.40, labels 4000, changed 10.95%, broken 3.75% (2s)
+  letter seed 54 AL: macro-F1 73.93, labels 2300, changed 9.50%, broken 2.25% (545s)
+  letter seed 55 AL: macro-F1 75.52, labels 2300, changed 8.80%, broken 2.05% (542s)
+  letter seed 52 SR: macro-F1 77.55, labels 0, changed 12.95%, broken 2.35% (1060s)
+  letter seed 53 SR: macro-F1 77.30, labels 0, changed 10.45%, broken 2.25% (1091s)
+  letter seed 52 SR+AL: macro-F1 77.66, labels 2300, changed 14.20%, broken 3.15% (540s)
+  letter seed 54 SR: macro-F1 74.88, labels 0, changed 11.30%, broken 2.70% (1045s)
+  letter seed 52 Retrain, appended: macro-F1 74.84, labels 2300, changed 8.00%, broken 2.80% (2s)
+  letter seed 52 Retrain, shuffled: macro-F1 76.15, labels 2300, changed 29.25%, broken 9.40% (2s)
+  letter seed 52 kNN, training rows: macro-F1 92.45, labels 0, changed 26.10%, broken 2.35% (1s)
+  letter seed 52 kNN, every label: macro-F1 93.13, labels 2300, changed 26.45%, broken 2.30% (0s)
+  letter seed 52 RF, training rows: macro-F1 94.57, labels 0, changed 24.90%, broken 1.20% (2s)
+  letter seed 52 RF, every label: macro-F1 94.93, labels 2300, changed 25.75%, broken 1.40% (3s)
+letter seed 52 done in 2202s
+  letter seed 56 B0: macro-F1 76.29, labels 0, changed 0.00%, broken 0.00% (0s)
+  letter seed 56 B9: macro-F1 76.00, labels 4000, changed 8.35%, broken 3.15% (2s)
+  letter seed 55 SR: macro-F1 74.77, labels 0, changed 9.35%, broken 2.45% (999s)
+  letter seed 53 SR+AL: macro-F1 77.97, labels 2300, changed 13.65%, broken 3.40% (572s)
+  letter seed 53 Retrain, appended: macro-F1 75.92, labels 2300, changed 8.15%, broken 2.35% (3s)
+  letter seed 53 Retrain, shuffled: macro-F1 75.38, labels 2300, changed 29.05%, broken 10.15% (2s)
+  letter seed 53 kNN, training rows: macro-F1 91.86, labels 0, changed 24.70%, broken 2.50% (0s)
+  letter seed 53 kNN, every label: macro-F1 93.75, labels 2300, changed 24.40%, broken 1.75% (0s)
+  letter seed 53 RF, training rows: macro-F1 95.58, labels 0, changed 24.90%, broken 1.35% (3s)
+  letter seed 53 RF, every label: macro-F1 96.36, labels 2300, changed 24.45%, broken 0.95% (3s)
+letter seed 53 done in 2280s
+  letter seed 57 B0: macro-F1 74.72, labels 0, changed 0.00%, broken 0.00% (0s)
+  letter seed 57 B9: macro-F1 75.14, labels 4000, changed 10.30%, broken 3.40% (2s)
+  letter seed 54 SR+AL: macro-F1 76.05, labels 2300, changed 15.50%, broken 3.25% (541s)
+  letter seed 54 Retrain, appended: macro-F1 74.70, labels 2300, changed 8.00%, broken 1.70% (2s)
+  letter seed 54 Retrain, shuffled: macro-F1 75.39, labels 2300, changed 31.90%, broken 10.15% (2s)
+  letter seed 54 kNN, training rows: macro-F1 92.63, labels 0, changed 27.50%, broken 2.20% (0s)
+  letter seed 54 kNN, every label: macro-F1 93.53, labels 2300, changed 27.75%, broken 2.05% (0s)
+  letter seed 54 RF, training rows: macro-F1 95.14, labels 0, changed 27.30%, broken 1.35% (2s)
+  letter seed 54 RF, every label: macro-F1 96.54, labels 2300, changed 27.25%, broken 0.90% (3s)
+letter seed 54 done in 2180s
+  letter seed 58 B0: macro-F1 74.27, labels 0, changed 0.00%, broken 0.00% (0s)
+  letter seed 56 AL: macro-F1 77.01, labels 2300, changed 6.65%, broken 1.85% (538s)
+  letter seed 58 B9: macro-F1 76.43, labels 4000, changed 11.30%, broken 2.75% (2s)
+  letter seed 55 SR+AL: macro-F1 75.92, labels 2300, changed 13.15%, broken 3.25% (549s)
+  letter seed 55 Retrain, appended: macro-F1 73.87, labels 2300, changed 8.35%, broken 2.55% (2s)
+  letter seed 55 Retrain, shuffled: macro-F1 76.07, labels 2300, changed 30.15%, broken 9.65% (2s)
+  letter seed 55 kNN, training rows: macro-F1 91.87, labels 0, changed 27.00%, broken 2.60% (0s)
+  letter seed 55 kNN, every label: macro-F1 93.62, labels 2300, changed 26.50%, broken 1.75% (0s)
+  letter seed 55 RF, training rows: macro-F1 94.91, labels 0, changed 26.00%, broken 1.45% (3s)
+  letter seed 55 RF, every label: macro-F1 95.42, labels 2300, changed 26.15%, broken 1.05% (3s)
+letter seed 55 done in 2136s
+  letter seed 59 B0: macro-F1 74.51, labels 0, changed 0.00%, broken 0.00% (0s)
+  letter seed 59 B9: macro-F1 76.23, labels 4000, changed 9.55%, broken 2.60% (2s)
+  letter seed 57 AL: macro-F1 76.68, labels 2300, changed 8.95%, broken 2.40% (554s)
+  letter seed 58 AL: macro-F1 77.21, labels 2300, changed 9.70%, broken 1.75% (553s)
+  letter seed 59 AL: macro-F1 75.88, labels 2300, changed 7.90%, broken 2.10% (569s)
+  letter seed 56 SR: macro-F1 77.60, labels 0, changed 10.60%, broken 2.65% (962s)
+  letter seed 57 SR: macro-F1 76.60, labels 0, changed 9.85%, broken 2.20% (1127s)
+  letter seed 56 SR+AL: macro-F1 78.95, labels 2300, changed 12.60%, broken 2.70% (520s)
+  letter seed 56 Retrain, appended: macro-F1 77.20, labels 2300, changed 7.50%, broken 2.25% (2s)
+  letter seed 56 Retrain, shuffled: macro-F1 75.68, labels 2300, changed 27.50%, broken 10.15% (2s)
+  letter seed 56 kNN, training rows: macro-F1 92.48, labels 0, changed 23.10%, broken 2.00% (0s)
+  letter seed 56 kNN, every label: macro-F1 93.76, labels 2300, changed 23.45%, broken 1.80% (0s)
+  letter seed 56 RF, training rows: macro-F1 95.67, labels 0, changed 23.20%, broken 1.10% (3s)
+  letter seed 56 RF, every label: macro-F1 96.14, labels 2300, changed 23.00%, broken 0.85% (3s)
+letter seed 56 done in 2065s
+  magic seed 50 B0: macro-F1 75.45, labels 0, changed 0.00%, broken 0.00% (0s)
+  magic seed 50 B9: macro-F1 74.30, labels 3804, changed 5.78%, broken 3.42% (2s)
+  letter seed 58 SR: macro-F1 76.75, labels 0, changed 10.40%, broken 2.15% (1051s)
+  magic seed 50 AL: macro-F1 77.29, labels 2202, changed 11.09%, broken 4.42% (184s)
+  letter seed 59 SR: macro-F1 76.23, labels 0, changed 9.75%, broken 2.45% (1118s)
+  letter seed 57 SR+AL: macro-F1 77.54, labels 2300, changed 12.50%, broken 2.80% (550s)
+  letter seed 57 Retrain, appended: macro-F1 75.31, labels 2300, changed 8.55%, broken 2.90% (2s)
+  letter seed 57 Retrain, shuffled: macro-F1 73.37, labels 2300, changed 28.85%, broken 10.65% (2s)
+  letter seed 57 kNN, training rows: macro-F1 92.23, labels 0, changed 25.70%, broken 2.60% (0s)
+  letter seed 57 kNN, every label: macro-F1 92.85, labels 2300, changed 25.70%, broken 2.30% (0s)
+  letter seed 57 RF, training rows: macro-F1 94.54, labels 0, changed 24.90%, broken 1.40% (3s)
+  letter seed 57 RF, every label: macro-F1 95.62, labels 2300, changed 24.55%, broken 0.85% (3s)
+letter seed 57 done in 2277s
+  magic seed 51 B0: macro-F1 72.57, labels 0, changed 0.00%, broken 0.00% (0s)
+  magic seed 51 B9: macro-F1 72.44, labels 3804, changed 7.26%, broken 3.79% (1s)
+  magic seed 50 SR: macro-F1 75.85, labels 0, changed 15.40%, broken 7.31% (227s)
+  magic seed 51 AL: macro-F1 77.25, labels 2202, changed 13.04%, broken 4.26% (168s)
+  magic seed 50 SR+AL: macro-F1 77.92, labels 2202, changed 16.98%, broken 7.10% (176s)
+  magic seed 50 Retrain, appended: macro-F1 75.53, labels 2202, changed 4.05%, broken 2.05% (1s)
+  magic seed 50 Retrain, shuffled: macro-F1 73.12, labels 2202, changed 26.50%, broken 14.46% (1s)
+  magic seed 50 kNN, training rows: macro-F1 78.78, labels 0, changed 21.87%, broken 8.31% (0s)
+  magic seed 50 kNN, every label: macro-F1 79.77, labels 2202, changed 20.77%, broken 7.36% (0s)
+  magic seed 50 RF, training rows: macro-F1 86.38, labels 0, changed 20.08%, broken 4.63% (5s)
+  magic seed 50 RF, every label: macro-F1 86.21, labels 2202, changed 20.19%, broken 4.73% (7s)
+magic seed 50 done in 612s
+  magic seed 52 B0: macro-F1 73.47, labels 0, changed 0.00%, broken 0.00% (0s)
+  magic seed 52 B9: macro-F1 71.74, labels 3804, changed 6.62%, broken 4.26% (1s)
+  letter seed 58 SR+AL: macro-F1 77.01, labels 2300, changed 13.45%, broken 3.25% (537s)
+  letter seed 58 Retrain, appended: macro-F1 75.47, labels 2300, changed 7.80%, broken 1.90% (2s)
+  letter seed 58 Retrain, shuffled: macro-F1 75.88, labels 2300, changed 31.40%, broken 10.25% (2s)
+  letter seed 58 kNN, training rows: macro-F1 92.16, labels 0, changed 25.45%, broken 2.25% (0s)
+  letter seed 58 kNN, every label: macro-F1 94.15, labels 2300, changed 25.20%, broken 1.65% (0s)
+  letter seed 58 RF, training rows: macro-F1 94.95, labels 0, changed 25.00%, broken 1.05% (2s)
+  letter seed 58 RF, every label: macro-F1 96.29, labels 2300, changed 25.05%, broken 0.70% (3s)
+letter seed 58 done in 2187s
+  magic seed 53 B0: macro-F1 73.73, labels 0, changed 0.00%, broken 0.00% (0s)
+  magic seed 53 B9: macro-F1 71.95, labels 3804, changed 7.62%, broken 4.73% (2s)
+  magic seed 51 SR: macro-F1 75.46, labels 0, changed 16.93%, broken 7.10% (214s)
+  magic seed 52 AL: macro-F1 78.66, labels 2202, changed 18.09%, broken 6.20% (163s)
+  letter seed 59 SR+AL: macro-F1 75.94, labels 2300, changed 12.90%, broken 3.60% (539s)
+  letter seed 59 Retrain, appended: macro-F1 75.63, labels 2300, changed 8.60%, broken 2.55% (2s)
+  letter seed 59 Retrain, shuffled: macro-F1 74.60, labels 2300, changed 29.60%, broken 10.20% (2s)
+  letter seed 59 kNN, training rows: macro-F1 92.25, labels 0, changed 25.15%, broken 2.20% (0s)
+  letter seed 59 kNN, every label: macro-F1 93.39, labels 2300, changed 25.60%, broken 2.25% (0s)
+  letter seed 59 RF, training rows: macro-F1 94.95, labels 0, changed 24.45%, broken 0.90% (3s)
+  letter seed 59 RF, every label: macro-F1 95.25, labels 2300, changed 24.85%, broken 1.10% (3s)
+letter seed 59 done in 2275s
+  magic seed 54 B0: macro-F1 71.41, labels 0, changed 0.00%, broken 0.00% (0s)
+  magic seed 54 B9: macro-F1 71.63, labels 3804, changed 7.78%, broken 3.89% (2s)
+  magic seed 53 AL: macro-F1 77.43, labels 2202, changed 13.93%, broken 4.78% (176s)
+  magic seed 51 SR+AL: macro-F1 77.66, labels 2202, changed 17.35%, broken 6.05% (175s)
+  magic seed 51 Retrain, appended: macro-F1 71.97, labels 2202, changed 4.52%, broken 2.68% (1s)
+  magic seed 51 Retrain, shuffled: macro-F1 73.81, labels 2202, changed 28.23%, broken 13.67% (1s)
+  magic seed 51 kNN, training rows: macro-F1 79.39, labels 0, changed 24.13%, broken 7.99% (0s)
+  magic seed 51 kNN, every label: macro-F1 79.44, labels 2202, changed 25.08%, broken 8.41% (0s)
+  magic seed 51 RF, training rows: macro-F1 86.67, labels 0, changed 21.66%, broken 4.00% (5s)
+  magic seed 51 RF, every label: macro-F1 86.63, labels 2202, changed 22.08%, broken 4.26% (6s)
+magic seed 51 done in 582s
+  magic seed 55 B0: macro-F1 70.98, labels 0, changed 0.00%, broken 0.00% (0s)
+  magic seed 55 B9: macro-F1 71.07, labels 3804, changed 7.10%, broken 3.52% (2s)
+  magic seed 54 AL: macro-F1 79.27, labels 2202, changed 16.77%, broken 4.21% (184s)
+  magic seed 52 SR: macro-F1 75.79, labels 0, changed 17.19%, broken 7.20% (234s)
+  magic seed 53 SR: macro-F1 76.82, labels 0, changed 17.03%, broken 6.52% (214s)
+  magic seed 55 AL: macro-F1 73.97, labels 2202, changed 17.14%, broken 6.73% (163s)
+  magic seed 52 SR+AL: macro-F1 77.57, labels 2202, changed 19.09%, broken 7.26% (165s)
+  magic seed 52 Retrain, appended: macro-F1 72.78, labels 2202, changed 5.94%, broken 3.36% (1s)
+  magic seed 52 Retrain, shuffled: macro-F1 75.97, labels 2202, changed 28.29%, broken 12.67% (1s)
+  magic seed 52 kNN, training rows: macro-F1 82.51, labels 0, changed 25.71%, broken 7.57% (0s)
+  magic seed 52 kNN, every label: macro-F1 82.28, labels 2202, changed 25.60%, broken 7.62% (0s)
+  magic seed 52 RF, training rows: macro-F1 86.80, labels 0, changed 24.50%, broken 5.47% (5s)
+  magic seed 52 RF, every label: macro-F1 87.77, labels 2202, changed 24.08%, broken 4.84% (6s)
+magic seed 52 done in 586s
+  magic seed 56 B0: macro-F1 72.97, labels 0, changed 0.00%, broken 0.00% (0s)
+  magic seed 56 B9: macro-F1 71.42, labels 3804, changed 9.46%, broken 5.52% (1s)
+  magic seed 54 SR: macro-F1 76.03, labels 0, changed 18.19%, broken 6.36% (212s)
+  magic seed 53 SR+AL: macro-F1 77.35, labels 2202, changed 16.56%, broken 6.10% (166s)
+  magic seed 53 Retrain, appended: macro-F1 73.37, labels 2202, changed 4.89%, broken 2.68% (1s)
+  magic seed 53 Retrain, shuffled: macro-F1 67.07, labels 2202, changed 31.55%, broken 19.40% (1s)
+  magic seed 53 kNN, training rows: macro-F1 80.13, labels 0, changed 23.34%, broken 7.62% (0s)
+  magic seed 53 kNN, every label: macro-F1 80.47, labels 2202, changed 23.29%, broken 7.47% (0s)
+  magic seed 53 RF, training rows: macro-F1 87.25, labels 0, changed 22.66%, broken 4.63% (5s)
+  magic seed 53 RF, every label: macro-F1 87.61, labels 2202, changed 22.66%, broken 4.47% (6s)
+magic seed 53 done in 582s
+  magic seed 57 B0: macro-F1 71.89, labels 0, changed 0.00%, broken 0.00% (0s)
+  magic seed 57 B9: macro-F1 72.70, labels 3804, changed 8.68%, broken 4.00% (1s)
+  magic seed 55 SR: macro-F1 73.74, labels 0, changed 20.72%, broken 8.52% (179s)
+  magic seed 56 AL: macro-F1 77.38, labels 2202, changed 15.67%, broken 5.42% (169s)
+  magic seed 54 SR+AL: macro-F1 79.24, labels 2202, changed 20.87%, broken 6.31% (168s)
+  magic seed 54 Retrain, appended: macro-F1 70.92, labels 2202, changed 4.99%, broken 2.79% (1s)
+  magic seed 54 Retrain, shuffled: macro-F1 70.13, labels 2202, changed 31.18%, broken 16.46% (1s)
+  magic seed 54 kNN, training rows: macro-F1 81.46, labels 0, changed 25.87%, broken 7.15% (0s)
+  magic seed 54 kNN, every label: macro-F1 81.24, labels 2202, changed 25.34%, broken 7.05% (0s)
+  magic seed 54 RF, training rows: macro-F1 87.53, labels 0, changed 24.08%, broken 4.00% (4s)
+  magic seed 54 RF, every label: macro-F1 87.42, labels 2202, changed 24.34%, broken 4.21% (6s)
+magic seed 54 done in 588s
+  magic seed 58 B0: macro-F1 73.73, labels 0, changed 0.00%, broken 0.00% (0s)
+  magic seed 57 AL: macro-F1 79.58, labels 2202, changed 16.82%, broken 4.57% (157s)
+  magic seed 58 B9: macro-F1 72.74, labels 3804, changed 6.15%, broken 3.63% (1s)
+  magic seed 55 SR+AL: macro-F1 75.77, labels 2202, changed 21.66%, broken 7.89% (152s)
+  magic seed 55 Retrain, appended: macro-F1 70.71, labels 2202, changed 4.73%, broken 2.47% (1s)
+  magic seed 55 Retrain, shuffled: macro-F1 69.85, labels 2202, changed 28.81%, broken 14.98% (1s)
+  magic seed 55 kNN, training rows: macro-F1 78.03, labels 0, changed 25.81%, broken 8.25% (0s)
+  magic seed 55 kNN, every label: macro-F1 77.89, labels 2202, changed 25.29%, broken 8.10% (0s)
+  magic seed 55 RF, training rows: macro-F1 84.21, labels 0, changed 24.87%, broken 5.57% (5s)
+  magic seed 55 RF, every label: macro-F1 85.25, labels 2202, changed 24.50%, broken 4.94% (6s)
+magic seed 55 done in 519s
+  magic seed 59 B0: macro-F1 69.73, labels 0, changed 0.00%, broken 0.00% (0s)
+  magic seed 59 B9: macro-F1 68.52, labels 3804, changed 7.47%, broken 4.42% (1s)
+  magic seed 58 AL: macro-F1 78.06, labels 2202, changed 15.35%, broken 5.31% (153s)
+  magic seed 56 SR: macro-F1 75.46, labels 0, changed 17.46%, broken 7.15% (224s)
+  magic seed 57 SR: macro-F1 76.30, labels 0, changed 20.35%, broken 7.68% (187s)
+  magic seed 59 AL: macro-F1 77.67, labels 2202, changed 19.93%, broken 5.68% (160s)
+  magic seed 58 SR: macro-F1 77.34, labels 0, changed 18.56%, broken 7.10% (169s)
+  magic seed 57 SR+AL: macro-F1 78.60, labels 2202, changed 21.08%, broken 7.05% (166s)
+  magic seed 57 Retrain, appended: macro-F1 71.12, labels 2202, changed 6.36%, broken 3.68% (1s)
+  magic seed 57 Retrain, shuffled: macro-F1 70.61, labels 2202, changed 31.02%, broken 16.56% (1s)
+  magic seed 57 kNN, training rows: macro-F1 79.75, labels 0, changed 26.55%, broken 8.46% (0s)
+  magic seed 57 kNN, every label: macro-F1 79.56, labels 2202, changed 26.13%, broken 8.36% (0s)
+  magic seed 56 SR+AL: macro-F1 78.09, labels 2202, changed 19.45%, broken 6.78% (175s)
+  magic seed 56 Retrain, appended: macro-F1 73.27, labels 2202, changed 7.57%, broken 3.63% (1s)
+  magic seed 57 RF, training rows: macro-F1 85.62, labels 0, changed 23.66%, broken 4.99% (5s)
+  magic seed 56 Retrain, shuffled: macro-F1 71.48, labels 2202, changed 29.34%, broken 15.51% (1s)
+  magic seed 56 kNN, training rows: macro-F1 78.92, labels 0, changed 25.60%, broken 8.68% (0s)
+  magic seed 56 kNN, every label: macro-F1 80.06, labels 2202, changed 24.87%, broken 7.89% (0s)
+  magic seed 57 RF, every label: macro-F1 86.56, labels 2202, changed 23.66%, broken 4.57% (6s)
+magic seed 57 done in 534s
+  magic seed 56 RF, training rows: macro-F1 86.39, labels 0, changed 23.45%, broken 4.84% (5s)
+  landsat seed 50 B0: macro-F1 82.42, labels 0, changed 0.00%, broken 0.00% (0s)
+  landsat seed 50 B9: macro-F1 81.51, labels 1287, changed 3.88%, broken 2.02% (0s)
+  magic seed 56 RF, every label: macro-F1 86.99, labels 2202, changed 23.24%, broken 4.47% (6s)
+magic seed 56 done in 592s
+  landsat seed 51 B0: macro-F1 81.64, labels 0, changed 0.00%, broken 0.00% (0s)
+  landsat seed 51 B9: macro-F1 81.18, labels 1287, changed 4.04%, broken 2.17% (1s)
+  magic seed 59 SR: macro-F1 75.79, labels 0, changed 22.13%, broken 7.52% (185s)
+  landsat seed 50 AL: macro-F1 83.87, labels 944, changed 6.68%, broken 2.64% (99s)
+  landsat seed 51 AL: macro-F1 84.56, labels 944, changed 4.66%, broken 1.09% (97s)
+  magic seed 58 SR+AL: macro-F1 79.12, labels 2202, changed 20.14%, broken 7.10% (164s)
+  magic seed 58 Retrain, appended: macro-F1 74.13, labels 2202, changed 6.99%, broken 3.31% (1s)
+  magic seed 58 Retrain, shuffled: macro-F1 68.65, labels 2202, changed 30.55%, broken 18.03% (1s)
+  magic seed 58 kNN, training rows: macro-F1 81.44, labels 0, changed 24.34%, broken 7.47% (0s)
+  magic seed 58 kNN, every label: macro-F1 81.11, labels 2202, changed 24.55%, broken 7.73% (0s)
+  magic seed 58 RF, training rows: macro-F1 86.89, labels 0, changed 23.87%, broken 5.26% (5s)
+  magic seed 58 RF, every label: macro-F1 87.38, labels 2202, changed 23.45%, broken 4.84% (6s)
+magic seed 58 done in 510s
+  landsat seed 52 B0: macro-F1 80.47, labels 0, changed 0.00%, broken 0.00% (0s)
+  landsat seed 52 B9: macro-F1 80.39, labels 1287, changed 4.81%, broken 2.17% (1s)
+  magic seed 59 SR+AL: macro-F1 77.56, labels 2202, changed 22.56%, broken 6.83% (200s)
+  magic seed 59 Retrain, appended: macro-F1 69.45, labels 2202, changed 5.73%, broken 3.05% (1s)
+  magic seed 59 Retrain, shuffled: macro-F1 70.35, labels 2202, changed 29.23%, broken 14.25% (2s)
+  magic seed 59 kNN, training rows: macro-F1 79.90, labels 0, changed 28.86%, broken 8.20% (0s)
+  magic seed 59 kNN, every label: macro-F1 80.52, labels 2202, changed 29.18%, broken 8.04% (0s)
+  magic seed 59 RF, training rows: macro-F1 85.81, labels 0, changed 26.34%, broken 4.78% (5s)
+  magic seed 59 RF, every label: macro-F1 85.85, labels 2202, changed 26.03%, broken 4.63% (7s)
+magic seed 59 done in 573s
+  landsat seed 53 B0: macro-F1 82.48, labels 0, changed 0.00%, broken 0.00% (0s)
+  landsat seed 53 B9: macro-F1 83.15, labels 1287, changed 3.57%, broken 0.93% (1s)
+  landsat seed 50 SR: macro-F1 84.08, labels 0, changed 7.45%, broken 2.95% (155s)
+  landsat seed 51 SR: macro-F1 84.59, labels 0, changed 4.97%, broken 1.40% (154s)
+  landsat seed 52 AL: macro-F1 83.15, labels 944, changed 7.61%, broken 2.02% (128s)
+  landsat seed 53 AL: macro-F1 85.93, labels 944, changed 8.23%, broken 2.02% (170s)
+  landsat seed 50 SR+AL: macro-F1 85.69, labels 944, changed 8.70%, broken 2.95% (168s)
+  landsat seed 50 Retrain, appended: macro-F1 80.97, labels 944, changed 4.19%, broken 2.48% (1s)
+  landsat seed 51 SR+AL: macro-F1 85.35, labels 944, changed 6.99%, broken 1.86% (164s)
+  landsat seed 51 Retrain, appended: macro-F1 81.39, labels 944, changed 3.11%, broken 1.40% (1s)
+  landsat seed 50 Retrain, shuffled: macro-F1 83.58, labels 944, changed 13.20%, broken 5.75% (1s)
+  landsat seed 50 kNN, training rows: macro-F1 87.36, labels 0, changed 15.99%, broken 5.43% (0s)
+  landsat seed 50 kNN, every label: macro-F1 87.18, labels 944, changed 15.99%, broken 5.59% (0s)
+  landsat seed 51 Retrain, shuffled: macro-F1 82.25, labels 944, changed 13.82%, broken 6.21% (1s)
+  landsat seed 51 kNN, training rows: macro-F1 88.15, labels 0, changed 11.80%, broken 2.95% (0s)
+  landsat seed 51 kNN, every label: macro-F1 89.50, labels 944, changed 12.58%, broken 2.64% (0s)
+  landsat seed 50 RF, training rows: macro-F1 87.60, labels 0, changed 14.13%, broken 4.19% (1s)
+  landsat seed 51 RF, training rows: macro-F1 88.22, labels 0, changed 12.11%, broken 3.11% (1s)
+  landsat seed 50 RF, every label: macro-F1 89.41, labels 944, changed 13.82%, broken 3.42% (2s)
+landsat seed 50 done in 432s
+  landsat seed 51 RF, every label: macro-F1 89.64, labels 944, changed 11.96%, broken 2.48% (2s)
+landsat seed 51 done in 426s
+  landsat seed 54 B0: macro-F1 82.11, labels 0, changed 0.00%, broken 0.00% (0s)
+  landsat seed 55 B0: macro-F1 82.78, labels 0, changed 0.00%, broken 0.00% (0s)
+  landsat seed 54 B9: macro-F1 83.89, labels 1287, changed 4.81%, broken 1.55% (1s)
+  landsat seed 55 B9: macro-F1 82.97, labels 1287, changed 3.11%, broken 1.24% (1s)
+  landsat seed 52 SR: macro-F1 84.55, labels 0, changed 8.39%, broken 1.86% (196s)
+  landsat seed 53 SR: macro-F1 83.95, labels 0, changed 6.52%, broken 2.17% (137s)
+  landsat seed 55 AL: macro-F1 84.74, labels 944, changed 5.43%, broken 1.86% (135s)
+  landsat seed 54 AL: macro-F1 82.85, labels 944, changed 4.35%, broken 1.86% (137s)
+  landsat seed 52 SR+AL: macro-F1 85.04, labels 944, changed 9.16%, broken 2.02% (143s)
+  landsat seed 52 Retrain, appended: macro-F1 80.08, labels 944, changed 4.66%, broken 1.86% (1s)
+  landsat seed 52 Retrain, shuffled: macro-F1 84.85, labels 944, changed 17.70%, broken 6.21% (1s)
+  landsat seed 52 kNN, training rows: macro-F1 87.77, labels 0, changed 17.55%, broken 4.97% (0s)
+  landsat seed 52 kNN, every label: macro-F1 89.25, labels 944, changed 16.93%, broken 4.04% (0s)
+  landsat seed 52 RF, training rows: macro-F1 88.56, labels 0, changed 16.61%, broken 4.04% (1s)
+  landsat seed 52 RF, every label: macro-F1 88.21, labels 944, changed 16.30%, broken 3.88% (2s)
+landsat seed 52 done in 478s
+  landsat seed 56 B0: macro-F1 85.01, labels 0, changed 0.00%, broken 0.00% (0s)
+  landsat seed 56 B9: macro-F1 84.82, labels 1287, changed 2.95%, broken 1.55% (1s)
+  landsat seed 53 SR+AL: macro-F1 86.32, labels 944, changed 8.85%, broken 2.17% (121s)
+  landsat seed 53 Retrain, appended: macro-F1 82.71, labels 944, changed 4.97%, broken 1.55% (1s)
+  landsat seed 53 Retrain, shuffled: macro-F1 82.59, labels 944, changed 14.91%, broken 6.52% (1s)
+  landsat seed 53 kNN, training rows: macro-F1 86.66, labels 0, changed 14.29%, broken 4.97% (0s)
+  landsat seed 53 kNN, every label: macro-F1 86.66, labels 944, changed 14.29%, broken 4.66% (0s)
+  landsat seed 53 RF, training rows: macro-F1 88.79, labels 0, changed 11.49%, broken 2.64% (2s)
+  landsat seed 53 RF, every label: macro-F1 89.68, labels 944, changed 11.65%, broken 2.33% (2s)
+landsat seed 53 done in 441s
+  landsat seed 57 B0: macro-F1 81.38, labels 0, changed 0.00%, broken 0.00% (0s)
+  landsat seed 57 B9: macro-F1 80.91, labels 1287, changed 3.57%, broken 2.02% (1s)
+  landsat seed 55 SR: macro-F1 82.14, labels 0, changed 8.07%, broken 4.04% (132s)
+  landsat seed 54 SR: macro-F1 82.59, labels 0, changed 5.90%, broken 2.17% (134s)
+  landsat seed 56 AL: macro-F1 85.74, labels 944, changed 3.42%, broken 1.40% (111s)
+  landsat seed 57 AL: macro-F1 81.76, labels 944, changed 3.11%, broken 1.40% (103s)
+  landsat seed 55 SR+AL: macro-F1 83.56, labels 944, changed 7.61%, broken 3.26% (98s)
+  landsat seed 55 Retrain, appended: macro-F1 83.84, labels 944, changed 5.28%, broken 2.02% (1s)
+  landsat seed 55 Retrain, shuffled: macro-F1 82.82, labels 944, changed 14.44%, broken 6.83% (1s)
+  landsat seed 55 kNN, training rows: macro-F1 87.39, labels 0, changed 14.75%, broken 4.81% (0s)
+  landsat seed 55 kNN, every label: macro-F1 88.60, labels 944, changed 14.29%, broken 4.19% (0s)
+  landsat seed 54 SR+AL: macro-F1 83.76, labels 944, changed 6.83%, broken 2.48% (99s)
+  landsat seed 55 RF, training rows: macro-F1 88.64, labels 0, changed 13.66%, broken 3.73% (2s)
+  landsat seed 54 Retrain, appended: macro-F1 82.94, labels 944, changed 4.04%, broken 1.55% (1s)
+  landsat seed 55 RF, every label: macro-F1 90.00, labels 944, changed 13.20%, broken 3.11% (2s)
+landsat seed 55 done in 380s
+  landsat seed 54 Retrain, shuffled: macro-F1 82.06, labels 944, changed 16.77%, broken 8.07% (1s)
+  landsat seed 54 kNN, training rows: macro-F1 88.20, labels 0, changed 14.60%, broken 4.04% (0s)
+  landsat seed 54 kNN, every label: macro-F1 88.86, labels 944, changed 14.60%, broken 3.88% (0s)
+  landsat seed 54 RF, training rows: macro-F1 89.42, labels 0, changed 11.96%, broken 2.17% (1s)
+  landsat seed 58 B0: macro-F1 80.89, labels 0, changed 0.00%, broken 0.00% (0s)
+  landsat seed 58 B9: macro-F1 81.22, labels 1287, changed 3.42%, broken 1.40% (0s)
+  landsat seed 54 RF, every label: macro-F1 90.33, labels 944, changed 12.42%, broken 2.17% (2s)
+landsat seed 54 done in 385s
+  landsat seed 59 B0: macro-F1 80.64, labels 0, changed 0.00%, broken 0.00% (0s)
+  landsat seed 59 B9: macro-F1 79.68, labels 1287, changed 4.81%, broken 2.64% (1s)
+  landsat seed 56 SR: macro-F1 84.09, labels 0, changed 4.81%, broken 2.64% (146s)
+  landsat seed 59 AL: macro-F1 83.60, labels 944, changed 5.43%, broken 1.40% (120s)
+  landsat seed 58 AL: macro-F1 83.07, labels 944, changed 4.50%, broken 1.24% (126s)
+  landsat seed 57 SR: macro-F1 81.09, labels 0, changed 4.81%, broken 2.64% (152s)
+  landsat seed 56 SR+AL: macro-F1 86.70, labels 944, changed 5.59%, broken 2.02% (105s)
+  landsat seed 56 Retrain, appended: macro-F1 86.30, labels 944, changed 4.81%, broken 1.86% (1s)
+  landsat seed 56 Retrain, shuffled: macro-F1 85.24, labels 944, changed 11.34%, broken 5.12% (0s)
+  landsat seed 56 kNN, training rows: macro-F1 88.37, labels 0, changed 10.09%, broken 3.57% (0s)
+  landsat seed 56 kNN, every label: macro-F1 90.28, labels 944, changed 11.18%, broken 3.26% (0s)
+  landsat seed 56 RF, training rows: macro-F1 90.55, labels 0, changed 9.47%, broken 1.86% (2s)
+  landsat seed 56 RF, every label: macro-F1 91.34, labels 944, changed 8.85%, broken 1.40% (2s)
+landsat seed 56 done in 374s
+  thyroid seed 50 B0: macro-F1 83.96, labels 0, changed 0.00%, broken 0.00% (0s)
+  thyroid seed 50 B9: macro-F1 86.68, labels 1440, changed 0.28%, broken 0.00% (1s)
+  thyroid seed 50 AL: macro-F1 92.78, labels 1020, changed 1.53%, broken 0.00% (41s)
+  thyroid seed 50 SR: macro-F1 90.31, labels 0, changed 1.53%, broken 0.14% (4s)
+  landsat seed 57 SR+AL: macro-F1 80.99, labels 944, changed 4.19%, broken 1.86% (108s)
+  landsat seed 57 Retrain, appended: macro-F1 82.17, labels 944, changed 4.35%, broken 1.71% (1s)
+  landsat seed 57 Retrain, shuffled: macro-F1 80.05, labels 944, changed 11.34%, broken 5.43% (0s)
+  landsat seed 57 kNN, training rows: macro-F1 85.11, labels 0, changed 11.80%, broken 3.73% (0s)
+  landsat seed 57 kNN, every label: macro-F1 84.60, labels 944, changed 11.96%, broken 4.19% (0s)
+  landsat seed 57 RF, training rows: macro-F1 87.68, labels 0, changed 10.09%, broken 2.02% (2s)
+  landsat seed 57 RF, every label: macro-F1 87.28, labels 944, changed 9.32%, broken 1.55% (2s)
+landsat seed 57 done in 375s
+  thyroid seed 51 B0: macro-F1 91.10, labels 0, changed 0.00%, broken 0.00% (0s)
+  thyroid seed 51 B9: macro-F1 90.10, labels 1440, changed 0.28%, broken 0.28% (1s)
+  landsat seed 58 SR: macro-F1 84.50, labels 0, changed 7.76%, broken 2.33% (128s)
+  thyroid seed 50 SR+AL: macro-F1 92.78, labels 1020, changed 1.53%, broken 0.00% (37s)
+  thyroid seed 50 Retrain, appended: macro-F1 88.44, labels 1020, changed 0.83%, broken 0.14% (0s)
+  thyroid seed 50 Retrain, shuffled: macro-F1 80.79, labels 1020, changed 2.22%, broken 1.25% (1s)
+  thyroid seed 50 kNN, training rows: macro-F1 55.81, labels 0, changed 4.58%, broken 3.89% (0s)
+  thyroid seed 50 kNN, every label: macro-F1 62.16, labels 1020, changed 4.31%, broken 3.47% (0s)
+  thyroid seed 50 RF, training rows: macro-F1 98.19, labels 0, changed 2.92%, broken 0.28% (1s)
+  thyroid seed 50 RF, every label: macro-F1 98.63, labels 1020, changed 2.78%, broken 0.14% (1s)
+thyroid seed 50 done in 87s
+  thyroid seed 52 B0: macro-F1 76.37, labels 0, changed 0.00%, broken 0.00% (0s)
+  thyroid seed 52 B9: macro-F1 76.47, labels 1440, changed 0.42%, broken 0.14% (1s)
+  landsat seed 59 SR: macro-F1 83.02, labels 0, changed 6.37%, broken 2.02% (142s)
+  thyroid seed 51 AL: macro-F1 90.66, labels 1020, changed 0.42%, broken 0.28% (39s)
+  thyroid seed 51 SR: macro-F1 91.01, labels 0, changed 0.83%, broken 0.42% (3s)
+  thyroid seed 52 AL: macro-F1 89.13, labels 1020, changed 2.64%, broken 0.14% (38s)
+  thyroid seed 52 SR: macro-F1 87.23, labels 0, changed 1.94%, broken 0.00% (4s)
+  thyroid seed 51 SR+AL: macro-F1 90.10, labels 1020, changed 0.56%, broken 0.42% (34s)
+  thyroid seed 51 Retrain, appended: macro-F1 92.40, labels 1020, changed 0.83%, broken 0.42% (0s)
+  thyroid seed 51 Retrain, shuffled: macro-F1 86.88, labels 1020, changed 2.78%, broken 1.94% (0s)
+  thyroid seed 51 kNN, training rows: macro-F1 52.14, labels 0, changed 6.25%, broken 5.42% (0s)
+  thyroid seed 51 kNN, every label: macro-F1 56.16, labels 1020, changed 6.11%, broken 5.28% (0s)
+  thyroid seed 51 RF, training rows: macro-F1 96.92, labels 0, changed 1.25%, broken 0.00% (0s)
+  thyroid seed 51 RF, every label: macro-F1 97.40, labels 1020, changed 1.39%, broken 0.00% (1s)
+thyroid seed 51 done in 80s
+  thyroid seed 53 B0: macro-F1 91.57, labels 0, changed 0.00%, broken 0.00% (0s)
+  thyroid seed 53 B9: macro-F1 88.47, labels 1440, changed 1.11%, broken 0.97% (0s)
+  thyroid seed 52 SR+AL: macro-F1 87.66, labels 1020, changed 2.08%, broken 0.00% (33s)
+  thyroid seed 52 Retrain, appended: macro-F1 76.70, labels 1020, changed 0.83%, broken 0.28% (0s)
+  thyroid seed 52 Retrain, shuffled: macro-F1 85.22, labels 1020, changed 3.33%, broken 0.83% (0s)
+  thyroid seed 52 kNN, training rows: macro-F1 55.66, labels 0, changed 3.61%, broken 2.64% (0s)
+  thyroid seed 52 kNN, every label: macro-F1 61.88, labels 1020, changed 2.92%, broken 2.08% (0s)
+  thyroid seed 52 RF, training rows: macro-F1 97.99, labels 0, changed 4.03%, broken 0.00% (0s)
+  thyroid seed 52 RF, every label: macro-F1 99.52, labels 1020, changed 4.31%, broken 0.00% (1s)
+thyroid seed 52 done in 80s
+  thyroid seed 54 B0: macro-F1 84.11, labels 0, changed 0.00%, broken 0.00% (0s)
+  thyroid seed 54 B9: macro-F1 83.93, labels 1440, changed 0.83%, broken 0.28% (1s)
+  landsat seed 58 SR+AL: macro-F1 85.01, labels 944, changed 9.32%, broken 2.80% (92s)
+  landsat seed 58 Retrain, appended: macro-F1 81.15, labels 944, changed 2.80%, broken 1.09% (1s)
+  landsat seed 58 Retrain, shuffled: macro-F1 81.77, labels 944, changed 13.66%, broken 5.75% (0s)
+  landsat seed 58 kNN, training rows: macro-F1 85.52, labels 0, changed 15.06%, broken 5.12% (0s)
+  landsat seed 58 kNN, every label: macro-F1 86.70, labels 944, changed 15.22%, broken 4.81% (0s)
+  landsat seed 58 RF, training rows: macro-F1 88.16, labels 0, changed 14.13%, broken 3.42% (1s)
+  landsat seed 59 SR+AL: macro-F1 83.00, labels 944, changed 6.83%, broken 2.17% (85s)
+  landsat seed 58 RF, every label: macro-F1 89.85, labels 944, changed 13.98%, broken 2.80% (2s)
+landsat seed 58 done in 357s
+  landsat seed 59 Retrain, appended: macro-F1 81.03, labels 944, changed 5.43%, broken 2.17% (0s)
+  thyroid seed 55 B0: macro-F1 79.02, labels 0, changed 0.00%, broken 0.00% (0s)
+  thyroid seed 55 B9: macro-F1 79.02, labels 1440, changed 0.00%, broken 0.00% (0s)
+  landsat seed 59 Retrain, shuffled: macro-F1 83.38, labels 944, changed 12.89%, broken 4.97% (1s)
+  landsat seed 59 kNN, training rows: macro-F1 87.55, labels 0, changed 13.98%, broken 3.57% (0s)
+  landsat seed 59 kNN, every label: macro-F1 87.47, labels 944, changed 14.75%, broken 3.73% (0s)
+  landsat seed 59 RF, training rows: macro-F1 89.85, labels 0, changed 13.04%, broken 2.17% (1s)
+  landsat seed 59 RF, every label: macro-F1 89.84, labels 944, changed 13.20%, broken 2.02% (1s)
+landsat seed 59 done in 357s
+  thyroid seed 56 B0: macro-F1 91.64, labels 0, changed 0.00%, broken 0.00% (0s)
+  thyroid seed 56 B9: macro-F1 92.89, labels 1440, changed 0.56%, broken 0.14% (0s)
+  thyroid seed 53 AL: macro-F1 91.57, labels 1020, changed 0.00%, broken 0.00% (31s)
+  thyroid seed 53 SR: macro-F1 92.60, labels 0, changed 0.28%, broken 0.00% (2s)
+  thyroid seed 54 AL: macro-F1 90.27, labels 1020, changed 1.53%, broken 0.00% (34s)
+  thyroid seed 54 SR: macro-F1 87.46, labels 0, changed 0.69%, broken 0.00% (4s)
+  thyroid seed 55 AL: macro-F1 89.13, labels 1020, changed 2.36%, broken 0.28% (32s)
+  thyroid seed 55 SR: macro-F1 91.77, labels 0, changed 2.64%, broken 0.28% (3s)
+  thyroid seed 56 AL: macro-F1 94.78, labels 1020, changed 0.83%, broken 0.14% (33s)
+  thyroid seed 56 SR: macro-F1 96.55, labels 0, changed 1.81%, broken 0.42% (4s)
+  thyroid seed 53 SR+AL: macro-F1 92.60, labels 1020, changed 0.28%, broken 0.00% (34s)
+  thyroid seed 53 Retrain, appended: macro-F1 86.63, labels 1020, changed 1.39%, broken 1.25% (0s)
+  thyroid seed 53 Retrain, shuffled: macro-F1 91.32, labels 1020, changed 1.53%, broken 0.97% (0s)
+  thyroid seed 53 kNN, training rows: macro-F1 55.56, labels 0, changed 6.25%, broken 5.69% (0s)
+  thyroid seed 53 kNN, every label: macro-F1 57.42, labels 1020, changed 6.25%, broken 5.69% (0s)
+  thyroid seed 53 RF, training rows: macro-F1 97.40, labels 0, changed 1.11%, broken 0.00% (0s)
+  thyroid seed 53 RF, every label: macro-F1 96.46, labels 1020, changed 1.11%, broken 0.14% (1s)
+thyroid seed 53 done in 71s
+  thyroid seed 57 B0: macro-F1 69.71, labels 0, changed 0.00%, broken 0.00% (0s)
+  thyroid seed 57 B9: macro-F1 70.53, labels 1440, changed 0.83%, broken 0.28% (1s)
+  thyroid seed 54 SR+AL: macro-F1 89.68, labels 1020, changed 1.39%, broken 0.00% (39s)
+  thyroid seed 54 Retrain, appended: macro-F1 82.97, labels 1020, changed 1.25%, broken 0.56% (0s)
+  thyroid seed 54 Retrain, shuffled: macro-F1 91.00, labels 1020, changed 2.50%, broken 0.56% (0s)
+  thyroid seed 54 kNN, training rows: macro-F1 52.16, labels 0, changed 4.72%, broken 3.75% (0s)
+  thyroid seed 54 kNN, every label: macro-F1 53.73, labels 1020, changed 4.72%, broken 3.61% (0s)
+  thyroid seed 54 RF, training rows: macro-F1 99.52, labels 0, changed 3.47%, broken 0.00% (1s)
+  thyroid seed 54 RF, every label: macro-F1 99.53, labels 1020, changed 3.47%, broken 0.00% (1s)
+thyroid seed 54 done in 81s
+  thyroid seed 58 B0: macro-F1 87.42, labels 0, changed 0.00%, broken 0.00% (0s)
+  thyroid seed 58 B9: macro-F1 89.71, labels 1440, changed 0.69%, broken 0.14% (0s)
+  thyroid seed 55 SR+AL: macro-F1 90.68, labels 1020, changed 2.50%, broken 0.14% (34s)
+  thyroid seed 55 Retrain, appended: macro-F1 77.83, labels 1020, changed 0.28%, broken 0.28% (0s)
+  thyroid seed 55 Retrain, shuffled: macro-F1 82.90, labels 1020, changed 2.92%, broken 1.11% (0s)
+  thyroid seed 55 kNN, training rows: macro-F1 56.90, labels 0, changed 3.89%, broken 2.92% (0s)
+  thyroid seed 55 kNN, every label: macro-F1 61.66, labels 1020, changed 3.75%, broken 2.64% (0s)
+  thyroid seed 55 RF, training rows: macro-F1 92.91, labels 0, changed 4.03%, broken 0.69% (0s)
+  thyroid seed 55 RF, every label: macro-F1 92.91, labels 1020, changed 4.03%, broken 0.69% (1s)
+thyroid seed 55 done in 73s
+  thyroid seed 59 B0: macro-F1 84.64, labels 0, changed 0.00%, broken 0.00% (0s)
+  thyroid seed 59 B9: macro-F1 83.35, labels 1440, changed 0.83%, broken 0.56% (1s)
+  thyroid seed 56 SR+AL: macro-F1 95.38, labels 1020, changed 1.94%, broken 0.56% (34s)
+  thyroid seed 56 Retrain, appended: macro-F1 90.30, labels 1020, changed 0.56%, broken 0.42% (0s)
+  thyroid seed 56 Retrain, shuffled: macro-F1 87.27, labels 1020, changed 1.53%, broken 1.11% (0s)
+  thyroid seed 56 kNN, training rows: macro-F1 52.16, labels 0, changed 4.58%, broken 4.58% (0s)
+  thyroid seed 56 kNN, every label: macro-F1 53.53, labels 1020, changed 4.72%, broken 4.72% (0s)
+  thyroid seed 56 RF, training rows: macro-F1 97.45, labels 0, changed 2.08%, broken 0.28% (1s)
+  thyroid seed 56 RF, every label: macro-F1 98.96, labels 1020, changed 1.94%, broken 0.14% (1s)
+thyroid seed 56 done in 75s
+  page_blocks seed 50 B0: macro-F1 66.92, labels 0, changed 0.00%, broken 0.00% (0s)
+  page_blocks seed 50 B9: macro-F1 63.50, labels 1094, changed 2.74%, broken 1.64% (0s)
+  thyroid seed 57 AL: macro-F1 83.49, labels 1020, changed 2.36%, broken 0.14% (36s)
+  thyroid seed 57 SR: macro-F1 83.38, labels 0, changed 2.92%, broken 0.42% (3s)
+  page_blocks seed 50 AL: macro-F1 64.77, labels 821, changed 3.83%, broken 2.37% (18s)
+  thyroid seed 58 AL: macro-F1 93.24, labels 1020, changed 1.53%, broken 0.14% (34s)
+  thyroid seed 58 SR: macro-F1 92.00, labels 0, changed 0.97%, broken 0.00% (4s)
+  page_blocks seed 50 SR: macro-F1 69.63, labels 0, changed 2.55%, broken 0.36% (8s)
+  thyroid seed 59 AL: macro-F1 88.29, labels 1020, changed 0.97%, broken 0.14% (34s)
+  thyroid seed 59 SR: macro-F1 87.46, labels 0, changed 0.97%, broken 0.28% (3s)
+  page_blocks seed 50 SR+AL: macro-F1 69.39, labels 821, changed 3.28%, broken 0.73% (19s)
+  page_blocks seed 50 Retrain, appended: macro-F1 66.13, labels 821, changed 1.28%, broken 1.09% (0s)
+  page_blocks seed 50 Retrain, shuffled: macro-F1 66.28, labels 821, changed 11.13%, broken 7.66% (0s)
+  page_blocks seed 50 kNN, training rows: macro-F1 58.65, labels 0, changed 8.76%, broken 2.55% (0s)
+  page_blocks seed 50 kNN, every label: macro-F1 59.51, labels 821, changed 8.21%, broken 2.37% (0s)
+  thyroid seed 57 SR+AL: macro-F1 82.75, labels 1020, changed 3.06%, broken 0.56% (36s)
+  page_blocks seed 50 RF, training rows: macro-F1 83.42, labels 0, changed 8.39%, broken 1.46% (1s)
+  thyroid seed 57 Retrain, appended: macro-F1 71.05, labels 1020, changed 0.56%, broken 0.14% (0s)
+  thyroid seed 57 Retrain, shuffled: macro-F1 77.88, labels 1020, changed 3.06%, broken 0.83% (0s)
+  thyroid seed 57 kNN, training rows: macro-F1 54.23, labels 0, changed 2.92%, broken 1.94% (0s)
+  thyroid seed 57 kNN, every label: macro-F1 57.66, labels 1020, changed 3.06%, broken 1.94% (0s)
+  thyroid seed 57 RF, training rows: macro-F1 96.92, labels 0, changed 5.56%, broken 0.42% (1s)
+  page_blocks seed 50 RF, every label: macro-F1 84.61, labels 821, changed 8.21%, broken 1.28% (1s)
+page_blocks seed 50 done in 49s
+  page_blocks seed 51 B0: macro-F1 71.67, labels 0, changed 0.00%, broken 0.00% (0s)
+  thyroid seed 57 RF, every label: macro-F1 98.48, labels 1020, changed 5.28%, broken 0.14% (1s)
+thyroid seed 57 done in 81s
+  page_blocks seed 51 B9: macro-F1 59.66, labels 1094, changed 3.65%, broken 2.37% (0s)
+  page_blocks seed 52 B0: macro-F1 61.13, labels 0, changed 0.00%, broken 0.00% (0s)
+  page_blocks seed 52 B9: macro-F1 60.81, labels 1094, changed 1.28%, broken 0.73% (0s)
+  thyroid seed 58 SR+AL: macro-F1 93.69, labels 1020, changed 1.67%, broken 0.14% (35s)
+  thyroid seed 58 Retrain, appended: macro-F1 89.50, labels 1020, changed 0.69%, broken 0.14% (0s)
+  thyroid seed 58 Retrain, shuffled: macro-F1 88.78, labels 1020, changed 1.53%, broken 0.56% (0s)
+  thyroid seed 58 kNN, training rows: macro-F1 55.35, labels 0, changed 4.03%, broken 3.75% (0s)
+  thyroid seed 58 kNN, every label: macro-F1 62.16, labels 1020, changed 3.89%, broken 3.47% (0s)
+  thyroid seed 58 RF, training rows: macro-F1 97.40, labels 0, changed 2.78%, broken 0.28% (1s)
+  thyroid seed 58 RF, every label: macro-F1 96.94, labels 1020, changed 2.92%, broken 0.42% (1s)
+thyroid seed 58 done in 77s
+  page_blocks seed 53 B0: macro-F1 65.87, labels 0, changed 0.00%, broken 0.00% (0s)
+  page_blocks seed 53 B9: macro-F1 65.28, labels 1094, changed 8.03%, broken 2.74% (0s)
+  page_blocks seed 51 AL: macro-F1 75.77, labels 821, changed 2.01%, broken 0.73% (17s)
+  thyroid seed 59 SR+AL: macro-F1 90.14, labels 1020, changed 1.25%, broken 0.14% (34s)
+  thyroid seed 59 Retrain, appended: macro-F1 87.70, labels 1020, changed 1.11%, broken 0.28% (0s)
+  page_blocks seed 52 AL: macro-F1 69.00, labels 821, changed 9.12%, broken 1.28% (17s)
+  thyroid seed 59 Retrain, shuffled: macro-F1 85.31, labels 1020, changed 2.22%, broken 1.11% (0s)
+  thyroid seed 59 kNN, training rows: macro-F1 58.79, labels 0, changed 4.72%, broken 4.03% (0s)
+  thyroid seed 59 kNN, every label: macro-F1 57.27, labels 1020, changed 5.00%, broken 4.44% (0s)
+  thyroid seed 59 RF, training rows: macro-F1 94.53, labels 0, changed 2.36%, broken 0.14% (1s)
+  thyroid seed 59 RF, every label: macro-F1 97.87, labels 1020, changed 2.64%, broken 0.14% (1s)
+thyroid seed 59 done in 76s
+  page_blocks seed 54 B0: macro-F1 74.47, labels 0, changed 0.00%, broken 0.00% (0s)
+  page_blocks seed 54 B9: macro-F1 72.86, labels 1094, changed 4.74%, broken 3.28% (0s)
+  page_blocks seed 52 SR: macro-F1 67.23, labels 0, changed 8.58%, broken 1.82% (7s)
+  page_blocks seed 51 SR: macro-F1 73.48, labels 0, changed 1.09%, broken 0.18% (10s)
+  page_blocks seed 53 AL: macro-F1 71.14, labels 821, changed 10.22%, broken 0.91% (18s)
+  page_blocks seed 54 AL: macro-F1 79.32, labels 821, changed 4.20%, broken 0.00% (17s)
+  page_blocks seed 53 SR: macro-F1 68.80, labels 0, changed 9.31%, broken 1.64% (8s)
+  page_blocks seed 52 SR+AL: macro-F1 68.77, labels 821, changed 9.31%, broken 1.28% (17s)
+  page_blocks seed 52 Retrain, appended: macro-F1 59.33, labels 821, changed 1.46%, broken 1.28% (0s)
+  page_blocks seed 52 Retrain, shuffled: macro-F1 66.98, labels 821, changed 5.11%, broken 1.46% (0s)
+  page_blocks seed 52 kNN, training rows: macro-F1 76.05, labels 0, changed 11.86%, broken 1.46% (0s)
+  page_blocks seed 52 kNN, every label: macro-F1 76.72, labels 821, changed 12.04%, broken 1.46% (0s)
+  page_blocks seed 51 SR+AL: macro-F1 70.63, labels 821, changed 2.01%, broken 0.73% (17s)
+  page_blocks seed 52 RF, training rows: macro-F1 73.60, labels 0, changed 12.04%, broken 1.46% (1s)
+  page_blocks seed 51 Retrain, appended: macro-F1 69.40, labels 821, changed 3.47%, broken 2.55% (0s)
+  page_blocks seed 51 Retrain, shuffled: macro-F1 67.91, labels 821, changed 6.02%, broken 3.47% (0s)
+  page_blocks seed 51 kNN, training rows: macro-F1 52.01, labels 0, changed 9.67%, broken 4.01% (0s)
+  page_blocks seed 51 kNN, every label: macro-F1 66.08, labels 821, changed 9.49%, broken 3.65% (0s)
+  page_blocks seed 52 RF, every label: macro-F1 79.06, labels 821, changed 12.04%, broken 1.28% (1s)
+page_blocks seed 52 done in 46s
+  page_blocks seed 54 SR: macro-F1 74.00, labels 0, changed 2.19%, broken 1.09% (8s)
+  page_blocks seed 51 RF, training rows: macro-F1 81.93, labels 0, changed 8.76%, broken 2.19% (1s)
+  page_blocks seed 55 B0: macro-F1 73.86, labels 0, changed 0.00%, broken 0.00% (0s)
+  page_blocks seed 55 B9: macro-F1 73.40, labels 1094, changed 2.55%, broken 2.01% (0s)
+  page_blocks seed 51 RF, every label: macro-F1 82.75, labels 821, changed 7.85%, broken 1.46% (1s)
+page_blocks seed 51 done in 48s
+  page_blocks seed 56 B0: macro-F1 75.60, labels 0, changed 0.00%, broken 0.00% (0s)
+  page_blocks seed 56 B9: macro-F1 74.90, labels 1094, changed 1.82%, broken 0.91% (0s)
+  page_blocks seed 53 SR+AL: macro-F1 73.04, labels 821, changed 11.13%, broken 1.46% (18s)
+  page_blocks seed 53 Retrain, appended: macro-F1 63.01, labels 821, changed 5.84%, broken 1.82% (0s)
+  page_blocks seed 53 Retrain, shuffled: macro-F1 66.03, labels 821, changed 14.23%, broken 4.93% (0s)
+  page_blocks seed 53 kNN, training rows: macro-F1 56.21, labels 0, changed 18.07%, broken 3.10% (0s)
+  page_blocks seed 53 kNN, every label: macro-F1 76.60, labels 821, changed 17.52%, broken 2.37% (0s)
+  page_blocks seed 53 RF, training rows: macro-F1 76.84, labels 0, changed 16.61%, broken 1.82% (1s)
+  page_blocks seed 53 RF, every label: macro-F1 76.84, labels 821, changed 16.42%, broken 1.64% (1s)
+page_blocks seed 53 done in 48s
+  page_blocks seed 57 B0: macro-F1 63.29, labels 0, changed 0.00%, broken 0.00% (0s)
+  page_blocks seed 57 B9: macro-F1 61.94, labels 1094, changed 5.11%, broken 4.20% (0s)
+  page_blocks seed 54 SR+AL: macro-F1 79.12, labels 821, changed 5.66%, broken 0.36% (18s)
+  page_blocks seed 54 Retrain, appended: macro-F1 69.74, labels 821, changed 5.11%, broken 3.47% (0s)
+  page_blocks seed 55 AL: macro-F1 85.44, labels 821, changed 8.21%, broken 0.18% (18s)
+  page_blocks seed 54 Retrain, shuffled: macro-F1 69.47, labels 821, changed 9.67%, broken 5.11% (0s)
+  page_blocks seed 54 kNN, training rows: macro-F1 62.28, labels 0, changed 8.58%, broken 2.01% (0s)
+  page_blocks seed 54 kNN, every label: macro-F1 58.60, labels 821, changed 9.67%, broken 2.55% (0s)
+  page_blocks seed 54 RF, training rows: macro-F1 88.92, labels 0, changed 8.39%, broken 0.18% (1s)
+  page_blocks seed 56 AL: macro-F1 68.58, labels 821, changed 2.55%, broken 1.28% (18s)
+  page_blocks seed 54 RF, every label: macro-F1 80.63, labels 821, changed 8.76%, broken 0.55% (1s)
+page_blocks seed 54 done in 46s
+  page_blocks seed 58 B0: macro-F1 69.03, labels 0, changed 0.00%, broken 0.00% (0s)
+  page_blocks seed 58 B9: macro-F1 68.68, labels 1094, changed 5.29%, broken 3.83% (0s)
+  page_blocks seed 55 SR: macro-F1 81.17, labels 0, changed 7.85%, broken 0.55% (6s)
+  page_blocks seed 56 SR: macro-F1 77.31, labels 0, changed 2.19%, broken 0.36% (6s)
+  page_blocks seed 57 AL: macro-F1 77.59, labels 821, changed 15.88%, broken 0.18% (16s)
+  page_blocks seed 58 AL: macro-F1 68.63, labels 821, changed 1.64%, broken 0.73% (17s)
+  page_blocks seed 55 SR+AL: macro-F1 82.09, labels 821, changed 7.85%, broken 0.36% (16s)
+  page_blocks seed 55 Retrain, appended: macro-F1 67.81, labels 821, changed 4.74%, broken 4.20% (0s)
+  page_blocks seed 55 Retrain, shuffled: macro-F1 70.42, labels 821, changed 18.61%, broken 10.22% (0s)
+  page_blocks seed 55 kNN, training rows: macro-F1 66.81, labels 0, changed 11.50%, broken 2.74% (0s)
+  page_blocks seed 55 kNN, every label: macro-F1 72.92, labels 821, changed 10.95%, broken 2.19% (0s)
+  page_blocks seed 57 SR: macro-F1 63.11, labels 0, changed 0.18%, broken 0.18% (10s)
+  page_blocks seed 55 RF, training rows: macro-F1 79.96, labels 0, changed 10.58%, broken 0.91% (1s)
+  page_blocks seed 56 SR+AL: macro-F1 71.26, labels 821, changed 3.28%, broken 0.73% (17s)
+  page_blocks seed 56 Retrain, appended: macro-F1 75.26, labels 821, changed 2.01%, broken 0.91% (0s)
+  page_blocks seed 58 SR: macro-F1 70.23, labels 0, changed 1.82%, broken 0.55% (5s)
+  page_blocks seed 56 Retrain, shuffled: macro-F1 69.08, labels 821, changed 7.48%, broken 5.11% (0s)
+  page_blocks seed 56 kNN, training rows: macro-F1 72.79, labels 0, changed 7.66%, broken 2.01% (0s)
+  page_blocks seed 56 kNN, every label: macro-F1 75.22, labels 821, changed 7.85%, broken 1.82% (0s)
+  page_blocks seed 55 RF, every label: macro-F1 84.55, labels 821, changed 11.13%, broken 1.09% (1s)
+page_blocks seed 55 done in 44s
+  page_blocks seed 59 B0: macro-F1 53.71, labels 0, changed 0.00%, broken 0.00% (0s)
+  page_blocks seed 56 RF, training rows: macro-F1 77.21, labels 0, changed 6.93%, broken 0.91% (1s)
+  page_blocks seed 59 B9: macro-F1 49.56, labels 1094, changed 4.56%, broken 3.28% (0s)
+  page_blocks seed 56 RF, every label: macro-F1 82.46, labels 821, changed 7.48%, broken 0.91% (1s)
+page_blocks seed 56 done in 44s
+  page_blocks seed 57 SR+AL: macro-F1 75.88, labels 821, changed 16.24%, broken 0.55% (14s)
+  page_blocks seed 57 Retrain, appended: macro-F1 54.98, labels 821, changed 21.53%, broken 11.13% (0s)
+  page_blocks seed 57 Retrain, shuffled: macro-F1 54.90, labels 821, changed 33.76%, broken 17.52% (0s)
+  page_blocks seed 57 kNN, training rows: macro-F1 57.89, labels 0, changed 23.72%, broken 3.28% (0s)
+  page_blocks seed 57 kNN, every label: macro-F1 58.25, labels 821, changed 23.54%, broken 3.47% (0s)
+  page_blocks seed 57 RF, training rows: macro-F1 87.71, labels 0, changed 20.80%, broken 1.09% (1s)
+  page_blocks seed 58 SR+AL: macro-F1 71.15, labels 821, changed 4.01%, broken 1.64% (14s)
+  page_blocks seed 58 Retrain, appended: macro-F1 70.65, labels 821, changed 5.29%, broken 3.47% (0s)
+  page_blocks seed 58 Retrain, shuffled: macro-F1 59.37, labels 821, changed 10.04%, broken 7.12% (0s)
+  page_blocks seed 58 kNN, training rows: macro-F1 71.47, labels 0, changed 7.48%, broken 2.01% (0s)
+  page_blocks seed 58 kNN, every label: macro-F1 74.16, labels 821, changed 8.03%, broken 2.01% (0s)
+  page_blocks seed 59 AL: macro-F1 64.14, labels 821, changed 5.84%, broken 0.55% (13s)
+  page_blocks seed 57 RF, every label: macro-F1 90.46, labels 821, changed 20.62%, broken 0.73% (1s)
+page_blocks seed 57 done in 42s
+  page_blocks seed 58 RF, training rows: macro-F1 73.21, labels 0, changed 7.12%, broken 1.09% (1s)
+  page_blocks seed 58 RF, every label: macro-F1 79.60, labels 821, changed 7.30%, broken 1.09% (1s)
+page_blocks seed 58 done in 39s
+  page_blocks seed 59 SR: macro-F1 56.39, labels 0, changed 3.47%, broken 0.55% (5s)
+  page_blocks seed 59 SR+AL: macro-F1 62.83, labels 821, changed 5.11%, broken 0.36% (10s)
+  page_blocks seed 59 Retrain, appended: macro-F1 53.31, labels 821, changed 4.74%, broken 2.37% (0s)
+  page_blocks seed 59 Retrain, shuffled: macro-F1 51.31, labels 821, changed 10.22%, broken 5.47% (0s)
+  page_blocks seed 59 kNN, training rows: macro-F1 63.37, labels 0, changed 8.76%, broken 1.82% (0s)
+  page_blocks seed 59 kNN, every label: macro-F1 63.60, labels 821, changed 9.12%, broken 2.01% (0s)
+  page_blocks seed 59 RF, training rows: macro-F1 81.26, labels 0, changed 8.03%, broken 1.09% (1s)
+  page_blocks seed 59 RF, every label: macro-F1 82.71, labels 821, changed 8.39%, broken 0.91% (1s)
+page_blocks seed 59 done in 30s
+# Refinement v2: confirmatory run
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). Seeds 50–59 (10 seeds), 6 datasets. Paired Wilcoxon over seeds, Holm across the datasets of each endpoint; `*` = Holm-adjusted p < 0.05. Two-sided, except the non-inferiority endpoints (S3b, S3c, S3d), which are one-sided tests of first − second > −margin (macro-F1 margin 1 point, lowest class recall margin 2 points). Written by `scripts/run_refinement_v2.py`.
+
+## Endpoints
+
+Mean difference (first arm − second arm) over seeds:
+
+| Endpoint | Question | Value | First − second | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|---|---|---|
+| P3 | Do bought labels add anything after self-repair? | test_macro_f1 | SR+AL − SR | +0.57 | +1.08* | +2.28 | +2.03* | +0.73* | +0.55 |
+| S3a | Does self-repair (no new labels) help? | test_macro_f1 | SR − B0 | +6.02* | +1.48* | +2.58* | +3.27* | +2.25* | +5.66* |
+| S3b | Is self-repair no worse than bought labels alone, within the margin? | test_macro_f1 | SR − AL | -0.36 | -0.47 | -2.30 | -1.80 | +0.33* | -0.47 |
+| S3c | Is SR+AL's lowest class recall no worse than B0's, within the margin? | test_min_class_recall | SR+AL − B0 | +20.48* | +9.14* | -1.26 | -1.22 | +3.76* | +17.87* |
+| S3d | Is SR's lowest class recall no worse than B0's, within the margin? | test_min_class_recall | SR − B0 | +19.37* | +6.41* | +0.08 | -2.73 | +2.93* | +16.65* |
+| P4 | Of the predictions an update changes, are more of them fixes with repair than with retraining? | churn_fix_share | SR+AL − Retrain, shuffled | +33.46* | +11.86* | +39.38* | +17.61* | +15.32* | +53.60* |
+| S4a | Does repair break fewer correct predictions than retraining? | churn_broken_share | Retrain, shuffled − SR+AL | +0.83* | +3.73* | +5.99* | +8.75* | +7.43* | +3.60* |
+| S4b | Does repair change fewer explanations (PACE-flip top 3) than retraining? | expl_topk_change_share | Retrain, shuffled − SR+AL | +0.35* | +0.48* | +0.32* | +0.17* | +0.45* | – |
+| S4c | Is repair more accurate than retraining with the same labels? | test_macro_f1 | SR+AL − Retrain, shuffled | +4.81* | +1.68* | +8.24* | +6.78* | +2.63* | +8.13* |
+
+Wins–losses over seeds (n = seeds tested), raw p and Holm-adjusted p:
+
+| Endpoint | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| P3 | 5–4 (n=10), p=0.359, Holm 0.387 | 8–2 (n=10), p=0.00977, Holm 0.0488 | 7–3 (n=10), p=0.193, Holm 0.387 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 9–1 (n=10), p=0.00977, Holm 0.0488 | 7–3 (n=10), p=0.0645, Holm 0.193 |
+| S3a | 9–1 (n=10), p=0.00391, Holm 0.0117 | 7–3 (n=10), p=0.0488, Holm 0.0488 | 8–2 (n=10), p=0.00977, Holm 0.0195 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 |
+| S3b | 4–6 (n=10), p=0.216, Holm 0.647 | 4–6 (n=10), p=0.138, Holm 0.551 | 3–7 (n=10), p=0.784, Holm 1 | 0–10 (n=10), p=0.986, Holm 1 | 6–4 (n=10), p=0.000977, Holm 0.00586 | 4–6 (n=10), p=0.0244, Holm 0.122 |
+| S3c | 8–1 (n=10), p=0.00195, Holm 0.00977 | 9–1 (n=10), p=0.00195, Holm 0.00977 | 1–2 (n=10), p=0.0605, Holm 0.121 | 5–5 (n=10), p=0.216, Holm 0.216 | 8–2 (n=10), p=0.00293, Holm 0.00977 | 10–0 (n=10), p=0.000977, Holm 0.00586 |
+| S3d | 9–0 (n=10), p=0.000977, Holm 0.00586 | 7–2 (n=10), p=0.00684, Holm 0.0205 | 1–1 (n=10), p=0.0371, Holm 0.0742 | 1–9 (n=10), p=0.839, Holm 0.839 | 7–2 (n=10), p=0.00293, Holm 0.0117 | 10–0 (n=10), p=0.000977, Holm 0.00586 |
+| P4 | 9–1 (n=10), p=0.00391, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 |
+| S4a | 10–0 (n=10), p=0.00195, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 |
+| S4b | 10–0 (n=10), p=0.00195, Holm 0.00977 | 10–0 (n=10), p=0.00195, Holm 0.00977 | 10–0 (n=10), p=0.00195, Holm 0.00977 | 10–0 (n=10), p=0.00195, Holm 0.00977 | 10–0 (n=10), p=0.00195, Holm 0.00977 | not tested |
+| S4c | 9–1 (n=10), p=0.00586, Holm 0.0117 | 9–1 (n=10), p=0.00586, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 | 9–1 (n=10), p=0.00391, Holm 0.0117 | 10–0 (n=10), p=0.00195, Holm 0.0117 |
+
+## Certificate check (C4)
+
+Test-row changes outside the tight certificate, summed over 180 edit-based runs: **0** (must be 0); outside the box-level certificate: **0** (must be 0). Accepted edits checked: 46,153.
+
+## Share of the gap to RF closed (macro-F1, %)
+
+100 × (arm − B0) / (RF with every label − B0), from the means over seeds.
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| SR | 44 | 20 | 17 | 23 | 10 | 83 |
+| AL | 47 | 26 | 33 | 36 | 9 | 90 |
+| SR+AL | 48 | 34 | 33 | 37 | 14 | 91 |
+| Retrain, shuffled | 13 | 12 | -23 | -10 | 2 | -28 |
+| Retrain, appended | 3 | 4 | -18 | -2 | 4 | -7 |
+| B9 | 1 | -0 | -17 | -5 | 4 | -5 |
+
+## Test macro-F1 (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 84.0 | 82.0 | 67.6 | 72.6 | 74.3 | 93.1 |
+| B9 | 84.1 | 82.0 | 65.1 | 71.9 | 75.1 | 92.7 |
+| AL | 90.3 | 83.9 | 72.4 | 77.7 | 76.3 | 99.2 |
+| SR | 90.0 | 83.5 | 70.1 | 75.9 | 76.6 | 98.8 |
+| SR+AL | 90.5 | 84.5 | 72.4 | 77.9 | 77.3 | 99.3 |
+| Retrain, appended | 84.4 | 82.3 | 65.0 | 72.3 | 75.2 | 92.6 |
+| Retrain, shuffled | 85.7 | 82.9 | 64.2 | 71.1 | 74.7 | 91.2 |
+| kNN, training rows | 54.9 | 87.2 | 63.8 | 80.0 | 92.3 | 99.9 |
+| kNN, every label | 58.4 | 87.9 | 68.2 | 80.2 | 93.5 | 99.9 |
+| RF, training rows | 96.9 | 88.7 | 80.4 | 86.4 | 95.2 | 99.9 |
+| RF, every label | 97.7 | 89.6 | 82.4 | 86.8 | 95.9 | 99.9 |
+
+## Lowest class recall (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 59.2 | 47.3 | 52.4 | 71.9 | 49.7 | 80.9 |
+| B9 | 59.7 | 46.2 | 48.0 | 71.1 | 50.9 | 80.0 |
+| AL | 78.4 | 55.3 | 50.6 | 72.2 | 51.6 | 98.3 |
+| SR | 78.6 | 53.7 | 52.5 | 69.1 | 52.6 | 97.6 |
+| SR+AL | 79.7 | 56.4 | 51.2 | 70.6 | 53.4 | 98.8 |
+| Retrain, appended | 57.3 | 46.2 | 53.0 | 72.2 | 51.3 | 79.7 |
+| Retrain, shuffled | 62.2 | 49.8 | 53.7 | 70.0 | 49.3 | 76.5 |
+| kNN, training rows | 5.2 | 64.6 | 10.8 | 61.0 | 80.7 | 99.9 |
+| kNN, every label | 8.4 | 66.2 | 19.2 | 61.4 | 83.0 | 99.9 |
+| RF, training rows | 91.8 | 60.8 | 48.3 | 76.9 | 86.4 | 99.9 |
+| RF, every label | 94.5 | 62.4 | 51.9 | 77.7 | 88.5 | 99.9 |
+
+## Test accuracy (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 97.0 | 84.8 | 88.8 | 74.0 | 74.5 | 95.8 |
+| B9 | 97.0 | 84.8 | 87.6 | 73.2 | 75.3 | 95.6 |
+| AL | 98.1 | 86.3 | 93.0 | 79.5 | 76.5 | 99.5 |
+| SR | 98.0 | 86.0 | 90.8 | 77.9 | 76.8 | 99.2 |
+| SR+AL | 98.2 | 86.9 | 93.4 | 79.9 | 77.5 | 99.5 |
+| Retrain, appended | 97.0 | 85.2 | 87.7 | 73.7 | 75.4 | 95.6 |
+| Retrain, shuffled | 97.2 | 85.5 | 87.2 | 72.3 | 75.0 | 94.8 |
+| kNN, training rows | 93.7 | 89.2 | 95.0 | 83.3 | 92.3 | 99.9 |
+| kNN, every label | 93.9 | 89.8 | 95.2 | 83.4 | 93.5 | 99.9 |
+| RF, training rows | 99.5 | 90.8 | 96.8 | 87.9 | 95.2 | 99.9 |
+| RF, every label | 99.6 | 91.5 | 97.1 | 88.3 | 95.9 | 100.0 |
+
+## Labels used beyond the training rows
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| B9 | 1,440 | 1,287 | 1,094 | 3,804 | 4,000 | 49,011 |
+| AL | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| SR | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR+AL | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| Retrain, appended | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| Retrain, shuffled | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| kNN, training rows | 0 | 0 | 0 | 0 | 0 | 0 |
+| kNN, every label | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+| RF, training rows | 0 | 0 | 0 | 0 | 0 | 0 |
+| RF, every label | 1,020 | 944 | 821 | 2,202 | 2,300 | 24,806 |
+
+## Test predictions changed against B0 (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
+| B9 | 0.58 | 3.90 | 3.98 | 7.39 | 9.75 | 0.61 |
+| AL | 1.42 | 5.34 | 6.35 | 15.78 | 8.75 | 4.13 |
+| SR | 1.46 | 6.51 | 3.92 | 18.40 | 10.64 | 4.46 |
+| SR+AL | 1.62 | 7.41 | 6.79 | 19.57 | 13.46 | 4.18 |
+| Retrain, appended | 0.83 | 4.36 | 5.55 | 5.58 | 8.00 | 0.73 |
+| Retrain, shuffled | 2.36 | 14.01 | 12.63 | 29.47 | 30.00 | 6.61 |
+| kNN, training rows | 4.56 | 13.99 | 11.61 | 25.21 | 25.66 | 4.17 |
+| kNN, every label | 4.47 | 14.18 | 11.64 | 25.01 | 25.64 | 4.17 |
+| RF, training rows | 2.96 | 12.67 | 10.77 | 23.52 | 25.08 | 4.17 |
+| RF, every label | 2.99 | 12.47 | 10.82 | 23.42 | 25.12 | 4.18 |
+
+## Test predictions broken, right → wrong, against B0 (% of test rows)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
+| B9 | 0.28 | 1.77 | 2.50 | 4.12 | 2.93 | 0.41 |
+| AL | 0.12 | 1.69 | 0.82 | 5.16 | 1.99 | 0.22 |
+| SR | 0.19 | 2.42 | 0.73 | 7.25 | 2.35 | 0.54 |
+| SR+AL | 0.19 | 2.36 | 0.82 | 6.85 | 3.06 | 0.22 |
+| Retrain, appended | 0.39 | 1.77 | 3.23 | 2.97 | 2.33 | 0.49 |
+| Retrain, shuffled | 1.03 | 6.09 | 6.81 | 15.60 | 10.48 | 3.83 |
+| kNN, training rows | 3.86 | 4.32 | 2.50 | 7.97 | 2.34 | 0.03 |
+| kNN, every label | 3.74 | 4.10 | 2.39 | 7.80 | 1.97 | 0.03 |
+| RF, training rows | 0.21 | 2.93 | 1.22 | 4.82 | 1.16 | 0.02 |
+| RF, every label | 0.18 | 2.52 | 1.09 | 4.60 | 0.96 | 0.02 |
+
+## Test predictions fixed, wrong → right, against B0 (% of test rows)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
+| B9 | 0.28 | 1.83 | 1.30 | 3.28 | 3.75 | 0.20 |
+| AL | 1.26 | 3.23 | 5.05 | 10.63 | 3.92 | 3.90 |
+| SR | 1.26 | 3.62 | 2.76 | 11.15 | 4.59 | 3.92 |
+| SR+AL | 1.40 | 4.49 | 5.40 | 12.73 | 6.00 | 3.95 |
+| Retrain, appended | 0.42 | 2.17 | 2.15 | 2.61 | 3.20 | 0.23 |
+| Retrain, shuffled | 1.22 | 6.77 | 5.20 | 13.87 | 10.90 | 2.79 |
+| kNN, training rows | 0.58 | 8.71 | 8.69 | 17.24 | 20.07 | 4.14 |
+| kNN, every label | 0.62 | 9.10 | 8.80 | 17.21 | 20.92 | 4.15 |
+| RF, training rows | 2.72 | 8.96 | 9.25 | 18.70 | 21.79 | 4.15 |
+| RF, every label | 2.79 | 9.22 | 9.42 | 18.83 | 22.29 | 4.16 |
+
+## Fix share: fixed / (fixed + broken), against B0 (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B9 | 54.2 | 51.2 | 31.8 | 44.0 | 56.2 | 41.9 |
+| AL | 85.5 | 64.6 | 75.6 | 67.0 | 66.1 | 94.6 |
+| SR | 86.4 | 59.0 | 69.4 | 60.3 | 65.9 | 87.5 |
+| SR+AL | 85.3 | 64.2 | 81.9 | 64.8 | 66.2 | 94.1 |
+| Retrain, appended | 51.2 | 55.0 | 32.0 | 46.4 | 57.8 | 44.4 |
+| Retrain, shuffled | 51.8 | 52.4 | 42.6 | 47.2 | 50.9 | 40.5 |
+| kNN, training rows | 14.1 | 66.8 | 75.7 | 68.2 | 89.6 | 99.2 |
+| kNN, every label | 15.9 | 68.9 | 76.6 | 68.7 | 91.4 | 99.2 |
+| RF, training rows | 93.6 | 75.6 | 87.2 | 79.5 | 95.0 | 99.4 |
+| RF, every label | 93.6 | 78.9 | 88.4 | 80.3 | 95.9 | 99.5 |
+
+## PACE-flip top-3 changed against B0, 100 test rows (share)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
+| B9 | 0.18 | 0.58 | 0.45 | 0.50 | 0.50 | 0.00 |
+| AL | 0.24 | 0.40 | 0.50 | 0.69 | 0.37 | 0.00 |
+| SR | 0.25 | 0.33 | 0.35 | 0.72 | 0.39 | 0.00 |
+| SR+AL | 0.26 | 0.50 | 0.61 | 0.78 | 0.47 | 0.00 |
+| Retrain, appended | 0.23 | 0.54 | 0.55 | 0.42 | 0.42 | 0.00 |
+| Retrain, shuffled | 0.61 | 0.98 | 0.93 | 0.95 | 0.92 | 0.00 |
+
+## PACE-flip top feature changed against B0, 100 test rows (share)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
+| B9 | 0.07 | 0.37 | 0.26 | 0.27 | 0.24 | 0.03 |
+| AL | 0.12 | 0.28 | 0.30 | 0.43 | 0.21 | 0.11 |
+| SR | 0.09 | 0.25 | 0.22 | 0.50 | 0.24 | 0.11 |
+| SR+AL | 0.13 | 0.33 | 0.40 | 0.52 | 0.27 | 0.11 |
+| Retrain, appended | 0.10 | 0.35 | 0.29 | 0.23 | 0.22 | 0.03 |
+| Retrain, shuffled | 0.29 | 0.87 | 0.64 | 0.66 | 0.63 | 0.18 |
+
+## Training error at the end (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 1.7 | 9.4 | 10.4 | 24.5 | 20.2 | 4.2 |
+| B9 | 1.8 | 9.9 | 11.7 | 25.5 | 20.7 | 4.4 |
+| AL | 0.8 | 8.2 | 6.8 | 19.1 | 18.3 | 0.5 |
+| SR | 0.4 | 6.0 | 8.4 | 19.7 | 16.6 | 0.8 |
+| SR+AL | 0.6 | 7.1 | 6.5 | 18.0 | 16.2 | 0.5 |
+| Retrain, appended | 2.0 | 9.8 | 11.4 | 24.9 | 20.5 | 4.4 |
+| Retrain, shuffled | 1.9 | 9.8 | 12.7 | 25.7 | 20.8 | 5.3 |
+
+## Run time (s)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| B0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| B9 | 1 | 1 | 0 | 1 | 2 | 14 |
+| AL | 35 | 122 | 17 | 168 | 538 | 657 |
+| SR | 3 | 148 | 7 | 204 | 1030 | 92 |
+| SR+AL | 35 | 118 | 16 | 171 | 541 | 612 |
+| Retrain, appended | 0 | 1 | 0 | 1 | 2 | 11 |
+| Retrain, shuffled | 0 | 1 | 0 | 1 | 2 | 11 |
+| kNN, training rows | 0 | 0 | 0 | 0 | 0 | 1 |
+| kNN, every label | 0 | 0 | 0 | 0 | 0 | 1 |
+| RF, training rows | 1 | 1 | 1 | 5 | 3 | 9 |
+| RF, every label | 1 | 2 | 1 | 6 | 3 | 11 |
+
+## Certificates (edit-based arms; 2,000 test rows)
+
+SR+AL's certificates cover all its edits, self-repair included.
+
+### tight: changes outside it (must be 0)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| AL | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR+AL | 0 | 0 | 0 | 0 | 0 | 0 |
+
+### tight: size per edit (% of rows)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| AL | 1.24 | 2.74 | 40.52 | 13.34 | 1.92 | 5.41 |
+| SR | 1.23 | 2.03 | 20.04 | 7.64 | 1.42 | 3.08 |
+| SR+AL | 1.19 | 1.85 | 34.55 | 7.85 | 1.55 | 4.05 |
+
+### tight: precision, changed / certified (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| AL | 0.8 | 1.8 | 0.1 | 1.0 | 2.7 | 0.5 |
+| SR | 10.4 | 4.8 | 2.1 | 2.8 | 5.3 | 5.4 |
+| SR+AL | 0.7 | 3.4 | 0.2 | 1.9 | 3.7 | 0.7 |
+
+### tight: rows some edit could change (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| AL | 5.3 | 21.4 | 68.1 | 73.4 | 50.0 | 21.0 |
+| SR | 4.7 | 19.9 | 64.2 | 72.6 | 47.7 | 20.3 |
+| SR+AL | 5.4 | 21.7 | 68.6 | 74.0 | 51.5 | 20.9 |
+
+### tight: PACE-flip top-3 changed outside it (share)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| AL | 0.22 | 0.29 | 0.29 | 0.38 | 0.20 | 0.00 |
+| SR | 0.22 | 0.20 | 0.16 | 0.38 | 0.17 | 0.00 |
+| SR+AL | 0.24 | 0.39 | 0.41 | 0.51 | 0.24 | 0.00 |
+
+### loose: changes outside it (must be 0)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| AL | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR | 0 | 0 | 0 | 0 | 0 | 0 |
+| SR+AL | 0 | 0 | 0 | 0 | 0 | 0 |
+
+### loose: size per edit (% of rows)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| AL | 27.37 | 4.98 | 65.15 | 15.02 | 2.15 | 7.59 |
+| SR | 27.31 | 3.99 | 28.61 | 8.43 | 1.59 | 3.81 |
+| SR+AL | 27.03 | 3.94 | 61.59 | 9.55 | 1.75 | 6.56 |
+
+### loose: precision, changed / certified (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| AL | 0.0 | 1.0 | 0.1 | 0.9 | 2.4 | 0.3 |
+| SR | 0.4 | 2.4 | 1.4 | 2.5 | 4.8 | 4.3 |
+| SR+AL | 0.0 | 1.6 | 0.1 | 1.6 | 3.3 | 0.4 |
+
+### loose: rows some edit could change (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| AL | 98.9 | 67.6 | 99.0 | 90.4 | 74.8 | 54.0 |
+| SR | 87.4 | 69.0 | 90.6 | 88.2 | 67.2 | 26.1 |
+| SR+AL | 99.0 | 76.4 | 99.4 | 91.8 | 82.0 | 57.5 |
+
+### loose: PACE-flip top-3 changed outside it (share)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| AL | 0.29 | 0.16 | 0.19 | 0.21 | 0.13 | 0.00 |
+| SR | 0.00 | 0.08 | 0.10 | 0.14 | 0.12 | 0.00 |
+| SR+AL | 0.40 | 0.15 | 0.21 | 0.24 | 0.13 | 0.00 |
+
+## kNN and RF: predictions changed against the same learner on the training rows (%)
+
+| Arm | Thyroid | Landsat | Page Blocks | MAGIC | Letter | Skin |
+|---|---|---|---|---|---|---|
+| kNN, every label | 0.75 | 3.43 | 0.89 | 3.06 | 3.58 | 0.01 |
+| RF, every label | 0.21 | 2.92 | 0.86 | 2.68 | 3.01 | 0.02 |
+
+
+exit 0

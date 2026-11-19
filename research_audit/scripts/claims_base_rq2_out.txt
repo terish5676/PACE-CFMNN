@@ -1,0 +1,309 @@
+
+====================================================================================================
+G0: the two fixes and the paper-parity table (g0/runs.csv, seeds 0-4)
+====================================================================================================
+model          CFMNN-fixed  CFMNN-fixed+search  CFMNN-original  CFMNN-original+search  Majority  RandomForest
+dataset                                                                                                      
+S1                   78.86               88.74           78.86                  88.74     50.40         99.22
+S2                   71.30               79.36           71.30                  79.36     50.20         89.54
+breast_cancer        94.56               95.44           94.56                  95.44     63.16         97.02
+digits               81.72               95.33           81.72                  95.33     10.11         97.61
+sepsis               53.23               49.82           48.65                  48.57     92.65         92.64
+shuttle              99.80               99.80           93.33                  93.33     78.59         99.98
+skin                 97.01               94.74           96.88                  94.57     79.25         99.96
+thyroid              95.03               97.17           95.04                  97.01     92.57         99.63
+wine                 95.56               98.33           95.56                  98.33     38.89        100.00
+Shuttle original -> fixed: 93.33 -> 99.80
+Digits fixed -> fixed+search: 81.72 -> 95.33
+Skin fixed -> fixed+search: 97.01 -> 94.74
+Sepsis original 48.65 (sd 8.74); majority 92.65
+  parity thyroid: paper's rules 95.0, both fixes 97.2
+  parity shuttle: paper's rules 93.3, both fixes 99.8
+  parity skin: paper's rules 96.9, both fixes 94.7
+  paper's ensemble values are quoted from the base paper (g0/summary.md line: thyroid 96.90, shuttle 94.04, skin 97.63, sepsis 68.76)
+
+====================================================================================================
+Accuracy table (review_v1/accuracy/runs.csv, seeds 0-4)
+====================================================================================================
+               n_train       CFMNN       10-NN Random Forest   gap
+dataset                                                           
+S1                4000  89.6 ± 1.1  95.1 ± 0.8    99.6 ± 0.1 -10.0
+S2                4000  80.6 ± 1.6  85.8 ± 1.8    90.1 ± 1.3  -9.5
+S3                4000  87.0 ± 0.8  88.7 ± 0.7   100.0 ± 0.0 -13.0
+breast_cancer      455  95.4 ± 1.1  97.4 ± 1.5    97.0 ± 1.0  -1.9
+digits            1437  95.3 ± 0.5  98.0 ± 0.7    97.6 ± 0.2  -2.7
+landsat           5148  84.3 ± 1.1  89.8 ± 0.4    91.7 ± 0.9  -7.4
+letter           16000  74.6 ± 0.7  94.2 ± 0.4    96.2 ± 0.2 -21.5
+magic            15216  72.5 ± 0.7  83.6 ± 0.4    88.3 ± 0.8 -15.8
+page_blocks       4378  86.3 ± 5.6  94.8 ± 0.4    97.3 ± 0.6 -11.0
+shuttle          46400  99.8 ± 0.0  99.8 ± 0.0   100.0 ± 0.0  -0.2
+skin            196045  94.7 ± 2.1  99.9 ± 0.0   100.0 ± 0.0  -5.2
+thyroid           5760  97.2 ± 0.6  94.2 ± 0.2    99.6 ± 0.1  -2.5
+wine               142  98.3 ± 2.5  95.6 ± 3.2   100.0 ± 0.0  -1.7
+gap range: 0.2–21.5 ; CFMNN below the better reference on 13 of 13
+gap < 3: ['breast_cancer', 'digits', 'shuttle', 'thyroid', 'wine']  3-9: ['landsat', 'skin']  >= 9: ['S1', 'S2', 'S3', 'letter', 'magic', 'page_blocks']
+
+====================================================================================================
+RQ2 confirmatory run (error_detection_confirmatory, seeds 10-19)
+====================================================================================================
+seeds [np.int64(10), np.int64(11), np.int64(12), np.int64(13), np.int64(14), np.int64(15), np.int64(16), np.int64(17), np.int64(18), np.int64(19)] datasets ['S1', 'S2', 'S2-imbalanced', 'S2-label-noise', 'S2-shifted', 'S3', 'breast_cancer', 'digits', 'landsat', 'letter', 'magic', 'page_blocks', 'shuttle', 'skin', 'thyroid', 'wine']
+min errors per seed: {'S1': 222, 'S2': 375, 'S2-imbalanced': 190, 'S2-label-noise': 483, 'S2-shifted': 989, 'S3': 256, 'breast_cancer': 20, 'digits': 64, 'landsat': 359, 'letter': 2011, 'magic': 1930, 'page_blocks': 194, 'shuttle': 39, 'skin': 101, 'thyroid': 80, 'wine': 3}
+method       share of errors  Margin  PD + U*  PRS*  Trust Score  kNN disagreement  Order ensemble
+dataset                                                                                           
+Synthetic               0.17    0.39     0.41  0.35         0.55              0.69            0.65
+digits                  0.04    0.39     0.40  0.19         0.86              0.82            0.60
+thyroid                 0.03    0.26     0.23  0.23         0.11              0.09            0.43
+skin                    0.05    0.22     0.42  0.38         0.98              0.99            0.75
+magic                   0.28    0.33     0.44  0.40         0.69              0.72            0.59
+letter                  0.26    0.41     0.59  0.56         0.97              0.97            0.78
+landsat                 0.15    0.32     0.40  0.36         0.74              0.73            0.54
+page_blocks             0.14    0.19     0.44  0.37         0.85              0.86            0.62
+unrounded:
+ method       share of errors  Margin  PD + U*    PRS*  Trust Score  kNN disagreement  Order ensemble
+dataset                                                                                             
+Synthetic             0.1707  0.3892   0.4088  0.3492       0.5506            0.6940          0.6525
+digits                0.0439  0.3856   0.3971  0.1893       0.8569            0.8245          0.6006
+thyroid               0.0330  0.2606   0.2291  0.2273       0.1139            0.0944          0.4256
+skin                  0.0456  0.2207   0.4229  0.3828       0.9762            0.9914          0.7512
+magic                 0.2763  0.3280   0.4387  0.4028       0.6939            0.7216          0.5856
+letter                0.2589  0.4127   0.5861  0.5570       0.9681            0.9699          0.7847
+landsat               0.1538  0.3159   0.3998  0.3624       0.7369            0.7272          0.5393
+page_blocks           0.1405  0.1889   0.4448  0.3667       0.8521            0.8623          0.6243
+
+PD + U* vs Margin: {'higher': 6, 'level': 2}
+       unit      a      b    diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.4088 0.3892  0.0196              10 0.0020  0.0156  higher
+     digits 0.3971 0.3856  0.0116               9 0.0371  0.0742   level
+    thyroid 0.2291 0.2606 -0.0315               2 0.1055  0.1055   level
+       skin 0.4229 0.2207  0.2022              10 0.0020  0.0156  higher
+      magic 0.4387 0.3280  0.1107              10 0.0020  0.0156  higher
+     letter 0.5861 0.4127  0.1734              10 0.0020  0.0156  higher
+    landsat 0.3998 0.3159  0.0839              10 0.0020  0.0156  higher
+page_blocks 0.4448 0.1889  0.2559              10 0.0020  0.0156  higher
+
+PRS* vs PD + U*: {'lower': 6, 'level': 2}
+       unit      a      b    diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.3492 0.4088 -0.0596               0 0.0020  0.0156   lower
+     digits 0.1893 0.3971 -0.2078               0 0.0020  0.0156   lower
+    thyroid 0.2273 0.2291 -0.0017               5 0.9219  0.9219   level
+       skin 0.3828 0.4229 -0.0401               1 0.0645  0.1289   level
+      magic 0.4028 0.4387 -0.0359               0 0.0020  0.0156   lower
+     letter 0.5570 0.5861 -0.0291               0 0.0020  0.0156   lower
+    landsat 0.3624 0.3998 -0.0374               0 0.0020  0.0156   lower
+page_blocks 0.3667 0.4448 -0.0782               0 0.0020  0.0156   lower
+
+Trust Score vs PD + U*: {'higher': 7, 'lower': 1}
+       unit      a      b    diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.5506 0.4088  0.1419              10 0.0020  0.0156  higher
+     digits 0.8569 0.3971  0.4598              10 0.0020  0.0156  higher
+    thyroid 0.1139 0.2291 -0.1152               1 0.0039  0.0156   lower
+       skin 0.9762 0.4229  0.5534              10 0.0020  0.0156  higher
+      magic 0.6939 0.4387  0.2552              10 0.0020  0.0156  higher
+     letter 0.9681 0.5861  0.3820              10 0.0020  0.0156  higher
+    landsat 0.7369 0.3998  0.3371              10 0.0020  0.0156  higher
+page_blocks 0.8521 0.4448  0.4072              10 0.0020  0.0156  higher
+
+kNN disagreement vs PD + U*: {'higher': 7, 'lower': 1}
+       unit      a      b    diff  a_higher_seeds     p  p_holm verdict
+  Synthetic 0.6940 0.4088  0.2852              10 0.002  0.0156  higher
+     digits 0.8245 0.3971  0.4274              10 0.002  0.0156  higher
+    thyroid 0.0944 0.2291 -0.1347               0 0.002  0.0156   lower
+       skin 0.9914 0.4229  0.5686              10 0.002  0.0156  higher
+      magic 0.7216 0.4387  0.2829              10 0.002  0.0156  higher
+     letter 0.9699 0.5861  0.3838              10 0.002  0.0156  higher
+    landsat 0.7272 0.3998  0.3274              10 0.002  0.0156  higher
+page_blocks 0.8623 0.4448  0.4175              10 0.002  0.0156  higher
+
+Order ensemble vs PD + U*: {'higher': 8}
+       unit      a      b   diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.6525 0.4088 0.2437              10 0.0020  0.0156  higher
+     digits 0.6006 0.3971 0.2034              10 0.0020  0.0156  higher
+    thyroid 0.4256 0.2291 0.1965              10 0.0020  0.0156  higher
+       skin 0.7512 0.4229 0.3284               9 0.0039  0.0156  higher
+      magic 0.5856 0.4387 0.1469              10 0.0020  0.0156  higher
+     letter 0.7847 0.5861 0.1986              10 0.0020  0.0156  higher
+    landsat 0.5393 0.3998 0.1395              10 0.0020  0.0156  higher
+page_blocks 0.6243 0.4448 0.1795               8 0.0098  0.0156  higher
+
+tie share per dataset: {'S1': 0.0, 'S2': 0.0, 'S2-imbalanced': 0.0, 'S2-label-noise': 0.0, 'S2-shifted': 0.0, 'S3': 0.0, 'breast_cancer': 0.003, 'digits': 0.004, 'landsat': 0.213, 'letter': 0.525, 'magic': 0.725, 'page_blocks': 0.65, 'shuttle': 0.128, 'skin': 0.206, 'thyroid': 0.049, 'wine': 0.0}
+real datasets with >= 1% ties: ['thyroid', 'skin', 'magic', 'letter', 'landsat', 'page_blocks']
+
+U* vs U: {'higher': 6}
+       unit      a      b   diff  a_higher_seeds     p  p_holm verdict
+    thyroid 0.3436 0.0669 0.2767              10 0.002  0.0117  higher
+       skin 0.3916 0.0799 0.3117              10 0.002  0.0117  higher
+      magic 0.4167 0.2736 0.1431              10 0.002  0.0117  higher
+     letter 0.5715 0.2653 0.3062              10 0.002  0.0117  higher
+    landsat 0.3733 0.2827 0.0906              10 0.002  0.0117  higher
+page_blocks 0.3671 0.1569 0.2103              10 0.002  0.0117  higher
+
+U vs Random: {'higher': 5, 'level': 3}
+       unit      a      b    diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.3071 0.1712  0.1359              10 0.0020  0.0156  higher
+     digits 0.3841 0.0452  0.3390              10 0.0020  0.0156  higher
+    thyroid 0.0669 0.0379  0.0290              10 0.0020  0.0156  higher
+       skin 0.0799 0.0457  0.0342               9 0.0039  0.0156  higher
+      magic 0.2736 0.2770 -0.0034               5 0.3750  0.3750   level
+     letter 0.2653 0.2600  0.0054               9 0.0371  0.1113   level
+    landsat 0.2827 0.1552  0.1275              10 0.0020  0.0156  higher
+page_blocks 0.1569 0.1404  0.0164               7 0.0840  0.1680   level
+
+EI vs Random: {'higher': 8}
+       unit      a      b   diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.1884 0.1712 0.0172              10 0.0020  0.0156  higher
+     digits 0.0678 0.0452 0.0226              10 0.0020  0.0156  higher
+    thyroid 0.2275 0.0379 0.1896              10 0.0020  0.0156  higher
+       skin 0.1536 0.0457 0.1080              10 0.0020  0.0156  higher
+      magic 0.2868 0.2770 0.0097               8 0.0273  0.0273  higher
+     letter 0.4116 0.2600 0.1516              10 0.0020  0.0156  higher
+    landsat 0.2669 0.1552 0.1117              10 0.0020  0.0156  higher
+page_blocks 0.2215 0.1404 0.0811              10 0.0020  0.0156  higher
+
+10-NN vs CFMNN accuracy (knn_reference.csv):
+                 cfmnn   knn
+dataset                    
+S1               88.3  95.1
+S2               79.4  86.0
+S2-imbalanced    90.0  91.6
+S2-label-noise   74.3  82.0
+S2-shifted       79.4  85.5
+S3               86.2  87.6
+digits           95.6  97.7
+landsat          84.6  89.0
+letter           74.1  92.2
+magic            72.4  83.0
+page_blocks      85.9  94.7
+skin             95.4  99.9
+thyroid          96.7  93.8
+10-NN more accurate on 12 of 13 ; CFMNN ahead on: ['thyroid']
+
+====================================================================================================
+RQ2 combination run (error_detection_v2, seeds 20-29)
+====================================================================================================
+method       share of errors   kNN  Trust Score  LR: kNN + TS  LR: kNN + TS + order ens.
+dataset                                                                                 
+Synthetic               0.17  0.70         0.56          0.73                       0.77
+digits                  0.05  0.83         0.88          0.87                       0.85
+thyroid                 0.03  0.10         0.11          0.12                       0.46
+skin                    0.05  1.00         0.99          1.00                       1.00
+magic                   0.26  0.70         0.67          0.74                       0.75
+letter                  0.26  0.97         0.97          0.98                       0.98
+landsat                 0.15  0.73         0.74          0.78                       0.79
+page_blocks             0.10  0.82         0.81          0.87                       0.87
+unrounded:
+ method       share of errors     kNN  Trust Score  LR: kNN + TS  LR: kNN + TS + order ens.
+dataset                                                                                   
+Synthetic             0.1703  0.6967       0.5583        0.7328                     0.7737
+digits                0.0456  0.8338       0.8770        0.8730                     0.8530
+thyroid               0.0302  0.1005       0.1087        0.1177                     0.4583
+skin                  0.0485  0.9956       0.9937        0.9982                     0.9984
+magic                 0.2618  0.6964       0.6713        0.7384                     0.7488
+letter                0.2620  0.9687       0.9686        0.9819                     0.9826
+landsat               0.1537  0.7295       0.7356        0.7773                     0.7869
+page_blocks           0.1026  0.8160       0.8066        0.8662                     0.8699
+
+LR: kNN + TS + order ens. vs LR: kNN + TS: {'higher': 5, 'level': 2, 'lower': 1}
+       unit      a      b    diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.7737 0.7328  0.0409              10 0.0020  0.0156  higher
+     digits 0.8530 0.8730 -0.0200               2 0.0098  0.0293   lower
+    thyroid 0.4583 0.1177  0.3406              10 0.0020  0.0156  higher
+       skin 0.9984 0.9982  0.0002               4 0.7695  0.7695   level
+      magic 0.7488 0.7384  0.0104              10 0.0020  0.0156  higher
+     letter 0.9826 0.9819  0.0007              10 0.0020  0.0156  higher
+    landsat 0.7869 0.7773  0.0096              10 0.0020  0.0156  higher
+page_blocks 0.8699 0.8662  0.0037               7 0.1055  0.2109   level
+
+LR: kNN + TS + order ens. vs kNN: {'higher': 8}
+       unit      a      b   diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.7737 0.6967 0.0770              10 0.0020  0.0156  higher
+     digits 0.8530 0.8338 0.0192               8 0.0137  0.0156  higher
+    thyroid 0.4583 0.1005 0.3579              10 0.0020  0.0156  higher
+       skin 0.9984 0.9956 0.0028              10 0.0020  0.0156  higher
+      magic 0.7488 0.6964 0.0525              10 0.0020  0.0156  higher
+     letter 0.9826 0.9687 0.0140              10 0.0020  0.0156  higher
+    landsat 0.7869 0.7295 0.0574              10 0.0020  0.0156  higher
+page_blocks 0.8699 0.8160 0.0539              10 0.0020  0.0156  higher
+
+LR: kNN + TS + order ens. vs Trust Score: {'higher': 7, 'lower': 1}
+       unit      a      b    diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.7737 0.5583  0.2154              10 0.0020  0.0156  higher
+     digits 0.8530 0.8770 -0.0240               2 0.0137  0.0156   lower
+    thyroid 0.4583 0.1087  0.3497              10 0.0020  0.0156  higher
+       skin 0.9984 0.9937  0.0047              10 0.0020  0.0156  higher
+      magic 0.7488 0.6713  0.0775              10 0.0020  0.0156  higher
+     letter 0.9826 0.9686  0.0141              10 0.0020  0.0156  higher
+    landsat 0.7869 0.7356  0.0513              10 0.0020  0.0156  higher
+page_blocks 0.8699 0.8066  0.0632              10 0.0020  0.0156  higher
+
+LR: all vs LR: kNN + TS + order ens.: {'level': 7, 'higher': 1}
+       unit      a      b    diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.7708 0.7737 -0.0029               4 0.1602  0.8008   level
+     digits 0.8415 0.8530 -0.0115               5 0.4316  0.9297   level
+    thyroid 0.5020 0.4583  0.0436               6 0.2754  0.9297   level
+       skin 0.9977 0.9984 -0.0007               4 0.2324  0.9297   level
+      magic 0.7493 0.7488  0.0005               5 0.6953  0.9297   level
+     letter 0.9841 0.9826  0.0015              10 0.0020  0.0156  higher
+    landsat 0.7830 0.7869 -0.0040               2 0.0840  0.5039   level
+page_blocks 0.8576 0.8699 -0.0123               1 0.0137  0.0957   level
+
+Page Blocks base rate per seed, confirmatory run: [0.198, 0.114, 0.12, 0.113, 0.237, 0.129, 0.145, 0.153, 0.089, 0.109]
+Page Blocks base rate per seed, combination run: [0.084, 0.117, 0.084, 0.121, 0.068, 0.119, 0.102, 0.122, 0.105, 0.103]
+
+====================================================================================================
+RQ2 ensembles test (review_v1/ensembles, seeds 60-69)
+====================================================================================================
+
+LR: kNN + TS + order ens. vs LR: kNN + TS: {'higher': 5, 'level': 2, 'lower': 1}
+       unit      a      b    diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.7704 0.7305  0.0399              10 0.0020  0.0156  higher
+     digits 0.8612 0.8768 -0.0156               0 0.0020  0.0156   lower
+    thyroid 0.4212 0.1140  0.3073              10 0.0020  0.0156  higher
+       skin 0.9954 0.9954 -0.0000               5 0.7695  1.0000   level
+      magic 0.7547 0.7433  0.0115              10 0.0020  0.0156  higher
+     letter 0.9852 0.9846  0.0006               9 0.0059  0.0234  higher
+    landsat 0.7869 0.7790  0.0079               9 0.0137  0.0410  higher
+page_blocks 0.8650 0.8653 -0.0002               6 0.5566  1.0000   level
+
+LR: kNN + TS + bagged ens. vs LR: kNN + TS: {'level': 4, 'higher': 3, 'lower': 1}
+       unit      a      b    diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.7644 0.7305  0.0338              10 0.0020  0.0156  higher
+     digits 0.8564 0.8768 -0.0204               0 0.0020  0.0156   lower
+    thyroid 0.4371 0.1140  0.3231              10 0.0020  0.0156  higher
+       skin 0.9969 0.9954  0.0015               5 0.4316  0.8633   level
+      magic 0.7536 0.7433  0.0103              10 0.0020  0.0156  higher
+     letter 0.9849 0.9846  0.0002               7 0.1055  0.3164   level
+    landsat 0.7828 0.7790  0.0038               8 0.0488  0.1953   level
+page_blocks 0.8608 0.8653 -0.0044               7 1.0000  1.0000   level
+
+LR: kNN + TS + bagged ens. vs LR: kNN + TS + order ens.: {'level': 8}
+       unit      a      b    diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.7644 0.7704 -0.0060               1 0.0488  0.3418   level
+     digits 0.8564 0.8612 -0.0048               4 0.2324  1.0000   level
+    thyroid 0.4371 0.4212  0.0158               6 0.4922  1.0000   level
+       skin 0.9969 0.9954  0.0015               6 0.2754  1.0000   level
+      magic 0.7536 0.7547 -0.0012               3 0.4316  1.0000   level
+     letter 0.9849 0.9852 -0.0004               1 0.0137  0.1094   level
+    landsat 0.7828 0.7869 -0.0040               3 0.0840  0.5039   level
+page_blocks 0.8608 0.8650 -0.0042               4 0.2754  1.0000   level
+
+LR: kNN + TS + order ens. + bagged ens. vs LR: kNN + TS + bagged ens.: {'higher': 4, 'level': 4}
+       unit      a      b    diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.7821 0.7644  0.0177              10 0.0020  0.0156  higher
+     digits 0.8482 0.8564 -0.0083               2 0.0645  0.2578   level
+    thyroid 0.4989 0.4371  0.0618              10 0.0020  0.0156  higher
+       skin 0.9959 0.9969 -0.0010               5 0.3750  0.7500   level
+      magic 0.7578 0.7536  0.0042               9 0.0059  0.0293  higher
+     letter 0.9852 0.9849  0.0003               9 0.0039  0.0234  higher
+    landsat 0.7852 0.7828  0.0024               7 0.1309  0.3926   level
+page_blocks 0.8599 0.8608 -0.0010               6 0.9219  0.9219   level
+
+LR: kNN + TS + SGD order ens. vs LR: kNN + TS: {'level': 6, 'higher': 1, 'lower': 1}
+       unit      a      b    diff  a_higher_seeds      p  p_holm verdict
+  Synthetic 0.8136 0.7305  0.0831              10 0.0020  0.0156  higher
+     digits 0.8733 0.8768 -0.0034               3 0.3223  1.0000   level
+    thyroid 0.1147 0.1140  0.0007               5 1.0000  1.0000   level
+       skin 0.9947 0.9954 -0.0008               1 0.0039  0.0273   lower
+      magic 0.7441 0.7433  0.0008               7 0.3750  1.0000   level
+     letter 0.9845 0.9846 -0.0002               2 0.0195  0.1172   level
+    landsat 0.7750 0.7790 -0.0040               3 0.2324  1.0000   level
+page_blocks 0.8627 0.8653 -0.0026               4 0.4922  1.0000   level

@@ -1,0 +1,23 @@
+magic seed 0 timed
+magic seed 1 timed
+magic seed 2 timed
+letter seed 0 timed
+letter seed 1 timed
+letter seed 2 timed
+landsat seed 0 timed
+landsat seed 1 timed
+landsat seed 2 timed
+page_blocks seed 0 timed
+page_blocks seed 1 timed
+page_blocks seed 2 timed
+# Milliseconds per explanation (batch of points, measured alone)
+
+Seeds [0, 1, 2]. Mean over seeds.
+
+| Dataset | PACE-contrastive | PACE-multi | PACE-flip | Occlusion (brute force) | PACE-decomposition | KernelSHAP | LIME | Random |
+|---|---|---|---|---|---|---|---|---|
+| magic | 0.070 | 0.106 | 0.637 | 18.405 | 0.096 | 234.071 | 56.547 | 0.002 |
+| letter | 0.203 | 0.310 | 1.367 | 103.381 | 0.244 | 793.846 | 196.489 | 0.002 |
+| landsat | 0.107 | 0.170 | 0.821 | 116.008 | 0.163 | 384.428 | 107.644 | 0.002 |
+| page_blocks | 0.015 | 0.023 | 0.107 | 4.006 | 0.020 | 33.762 | 12.535 | 0.001 |
+

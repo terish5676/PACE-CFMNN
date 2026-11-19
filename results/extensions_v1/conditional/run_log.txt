@@ -1,0 +1,1608 @@
+S1 seed 40 PACE-SHAP: deletion -0.171 / cond -0.163, 11056.6 ms
+S1 seed 41 PACE-SHAP: deletion -0.112 / cond -0.121, 11150.9 ms
+S1 seed 42 PACE-SHAP: deletion -0.175 / cond -0.227, 11285.5 ms
+S1 seed 43 PACE-SHAP: deletion -0.120 / cond -0.216, 11124.5 ms
+S1 seed 44 PACE-SHAP: deletion -0.137 / cond -0.153, 11171.0 ms
+S1 seed 45 PACE-SHAP: deletion -0.244 / cond -0.280, 11299.1 ms
+S1 seed 40 PACE-SHAP-cond: deletion -0.132 / cond -0.114, 11075.3 ms
+S1 seed 41 PACE-SHAP-cond: deletion -0.073 / cond -0.056, 11170.8 ms
+S1 seed 42 PACE-SHAP-cond: deletion -0.132 / cond -0.157, 11305.1 ms
+S1 seed 44 PACE-SHAP-cond: deletion -0.118 / cond -0.118, 11191.2 ms
+S1 seed 43 PACE-SHAP-cond: deletion -0.071 / cond -0.129, 11143.6 ms
+S1 seed 45 PACE-SHAP-cond: deletion -0.214 / cond -0.238, 11318.2 ms
+S1 seed 40 PACE-flip: deletion -0.119 / cond -0.097, 4.6 ms
+S1 seed 41 PACE-flip: deletion -0.047 / cond -0.043, 4.5 ms
+S1 seed 42 PACE-flip: deletion -0.133 / cond -0.149, 4.6 ms
+S1 seed 44 PACE-flip: deletion -0.074 / cond -0.073, 4.1 ms
+S1 seed 43 PACE-flip: deletion -0.036 / cond -0.109, 5.3 ms
+S1 seed 45 PACE-flip: deletion -0.207 / cond -0.195, 4.5 ms
+S1 seed 40 PACE-flip-cond: deletion -0.111 / cond -0.090, 53.8 ms
+S1 seed 41 PACE-flip-cond: deletion -0.036 / cond -0.040, 54.2 ms
+S1 seed 42 PACE-flip-cond: deletion -0.114 / cond -0.138, 55.4 ms
+S1 seed 44 PACE-flip-cond: deletion -0.069 / cond -0.067, 57.8 ms
+S1 seed 45 PACE-flip-cond: deletion -0.204 / cond -0.202, 62.7 ms
+S1 seed 43 PACE-flip-cond: deletion -0.039 / cond -0.109, 65.7 ms
+S1 seed 41 KernelSHAP: deletion -0.112 / cond -0.131, 47000.1 ms
+S1 seed 41 KernelSHAP-cond: deletion -0.061 / cond -0.040, 47002.1 ms
+S1 seed 43 KernelSHAP: deletion -0.112 / cond -0.205, 48472.7 ms
+S1 seed 41 LIME: deletion -0.065 / cond -0.104, 1199.6 ms
+S1 seed 41 Random: deletion 0.267 / cond 0.292, 0.0 ms
+S1 seed 43 KernelSHAP-cond: deletion -0.063 / cond -0.106, 48474.6 ms
+S1 seed 45 KernelSHAP: deletion -0.243 / cond -0.286, 50009.0 ms
+S1 seed 44 KernelSHAP: deletion -0.132 / cond -0.146, 50256.0 ms
+S1 seed 45 KernelSHAP-cond: deletion -0.212 / cond -0.239, 50010.9 ms
+S1 seed 44 KernelSHAP-cond: deletion -0.092 / cond -0.097, 50258.0 ms
+S1 seed 43 LIME: deletion -0.081 / cond -0.151, 1105.4 ms
+S1 seed 43 Random: deletion 0.273 / cond 0.283, 0.0 ms
+S1 seed 45 LIME: deletion -0.216 / cond -0.250, 1110.5 ms
+S1 seed 44 LIME: deletion -0.115 / cond -0.145, 1098.8 ms
+S1 seed 45 Random: deletion 0.280 / cond 0.342, 0.0 ms
+S1 seed 44 Random: deletion 0.323 / cond 0.384, 0.0 ms
+S1 seed 40 KernelSHAP: deletion -0.172 / cond -0.165, 58549.7 ms
+S1 seed 46 PACE-SHAP: deletion -0.059 / cond -0.221, 8334.3 ms
+S1 seed 40 KernelSHAP-cond: deletion -0.120 / cond -0.115, 58551.5 ms
+S1 seed 46 PACE-SHAP-cond: deletion -0.028 / cond -0.164, 8350.2 ms
+S1 seed 46 PACE-flip: deletion -0.010 / cond -0.115, 3.4 ms
+S1 seed 46 PACE-flip-cond: deletion -0.019 / cond -0.114, 40.4 ms
+S1 seed 40 LIME: deletion -0.146 / cond -0.150, 1031.1 ms
+S1 seed 40 Random: deletion 0.235 / cond 0.320, 0.0 ms
+S1 seed 47 PACE-SHAP: deletion -0.146 / cond -0.222, 8443.0 ms
+S1 seed 47 PACE-SHAP-cond: deletion -0.104 / cond -0.179, 8459.0 ms
+S1 seed 47 PACE-flip: deletion -0.108 / cond -0.171, 3.5 ms
+S1 seed 48 PACE-SHAP: deletion -0.039 / cond -0.101, 8502.9 ms
+S1 seed 47 PACE-flip-cond: deletion -0.101 / cond -0.160, 42.1 ms
+S1 seed 49 PACE-SHAP: deletion -0.057 / cond -0.134, 8385.5 ms
+S1 seed 42 KernelSHAP: deletion -0.175 / cond -0.219, 62090.8 ms
+S1 seed 48 PACE-SHAP-cond: deletion 0.007 / cond -0.070, 8518.5 ms
+S1 seed 42 KernelSHAP-cond: deletion -0.132 / cond -0.174, 62092.7 ms
+S1 seed 49 PACE-SHAP-cond: deletion -0.018 / cond -0.085, 8400.7 ms
+S1 seed 48 PACE-flip: deletion 0.006 / cond -0.043, 3.5 ms
+S1 seed 49 PACE-flip: deletion -0.017 / cond -0.073, 3.0 ms
+S1 seed 48 PACE-flip-cond: deletion 0.008 / cond -0.039, 38.5 ms
+S1 seed 49 PACE-flip-cond: deletion -0.017 / cond -0.060, 40.5 ms
+S1 seed 42 LIME: deletion -0.142 / cond -0.207, 1113.7 ms
+S1 seed 42 Random: deletion 0.179 / cond 0.203, 0.0 ms
+S2 seed 40 PACE-SHAP: deletion -0.119 / cond -0.107, 8098.7 ms
+S2 seed 40 PACE-SHAP-cond: deletion -0.076 / cond -0.067, 8113.7 ms
+S2 seed 40 PACE-flip: deletion -0.083 / cond -0.044, 4.0 ms
+S2 seed 40 PACE-flip-cond: deletion -0.079 / cond -0.037, 43.1 ms
+S2 seed 41 PACE-SHAP: deletion -0.185 / cond -0.210, 8281.0 ms
+S2 seed 41 PACE-SHAP-cond: deletion -0.129 / cond -0.148, 8296.0 ms
+S2 seed 41 PACE-flip: deletion -0.144 / cond -0.129, 2.9 ms
+S2 seed 41 PACE-flip-cond: deletion -0.132 / cond -0.118, 42.1 ms
+S1 seed 49 KernelSHAP: deletion -0.058 / cond -0.134, 47144.1 ms
+S1 seed 49 KernelSHAP-cond: deletion -0.023 / cond -0.091, 47146.0 ms
+S1 seed 49 LIME: deletion -0.040 / cond -0.117, 1140.8 ms
+S1 seed 49 Random: deletion 0.316 / cond 0.333, 0.0 ms
+S1 seed 46 KernelSHAP: deletion -0.060 / cond -0.213, 54573.4 ms
+S1 seed 46 KernelSHAP-cond: deletion -0.020 / cond -0.139, 54575.1 ms
+S1 seed 46 LIME: deletion -0.021 / cond -0.169, 1158.3 ms
+S1 seed 46 Random: deletion 0.273 / cond 0.246, 0.0 ms
+S1 seed 47 KernelSHAP: deletion -0.144 / cond -0.226, 58856.2 ms
+S1 seed 47 KernelSHAP-cond: deletion -0.094 / cond -0.146, 58858.1 ms
+S1 seed 48 KernelSHAP: deletion -0.039 / cond -0.111, 59142.5 ms
+S2 seed 42 PACE-SHAP: deletion -0.107 / cond -0.138, 8149.2 ms
+S1 seed 47 LIME: deletion -0.110 / cond -0.179, 1138.1 ms
+S1 seed 48 KernelSHAP-cond: deletion 0.016 / cond -0.053, 59144.3 ms
+S2 seed 42 PACE-SHAP-cond: deletion -0.064 / cond -0.091, 8164.2 ms
+S1 seed 47 Random: deletion 0.298 / cond 0.322, 0.0 ms
+S2 seed 42 PACE-flip: deletion -0.034 / cond -0.069, 3.0 ms
+S2 seed 40 KernelSHAP: deletion -0.112 / cond -0.085, 52948.1 ms
+S2 seed 40 KernelSHAP-cond: deletion -0.073 / cond -0.057, 52949.9 ms
+S2 seed 42 PACE-flip-cond: deletion -0.030 / cond -0.051, 40.5 ms
+S1 seed 48 LIME: deletion -0.008 / cond -0.075, 1109.9 ms
+S1 seed 48 Random: deletion 0.350 / cond 0.362, 0.0 ms
+S2 seed 43 PACE-SHAP: deletion -0.141 / cond -0.162, 8056.3 ms
+S2 seed 40 LIME: deletion -0.091 / cond -0.094, 1161.2 ms
+S2 seed 43 PACE-SHAP-cond: deletion -0.064 / cond -0.108, 8072.4 ms
+S2 seed 40 Random: deletion 0.230 / cond 0.298, 0.0 ms
+S2 seed 43 PACE-flip: deletion -0.094 / cond -0.112, 3.9 ms
+S2 seed 43 PACE-flip-cond: deletion -0.095 / cond -0.126, 40.3 ms
+S2 seed 44 PACE-SHAP: deletion -0.233 / cond -0.242, 8287.7 ms
+S2 seed 44 PACE-SHAP-cond: deletion -0.178 / cond -0.167, 8303.4 ms
+S2 seed 44 PACE-flip: deletion -0.174 / cond -0.144, 3.2 ms
+S2 seed 44 PACE-flip-cond: deletion -0.154 / cond -0.152, 41.7 ms
+S2 seed 45 PACE-SHAP: deletion -0.099 / cond -0.208, 8272.7 ms
+S2 seed 45 PACE-SHAP-cond: deletion -0.054 / cond -0.127, 8288.3 ms
+S2 seed 45 PACE-flip: deletion -0.041 / cond -0.102, 3.0 ms
+S2 seed 46 PACE-SHAP: deletion -0.136 / cond -0.124, 8245.5 ms
+S2 seed 45 PACE-flip-cond: deletion -0.037 / cond -0.087, 42.4 ms
+S2 seed 46 PACE-SHAP-cond: deletion -0.069 / cond -0.040, 8261.6 ms
+S2 seed 46 PACE-flip: deletion -0.079 / cond -0.040, 3.8 ms
+S2 seed 41 KernelSHAP: deletion -0.183 / cond -0.194, 61281.3 ms
+S2 seed 41 KernelSHAP-cond: deletion -0.112 / cond -0.121, 61283.0 ms
+S2 seed 46 PACE-flip-cond: deletion -0.070 / cond -0.027, 43.3 ms
+S2 seed 41 LIME: deletion -0.138 / cond -0.183, 1205.2 ms
+S2 seed 41 Random: deletion 0.212 / cond 0.277, 0.0 ms
+S2 seed 47 PACE-SHAP: deletion -0.183 / cond -0.178, 8204.4 ms
+S2 seed 47 PACE-SHAP-cond: deletion -0.149 / cond -0.137, 8220.1 ms
+S2 seed 47 PACE-flip: deletion -0.130 / cond -0.106, 4.0 ms
+S2 seed 47 PACE-flip-cond: deletion -0.122 / cond -0.109, 46.0 ms
+S2 seed 42 KernelSHAP: deletion -0.107 / cond -0.123, 55244.9 ms
+S2 seed 42 KernelSHAP-cond: deletion -0.066 / cond -0.074, 55247.1 ms
+S2 seed 43 KernelSHAP: deletion -0.142 / cond -0.168, 53469.4 ms
+S2 seed 43 KernelSHAP-cond: deletion -0.047 / cond -0.086, 53471.4 ms
+S2 seed 42 LIME: deletion -0.079 / cond -0.107, 1208.3 ms
+S2 seed 42 Random: deletion 0.260 / cond 0.293, 0.0 ms
+S2 seed 43 LIME: deletion -0.105 / cond -0.166, 1182.9 ms
+S2 seed 43 Random: deletion 0.271 / cond 0.280, 0.0 ms
+S2 seed 44 KernelSHAP: deletion -0.230 / cond -0.240, 55027.4 ms
+S2 seed 44 KernelSHAP-cond: deletion -0.173 / cond -0.174, 55029.4 ms
+S2 seed 44 LIME: deletion -0.200 / cond -0.191, 1083.9 ms
+S2 seed 44 Random: deletion 0.214 / cond 0.222, 0.0 ms
+S2 seed 48 PACE-SHAP: deletion -0.097 / cond -0.187, 8171.6 ms
+S2 seed 48 PACE-SHAP-cond: deletion -0.044 / cond -0.139, 8186.3 ms
+S2 seed 49 PACE-SHAP: deletion -0.123 / cond -0.169, 8076.8 ms
+S2 seed 46 KernelSHAP: deletion -0.133 / cond -0.108, 55031.8 ms
+S2 seed 48 PACE-flip: deletion -0.061 / cond -0.103, 3.5 ms
+S2 seed 49 PACE-SHAP-cond: deletion -0.066 / cond -0.073, 8091.8 ms
+S2 seed 46 KernelSHAP-cond: deletion -0.044 / cond -0.015, 55033.6 ms
+S2 seed 48 PACE-flip-cond: deletion -0.060 / cond -0.099, 40.4 ms
+S2 seed 49 PACE-flip: deletion -0.051 / cond -0.092, 2.9 ms
+S2 seed 45 KernelSHAP: deletion -0.089 / cond -0.200, 57471.1 ms
+S2 seed 49 PACE-flip-cond: deletion -0.060 / cond -0.087, 44.1 ms
+S2 seed 45 KernelSHAP-cond: deletion -0.051 / cond -0.102, 57472.6 ms
+S2 seed 46 LIME: deletion -0.104 / cond -0.115, 1174.7 ms
+S2 seed 46 Random: deletion 0.237 / cond 0.288, 0.0 ms
+S2 seed 45 LIME: deletion -0.055 / cond -0.101, 1230.3 ms
+S2 seed 45 Random: deletion 0.317 / cond 0.321, 0.0 ms
+S3 seed 40 PACE-SHAP: deletion -0.057 / cond -0.085, 7963.4 ms
+S3 seed 40 PACE-SHAP-cond: deletion -0.014 / cond -0.064, 7978.5 ms
+S3 seed 40 PACE-flip: deletion -0.007 / cond -0.009, 3.1 ms
+S3 seed 40 PACE-flip-cond: deletion 0.001 / cond -0.004, 40.5 ms
+S3 seed 41 PACE-SHAP: deletion -0.026 / cond -0.075, 8067.1 ms
+S3 seed 41 PACE-SHAP-cond: deletion 0.011 / cond -0.027, 8082.8 ms
+S3 seed 42 PACE-SHAP: deletion -0.046 / cond -0.090, 8036.6 ms
+S3 seed 41 PACE-flip: deletion 0.019 / cond 0.004, 4.1 ms
+S3 seed 42 PACE-SHAP-cond: deletion -0.004 / cond -0.038, 8052.3 ms
+S3 seed 41 PACE-flip-cond: deletion 0.022 / cond 0.011, 44.1 ms
+S3 seed 42 PACE-flip: deletion 0.009 / cond -0.036, 3.4 ms
+S3 seed 42 PACE-flip-cond: deletion 0.013 / cond -0.026, 46.2 ms
+S2 seed 47 KernelSHAP: deletion -0.188 / cond -0.178, 58005.7 ms
+S2 seed 47 KernelSHAP-cond: deletion -0.121 / cond -0.098, 58007.5 ms
+S2 seed 47 LIME: deletion -0.153 / cond -0.166, 1285.9 ms
+S2 seed 47 Random: deletion 0.203 / cond 0.208, 0.0 ms
+S3 seed 43 PACE-SHAP: deletion -0.084 / cond -0.101, 8072.2 ms
+S3 seed 43 PACE-SHAP-cond: deletion -0.032 / cond -0.054, 8087.1 ms
+S3 seed 43 PACE-flip: deletion -0.015 / cond -0.012, 3.8 ms
+S3 seed 43 PACE-flip-cond: deletion -0.014 / cond -0.014, 45.2 ms
+S2 seed 48 KernelSHAP: deletion -0.093 / cond -0.171, 52000.0 ms
+S2 seed 48 KernelSHAP-cond: deletion -0.037 / cond -0.119, 52001.7 ms
+S2 seed 48 LIME: deletion -0.047 / cond -0.162, 1232.6 ms
+S2 seed 48 Random: deletion 0.287 / cond 0.309, 0.0 ms
+S3 seed 42 KernelSHAP: deletion -0.042 / cond -0.094, 47163.3 ms
+S3 seed 42 KernelSHAP-cond: deletion 0.021 / cond -0.009, 47165.0 ms
+S2 seed 49 KernelSHAP: deletion -0.121 / cond -0.164, 61086.6 ms
+S2 seed 49 KernelSHAP-cond: deletion -0.057 / cond -0.077, 61088.3 ms
+S3 seed 42 LIME: deletion 0.025 / cond -0.006, 1141.9 ms
+S3 seed 42 Random: deletion 0.274 / cond 0.325, 0.0 ms
+S3 seed 44 PACE-SHAP: deletion -0.004 / cond -0.081, 7881.1 ms
+S3 seed 40 KernelSHAP: deletion -0.046 / cond -0.079, 54795.5 ms
+S2 seed 49 LIME: deletion -0.096 / cond -0.142, 1138.3 ms
+S3 seed 44 PACE-SHAP-cond: deletion 0.054 / cond -0.022, 7895.2 ms
+S3 seed 40 KernelSHAP-cond: deletion -0.001 / cond -0.029, 54797.2 ms
+S2 seed 49 Random: deletion 0.235 / cond 0.266, 0.0 ms
+S3 seed 44 PACE-flip: deletion 0.072 / cond 0.055, 3.4 ms
+S3 seed 44 PACE-flip-cond: deletion 0.082 / cond 0.055, 33.8 ms
+S3 seed 40 LIME: deletion 0.013 / cond 0.006, 1119.8 ms
+S3 seed 40 Random: deletion 0.275 / cond 0.323, 0.0 ms
+S3 seed 45 PACE-SHAP: deletion -0.090 / cond -0.069, 7972.5 ms
+S3 seed 45 PACE-SHAP-cond: deletion -0.035 / cond -0.017, 7987.3 ms
+S3 seed 45 PACE-flip: deletion -0.037 / cond -0.020, 3.8 ms
+S3 seed 41 KernelSHAP: deletion -0.023 / cond -0.072, 60421.5 ms
+S3 seed 46 PACE-SHAP: deletion -0.044 / cond -0.099, 7969.0 ms
+S3 seed 45 PACE-flip-cond: deletion -0.027 / cond -0.006, 43.0 ms
+S3 seed 41 KernelSHAP-cond: deletion 0.020 / cond -0.014, 60423.3 ms
+S3 seed 46 PACE-SHAP-cond: deletion 0.009 / cond -0.048, 7984.0 ms
+S3 seed 46 PACE-flip: deletion 0.003 / cond -0.039, 3.5 ms
+S3 seed 43 KernelSHAP: deletion -0.070 / cond -0.099, 45746.3 ms
+S3 seed 46 PACE-flip-cond: deletion 0.003 / cond -0.036, 40.1 ms
+S3 seed 43 KernelSHAP-cond: deletion -0.020 / cond -0.047, 45748.0 ms
+S3 seed 47 PACE-SHAP: deletion -0.041 / cond -0.083, 8019.7 ms
+S3 seed 41 LIME: deletion 0.019 / cond -0.023, 1174.4 ms
+S3 seed 47 PACE-SHAP-cond: deletion 0.000 / cond -0.025, 8034.8 ms
+S3 seed 41 Random: deletion 0.312 / cond 0.331, 0.0 ms
+S3 seed 47 PACE-flip: deletion 0.038 / cond 0.020, 3.4 ms
+S3 seed 43 LIME: deletion -0.002 / cond -0.009, 1146.5 ms
+S3 seed 47 PACE-flip-cond: deletion 0.044 / cond 0.023, 41.9 ms
+S3 seed 43 Random: deletion 0.329 / cond 0.365, 0.0 ms
+S3 seed 48 PACE-SHAP: deletion -0.016 / cond -0.088, 7922.8 ms
+S3 seed 48 PACE-SHAP-cond: deletion 0.024 / cond -0.038, 7938.6 ms
+S3 seed 48 PACE-flip: deletion 0.043 / cond -0.008, 3.5 ms
+S3 seed 49 PACE-SHAP: deletion -0.118 / cond -0.120, 8101.9 ms
+S3 seed 48 PACE-flip-cond: deletion 0.055 / cond 0.016, 40.0 ms
+S3 seed 49 PACE-SHAP-cond: deletion -0.076 / cond -0.057, 8116.8 ms
+S3 seed 49 PACE-flip: deletion -0.057 / cond -0.049, 3.9 ms
+S3 seed 49 PACE-flip-cond: deletion -0.045 / cond -0.049, 41.7 ms
+S3 seed 44 KernelSHAP: deletion -0.002 / cond -0.088, 53146.7 ms
+S3 seed 44 KernelSHAP-cond: deletion 0.071 / cond -0.015, 53148.3 ms
+S3 seed 44 LIME: deletion 0.034 / cond -0.049, 1241.8 ms
+S3 seed 44 Random: deletion 0.356 / cond 0.379, 0.0 ms
+S1c seed 40 PACE-SHAP: deletion -0.117 / cond -0.097, 6838.7 ms
+S3 seed 45 KernelSHAP: deletion -0.085 / cond -0.060, 55702.0 ms
+S1c seed 40 PACE-SHAP-cond: deletion -0.093 / cond -0.062, 6853.4 ms
+S1c seed 40 PACE-flip: deletion -0.074 / cond -0.043, 3.3 ms
+S3 seed 45 KernelSHAP-cond: deletion -0.021 / cond 0.001, 55703.8 ms
+S1c seed 40 PACE-flip-cond: deletion -0.058 / cond -0.012, 38.9 ms
+S3 seed 45 LIME: deletion -0.021 / cond -0.007, 1191.3 ms
+S3 seed 45 Random: deletion 0.343 / cond 0.363, 0.0 ms
+S3 seed 47 KernelSHAP: deletion -0.037 / cond -0.077, 56897.3 ms
+S3 seed 47 KernelSHAP-cond: deletion 0.008 / cond -0.024, 56899.2 ms
+S3 seed 47 LIME: deletion 0.008 / cond 0.023, 1142.9 ms
+S3 seed 47 Random: deletion 0.392 / cond 0.408, 0.0 ms
+S3 seed 46 KernelSHAP: deletion -0.036 / cond -0.104, 62634.5 ms
+S3 seed 46 KernelSHAP-cond: deletion 0.018 / cond -0.045, 62636.3 ms
+S3 seed 49 KernelSHAP: deletion -0.108 / cond -0.114, 50861.2 ms
+S3 seed 49 KernelSHAP-cond: deletion -0.064 / cond -0.020, 50863.0 ms
+S1c seed 41 PACE-SHAP: deletion -0.050 / cond -0.054, 6720.1 ms
+S3 seed 48 KernelSHAP: deletion -0.012 / cond -0.086, 53242.9 ms
+S3 seed 46 LIME: deletion 0.049 / cond -0.010, 1156.9 ms
+S1c seed 41 PACE-SHAP-cond: deletion -0.026 / cond 0.014, 6734.7 ms
+S3 seed 48 KernelSHAP-cond: deletion 0.032 / cond -0.024, 53244.8 ms
+S1c seed 41 PACE-flip: deletion -0.005 / cond -0.009, 3.5 ms
+S3 seed 46 Random: deletion 0.347 / cond 0.369, 0.0 ms
+S3 seed 49 LIME: deletion -0.004 / cond -0.008, 1100.0 ms
+S1c seed 41 PACE-flip-cond: deletion 0.012 / cond 0.010, 30.7 ms
+S3 seed 49 Random: deletion 0.287 / cond 0.309, 0.0 ms
+S3 seed 48 LIME: deletion 0.031 / cond -0.033, 1084.2 ms
+S3 seed 48 Random: deletion 0.350 / cond 0.341, 0.0 ms
+S1c seed 42 PACE-SHAP: deletion -0.106 / cond -0.134, 6832.7 ms
+S1c seed 42 PACE-SHAP-cond: deletion -0.051 / cond -0.095, 6847.5 ms
+S1c seed 42 PACE-flip: deletion -0.039 / cond -0.059, 3.1 ms
+S1c seed 42 PACE-flip-cond: deletion -0.018 / cond -0.040, 34.0 ms
+S1c seed 43 PACE-SHAP: deletion -0.008 / cond -0.082, 6735.9 ms
+S1c seed 43 PACE-SHAP-cond: deletion 0.019 / cond -0.053, 6751.2 ms
+S1c seed 44 PACE-SHAP: deletion -0.104 / cond -0.087, 6910.8 ms
+S1c seed 43 PACE-flip: deletion 0.048 / cond -0.014, 3.4 ms
+S1c seed 44 PACE-SHAP-cond: deletion -0.073 / cond -0.063, 6925.2 ms
+S1c seed 43 PACE-flip-cond: deletion 0.068 / cond 0.005, 33.9 ms
+S1c seed 44 PACE-flip: deletion -0.044 / cond -0.037, 2.7 ms
+S1c seed 45 PACE-SHAP: deletion -0.166 / cond -0.163, 6761.4 ms
+S1c seed 44 PACE-flip-cond: deletion -0.010 / cond 0.000, 41.4 ms
+S1c seed 45 PACE-SHAP-cond: deletion -0.140 / cond -0.133, 6776.2 ms
+S1c seed 45 PACE-flip: deletion -0.126 / cond -0.114, 3.1 ms
+S1c seed 45 PACE-flip-cond: deletion -0.098 / cond -0.070, 36.6 ms
+S1c seed 40 KernelSHAP: deletion -0.120 / cond -0.101, 48378.7 ms
+S1c seed 40 KernelSHAP-cond: deletion -0.082 / cond -0.049, 48380.5 ms
+S1c seed 40 LIME: deletion -0.109 / cond -0.080, 1157.5 ms
+S1c seed 40 Random: deletion 0.274 / cond 0.393, 0.0 ms
+S1c seed 42 KernelSHAP: deletion -0.098 / cond -0.127, 41856.1 ms
+S1c seed 42 KernelSHAP-cond: deletion -0.039 / cond -0.085, 41857.9 ms
+S1c seed 46 PACE-SHAP: deletion -0.021 / cond -0.123, 6747.3 ms
+S1c seed 42 LIME: deletion -0.085 / cond -0.146, 1008.1 ms
+S1c seed 46 PACE-SHAP-cond: deletion 0.019 / cond -0.069, 6762.3 ms
+S1c seed 42 Random: deletion 0.300 / cond 0.334, 0.0 ms
+S1c seed 46 PACE-flip: deletion 0.028 / cond -0.065, 3.5 ms
+S1c seed 41 KernelSHAP: deletion -0.043 / cond -0.043, 49293.9 ms
+S1c seed 46 PACE-flip-cond: deletion 0.034 / cond -0.042, 36.0 ms
+S1c seed 41 KernelSHAP-cond: deletion -0.019 / cond 0.038, 49295.8 ms
+S1c seed 41 LIME: deletion -0.033 / cond -0.033, 1028.8 ms
+S1c seed 41 Random: deletion 0.349 / cond 0.449, 0.0 ms
+S1c seed 45 KernelSHAP: deletion -0.167 / cond -0.160, 41916.2 ms
+S1c seed 45 KernelSHAP-cond: deletion -0.140 / cond -0.132, 41918.0 ms
+S1c seed 45 LIME: deletion -0.147 / cond -0.156, 983.5 ms
+S1c seed 45 Random: deletion 0.356 / cond 0.456, 0.0 ms
+S1c seed 44 KernelSHAP: deletion -0.106 / cond -0.086, 46204.0 ms
+S1c seed 44 KernelSHAP-cond: deletion -0.064 / cond -0.054, 46205.9 ms
+S1c seed 47 PACE-SHAP: deletion -0.066 / cond -0.090, 6653.2 ms
+S1c seed 47 PACE-SHAP-cond: deletion -0.026 / cond -0.055, 6668.2 ms
+S1c seed 47 PACE-flip: deletion -0.019 / cond -0.043, 3.3 ms
+S1c seed 47 PACE-flip-cond: deletion -0.009 / cond -0.020, 37.8 ms
+S1c seed 44 LIME: deletion -0.091 / cond -0.073, 1039.6 ms
+S1c seed 44 Random: deletion 0.332 / cond 0.442, 0.0 ms
+S1c seed 48 PACE-SHAP: deletion 0.046 / cond -0.010, 6713.2 ms
+S1c seed 48 PACE-SHAP-cond: deletion 0.080 / cond 0.034, 6727.7 ms
+S1c seed 48 PACE-flip: deletion 0.080 / cond 0.039, 2.6 ms
+S1c seed 48 PACE-flip-cond: deletion 0.102 / cond 0.078, 34.6 ms
+S1c seed 49 PACE-SHAP: deletion -0.041 / cond -0.101, 6702.3 ms
+S1c seed 49 PACE-SHAP-cond: deletion -0.009 / cond -0.033, 6716.5 ms
+S1c seed 49 PACE-flip: deletion -0.005 / cond -0.060, 3.2 ms
+S1c seed 49 PACE-flip-cond: deletion 0.018 / cond -0.029, 35.5 ms
+S2c seed 40 PACE-SHAP: deletion -0.155 / cond -0.163, 6731.7 ms
+S2c seed 40 PACE-SHAP-cond: deletion -0.102 / cond -0.095, 6746.4 ms
+S1c seed 43 KernelSHAP: deletion -0.015 / cond -0.087, 57807.6 ms
+S2c seed 40 PACE-flip: deletion -0.094 / cond -0.089, 4.5 ms
+S1c seed 43 KernelSHAP-cond: deletion 0.032 / cond -0.019, 57809.3 ms
+S2c seed 40 PACE-flip-cond: deletion -0.060 / cond -0.049, 46.2 ms
+S1c seed 43 LIME: deletion 0.000 / cond -0.072, 1203.6 ms
+S1c seed 43 Random: deletion 0.385 / cond 0.439, 0.0 ms
+S2c seed 41 PACE-SHAP: deletion -0.086 / cond -0.161, 6512.3 ms
+S2c seed 41 PACE-SHAP-cond: deletion -0.059 / cond -0.111, 6526.4 ms
+S2c seed 41 PACE-flip: deletion -0.045 / cond -0.066, 2.7 ms
+S2c seed 41 PACE-flip-cond: deletion -0.027 / cond -0.053, 37.0 ms
+S1c seed 46 KernelSHAP: deletion -0.009 / cond -0.120, 41337.6 ms
+S1c seed 46 KernelSHAP-cond: deletion 0.028 / cond -0.078, 41339.3 ms
+S1c seed 46 LIME: deletion 0.003 / cond -0.110, 1031.7 ms
+S1c seed 46 Random: deletion 0.362 / cond 0.409, 0.0 ms
+S1c seed 47 KernelSHAP: deletion -0.073 / cond -0.095, 41378.3 ms
+S1c seed 47 KernelSHAP-cond: deletion -0.023 / cond -0.043, 41380.1 ms
+S1c seed 47 LIME: deletion -0.045 / cond -0.073, 1043.5 ms
+S1c seed 47 Random: deletion 0.339 / cond 0.466, 0.0 ms
+S2c seed 42 PACE-SHAP: deletion -0.147 / cond -0.169, 7226.7 ms
+S2c seed 42 PACE-SHAP-cond: deletion -0.102 / cond -0.123, 7242.9 ms
+S2c seed 42 PACE-flip: deletion -0.088 / cond -0.092, 3.1 ms
+S1c seed 48 KernelSHAP: deletion 0.048 / cond -0.008, 41946.1 ms
+S2c seed 42 PACE-flip-cond: deletion -0.060 / cond -0.059, 36.9 ms
+S1c seed 48 KernelSHAP-cond: deletion 0.081 / cond 0.044, 41947.8 ms
+S1c seed 48 LIME: deletion 0.057 / cond -0.011, 1022.9 ms
+S1c seed 48 Random: deletion 0.407 / cond 0.507, 0.0 ms
+S2c seed 43 PACE-SHAP: deletion -0.087 / cond -0.125, 6667.7 ms
+S2c seed 43 PACE-SHAP-cond: deletion -0.041 / cond -0.070, 6682.8 ms
+S2c seed 43 PACE-flip: deletion -0.053 / cond -0.063, 3.4 ms
+S2c seed 43 PACE-flip-cond: deletion -0.027 / cond -0.036, 31.7 ms
+S2c seed 44 PACE-SHAP: deletion -0.105 / cond -0.130, 6595.9 ms
+S2c seed 44 PACE-SHAP-cond: deletion -0.064 / cond -0.075, 6610.8 ms
+S2c seed 44 PACE-flip: deletion -0.049 / cond -0.063, 3.5 ms
+S2c seed 44 PACE-flip-cond: deletion -0.048 / cond -0.043, 36.0 ms
+S1c seed 49 KernelSHAP: deletion -0.042 / cond -0.096, 50959.4 ms
+S1c seed 49 KernelSHAP-cond: deletion -0.013 / cond -0.037, 50961.1 ms
+S1c seed 49 LIME: deletion -0.034 / cond -0.069, 1021.9 ms
+S1c seed 49 Random: deletion 0.320 / cond 0.375, 0.0 ms
+S2c seed 40 KernelSHAP: deletion -0.146 / cond -0.160, 50529.2 ms
+S2c seed 40 KernelSHAP-cond: deletion -0.088 / cond -0.080, 50531.0 ms
+S2c seed 40 LIME: deletion -0.128 / cond -0.131, 925.8 ms
+S2c seed 40 Random: deletion 0.262 / cond 0.384, 0.0 ms
+S2c seed 45 PACE-SHAP: deletion -0.183 / cond -0.190, 6444.8 ms
+S2c seed 45 PACE-SHAP-cond: deletion -0.169 / cond -0.159, 6459.7 ms
+S2c seed 41 KernelSHAP: deletion -0.085 / cond -0.148, 46307.0 ms
+S2c seed 45 PACE-flip: deletion -0.131 / cond -0.131, 4.0 ms
+S2c seed 41 KernelSHAP-cond: deletion -0.062 / cond -0.096, 46308.8 ms
+S2c seed 45 PACE-flip-cond: deletion -0.099 / cond -0.109, 34.4 ms
+S2c seed 41 LIME: deletion -0.069 / cond -0.132, 972.5 ms
+S2c seed 41 Random: deletion 0.318 / cond 0.400, 0.0 ms
+S2c seed 46 PACE-SHAP: deletion -0.183 / cond -0.206, 6504.3 ms
+S2c seed 46 PACE-SHAP-cond: deletion -0.146 / cond -0.147, 6518.5 ms
+S2c seed 46 PACE-flip: deletion -0.140 / cond -0.128, 3.3 ms
+S2c seed 46 PACE-flip-cond: deletion -0.115 / cond -0.089, 37.3 ms
+S2c seed 47 PACE-SHAP: deletion -0.134 / cond -0.205, 6468.6 ms
+S2c seed 47 PACE-SHAP-cond: deletion -0.108 / cond -0.141, 6483.8 ms
+S2c seed 47 PACE-flip: deletion -0.093 / cond -0.114, 3.0 ms
+S2c seed 47 PACE-flip-cond: deletion -0.069 / cond -0.098, 35.8 ms
+S2c seed 43 KernelSHAP: deletion -0.085 / cond -0.130, 39119.3 ms
+S2c seed 43 KernelSHAP-cond: deletion -0.031 / cond -0.064, 39121.1 ms
+S2c seed 43 LIME: deletion -0.062 / cond -0.094, 1028.7 ms
+S2c seed 43 Random: deletion 0.318 / cond 0.369, 0.0 ms
+S2c seed 42 KernelSHAP: deletion -0.139 / cond -0.165, 52520.0 ms
+S2c seed 42 KernelSHAP-cond: deletion -0.093 / cond -0.126, 52521.6 ms
+S2c seed 42 LIME: deletion -0.117 / cond -0.147, 953.3 ms
+S2c seed 42 Random: deletion 0.273 / cond 0.308, 0.0 ms
+S2c seed 48 PACE-SHAP: deletion -0.081 / cond -0.069, 6560.6 ms
+S2c seed 48 PACE-SHAP-cond: deletion -0.044 / cond -0.028, 6576.1 ms
+S2c seed 48 PACE-flip: deletion -0.028 / cond -0.005, 3.3 ms
+S2c seed 48 PACE-flip-cond: deletion 0.005 / cond 0.037, 37.1 ms
+S2c seed 44 KernelSHAP: deletion -0.103 / cond -0.128, 46750.1 ms
+S2c seed 44 KernelSHAP-cond: deletion -0.053 / cond -0.057, 46751.9 ms
+S2c seed 44 LIME: deletion -0.082 / cond -0.100, 939.3 ms
+S2c seed 44 Random: deletion 0.299 / cond 0.369, 0.0 ms
+wine seed 40 PACE-SHAP: deletion -0.055 / cond 0.072, 51.9 ms
+wine seed 40 PACE-SHAP-cond: deletion 0.008 / cond 0.166, 63.0 ms
+wine seed 40 PACE-flip: deletion -0.044 / cond 0.118, 0.3 ms
+wine seed 40 PACE-flip-cond: deletion -0.031 / cond 0.105, 3.0 ms
+wine seed 40 KernelSHAP: deletion -0.056 / cond 0.072, 439.6 ms
+wine seed 40 KernelSHAP-cond: deletion 0.025 / cond 0.196, 440.2 ms
+wine seed 40 LIME: deletion -0.011 / cond 0.140, 44.6 ms
+wine seed 40 Random: deletion 0.244 / cond 0.623, 0.0 ms
+wine seed 41 PACE-SHAP: deletion -0.101 / cond -0.027, 46.7 ms
+wine seed 41 PACE-SHAP-cond: deletion -0.033 / cond 0.034, 52.1 ms
+wine seed 41 PACE-flip: deletion -0.077 / cond -0.015, 0.3 ms
+wine seed 41 PACE-flip-cond: deletion -0.050 / cond -0.000, 2.3 ms
+wine seed 41 KernelSHAP: deletion -0.104 / cond -0.023, 411.4 ms
+wine seed 41 KernelSHAP-cond: deletion -0.039 / cond 0.061, 412.2 ms
+wine seed 41 LIME: deletion -0.074 / cond 0.023, 45.8 ms
+wine seed 41 Random: deletion 0.260 / cond 0.590, 0.0 ms
+wine seed 42 PACE-SHAP: deletion -0.067 / cond 0.044, 51.4 ms
+wine seed 42 PACE-SHAP-cond: deletion 0.002 / cond 0.111, 60.8 ms
+wine seed 42 PACE-flip: deletion -0.053 / cond 0.102, 0.4 ms
+wine seed 42 PACE-flip-cond: deletion -0.031 / cond 0.095, 2.1 ms
+wine seed 42 KernelSHAP: deletion -0.068 / cond 0.046, 443.8 ms
+wine seed 42 KernelSHAP-cond: deletion -0.001 / cond 0.118, 444.5 ms
+wine seed 42 LIME: deletion -0.024 / cond 0.122, 48.0 ms
+wine seed 42 Random: deletion 0.247 / cond 0.566, 0.0 ms
+wine seed 43 PACE-SHAP: deletion -0.116 / cond 0.040, 48.9 ms
+wine seed 43 PACE-SHAP-cond: deletion -0.040 / cond 0.100, 56.8 ms
+wine seed 43 PACE-flip: deletion -0.093 / cond 0.072, 0.4 ms
+wine seed 43 PACE-flip-cond: deletion -0.068 / cond 0.082, 2.0 ms
+S2c seed 49 PACE-SHAP: deletion -0.130 / cond -0.149, 6524.4 ms
+wine seed 43 KernelSHAP: deletion -0.118 / cond 0.034, 417.7 ms
+wine seed 43 KernelSHAP-cond: deletion -0.035 / cond 0.136, 418.5 ms
+wine seed 43 LIME: deletion -0.088 / cond 0.085, 44.0 ms
+wine seed 43 Random: deletion 0.189 / cond 0.476, 0.0 ms
+S2c seed 49 PACE-SHAP-cond: deletion -0.086 / cond -0.100, 6539.0 ms
+wine seed 44 PACE-SHAP: deletion -0.074 / cond 0.099, 52.6 ms
+wine seed 44 PACE-SHAP-cond: deletion 0.003 / cond 0.178, 59.7 ms
+wine seed 44 PACE-flip: deletion -0.050 / cond 0.151, 0.3 ms
+wine seed 44 PACE-flip-cond: deletion -0.031 / cond 0.153, 2.4 ms
+wine seed 44 KernelSHAP: deletion -0.072 / cond 0.092, 431.5 ms
+wine seed 44 KernelSHAP-cond: deletion 0.002 / cond 0.168, 432.1 ms
+S2c seed 49 PACE-flip: deletion -0.065 / cond -0.069, 3.1 ms
+wine seed 44 LIME: deletion -0.035 / cond 0.143, 46.5 ms
+wine seed 44 Random: deletion 0.276 / cond 0.652, 0.0 ms
+wine seed 45 PACE-SHAP: deletion -0.084 / cond 0.119, 47.5 ms
+wine seed 45 PACE-SHAP-cond: deletion -0.018 / cond 0.173, 59.3 ms
+wine seed 45 PACE-flip: deletion -0.065 / cond 0.140, 0.3 ms
+wine seed 45 PACE-flip-cond: deletion -0.045 / cond 0.125, 2.8 ms
+S2c seed 49 PACE-flip-cond: deletion -0.038 / cond -0.038, 35.3 ms
+wine seed 45 KernelSHAP: deletion -0.084 / cond 0.118, 431.7 ms
+wine seed 45 KernelSHAP-cond: deletion -0.019 / cond 0.184, 432.3 ms
+wine seed 45 LIME: deletion -0.051 / cond 0.140, 48.7 ms
+wine seed 45 Random: deletion 0.216 / cond 0.612, 0.0 ms
+wine seed 46 PACE-SHAP: deletion -0.107 / cond 0.038, 47.4 ms
+wine seed 46 PACE-SHAP-cond: deletion -0.041 / cond 0.106, 54.2 ms
+wine seed 46 PACE-flip: deletion -0.092 / cond 0.063, 0.2 ms
+wine seed 46 PACE-flip-cond: deletion -0.083 / cond 0.071, 2.1 ms
+wine seed 46 KernelSHAP: deletion -0.106 / cond 0.038, 449.6 ms
+wine seed 46 KernelSHAP-cond: deletion -0.034 / cond 0.091, 450.3 ms
+wine seed 46 LIME: deletion -0.065 / cond 0.080, 48.7 ms
+wine seed 46 Random: deletion 0.226 / cond 0.595, 0.0 ms
+wine seed 47 PACE-SHAP: deletion -0.077 / cond 0.070, 56.5 ms
+wine seed 47 PACE-SHAP-cond: deletion -0.009 / cond 0.131, 53.5 ms
+wine seed 47 PACE-flip: deletion -0.062 / cond 0.117, 0.2 ms
+wine seed 47 PACE-flip-cond: deletion -0.051 / cond 0.116, 3.4 ms
+wine seed 47 KernelSHAP: deletion -0.078 / cond 0.069, 448.3 ms
+wine seed 47 KernelSHAP-cond: deletion 0.000 / cond 0.184, 448.9 ms
+wine seed 47 LIME: deletion -0.032 / cond 0.179, 47.0 ms
+wine seed 47 Random: deletion 0.237 / cond 0.614, 0.0 ms
+wine seed 48 PACE-SHAP: deletion -0.042 / cond 0.157, 55.3 ms
+wine seed 48 PACE-SHAP-cond: deletion 0.032 / cond 0.264, 57.6 ms
+wine seed 48 PACE-flip: deletion -0.012 / cond 0.197, 0.4 ms
+wine seed 48 PACE-flip-cond: deletion 0.019 / cond 0.198, 3.4 ms
+wine seed 48 KernelSHAP: deletion -0.044 / cond 0.149, 454.2 ms
+wine seed 48 KernelSHAP-cond: deletion 0.023 / cond 0.234, 454.9 ms
+wine seed 48 LIME: deletion 0.001 / cond 0.200, 48.5 ms
+wine seed 48 Random: deletion 0.258 / cond 0.588, 0.0 ms
+wine seed 49 PACE-SHAP: deletion -0.001 / cond 0.186, 51.3 ms
+wine seed 49 PACE-SHAP-cond: deletion 0.091 / cond 0.222, 58.9 ms
+wine seed 49 PACE-flip: deletion 0.022 / cond 0.210, 0.4 ms
+wine seed 49 PACE-flip-cond: deletion 0.040 / cond 0.209, 1.7 ms
+wine seed 49 KernelSHAP: deletion -0.002 / cond 0.187, 467.2 ms
+wine seed 49 KernelSHAP-cond: deletion 0.082 / cond 0.261, 468.0 ms
+wine seed 49 LIME: deletion 0.039 / cond 0.219, 47.2 ms
+wine seed 49 Random: deletion 0.280 / cond 0.622, 0.0 ms
+breast_cancer seed 40 PACE-SHAP: deletion 0.152 / cond 0.263, 665.3 ms
+breast_cancer seed 40 PACE-SHAP-cond: deletion 0.232 / cond 0.397, 715.4 ms
+breast_cancer seed 40 PACE-flip: deletion 0.173 / cond 0.344, 1.5 ms
+breast_cancer seed 40 PACE-flip-cond: deletion 0.235 / cond 0.433, 6.2 ms
+S2c seed 46 KernelSHAP: deletion -0.184 / cond -0.197, 42360.7 ms
+S2c seed 46 KernelSHAP-cond: deletion -0.118 / cond -0.110, 42362.3 ms
+S2c seed 46 LIME: deletion -0.163 / cond -0.194, 1020.4 ms
+S2c seed 46 Random: deletion 0.222 / cond 0.286, 0.0 ms
+S2c seed 45 KernelSHAP: deletion -0.183 / cond -0.192, 48347.9 ms
+S2c seed 45 KernelSHAP-cond: deletion -0.156 / cond -0.144, 48349.6 ms
+breast_cancer seed 40 KernelSHAP: deletion 0.153 / cond 0.269, 3593.0 ms
+breast_cancer seed 40 KernelSHAP-cond: deletion 0.280 / cond 0.515, 3593.7 ms
+breast_cancer seed 40 LIME: deletion 0.172 / cond 0.236, 102.6 ms
+breast_cancer seed 40 Random: deletion 0.426 / cond 0.763, 0.0 ms
+breast_cancer seed 41 PACE-SHAP: deletion 0.157 / cond 0.270, 657.1 ms
+breast_cancer seed 41 PACE-SHAP-cond: deletion 0.242 / cond 0.366, 681.8 ms
+breast_cancer seed 41 PACE-flip: deletion 0.179 / cond 0.322, 1.4 ms
+S2c seed 45 LIME: deletion -0.162 / cond -0.177, 1070.0 ms
+breast_cancer seed 41 PACE-flip-cond: deletion 0.253 / cond 0.432, 6.3 ms
+S2c seed 45 Random: deletion 0.244 / cond 0.291, 0.0 ms
+breast_cancer seed 42 PACE-SHAP: deletion 0.155 / cond 0.287, 693.1 ms
+breast_cancer seed 42 PACE-SHAP-cond: deletion 0.237 / cond 0.376, 688.6 ms
+breast_cancer seed 42 PACE-flip: deletion 0.197 / cond 0.404, 1.8 ms
+breast_cancer seed 42 PACE-flip-cond: deletion 0.253 / cond 0.411, 7.3 ms
+breast_cancer seed 43 PACE-SHAP: deletion 0.109 / cond 0.251, 777.8 ms
+breast_cancer seed 43 PACE-SHAP-cond: deletion 0.200 / cond 0.387, 850.1 ms
+breast_cancer seed 43 PACE-flip: deletion 0.127 / cond 0.355, 1.5 ms
+breast_cancer seed 43 PACE-flip-cond: deletion 0.183 / cond 0.433, 7.9 ms
+breast_cancer seed 41 KernelSHAP: deletion 0.158 / cond 0.279, 5451.4 ms
+breast_cancer seed 41 KernelSHAP-cond: deletion 0.298 / cond 0.495, 5453.6 ms
+breast_cancer seed 41 LIME: deletion 0.179 / cond 0.235, 129.7 ms
+breast_cancer seed 42 KernelSHAP: deletion 0.155 / cond 0.293, 4677.3 ms
+breast_cancer seed 42 KernelSHAP-cond: deletion 0.287 / cond 0.479, 4679.4 ms
+breast_cancer seed 41 Random: deletion 0.438 / cond 0.749, 0.0 ms
+breast_cancer seed 42 LIME: deletion 0.178 / cond 0.270, 105.0 ms
+breast_cancer seed 42 Random: deletion 0.423 / cond 0.753, 0.0 ms
+breast_cancer seed 43 KernelSHAP: deletion 0.114 / cond 0.263, 4160.4 ms
+breast_cancer seed 43 KernelSHAP-cond: deletion 0.255 / cond 0.506, 4162.5 ms
+breast_cancer seed 43 LIME: deletion 0.135 / cond 0.224, 107.2 ms
+breast_cancer seed 43 Random: deletion 0.388 / cond 0.778, 0.0 ms
+breast_cancer seed 44 PACE-SHAP: deletion 0.202 / cond 0.293, 688.2 ms
+breast_cancer seed 44 PACE-SHAP-cond: deletion 0.277 / cond 0.390, 690.9 ms
+breast_cancer seed 44 PACE-flip: deletion 0.211 / cond 0.343, 1.6 ms
+breast_cancer seed 45 PACE-SHAP: deletion 0.074 / cond 0.180, 640.4 ms
+breast_cancer seed 44 PACE-flip-cond: deletion 0.267 / cond 0.426, 6.2 ms
+breast_cancer seed 45 PACE-SHAP-cond: deletion 0.165 / cond 0.274, 668.5 ms
+breast_cancer seed 45 PACE-flip: deletion 0.118 / cond 0.276, 1.5 ms
+breast_cancer seed 45 PACE-flip-cond: deletion 0.152 / cond 0.310, 5.1 ms
+breast_cancer seed 46 PACE-SHAP: deletion 0.064 / cond 0.237, 759.9 ms
+breast_cancer seed 46 PACE-SHAP-cond: deletion 0.147 / cond 0.340, 849.0 ms
+breast_cancer seed 46 PACE-flip: deletion 0.080 / cond 0.301, 1.6 ms
+breast_cancer seed 46 PACE-flip-cond: deletion 0.134 / cond 0.354, 6.2 ms
+breast_cancer seed 45 KernelSHAP: deletion 0.076 / cond 0.181, 3390.2 ms
+breast_cancer seed 45 KernelSHAP-cond: deletion 0.213 / cond 0.381, 3392.4 ms
+breast_cancer seed 45 LIME: deletion 0.128 / cond 0.216, 138.8 ms
+breast_cancer seed 45 Random: deletion 0.398 / cond 0.698, 0.0 ms
+S2c seed 47 KernelSHAP: deletion -0.137 / cond -0.204, 53373.0 ms
+breast_cancer seed 44 KernelSHAP: deletion 0.204 / cond 0.302, 5347.0 ms
+S2c seed 47 KernelSHAP-cond: deletion -0.081 / cond -0.143, 53374.8 ms
+breast_cancer seed 44 KernelSHAP-cond: deletion 0.327 / cond 0.515, 5349.0 ms
+breast_cancer seed 44 LIME: deletion 0.230 / cond 0.313, 92.0 ms
+breast_cancer seed 44 Random: deletion 0.475 / cond 0.747, 0.0 ms
+breast_cancer seed 47 PACE-SHAP: deletion 0.206 / cond 0.277, 727.9 ms
+breast_cancer seed 47 PACE-SHAP-cond: deletion 0.285 / cond 0.427, 682.4 ms
+breast_cancer seed 47 PACE-flip: deletion 0.219 / cond 0.364, 1.5 ms
+breast_cancer seed 47 PACE-flip-cond: deletion 0.272 / cond 0.455, 5.2 ms
+breast_cancer seed 46 KernelSHAP: deletion 0.067 / cond 0.241, 4530.3 ms
+breast_cancer seed 46 KernelSHAP-cond: deletion 0.210 / cond 0.443, 4532.5 ms
+breast_cancer seed 46 LIME: deletion 0.086 / cond 0.224, 138.1 ms
+breast_cancer seed 46 Random: deletion 0.364 / cond 0.702, 0.0 ms
+S2c seed 47 LIME: deletion -0.106 / cond -0.173, 1132.7 ms
+breast_cancer seed 48 PACE-SHAP: deletion 0.135 / cond 0.233, 672.5 ms
+breast_cancer seed 48 PACE-SHAP-cond: deletion 0.216 / cond 0.322, 866.0 ms
+S2c seed 47 Random: deletion 0.258 / cond 0.330, 0.0 ms
+breast_cancer seed 48 PACE-flip: deletion 0.157 / cond 0.330, 1.4 ms
+breast_cancer seed 48 PACE-flip-cond: deletion 0.211 / cond 0.382, 5.7 ms
+breast_cancer seed 49 PACE-SHAP: deletion 0.097 / cond 0.195, 667.2 ms
+breast_cancer seed 49 PACE-SHAP-cond: deletion 0.216 / cond 0.321, 655.5 ms
+breast_cancer seed 49 PACE-flip: deletion 0.125 / cond 0.271, 1.7 ms
+breast_cancer seed 49 PACE-flip-cond: deletion 0.166 / cond 0.341, 6.7 ms
+thyroid seed 40 PACE-SHAP: deletion 0.621 / cond 0.649, 481.8 ms
+thyroid seed 40 PACE-SHAP-cond: deletion 0.647 / cond 0.673, 637.0 ms
+thyroid seed 40 PACE-flip: deletion 0.596 / cond 0.626, 1.4 ms
+thyroid seed 40 PACE-flip-cond: deletion 0.606 / cond 0.640, 5.3 ms
+breast_cancer seed 47 KernelSHAP: deletion 0.208 / cond 0.289, 3664.3 ms
+breast_cancer seed 47 KernelSHAP-cond: deletion 0.324 / cond 0.504, 3666.4 ms
+breast_cancer seed 47 LIME: deletion 0.219 / cond 0.254, 110.8 ms
+breast_cancer seed 47 Random: deletion 0.478 / cond 0.749, 0.0 ms
+thyroid seed 41 PACE-SHAP: deletion 0.500 / cond 0.522, 518.8 ms
+thyroid seed 41 PACE-SHAP-cond: deletion 0.520 / cond 0.522, 575.5 ms
+thyroid seed 41 PACE-flip: deletion 0.514 / cond 0.532, 1.6 ms
+thyroid seed 41 PACE-flip-cond: deletion 0.507 / cond 0.530, 5.2 ms
+breast_cancer seed 49 KernelSHAP: deletion 0.101 / cond 0.205, 3654.1 ms
+breast_cancer seed 49 KernelSHAP-cond: deletion 0.252 / cond 0.451, 3656.9 ms
+breast_cancer seed 49 LIME: deletion 0.139 / cond 0.221, 105.5 ms
+breast_cancer seed 49 Random: deletion 0.387 / cond 0.693, 0.0 ms
+breast_cancer seed 48 KernelSHAP: deletion 0.139 / cond 0.246, 5499.0 ms
+breast_cancer seed 48 KernelSHAP-cond: deletion 0.262 / cond 0.426, 5501.0 ms
+breast_cancer seed 48 LIME: deletion 0.178 / cond 0.244, 108.2 ms
+breast_cancer seed 48 Random: deletion 0.401 / cond 0.724, 0.0 ms
+thyroid seed 42 PACE-SHAP: deletion 0.507 / cond 0.528, 633.1 ms
+thyroid seed 42 PACE-SHAP-cond: deletion 0.560 / cond 0.584, 551.7 ms
+thyroid seed 42 PACE-flip: deletion 0.514 / cond 0.534, 1.2 ms
+thyroid seed 40 KernelSHAP: deletion 0.619 / cond 0.648, 5439.4 ms
+thyroid seed 42 PACE-flip-cond: deletion 0.518 / cond 0.535, 5.4 ms
+thyroid seed 40 KernelSHAP-cond: deletion 0.672 / cond 0.690, 5441.5 ms
+thyroid seed 40 LIME: deletion 0.655 / cond 0.679, 102.2 ms
+thyroid seed 40 Random: deletion 0.793 / cond 0.806, 0.0 ms
+thyroid seed 43 PACE-SHAP: deletion 0.595 / cond 0.650, 498.9 ms
+thyroid seed 43 PACE-SHAP-cond: deletion 0.630 / cond 0.663, 556.9 ms
+thyroid seed 43 PACE-flip: deletion 0.605 / cond 0.658, 0.7 ms
+thyroid seed 43 PACE-flip-cond: deletion 0.609 / cond 0.662, 7.0 ms
+thyroid seed 41 KernelSHAP: deletion 0.501 / cond 0.523, 3924.7 ms
+thyroid seed 41 KernelSHAP-cond: deletion 0.537 / cond 0.535, 3926.8 ms
+thyroid seed 41 LIME: deletion 0.528 / cond 0.505, 113.3 ms
+thyroid seed 41 Random: deletion 0.672 / cond 0.687, 0.0 ms
+thyroid seed 44 PACE-SHAP: deletion 0.483 / cond 0.510, 589.0 ms
+thyroid seed 44 PACE-SHAP-cond: deletion 0.514 / cond 0.508, 577.5 ms
+thyroid seed 44 PACE-flip: deletion 0.483 / cond 0.518, 1.9 ms
+thyroid seed 44 PACE-flip-cond: deletion 0.488 / cond 0.510, 10.5 ms
+thyroid seed 45 PACE-SHAP: deletion 0.430 / cond 0.412, 560.9 ms
+thyroid seed 45 PACE-SHAP-cond: deletion 0.473 / cond 0.468, 507.6 ms
+thyroid seed 45 PACE-flip: deletion 0.421 / cond 0.422, 1.4 ms
+thyroid seed 45 PACE-flip-cond: deletion 0.433 / cond 0.432, 5.7 ms
+thyroid seed 42 KernelSHAP: deletion 0.505 / cond 0.527, 4074.3 ms
+thyroid seed 42 KernelSHAP-cond: deletion 0.557 / cond 0.587, 4076.1 ms
+thyroid seed 43 KernelSHAP: deletion 0.596 / cond 0.652, 3622.7 ms
+thyroid seed 42 LIME: deletion 0.520 / cond 0.520, 107.1 ms
+thyroid seed 43 KernelSHAP-cond: deletion 0.637 / cond 0.674, 3624.7 ms
+thyroid seed 42 Random: deletion 0.714 / cond 0.765, 0.0 ms
+thyroid seed 43 LIME: deletion 0.655 / cond 0.687, 87.8 ms
+thyroid seed 43 Random: deletion 0.799 / cond 0.832, 0.0 ms
+thyroid seed 46 PACE-SHAP: deletion 0.506 / cond 0.530, 445.3 ms
+thyroid seed 46 PACE-SHAP-cond: deletion 0.527 / cond 0.557, 493.7 ms
+thyroid seed 46 PACE-flip: deletion 0.494 / cond 0.519, 1.2 ms
+thyroid seed 47 PACE-SHAP: deletion 0.503 / cond 0.534, 443.3 ms
+thyroid seed 44 KernelSHAP: deletion 0.482 / cond 0.510, 3637.1 ms
+thyroid seed 47 PACE-SHAP-cond: deletion 0.557 / cond 0.566, 479.8 ms
+thyroid seed 46 PACE-flip-cond: deletion 0.504 / cond 0.531, 6.2 ms
+thyroid seed 44 KernelSHAP-cond: deletion 0.542 / cond 0.531, 3639.0 ms
+thyroid seed 47 PACE-flip: deletion 0.497 / cond 0.533, 1.6 ms
+thyroid seed 47 PACE-flip-cond: deletion 0.516 / cond 0.544, 5.6 ms
+thyroid seed 44 LIME: deletion 0.552 / cond 0.564, 117.5 ms
+thyroid seed 44 Random: deletion 0.705 / cond 0.737, 0.0 ms
+thyroid seed 45 KernelSHAP: deletion 0.434 / cond 0.413, 3011.4 ms
+thyroid seed 45 KernelSHAP-cond: deletion 0.473 / cond 0.468, 3013.2 ms
+thyroid seed 45 LIME: deletion 0.445 / cond 0.424, 123.0 ms
+thyroid seed 45 Random: deletion 0.629 / cond 0.651, 0.0 ms
+thyroid seed 48 PACE-SHAP: deletion 0.448 / cond 0.450, 516.3 ms
+thyroid seed 48 PACE-SHAP-cond: deletion 0.471 / cond 0.471, 490.6 ms
+thyroid seed 48 PACE-flip: deletion 0.428 / cond 0.434, 0.7 ms
+thyroid seed 48 PACE-flip-cond: deletion 0.442 / cond 0.449, 5.9 ms
+thyroid seed 49 PACE-SHAP: deletion 0.486 / cond 0.493, 403.1 ms
+thyroid seed 49 PACE-SHAP-cond: deletion 0.529 / cond 0.552, 443.7 ms
+thyroid seed 49 PACE-flip: deletion 0.480 / cond 0.491, 1.2 ms
+thyroid seed 49 PACE-flip-cond: deletion 0.505 / cond 0.524, 4.2 ms
+S2c seed 48 KernelSHAP: deletion -0.078 / cond -0.065, 46271.3 ms
+S2c seed 48 KernelSHAP-cond: deletion -0.022 / cond -0.012, 46273.2 ms
+thyroid seed 46 KernelSHAP: deletion 0.506 / cond 0.529, 3437.0 ms
+thyroid seed 46 KernelSHAP-cond: deletion 0.544 / cond 0.564, 3438.7 ms
+thyroid seed 46 LIME: deletion 0.532 / cond 0.563, 104.5 ms
+thyroid seed 46 Random: deletion 0.730 / cond 0.732, 0.0 ms
+thyroid seed 47 KernelSHAP: deletion 0.503 / cond 0.533, 3848.6 ms
+thyroid seed 47 KernelSHAP-cond: deletion 0.572 / cond 0.594, 3850.5 ms
+shuttle seed 40 PACE-SHAP: deletion 0.287 / cond 0.505, 48.4 ms
+shuttle seed 40 PACE-SHAP-cond: deletion 0.353 / cond 0.476, 54.8 ms
+shuttle seed 40 PACE-flip: deletion 0.311 / cond 0.537, 0.2 ms
+shuttle seed 40 PACE-flip-cond: deletion 0.358 / cond 0.527, 2.1 ms
+thyroid seed 47 LIME: deletion 0.572 / cond 0.597, 89.8 ms
+S2c seed 48 LIME: deletion -0.038 / cond -0.056, 1077.1 ms
+thyroid seed 47 Random: deletion 0.702 / cond 0.721, 0.0 ms
+shuttle seed 41 PACE-SHAP: deletion 0.170 / cond 0.389, 62.0 ms
+shuttle seed 41 PACE-SHAP-cond: deletion 0.190 / cond 0.337, 68.4 ms
+shuttle seed 41 PACE-flip: deletion 0.224 / cond 0.423, 0.1 ms
+shuttle seed 41 PACE-flip-cond: deletion 0.176 / cond 0.368, 1.6 ms
+shuttle seed 40 KernelSHAP: deletion 0.287 / cond 0.504, 527.7 ms
+shuttle seed 40 KernelSHAP-cond: deletion 0.372 / cond 0.479, 529.7 ms
+S2c seed 48 Random: deletion 0.342 / cond 0.450, 0.0 ms
+shuttle seed 40 LIME: deletion 0.331 / cond 0.538, 29.8 ms
+shuttle seed 40 Random: deletion 0.481 / cond 0.614, 0.0 ms
+thyroid seed 48 KernelSHAP: deletion 0.444 / cond 0.446, 3081.2 ms
+shuttle seed 42 PACE-SHAP: deletion 0.325 / cond 0.451, 44.1 ms
+shuttle seed 42 PACE-SHAP-cond: deletion 0.351 / cond 0.431, 49.3 ms
+thyroid seed 48 KernelSHAP-cond: deletion 0.493 / cond 0.494, 3083.1 ms
+shuttle seed 42 PACE-flip: deletion 0.323 / cond 0.470, 0.2 ms
+shuttle seed 42 PACE-flip-cond: deletion 0.318 / cond 0.460, 2.1 ms
+shuttle seed 41 KernelSHAP: deletion 0.172 / cond 0.384, 443.9 ms
+thyroid seed 48 LIME: deletion 0.461 / cond 0.463, 75.9 ms
+shuttle seed 41 KernelSHAP-cond: deletion 0.182 / cond 0.339, 445.3 ms
+shuttle seed 41 LIME: deletion 0.173 / cond 0.399, 24.7 ms
+shuttle seed 41 Random: deletion 0.380 / cond 0.563, 0.0 ms
+thyroid seed 48 Random: deletion 0.665 / cond 0.700, 0.0 ms
+thyroid seed 49 KernelSHAP: deletion 0.486 / cond 0.495, 3268.5 ms
+shuttle seed 43 PACE-SHAP: deletion 0.346 / cond 0.534, 39.4 ms
+shuttle seed 43 PACE-SHAP-cond: deletion 0.350 / cond 0.479, 43.5 ms
+shuttle seed 42 KernelSHAP: deletion 0.325 / cond 0.451, 393.0 ms
+shuttle seed 43 PACE-flip: deletion 0.360 / cond 0.544, 0.1 ms
+shuttle seed 42 KernelSHAP-cond: deletion 0.375 / cond 0.464, 394.3 ms
+shuttle seed 43 PACE-flip-cond: deletion 0.329 / cond 0.515, 1.8 ms
+thyroid seed 49 KernelSHAP-cond: deletion 0.540 / cond 0.557, 3270.1 ms
+shuttle seed 42 LIME: deletion 0.324 / cond 0.494, 20.9 ms
+shuttle seed 42 Random: deletion 0.495 / cond 0.602, 0.0 ms
+thyroid seed 49 LIME: deletion 0.511 / cond 0.503, 52.8 ms
+thyroid seed 49 Random: deletion 0.686 / cond 0.717, 0.0 ms
+shuttle seed 43 KernelSHAP: deletion 0.347 / cond 0.524, 314.1 ms
+shuttle seed 43 KernelSHAP-cond: deletion 0.373 / cond 0.509, 315.4 ms
+shuttle seed 44 PACE-SHAP: deletion 0.267 / cond 0.398, 29.3 ms
+shuttle seed 44 PACE-SHAP-cond: deletion 0.297 / cond 0.364, 32.5 ms
+shuttle seed 43 LIME: deletion 0.344 / cond 0.537, 17.9 ms
+shuttle seed 44 PACE-flip: deletion 0.281 / cond 0.425, 0.1 ms
+shuttle seed 43 Random: deletion 0.512 / cond 0.666, 0.0 ms
+shuttle seed 44 PACE-flip-cond: deletion 0.281 / cond 0.427, 2.2 ms
+shuttle seed 44 KernelSHAP: deletion 0.265 / cond 0.390, 332.2 ms
+shuttle seed 44 KernelSHAP-cond: deletion 0.309 / cond 0.382, 333.3 ms
+shuttle seed 44 LIME: deletion 0.282 / cond 0.453, 18.2 ms
+shuttle seed 44 Random: deletion 0.440 / cond 0.563, 0.0 ms
+shuttle seed 45 PACE-SHAP: deletion 0.267 / cond 0.431, 28.6 ms
+shuttle seed 45 PACE-SHAP-cond: deletion 0.279 / cond 0.392, 32.4 ms
+shuttle seed 45 PACE-flip: deletion 0.276 / cond 0.448, 0.1 ms
+shuttle seed 45 PACE-flip-cond: deletion 0.275 / cond 0.452, 1.6 ms
+shuttle seed 46 PACE-SHAP: deletion 0.508 / cond 0.666, 44.5 ms
+shuttle seed 46 PACE-SHAP-cond: deletion 0.545 / cond 0.644, 48.5 ms
+shuttle seed 46 PACE-flip: deletion 0.491 / cond 0.653, 0.1 ms
+shuttle seed 46 PACE-flip-cond: deletion 0.481 / cond 0.641, 1.8 ms
+shuttle seed 45 KernelSHAP: deletion 0.267 / cond 0.433, 303.0 ms
+shuttle seed 45 KernelSHAP-cond: deletion 0.310 / cond 0.418, 304.2 ms
+shuttle seed 47 PACE-SHAP: deletion 0.266 / cond 0.477, 37.6 ms
+shuttle seed 47 PACE-SHAP-cond: deletion 0.301 / cond 0.438, 41.7 ms
+shuttle seed 45 LIME: deletion 0.275 / cond 0.448, 21.7 ms
+shuttle seed 47 PACE-flip: deletion 0.279 / cond 0.513, 0.1 ms
+shuttle seed 45 Random: deletion 0.447 / cond 0.590, 0.0 ms
+shuttle seed 47 PACE-flip-cond: deletion 0.305 / cond 0.500, 1.3 ms
+shuttle seed 46 KernelSHAP: deletion 0.507 / cond 0.662, 364.7 ms
+shuttle seed 46 KernelSHAP-cond: deletion 0.545 / cond 0.647, 365.9 ms
+shuttle seed 46 LIME: deletion 0.522 / cond 0.701, 19.5 ms
+shuttle seed 46 Random: deletion 0.659 / cond 0.770, 0.0 ms
+shuttle seed 47 KernelSHAP: deletion 0.267 / cond 0.483, 340.3 ms
+shuttle seed 47 KernelSHAP-cond: deletion 0.307 / cond 0.456, 341.5 ms
+shuttle seed 47 LIME: deletion 0.312 / cond 0.500, 17.3 ms
+shuttle seed 47 Random: deletion 0.469 / cond 0.643, 0.0 ms
+shuttle seed 48 PACE-SHAP: deletion 0.393 / cond 0.499, 35.7 ms
+shuttle seed 48 PACE-SHAP-cond: deletion 0.432 / cond 0.487, 39.1 ms
+shuttle seed 48 PACE-flip: deletion 0.407 / cond 0.535, 0.1 ms
+shuttle seed 48 PACE-flip-cond: deletion 0.413 / cond 0.530, 1.8 ms
+shuttle seed 49 PACE-SHAP: deletion 0.272 / cond 0.468, 37.8 ms
+shuttle seed 49 PACE-SHAP-cond: deletion 0.311 / cond 0.474, 41.4 ms
+shuttle seed 49 PACE-flip: deletion 0.296 / cond 0.507, 0.1 ms
+shuttle seed 49 PACE-flip-cond: deletion 0.287 / cond 0.476, 1.9 ms
+shuttle seed 48 KernelSHAP: deletion 0.395 / cond 0.502, 294.0 ms
+shuttle seed 48 KernelSHAP-cond: deletion 0.441 / cond 0.507, 295.1 ms
+shuttle seed 48 LIME: deletion 0.427 / cond 0.519, 18.0 ms
+shuttle seed 48 Random: deletion 0.555 / cond 0.686, 0.0 ms
+shuttle seed 49 KernelSHAP: deletion 0.273 / cond 0.473, 320.5 ms
+shuttle seed 49 KernelSHAP-cond: deletion 0.338 / cond 0.491, 321.7 ms
+shuttle seed 49 LIME: deletion 0.292 / cond 0.524, 17.7 ms
+shuttle seed 49 Random: deletion 0.528 / cond 0.699, 0.0 ms
+magic seed 40 PACE-SHAP: deletion -0.051 / cond 0.012, 705.9 ms
+magic seed 40 PACE-SHAP-cond: deletion 0.062 / cond 0.009, 716.7 ms
+magic seed 40 PACE-flip: deletion 0.034 / cond 0.043, 1.6 ms
+magic seed 40 PACE-flip-cond: deletion 0.074 / cond 0.050, 6.4 ms
+magic seed 42 PACE-SHAP: deletion -0.056 / cond 0.063, 860.3 ms
+magic seed 42 PACE-SHAP-cond: deletion 0.049 / cond 0.059, 873.6 ms
+magic seed 41 PACE-SHAP: deletion -0.049 / cond 0.075, 983.8 ms
+magic seed 42 PACE-flip: deletion 0.005 / cond 0.065, 2.2 ms
+magic seed 41 PACE-SHAP-cond: deletion 0.064 / cond 0.053, 996.7 ms
+magic seed 42 PACE-flip-cond: deletion 0.021 / cond 0.052, 6.2 ms
+magic seed 41 PACE-flip: deletion 0.011 / cond 0.090, 1.7 ms
+magic seed 41 PACE-flip-cond: deletion 0.009 / cond 0.058, 8.1 ms
+magic seed 43 PACE-SHAP: deletion -0.103 / cond 0.011, 1040.7 ms
+magic seed 44 PACE-SHAP: deletion -0.025 / cond 0.044, 1111.3 ms
+magic seed 43 PACE-SHAP-cond: deletion 0.029 / cond 0.027, 1055.3 ms
+S2c seed 49 KernelSHAP: deletion -0.129 / cond -0.143, 49908.0 ms
+magic seed 44 PACE-SHAP-cond: deletion 0.090 / cond 0.047, 1126.8 ms
+magic seed 43 PACE-flip: deletion 0.023 / cond 0.028, 2.1 ms
+magic seed 44 PACE-flip: deletion 0.044 / cond 0.066, 2.3 ms
+magic seed 43 PACE-flip-cond: deletion 0.039 / cond 0.037, 7.1 ms
+magic seed 44 PACE-flip-cond: deletion 0.063 / cond 0.067, 7.2 ms
+S2c seed 49 KernelSHAP-cond: deletion -0.072 / cond -0.075, 49909.6 ms
+S2c seed 49 LIME: deletion -0.105 / cond -0.129, 1072.0 ms
+S2c seed 49 Random: deletion 0.247 / cond 0.283, 0.0 ms
+magic seed 45 PACE-SHAP: deletion -0.023 / cond 0.058, 1275.6 ms
+magic seed 45 PACE-SHAP-cond: deletion 0.027 / cond 0.052, 1292.2 ms
+magic seed 45 PACE-flip: deletion 0.031 / cond 0.074, 1.8 ms
+magic seed 45 PACE-flip-cond: deletion 0.071 / cond 0.074, 8.1 ms
+magic seed 40 KernelSHAP: deletion -0.055 / cond 0.015, 8568.0 ms
+magic seed 40 KernelSHAP-cond: deletion 0.078 / cond 0.020, 8569.7 ms
+magic seed 40 LIME: deletion -0.018 / cond 0.046, 260.3 ms
+magic seed 40 Random: deletion 0.136 / cond 0.117, 0.0 ms
+magic seed 42 KernelSHAP: deletion -0.056 / cond 0.065, 8633.9 ms
+magic seed 42 KernelSHAP-cond: deletion 0.080 / cond 0.069, 8635.7 ms
+magic seed 42 LIME: deletion -0.005 / cond 0.081, 218.8 ms
+magic seed 42 Random: deletion 0.114 / cond 0.109, 0.0 ms
+magic seed 46 PACE-SHAP: deletion -0.049 / cond 0.099, 1064.7 ms
+magic seed 43 KernelSHAP: deletion -0.108 / cond 0.015, 8630.1 ms
+magic seed 41 KernelSHAP: deletion -0.055 / cond 0.063, 9754.5 ms
+magic seed 46 PACE-SHAP-cond: deletion 0.058 / cond 0.064, 1079.4 ms
+magic seed 44 KernelSHAP: deletion -0.026 / cond 0.047, 8613.3 ms
+magic seed 43 KernelSHAP-cond: deletion 0.021 / cond 0.035, 8631.8 ms
+magic seed 41 KernelSHAP-cond: deletion 0.071 / cond 0.060, 9756.1 ms
+magic seed 46 PACE-flip: deletion 0.015 / cond 0.083, 1.7 ms
+magic seed 44 KernelSHAP-cond: deletion 0.079 / cond 0.048, 8614.9 ms
+magic seed 46 PACE-flip-cond: deletion 0.054 / cond 0.069, 7.2 ms
+magic seed 43 LIME: deletion -0.037 / cond 0.044, 218.8 ms
+magic seed 41 LIME: deletion 0.036 / cond 0.095, 233.0 ms
+magic seed 44 LIME: deletion -0.011 / cond 0.061, 213.5 ms
+magic seed 43 Random: deletion 0.100 / cond 0.102, 0.0 ms
+magic seed 41 Random: deletion 0.135 / cond 0.172, 0.0 ms
+magic seed 44 Random: deletion 0.179 / cond 0.145, 0.0 ms
+magic seed 47 PACE-SHAP: deletion -0.037 / cond 0.053, 1078.4 ms
+magic seed 47 PACE-SHAP-cond: deletion 0.042 / cond 0.078, 1093.3 ms
+magic seed 47 PACE-flip: deletion 0.048 / cond 0.078, 1.5 ms
+magic seed 47 PACE-flip-cond: deletion 0.061 / cond 0.067, 7.3 ms
+magic seed 49 PACE-SHAP: deletion -0.035 / cond 0.042, 1143.9 ms
+magic seed 48 PACE-SHAP: deletion -0.044 / cond 0.044, 1203.7 ms
+magic seed 49 PACE-SHAP-cond: deletion 0.044 / cond 0.037, 1159.7 ms
+magic seed 48 PACE-SHAP-cond: deletion 0.089 / cond 0.045, 1218.5 ms
+magic seed 49 PACE-flip: deletion -0.005 / cond 0.074, 2.0 ms
+magic seed 48 PACE-flip: deletion 0.019 / cond 0.039, 2.3 ms
+magic seed 49 PACE-flip-cond: deletion 0.019 / cond 0.059, 7.4 ms
+magic seed 48 PACE-flip-cond: deletion 0.051 / cond 0.033, 9.0 ms
+magic seed 45 KernelSHAP: deletion -0.033 / cond 0.064, 11012.9 ms
+magic seed 45 KernelSHAP-cond: deletion 0.064 / cond 0.063, 11014.6 ms
+magic seed 45 LIME: deletion 0.020 / cond 0.073, 233.4 ms
+magic seed 45 Random: deletion 0.158 / cond 0.165, 0.0 ms
+letter seed 40 PACE-SHAP: deletion -0.696 / cond -0.558, 2952.9 ms
+letter seed 40 PACE-SHAP-cond: deletion -0.593 / cond -0.480, 3058.5 ms
+letter seed 40 PACE-flip: deletion -0.653 / cond -0.453, 4.9 ms
+magic seed 46 KernelSHAP: deletion -0.050 / cond 0.095, 8288.7 ms
+magic seed 46 KernelSHAP-cond: deletion 0.083 / cond 0.101, 8290.4 ms
+letter seed 40 PACE-flip-cond: deletion -0.625 / cond -0.456, 23.9 ms
+magic seed 46 LIME: deletion -0.023 / cond 0.093, 227.8 ms
+magic seed 46 Random: deletion 0.117 / cond 0.167, 0.0 ms
+magic seed 47 KernelSHAP: deletion -0.033 / cond 0.058, 8503.3 ms
+magic seed 47 KernelSHAP-cond: deletion 0.072 / cond 0.079, 8505.1 ms
+magic seed 47 LIME: deletion -0.014 / cond 0.093, 242.0 ms
+magic seed 47 Random: deletion 0.148 / cond 0.147, 0.0 ms
+magic seed 48 KernelSHAP: deletion -0.044 / cond 0.035, 8406.1 ms
+magic seed 48 KernelSHAP-cond: deletion 0.096 / cond 0.074, 8407.9 ms
+magic seed 49 KernelSHAP: deletion -0.037 / cond 0.047, 8658.4 ms
+magic seed 49 KernelSHAP-cond: deletion 0.053 / cond 0.051, 8660.1 ms
+magic seed 48 LIME: deletion -0.036 / cond 0.056, 218.0 ms
+magic seed 48 Random: deletion 0.108 / cond 0.147, 0.0 ms
+magic seed 49 LIME: deletion 0.020 / cond 0.069, 207.9 ms
+magic seed 49 Random: deletion 0.097 / cond 0.132, 0.0 ms
+letter seed 41 PACE-SHAP: deletion -0.729 / cond -0.620, 2783.5 ms
+letter seed 41 PACE-SHAP-cond: deletion -0.628 / cond -0.552, 2918.0 ms
+letter seed 41 PACE-flip: deletion -0.677 / cond -0.543, 5.3 ms
+letter seed 41 PACE-flip-cond: deletion -0.660 / cond -0.551, 20.8 ms
+letter seed 42 PACE-SHAP: deletion -0.726 / cond -0.641, 2968.4 ms
+letter seed 42 PACE-SHAP-cond: deletion -0.628 / cond -0.551, 3122.5 ms
+letter seed 43 PACE-SHAP: deletion -0.712 / cond -0.596, 2929.3 ms
+letter seed 42 PACE-flip: deletion -0.662 / cond -0.547, 5.4 ms
+letter seed 43 PACE-SHAP-cond: deletion -0.604 / cond -0.523, 2897.8 ms
+letter seed 42 PACE-flip-cond: deletion -0.636 / cond -0.534, 19.4 ms
+letter seed 43 PACE-flip: deletion -0.664 / cond -0.511, 4.1 ms
+letter seed 44 PACE-SHAP: deletion -0.734 / cond -0.630, 3075.1 ms
+letter seed 45 PACE-SHAP: deletion -0.698 / cond -0.586, 3088.5 ms
+letter seed 43 PACE-flip-cond: deletion -0.616 / cond -0.496, 20.2 ms
+letter seed 44 PACE-SHAP-cond: deletion -0.647 / cond -0.549, 2842.2 ms
+letter seed 45 PACE-SHAP-cond: deletion -0.601 / cond -0.492, 2823.7 ms
+letter seed 44 PACE-flip: deletion -0.705 / cond -0.564, 4.7 ms
+letter seed 45 PACE-flip: deletion -0.641 / cond -0.518, 3.9 ms
+letter seed 44 PACE-flip-cond: deletion -0.687 / cond -0.573, 20.1 ms
+letter seed 45 PACE-flip-cond: deletion -0.636 / cond -0.520, 21.3 ms
+letter seed 40 KernelSHAP: deletion -0.694 / cond -0.552, 26753.6 ms
+letter seed 40 KernelSHAP-cond: deletion -0.596 / cond -0.475, 26755.2 ms
+letter seed 40 LIME: deletion -0.651 / cond -0.504, 714.0 ms
+letter seed 40 Random: deletion -0.414 / cond -0.247, 0.0 ms
+letter seed 41 KernelSHAP: deletion -0.727 / cond -0.615, 27041.6 ms
+letter seed 41 KernelSHAP-cond: deletion -0.633 / cond -0.535, 27043.2 ms
+letter seed 41 LIME: deletion -0.701 / cond -0.580, 713.7 ms
+letter seed 46 PACE-SHAP: deletion -0.687 / cond -0.593, 2729.8 ms
+letter seed 41 Random: deletion -0.438 / cond -0.313, 0.0 ms
+letter seed 46 PACE-SHAP-cond: deletion -0.601 / cond -0.489, 2786.9 ms
+letter seed 46 PACE-flip: deletion -0.638 / cond -0.502, 4.6 ms
+letter seed 46 PACE-flip-cond: deletion -0.614 / cond -0.504, 23.3 ms
+letter seed 43 KernelSHAP: deletion -0.711 / cond -0.593, 27680.5 ms
+letter seed 42 KernelSHAP: deletion -0.729 / cond -0.647, 28391.4 ms
+letter seed 43 KernelSHAP-cond: deletion -0.606 / cond -0.514, 27682.0 ms
+letter seed 42 KernelSHAP-cond: deletion -0.629 / cond -0.542, 28392.9 ms
+letter seed 44 KernelSHAP: deletion -0.734 / cond -0.627, 27809.8 ms
+letter seed 43 LIME: deletion -0.667 / cond -0.527, 682.6 ms
+letter seed 42 LIME: deletion -0.696 / cond -0.615, 708.1 ms
+letter seed 44 KernelSHAP-cond: deletion -0.637 / cond -0.563, 27811.4 ms
+letter seed 45 KernelSHAP: deletion -0.697 / cond -0.586, 28118.8 ms
+letter seed 43 Random: deletion -0.440 / cond -0.298, 0.0 ms
+letter seed 42 Random: deletion -0.476 / cond -0.331, 0.0 ms
+letter seed 45 KernelSHAP-cond: deletion -0.605 / cond -0.476, 28120.3 ms
+letter seed 44 LIME: deletion -0.705 / cond -0.584, 610.0 ms
+letter seed 44 Random: deletion -0.451 / cond -0.344, 0.0 ms
+letter seed 45 LIME: deletion -0.662 / cond -0.532, 682.6 ms
+letter seed 47 PACE-SHAP: deletion -0.716 / cond -0.632, 2472.0 ms
+letter seed 45 Random: deletion -0.355 / cond -0.209, 0.0 ms
+letter seed 47 PACE-SHAP-cond: deletion -0.637 / cond -0.581, 2509.6 ms
+letter seed 47 PACE-flip: deletion -0.649 / cond -0.545, 5.2 ms
+letter seed 47 PACE-flip-cond: deletion -0.634 / cond -0.538, 23.7 ms
+letter seed 49 PACE-SHAP: deletion -0.668 / cond -0.578, 2691.4 ms
+letter seed 48 PACE-SHAP: deletion -0.660 / cond -0.570, 2885.8 ms
+letter seed 49 PACE-SHAP-cond: deletion -0.576 / cond -0.519, 2944.2 ms
+letter seed 48 PACE-SHAP-cond: deletion -0.557 / cond -0.510, 3118.5 ms
+letter seed 49 PACE-flip: deletion -0.641 / cond -0.521, 2.9 ms
+letter seed 48 PACE-flip: deletion -0.600 / cond -0.502, 3.2 ms
+letter seed 49 PACE-flip-cond: deletion -0.636 / cond -0.535, 18.1 ms
+letter seed 48 PACE-flip-cond: deletion -0.579 / cond -0.507, 21.7 ms
+landsat seed 40 PACE-SHAP: deletion -0.321 / cond 0.095, 3597.2 ms
+landsat seed 40 PACE-SHAP-cond: deletion -0.128 / cond 0.240, 3439.1 ms
+landsat seed 41 PACE-SHAP: deletion -0.311 / cond 0.171, 3746.3 ms
+landsat seed 40 PACE-flip: deletion -0.261 / cond 0.206, 3.3 ms
+landsat seed 41 PACE-SHAP-cond: deletion -0.188 / cond 0.246, 3402.2 ms
+landsat seed 40 PACE-flip-cond: deletion -0.183 / cond 0.151, 17.4 ms
+landsat seed 41 PACE-flip: deletion -0.272 / cond 0.240, 3.2 ms
+landsat seed 41 PACE-flip-cond: deletion -0.227 / cond 0.159, 18.7 ms
+landsat seed 40 KernelSHAP: deletion -0.290 / cond 0.174, 16013.4 ms
+landsat seed 41 KernelSHAP: deletion -0.283 / cond 0.232, 15461.8 ms
+landsat seed 40 KernelSHAP-cond: deletion -0.046 / cond 0.392, 16015.1 ms
+landsat seed 41 KernelSHAP-cond: deletion -0.136 / cond 0.393, 15463.6 ms
+letter seed 46 KernelSHAP: deletion -0.687 / cond -0.594, 30984.0 ms
+landsat seed 40 LIME: deletion -0.277 / cond 0.101, 410.4 ms
+landsat seed 41 LIME: deletion -0.293 / cond 0.172, 439.8 ms
+letter seed 46 KernelSHAP-cond: deletion -0.598 / cond -0.491, 30985.5 ms
+landsat seed 40 Random: deletion -0.041 / cond 0.470, 0.0 ms
+landsat seed 41 Random: deletion -0.116 / cond 0.404, 0.0 ms
+letter seed 46 LIME: deletion -0.648 / cond -0.526, 727.7 ms
+letter seed 46 Random: deletion -0.422 / cond -0.274, 0.0 ms
+letter seed 47 KernelSHAP: deletion -0.714 / cond -0.634, 29586.3 ms
+letter seed 47 KernelSHAP-cond: deletion -0.625 / cond -0.562, 29587.8 ms
+letter seed 47 LIME: deletion -0.678 / cond -0.584, 728.9 ms
+letter seed 47 Random: deletion -0.399 / cond -0.277, 0.0 ms
+landsat seed 42 PACE-SHAP: deletion -0.208 / cond 0.242, 3460.1 ms
+letter seed 49 KernelSHAP: deletion -0.668 / cond -0.574, 29202.5 ms
+landsat seed 43 PACE-SHAP: deletion -0.342 / cond 0.209, 3427.4 ms
+letter seed 49 KernelSHAP-cond: deletion -0.582 / cond -0.515, 29204.1 ms
+landsat seed 42 PACE-SHAP-cond: deletion -0.058 / cond 0.333, 3730.3 ms
+landsat seed 43 PACE-SHAP-cond: deletion -0.187 / cond 0.252, 3662.3 ms
+landsat seed 42 PACE-flip: deletion -0.104 / cond 0.422, 2.6 ms
+landsat seed 43 PACE-flip: deletion -0.241 / cond 0.282, 3.1 ms
+letter seed 48 KernelSHAP: deletion -0.659 / cond -0.565, 30371.2 ms
+landsat seed 42 PACE-flip-cond: deletion -0.061 / cond 0.323, 18.0 ms
+letter seed 49 LIME: deletion -0.633 / cond -0.523, 735.4 ms
+landsat seed 43 PACE-flip-cond: deletion -0.156 / cond 0.177, 20.7 ms
+landsat seed 44 PACE-SHAP: deletion -0.366 / cond 0.163, 3597.6 ms
+letter seed 48 KernelSHAP-cond: deletion -0.552 / cond -0.493, 30372.7 ms
+letter seed 49 Random: deletion -0.319 / cond -0.175, 0.0 ms
+landsat seed 44 PACE-SHAP-cond: deletion -0.214 / cond 0.280, 3757.6 ms
+landsat seed 44 PACE-flip: deletion -0.277 / cond 0.275, 3.2 ms
+letter seed 48 LIME: deletion -0.617 / cond -0.490, 791.2 ms
+letter seed 48 Random: deletion -0.364 / cond -0.252, 0.0 ms
+landsat seed 44 PACE-flip-cond: deletion -0.262 / cond 0.186, 20.2 ms
+landsat seed 45 PACE-SHAP: deletion -0.345 / cond 0.121, 3605.8 ms
+landsat seed 45 PACE-SHAP-cond: deletion -0.139 / cond 0.255, 3744.3 ms
+landsat seed 45 PACE-flip: deletion -0.247 / cond 0.210, 3.3 ms
+landsat seed 45 PACE-flip-cond: deletion -0.179 / cond 0.129, 19.8 ms
+landsat seed 46 PACE-SHAP: deletion -0.381 / cond 0.098, 3820.7 ms
+landsat seed 46 PACE-SHAP-cond: deletion -0.164 / cond 0.217, 4089.3 ms
+landsat seed 46 PACE-flip: deletion -0.236 / cond 0.270, 4.5 ms
+landsat seed 47 PACE-SHAP: deletion -0.322 / cond 0.263, 4086.2 ms
+landsat seed 46 PACE-flip-cond: deletion -0.169 / cond 0.191, 19.9 ms
+landsat seed 47 PACE-SHAP-cond: deletion -0.149 / cond 0.331, 4961.8 ms
+landsat seed 47 PACE-flip: deletion -0.233 / cond 0.339, 3.2 ms
+landsat seed 47 PACE-flip-cond: deletion -0.206 / cond 0.260, 21.4 ms
+landsat seed 42 KernelSHAP: deletion -0.169 / cond 0.330, 20466.9 ms
+landsat seed 42 KernelSHAP-cond: deletion -0.018 / cond 0.484, 20469.2 ms
+landsat seed 43 KernelSHAP: deletion -0.294 / cond 0.254, 21422.5 ms
+landsat seed 43 KernelSHAP-cond: deletion -0.116 / cond 0.373, 21424.7 ms
+landsat seed 42 LIME: deletion -0.149 / cond 0.215, 724.8 ms
+landsat seed 44 KernelSHAP: deletion -0.317 / cond 0.223, 21964.3 ms
+landsat seed 42 Random: deletion 0.059 / cond 0.610, 0.0 ms
+landsat seed 43 LIME: deletion -0.310 / cond 0.222, 716.6 ms
+landsat seed 44 KernelSHAP-cond: deletion -0.122 / cond 0.446, 21966.5 ms
+landsat seed 43 Random: deletion -0.049 / cond 0.503, 0.0 ms
+landsat seed 44 LIME: deletion -0.304 / cond 0.212, 718.6 ms
+landsat seed 44 Random: deletion -0.091 / cond 0.480, 0.0 ms
+page_blocks seed 40 PACE-SHAP: deletion -0.024 / cond 0.036, 331.1 ms
+page_blocks seed 40 PACE-SHAP-cond: deletion 0.021 / cond 0.058, 351.1 ms
+page_blocks seed 40 PACE-flip: deletion -0.034 / cond 0.052, 0.5 ms
+page_blocks seed 40 PACE-flip-cond: deletion -0.024 / cond 0.062, 3.4 ms
+landsat seed 45 KernelSHAP: deletion -0.277 / cond 0.185, 23366.2 ms
+page_blocks seed 40 KernelSHAP: deletion -0.029 / cond 0.033, 1460.9 ms
+page_blocks seed 40 KernelSHAP-cond: deletion 0.017 / cond 0.043, 1463.4 ms
+page_blocks seed 40 LIME: deletion -0.046 / cond 0.021, 62.9 ms
+page_blocks seed 40 Random: deletion 0.048 / cond 0.121, 0.0 ms
+page_blocks seed 41 PACE-SHAP: deletion 0.113 / cond 0.236, 424.1 ms
+landsat seed 45 KernelSHAP-cond: deletion -0.094 / cond 0.358, 23368.6 ms
+page_blocks seed 41 PACE-SHAP-cond: deletion 0.145 / cond 0.260, 450.3 ms
+page_blocks seed 41 PACE-flip: deletion 0.157 / cond 0.229, 0.6 ms
+page_blocks seed 41 PACE-flip-cond: deletion 0.114 / cond 0.200, 4.5 ms
+page_blocks seed 41 KernelSHAP: deletion 0.112 / cond 0.234, 1380.0 ms
+page_blocks seed 41 KernelSHAP-cond: deletion 0.152 / cond 0.258, 1382.5 ms
+page_blocks seed 41 LIME: deletion 0.164 / cond 0.343, 51.7 ms
+page_blocks seed 41 Random: deletion 0.257 / cond 0.312, 0.0 ms
+landsat seed 45 LIME: deletion -0.308 / cond 0.105, 696.8 ms
+page_blocks seed 42 PACE-SHAP: deletion -0.018 / cond 0.115, 351.3 ms
+page_blocks seed 42 PACE-SHAP-cond: deletion 0.009 / cond 0.096, 375.7 ms
+page_blocks seed 42 PACE-flip: deletion 0.012 / cond 0.118, 0.5 ms
+page_blocks seed 42 PACE-flip-cond: deletion -0.017 / cond 0.075, 4.1 ms
+landsat seed 45 Random: deletion -0.049 / cond 0.450, 0.0 ms
+page_blocks seed 43 PACE-SHAP: deletion -0.015 / cond 0.101, 412.9 ms
+page_blocks seed 43 PACE-SHAP-cond: deletion 0.039 / cond 0.108, 440.0 ms
+page_blocks seed 43 PACE-flip: deletion 0.018 / cond 0.121, 0.7 ms
+page_blocks seed 43 PACE-flip-cond: deletion 0.021 / cond 0.107, 7.1 ms
+page_blocks seed 42 KernelSHAP: deletion -0.012 / cond 0.113, 1300.0 ms
+page_blocks seed 42 KernelSHAP-cond: deletion -0.000 / cond 0.089, 1302.6 ms
+page_blocks seed 42 LIME: deletion 0.050 / cond 0.176, 57.3 ms
+page_blocks seed 42 Random: deletion 0.150 / cond 0.184, 0.0 ms
+page_blocks seed 44 PACE-SHAP: deletion 0.022 / cond 0.153, 394.3 ms
+page_blocks seed 44 PACE-SHAP-cond: deletion 0.067 / cond 0.150, 420.5 ms
+page_blocks seed 44 PACE-flip: deletion 0.018 / cond 0.152, 0.9 ms
+page_blocks seed 44 PACE-flip-cond: deletion 0.005 / cond 0.129, 4.3 ms
+page_blocks seed 43 KernelSHAP: deletion -0.015 / cond 0.102, 1441.6 ms
+page_blocks seed 43 KernelSHAP-cond: deletion 0.054 / cond 0.112, 1444.0 ms
+page_blocks seed 43 LIME: deletion -0.018 / cond 0.102, 64.4 ms
+page_blocks seed 43 Random: deletion 0.150 / cond 0.188, 0.0 ms
+landsat seed 48 PACE-SHAP: deletion -0.314 / cond 0.124, 5043.2 ms
+page_blocks seed 45 PACE-SHAP: deletion 0.131 / cond 0.159, 425.8 ms
+page_blocks seed 45 PACE-SHAP-cond: deletion 0.227 / cond 0.156, 450.4 ms
+page_blocks seed 45 PACE-flip: deletion 0.173 / cond 0.157, 1.1 ms
+page_blocks seed 45 PACE-flip-cond: deletion 0.219 / cond 0.142, 5.3 ms
+page_blocks seed 44 KernelSHAP: deletion 0.021 / cond 0.151, 1432.1 ms
+page_blocks seed 44 KernelSHAP-cond: deletion 0.095 / cond 0.172, 1434.6 ms
+page_blocks seed 44 LIME: deletion 0.021 / cond 0.171, 62.2 ms
+page_blocks seed 44 Random: deletion 0.152 / cond 0.212, 0.0 ms
+landsat seed 46 KernelSHAP: deletion -0.329 / cond 0.189, 24312.0 ms
+landsat seed 48 PACE-SHAP-cond: deletion -0.115 / cond 0.279, 5340.2 ms
+page_blocks seed 46 PACE-SHAP: deletion -0.036 / cond 0.002, 384.3 ms
+page_blocks seed 46 PACE-SHAP-cond: deletion -0.009 / cond 0.003, 409.8 ms
+page_blocks seed 46 PACE-flip: deletion -0.032 / cond 0.023, 0.5 ms
+page_blocks seed 46 PACE-flip-cond: deletion -0.022 / cond 0.007, 4.7 ms
+landsat seed 49 PACE-SHAP: deletion -0.388 / cond 0.112, 5117.6 ms
+landsat seed 46 KernelSHAP-cond: deletion -0.136 / cond 0.366, 24314.4 ms
+page_blocks seed 45 KernelSHAP: deletion 0.133 / cond 0.165, 1411.6 ms
+page_blocks seed 45 KernelSHAP-cond: deletion 0.249 / cond 0.165, 1414.5 ms
+page_blocks seed 45 LIME: deletion 0.176 / cond 0.193, 64.1 ms
+page_blocks seed 45 Random: deletion 0.312 / cond 0.240, 0.0 ms
+landsat seed 48 PACE-flip: deletion -0.209 / cond 0.307, 5.2 ms
+landsat seed 49 PACE-SHAP-cond: deletion -0.190 / cond 0.221, 5407.9 ms
+page_blocks seed 47 PACE-SHAP: deletion 0.090 / cond 0.112, 363.2 ms
+page_blocks seed 47 PACE-SHAP-cond: deletion 0.089 / cond 0.108, 385.3 ms
+page_blocks seed 47 PACE-flip: deletion 0.117 / cond 0.135, 0.6 ms
+page_blocks seed 47 PACE-flip-cond: deletion 0.096 / cond 0.103, 4.0 ms
+page_blocks seed 46 KernelSHAP: deletion -0.036 / cond 0.004, 1239.6 ms
+page_blocks seed 46 KernelSHAP-cond: deletion -0.007 / cond 0.014, 1241.9 ms
+page_blocks seed 46 LIME: deletion -0.027 / cond 0.017, 52.0 ms
+page_blocks seed 46 Random: deletion 0.047 / cond 0.103, 0.0 ms
+landsat seed 48 PACE-flip-cond: deletion -0.155 / cond 0.219, 22.2 ms
+landsat seed 46 LIME: deletion -0.321 / cond 0.152, 581.7 ms
+page_blocks seed 48 PACE-SHAP: deletion 0.050 / cond 0.033, 321.6 ms
+page_blocks seed 48 PACE-SHAP-cond: deletion 0.070 / cond 0.070, 343.3 ms
+landsat seed 49 PACE-flip: deletion -0.293 / cond 0.219, 4.1 ms
+page_blocks seed 48 PACE-flip: deletion 0.054 / cond 0.052, 0.5 ms
+page_blocks seed 48 PACE-flip-cond: deletion 0.056 / cond 0.046, 3.6 ms
+page_blocks seed 47 KernelSHAP: deletion 0.096 / cond 0.115, 1341.8 ms
+page_blocks seed 47 KernelSHAP-cond: deletion 0.113 / cond 0.112, 1343.9 ms
+landsat seed 47 KernelSHAP: deletion -0.271 / cond 0.341, 25306.5 ms
+page_blocks seed 47 LIME: deletion 0.100 / cond 0.158, 57.3 ms
+landsat seed 46 Random: deletion -0.060 / cond 0.461, 0.0 ms
+page_blocks seed 47 Random: deletion 0.187 / cond 0.175, 0.0 ms
+landsat seed 49 PACE-flip-cond: deletion -0.226 / cond 0.134, 23.4 ms
+page_blocks seed 48 KernelSHAP: deletion 0.050 / cond 0.034, 1062.9 ms
+page_blocks seed 48 KernelSHAP-cond: deletion 0.086 / cond 0.070, 1065.1 ms
+page_blocks seed 48 LIME: deletion 0.070 / cond 0.076, 39.4 ms
+page_blocks seed 48 Random: deletion 0.114 / cond 0.101, 0.0 ms
+page_blocks seed 49 PACE-SHAP: deletion 0.095 / cond 0.151, 266.1 ms
+page_blocks seed 49 PACE-SHAP-cond: deletion 0.107 / cond 0.126, 283.3 ms
+page_blocks seed 49 PACE-flip: deletion 0.081 / cond 0.151, 0.5 ms
+page_blocks seed 49 PACE-flip-cond: deletion 0.066 / cond 0.114, 3.5 ms
+landsat seed 47 KernelSHAP-cond: deletion -0.094 / cond 0.480, 25309.3 ms
+page_blocks seed 49 KernelSHAP: deletion 0.091 / cond 0.145, 640.4 ms
+page_blocks seed 49 KernelSHAP-cond: deletion 0.116 / cond 0.132, 641.7 ms
+page_blocks seed 49 LIME: deletion 0.083 / cond 0.157, 20.3 ms
+page_blocks seed 49 Random: deletion 0.182 / cond 0.203, 0.0 ms
+landsat seed 47 LIME: deletion -0.287 / cond 0.238, 328.3 ms
+landsat seed 47 Random: deletion -0.041 / cond 0.572, 0.0 ms
+landsat seed 48 KernelSHAP: deletion -0.284 / cond 0.199, 6646.0 ms
+landsat seed 48 KernelSHAP-cond: deletion -0.046 / cond 0.451, 6646.9 ms
+landsat seed 48 LIME: deletion -0.250 / cond 0.149, 122.1 ms
+landsat seed 49 KernelSHAP: deletion -0.340 / cond 0.163, 5941.6 ms
+landsat seed 48 Random: deletion 0.009 / cond 0.487, 0.0 ms
+landsat seed 49 KernelSHAP-cond: deletion -0.091 / cond 0.370, 5942.4 ms
+landsat seed 49 LIME: deletion -0.356 / cond 0.084, 107.9 ms
+landsat seed 49 Random: deletion -0.069 / cond 0.397, 0.0 ms
+# RQ1 extension B3: interventional vs conditional replacement
+
+50 test points per dataset and seed; seeds [40, 41, 42, 43, 44, 45, 46, 47, 48, 49]. Every explainer uses the same 200 explainer rows (half the training set if smaller); the tests copy values from a disjoint set of evaluation rows. Interventional: replaced features come from a random row. Conditional: they come from rows close to the point on the features it keeps (PACE-SHAP-cond and KernelSHAP-cond: Gaussian weights, sigma = 0.1, on standardised distances; PACE-flip-cond: the 32 nearest rows on the other features; conditional tests: the q-th nearest evaluation row in repetition q). KernelSHAP and KernelSHAP-cond share one implementation (200 coalitions per point) and differ only in the row weights. Each such pair (the two KernelSHAPs; the two PACE-SHAPs where exact, d ≤ 12) makes its model calls once; a paired method's time is the shared part plus its own part. The two kinds of test answer different questions, so they are reported separately and never combined. Mean ± 95% CI over seeds.
+
+
+## Interventional test
+
+Deletion margin AUC: lower = more faithful. Insertion margin AUC: higher = more faithful.
+
+| Dataset | Method | Deletion margin AUC | Insertion margin AUC |
+|---|---|---|---|
+| S1 | PACE-SHAP | -0.126 ± 0.045 | 0.662 ± 0.009 |
+| S1 | PACE-SHAP-cond | -0.088 ± 0.047 | 0.627 ± 0.013 |
+| S1 | PACE-flip | -0.074 ± 0.048 | 0.631 ± 0.017 |
+| S1 | PACE-flip-cond | -0.070 ± 0.045 | 0.625 ± 0.017 |
+| S1 | KernelSHAP | -0.125 ± 0.045 | 0.661 ± 0.010 |
+| S1 | KernelSHAP-cond | -0.080 ± 0.047 | 0.618 ± 0.012 |
+| S1 | LIME | -0.094 ± 0.046 | 0.624 ± 0.012 |
+| S1 | Random | 0.279 ± 0.034 | 0.301 ± 0.040 |
+| S2 | PACE-SHAP | -0.142 ± 0.032 | 0.616 ± 0.020 |
+| S2 | PACE-SHAP-cond | -0.089 ± 0.033 | 0.569 ± 0.017 |
+| S2 | PACE-flip | -0.089 ± 0.033 | 0.568 ± 0.018 |
+| S2 | PACE-flip-cond | -0.084 ± 0.030 | 0.564 ± 0.017 |
+| S2 | KernelSHAP | -0.140 ± 0.033 | 0.613 ± 0.019 |
+| S2 | KernelSHAP-cond | -0.078 ± 0.031 | 0.556 ± 0.018 |
+| S2 | LIME | -0.107 ± 0.033 | 0.568 ± 0.017 |
+| S2 | Random | 0.247 ± 0.026 | 0.273 ± 0.037 |
+| S3 | PACE-SHAP | -0.053 ± 0.025 | 0.651 ± 0.023 |
+| S3 | PACE-SHAP-cond | -0.006 ± 0.026 | 0.615 ± 0.023 |
+| S3 | PACE-flip | 0.007 ± 0.028 | 0.612 ± 0.023 |
+| S3 | PACE-flip-cond | 0.013 ± 0.028 | 0.609 ± 0.023 |
+| S3 | KernelSHAP | -0.046 ± 0.024 | 0.649 ± 0.023 |
+| S3 | KernelSHAP-cond | 0.006 ± 0.026 | 0.598 ± 0.023 |
+| S3 | LIME | 0.015 ± 0.015 | 0.571 ± 0.029 |
+| S3 | Random | 0.327 ± 0.028 | 0.315 ± 0.023 |
+| S1c | PACE-SHAP | -0.063 ± 0.044 | 0.702 ± 0.012 |
+| S1c | PACE-SHAP-cond | -0.030 ± 0.045 | 0.675 ± 0.013 |
+| S1c | PACE-flip | -0.016 ± 0.043 | 0.677 ± 0.013 |
+| S1c | PACE-flip-cond | 0.004 ± 0.041 | 0.655 ± 0.015 |
+| S1c | KernelSHAP | -0.062 ± 0.045 | 0.702 ± 0.012 |
+| S1c | KernelSHAP-cond | -0.024 ± 0.045 | 0.667 ± 0.014 |
+| S1c | LIME | -0.048 ± 0.043 | 0.678 ± 0.013 |
+| S1c | Random | 0.342 ± 0.028 | 0.335 ± 0.021 |
+| S2c | PACE-SHAP | -0.129 ± 0.027 | 0.661 ± 0.016 |
+| S2c | PACE-SHAP-cond | -0.092 ± 0.030 | 0.627 ± 0.018 |
+| S2c | PACE-flip | -0.079 ± 0.027 | 0.612 ± 0.017 |
+| S2c | PACE-flip-cond | -0.054 ± 0.025 | 0.585 ± 0.017 |
+| S2c | KernelSHAP | -0.127 ± 0.028 | 0.659 ± 0.018 |
+| S2c | KernelSHAP-cond | -0.078 ± 0.029 | 0.619 ± 0.020 |
+| S2c | LIME | -0.103 ± 0.030 | 0.630 ± 0.018 |
+| S2c | Random | 0.278 ± 0.028 | 0.276 ± 0.029 |
+| wine | PACE-SHAP | -0.072 ± 0.024 | 0.542 ± 0.023 |
+| wine | PACE-SHAP-cond | -0.000 ± 0.028 | 0.454 ± 0.026 |
+| wine | PACE-flip | -0.053 ± 0.025 | 0.502 ± 0.027 |
+| wine | PACE-flip-cond | -0.033 ± 0.027 | 0.468 ± 0.028 |
+| wine | KernelSHAP | -0.073 ± 0.024 | 0.541 ± 0.023 |
+| wine | KernelSHAP-cond | 0.000 ± 0.026 | 0.447 ± 0.029 |
+| wine | LIME | -0.034 ± 0.027 | 0.495 ± 0.029 |
+| wine | Random | 0.243 ± 0.020 | 0.236 ± 0.030 |
+| breast_cancer | PACE-SHAP | 0.135 ± 0.035 | 0.709 ± 0.016 |
+| breast_cancer | PACE-SHAP-cond | 0.222 ± 0.031 | 0.601 ± 0.014 |
+| breast_cancer | PACE-flip | 0.159 ± 0.032 | 0.699 ± 0.022 |
+| breast_cancer | PACE-flip-cond | 0.212 ± 0.036 | 0.586 ± 0.024 |
+| breast_cancer | KernelSHAP | 0.137 ± 0.034 | 0.706 ± 0.016 |
+| breast_cancer | KernelSHAP-cond | 0.271 ± 0.029 | 0.559 ± 0.018 |
+| breast_cancer | LIME | 0.164 ± 0.031 | 0.684 ± 0.023 |
+| breast_cancer | Random | 0.418 ± 0.027 | 0.423 ± 0.020 |
+| thyroid | PACE-SHAP | 0.508 ± 0.042 | 0.893 ± 0.026 |
+| thyroid | PACE-SHAP-cond | 0.543 ± 0.042 | 0.853 ± 0.029 |
+| thyroid | PACE-flip | 0.503 ± 0.043 | 0.900 ± 0.024 |
+| thyroid | PACE-flip-cond | 0.513 ± 0.041 | 0.889 ± 0.027 |
+| thyroid | KernelSHAP | 0.508 ± 0.042 | 0.892 ± 0.026 |
+| thyroid | KernelSHAP-cond | 0.557 ± 0.043 | 0.844 ± 0.031 |
+| thyroid | LIME | 0.543 ± 0.050 | 0.853 ± 0.025 |
+| thyroid | Random | 0.709 ± 0.038 | 0.708 ± 0.030 |
+| shuttle | PACE-SHAP | 0.310 ± 0.065 | 0.706 ± 0.044 |
+| shuttle | PACE-SHAP-cond | 0.341 ± 0.068 | 0.671 ± 0.045 |
+| shuttle | PACE-flip | 0.325 ± 0.055 | 0.703 ± 0.038 |
+| shuttle | PACE-flip-cond | 0.322 ± 0.059 | 0.685 ± 0.050 |
+| shuttle | KernelSHAP | 0.311 ± 0.065 | 0.706 ± 0.044 |
+| shuttle | KernelSHAP-cond | 0.355 ± 0.068 | 0.650 ± 0.046 |
+| shuttle | LIME | 0.328 ± 0.067 | 0.675 ± 0.046 |
+| shuttle | Random | 0.497 ± 0.054 | 0.489 ± 0.059 |
+| magic | PACE-SHAP | -0.047 ± 0.016 | 0.268 ± 0.026 |
+| magic | PACE-SHAP-cond | 0.055 ± 0.016 | 0.158 ± 0.024 |
+| magic | PACE-flip | 0.023 ± 0.012 | 0.208 ± 0.016 |
+| magic | PACE-flip-cond | 0.046 ± 0.017 | 0.192 ± 0.016 |
+| magic | KernelSHAP | -0.050 ± 0.017 | 0.267 ± 0.025 |
+| magic | KernelSHAP-cond | 0.070 ± 0.015 | 0.146 ± 0.025 |
+| magic | LIME | -0.007 ± 0.018 | 0.216 ± 0.033 |
+| magic | Random | 0.129 ± 0.019 | 0.082 ± 0.019 |
+| letter | PACE-SHAP | -0.703 ± 0.018 | -0.015 ± 0.053 |
+| letter | PACE-SHAP-cond | -0.607 ± 0.020 | -0.210 ± 0.055 |
+| letter | PACE-flip | -0.653 ± 0.020 | -0.085 ± 0.058 |
+| letter | PACE-flip-cond | -0.632 ± 0.020 | -0.114 ± 0.053 |
+| letter | KernelSHAP | -0.702 ± 0.018 | -0.016 ± 0.052 |
+| letter | KernelSHAP-cond | -0.606 ± 0.019 | -0.219 ± 0.056 |
+| letter | LIME | -0.666 ± 0.021 | -0.130 ± 0.045 |
+| letter | Random | -0.408 ± 0.035 | -0.413 ± 0.032 |
+| landsat | PACE-SHAP | -0.330 ± 0.036 | 0.249 ± 0.038 |
+| landsat | PACE-SHAP-cond | -0.153 ± 0.033 | 0.047 ± 0.046 |
+| landsat | PACE-flip | -0.237 ± 0.038 | 0.137 ± 0.027 |
+| landsat | PACE-flip-cond | -0.183 ± 0.039 | 0.048 ± 0.043 |
+| landsat | KernelSHAP | -0.285 ± 0.034 | 0.213 ± 0.039 |
+| landsat | KernelSHAP-cond | -0.090 ± 0.029 | -0.003 ± 0.039 |
+| landsat | LIME | -0.286 ± 0.040 | 0.143 ± 0.041 |
+| landsat | Random | -0.045 ± 0.035 | -0.049 ± 0.031 |
+| page_blocks | PACE-SHAP | 0.041 ± 0.045 | 0.276 ± 0.077 |
+| page_blocks | PACE-SHAP-cond | 0.077 ± 0.051 | 0.226 ± 0.079 |
+| page_blocks | PACE-flip | 0.056 ± 0.053 | 0.262 ± 0.071 |
+| page_blocks | PACE-flip-cond | 0.051 ± 0.055 | 0.265 ± 0.083 |
+| page_blocks | KernelSHAP | 0.041 ± 0.045 | 0.273 ± 0.076 |
+| page_blocks | KernelSHAP-cond | 0.088 ± 0.056 | 0.216 ± 0.083 |
+| page_blocks | LIME | 0.057 ± 0.055 | 0.244 ± 0.073 |
+| page_blocks | Random | 0.160 ± 0.059 | 0.132 ± 0.065 |
+
+## Conditional test
+
+Deletion margin AUC: lower = more faithful. Insertion margin AUC: higher = more faithful.
+
+| Dataset | Method | Deletion margin AUC | Insertion margin AUC |
+|---|---|---|---|
+| S1 | PACE-SHAP | -0.184 ± 0.041 | 0.778 ± 0.019 |
+| S1 | PACE-SHAP-cond | -0.131 ± 0.039 | 0.738 ± 0.023 |
+| S1 | PACE-flip | -0.107 ± 0.037 | 0.733 ± 0.024 |
+| S1 | PACE-flip-cond | -0.102 ± 0.038 | 0.728 ± 0.025 |
+| S1 | KernelSHAP | -0.184 ± 0.039 | 0.777 ± 0.020 |
+| S1 | KernelSHAP-cond | -0.120 ± 0.042 | 0.729 ± 0.023 |
+| S1 | LIME | -0.155 ± 0.036 | 0.744 ± 0.024 |
+| S1 | Random | 0.309 ± 0.039 | 0.329 ± 0.053 |
+| S2 | PACE-SHAP | -0.172 ± 0.030 | 0.713 ± 0.019 |
+| S2 | PACE-SHAP-cond | -0.110 ± 0.029 | 0.660 ± 0.022 |
+| S2 | PACE-flip | -0.094 ± 0.024 | 0.652 ± 0.023 |
+| S2 | PACE-flip-cond | -0.089 ± 0.029 | 0.648 ± 0.022 |
+| S2 | KernelSHAP | -0.163 ± 0.033 | 0.713 ± 0.019 |
+| S2 | KernelSHAP-cond | -0.092 ± 0.030 | 0.649 ± 0.022 |
+| S2 | LIME | -0.143 ± 0.026 | 0.672 ± 0.017 |
+| S2 | Random | 0.276 ± 0.026 | 0.296 ± 0.032 |
+| S3 | PACE-SHAP | -0.089 ± 0.010 | 0.752 ± 0.023 |
+| S3 | PACE-SHAP-cond | -0.039 ± 0.012 | 0.711 ± 0.023 |
+| S3 | PACE-flip | -0.009 ± 0.022 | 0.699 ± 0.018 |
+| S3 | PACE-flip-cond | -0.003 ± 0.022 | 0.694 ± 0.017 |
+| S3 | KernelSHAP | -0.087 ± 0.011 | 0.750 ± 0.024 |
+| S3 | KernelSHAP-cond | -0.023 ± 0.011 | 0.692 ± 0.025 |
+| S3 | LIME | -0.012 ± 0.014 | 0.674 ± 0.030 |
+| S3 | Random | 0.351 ± 0.022 | 0.344 ± 0.020 |
+| S1c | PACE-SHAP | -0.094 ± 0.030 | 0.812 ± 0.010 |
+| S1c | PACE-SHAP-cond | -0.052 ± 0.035 | 0.787 ± 0.013 |
+| S1c | PACE-flip | -0.040 ± 0.029 | 0.785 ± 0.014 |
+| S1c | PACE-flip-cond | -0.012 ± 0.029 | 0.766 ± 0.013 |
+| S1c | KernelSHAP | -0.092 ± 0.031 | 0.809 ± 0.010 |
+| S1c | KernelSHAP-cond | -0.042 ± 0.038 | 0.780 ± 0.017 |
+| S1c | LIME | -0.082 ± 0.032 | 0.787 ± 0.013 |
+| S1c | Random | 0.427 ± 0.036 | 0.433 ± 0.028 |
+| S2c | PACE-SHAP | -0.157 ± 0.030 | 0.743 ± 0.014 |
+| S2c | PACE-SHAP-cond | -0.105 ± 0.029 | 0.706 ± 0.015 |
+| S2c | PACE-flip | -0.082 ± 0.027 | 0.680 ± 0.015 |
+| S2c | PACE-flip-cond | -0.054 ± 0.029 | 0.658 ± 0.016 |
+| S2c | KernelSHAP | -0.153 ± 0.030 | 0.739 ± 0.013 |
+| S2c | KernelSHAP-cond | -0.091 ± 0.030 | 0.701 ± 0.015 |
+| S2c | LIME | -0.133 ± 0.030 | 0.717 ± 0.016 |
+| S2c | Random | 0.347 ± 0.040 | 0.333 ± 0.026 |
+| wine | PACE-SHAP | 0.080 ± 0.045 | 0.891 ± 0.006 |
+| wine | PACE-SHAP-cond | 0.148 ± 0.047 | 0.857 ± 0.010 |
+| wine | PACE-flip | 0.116 ± 0.047 | 0.866 ± 0.011 |
+| wine | PACE-flip-cond | 0.115 ± 0.044 | 0.849 ± 0.015 |
+| wine | KernelSHAP | 0.078 ± 0.044 | 0.890 ± 0.007 |
+| wine | KernelSHAP-cond | 0.163 ± 0.045 | 0.861 ± 0.007 |
+| wine | LIME | 0.133 ± 0.042 | 0.867 ± 0.009 |
+| wine | Random | 0.594 ± 0.034 | 0.582 ± 0.034 |
+| breast_cancer | PACE-SHAP | 0.249 ± 0.027 | 0.933 ± 0.006 |
+| breast_cancer | PACE-SHAP-cond | 0.360 ± 0.033 | 0.915 ± 0.010 |
+| breast_cancer | PACE-flip | 0.331 ± 0.029 | 0.914 ± 0.012 |
+| breast_cancer | PACE-flip-cond | 0.398 ± 0.035 | 0.897 ± 0.021 |
+| breast_cancer | KernelSHAP | 0.257 ± 0.028 | 0.932 ± 0.006 |
+| breast_cancer | KernelSHAP-cond | 0.471 ± 0.032 | 0.898 ± 0.009 |
+| breast_cancer | LIME | 0.244 ± 0.021 | 0.920 ± 0.009 |
+| breast_cancer | Random | 0.736 ± 0.021 | 0.733 ± 0.020 |
+| thyroid | PACE-SHAP | 0.528 ± 0.054 | 0.907 ± 0.024 |
+| thyroid | PACE-SHAP-cond | 0.556 ± 0.050 | 0.875 ± 0.028 |
+| thyroid | PACE-flip | 0.527 ± 0.052 | 0.917 ± 0.022 |
+| thyroid | PACE-flip-cond | 0.536 ± 0.051 | 0.909 ± 0.024 |
+| thyroid | KernelSHAP | 0.528 ± 0.054 | 0.907 ± 0.024 |
+| thyroid | KernelSHAP-cond | 0.569 ± 0.051 | 0.868 ± 0.030 |
+| thyroid | LIME | 0.551 ± 0.062 | 0.872 ± 0.024 |
+| thyroid | Random | 0.735 ± 0.039 | 0.729 ± 0.031 |
+| shuttle | PACE-SHAP | 0.482 ± 0.057 | 0.773 ± 0.035 |
+| shuttle | PACE-SHAP-cond | 0.452 ± 0.061 | 0.771 ± 0.038 |
+| shuttle | PACE-flip | 0.505 ± 0.049 | 0.771 ± 0.037 |
+| shuttle | PACE-flip-cond | 0.490 ± 0.052 | 0.786 ± 0.039 |
+| shuttle | KernelSHAP | 0.481 ± 0.057 | 0.772 ± 0.035 |
+| shuttle | KernelSHAP-cond | 0.469 ± 0.060 | 0.758 ± 0.039 |
+| shuttle | LIME | 0.511 ± 0.057 | 0.761 ± 0.041 |
+| shuttle | Random | 0.639 ± 0.047 | 0.628 ± 0.043 |
+| magic | PACE-SHAP | 0.050 ± 0.019 | 0.187 ± 0.029 |
+| magic | PACE-SHAP-cond | 0.047 ± 0.014 | 0.174 ± 0.031 |
+| magic | PACE-flip | 0.064 ± 0.015 | 0.177 ± 0.023 |
+| magic | PACE-flip-cond | 0.057 ± 0.010 | 0.203 ± 0.028 |
+| magic | KernelSHAP | 0.050 ± 0.017 | 0.186 ± 0.027 |
+| magic | KernelSHAP-cond | 0.060 ± 0.017 | 0.164 ± 0.029 |
+| magic | LIME | 0.071 ± 0.014 | 0.157 ± 0.031 |
+| magic | Random | 0.140 ± 0.018 | 0.097 ± 0.014 |
+| letter | PACE-SHAP | -0.600 ± 0.020 | 0.079 ± 0.064 |
+| letter | PACE-SHAP-cond | -0.525 ± 0.024 | -0.057 ± 0.062 |
+| letter | PACE-flip | -0.520 ± 0.023 | 0.023 ± 0.070 |
+| letter | PACE-flip-cond | -0.521 ± 0.023 | 0.024 ± 0.069 |
+| letter | KernelSHAP | -0.599 ± 0.022 | 0.078 ± 0.062 |
+| letter | KernelSHAP-cond | -0.517 ± 0.024 | -0.060 ± 0.063 |
+| letter | LIME | -0.547 ± 0.029 | -0.042 ± 0.052 |
+| letter | Random | -0.272 ± 0.038 | -0.275 ± 0.044 |
+| landsat | PACE-SHAP | 0.160 ± 0.043 | 0.597 ± 0.040 |
+| landsat | PACE-SHAP-cond | 0.265 ± 0.029 | 0.598 ± 0.048 |
+| landsat | PACE-flip | 0.277 ± 0.048 | 0.590 ± 0.040 |
+| landsat | PACE-flip-cond | 0.193 ± 0.043 | 0.639 ± 0.051 |
+| landsat | KernelSHAP | 0.229 ± 0.045 | 0.600 ± 0.039 |
+| landsat | KernelSHAP-cond | 0.411 ± 0.035 | 0.550 ± 0.055 |
+| landsat | LIME | 0.165 ± 0.040 | 0.536 ± 0.046 |
+| landsat | Random | 0.483 ± 0.048 | 0.476 ± 0.042 |
+| page_blocks | PACE-SHAP | 0.110 ± 0.050 | 0.253 ± 0.063 |
+| page_blocks | PACE-SHAP-cond | 0.114 ± 0.049 | 0.253 ± 0.070 |
+| page_blocks | PACE-flip | 0.119 ± 0.044 | 0.250 ± 0.074 |
+| page_blocks | PACE-flip-cond | 0.098 ± 0.039 | 0.273 ± 0.078 |
+| page_blocks | KernelSHAP | 0.110 ± 0.050 | 0.249 ± 0.062 |
+| page_blocks | KernelSHAP-cond | 0.117 ± 0.050 | 0.244 ± 0.072 |
+| page_blocks | LIME | 0.141 ± 0.068 | 0.217 ± 0.051 |
+| page_blocks | Random | 0.184 ± 0.047 | 0.160 ± 0.061 |
+
+## PACE-SHAP-cond minus KernelSHAP-cond: conditional deletion margin AUC (primary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for PACE-SHAP-cond: negative.
+
+| Dataset | Difference | Seeds where PACE-SHAP-cond is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | -0.011 ± 0.011 | 4 of 10 | 0.131 | 0.393 |
+| S2 | -0.017 ± 0.010 | 2 of 10 | 0.00977 | 0.0684 |
+| S3 | -0.016 ± 0.009 | 0 of 10 | 0.00195 | 0.0254 |
+| S1c | -0.010 ± 0.009 | 2 of 10 | 0.0195 | 0.0977 |
+| S2c | -0.014 ± 0.008 | 2 of 10 | 0.00977 | 0.0684 |
+| wine | -0.015 ± 0.019 | 3 of 10 | 0.16 | 0.393 |
+| breast_cancer | -0.111 ± 0.012 | 0 of 10 | 0.00195 | 0.0254 |
+| thyroid | -0.013 ± 0.007 | 0 of 10 | 0.00195 | 0.0254 |
+| shuttle | -0.017 ± 0.008 | 0 of 10 | 0.00195 | 0.0254 |
+| magic | -0.013 ± 0.008 | 0 of 10 | 0.00195 | 0.0254 |
+| letter | -0.008 ± 0.007 | 2 of 10 | 0.0371 | 0.148 |
+| landsat | -0.146 ± 0.014 | 0 of 10 | 0.00195 | 0.0254 |
+| page_blocks | -0.003 ± 0.007 | 3 of 10 | 0.322 | 0.393 |
+
+## PACE-SHAP-cond minus KernelSHAP-cond: conditional insertion margin AUC (primary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for PACE-SHAP-cond: positive.
+
+| Dataset | Difference | Seeds where PACE-SHAP-cond is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.009 ± 0.004 | 9 of 10 | 0.00391 | 0.0352 |
+| S2 | +0.011 ± 0.009 | 8 of 10 | 0.0273 | 0.137 |
+| S3 | +0.019 ± 0.007 | 10 of 10 | 0.00195 | 0.0254 |
+| S1c | +0.008 ± 0.006 | 6 of 10 | 0.105 | 0.316 |
+| S2c | +0.005 ± 0.004 | 9 of 10 | 0.0195 | 0.117 |
+| wine | -0.004 ± 0.005 | 3 of 10 | 0.105 | 0.316 |
+| breast_cancer | +0.017 ± 0.006 | 10 of 10 | 0.00195 | 0.0254 |
+| thyroid | +0.007 ± 0.007 | 7 of 10 | 0.0273 | 0.137 |
+| shuttle | +0.012 ± 0.007 | 9 of 10 | 0.00391 | 0.0352 |
+| magic | +0.011 ± 0.008 | 8 of 10 | 0.0137 | 0.0957 |
+| letter | +0.003 ± 0.010 | 7 of 10 | 0.432 | 0.432 |
+| landsat | +0.048 ± 0.012 | 10 of 10 | 0.00195 | 0.0254 |
+| page_blocks | +0.009 ± 0.007 | 10 of 10 | 0.00195 | 0.0254 |
+
+## PACE-SHAP minus KernelSHAP: interventional deletion margin AUC (secondary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for PACE-SHAP: negative.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | -0.001 ± 0.002 | 5 of 10 | 0.375 | 1 |
+| S2 | -0.002 ± 0.003 | 2 of 10 | 0.084 | 0.756 |
+| S3 | -0.007 ± 0.003 | 0 of 10 | 0.00195 | 0.0254 |
+| S1c | -0.001 ± 0.004 | 6 of 10 | 0.922 | 1 |
+| S2c | -0.002 ± 0.003 | 3 of 10 | 0.105 | 0.756 |
+| wine | +0.001 ± 0.001 | 7 of 10 | 0.193 | 1 |
+| breast_cancer | -0.002 ± 0.001 | 0 of 10 | 0.00195 | 0.0254 |
+| thyroid | +0.000 ± 0.001 | 4 of 10 | 0.846 | 1 |
+| shuttle | -0.001 ± 0.001 | 2 of 10 | 0.193 | 1 |
+| magic | +0.002 ± 0.003 | 8 of 10 | 0.0488 | 0.488 |
+| letter | -0.001 ± 0.001 | 1 of 10 | 0.084 | 0.756 |
+| landsat | -0.045 ± 0.009 | 0 of 10 | 0.00195 | 0.0254 |
+| page_blocks | -0.000 ± 0.003 | 5 of 10 | 0.846 | 1 |
+
+## PACE-SHAP minus KernelSHAP: interventional insertion margin AUC (secondary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for PACE-SHAP: positive.
+
+| Dataset | Difference | Seeds where PACE-SHAP is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.001 ± 0.002 | 5 of 10 | 0.695 | 1 |
+| S2 | +0.004 ± 0.003 | 8 of 10 | 0.084 | 0.84 |
+| S3 | +0.003 ± 0.003 | 8 of 10 | 0.0488 | 0.537 |
+| S1c | +0.001 ± 0.002 | 6 of 10 | 0.557 | 1 |
+| S2c | +0.002 ± 0.004 | 8 of 10 | 0.232 | 1 |
+| wine | +0.000 ± 0.002 | 6 of 10 | 0.846 | 1 |
+| breast_cancer | +0.003 ± 0.001 | 10 of 10 | 0.00195 | 0.0254 |
+| thyroid | +0.001 ± 0.001 | 5 of 10 | 0.846 | 1 |
+| shuttle | +0.000 ± 0.001 | 6 of 10 | 0.625 | 1 |
+| magic | +0.001 ± 0.005 | 7 of 10 | 0.625 | 1 |
+| letter | +0.001 ± 0.004 | 6 of 10 | 0.492 | 1 |
+| landsat | +0.036 ± 0.007 | 10 of 10 | 0.00195 | 0.0254 |
+| page_blocks | +0.002 ± 0.004 | 7 of 10 | 0.16 | 1 |
+
+## PACE-SHAP-cond minus PACE-SHAP: conditional deletion margin AUC (secondary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for PACE-SHAP-cond: negative.
+
+| Dataset | Difference | Seeds where PACE-SHAP-cond is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.053 ± 0.012 | 10 of 10 | 0.00195 | 0.0254 |
+| S2 | +0.063 ± 0.014 | 10 of 10 | 0.00195 | 0.0254 |
+| S3 | +0.050 ± 0.008 | 10 of 10 | 0.00195 | 0.0254 |
+| S1c | +0.043 ± 0.011 | 10 of 10 | 0.00195 | 0.0254 |
+| S2c | +0.052 ± 0.008 | 10 of 10 | 0.00195 | 0.0254 |
+| wine | +0.068 ± 0.015 | 10 of 10 | 0.00195 | 0.0254 |
+| breast_cancer | +0.112 ± 0.016 | 10 of 10 | 0.00195 | 0.0254 |
+| thyroid | +0.029 ± 0.016 | 8 of 10 | 0.00977 | 0.0293 |
+| shuttle | -0.029 ± 0.013 | 1 of 10 | 0.00391 | 0.0254 |
+| magic | -0.003 ± 0.012 | 4 of 10 | 0.432 | 0.863 |
+| letter | +0.076 ± 0.012 | 10 of 10 | 0.00195 | 0.0254 |
+| landsat | +0.106 ± 0.026 | 10 of 10 | 0.00195 | 0.0254 |
+| page_blocks | +0.004 ± 0.014 | 5 of 10 | 0.695 | 0.863 |
+
+## PACE-SHAP-cond minus PACE-SHAP: conditional insertion margin AUC (secondary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for PACE-SHAP-cond: positive.
+
+| Dataset | Difference | Seeds where PACE-SHAP-cond is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | -0.040 ± 0.006 | 0 of 10 | 0.00195 | 0.0254 |
+| S2 | -0.054 ± 0.011 | 0 of 10 | 0.00195 | 0.0254 |
+| S3 | -0.040 ± 0.007 | 0 of 10 | 0.00195 | 0.0254 |
+| S1c | -0.025 ± 0.005 | 0 of 10 | 0.00195 | 0.0254 |
+| S2c | -0.037 ± 0.005 | 0 of 10 | 0.00195 | 0.0254 |
+| wine | -0.034 ± 0.008 | 0 of 10 | 0.00195 | 0.0254 |
+| breast_cancer | -0.018 ± 0.006 | 0 of 10 | 0.00195 | 0.0254 |
+| thyroid | -0.032 ± 0.009 | 0 of 10 | 0.00195 | 0.0254 |
+| shuttle | -0.002 ± 0.011 | 4 of 10 | 0.695 | 1 |
+| magic | -0.013 ± 0.011 | 1 of 10 | 0.0371 | 0.148 |
+| letter | -0.136 ± 0.019 | 0 of 10 | 0.00195 | 0.0254 |
+| landsat | +0.001 ± 0.015 | 5 of 10 | 1 | 1 |
+| page_blocks | +0.000 ± 0.012 | 5 of 10 | 1 | 1 |
+
+## PACE-SHAP-cond minus PACE-SHAP: interventional deletion margin AUC (secondary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for PACE-SHAP-cond: negative.
+
+| Dataset | Difference | Seeds where PACE-SHAP-cond is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.038 ± 0.006 | 10 of 10 | 0.00195 | 0.0254 |
+| S2 | +0.053 ± 0.009 | 10 of 10 | 0.00195 | 0.0254 |
+| S3 | +0.046 ± 0.005 | 10 of 10 | 0.00195 | 0.0254 |
+| S1c | +0.033 ± 0.007 | 10 of 10 | 0.00195 | 0.0254 |
+| S2c | +0.037 ± 0.009 | 10 of 10 | 0.00195 | 0.0254 |
+| wine | +0.072 ± 0.006 | 10 of 10 | 0.00195 | 0.0254 |
+| breast_cancer | +0.087 ± 0.009 | 10 of 10 | 0.00195 | 0.0254 |
+| thyroid | +0.035 ± 0.009 | 10 of 10 | 0.00195 | 0.0254 |
+| shuttle | +0.031 ± 0.012 | 10 of 10 | 0.00195 | 0.0254 |
+| magic | +0.103 ± 0.019 | 10 of 10 | 0.00195 | 0.0254 |
+| letter | +0.095 ± 0.006 | 10 of 10 | 0.00195 | 0.0254 |
+| landsat | +0.177 ± 0.022 | 10 of 10 | 0.00195 | 0.0254 |
+| page_blocks | +0.036 ± 0.019 | 9 of 10 | 0.00391 | 0.0254 |
+
+## PACE-SHAP-cond minus PACE-SHAP: interventional insertion margin AUC (secondary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for PACE-SHAP-cond: positive.
+
+| Dataset | Difference | Seeds where PACE-SHAP-cond is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | -0.035 ± 0.007 | 0 of 10 | 0.00195 | 0.0254 |
+| S2 | -0.047 ± 0.014 | 0 of 10 | 0.00195 | 0.0254 |
+| S3 | -0.036 ± 0.009 | 0 of 10 | 0.00195 | 0.0254 |
+| S1c | -0.027 ± 0.007 | 0 of 10 | 0.00195 | 0.0254 |
+| S2c | -0.034 ± 0.007 | 0 of 10 | 0.00195 | 0.0254 |
+| wine | -0.087 ± 0.009 | 0 of 10 | 0.00195 | 0.0254 |
+| breast_cancer | -0.108 ± 0.007 | 0 of 10 | 0.00195 | 0.0254 |
+| thyroid | -0.040 ± 0.009 | 0 of 10 | 0.00195 | 0.0254 |
+| shuttle | -0.036 ± 0.014 | 0 of 10 | 0.00195 | 0.0254 |
+| magic | -0.110 ± 0.023 | 0 of 10 | 0.00195 | 0.0254 |
+| letter | -0.195 ± 0.021 | 0 of 10 | 0.00195 | 0.0254 |
+| landsat | -0.201 ± 0.019 | 0 of 10 | 0.00195 | 0.0254 |
+| page_blocks | -0.050 ± 0.024 | 1 of 10 | 0.00391 | 0.0254 |
+
+## PACE-flip-cond minus PACE-flip: conditional deletion margin AUC (secondary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for PACE-flip-cond: negative.
+
+| Dataset | Difference | Seeds where PACE-flip-cond is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.005 ± 0.004 | 8 of 10 | 0.0488 | 0.244 |
+| S2 | +0.005 ± 0.007 | 7 of 10 | 0.193 | 0.58 |
+| S3 | +0.006 ± 0.006 | 7 of 10 | 0.0273 | 0.191 |
+| S1c | +0.028 ± 0.007 | 10 of 10 | 0.00195 | 0.0254 |
+| S2c | +0.028 ± 0.007 | 10 of 10 | 0.00195 | 0.0254 |
+| wine | -0.000 ± 0.007 | 5 of 10 | 1 | 1 |
+| breast_cancer | +0.067 ± 0.022 | 10 of 10 | 0.00195 | 0.0254 |
+| thyroid | +0.009 ± 0.008 | 8 of 10 | 0.0273 | 0.191 |
+| shuttle | -0.016 ± 0.013 | 2 of 10 | 0.00977 | 0.0781 |
+| magic | -0.007 ± 0.009 | 3 of 10 | 0.105 | 0.422 |
+| letter | -0.001 ± 0.007 | 3 of 10 | 0.695 | 1 |
+| landsat | -0.084 ± 0.009 | 0 of 10 | 0.00195 | 0.0254 |
+| page_blocks | -0.021 ± 0.011 | 1 of 10 | 0.00586 | 0.0527 |
+
+## PACE-flip-cond minus PACE-flip: interventional deletion margin AUC (secondary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for PACE-flip-cond: negative.
+
+| Dataset | Difference | Seeds where PACE-flip-cond is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.004 ± 0.006 | 7 of 10 | 0.16 | 0.48 |
+| S2 | +0.005 ± 0.006 | 8 of 10 | 0.0645 | 0.258 |
+| S3 | +0.007 ± 0.003 | 10 of 10 | 0.00195 | 0.0254 |
+| S1c | +0.020 ± 0.006 | 10 of 10 | 0.00195 | 0.0254 |
+| S2c | +0.025 ± 0.007 | 10 of 10 | 0.00195 | 0.0254 |
+| wine | +0.019 ± 0.005 | 10 of 10 | 0.00195 | 0.0254 |
+| breast_cancer | +0.054 ± 0.008 | 10 of 10 | 0.00195 | 0.0254 |
+| thyroid | +0.009 ± 0.006 | 9 of 10 | 0.0137 | 0.0684 |
+| shuttle | -0.002 ± 0.019 | 3 of 10 | 0.492 | 0.984 |
+| magic | +0.024 ± 0.010 | 9 of 10 | 0.00391 | 0.0254 |
+| letter | +0.021 ± 0.009 | 10 of 10 | 0.00195 | 0.0254 |
+| landsat | +0.055 ± 0.016 | 10 of 10 | 0.00195 | 0.0254 |
+| page_blocks | -0.005 ± 0.018 | 5 of 10 | 0.492 | 0.984 |
+
+## Realism: off-manifold share of the inputs each scheme evaluates
+
+An input is off-manifold if its nearest training row is farther than the 95th percentile of the training rows' own nearest-neighbour distances (standardised features), so about 5% of real points are. 200 sampled inputs per point and scheme; LIME's are weighted by its kernel. Lower = more realistic.
+
+| Dataset | Interventional Shapley game (PACE-SHAP, KernelSHAP) | Conditional Shapley game (PACE-SHAP-cond, KernelSHAP-cond) | Quantile values (PACE-flip) | Neighbour values (PACE-flip-cond) | LIME's samples (kernel-weighted) | Interventional deletion/insertion test | Conditional deletion/insertion test | The explained points themselves |
+|---|---|---|---|---|---|---|---|---|
+| S1 | 0.038 ± 0.006 | 0.012 ± 0.003 | 0.049 ± 0.009 | 0.050 ± 0.010 | 0.130 ± 0.009 | 0.039 ± 0.005 | 0.020 ± 0.004 | 0.044 ± 0.015 |
+| S2 | 0.042 ± 0.005 | 0.013 ± 0.003 | 0.052 ± 0.010 | 0.054 ± 0.011 | 0.128 ± 0.006 | 0.042 ± 0.006 | 0.022 ± 0.004 | 0.060 ± 0.018 |
+| S3 | 0.041 ± 0.003 | 0.014 ± 0.003 | 0.055 ± 0.006 | 0.055 ± 0.008 | 0.133 ± 0.008 | 0.040 ± 0.003 | 0.022 ± 0.003 | 0.060 ± 0.017 |
+| S1c | 0.137 ± 0.009 | 0.016 ± 0.004 | 0.110 ± 0.012 | 0.079 ± 0.013 | 0.352 ± 0.010 | 0.138 ± 0.010 | 0.031 ± 0.006 | 0.052 ± 0.022 |
+| S2c | 0.139 ± 0.009 | 0.015 ± 0.003 | 0.115 ± 0.011 | 0.082 ± 0.012 | 0.358 ± 0.011 | 0.140 ± 0.007 | 0.033 ± 0.005 | 0.046 ± 0.019 |
+| wine | 0.165 ± 0.022 | 0.014 ± 0.005 | 0.081 ± 0.021 | 0.064 ± 0.018 | 0.481 ± 0.061 | 0.161 ± 0.017 | 0.026 ± 0.007 | 0.047 ± 0.019 |
+| breast_cancer | 0.127 ± 0.024 | 0.012 ± 0.008 | 0.040 ± 0.022 | 0.033 ± 0.019 | 0.624 ± 0.113 | 0.127 ± 0.024 | 0.018 ± 0.010 | 0.032 ± 0.018 |
+| thyroid | 0.089 ± 0.014 | 0.026 ± 0.010 | 0.061 ± 0.024 | 0.056 ± 0.024 | 1.000 ± 0.000 | 0.088 ± 0.016 | 0.040 ± 0.012 | 0.048 ± 0.026 |
+| shuttle | 0.706 ± 0.005 | 0.567 ± 0.011 | 0.661 ± 0.008 | 0.613 ± 0.008 | 1.000 ± 0.000 | 0.704 ± 0.004 | 0.574 ± 0.004 | 0.050 ± 0.022 |
+| magic | 0.203 ± 0.015 | 0.024 ± 0.010 | 0.139 ± 0.022 | 0.059 ± 0.021 | 0.712 ± 0.047 | 0.201 ± 0.017 | 0.037 ± 0.012 | 0.040 ± 0.020 |
+| letter | 0.627 ± 0.009 | 0.101 ± 0.010 | 0.319 ± 0.014 | 0.217 ± 0.017 | 0.995 ± 0.001 | 0.626 ± 0.013 | 0.262 ± 0.018 | 0.052 ± 0.017 |
+| landsat | 0.671 ± 0.010 | 0.046 ± 0.013 | 0.263 ± 0.021 | 0.096 ± 0.022 | 1.000 ± 0.000 | 0.668 ± 0.012 | 0.084 ± 0.020 | 0.064 ± 0.027 |
+| page_blocks | 0.296 ± 0.033 | 0.060 ± 0.009 | 0.235 ± 0.034 | 0.126 ± 0.024 | 0.997 ± 0.004 | 0.301 ± 0.035 | 0.093 ± 0.020 | 0.054 ± 0.017 |
+
+## Conditional Shapley game (PACE-SHAP-cond, KernelSHAP-cond) minus Interventional Shapley game (PACE-SHAP, KernelSHAP): off-manifold share (primary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for shap_cond: negative.
+
+| Dataset | Difference | Seeds where shap_cond is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | -0.026 ± 0.005 | 0 of 10 | 0.00195 | 0.0254 |
+| S2 | -0.029 ± 0.003 | 0 of 10 | 0.00195 | 0.0254 |
+| S3 | -0.027 ± 0.002 | 0 of 10 | 0.00195 | 0.0254 |
+| S1c | -0.122 ± 0.008 | 0 of 10 | 0.00195 | 0.0254 |
+| S2c | -0.124 ± 0.007 | 0 of 10 | 0.00195 | 0.0254 |
+| wine | -0.152 ± 0.020 | 0 of 10 | 0.00195 | 0.0254 |
+| breast_cancer | -0.115 ± 0.019 | 0 of 10 | 0.00195 | 0.0254 |
+| thyroid | -0.063 ± 0.008 | 0 of 10 | 0.00195 | 0.0254 |
+| shuttle | -0.139 ± 0.011 | 0 of 10 | 0.00195 | 0.0254 |
+| magic | -0.178 ± 0.009 | 0 of 10 | 0.00195 | 0.0254 |
+| letter | -0.526 ± 0.006 | 0 of 10 | 0.00195 | 0.0254 |
+| landsat | -0.624 ± 0.013 | 0 of 10 | 0.00195 | 0.0254 |
+| page_blocks | -0.236 ± 0.027 | 0 of 10 | 0.00195 | 0.0254 |
+
+## Neighbour values (PACE-flip-cond) minus Quantile values (PACE-flip): off-manifold share (secondary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for flip_cond: negative.
+
+| Dataset | Difference | Seeds where flip_cond is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | +0.000 ± 0.002 | 5 of 10 | 0.91 | 1 |
+| S2 | +0.002 ± 0.002 | 8 of 10 | 0.0645 | 0.193 |
+| S3 | +0.001 ± 0.003 | 6 of 10 | 0.75 | 1 |
+| S1c | -0.031 ± 0.006 | 0 of 10 | 0.00195 | 0.0254 |
+| S2c | -0.033 ± 0.003 | 0 of 10 | 0.00195 | 0.0254 |
+| wine | -0.017 ± 0.005 | 0 of 10 | 0.00195 | 0.0254 |
+| breast_cancer | -0.007 ± 0.004 | 0 of 10 | 0.00195 | 0.0254 |
+| thyroid | -0.005 ± 0.002 | 0 of 10 | 0.00195 | 0.0254 |
+| shuttle | -0.048 ± 0.006 | 0 of 10 | 0.00195 | 0.0254 |
+| magic | -0.080 ± 0.007 | 0 of 10 | 0.00195 | 0.0254 |
+| letter | -0.103 ± 0.006 | 0 of 10 | 0.00195 | 0.0254 |
+| landsat | -0.167 ± 0.016 | 0 of 10 | 0.00195 | 0.0254 |
+| page_blocks | -0.109 ± 0.012 | 0 of 10 | 0.00195 | 0.0254 |
+
+## Conditional deletion/insertion test minus Interventional deletion/insertion test: off-manifold share (secondary)
+
+Paired over seeds; two-sided Wilcoxon signed-rank test, Holm across datasets. Better for test_cond: negative.
+
+| Dataset | Difference | Seeds where test_cond is higher | p | p (Holm) |
+|---|---|---|---|---|
+| S1 | -0.019 ± 0.003 | 0 of 10 | 0.00195 | 0.0254 |
+| S2 | -0.020 ± 0.002 | 0 of 10 | 0.00195 | 0.0254 |
+| S3 | -0.018 ± 0.001 | 0 of 10 | 0.00195 | 0.0254 |
+| S1c | -0.108 ± 0.007 | 0 of 10 | 0.00195 | 0.0254 |
+| S2c | -0.107 ± 0.005 | 0 of 10 | 0.00195 | 0.0254 |
+| wine | -0.135 ± 0.015 | 0 of 10 | 0.00195 | 0.0254 |
+| breast_cancer | -0.109 ± 0.016 | 0 of 10 | 0.00195 | 0.0254 |
+| thyroid | -0.048 ± 0.008 | 0 of 10 | 0.00195 | 0.0254 |
+| shuttle | -0.130 ± 0.005 | 0 of 10 | 0.00195 | 0.0254 |
+| magic | -0.164 ± 0.008 | 0 of 10 | 0.00195 | 0.0254 |
+| letter | -0.364 ± 0.010 | 0 of 10 | 0.00195 | 0.0254 |
+| landsat | -0.584 ± 0.023 | 0 of 10 | 0.00195 | 0.0254 |
+| page_blocks | -0.208 ± 0.020 | 0 of 10 | 0.00195 | 0.0254 |
+
+## Correlated distractor (S1c, S2c)
+
+Feature 3 is a noisy copy of feature 0 that the true rule does not use. x3 share = mean over points of |attribution of x3| / sum of |attributions|. The model's own reliance: share of PACE-flip's single-feature decision flips (interventional) that come from x3.
+
+| Dataset | Method | x3 share | Ground truth top-3 |
+|---|---|---|---|
+| S1c | PACE-SHAP | 0.201 ± 0.011 | 0.707 ± 0.018 |
+| S1c | PACE-SHAP-cond | 0.175 ± 0.003 | 0.625 ± 0.018 |
+| S1c | PACE-flip | 0.213 ± 0.015 | 0.556 ± 0.023 |
+| S1c | PACE-flip-cond | 0.167 ± 0.012 | 0.541 ± 0.021 |
+| S1c | KernelSHAP | 0.200 ± 0.011 | 0.697 ± 0.012 |
+| S1c | KernelSHAP-cond | 0.170 ± 0.006 | 0.601 ± 0.016 |
+| S1c | LIME | 0.217 ± 0.014 | 0.721 ± 0.015 |
+| S1c | Random | 0.101 ± 0.007 | 0.307 ± 0.025 |
+| S2c | PACE-SHAP | 0.176 ± 0.008 | 0.689 ± 0.021 |
+| S2c | PACE-SHAP-cond | 0.154 ± 0.011 | 0.617 ± 0.023 |
+| S2c | PACE-flip | 0.167 ± 0.013 | 0.479 ± 0.015 |
+| S2c | PACE-flip-cond | 0.128 ± 0.007 | 0.467 ± 0.020 |
+| S2c | KernelSHAP | 0.174 ± 0.008 | 0.693 ± 0.022 |
+| S2c | KernelSHAP-cond | 0.149 ± 0.013 | 0.588 ± 0.021 |
+| S2c | LIME | 0.203 ± 0.011 | 0.721 ± 0.010 |
+| S2c | Random | 0.101 ± 0.007 | 0.307 ± 0.025 |
+
+| Dataset | Flip mass on x3 | Flip mass on x0–x2 |
+|---|---|---|
+| S1c | 0.191 ± 0.019 | 0.511 ± 0.030 |
+| S2c | 0.134 ± 0.009 | 0.402 ± 0.015 |
+
+## Ground truth top-3 (synthetic sets)
+
+| Method | S1 | S2 | S3 | S1c | S2c |
+|---|---|---|---|---|---|
+| PACE-SHAP | 0.86 | 0.82 | 0.81 | 0.71 | 0.69 |
+| PACE-SHAP-cond | 0.72 | 0.67 | 0.66 | 0.63 | 0.62 |
+| PACE-flip | 0.57 | 0.51 | 0.52 | 0.56 | 0.48 |
+| PACE-flip-cond | 0.57 | 0.51 | 0.52 | 0.54 | 0.47 |
+| KernelSHAP | 0.85 | 0.81 | 0.79 | 0.70 | 0.69 |
+| KernelSHAP-cond | 0.69 | 0.64 | 0.62 | 0.60 | 0.59 |
+| LIME | 0.93 | 0.92 | 0.90 | 0.72 | 0.72 |
+| Random | 0.31 | 0.31 | 0.31 | 0.31 | 0.31 |
+
+## Milliseconds per explanation
+
+Measured with several runs sharing the CPU: compare within a dataset only.
+
+| Dataset | PACE-SHAP | PACE-SHAP-cond | PACE-flip | PACE-flip-cond | KernelSHAP | KernelSHAP-cond | LIME | Random |
+|---|---|---|---|---|---|---|---|---|
+| S1 | 10075.3 | 10093.3 | 4.1 | 51.1 | 53609.5 | 53611.3 | 1120.6 | 0.0 |
+| S2 | 8184.4 | 8199.8 | 3.4 | 42.4 | 56156.6 | 56158.4 | 1190.3 | 0.0 |
+| S3 | 8000.6 | 8015.7 | 3.6 | 41.6 | 54061.1 | 54062.9 | 1150.0 | 0.0 |
+| S1c | 6761.6 | 6776.3 | 3.2 | 35.9 | 46107.8 | 46109.6 | 1054.1 | 0.0 |
+| S2c | 6623.7 | 6638.6 | 3.4 | 36.8 | 47548.7 | 47550.4 | 1019.2 | 0.0 |
+| wine | 50.9 | 57.6 | 0.3 | 2.5 | 439.5 | 440.2 | 46.9 | 0.0 |
+| breast_cancer | 694.9 | 734.8 | 1.5 | 6.3 | 4396.7 | 4398.7 | 113.8 | 0.0 |
+| thyroid | 509.1 | 531.4 | 1.3 | 6.1 | 3734.5 | 3736.4 | 97.4 | 0.0 |
+| shuttle | 40.7 | 45.2 | 0.1 | 1.8 | 363.3 | 364.6 | 20.6 | 0.0 |
+| magic | 1046.8 | 1061.2 | 1.9 | 7.4 | 8906.9 | 8908.6 | 227.3 | 0.0 |
+| letter | 2857.7 | 2902.2 | 4.4 | 21.3 | 28594.0 | 28595.5 | 709.4 | 0.0 |
+| landsat | 3950.2 | 4153.5 | 3.6 | 20.2 | 18090.1 | 18092.1 | 484.7 | 0.0 |
+| page_blocks | 367.5 | 391.0 | 0.6 | 4.5 | 1271.1 | 1273.4 | 53.2 | 0.0 |
+

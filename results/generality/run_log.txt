@@ -1,0 +1,512 @@
+﻿--- part models: 130 tasks
+0 of 130 dataset-seed pairs already done; 130 to run.
+letter seed 150: gamma=2 74.6% (3386/3386 ties), gamma=4 74.9% (3397/3397 ties), gamma=8 74.7% (3401/3401 ties), Simpson 74.5% (3368/3416 ties)
+letter seed 151: gamma=2 75.0% (3305/3305 ties), gamma=4 75.3% (3264/3264 ties), gamma=8 75.0% (3288/3288 ties), Simpson 75.3% (3195/3225 ties)
+skin seed 151: gamma=2 93.7% (12522/12522 ties), gamma=4 94.4% (11023/11023 ties), gamma=8 95.2% (9572/9572 ties), Simpson 86.5% (321/26611 ties)
+skin seed 153: gamma=2 94.1% (11597/11597 ties), gamma=4 97.7% (4507/4507 ties), gamma=8 95.0% (9791/9791 ties), Simpson 92.6% (568/14583 ties)
+skin seed 150: gamma=2 97.8% (4464/4464 ties), gamma=4 97.3% (5230/5230 ties), gamma=8 97.0% (6207/6207 ties), Simpson 92.2% (205/15097 ties)
+skin seed 159: gamma=2 97.9% (4124/4124 ties), gamma=4 94.7% (10235/10235 ties), gamma=8 93.4% (13144/13144 ties), Simpson 85.0% (2898/29413 ties)
+skin seed 152: gamma=2 94.2% (11126/11126 ties), gamma=4 94.5% (10530/10530 ties), gamma=8 92.7% (13845/13845 ties), Simpson 90.2% (2933/19343 ties)
+skin seed 158: gamma=2 92.5% (14454/14454 ties), gamma=4 95.1% (9568/9568 ties), gamma=8 94.0% (11725/11725 ties), Simpson 88.2% (513/23169 ties)
+skin seed 157: gamma=2 94.3% (11341/11341 ties), gamma=4 92.8% (14175/14175 ties), gamma=8 95.0% (10076/10076 ties), Simpson 95.3% (2868/9159 ties)
+skin seed 156: gamma=2 92.3% (14780/14780 ties), gamma=4 92.6% (14008/14008 ties), gamma=8 95.2% (9385/9385 ties), Simpson 90.7% (4784/18235 ties)
+skin seed 154: gamma=2 93.6% (12536/12536 ties), gamma=4 93.3% (13241/13241 ties), gamma=8 96.6% (6583/6583 ties), Simpson 86.1% (1251/27116 ties)
+skin seed 155: gamma=2 94.8% (10598/10598 ties), gamma=4 93.1% (13684/13684 ties), gamma=8 96.9% (6415/6415 ties), Simpson 82.8% (291/33626 ties)
+S1 seed 150: gamma=2 91.1% (0/0 ties), gamma=4 89.8% (0/0 ties), gamma=8 85.6% (0/0 ties), Simpson 89.7% (0/0 ties)
+S1 seed 151: gamma=2 90.4% (0/0 ties), gamma=4 88.3% (0/0 ties), gamma=8 84.0% (0/0 ties), Simpson 88.3% (0/6 ties)
+S1 seed 152: gamma=2 93.0% (0/0 ties), gamma=4 90.3% (0/0 ties), gamma=8 86.4% (0/0 ties), Simpson 90.3% (0/1 ties)
+S1 seed 153: gamma=2 91.9% (0/0 ties), gamma=4 90.4% (0/0 ties), gamma=8 86.9% (0/0 ties), Simpson 90.4% (0/0 ties)
+letter seed 152: gamma=2 75.5% (3268/3268 ties), gamma=4 75.3% (3289/3289 ties), gamma=8 74.9% (3329/3329 ties), Simpson 74.9% (3226/3269 ties)
+letter seed 153: gamma=2 73.8% (3277/3277 ties), gamma=4 73.8% (3260/3260 ties), gamma=8 73.7% (3218/3218 ties), Simpson 73.9% (3208/3277 ties)
+S1 seed 155: gamma=2 91.7% (0/0 ties), gamma=4 90.7% (0/0 ties), gamma=8 85.0% (0/0 ties), Simpson 90.8% (0/1 ties)
+S1 seed 156: gamma=2 91.6% (0/0 ties), gamma=4 90.3% (0/0 ties), gamma=8 86.6% (0/0 ties), Simpson 90.2% (0/0 ties)
+S1 seed 157: gamma=2 92.1% (0/0 ties), gamma=4 90.4% (1/1 ties), gamma=8 85.9% (0/0 ties), Simpson 90.4% (0/1 ties)
+S1 seed 154: gamma=2 91.7% (0/0 ties), gamma=4 87.8% (0/0 ties), gamma=8 83.4% (0/0 ties), Simpson 87.8% (0/1 ties)
+letter seed 154: gamma=2 76.3% (3309/3309 ties), gamma=4 76.3% (3320/3320 ties), gamma=8 76.3% (3284/3284 ties), Simpson 76.3% (3267/3308 ties)
+letter seed 156: gamma=2 75.8% (3312/3312 ties), gamma=4 75.4% (3388/3388 ties), gamma=8 75.5% (3427/3427 ties), Simpson 75.2% (3358/3392 ties)
+letter seed 158: gamma=2 76.8% (3380/3380 ties), gamma=4 76.9% (3326/3326 ties), gamma=8 76.4% (3371/3371 ties), Simpson 76.8% (3297/3361 ties)
+letter seed 157: gamma=2 74.2% (3508/3508 ties), gamma=4 74.2% (3479/3479 ties), gamma=8 74.7% (3424/3424 ties), Simpson 74.4% (3440/3474 ties)
+S1 seed 158: gamma=2 92.6% (0/0 ties), gamma=4 90.9% (0/0 ties), gamma=8 86.1% (0/0 ties), Simpson 90.9% (0/0 ties)
+S1 seed 159: gamma=2 91.9% (0/0 ties), gamma=4 88.2% (0/0 ties), gamma=8 84.6% (0/0 ties), Simpson 88.2% (0/1 ties)
+letter seed 159: gamma=2 77.1% (3328/3328 ties), gamma=4 76.6% (3333/3333 ties), gamma=8 75.8% (3354/3354 ties), Simpson 76.4% (3247/3306 ties)
+letter seed 155: gamma=2 74.7% (3401/3401 ties), gamma=4 74.9% (3415/3415 ties), gamma=8 75.3% (3384/3384 ties), Simpson 74.6% (3373/3422 ties)
+S2 seed 151: gamma=2 83.6% (0/0 ties), gamma=4 80.9% (0/0 ties), gamma=8 78.3% (0/0 ties), Simpson 81.1% (0/14 ties)
+S2 seed 150: gamma=2 81.9% (0/0 ties), gamma=4 79.2% (0/0 ties), gamma=8 78.7% (0/0 ties), Simpson 79.2% (0/12 ties)
+S2 seed 152: gamma=2 80.5% (0/0 ties), gamma=4 78.9% (0/0 ties), gamma=8 78.9% (0/0 ties), Simpson 79.3% (0/15 ties)
+S2 seed 153: gamma=2 83.7% (0/0 ties), gamma=4 81.0% (0/0 ties), gamma=8 79.5% (0/0 ties), Simpson 81.4% (0/9 ties)
+S2 seed 154: gamma=2 81.6% (1/1 ties), gamma=4 79.6% (0/0 ties), gamma=8 77.5% (0/0 ties), Simpson 79.9% (0/10 ties)
+S2 seed 156: gamma=2 80.4% (0/0 ties), gamma=4 81.1% (0/0 ties), gamma=8 78.1% (0/0 ties), Simpson 81.8% (0/11 ties)
+S2 seed 155: gamma=2 80.9% (1/1 ties), gamma=4 81.7% (1/1 ties), gamma=8 76.4% (1/1 ties), Simpson 81.7% (0/19 ties)
+S2 seed 157: gamma=2 83.2% (0/0 ties), gamma=4 84.0% (0/0 ties), gamma=8 78.3% (1/1 ties), Simpson 83.7% (0/10 ties)
+S2 seed 158: gamma=2 82.3% (0/0 ties), gamma=4 79.7% (0/0 ties), gamma=8 76.6% (1/1 ties), Simpson 79.3% (0/17 ties)
+S2 seed 159: gamma=2 82.1% (0/0 ties), gamma=4 79.7% (0/0 ties), gamma=8 77.1% (0/0 ties), Simpson 79.9% (0/5 ties)
+S3 seed 150: gamma=2 90.5% (0/0 ties), gamma=4 89.0% (0/0 ties), gamma=8 84.6% (0/0 ties), Simpson 88.9% (0/4 ties)
+S3 seed 151: gamma=2 88.5% (0/0 ties), gamma=4 87.4% (0/0 ties), gamma=8 83.2% (0/0 ties), Simpson 87.3% (0/1 ties)
+S3 seed 152: gamma=2 89.3% (0/0 ties), gamma=4 87.6% (0/0 ties), gamma=8 83.3% (0/0 ties), Simpson 87.7% (0/2 ties)
+S3 seed 153: gamma=2 87.0% (0/0 ties), gamma=4 88.0% (1/1 ties), gamma=8 85.7% (0/0 ties), Simpson 88.2% (0/7 ties)
+S3 seed 154: gamma=2 88.6% (0/0 ties), gamma=4 87.9% (0/0 ties), gamma=8 82.5% (0/0 ties), Simpson 87.9% (0/0 ties)
+shuttle seed 150: gamma=2 99.8% (89/89 ties), gamma=4 99.8% (89/89 ties), gamma=8 99.8% (89/89 ties), Simpson 49.4% (9/23020 ties)
+shuttle seed 151: gamma=2 99.8% (88/88 ties), gamma=4 99.8% (88/88 ties), gamma=8 99.8% (88/88 ties), Simpson 66.1% (3/15631 ties)
+S3 seed 155: gamma=2 89.1% (0/0 ties), gamma=4 88.5% (0/0 ties), gamma=8 84.7% (0/0 ties), Simpson 88.4% (0/3 ties)
+S3 seed 156: gamma=2 89.6% (0/0 ties), gamma=4 88.4% (0/0 ties), gamma=8 83.3% (0/0 ties), Simpson 88.5% (0/4 ties)
+shuttle seed 152: gamma=2 99.8% (95/95 ties), gamma=4 99.8% (95/95 ties), gamma=8 99.8% (95/95 ties), Simpson 59.7% (19/18626 ties)
+shuttle seed 153: gamma=2 99.8% (88/88 ties), gamma=4 99.8% (80/80 ties), gamma=8 99.8% (88/88 ties), Simpson 89.1% (41/5174 ties)
+S3 seed 158: gamma=2 89.2% (0/0 ties), gamma=4 86.7% (0/0 ties), gamma=8 84.0% (0/0 ties), Simpson 86.6% (0/5 ties)
+S3 seed 159: gamma=2 89.5% (1/1 ties), gamma=4 88.0% (0/0 ties), gamma=8 86.5% (0/0 ties), Simpson 88.3% (0/1 ties)
+S3 seed 157: gamma=2 87.3% (0/0 ties), gamma=4 87.4% (0/0 ties), gamma=8 82.6% (0/0 ties), Simpson 87.9% (0/3 ties)
+shuttle seed 155: gamma=2 99.8% (88/88 ties), gamma=4 99.8% (88/88 ties), gamma=8 99.8% (88/88 ties), Simpson 46.0% (26/25153 ties)
+shuttle seed 154: gamma=2 99.8% (90/90 ties), gamma=4 99.8% (90/90 ties), gamma=8 99.8% (90/90 ties), Simpson 79.4% (47/9355 ties)
+shuttle seed 156: gamma=2 99.8% (89/89 ties), gamma=4 99.8% (89/89 ties), gamma=8 99.8% (89/89 ties), Simpson 58.5% (17/19359 ties)
+shuttle seed 157: gamma=2 99.8% (89/89 ties), gamma=4 99.8% (89/89 ties), gamma=8 99.8% (89/89 ties), Simpson 97.1% (2/1150 ties)
+shuttle seed 158: gamma=2 99.8% (88/88 ties), gamma=4 99.8% (88/88 ties), gamma=8 99.8% (88/88 ties), Simpson 84.7% (0/7073 ties)
+wine seed 150: gamma=2 97.2% (0/0 ties), gamma=4 91.7% (0/0 ties), gamma=8 94.4% (0/0 ties), Simpson 91.7% (0/0 ties)
+wine seed 151: gamma=2 100.0% (0/0 ties), gamma=4 97.2% (0/0 ties), gamma=8 100.0% (0/0 ties), Simpson 97.2% (0/0 ties)
+wine seed 152: gamma=2 100.0% (0/0 ties), gamma=4 97.2% (0/0 ties), gamma=8 94.4% (0/0 ties), Simpson 97.2% (0/0 ties)
+wine seed 153: gamma=2 97.2% (0/0 ties), gamma=4 97.2% (0/0 ties), gamma=8 97.2% (0/0 ties), Simpson 97.2% (0/0 ties)
+wine seed 154: gamma=2 97.2% (0/0 ties), gamma=4 97.2% (0/0 ties), gamma=8 91.7% (0/0 ties), Simpson 97.2% (0/0 ties)
+wine seed 155: gamma=2 100.0% (0/0 ties), gamma=4 100.0% (0/0 ties), gamma=8 100.0% (0/0 ties), Simpson 100.0% (0/0 ties)
+wine seed 156: gamma=2 100.0% (0/0 ties), gamma=4 100.0% (0/0 ties), gamma=8 97.2% (0/0 ties), Simpson 100.0% (0/0 ties)
+wine seed 157: gamma=2 94.4% (0/0 ties), gamma=4 97.2% (0/0 ties), gamma=8 100.0% (0/0 ties), Simpson 97.2% (0/0 ties)
+wine seed 158: gamma=2 97.2% (0/0 ties), gamma=4 97.2% (0/0 ties), gamma=8 100.0% (0/0 ties), Simpson 97.2% (0/0 ties)
+wine seed 159: gamma=2 97.2% (0/0 ties), gamma=4 97.2% (0/0 ties), gamma=8 100.0% (0/0 ties), Simpson 97.2% (0/0 ties)
+shuttle seed 159: gamma=2 99.8% (89/89 ties), gamma=4 99.8% (89/89 ties), gamma=8 99.8% (89/89 ties), Simpson 81.8% (1/8321 ties)
+breast_cancer seed 150: gamma=2 96.5% (4/4 ties), gamma=4 96.5% (4/4 ties), gamma=8 96.5% (4/4 ties), Simpson 97.4% (1/5 ties)
+breast_cancer seed 151: gamma=2 96.5% (5/5 ties), gamma=4 94.7% (3/3 ties), gamma=8 95.6% (3/3 ties), Simpson 96.5% (0/6 ties)
+breast_cancer seed 152: gamma=2 95.6% (4/4 ties), gamma=4 95.6% (4/4 ties), gamma=8 95.6% (4/4 ties), Simpson 94.7% (0/7 ties)
+breast_cancer seed 153: gamma=2 92.1% (4/4 ties), gamma=4 92.1% (4/4 ties), gamma=8 92.1% (4/4 ties), Simpson 92.1% (0/9 ties)
+breast_cancer seed 154: gamma=2 95.6% (8/8 ties), gamma=4 95.6% (8/8 ties), gamma=8 98.2% (4/4 ties), Simpson 95.6% (1/7 ties)
+breast_cancer seed 155: gamma=2 94.7% (3/3 ties), gamma=4 95.6% (3/3 ties), gamma=8 98.2% (4/4 ties), Simpson 95.6% (0/4 ties)
+breast_cancer seed 156: gamma=2 93.9% (3/3 ties), gamma=4 96.5% (4/4 ties), gamma=8 96.5% (4/4 ties), Simpson 96.5% (0/5 ties)
+breast_cancer seed 157: gamma=2 93.9% (2/2 ties), gamma=4 93.9% (2/2 ties), gamma=8 94.7% (3/3 ties), Simpson 93.9% (0/6 ties)
+breast_cancer seed 158: gamma=2 96.5% (3/3 ties), gamma=4 96.5% (3/3 ties), gamma=8 95.6% (2/2 ties), Simpson 95.6% (0/4 ties)
+breast_cancer seed 159: gamma=2 96.5% (4/4 ties), gamma=4 96.5% (1/1 ties), gamma=8 99.1% (7/7 ties), Simpson 97.4% (0/2 ties)
+magic seed 150: gamma=2 72.0% (3994/3994 ties), gamma=4 71.9% (3857/3857 ties), gamma=8 73.2% (3668/3668 ties), Simpson 55.9% (12/6770 ties)
+magic seed 151: gamma=2 71.0% (3992/3992 ties), gamma=4 72.7% (3634/3634 ties), gamma=8 72.2% (3727/3727 ties), Simpson 67.5% (0/4900 ties)
+magic seed 154: gamma=2 70.7% (4239/4239 ties), gamma=4 68.6% (4345/4345 ties), gamma=8 71.4% (4141/4141 ties), Simpson 51.2% (0/7407 ties)
+magic seed 153: gamma=2 74.5% (3778/3778 ties), gamma=4 72.3% (3938/3938 ties), gamma=8 75.4% (3431/3431 ties), Simpson 56.1% (14/6478 ties)
+magic seed 152: gamma=2 69.2% (4338/4338 ties), gamma=4 69.4% (4277/4277 ties), gamma=8 70.6% (3944/3944 ties), Simpson 62.7% (0/5628 ties)
+digits seed 150: gamma=2 98.1% (0/0 ties), gamma=4 97.5% (0/0 ties), gamma=8 96.1% (0/0 ties), Simpson 97.5% (0/0 ties)
+digits seed 151: gamma=2 96.9% (0/0 ties), gamma=4 95.3% (0/0 ties), gamma=8 95.0% (0/0 ties), Simpson 95.3% (0/0 ties)
+magic seed 156: gamma=2 76.1% (3316/3316 ties), gamma=4 71.5% (3949/3949 ties), gamma=8 70.3% (4121/4121 ties), Simpson 62.8% (57/5591 ties)
+magic seed 155: gamma=2 72.0% (3864/3864 ties), gamma=4 71.3% (4107/4107 ties), gamma=8 68.5% (4424/4424 ties), Simpson 61.5% (0/5789 ties)
+magic seed 158: gamma=2 71.8% (3928/3928 ties), gamma=4 72.4% (3991/3991 ties), gamma=8 71.9% (3788/3788 ties), Simpson 51.3% (35/7004 ties)
+digits seed 153: gamma=2 96.9% (0/0 ties), gamma=4 95.8% (0/0 ties), gamma=8 95.3% (0/0 ties), Simpson 95.8% (0/0 ties)
+digits seed 155: gamma=2 96.9% (0/0 ties), gamma=4 96.4% (0/0 ties), gamma=8 95.8% (0/0 ties), Simpson 96.4% (0/0 ties)
+digits seed 152: gamma=2 98.3% (0/0 ties), gamma=4 97.5% (0/0 ties), gamma=8 95.8% (0/0 ties), Simpson 97.5% (0/0 ties)
+magic seed 157: gamma=2 69.9% (4270/4270 ties), gamma=4 73.2% (3675/3675 ties), gamma=8 71.1% (3998/3998 ties), Simpson 54.9% (0/6778 ties)
+magic seed 159: gamma=2 68.1% (4736/4736 ties), gamma=4 68.7% (4529/4529 ties), gamma=8 73.5% (3839/3839 ties), Simpson 59.5% (0/5901 ties)
+digits seed 154: gamma=2 98.6% (0/0 ties), gamma=4 96.9% (0/0 ties), gamma=8 96.7% (0/0 ties), Simpson 96.9% (0/0 ties)
+thyroid seed 150: gamma=2 96.4% (104/104 ties), gamma=4 96.2% (114/114 ties), gamma=8 97.6% (84/84 ties), Simpson 96.2% (114/114 ties)
+thyroid seed 151: gamma=2 96.2% (124/124 ties), gamma=4 96.2% (124/124 ties), gamma=8 96.3% (124/124 ties), Simpson 96.2% (124/124 ties)
+digits seed 156: gamma=2 97.8% (0/0 ties), gamma=4 96.9% (0/0 ties), gamma=8 95.8% (0/0 ties), Simpson 96.9% (0/0 ties)
+digits seed 157: gamma=2 96.1% (0/0 ties), gamma=4 94.7% (0/0 ties), gamma=8 93.6% (0/0 ties), Simpson 94.7% (0/0 ties)
+digits seed 158: gamma=2 96.7% (0/0 ties), gamma=4 95.6% (0/0 ties), gamma=8 94.4% (0/0 ties), Simpson 95.6% (0/0 ties)
+digits seed 159: gamma=2 96.4% (0/0 ties), gamma=4 96.4% (0/0 ties), gamma=8 95.0% (0/0 ties), Simpson 96.4% (0/0 ties)
+thyroid seed 153: gamma=2 98.1% (110/110 ties), gamma=4 97.8% (88/88 ties), gamma=8 97.3% (125/125 ties), Simpson 97.8% (88/88 ties)
+thyroid seed 152: gamma=2 97.2% (53/53 ties), gamma=4 97.5% (44/44 ties), gamma=8 97.6% (56/56 ties), Simpson 97.5% (44/44 ties)
+thyroid seed 155: gamma=2 95.8% (179/179 ties), gamma=4 96.2% (158/158 ties), gamma=8 94.9% (231/231 ties), Simpson 96.2% (158/158 ties)
+thyroid seed 157: gamma=2 95.6% (235/235 ties), gamma=4 95.6% (227/227 ties), gamma=8 95.6% (252/252 ties), Simpson 95.6% (227/227 ties)
+thyroid seed 156: gamma=2 96.4% (128/128 ties), gamma=4 96.2% (123/123 ties), gamma=8 96.4% (135/135 ties), Simpson 96.2% (123/123 ties)
+thyroid seed 158: gamma=2 97.3% (76/76 ties), gamma=4 97.4% (71/71 ties), gamma=8 97.7% (65/65 ties), Simpson 97.4% (71/71 ties)
+thyroid seed 154: gamma=2 96.4% (155/155 ties), gamma=4 96.2% (151/151 ties), gamma=8 96.2% (155/155 ties), Simpson 96.2% (151/151 ties)
+thyroid seed 159: gamma=2 96.7% (159/159 ties), gamma=4 96.9% (157/157 ties), gamma=8 96.9% (152/152 ties), Simpson 96.9% (157/157 ties)
+page_blocks seed 150: gamma=2 86.4% (599/599 ties), gamma=4 85.8% (631/631 ties), gamma=8 85.5% (641/641 ties), Simpson 85.4% (593/660 ties)
+page_blocks seed 151: gamma=2 87.6% (476/476 ties), gamma=4 87.6% (476/476 ties), gamma=8 89.1% (430/430 ties), Simpson 71.5% (887/1169 ties)
+page_blocks seed 152: gamma=2 88.2% (476/476 ties), gamma=4 88.2% (476/476 ties), gamma=8 88.3% (476/476 ties), Simpson 85.5% (561/573 ties)
+page_blocks seed 153: gamma=2 91.1% (366/366 ties), gamma=4 91.1% (366/366 ties), gamma=8 90.8% (371/371 ties), Simpson 74.3% (374/1075 ties)
+page_blocks seed 154: gamma=2 78.4% (857/857 ties), gamma=4 78.3% (861/861 ties), gamma=8 78.3% (861/861 ties), Simpson 77.1% (826/911 ties)
+page_blocks seed 155: gamma=2 87.8% (459/459 ties), gamma=4 87.8% (459/459 ties), gamma=8 87.9% (445/445 ties), Simpson 76.2% (288/972 ties)
+page_blocks seed 156: gamma=2 88.9% (480/480 ties), gamma=4 89.2% (488/488 ties), gamma=8 89.2% (488/488 ties), Simpson 69.7% (548/1347 ties)
+page_blocks seed 157: gamma=2 84.7% (666/666 ties), gamma=4 84.7% (666/666 ties), gamma=8 84.8% (665/665 ties), Simpson 85.5% (469/644 ties)
+landsat seed 150: gamma=2 86.6% (514/514 ties), gamma=4 85.9% (513/513 ties), gamma=8 85.9% (524/524 ties), Simpson 84.1% (421/658 ties)
+page_blocks seed 158: gamma=2 89.6% (357/357 ties), gamma=4 89.6% (357/357 ties), gamma=8 89.5% (357/357 ties), Simpson 91.4% (313/371 ties)
+page_blocks seed 159: gamma=2 91.5% (422/422 ties), gamma=4 91.5% (422/422 ties), gamma=8 91.5% (422/422 ties), Simpson 88.0% (474/626 ties)
+landsat seed 152: gamma=2 85.3% (566/566 ties), gamma=4 85.3% (566/566 ties), gamma=8 85.2% (575/575 ties), Simpson 83.1% (508/673 ties)
+landsat seed 153: gamma=2 85.9% (543/543 ties), gamma=4 85.9% (547/547 ties), gamma=8 85.4% (546/546 ties), Simpson 87.1% (413/525 ties)
+landsat seed 156: gamma=2 86.6% (576/576 ties), gamma=4 85.6% (575/575 ties), gamma=8 85.9% (577/577 ties), Simpson 84.4% (386/537 ties)
+landsat seed 151: gamma=2 86.4% (495/495 ties), gamma=4 86.4% (496/496 ties), gamma=8 85.9% (492/492 ties), Simpson 86.4% (394/542 ties)
+landsat seed 154: gamma=2 87.3% (525/525 ties), gamma=4 87.3% (525/525 ties), gamma=8 86.8% (561/561 ties), Simpson 85.7% (437/608 ties)
+landsat seed 158: gamma=2 86.3% (510/510 ties), gamma=4 86.6% (504/504 ties), gamma=8 86.8% (509/509 ties), Simpson 86.2% (346/504 ties)
+landsat seed 157: gamma=2 85.5% (542/542 ties), gamma=4 85.4% (542/542 ties), gamma=8 85.0% (559/559 ties), Simpson 84.8% (389/550 ties)
+landsat seed 155: gamma=2 85.5% (553/553 ties), gamma=4 85.1% (564/564 ties), gamma=8 85.0% (568/568 ties), Simpson 85.0% (388/577 ties)
+landsat seed 159: gamma=2 82.9% (575/575 ties), gamma=4 82.9% (575/575 ties), gamma=8 84.1% (503/503 ties), Simpson 84.4% (329/520 ties)
+--- part exact: 60 tasks
+0 of 60 dataset-seed pairs already done; 60 to run.
+S1 seed 159: 52 contractions, largest difference 1.0e-16
+S1 seed 158: 73 contractions, largest difference 7.8e-17
+S1 seed 152: 55 contractions, largest difference 1.3e-10
+S1 seed 157: 62 contractions, largest difference 1.4e-16
+S2 seed 150: 178 contractions, largest difference 8.3e-17
+S1 seed 150: 58 contractions, largest difference 1.7e-16
+S1 seed 153: 54 contractions, largest difference 1.2e-16
+S1 seed 151: 54 contractions, largest difference 1.2e-16
+S1 seed 156: 45 contractions, largest difference 1.3e-16
+S2 seed 151: 131 contractions, largest difference 1.2e-16
+S1 seed 154: 62 contractions, largest difference 9.0e-17
+S1 seed 155: 54 contractions, largest difference 2.2e-16
+S2 seed 154: 156 contractions, largest difference 1.1e-16
+S2 seed 152: 176 contractions, largest difference 9.7e-17
+S2 seed 155: 167 contractions, largest difference 1.2e-16
+S2 seed 157: 147 contractions, largest difference 8.0e-17
+S2 seed 153: 143 contractions, largest difference 2.1e-16
+S2 seed 156: 145 contractions, largest difference 9.7e-17
+S2 seed 159: 139 contractions, largest difference 1.1e-10
+shuttle seed 150: 3 contractions, largest difference 1.4e-16
+S2 seed 158: 136 contractions, largest difference 8.3e-17
+S3 seed 151: 67 contractions, largest difference 1.2e-16
+S3 seed 152: 84 contractions, largest difference 1.1e-16
+shuttle seed 151: 6 contractions, largest difference 1.6e-16
+shuttle seed 152: 5 contractions, largest difference 1.2e-16
+S3 seed 150: 58 contractions, largest difference 1.6e-10
+shuttle seed 154: 3 contractions, largest difference 2.5e-16
+shuttle seed 153: 4 contractions, largest difference 1.9e-16
+shuttle seed 155: 5 contractions, largest difference 1.6e-16
+shuttle seed 156: 6 contractions, largest difference 1.9e-16
+S3 seed 153: 105 contractions, largest difference 1.3e-16
+shuttle seed 157: 6 contractions, largest difference 2.2e-16
+shuttle seed 158: 5 contractions, largest difference 2.7e-16
+shuttle seed 159: 4 contractions, largest difference 2.2e-16
+magic seed 154: 1516 contractions, largest difference 1.1e-16
+magic seed 150: 1536 contractions, largest difference 1.5e-16
+magic seed 151: 1715 contractions, largest difference 7.7e-17
+magic seed 153: 1590 contractions, largest difference 6.5e-17
+magic seed 155: 1615 contractions, largest difference 6.7e-17
+page_blocks seed 150: 11 contractions, largest difference 5.4e-17
+page_blocks seed 151: 21 contractions, largest difference 1.2e-16
+magic seed 152: 1445 contractions, largest difference 1.3e-16
+page_blocks seed 152: 4 contractions, largest difference 3.2e-17
+page_blocks seed 153: 11 contractions, largest difference 9.8e-17
+page_blocks seed 154: 7 contractions, largest difference 3.5e-17
+page_blocks seed 155: 20 contractions, largest difference 5.6e-17
+page_blocks seed 156: 17 contractions, largest difference 6.6e-17
+page_blocks seed 157: 14 contractions, largest difference 1.8e-16
+page_blocks seed 158: 12 contractions, largest difference 1.7e-17
+page_blocks seed 159: 11 contractions, largest difference 6.3e-17
+magic seed 158: 1509 contractions, largest difference 7.1e-11
+magic seed 156: 1345 contractions, largest difference 1.5e-16
+magic seed 157: 1937 contractions, largest difference 1.2e-16
+magic seed 159: 1383 contractions, largest difference 9.5e-17
+S3 seed 154: 51 contractions, largest difference 1.3e-16
+S3 seed 156: 76 contractions, largest difference 1.6e-16
+S3 seed 155: 85 contractions, largest difference 1.6e-16
+S3 seed 157: 67 contractions, largest difference 2.2e-16
+S3 seed 159: 82 contractions, largest difference 9.9e-11
+S3 seed 158: 82 contractions, largest difference 1.9e-16
+# Run I: generality (Simpson's contraction) and sensitivity (γ)
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). The paper's 80/20 split, θ = 0.3. Written by `scripts/run_generality.py`.
+
+Seeds 150–159 (10), 13 datasets. Each comparison: paired two-sided Wilcoxon over seeds, Holm across datasets; better / level / worse for the first model.
+
+## Primary: test accuracy at γ = 2 and γ = 8 against γ = 4
+
+**gamma=2 vs gamma=4**: better 2, level 11, worse 0
+
+| Dataset | Mean difference (points) | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | +2.09 | 0.0020 | 0.0254 | better |
+| S2 | +1.44 | 0.0273 | 0.2734 | level |
+| S3 | +0.97 | 0.0195 | 0.2148 | level |
+| wine | +0.83 | 0.2500 | 1.0000 | level |
+| breast_cancer | -0.18 | 0.7500 | 1.0000 | level |
+| digits | +0.97 | 0.0039 | 0.0469 | better |
+| thyroid | -0.03 | 0.8047 | 1.0000 | level |
+| shuttle | -0.00 | 0.5000 | 1.0000 | level |
+| skin | -0.03 | 0.9219 | 1.0000 | level |
+| magic | +0.33 | 0.7695 | 1.0000 | level |
+| letter | +0.02 | 0.8438 | 1.0000 | level |
+| landsat | +0.19 | 0.2188 | 1.0000 | level |
+| page_blocks | +0.05 | 0.7500 | 1.0000 | level |
+
+**gamma=8 vs gamma=4**: better 0, level 9, worse 4
+
+| Dataset | Mean difference (points) | p | Holm p | Verdict |
+|---|---|---|---|---|
+| S1 | -4.26 | 0.0020 | 0.0254 | worse |
+| S2 | -2.64 | 0.0039 | 0.0391 | worse |
+| S3 | -3.85 | 0.0020 | 0.0254 | worse |
+| wine | +0.28 | 0.6094 | 1.0000 | level |
+| breast_cancer | +0.88 | 0.0938 | 0.8438 | level |
+| digits | -0.94 | 0.0020 | 0.0254 | worse |
+| thyroid | +0.03 | 0.5469 | 1.0000 | level |
+| shuttle | -0.00 | 0.2500 | 1.0000 | level |
+| skin | +0.56 | 0.4922 | 1.0000 | level |
+| magic | +0.60 | 0.4473 | 1.0000 | level |
+| letter | -0.13 | 0.4473 | 1.0000 | level |
+| landsat | -0.05 | 0.4160 | 1.0000 | level |
+| page_blocks | +0.13 | 0.9375 | 1.0000 | level |
+
+## Part B: CFMNN at γ = 2, 4 and 8 (means over seeds)
+
+Test accuracy (%):
+
+| Dataset | gamma=2 | gamma=4 | gamma=8 |
+|---|---|---|---|
+| S1 | 91.80 | 89.71 | 85.45 |
+| S2 | 82.02 | 80.58 | 77.94 |
+| S3 | 88.86 | 87.89 | 84.04 |
+| wine | 98.06 | 97.22 | 97.50 |
+| breast_cancer | 95.18 | 95.35 | 96.23 |
+| digits | 97.28 | 96.31 | 95.36 |
+| thyroid | 96.60 | 96.62 | 96.65 |
+| shuttle | 99.79 | 99.79 | 99.79 |
+| skin | 94.51 | 94.54 | 95.10 |
+| magic | 71.52 | 71.20 | 71.80 |
+| letter | 75.38 | 75.35 | 75.22 |
+| landsat | 85.84 | 85.66 | 85.61 |
+| page_blocks | 87.42 | 87.37 | 87.50 |
+
+Test macro-F1 (%):
+
+| Dataset | gamma=2 | gamma=4 | gamma=8 |
+|---|---|---|---|
+| S1 | 91.80 | 89.71 | 85.44 |
+| S2 | 82.01 | 80.57 | 77.92 |
+| S3 | 87.75 | 86.68 | 82.46 |
+| wine | 98.09 | 97.36 | 97.66 |
+| breast_cancer | 94.78 | 94.97 | 95.91 |
+| digits | 97.27 | 96.27 | 95.31 |
+| thyroid | 82.97 | 83.01 | 82.86 |
+| shuttle | 88.80 | 88.92 | 88.76 |
+| skin | 90.69 | 90.76 | 91.84 |
+| magic | 70.23 | 69.92 | 70.45 |
+| letter | 75.16 | 75.12 | 75.00 |
+| landsat | 83.23 | 82.99 | 83.01 |
+| page_blocks | 63.28 | 63.18 | 64.48 |
+
+Boxes:
+
+| Dataset | gamma=2 | gamma=4 | gamma=8 |
+|---|---|---|---|
+| S1 | 1,504.9 | 1,517.7 | 1,525.7 |
+| S2 | 1,514.9 | 1,533.1 | 1,544.9 |
+| S3 | 1,522.0 | 1,528.7 | 1,538.7 |
+| wine | 31.5 | 31.5 | 31.8 |
+| breast_cancer | 42.8 | 43.0 | 43.0 |
+| digits | 291.6 | 292.6 | 294.8 |
+| thyroid | 51.6 | 52.0 | 52.3 |
+| shuttle | 14.4 | 14.4 | 14.4 |
+| skin | 88.1 | 86.2 | 88.8 |
+| magic | 287.4 | 285.3 | 286.6 |
+| letter | 578.6 | 576.3 | 579.0 |
+| landsat | 200.3 | 200.1 | 199.5 |
+| page_blocks | 24.6 | 24.6 | 24.8 |
+
+Training error (%):
+
+| Dataset | gamma=2 | gamma=4 | gamma=8 |
+|---|---|---|---|
+| S1 | 0.00 | 0.00 | 0.00 |
+| S2 | 0.01 | 0.00 | 0.01 |
+| S3 | 0.00 | 0.00 | 0.00 |
+| wine | 0.00 | 0.00 | 0.00 |
+| breast_cancer | 0.88 | 0.79 | 0.86 |
+| digits | 0.00 | 0.00 | 0.00 |
+| thyroid | 2.30 | 2.18 | 2.39 |
+| shuttle | 0.19 | 0.19 | 0.19 |
+| skin | 5.49 | 5.42 | 4.93 |
+| magic | 26.59 | 26.49 | 25.68 |
+| letter | 20.92 | 20.92 | 20.93 |
+| landsat | 10.49 | 10.50 | 10.52 |
+| page_blocks | 11.78 | 11.88 | 11.78 |
+
+Share of training errors that are ties (%), all seeds pooled; – = no training error. Proposition 1 predicts 100 at every γ:
+
+| Dataset | gamma=2 | gamma=4 | gamma=8 |
+|---|---|---|---|
+| S1 | – | 100.0 | – |
+| S2 | 100.0 | 100.0 | 100.0 |
+| S3 | 100.0 | 100.0 | – |
+| wine | – | – | – |
+| breast_cancer | 100.0 | 100.0 | 100.0 |
+| digits | – | – | – |
+| thyroid | 100.0 | 100.0 | 100.0 |
+| shuttle | 100.0 | 100.0 | 100.0 |
+| skin | 100.0 | 100.0 | 100.0 |
+| magic | 100.0 | 100.0 | 100.0 |
+| letter | 100.0 | 100.0 | 100.0 |
+| landsat | 100.0 | 100.0 | 100.0 |
+| page_blocks | 100.0 | 100.0 | 100.0 |
+
+Training errors that are not ties, over every dataset, seed and γ: **0** of 569,239.
+
+Share of test predictions decided by the nearest centroid (%), all seeds pooled:
+
+| Dataset | gamma=2 | gamma=4 | gamma=8 |
+|---|---|---|---|
+| S1 | 0.0 | 0.0 | 0.1 |
+| S2 | 0.0 | 0.0 | 0.1 |
+| S3 | 0.0 | 0.0 | 0.1 |
+| wine | 0.0 | 0.0 | 0.0 |
+| breast_cancer | 0.4 | 0.3 | 0.3 |
+| digits | 0.1 | 0.2 | 0.8 |
+| thyroid | 5.5 | 5.5 | 5.6 |
+| shuttle | 13.6 | 13.6 | 13.6 |
+| skin | 20.7 | 20.3 | 19.9 |
+| magic | 77.7 | 77.5 | 77.7 |
+| letter | 55.7 | 55.6 | 55.7 |
+| landsat | 25.3 | 25.2 | 25.1 |
+| page_blocks | 68.1 | 67.9 | 67.8 |
+
+Share of test errors that are among those predictions (%), all seeds pooled:
+
+| Dataset | gamma=2 | gamma=4 | gamma=8 |
+|---|---|---|---|
+| S1 | 0.0 | 0.0 | 0.1 |
+| S2 | 0.0 | 0.0 | 0.2 |
+| S3 | 0.0 | 0.0 | 0.6 |
+| wine | 0.0 | 0.0 | 0.0 |
+| breast_cancer | 7.3 | 5.7 | 7.0 |
+| digits | 2.0 | 3.8 | 6.6 |
+| thyroid | 65.5 | 64.8 | 67.4 |
+| shuttle | 83.4 | 83.7 | 83.1 |
+| skin | 99.8 | 99.8 | 99.8 |
+| magic | 90.1 | 89.8 | 89.9 |
+| letter | 90.4 | 90.2 | 89.9 |
+| landsat | 57.4 | 57.2 | 57.0 |
+| page_blocks | 95.2 | 95.1 | 95.2 |
+
+## Part A (2): Simpson's contraction next to CFMNN (γ = 4)
+
+What the contraction did (means over seeds):
+
+| Dataset | Boxes before | Contractions | Seeds with no contraction | Boxes removed | Training rows evicted | Boxes after |
+|---|---|---|---|---|---|---|
+| S1 | 1,517.7 | 56.9 | 0 of 10 | 1.7 | 110.4 | 1,516.0 |
+| S2 | 1,533.1 | 151.8 | 0 of 10 | 10.9 | 281.2 | 1,522.2 |
+| S3 | 1,528.7 | 75.7 | 0 of 10 | 5.0 | 137.2 | 1,523.7 |
+| wine | 31.5 | 0.1 | 9 of 10 | 0.0 | 0.2 | 31.5 |
+| breast_cancer | 43.0 | 35.8 | 0 of 10 | 0.2 | 91.3 | 42.8 |
+| digits | 292.6 | 0.0 | 10 of 10 | 0.0 | 0.0 | 292.6 |
+| thyroid | 52.0 | 0.0 | 10 of 10 | 0.0 | 0.0 | 52.0 |
+| shuttle | 14.4 | 4.7 | 0 of 10 | 0.4 | 40,450.0 | 14.0 |
+| skin | 86.2 | 50.0 | 0 of 10 | 0.5 | 30,498.2 | 85.7 |
+| magic | 285.3 | 1,559.1 | 0 of 10 | 43.8 | 13,788.8 | 241.5 |
+| letter | 576.3 | 20.1 | 0 of 10 | 0.0 | 232.3 | 576.3 |
+| landsat | 200.1 | 143.1 | 0 of 10 | 1.6 | 976.7 | 198.5 |
+| page_blocks | 24.6 | 12.8 | 0 of 10 | 0.5 | 688.2 | 24.1 |
+
+Training error (%):
+
+| Dataset | gamma=4 | Simpson |
+|---|---|---|
+| S1 | 0.00 | 0.03 |
+| S2 | 0.00 | 0.30 |
+| S3 | 0.00 | 0.07 |
+| wine | 0.00 | 0.00 |
+| breast_cancer | 0.79 | 1.21 |
+| digits | 0.00 | 0.00 |
+| thyroid | 2.18 | 2.18 |
+| shuttle | 0.19 | 28.63 |
+| skin | 5.42 | 11.04 |
+| magic | 26.49 | 40.91 |
+| letter | 20.92 | 20.91 |
+| landsat | 10.50 | 11.06 |
+| page_blocks | 11.88 | 19.07 |
+
+Share of training errors that are ties (%), all seeds pooled; – = no training error. A tie: the row's own class reaches the winner's membership:
+
+| Dataset | gamma=4 | Simpson |
+|---|---|---|
+| S1 | 100.0 | 0.0 |
+| S2 | 100.0 | 0.0 |
+| S3 | 100.0 | 0.0 |
+| wine | – | – |
+| breast_cancer | 100.0 | 3.6 |
+| digits | – | – |
+| thyroid | 100.0 | 100.0 |
+| shuttle | 100.0 | 0.1 |
+| skin | 100.0 | 7.7 |
+| magic | 100.0 | 0.2 |
+| letter | 100.0 | 98.6 |
+| landsat | 100.0 | 70.4 |
+| page_blocks | 100.0 | 63.9 |
+
+... of which inside a box of both classes (both memberships are 1), the form Proposition 1 gives for CFMNN (%):
+
+| Dataset | gamma=4 | Simpson |
+|---|---|---|
+| S1 | 100.0 | 0.0 |
+| S2 | 100.0 | 0.0 |
+| S3 | 100.0 | 0.0 |
+| wine | – | – |
+| breast_cancer | 100.0 | 3.6 |
+| digits | – | – |
+| thyroid | 100.0 | 100.0 |
+| shuttle | 100.0 | 0.1 |
+| skin | 100.0 | 7.7 |
+| magic | 100.0 | 0.2 |
+| letter | 100.0 | 98.6 |
+| landsat | 100.0 | 70.3 |
+| page_blocks | 100.0 | 63.8 |
+
+Test accuracy (%):
+
+| Dataset | gamma=4 | Simpson |
+|---|---|---|
+| S1 | 89.71 | 89.70 |
+| S2 | 80.58 | 80.73 |
+| S3 | 87.89 | 87.97 |
+| wine | 97.22 | 97.22 |
+| breast_cancer | 95.35 | 95.53 |
+| digits | 96.31 | 96.31 |
+| thyroid | 96.62 | 96.62 |
+| shuttle | 99.79 | 71.18 |
+| skin | 94.54 | 88.96 |
+| magic | 71.20 | 58.33 |
+| letter | 75.35 | 75.21 |
+| landsat | 85.66 | 85.12 |
+| page_blocks | 87.37 | 80.46 |
+
+Test macro-F1 (%):
+
+| Dataset | gamma=4 | Simpson |
+|---|---|---|
+| S1 | 89.71 | 89.70 |
+| S2 | 80.57 | 80.72 |
+| S3 | 86.68 | 86.77 |
+| wine | 97.36 | 97.36 |
+| breast_cancer | 94.97 | 95.15 |
+| digits | 96.27 | 96.27 |
+| thyroid | 83.01 | 83.01 |
+| shuttle | 88.92 | 63.87 |
+| skin | 90.76 | 77.82 |
+| magic | 69.92 | 57.66 |
+| letter | 75.12 | 74.98 |
+| landsat | 82.99 | 82.40 |
+| page_blocks | 63.18 | 58.02 |
+
+Share of test predictions decided by the nearest centroid (%), all seeds pooled:
+
+| Dataset | gamma=4 | Simpson |
+|---|---|---|
+| S1 | 0.0 | 0.0 |
+| S2 | 0.0 | 0.0 |
+| S3 | 0.0 | 0.0 |
+| wine | 0.0 | 0.0 |
+| breast_cancer | 0.3 | 0.0 |
+| digits | 0.2 | 0.2 |
+| thyroid | 5.5 | 5.5 |
+| shuttle | 13.6 | 1.3 |
+| skin | 20.3 | 5.5 |
+| magic | 77.5 | 0.2 |
+| letter | 55.6 | 55.3 |
+| landsat | 25.2 | 20.2 |
+| page_blocks | 67.9 | 54.5 |
+
+## Part A (1): PACE-SHAP on the Simpson model against shap's ExactExplainer
+
+**Check: PASS** (largest difference 1.6e-10; the plan's limit is 1e-09).
+
+| Dataset | Features | Seeds | Points | Contractions (mean) | Seeds with no contraction | Boxes (mean) | Largest difference | Largest value | ms PACE-SHAP | ms ExactExplainer |
+|---|---|---|---|---|---|---|---|---|---|---|
+| S1 | 10 | 10 | 50 | 56.9 | 0 of 10 | 1,516.0 | 1.3e-10 | 0.085 | 7,886.6 | 81,834.0 |
+| S2 | 10 | 10 | 50 | 151.8 | 0 of 10 | 1,522.2 | 1.1e-10 | 0.078 | 6,846.0 | 81,294.9 |
+| S3 | 10 | 10 | 50 | 75.7 | 0 of 10 | 1,523.7 | 1.6e-10 | 0.110 | 5,607.1 | 63,363.8 |
+| shuttle | 9 | 10 | 50 | 4.7 | 0 of 10 | 14.0 | 2.7e-16 | 0.176 | 19.0 | 412.7 |
+| magic | 10 | 10 | 50 | 1,559.1 | 0 of 10 | 241.5 | 7.1e-11 | 0.076 | 579.8 | 14,232.5 |
+| page_blocks | 10 | 10 | 50 | 12.8 | 0 of 10 | 24.1 | 1.8e-16 | 0.032 | 65.1 | 1,740.0 |
+
+Largest difference: the largest absolute difference between the two, over every point, feature and seed. Where a seed has no contraction, the Simpson model is the CFMNN itself.
+
+

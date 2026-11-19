@@ -1,0 +1,232 @@
+S1 seed 0 PACE-contrastive: AUC 0.547 margin 0.076 stab 1.00 gt 0.41, 0.26 ms
+S1 seed 0 PACE-multi: AUC 0.538 margin 0.070 stab 1.00 gt 0.50, 0.47 ms
+S1 seed 0 PACE-flip: AUC 0.443 margin -0.117 stab 1.00 gt 0.55, 1.17 ms
+S1 seed 0 Occlusion (brute force): AUC 0.443 margin -0.117 stab 1.00 gt 0.55, 82.73 ms
+S1 seed 0 PACE-decomposition: AUC 0.588 margin 0.138 stab 1.00 gt 0.33, 0.29 ms
+S1 seed 0 KernelSHAP: AUC 0.524 margin 0.039 stab 0.90 gt 0.79, 521.89 ms
+S1 seed 0 LIME: AUC 0.536 margin 0.070 stab 1.00 gt 1.00, 264.38 ms
+S1 seed 0 Random: AUC 0.661 margin 0.265 stab 0.19 gt 0.27, 0.00 ms
+S1 seed 1 PACE-contrastive: AUC 0.569 margin 0.120 stab 1.00 gt 0.41, 0.26 ms
+S1 seed 1 PACE-multi: AUC 0.540 margin 0.083 stab 1.00 gt 0.46, 0.54 ms
+S1 seed 1 PACE-flip: AUC 0.432 margin -0.119 stab 1.00 gt 0.54, 0.94 ms
+S1 seed 1 Occlusion (brute force): AUC 0.432 margin -0.119 stab 1.00 gt 0.54, 84.50 ms
+S1 seed 1 PACE-decomposition: AUC 0.613 margin 0.190 stab 1.00 gt 0.29, 0.39 ms
+S1 seed 1 KernelSHAP: AUC 0.538 margin 0.080 stab 0.85 gt 0.77, 565.36 ms
+S1 seed 1 LIME: AUC 0.537 margin 0.084 stab 1.00 gt 1.00, 264.25 ms
+S1 seed 1 Random: AUC 0.666 margin 0.284 stab 0.22 gt 0.28, 0.00 ms
+S1 seed 2 PACE-contrastive: AUC 0.548 margin 0.083 stab 1.00 gt 0.44, 0.27 ms
+S1 seed 2 PACE-multi: AUC 0.530 margin 0.057 stab 1.00 gt 0.50, 0.49 ms
+S1 seed 2 PACE-flip: AUC 0.454 margin -0.086 stab 1.00 gt 0.61, 1.21 ms
+S1 seed 2 Occlusion (brute force): AUC 0.454 margin -0.086 stab 1.00 gt 0.61, 91.35 ms
+S1 seed 2 PACE-decomposition: AUC 0.607 margin 0.161 stab 1.00 gt 0.31, 0.36 ms
+S1 seed 2 KernelSHAP: AUC 0.520 margin 0.034 stab 0.89 gt 0.81, 556.46 ms
+S1 seed 2 LIME: AUC 0.531 margin 0.068 stab 1.00 gt 1.00, 269.49 ms
+S1 seed 2 Random: AUC 0.664 margin 0.276 stab 0.27 gt 0.33, 0.00 ms
+S2 seed 0 PACE-contrastive: AUC 0.566 margin 0.105 stab 1.00 gt 0.49, 0.28 ms
+S2 seed 0 PACE-multi: AUC 0.565 margin 0.113 stab 1.00 gt 0.49, 0.50 ms
+S2 seed 0 PACE-flip: AUC 0.443 margin -0.110 stab 1.00 gt 0.60, 1.00 ms
+S2 seed 0 Occlusion (brute force): AUC 0.443 margin -0.110 stab 1.00 gt 0.60, 85.96 ms
+S2 seed 0 PACE-decomposition: AUC 0.575 margin 0.131 stab 1.00 gt 0.39, 0.32 ms
+S2 seed 0 KernelSHAP: AUC 0.529 margin 0.055 stab 0.85 gt 0.80, 562.75 ms
+S2 seed 0 LIME: AUC 0.544 margin 0.084 stab 1.00 gt 1.00, 282.78 ms
+S2 seed 0 Random: AUC 0.656 margin 0.271 stab 0.19 gt 0.27, 0.00 ms
+S2 seed 1 PACE-contrastive: AUC 0.559 margin 0.123 stab 1.00 gt 0.42, 0.29 ms
+S2 seed 1 PACE-multi: AUC 0.569 margin 0.142 stab 1.00 gt 0.43, 0.54 ms
+S2 seed 1 PACE-flip: AUC 0.429 margin -0.122 stab 1.00 gt 0.51, 0.95 ms
+S2 seed 1 Occlusion (brute force): AUC 0.429 margin -0.122 stab 1.00 gt 0.51, 85.92 ms
+S2 seed 1 PACE-decomposition: AUC 0.595 margin 0.157 stab 1.00 gt 0.34, 0.35 ms
+S2 seed 1 KernelSHAP: AUC 0.531 margin 0.072 stab 0.86 gt 0.80, 541.24 ms
+S2 seed 1 LIME: AUC 0.548 margin 0.093 stab 1.00 gt 1.00, 268.31 ms
+S2 seed 1 Random: AUC 0.654 margin 0.279 stab 0.22 gt 0.28, 0.00 ms
+S2 seed 2 PACE-contrastive: AUC 0.608 margin 0.189 stab 1.00 gt 0.41, 0.27 ms
+S2 seed 2 PACE-multi: AUC 0.587 margin 0.150 stab 1.00 gt 0.45, 0.51 ms
+S2 seed 2 PACE-flip: AUC 0.451 margin -0.098 stab 1.00 gt 0.53, 0.96 ms
+S2 seed 2 Occlusion (brute force): AUC 0.451 margin -0.098 stab 1.00 gt 0.53, 86.36 ms
+S2 seed 2 PACE-decomposition: AUC 0.606 margin 0.165 stab 1.00 gt 0.26, 0.35 ms
+S2 seed 2 KernelSHAP: AUC 0.565 margin 0.122 stab 0.93 gt 0.79, 543.62 ms
+S2 seed 2 LIME: AUC 0.594 margin 0.179 stab 1.00 gt 1.00, 273.90 ms
+S2 seed 2 Random: AUC 0.656 margin 0.263 stab 0.27 gt 0.33, 0.00 ms
+S3 seed 0 PACE-contrastive: AUC 0.601 margin 0.160 stab 1.00 gt 0.50, 0.31 ms
+S3 seed 0 PACE-multi: AUC 0.569 margin 0.125 stab 1.00 gt 0.51, 0.49 ms
+S3 seed 0 PACE-flip: AUC 0.491 margin -0.012 stab 1.00 gt 0.52, 0.97 ms
+S3 seed 0 Occlusion (brute force): AUC 0.491 margin -0.012 stab 1.00 gt 0.52, 85.19 ms
+S3 seed 0 PACE-decomposition: AUC 0.638 margin 0.219 stab 1.00 gt 0.31, 0.31 ms
+S3 seed 0 KernelSHAP: AUC 0.554 margin 0.093 stab 0.84 gt 0.68, 540.83 ms
+S3 seed 0 LIME: AUC 0.554 margin 0.098 stab 1.00 gt 1.00, 268.48 ms
+S3 seed 0 Random: AUC 0.656 margin 0.249 stab 0.19 gt 0.27, 0.00 ms
+S3 seed 1 PACE-contrastive: AUC 0.643 margin 0.263 stab 1.00 gt 0.43, 0.25 ms
+S3 seed 1 PACE-multi: AUC 0.637 margin 0.247 stab 1.00 gt 0.45, 0.50 ms
+S3 seed 1 PACE-flip: AUC 0.566 margin 0.109 stab 1.00 gt 0.51, 0.91 ms
+S3 seed 1 Occlusion (brute force): AUC 0.566 margin 0.109 stab 1.00 gt 0.51, 85.32 ms
+S3 seed 1 PACE-decomposition: AUC 0.695 margin 0.334 stab 1.00 gt 0.33, 0.31 ms
+S3 seed 1 KernelSHAP: AUC 0.626 margin 0.220 stab 0.86 gt 0.69, 534.63 ms
+S3 seed 1 LIME: AUC 0.641 margin 0.251 stab 1.00 gt 1.00, 268.51 ms
+S3 seed 1 Random: AUC 0.741 margin 0.409 stab 0.22 gt 0.28, 0.00 ms
+S3 seed 2 PACE-contrastive: AUC 0.624 margin 0.220 stab 1.00 gt 0.48, 0.27 ms
+S3 seed 2 PACE-multi: AUC 0.608 margin 0.195 stab 1.00 gt 0.49, 0.50 ms
+S3 seed 2 PACE-flip: AUC 0.519 margin 0.024 stab 1.00 gt 0.51, 0.97 ms
+S3 seed 2 Occlusion (brute force): AUC 0.519 margin 0.024 stab 1.00 gt 0.51, 85.46 ms
+S3 seed 2 PACE-decomposition: AUC 0.662 margin 0.261 stab 1.00 gt 0.30, 0.31 ms
+S3 seed 2 KernelSHAP: AUC 0.622 margin 0.210 stab 0.85 gt 0.65, 536.35 ms
+S3 seed 2 LIME: AUC 0.613 margin 0.197 stab 1.00 gt 1.00, 272.77 ms
+S3 seed 2 Random: AUC 0.716 margin 0.363 stab 0.27 gt 0.33, 0.00 ms
+wine seed 0 PACE-contrastive: AUC 0.543 margin 0.063 stab 1.00 gt nan, 0.02 ms
+wine seed 0 PACE-multi: AUC 0.536 margin 0.041 stab 1.00 gt nan, 0.03 ms
+wine seed 0 PACE-flip: AUC 0.497 margin -0.032 stab 1.00 gt nan, 0.11 ms
+wine seed 0 Occlusion (brute force): AUC 0.497 margin -0.032 stab 1.00 gt nan, 5.63 ms
+wine seed 0 PACE-decomposition: AUC 0.522 margin 0.040 stab 1.00 gt nan, 0.04 ms
+wine seed 0 KernelSHAP: AUC 0.507 margin -0.006 stab 0.93 gt nan, 28.16 ms
+wine seed 0 LIME: AUC 0.515 margin 0.022 stab 0.85 gt nan, 12.53 ms
+wine seed 0 Random: AUC 0.642 margin 0.238 stab 0.16 gt nan, 0.00 ms
+wine seed 1 PACE-contrastive: AUC 0.497 margin 0.007 stab 1.00 gt nan, 0.02 ms
+wine seed 1 PACE-multi: AUC 0.486 margin -0.025 stab 1.00 gt nan, 0.03 ms
+wine seed 1 PACE-flip: AUC 0.463 margin -0.093 stab 1.00 gt nan, 0.11 ms
+wine seed 1 Occlusion (brute force): AUC 0.463 margin -0.093 stab 1.00 gt nan, 5.67 ms
+wine seed 1 PACE-decomposition: AUC 0.500 margin -0.005 stab 1.00 gt nan, 0.04 ms
+wine seed 1 KernelSHAP: AUC 0.489 margin -0.033 stab 0.96 gt nan, 27.85 ms
+wine seed 1 LIME: AUC 0.499 margin -0.005 stab 0.80 gt nan, 12.81 ms
+wine seed 1 Random: AUC 0.649 margin 0.262 stab 0.17 gt nan, 0.00 ms
+wine seed 2 PACE-contrastive: AUC 0.566 margin 0.104 stab 1.00 gt nan, 0.02 ms
+wine seed 2 PACE-multi: AUC 0.547 margin 0.066 stab 1.00 gt nan, 0.03 ms
+wine seed 2 PACE-flip: AUC 0.503 margin -0.016 stab 1.00 gt nan, 0.11 ms
+wine seed 2 Occlusion (brute force): AUC 0.503 margin -0.016 stab 1.00 gt nan, 5.74 ms
+wine seed 2 PACE-decomposition: AUC 0.548 margin 0.066 stab 1.00 gt nan, 0.04 ms
+wine seed 2 KernelSHAP: AUC 0.535 margin 0.046 stab 0.94 gt nan, 27.13 ms
+wine seed 2 LIME: AUC 0.559 margin 0.094 stab 0.88 gt nan, 12.31 ms
+wine seed 2 Random: AUC 0.655 margin 0.265 stab 0.17 gt nan, 0.00 ms
+breast_cancer seed 0 PACE-contrastive: AUC 0.642 margin 0.224 stab 1.00 gt nan, 0.03 ms
+breast_cancer seed 0 PACE-multi: AUC 0.620 margin 0.178 stab 1.00 gt nan, 0.05 ms
+breast_cancer seed 0 PACE-flip: AUC 0.604 margin 0.154 stab 1.00 gt nan, 0.27 ms
+breast_cancer seed 0 Occlusion (brute force): AUC 0.604 margin 0.154 stab 1.00 gt nan, 22.42 ms
+breast_cancer seed 0 PACE-decomposition: AUC 0.649 margin 0.242 stab 1.00 gt nan, 0.07 ms
+breast_cancer seed 0 KernelSHAP: AUC 0.632 margin 0.201 stab 0.58 gt nan, 50.93 ms
+breast_cancer seed 0 LIME: AUC 0.642 margin 0.241 stab 0.65 gt nan, 24.71 ms
+breast_cancer seed 0 Random: AUC 0.754 margin 0.414 stab 0.06 gt nan, 0.00 ms
+breast_cancer seed 1 PACE-contrastive: AUC 0.648 margin 0.232 stab 1.00 gt nan, 0.03 ms
+breast_cancer seed 1 PACE-multi: AUC 0.626 margin 0.180 stab 1.00 gt nan, 0.05 ms
+breast_cancer seed 1 PACE-flip: AUC 0.610 margin 0.158 stab 1.00 gt nan, 0.25 ms
+breast_cancer seed 1 Occlusion (brute force): AUC 0.610 margin 0.158 stab 1.00 gt nan, 20.22 ms
+breast_cancer seed 1 PACE-decomposition: AUC 0.673 margin 0.254 stab 1.00 gt nan, 0.06 ms
+breast_cancer seed 1 KernelSHAP: AUC 0.639 margin 0.209 stab 0.59 gt nan, 63.61 ms
+breast_cancer seed 1 LIME: AUC 0.639 margin 0.231 stab 0.90 gt nan, 22.58 ms
+breast_cancer seed 1 Random: AUC 0.761 margin 0.417 stab 0.07 gt nan, 0.00 ms
+breast_cancer seed 2 PACE-contrastive: AUC 0.607 margin 0.185 stab 1.00 gt nan, 0.03 ms
+breast_cancer seed 2 PACE-multi: AUC 0.601 margin 0.170 stab 1.00 gt nan, 0.05 ms
+breast_cancer seed 2 PACE-flip: AUC 0.597 margin 0.161 stab 1.00 gt nan, 0.25 ms
+breast_cancer seed 2 Occlusion (brute force): AUC 0.597 margin 0.161 stab 1.00 gt nan, 21.86 ms
+breast_cancer seed 2 PACE-decomposition: AUC 0.624 margin 0.237 stab 1.00 gt nan, 0.09 ms
+breast_cancer seed 2 KernelSHAP: AUC 0.607 margin 0.184 stab 0.64 gt nan, 69.43 ms
+breast_cancer seed 2 LIME: AUC 0.614 margin 0.220 stab 0.66 gt nan, 26.08 ms
+breast_cancer seed 2 Random: AUC 0.767 margin 0.432 stab 0.04 gt nan, 0.00 ms
+thyroid seed 0 PACE-contrastive: AUC 0.925 margin 0.687 stab 1.00 gt nan, 0.03 ms
+thyroid seed 0 PACE-multi: AUC 0.923 margin 0.660 stab 1.00 gt nan, 0.05 ms
+thyroid seed 0 PACE-flip: AUC 0.911 margin 0.618 stab 1.00 gt nan, 0.22 ms
+thyroid seed 0 Occlusion (brute force): AUC 0.911 margin 0.619 stab 1.00 gt nan, 15.05 ms
+thyroid seed 0 PACE-decomposition: AUC 0.940 margin 0.782 stab 1.00 gt nan, 0.04 ms
+thyroid seed 0 KernelSHAP: AUC 0.947 margin 0.719 stab 1.00 gt nan, 48.66 ms
+thyroid seed 0 LIME: AUC 0.937 margin 0.743 stab 0.77 gt nan, 28.53 ms
+thyroid seed 0 Random: AUC 0.953 margin 0.817 stab 0.09 gt nan, 0.00 ms
+thyroid seed 1 PACE-contrastive: AUC 0.957 margin 0.617 stab 1.00 gt nan, 0.02 ms
+thyroid seed 1 PACE-multi: AUC 0.958 margin 0.597 stab 1.00 gt nan, 0.05 ms
+thyroid seed 1 PACE-flip: AUC 0.940 margin 0.571 stab 1.00 gt nan, 0.23 ms
+thyroid seed 1 Occlusion (brute force): AUC 0.940 margin 0.571 stab 1.00 gt nan, 16.11 ms
+thyroid seed 1 PACE-decomposition: AUC 0.972 margin 0.808 stab 1.00 gt nan, 0.05 ms
+thyroid seed 1 KernelSHAP: AUC 0.964 margin 0.631 stab 1.00 gt nan, 58.32 ms
+thyroid seed 1 LIME: AUC 0.965 margin 0.651 stab 0.66 gt nan, 22.65 ms
+thyroid seed 1 Random: AUC 0.981 margin 0.781 stab 0.11 gt nan, 0.00 ms
+thyroid seed 2 PACE-contrastive: AUC 0.838 margin 0.512 stab 1.00 gt nan, 0.02 ms
+thyroid seed 2 PACE-multi: AUC 0.819 margin 0.449 stab 1.00 gt nan, 0.04 ms
+thyroid seed 2 PACE-flip: AUC 0.788 margin 0.413 stab 1.00 gt nan, 0.25 ms
+thyroid seed 2 Occlusion (brute force): AUC 0.788 margin 0.413 stab 1.00 gt nan, 15.01 ms
+thyroid seed 2 PACE-decomposition: AUC 0.844 margin 0.581 stab 1.00 gt nan, 0.06 ms
+thyroid seed 2 KernelSHAP: AUC 0.832 margin 0.469 stab 0.98 gt nan, 52.50 ms
+thyroid seed 2 LIME: AUC 0.861 margin 0.544 stab 0.68 gt nan, 23.04 ms
+thyroid seed 2 Random: AUC 0.885 margin 0.624 stab 0.11 gt nan, 0.00 ms
+shuttle seed 0 PACE-contrastive: AUC 0.754 margin 0.354 stab 1.00 gt nan, 0.01 ms
+shuttle seed 0 PACE-multi: AUC 0.727 margin 0.338 stab 1.00 gt nan, 0.02 ms
+shuttle seed 0 PACE-flip: AUC 0.713 margin 0.335 stab 1.00 gt nan, 0.05 ms
+shuttle seed 0 Occlusion (brute force): AUC 0.713 margin 0.335 stab 1.00 gt nan, 3.64 ms
+shuttle seed 0 PACE-decomposition: AUC 0.719 margin 0.370 stab 1.00 gt nan, 0.01 ms
+shuttle seed 0 KernelSHAP: AUC 0.720 margin 0.367 stab 1.00 gt nan, 84.25 ms
+shuttle seed 0 LIME: AUC 0.727 margin 0.385 stab 0.90 gt nan, 18.96 ms
+shuttle seed 0 Random: AUC 0.788 margin 0.488 stab 0.18 gt nan, 0.00 ms
+shuttle seed 1 PACE-contrastive: AUC 0.671 margin 0.192 stab 1.00 gt nan, 0.01 ms
+shuttle seed 1 PACE-multi: AUC 0.667 margin 0.198 stab 1.00 gt nan, 0.05 ms
+shuttle seed 1 PACE-flip: AUC 0.644 margin 0.186 stab 1.00 gt nan, 0.10 ms
+shuttle seed 1 Occlusion (brute force): AUC 0.644 margin 0.186 stab 1.00 gt nan, 6.11 ms
+shuttle seed 1 PACE-decomposition: AUC 0.649 margin 0.219 stab 1.00 gt nan, 0.02 ms
+shuttle seed 1 KernelSHAP: AUC 0.661 margin 0.242 stab 0.99 gt nan, 38.32 ms
+shuttle seed 1 LIME: AUC 0.649 margin 0.239 stab 0.86 gt nan, 11.17 ms
+shuttle seed 1 Random: AUC 0.754 margin 0.385 stab 0.24 gt nan, 0.00 ms
+shuttle seed 2 PACE-contrastive: AUC 0.691 margin 0.226 stab 1.00 gt nan, 0.02 ms
+shuttle seed 2 PACE-multi: AUC 0.682 margin 0.226 stab 1.00 gt nan, 0.04 ms
+shuttle seed 2 PACE-flip: AUC 0.665 margin 0.230 stab 1.00 gt nan, 0.06 ms
+shuttle seed 2 Occlusion (brute force): AUC 0.665 margin 0.230 stab 1.00 gt nan, 4.84 ms
+shuttle seed 2 PACE-decomposition: AUC 0.667 margin 0.260 stab 1.00 gt nan, 0.03 ms
+shuttle seed 2 KernelSHAP: AUC 0.673 margin 0.269 stab 0.98 gt nan, 63.56 ms
+shuttle seed 2 LIME: AUC 0.661 margin 0.268 stab 0.84 gt nan, 22.39 ms
+shuttle seed 2 Random: AUC 0.784 margin 0.426 stab 0.25 gt nan, 0.00 ms
+# Deletion faithfulness (lower AUC = more faithful)
+
+50 test points per dataset and seed; seeds [0, 1, 2]; features deleted by copying values from real background rows (10 draws); main model (fixed centroid + search).
+
+Stability = top-3 overlap (Jaccard) when the explainer is re-run with another seed (1 = identical). Ground truth = share of top-3 features that are truly relevant (synthetic sets only).
+
+| Dataset | Method | Class-kept AUC | Margin AUC | Stability | Ground truth top-3 | ms / explanation |
+|---|---|---|---|---|---|---|
+| S1 | PACE-contrastive | 0.555 ± 0.012 | 0.093 ± 0.023 | 1.00 | 0.42 | 0.26 |
+| S1 | PACE-multi | 0.536 ± 0.005 | 0.070 ± 0.013 | 1.00 | 0.49 | 0.50 |
+| S1 | PACE-flip | 0.443 ± 0.011 | -0.107 ± 0.018 | 1.00 | 0.57 | 1.11 |
+| S1 | Occlusion (brute force) | 0.443 ± 0.011 | -0.107 ± 0.018 | 1.00 | 0.57 | 86.20 |
+| S1 | PACE-decomposition | 0.602 ± 0.013 | 0.163 ± 0.026 | 1.00 | 0.31 | 0.35 |
+| S1 | KernelSHAP | 0.527 ± 0.009 | 0.051 ± 0.025 | 0.88 | 0.79 | 547.90 |
+| S1 | LIME | 0.535 ± 0.003 | 0.074 ± 0.009 | 1.00 | 1.00 | 266.04 |
+| S1 | Random | 0.664 ± 0.003 | 0.275 ± 0.009 | 0.23 | 0.29 | 0.00 |
+| S2 | PACE-contrastive | 0.578 ± 0.027 | 0.139 ± 0.044 | 1.00 | 0.44 | 0.28 |
+| S2 | PACE-multi | 0.574 ± 0.012 | 0.135 ± 0.020 | 1.00 | 0.46 | 0.52 |
+| S2 | PACE-flip | 0.441 ± 0.011 | -0.110 ± 0.012 | 1.00 | 0.54 | 0.97 |
+| S2 | Occlusion (brute force) | 0.441 ± 0.011 | -0.110 ± 0.012 | 1.00 | 0.54 | 86.08 |
+| S2 | PACE-decomposition | 0.592 ± 0.016 | 0.151 ± 0.018 | 1.00 | 0.33 | 0.34 |
+| S2 | KernelSHAP | 0.542 ± 0.020 | 0.083 ± 0.035 | 0.88 | 0.80 | 549.20 |
+| S2 | LIME | 0.562 ± 0.028 | 0.119 ± 0.052 | 1.00 | 1.00 | 274.99 |
+| S2 | Random | 0.655 ± 0.001 | 0.271 ± 0.008 | 0.23 | 0.29 | 0.00 |
+| S3 | PACE-contrastive | 0.623 ± 0.021 | 0.214 ± 0.052 | 1.00 | 0.47 | 0.28 |
+| S3 | PACE-multi | 0.605 ± 0.034 | 0.189 ± 0.061 | 1.00 | 0.48 | 0.49 |
+| S3 | PACE-flip | 0.525 ± 0.038 | 0.040 ± 0.062 | 1.00 | 0.51 | 0.95 |
+| S3 | Occlusion (brute force) | 0.525 ± 0.038 | 0.040 ± 0.062 | 1.00 | 0.51 | 85.32 |
+| S3 | PACE-decomposition | 0.665 ± 0.028 | 0.271 ± 0.058 | 1.00 | 0.32 | 0.31 |
+| S3 | KernelSHAP | 0.601 ± 0.040 | 0.174 ± 0.071 | 0.85 | 0.68 | 537.27 |
+| S3 | LIME | 0.603 ± 0.044 | 0.182 ± 0.078 | 1.00 | 1.00 | 269.92 |
+| S3 | Random | 0.704 ± 0.044 | 0.341 ± 0.083 | 0.23 | 0.29 | 0.00 |
+| wine | PACE-contrastive | 0.535 ± 0.035 | 0.058 ± 0.049 | 1.00 | – | 0.02 |
+| wine | PACE-multi | 0.523 ± 0.033 | 0.027 ± 0.047 | 1.00 | – | 0.03 |
+| wine | PACE-flip | 0.488 ± 0.022 | -0.047 ± 0.041 | 1.00 | – | 0.11 |
+| wine | Occlusion (brute force) | 0.488 ± 0.022 | -0.047 ± 0.041 | 1.00 | – | 5.68 |
+| wine | PACE-decomposition | 0.523 ± 0.024 | 0.034 ± 0.036 | 1.00 | – | 0.04 |
+| wine | KernelSHAP | 0.510 ± 0.023 | 0.002 ± 0.040 | 0.94 | – | 27.72 |
+| wine | LIME | 0.524 ± 0.031 | 0.037 ± 0.051 | 0.84 | – | 12.55 |
+| wine | Random | 0.649 ± 0.007 | 0.255 ± 0.015 | 0.17 | – | 0.00 |
+| breast_cancer | PACE-contrastive | 0.632 ± 0.023 | 0.214 ± 0.025 | 1.00 | – | 0.03 |
+| breast_cancer | PACE-multi | 0.615 ± 0.013 | 0.176 ± 0.005 | 1.00 | – | 0.05 |
+| breast_cancer | PACE-flip | 0.604 ± 0.007 | 0.158 ± 0.003 | 1.00 | – | 0.26 |
+| breast_cancer | Occlusion (brute force) | 0.604 ± 0.007 | 0.158 ± 0.003 | 1.00 | – | 21.50 |
+| breast_cancer | PACE-decomposition | 0.649 ± 0.024 | 0.244 ± 0.009 | 1.00 | – | 0.07 |
+| breast_cancer | KernelSHAP | 0.626 ± 0.017 | 0.198 ± 0.012 | 0.60 | – | 61.32 |
+| breast_cancer | LIME | 0.631 ± 0.015 | 0.231 ± 0.010 | 0.74 | – | 24.46 |
+| breast_cancer | Random | 0.761 ± 0.007 | 0.421 ± 0.009 | 0.05 | – | 0.00 |
+| thyroid | PACE-contrastive | 0.907 ± 0.061 | 0.605 ± 0.088 | 1.00 | – | 0.02 |
+| thyroid | PACE-multi | 0.900 ± 0.072 | 0.569 ± 0.109 | 1.00 | – | 0.05 |
+| thyroid | PACE-flip | 0.880 ± 0.081 | 0.534 ± 0.107 | 1.00 | – | 0.23 |
+| thyroid | Occlusion (brute force) | 0.880 ± 0.081 | 0.534 ± 0.108 | 1.00 | – | 15.39 |
+| thyroid | PACE-decomposition | 0.919 ± 0.066 | 0.724 ± 0.124 | 1.00 | – | 0.05 |
+| thyroid | KernelSHAP | 0.914 ± 0.072 | 0.606 ± 0.127 | 0.99 | – | 53.16 |
+| thyroid | LIME | 0.921 ± 0.054 | 0.646 ± 0.099 | 0.70 | – | 24.74 |
+| thyroid | Random | 0.939 ± 0.049 | 0.741 ± 0.103 | 0.10 | – | 0.00 |
+| shuttle | PACE-contrastive | 0.705 ± 0.043 | 0.258 ± 0.086 | 1.00 | – | 0.01 |
+| shuttle | PACE-multi | 0.692 ± 0.032 | 0.254 ± 0.074 | 1.00 | – | 0.04 |
+| shuttle | PACE-flip | 0.674 ± 0.035 | 0.250 ± 0.077 | 1.00 | – | 0.07 |
+| shuttle | Occlusion (brute force) | 0.674 ± 0.035 | 0.250 ± 0.077 | 1.00 | – | 4.86 |
+| shuttle | PACE-decomposition | 0.678 ± 0.037 | 0.283 ± 0.078 | 1.00 | – | 0.02 |
+| shuttle | KernelSHAP | 0.685 ± 0.031 | 0.293 ± 0.066 | 0.99 | – | 62.04 |
+| shuttle | LIME | 0.679 ± 0.042 | 0.297 ± 0.077 | 0.86 | – | 17.51 |
+| shuttle | Random | 0.775 ± 0.018 | 0.433 ± 0.052 | 0.22 | – | 0.00 |

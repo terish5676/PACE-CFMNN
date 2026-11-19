@@ -1,0 +1,793 @@
+﻿0 of 60 dataset-seed pairs already done; 60 to run.
+  letter seed 130 B0: macro-F1 74.18, boxes 467, accepted nan, 0s
+  letter seed 131 B0: macro-F1 71.80, boxes 455, accepted nan, 0s
+  skin seed 130 B0: macro-F1 90.85, boxes 84, accepted nan, 0s
+  skin seed 137 B0: macro-F1 89.67, boxes 72, accepted nan, 0s
+  skin seed 138 B0: macro-F1 94.50, boxes 77, accepted nan, 0s
+  skin seed 135 B0: macro-F1 93.12, boxes 79, accepted nan, 0s
+  skin seed 131 B0: macro-F1 97.26, boxes 78, accepted nan, 0s
+  skin seed 134 B0: macro-F1 92.06, boxes 75, accepted nan, 0s
+  skin seed 139 B0: macro-F1 97.62, boxes 85, accepted nan, 0s
+  skin seed 133 B0: macro-F1 97.11, boxes 82, accepted nan, 0s
+  skin seed 132 B0: macro-F1 92.91, boxes 87, accepted nan, 0s
+  skin seed 136 B0: macro-F1 86.93, boxes 84, accepted nan, 0s
+  skin seed 137 random-300: macro-F1 99.22, boxes 71, accepted 28, 7s
+  skin seed 136 random-300: macro-F1 98.93, boxes 84, accepted 23, 7s
+  skin seed 130 random-300: macro-F1 98.79, boxes 83, accepted 34, 8s
+  skin seed 134 random-300: macro-F1 98.91, boxes 75, accepted 35, 8s
+  skin seed 133 random-300: macro-F1 99.22, boxes 82, accepted 31, 8s
+  skin seed 135 random-300: macro-F1 98.98, boxes 79, accepted 35, 9s
+  letter seed 130 random-300: macro-F1 77.07, boxes 466, accepted 212, 11s
+  skin seed 131 random-300: macro-F1 98.98, boxes 78, accepted 39, 9s
+  skin seed 138 random-300: macro-F1 98.81, boxes 77, accepted 37, 9s
+  skin seed 132 random-300: macro-F1 98.54, boxes 87, accepted 35, 9s
+  letter seed 131 random-300: macro-F1 74.73, boxes 454, accepted 197, 10s
+  skin seed 139 random-300: macro-F1 98.45, boxes 85, accepted 48, 12s
+  skin seed 137 random-1000: macro-F1 98.87, boxes 71, accepted 40, 10s
+  skin seed 136 random-1000: macro-F1 99.09, boxes 83, accepted 43, 11s
+  skin seed 134 random-1000: macro-F1 99.04, boxes 75, accepted 51, 11s
+  skin seed 130 random-1000: macro-F1 98.99, boxes 83, accepted 56, 12s
+  skin seed 135 random-1000: macro-F1 98.84, boxes 79, accepted 52, 12s
+  skin seed 138 random-1000: macro-F1 98.94, boxes 77, accepted 62, 14s
+  skin seed 132 random-1000: macro-F1 98.06, boxes 87, accepted 66, 15s
+  skin seed 133 random-1000: macro-F1 98.79, boxes 82, accepted 67, 16s
+  skin seed 131 random-1000: macro-F1 98.77, boxes 78, accepted 60, 16s
+  letter seed 130 random-1000: macro-F1 78.01, boxes 466, accepted 520, 23s
+  letter seed 131 random-1000: macro-F1 76.54, boxes 452, accepted 522, 25s
+  skin seed 139 random-1000: macro-F1 98.08, boxes 85, accepted 76, 23s
+  skin seed 130 random-all: macro-F1 98.70, boxes 83, accepted 102, 22s
+  skin seed 136 random-all: macro-F1 97.46, boxes 83, accepted 112, 26s
+  skin seed 135 random-all: macro-F1 97.49, boxes 79, accepted 96, 24s
+  skin seed 137 random-all: macro-F1 97.09, boxes 71, accepted 106, 28s
+  skin seed 134 random-all: macro-F1 98.42, boxes 75, accepted 94, 26s
+  skin seed 131 random-all: macro-F1 97.75, boxes 78, accepted 92, 24s
+  skin seed 132 random-all: macro-F1 97.83, boxes 87, accepted 120, 28s
+  skin seed 133 random-all: macro-F1 98.90, boxes 82, accepted 99, 28s
+  skin seed 138 random-all: macro-F1 98.69, boxes 77, accepted 92, 29s
+  skin seed 130 random-300-real: macro-F1 98.70, boxes 83, accepted 102, 22s
+  skin seed 139 random-all: macro-F1 97.21, boxes 85, accepted 102, 30s
+  skin seed 135 random-300-real: macro-F1 97.49, boxes 79, accepted 96, 24s
+  skin seed 136 random-300-real: macro-F1 97.46, boxes 83, accepted 112, 25s
+  skin seed 130 box-300: macro-F1 94.91, boxes 84, accepted 8, 5s
+  letter seed 130 random-all: macro-F1 78.68, boxes 462, accepted 875, 38s
+  skin seed 134 random-300-real: macro-F1 98.42, boxes 75, accepted 94, 26s
+  skin seed 131 random-300-real: macro-F1 97.75, boxes 78, accepted 92, 23s
+  skin seed 137 random-300-real: macro-F1 97.09, boxes 71, accepted 106, 28s
+  skin seed 135 box-300: macro-F1 95.06, boxes 79, accepted 14, 5s
+  skin seed 136 box-300: macro-F1 93.77, boxes 84, accepted 4, 4s
+  letter seed 131 random-all: macro-F1 75.94, boxes 447, accepted 913, 40s
+  skin seed 130 box-1000: macro-F1 94.91, boxes 84, accepted 8, 4s
+  skin seed 131 box-300: macro-F1 98.05, boxes 78, accepted 7, 4s
+  skin seed 134 box-300: macro-F1 97.56, boxes 75, accepted 13, 5s
+  skin seed 137 box-300: macro-F1 94.69, boxes 72, accepted 8, 4s
+  skin seed 133 random-300-real: macro-F1 98.90, boxes 82, accepted 99, 28s
+  skin seed 136 box-1000: macro-F1 93.77, boxes 84, accepted 4, 4s
+  skin seed 132 random-300-real: macro-F1 97.83, boxes 87, accepted 120, 28s
+  skin seed 138 random-300-real: macro-F1 98.69, boxes 77, accepted 92, 29s
+  skin seed 135 box-1000: macro-F1 95.06, boxes 79, accepted 16, 5s
+  skin seed 137 box-1000: macro-F1 94.65, boxes 72, accepted 10, 5s
+  skin seed 134 box-1000: macro-F1 97.49, boxes 75, accepted 17, 6s
+  letter seed 130 random-300-real: macro-F1 77.32, boxes 466, accepted 246, 12s
+  skin seed 133 box-300: macro-F1 97.81, boxes 82, accepted 4, 4s
+  skin seed 131 box-1000: macro-F1 98.25, boxes 78, accepted 23, 7s
+  skin seed 138 box-300: macro-F1 97.56, boxes 77, accepted 3, 4s
+  skin seed 132 box-300: macro-F1 95.26, boxes 87, accepted 4, 4s
+  letter seed 131 random-300-real: macro-F1 75.27, boxes 454, accepted 231, 13s
+  skin seed 133 box-1000: macro-F1 98.42, boxes 82, accepted 8, 5s
+  skin seed 138 box-1000: macro-F1 97.48, boxes 77, accepted 11, 5s
+  skin seed 132 box-1000: macro-F1 95.13, boxes 87, accepted 8, 5s
+  letter seed 130 box-300: macro-F1 76.47, boxes 466, accepted 74, 7s
+  skin seed 139 random-300-real: macro-F1 97.21, boxes 85, accepted 102, 29s
+  skin seed 139 box-300: macro-F1 98.43, boxes 85, accepted 13, 6s
+  letter seed 131 box-300: macro-F1 73.35, boxes 454, accepted 109, 9s
+  skin seed 139 box-1000: macro-F1 98.87, boxes 85, accepted 21, 7s
+  letter seed 130 box-1000: macro-F1 77.69, boxes 465, accepted 377, 22s
+  letter seed 131 box-1000: macro-F1 74.38, boxes 453, accepted 365, 23s
+  letter seed 130 greedy-300: macro-F1 80.59, boxes 467, accepted 300, 407s
+  letter seed 131 greedy-300: macro-F1 77.52, boxes 455, accepted 300, 405s
+  skin seed 133 greedy-300: macro-F1 98.48, boxes 82, accepted 85, 533s
+  skin seed 131 greedy-300: macro-F1 96.48, boxes 78, accepted 119, 586s
+  letter seed 130 greedy-1000: macro-F1 79.72, boxes 464, accepted 904, 338s
+  letter seed 132 B0: macro-F1 75.58, boxes 467, accepted nan, 0s
+  letter seed 131 greedy-1000: macro-F1 76.85, boxes 449, accepted 924, 343s
+  letter seed 133 B0: macro-F1 73.65, boxes 454, accepted nan, 0s
+  letter seed 132 random-300: macro-F1 76.81, boxes 467, accepted 197, 12s
+  letter seed 133 random-300: macro-F1 75.43, boxes 454, accepted 208, 13s
+  letter seed 132 random-1000: macro-F1 78.12, boxes 466, accepted 504, 25s
+  letter seed 133 random-1000: macro-F1 76.16, boxes 451, accepted 528, 26s
+  letter seed 132 random-all: macro-F1 78.80, boxes 462, accepted 908, 43s
+  letter seed 132 random-300-real: macro-F1 77.02, boxes 467, accepted 228, 13s
+  letter seed 133 random-all: macro-F1 76.84, boxes 447, accepted 913, 43s
+  letter seed 132 box-300: macro-F1 75.87, boxes 467, accepted 104, 10s
+  letter seed 133 random-300-real: macro-F1 75.87, boxes 454, accepted 237, 13s
+  letter seed 133 box-300: macro-F1 74.64, boxes 453, accepted 90, 9s
+  letter seed 132 box-1000: macro-F1 77.22, boxes 464, accepted 415, 24s
+  letter seed 133 box-1000: macro-F1 76.75, boxes 453, accepted 344, 22s
+  skin seed 139 greedy-300: macro-F1 95.91, boxes 84, accepted 142, 931s
+  skin seed 135 greedy-300: macro-F1 97.96, boxes 79, accepted 111, 977s
+  skin seed 138 greedy-300: macro-F1 98.34, boxes 77, accepted 105, 1016s
+  skin seed 133 greedy-1000: macro-F1 98.36, boxes 82, accepted 93, 484s
+  letter seed 134 B0: macro-F1 73.85, boxes 454, accepted nan, 0s
+  letter seed 134 random-300: macro-F1 75.27, boxes 454, accepted 184, 12s
+  letter seed 134 random-1000: macro-F1 76.69, boxes 451, accepted 516, 26s
+  skin seed 131 greedy-1000: macro-F1 96.24, boxes 78, accepted 118, 525s
+  letter seed 135 B0: macro-F1 73.59, boxes 469, accepted nan, 0s
+  letter seed 134 random-all: macro-F1 78.89, boxes 447, accepted 874, 43s
+  skin seed 132 greedy-300: macro-F1 98.97, boxes 87, accepted 116, 1119s
+  letter seed 135 random-300: macro-F1 75.96, boxes 469, accepted 202, 12s
+  letter seed 134 random-300-real: macro-F1 75.37, boxes 454, accepted 212, 13s
+  letter seed 134 box-300: macro-F1 74.89, boxes 454, accepted 96, 10s
+  letter seed 135 random-1000: macro-F1 77.48, boxes 468, accepted 540, 26s
+  letter seed 134 box-1000: macro-F1 77.21, boxes 451, accepted 367, 24s
+  letter seed 135 random-all: macro-F1 78.41, boxes 465, accepted 948, 44s
+  letter seed 135 random-300-real: macro-F1 76.57, boxes 469, accepted 234, 13s
+  letter seed 135 box-300: macro-F1 76.17, boxes 469, accepted 88, 9s
+  letter seed 135 box-1000: macro-F1 77.12, boxes 469, accepted 363, 22s
+  letter seed 132 greedy-300: macro-F1 80.09, boxes 467, accepted 300, 417s
+  letter seed 133 greedy-300: macro-F1 77.29, boxes 453, accepted 300, 417s
+  skin seed 130 greedy-300: macro-F1 98.58, boxes 84, accepted 114, 1449s
+  skin seed 137 greedy-300: macro-F1 97.62, boxes 72, accepted 95, 1444s
+  skin seed 134 greedy-300: macro-F1 98.16, boxes 75, accepted 107, 1495s
+  letter seed 134 greedy-300: macro-F1 79.11, boxes 454, accepted 300, 429s
+  skin seed 139 greedy-1000: macro-F1 97.10, boxes 84, accepted 131, 668s
+  letter seed 136 B0: macro-F1 75.46, boxes 448, accepted nan, 0s
+  letter seed 136 random-300: macro-F1 77.69, boxes 447, accepted 206, 12s
+  letter seed 136 random-1000: macro-F1 79.40, boxes 445, accepted 522, 25s
+  letter seed 135 greedy-300: macro-F1 78.83, boxes 469, accepted 300, 437s
+  letter seed 132 greedy-1000: macro-F1 80.08, boxes 464, accepted 923, 353s
+  letter seed 136 random-all: macro-F1 80.07, boxes 443, accepted 853, 40s
+  letter seed 137 B0: macro-F1 71.86, boxes 436, accepted nan, 0s
+  letter seed 133 greedy-1000: macro-F1 76.92, boxes 450, accepted 922, 358s
+  letter seed 138 B0: macro-F1 74.11, boxes 444, accepted nan, 0s
+  letter seed 136 random-300-real: macro-F1 77.52, boxes 447, accepted 242, 13s
+  letter seed 137 random-300: macro-F1 75.00, boxes 436, accepted 201, 13s
+  letter seed 136 box-300: macro-F1 77.48, boxes 447, accepted 84, 9s
+  letter seed 138 random-300: macro-F1 76.11, boxes 444, accepted 204, 12s
+  letter seed 137 random-1000: macro-F1 76.02, boxes 434, accepted 523, 27s
+  letter seed 136 box-1000: macro-F1 77.73, boxes 444, accepted 364, 22s
+  letter seed 138 random-1000: macro-F1 77.86, boxes 444, accepted 522, 26s
+  letter seed 137 random-all: macro-F1 77.35, boxes 427, accepted 989, 49s
+  letter seed 138 random-all: macro-F1 77.60, boxes 439, accepted 858, 42s
+  letter seed 138 random-300-real: macro-F1 76.55, boxes 444, accepted 230, 13s
+  letter seed 137 random-300-real: macro-F1 75.64, boxes 436, accepted 237, 15s
+  letter seed 138 box-300: macro-F1 75.39, boxes 444, accepted 89, 9s
+  letter seed 137 box-300: macro-F1 73.86, boxes 436, accepted 102, 12s
+  letter seed 138 box-1000: macro-F1 77.01, boxes 443, accepted 370, 22s
+  letter seed 137 box-1000: macro-F1 76.32, boxes 436, accepted 367, 25s
+  skin seed 135 greedy-1000: macro-F1 97.83, boxes 79, accepted 100, 925s
+  letter seed 139 B0: macro-F1 73.40, boxes 446, accepted nan, 0s
+  letter seed 139 random-300: macro-F1 76.46, boxes 445, accepted 192, 11s
+  letter seed 139 random-1000: macro-F1 78.13, boxes 444, accepted 498, 26s
+  letter seed 134 greedy-1000: macro-F1 79.23, boxes 446, accepted 901, 366s
+  skin seed 138 greedy-1000: macro-F1 97.43, boxes 77, accepted 114, 950s
+  magic seed 130 B0: macro-F1 73.19, boxes 227, accepted nan, 0s
+  magic seed 131 B0: macro-F1 72.25, boxes 231, accepted nan, 0s
+  magic seed 130 random-300: macro-F1 75.60, boxes 227, accepted 194, 6s
+  magic seed 131 random-300: macro-F1 74.98, boxes 230, accepted 190, 5s
+  magic seed 130 random-1000: macro-F1 73.01, boxes 226, accepted 470, 11s
+  magic seed 131 random-1000: macro-F1 70.47, boxes 229, accepted 484, 11s
+  letter seed 139 random-all: macro-F1 79.88, boxes 438, accepted 928, 45s
+  letter seed 139 random-300-real: macro-F1 76.50, boxes 445, accepted 232, 13s
+  magic seed 130 random-all: macro-F1 69.50, boxes 221, accepted 793, 17s
+  magic seed 131 random-all: macro-F1 69.70, boxes 228, accepted 776, 16s
+  magic seed 130 random-300-real: macro-F1 75.07, boxes 227, accepted 297, 8s
+  magic seed 131 random-300-real: macro-F1 73.65, boxes 230, accepted 297, 7s
+  letter seed 139 box-300: macro-F1 76.00, boxes 446, accepted 57, 9s
+  magic seed 130 box-300: macro-F1 74.43, boxes 227, accepted 39, 2s
+  magic seed 131 box-300: macro-F1 74.50, boxes 231, accepted 49, 3s
+  magic seed 130 box-1000: macro-F1 75.04, boxes 227, accepted 248, 7s
+  magic seed 131 box-1000: macro-F1 75.51, boxes 231, accepted 258, 7s
+  letter seed 139 box-1000: macro-F1 78.39, boxes 446, accepted 351, 21s
+  skin seed 136 greedy-300: macro-F1 97.50, boxes 83, accepted 115, 2049s
+  letter seed 135 greedy-1000: macro-F1 79.89, boxes 457, accepted 945, 366s
+  magic seed 132 B0: macro-F1 74.83, boxes 223, accepted nan, 0s
+  magic seed 132 random-300: macro-F1 75.07, boxes 223, accepted 208, 6s
+  magic seed 132 random-1000: macro-F1 74.36, boxes 221, accepted 522, 12s
+  magic seed 132 random-all: macro-F1 72.63, boxes 214, accepted 836, 18s
+  magic seed 132 random-300-real: macro-F1 77.33, boxes 223, accepted 295, 8s
+  magic seed 132 box-300: macro-F1 71.68, boxes 223, accepted 82, 3s
+  magic seed 132 box-1000: macro-F1 73.88, boxes 221, accepted 264, 7s
+  letter seed 136 greedy-300: macro-F1 81.09, boxes 448, accepted 300, 390s
+  skin seed 132 greedy-1000: macro-F1 99.16, boxes 87, accepted 111, 1090s
+  magic seed 133 B0: macro-F1 70.29, boxes 230, accepted nan, 0s
+  magic seed 133 random-300: macro-F1 75.04, boxes 229, accepted 182, 5s
+  magic seed 133 random-1000: macro-F1 75.68, boxes 228, accepted 472, 11s
+  magic seed 133 random-all: macro-F1 74.03, boxes 224, accepted 882, 18s
+  magic seed 130 greedy-300: macro-F1 77.80, boxes 227, accepted 300, 233s
+  magic seed 133 random-300-real: macro-F1 74.67, boxes 229, accepted 296, 7s
+  magic seed 133 box-300: macro-F1 75.02, boxes 230, accepted 27, 2s
+  letter seed 138 greedy-300: macro-F1 78.53, boxes 444, accepted 300, 396s
+  magic seed 133 box-1000: macro-F1 76.88, boxes 230, accepted 158, 5s
+  magic seed 131 greedy-300: macro-F1 79.35, boxes 231, accepted 300, 247s
+  letter seed 137 greedy-300: macro-F1 77.94, boxes 436, accepted 300, 470s
+  magic seed 132 greedy-300: macro-F1 79.88, boxes 222, accepted 300, 246s
+  magic seed 130 greedy-1000: macro-F1 72.75, boxes 218, accepted 929, 201s
+  magic seed 134 B0: macro-F1 70.78, boxes 231, accepted nan, 0s
+  magic seed 134 random-300: macro-F1 74.97, boxes 231, accepted 179, 5s
+  letter seed 139 greedy-300: macro-F1 79.33, boxes 446, accepted 300, 428s
+  letter seed 136 greedy-1000: macro-F1 80.41, boxes 439, accepted 896, 317s
+  magic seed 135 B0: macro-F1 69.54, boxes 244, accepted nan, 0s
+  magic seed 134 random-1000: macro-F1 74.52, boxes 231, accepted 442, 10s
+  magic seed 135 random-300: macro-F1 74.61, boxes 244, accepted 174, 5s
+  magic seed 131 greedy-1000: macro-F1 75.38, boxes 228, accepted 972, 216s
+  magic seed 136 B0: macro-F1 73.34, boxes 243, accepted nan, 0s
+  magic seed 135 random-1000: macro-F1 75.55, boxes 243, accepted 415, 9s
+  magic seed 134 random-all: macro-F1 72.34, boxes 224, accepted 809, 16s
+  magic seed 136 random-300: macro-F1 75.02, boxes 242, accepted 193, 5s
+  magic seed 134 random-300-real: macro-F1 75.75, boxes 231, accepted 296, 7s
+  magic seed 134 box-300: macro-F1 74.42, boxes 231, accepted 12, 2s
+  magic seed 135 random-all: macro-F1 72.93, boxes 240, accepted 792, 16s
+  magic seed 136 random-1000: macro-F1 71.59, boxes 239, accepted 494, 11s
+  magic seed 134 box-1000: macro-F1 75.35, boxes 230, accepted 147, 5s
+  magic seed 135 random-300-real: macro-F1 76.27, boxes 244, accepted 297, 7s
+  magic seed 135 box-300: macro-F1 73.02, boxes 244, accepted 37, 2s
+  magic seed 135 box-1000: macro-F1 76.66, boxes 243, accepted 124, 4s
+  magic seed 136 random-all: macro-F1 71.01, boxes 234, accepted 798, 16s
+  magic seed 136 random-300-real: macro-F1 74.48, boxes 241, accepted 294, 7s
+  magic seed 133 greedy-300: macro-F1 80.96, boxes 230, accepted 300, 267s
+  magic seed 136 box-300: macro-F1 74.85, boxes 243, accepted 41, 2s
+  magic seed 136 box-1000: macro-F1 74.71, boxes 242, accepted 196, 6s
+  magic seed 132 greedy-1000: macro-F1 74.61, boxes 220, accepted 961, 207s
+  magic seed 137 B0: macro-F1 73.86, boxes 224, accepted nan, 0s
+  letter seed 138 greedy-1000: macro-F1 78.99, boxes 438, accepted 891, 319s
+  magic seed 137 random-300: macro-F1 73.16, boxes 224, accepted 200, 5s
+  magic seed 138 B0: macro-F1 67.20, boxes 212, accepted nan, 0s
+  magic seed 138 random-300: macro-F1 74.37, boxes 212, accepted 182, 5s
+  magic seed 137 random-1000: macro-F1 69.80, boxes 222, accepted 510, 11s
+  magic seed 138 random-1000: macro-F1 76.08, boxes 212, accepted 427, 10s
+  magic seed 137 random-all: macro-F1 69.76, boxes 219, accepted 834, 16s
+  magic seed 138 random-all: macro-F1 71.26, boxes 207, accepted 818, 18s
+  magic seed 137 random-300-real: macro-F1 71.42, boxes 223, accepted 297, 7s
+  magic seed 137 box-300: macro-F1 75.20, boxes 223, accepted 31, 2s
+  magic seed 138 random-300-real: macro-F1 76.22, boxes 212, accepted 295, 8s
+  magic seed 137 box-1000: macro-F1 70.71, boxes 223, accepted 263, 7s
+  magic seed 138 box-300: macro-F1 73.25, boxes 211, accepted 54, 3s
+  magic seed 138 box-1000: macro-F1 75.14, boxes 211, accepted 104, 4s
+  letter seed 137 greedy-1000: macro-F1 77.77, boxes 431, accepted 964, 377s
+  magic seed 139 B0: macro-F1 67.68, boxes 237, accepted nan, 0s
+  magic seed 139 random-300: macro-F1 73.88, boxes 237, accepted 179, 5s
+  magic seed 139 random-1000: macro-F1 74.03, boxes 237, accepted 412, 10s
+  magic seed 134 greedy-300: macro-F1 80.12, boxes 229, accepted 300, 249s
+  magic seed 133 greedy-1000: macro-F1 80.04, boxes 223, accepted 987, 228s
+  magic seed 135 greedy-300: macro-F1 79.87, boxes 244, accepted 300, 239s
+  magic seed 139 random-all: macro-F1 72.50, boxes 233, accepted 809, 17s
+  landsat seed 130 B0: macro-F1 80.33, boxes 151, accepted nan, 0s
+  landsat seed 130 random-300: macro-F1 82.08, boxes 150, accepted 178, 3s
+  skin seed 137 greedy-1000: macro-F1 97.86, boxes 72, accepted 90, 1330s
+  landsat seed 131 B0: macro-F1 82.80, boxes 153, accepted nan, 0s
+  landsat seed 130 random-1000: macro-F1 82.08, boxes 150, accepted 178, 4s
+  magic seed 139 random-300-real: macro-F1 73.99, boxes 237, accepted 296, 7s
+  landsat seed 131 random-300: macro-F1 83.56, boxes 153, accepted 142, 3s
+  magic seed 139 box-300: macro-F1 74.35, boxes 237, accepted 60, 3s
+  landsat seed 130 random-all: macro-F1 82.08, boxes 150, accepted 178, 4s
+  landsat seed 131 random-1000: macro-F1 83.56, boxes 153, accepted 142, 3s
+  magic seed 139 box-1000: macro-F1 75.53, boxes 236, accepted 105, 4s
+  landsat seed 130 random-300-real: macro-F1 82.08, boxes 150, accepted 178, 4s
+  magic seed 136 greedy-300: macro-F1 79.22, boxes 243, accepted 300, 238s
+  landsat seed 131 random-all: macro-F1 83.56, boxes 153, accepted 142, 3s
+  landsat seed 130 box-300: macro-F1 82.06, boxes 150, accepted 172, 4s
+  landsat seed 131 random-300-real: macro-F1 83.56, boxes 153, accepted 142, 3s
+  landsat seed 130 box-1000: macro-F1 82.06, boxes 150, accepted 172, 4s
+  landsat seed 131 box-300: macro-F1 83.59, boxes 153, accepted 137, 3s
+  landsat seed 131 box-1000: macro-F1 83.59, boxes 153, accepted 137, 3s
+  landsat seed 130 greedy-300: macro-F1 81.95, boxes 149, accepted 166, 19s
+  skin seed 134 greedy-1000: macro-F1 98.36, boxes 75, accepted 110, 1320s
+  landsat seed 131 greedy-300: macro-F1 83.51, boxes 153, accepted 155, 19s
+  landsat seed 132 B0: macro-F1 82.76, boxes 144, accepted nan, 0s
+  landsat seed 132 random-300: macro-F1 86.39, boxes 144, accepted 168, 3s
+  skin seed 130 greedy-1000: macro-F1 98.58, boxes 82, accepted 116, 1380s
+  letter seed 139 greedy-1000: macro-F1 80.32, boxes 443, accepted 941, 343s
+  landsat seed 133 B0: macro-F1 81.16, boxes 144, accepted nan, 0s
+  landsat seed 134 B0: macro-F1 82.41, boxes 143, accepted nan, 0s
+  landsat seed 132 random-1000: macro-F1 86.39, boxes 144, accepted 168, 3s
+  landsat seed 133 random-300: macro-F1 84.15, boxes 144, accepted 161, 3s
+  landsat seed 134 random-300: macro-F1 84.08, boxes 143, accepted 163, 3s
+  landsat seed 132 random-all: macro-F1 86.39, boxes 144, accepted 168, 3s
+  landsat seed 133 random-1000: macro-F1 84.15, boxes 144, accepted 161, 3s
+  landsat seed 134 random-1000: macro-F1 84.08, boxes 143, accepted 163, 3s
+  landsat seed 130 greedy-1000: macro-F1 81.95, boxes 149, accepted 166, 18s
+  landsat seed 132 random-300-real: macro-F1 86.39, boxes 144, accepted 168, 3s
+  landsat seed 135 B0: macro-F1 84.96, boxes 158, accepted nan, 0s
+  landsat seed 133 random-all: macro-F1 84.15, boxes 144, accepted 161, 3s
+  landsat seed 134 random-all: macro-F1 84.08, boxes 143, accepted 163, 3s
+  landsat seed 132 box-300: macro-F1 87.01, boxes 144, accepted 166, 3s
+  landsat seed 131 greedy-1000: macro-F1 83.51, boxes 153, accepted 155, 18s
+  landsat seed 135 random-300: macro-F1 84.90, boxes 158, accepted 172, 3s
+  landsat seed 133 random-300-real: macro-F1 84.15, boxes 144, accepted 161, 3s
+  landsat seed 136 B0: macro-F1 84.34, boxes 144, accepted nan, 0s
+  landsat seed 134 random-300-real: macro-F1 84.08, boxes 143, accepted 163, 3s
+  landsat seed 132 box-1000: macro-F1 87.01, boxes 144, accepted 166, 3s
+  landsat seed 135 random-1000: macro-F1 84.90, boxes 158, accepted 172, 3s
+  landsat seed 133 box-300: macro-F1 83.82, boxes 144, accepted 150, 3s
+  landsat seed 136 random-300: macro-F1 83.60, boxes 144, accepted 167, 3s
+  landsat seed 134 box-300: macro-F1 85.32, boxes 143, accepted 170, 3s
+  landsat seed 133 box-1000: macro-F1 83.82, boxes 144, accepted 150, 3s
+  landsat seed 135 random-all: macro-F1 84.90, boxes 158, accepted 172, 3s
+  landsat seed 136 random-1000: macro-F1 83.60, boxes 144, accepted 167, 3s
+  landsat seed 134 box-1000: macro-F1 85.32, boxes 143, accepted 170, 3s
+  landsat seed 135 random-300-real: macro-F1 84.90, boxes 158, accepted 172, 4s
+  landsat seed 136 random-all: macro-F1 83.60, boxes 144, accepted 167, 3s
+  landsat seed 135 box-300: macro-F1 84.40, boxes 158, accepted 185, 3s
+  landsat seed 136 random-300-real: macro-F1 83.60, boxes 144, accepted 167, 3s
+  landsat seed 136 box-300: macro-F1 83.37, boxes 144, accepted 156, 3s
+  landsat seed 135 box-1000: macro-F1 84.40, boxes 158, accepted 185, 4s
+  landsat seed 132 greedy-300: macro-F1 87.28, boxes 144, accepted 181, 19s
+  landsat seed 136 box-1000: macro-F1 83.37, boxes 144, accepted 156, 3s
+  landsat seed 133 greedy-300: macro-F1 84.23, boxes 144, accepted 161, 18s
+  landsat seed 134 greedy-300: macro-F1 83.68, boxes 143, accepted 179, 20s
+  magic seed 137 greedy-300: macro-F1 79.30, boxes 222, accepted 300, 234s
+  landsat seed 135 greedy-300: macro-F1 86.27, boxes 158, accepted 180, 20s
+  landsat seed 132 greedy-1000: macro-F1 87.28, boxes 144, accepted 181, 18s
+  landsat seed 137 B0: macro-F1 79.31, boxes 152, accepted nan, 0s
+  landsat seed 136 greedy-300: macro-F1 84.00, boxes 144, accepted 177, 20s
+  landsat seed 133 greedy-1000: macro-F1 84.23, boxes 144, accepted 161, 18s
+  landsat seed 138 B0: macro-F1 84.59, boxes 158, accepted nan, 0s
+  landsat seed 137 random-300: macro-F1 81.18, boxes 152, accepted 182, 4s
+  landsat seed 138 random-300: macro-F1 86.92, boxes 158, accepted 149, 3s
+  landsat seed 137 random-1000: macro-F1 81.06, boxes 152, accepted 192, 4s
+  landsat seed 134 greedy-1000: macro-F1 83.68, boxes 143, accepted 179, 20s
+  landsat seed 139 B0: macro-F1 85.15, boxes 155, accepted nan, 0s
+  landsat seed 138 random-1000: macro-F1 86.92, boxes 158, accepted 149, 3s
+  magic seed 138 greedy-300: macro-F1 80.24, boxes 212, accepted 300, 248s
+  landsat seed 137 random-all: macro-F1 81.06, boxes 152, accepted 192, 4s
+  landsat seed 139 random-300: macro-F1 85.47, boxes 154, accepted 169, 3s
+  landsat seed 138 random-all: macro-F1 86.92, boxes 158, accepted 149, 3s
+  landsat seed 139 random-1000: macro-F1 85.47, boxes 154, accepted 169, 3s
+  landsat seed 137 random-300-real: macro-F1 81.06, boxes 152, accepted 192, 4s
+  landsat seed 138 random-300-real: macro-F1 86.92, boxes 158, accepted 149, 3s
+  landsat seed 135 greedy-1000: macro-F1 86.27, boxes 158, accepted 180, 20s
+  page_blocks seed 130 B0: macro-F1 52.95, boxes 26, accepted nan, 0s
+  landsat seed 139 random-all: macro-F1 85.47, boxes 154, accepted 169, 3s
+  landsat seed 137 box-300: macro-F1 81.58, boxes 152, accepted 162, 3s
+  page_blocks seed 130 random-300: macro-F1 54.77, boxes 26, accepted 22, 2s
+  landsat seed 138 box-300: macro-F1 85.56, boxes 158, accepted 158, 3s
+  landsat seed 136 greedy-1000: macro-F1 84.00, boxes 144, accepted 177, 20s
+  page_blocks seed 130 random-1000: macro-F1 54.77, boxes 26, accepted 22, 2s
+  page_blocks seed 131 B0: macro-F1 68.54, boxes 22, accepted nan, 0s
+  landsat seed 139 random-300-real: macro-F1 85.47, boxes 154, accepted 169, 3s
+  landsat seed 137 box-1000: macro-F1 81.73, boxes 152, accepted 181, 3s
+  landsat seed 138 box-1000: macro-F1 85.56, boxes 158, accepted 158, 3s
+  page_blocks seed 130 random-all: macro-F1 54.77, boxes 26, accepted 22, 2s
+  page_blocks seed 131 random-300: macro-F1 67.42, boxes 22, accepted 11, 2s
+  page_blocks seed 130 random-300-real: macro-F1 54.77, boxes 26, accepted 22, 2s
+  landsat seed 139 box-300: macro-F1 85.74, boxes 155, accepted 153, 3s
+  page_blocks seed 131 random-1000: macro-F1 67.42, boxes 22, accepted 11, 2s
+  page_blocks seed 130 box-300: macro-F1 54.90, boxes 26, accepted 17, 2s
+  page_blocks seed 131 random-all: macro-F1 67.42, boxes 22, accepted 11, 2s
+  landsat seed 139 box-1000: macro-F1 85.74, boxes 155, accepted 153, 3s
+  page_blocks seed 130 box-1000: macro-F1 54.90, boxes 26, accepted 17, 2s
+  page_blocks seed 131 random-300-real: macro-F1 67.42, boxes 22, accepted 11, 2s
+  page_blocks seed 131 box-300: macro-F1 68.49, boxes 22, accepted 5, 2s
+  page_blocks seed 131 box-1000: macro-F1 68.49, boxes 22, accepted 5, 2s
+  landsat seed 138 greedy-300: macro-F1 87.23, boxes 158, accepted 154, 16s
+  page_blocks seed 130 greedy-300: macro-F1 54.23, boxes 26, accepted 12, 11s
+  landsat seed 137 greedy-300: macro-F1 82.04, boxes 152, accepted 183, 20s
+  landsat seed 139 greedy-300: macro-F1 86.42, boxes 155, accepted 187, 20s
+  page_blocks seed 131 greedy-300: macro-F1 68.35, boxes 22, accepted 7, 15s
+  page_blocks seed 130 greedy-1000: macro-F1 54.23, boxes 26, accepted 12, 11s
+  page_blocks seed 132 B0: macro-F1 76.73, boxes 25, accepted nan, 0s
+  page_blocks seed 132 random-300: macro-F1 79.98, boxes 25, accepted 13, 1s
+  page_blocks seed 132 random-1000: macro-F1 79.98, boxes 25, accepted 13, 1s
+  landsat seed 138 greedy-1000: macro-F1 87.23, boxes 158, accepted 154, 16s
+  page_blocks seed 132 random-all: macro-F1 79.98, boxes 25, accepted 13, 1s
+  page_blocks seed 133 B0: macro-F1 64.92, boxes 26, accepted nan, 0s
+  page_blocks seed 132 random-300-real: macro-F1 79.98, boxes 25, accepted 13, 1s
+  page_blocks seed 133 random-300: macro-F1 70.18, boxes 26, accepted 9, 1s
+  page_blocks seed 132 box-300: macro-F1 83.01, boxes 25, accepted 12, 1s
+  page_blocks seed 133 random-1000: macro-F1 70.46, boxes 26, accepted 14, 2s
+  page_blocks seed 132 box-1000: macro-F1 83.01, boxes 25, accepted 12, 1s
+  page_blocks seed 133 random-all: macro-F1 70.46, boxes 26, accepted 14, 2s
+  page_blocks seed 133 random-300-real: macro-F1 70.46, boxes 26, accepted 14, 2s
+  page_blocks seed 133 box-300: macro-F1 70.25, boxes 26, accepted 4, 0s
+  landsat seed 137 greedy-1000: macro-F1 81.84, boxes 152, accepted 194, 20s
+  page_blocks seed 134 B0: macro-F1 41.74, boxes 23, accepted nan, 0s
+  page_blocks seed 133 box-1000: macro-F1 69.23, boxes 26, accepted 14, 2s
+  page_blocks seed 134 random-300: macro-F1 55.02, boxes 23, accepted 16, 2s
+  page_blocks seed 131 greedy-1000: macro-F1 68.35, boxes 22, accepted 7, 15s
+  page_blocks seed 134 random-1000: macro-F1 55.02, boxes 23, accepted 16, 2s
+  page_blocks seed 135 B0: macro-F1 70.69, boxes 26, accepted nan, 0s
+  page_blocks seed 132 greedy-300: macro-F1 83.01, boxes 25, accepted 13, 8s
+  page_blocks seed 134 random-all: macro-F1 55.02, boxes 23, accepted 16, 2s
+  page_blocks seed 135 random-300: macro-F1 72.33, boxes 26, accepted 17, 2s
+  landsat seed 139 greedy-1000: macro-F1 86.42, boxes 155, accepted 187, 20s
+  page_blocks seed 136 B0: macro-F1 51.24, boxes 23, accepted nan, 0s
+  page_blocks seed 134 random-300-real: macro-F1 55.02, boxes 23, accepted 16, 2s
+  page_blocks seed 135 random-1000: macro-F1 72.33, boxes 26, accepted 17, 2s
+  page_blocks seed 134 box-300: macro-F1 54.40, boxes 23, accepted 14, 2s
+  page_blocks seed 135 random-all: macro-F1 72.33, boxes 26, accepted 17, 2s
+  page_blocks seed 136 random-300: macro-F1 52.46, boxes 23, accepted 13, 3s
+  page_blocks seed 134 box-1000: macro-F1 54.40, boxes 23, accepted 14, 2s
+  page_blocks seed 135 random-300-real: macro-F1 72.33, boxes 26, accepted 17, 2s
+  page_blocks seed 136 random-1000: macro-F1 52.46, boxes 23, accepted 13, 3s
+  page_blocks seed 132 greedy-1000: macro-F1 83.01, boxes 25, accepted 13, 8s
+  page_blocks seed 133 greedy-300: macro-F1 70.70, boxes 26, accepted 11, 11s
+  page_blocks seed 137 B0: macro-F1 67.32, boxes 21, accepted nan, 0s
+  page_blocks seed 135 box-300: macro-F1 66.06, boxes 26, accepted 18, 2s
+  page_blocks seed 137 random-300: macro-F1 71.07, boxes 21, accepted 12, 2s
+  page_blocks seed 136 random-all: macro-F1 52.46, boxes 23, accepted 13, 3s
+  page_blocks seed 135 box-1000: macro-F1 66.06, boxes 26, accepted 18, 2s
+  page_blocks seed 137 random-1000: macro-F1 71.21, boxes 21, accepted 14, 3s
+  page_blocks seed 136 random-300-real: macro-F1 52.46, boxes 23, accepted 13, 3s
+  magic seed 135 greedy-1000: macro-F1 79.35, boxes 235, accepted 962, 191s
+  page_blocks seed 138 B0: macro-F1 66.50, boxes 27, accepted nan, 0s
+  page_blocks seed 137 random-all: macro-F1 71.21, boxes 21, accepted 14, 3s
+  page_blocks seed 136 box-300: macro-F1 54.20, boxes 23, accepted 4, 2s
+  page_blocks seed 134 greedy-300: macro-F1 54.39, boxes 23, accepted 15, 10s
+  page_blocks seed 133 greedy-1000: macro-F1 70.70, boxes 26, accepted 11, 10s
+  page_blocks seed 138 random-300: macro-F1 66.07, boxes 27, accepted 8, 3s
+  page_blocks seed 139 B0: macro-F1 65.09, boxes 23, accepted nan, 0s
+  page_blocks seed 137 random-300-real: macro-F1 71.21, boxes 21, accepted 14, 2s
+  page_blocks seed 136 box-1000: macro-F1 52.59, boxes 23, accepted 12, 3s
+  magic seed 134 greedy-1000: macro-F1 75.25, boxes 221, accepted 971, 199s
+  thyroid seed 130 B0: macro-F1 85.77, boxes 45, accepted nan, 0s
+  page_blocks seed 139 random-300: macro-F1 65.71, boxes 22, accepted 16, 2s
+  thyroid seed 130 random-300: macro-F1 89.98, boxes 45, accepted 17, 0s
+  page_blocks seed 137 box-300: macro-F1 67.10, boxes 21, accepted 4, 2s
+  thyroid seed 130 random-1000: macro-F1 89.98, boxes 45, accepted 17, 0s
+  thyroid seed 130 random-all: macro-F1 89.98, boxes 45, accepted 17, 0s
+  thyroid seed 130 random-300-real: macro-F1 89.98, boxes 45, accepted 17, 0s
+  page_blocks seed 138 random-1000: macro-F1 65.99, boxes 27, accepted 9, 3s
+  thyroid seed 130 box-300: macro-F1 89.98, boxes 45, accepted 16, 0s
+  page_blocks seed 139 random-1000: macro-F1 66.81, boxes 22, accepted 19, 2s
+  thyroid seed 130 box-1000: macro-F1 89.98, boxes 45, accepted 16, 0s
+  page_blocks seed 137 box-1000: macro-F1 69.62, boxes 21, accepted 9, 3s
+  magic seed 136 greedy-1000: macro-F1 75.45, boxes 239, accepted 938, 181s
+  thyroid seed 131 B0: macro-F1 90.34, boxes 45, accepted nan, 0s
+  thyroid seed 131 random-300: macro-F1 91.11, boxes 43, accepted 12, 0s
+  thyroid seed 130 greedy-300: macro-F1 89.98, boxes 45, accepted 16, 2s
+  thyroid seed 131 random-1000: macro-F1 91.11, boxes 43, accepted 12, 0s
+  page_blocks seed 139 random-all: macro-F1 66.81, boxes 22, accepted 19, 2s
+  page_blocks seed 138 random-all: macro-F1 65.99, boxes 27, accepted 9, 3s
+  thyroid seed 131 random-all: macro-F1 91.11, boxes 43, accepted 12, 0s
+  page_blocks seed 135 greedy-300: macro-F1 69.32, boxes 26, accepted 14, 14s
+  thyroid seed 131 random-300-real: macro-F1 91.11, boxes 43, accepted 12, 0s
+  page_blocks seed 134 greedy-1000: macro-F1 54.39, boxes 23, accepted 15, 10s
+  thyroid seed 131 box-300: macro-F1 91.11, boxes 43, accepted 14, 0s
+  thyroid seed 132 B0: macro-F1 87.71, boxes 46, accepted nan, 0s
+  thyroid seed 131 box-1000: macro-F1 91.11, boxes 43, accepted 14, 0s
+  thyroid seed 130 greedy-1000: macro-F1 89.98, boxes 45, accepted 16, 2s
+  thyroid seed 132 random-300: macro-F1 92.60, boxes 45, accepted 14, 0s
+  thyroid seed 133 B0: macro-F1 88.38, boxes 42, accepted nan, 0s
+  page_blocks seed 139 random-300-real: macro-F1 66.81, boxes 22, accepted 19, 2s
+  thyroid seed 132 random-1000: macro-F1 92.60, boxes 45, accepted 14, 0s
+  thyroid seed 133 random-300: macro-F1 90.74, boxes 42, accepted 11, 0s
+  page_blocks seed 138 random-300-real: macro-F1 66.07, boxes 27, accepted 8, 3s
+  thyroid seed 132 random-all: macro-F1 92.60, boxes 45, accepted 14, 0s
+  thyroid seed 133 random-1000: macro-F1 90.74, boxes 42, accepted 11, 1s
+  thyroid seed 131 greedy-300: macro-F1 91.11, boxes 44, accepted 11, 2s
+  thyroid seed 132 random-300-real: macro-F1 92.60, boxes 45, accepted 14, 0s
+  thyroid seed 133 random-all: macro-F1 90.74, boxes 42, accepted 11, 1s
+  page_blocks seed 139 box-300: macro-F1 66.65, boxes 23, accepted 7, 2s
+  thyroid seed 132 box-300: macro-F1 92.60, boxes 45, accepted 13, 0s
+  thyroid seed 133 random-300-real: macro-F1 90.74, boxes 42, accepted 11, 0s
+  thyroid seed 132 box-1000: macro-F1 92.60, boxes 45, accepted 13, 0s
+  thyroid seed 133 box-300: macro-F1 90.74, boxes 42, accepted 11, 0s
+  thyroid seed 131 greedy-1000: macro-F1 91.11, boxes 44, accepted 11, 2s
+  thyroid seed 134 B0: macro-F1 67.77, boxes 43, accepted nan, 0s
+  thyroid seed 133 box-1000: macro-F1 90.74, boxes 42, accepted 11, 1s
+  thyroid seed 134 random-300: macro-F1 92.39, boxes 43, accepted 14, 0s
+  page_blocks seed 138 box-300: macro-F1 65.25, boxes 27, accepted 1, 3s
+  page_blocks seed 139 box-1000: macro-F1 67.33, boxes 22, accepted 19, 2s
+  thyroid seed 134 random-1000: macro-F1 92.39, boxes 43, accepted 14, 0s
+  thyroid seed 132 greedy-300: macro-F1 92.60, boxes 45, accepted 12, 2s
+  thyroid seed 134 random-all: macro-F1 92.39, boxes 43, accepted 14, 0s
+  thyroid seed 134 random-300-real: macro-F1 92.39, boxes 43, accepted 14, 0s
+  thyroid seed 133 greedy-300: macro-F1 91.29, boxes 41, accepted 11, 2s
+  thyroid seed 134 box-300: macro-F1 92.39, boxes 43, accepted 13, 0s
+  thyroid seed 134 box-1000: macro-F1 92.39, boxes 43, accepted 13, 0s
+  thyroid seed 132 greedy-1000: macro-F1 92.60, boxes 45, accepted 12, 2s
+  thyroid seed 135 B0: macro-F1 87.53, boxes 53, accepted nan, 0s
+  thyroid seed 135 random-300: macro-F1 93.56, boxes 53, accepted 14, 0s
+  page_blocks seed 138 box-1000: macro-F1 64.21, boxes 27, accepted 8, 4s
+  thyroid seed 133 greedy-1000: macro-F1 91.29, boxes 41, accepted 11, 2s
+  thyroid seed 135 random-1000: macro-F1 93.56, boxes 53, accepted 14, 0s
+  thyroid seed 136 B0: macro-F1 83.09, boxes 43, accepted nan, 0s
+  thyroid seed 135 random-all: macro-F1 93.56, boxes 53, accepted 14, 0s
+  thyroid seed 136 random-300: macro-F1 90.01, boxes 42, accepted 15, 0s
+  thyroid seed 135 random-300-real: macro-F1 93.56, boxes 53, accepted 14, 0s
+  thyroid seed 136 random-1000: macro-F1 90.01, boxes 42, accepted 15, 0s
+  thyroid seed 135 box-300: macro-F1 93.11, boxes 52, accepted 14, 0s
+  thyroid seed 134 greedy-300: macro-F1 92.39, boxes 43, accepted 13, 3s
+  thyroid seed 136 random-all: macro-F1 90.01, boxes 42, accepted 15, 0s
+  thyroid seed 135 box-1000: macro-F1 93.11, boxes 52, accepted 14, 0s
+  thyroid seed 136 random-300-real: macro-F1 90.01, boxes 42, accepted 15, 0s
+  thyroid seed 136 box-300: macro-F1 91.15, boxes 42, accepted 15, 0s
+  thyroid seed 136 box-1000: macro-F1 91.15, boxes 42, accepted 15, 0s
+  page_blocks seed 136 greedy-300: macro-F1 53.53, boxes 23, accepted 11, 19s
+  thyroid seed 135 greedy-300: macro-F1 93.56, boxes 53, accepted 13, 2s
+  thyroid seed 134 greedy-1000: macro-F1 92.39, boxes 43, accepted 13, 3s
+  thyroid seed 137 B0: macro-F1 86.91, boxes 51, accepted nan, 0s
+  page_blocks seed 135 greedy-1000: macro-F1 69.32, boxes 26, accepted 14, 14s
+  thyroid seed 137 random-300: macro-F1 90.36, boxes 49, accepted 13, 0s
+  page_blocks seed 137 greedy-300: macro-F1 71.26, boxes 21, accepted 15, 17s
+  thyroid seed 138 B0: macro-F1 78.49, boxes 45, accepted nan, 0s
+  thyroid seed 136 greedy-300: macro-F1 91.15, boxes 42, accepted 15, 2s
+  thyroid seed 137 random-1000: macro-F1 90.36, boxes 49, accepted 13, 0s
+  thyroid seed 135 greedy-1000: macro-F1 93.56, boxes 53, accepted 13, 2s
+  thyroid seed 138 random-300: macro-F1 89.37, boxes 45, accepted 11, 0s
+  thyroid seed 139 B0: macro-F1 86.93, boxes 42, accepted nan, 0s
+  thyroid seed 138 random-1000: macro-F1 89.37, boxes 45, accepted 11, 0s
+  thyroid seed 137 random-all: macro-F1 90.36, boxes 49, accepted 13, 0s
+  thyroid seed 138 random-all: macro-F1 89.37, boxes 45, accepted 11, 0s
+  thyroid seed 137 random-300-real: macro-F1 90.36, boxes 49, accepted 13, 0s
+  thyroid seed 139 random-300: macro-F1 92.80, boxes 41, accepted 12, 1s
+  thyroid seed 138 random-300-real: macro-F1 89.37, boxes 45, accepted 11, 0s
+  thyroid seed 137 box-300: macro-F1 90.36, boxes 50, accepted 12, 0s
+  thyroid seed 139 random-1000: macro-F1 92.80, boxes 41, accepted 12, 1s
+  thyroid seed 138 box-300: macro-F1 81.17, boxes 45, accepted 11, 1s
+  thyroid seed 137 box-1000: macro-F1 90.36, boxes 50, accepted 12, 0s
+  thyroid seed 136 greedy-1000: macro-F1 91.15, boxes 42, accepted 15, 2s
+  thyroid seed 139 random-all: macro-F1 92.80, boxes 41, accepted 12, 1s
+  thyroid seed 138 box-1000: macro-F1 81.17, boxes 45, accepted 11, 1s
+  thyroid seed 139 random-300-real: macro-F1 92.80, boxes 41, accepted 12, 1s
+  thyroid seed 139 box-300: macro-F1 92.80, boxes 41, accepted 11, 1s
+  thyroid seed 137 greedy-300: macro-F1 90.36, boxes 49, accepted 13, 2s
+  thyroid seed 138 greedy-300: macro-F1 89.37, boxes 45, accepted 11, 2s
+  thyroid seed 139 box-1000: macro-F1 92.80, boxes 41, accepted 11, 1s
+  page_blocks seed 139 greedy-300: macro-F1 66.81, boxes 22, accepted 18, 14s
+  thyroid seed 138 greedy-1000: macro-F1 89.37, boxes 45, accepted 11, 2s
+  thyroid seed 137 greedy-1000: macro-F1 90.36, boxes 49, accepted 13, 2s
+  thyroid seed 139 greedy-300: macro-F1 93.33, boxes 41, accepted 11, 2s
+  thyroid seed 139 greedy-1000: macro-F1 93.33, boxes 41, accepted 11, 2s
+  magic seed 139 greedy-300: macro-F1 78.63, boxes 236, accepted 300, 211s
+  page_blocks seed 137 greedy-1000: macro-F1 71.26, boxes 21, accepted 15, 13s
+  page_blocks seed 136 greedy-1000: macro-F1 53.53, boxes 23, accepted 11, 15s
+  page_blocks seed 139 greedy-1000: macro-F1 66.81, boxes 22, accepted 18, 10s
+  page_blocks seed 138 greedy-300: macro-F1 66.24, boxes 27, accepted 7, 20s
+  page_blocks seed 138 greedy-1000: macro-F1 66.24, boxes 27, accepted 7, 12s
+  magic seed 137 greedy-1000: macro-F1 74.43, boxes 221, accepted 996, 153s
+  magic seed 138 greedy-1000: macro-F1 77.58, boxes 207, accepted 950, 145s
+  magic seed 139 greedy-1000: macro-F1 75.51, boxes 231, accepted 910, 88s
+  skin seed 136 greedy-1000: macro-F1 96.77, boxes 81, accepted 121, 1272s
+# Run H: the order of training errors in self-repair
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). Run A's split and SR arm, seeds 130–139 (10), cached gate. Each comparison: paired two-sided Wilcoxon over seeds, Holm across datasets; better / level / worse for the first arm. Written by `scripts/run_repair_order.py`.
+
+## Primary: greedy-300 vs random-300, test macro-F1
+
+**greedy-300 vs random-300**: better 2, level 3, worse 1
+
+| Dataset | Mean difference (points) | p | Holm p | Verdict |
+|---|---|---|---|---|
+| thyroid | +0.22 | 0.2500 | 0.5000 | level |
+| skin | -1.08 | 0.0059 | 0.0234 | worse |
+| magic | +4.87 | 0.0020 | 0.0117 | better |
+| letter | +2.98 | 0.0020 | 0.0117 | better |
+| landsat | +0.43 | 0.0840 | 0.2520 | level |
+| page_blocks | +0.29 | 0.3750 | 0.5000 | level |
+
+## Secondary comparisons, test macro-F1
+
+**box-300 vs random-300**: better 0, level 4, worse 2
+
+| Dataset | Mean difference (points) | p | Holm p | Verdict |
+|---|---|---|---|---|
+| thyroid | -0.75 | 0.7500 | 1.0000 | level |
+| skin | -2.57 | 0.0020 | 0.0117 | worse |
+| magic | -0.60 | 0.1309 | 0.5234 | level |
+| letter | -0.64 | 0.0059 | 0.0293 | worse |
+| landsat | +0.01 | 0.9219 | 1.0000 | level |
+| page_blocks | -0.47 | 0.9219 | 1.0000 | level |
+
+**greedy-300 vs random-all**: better 1, level 5, worse 0
+
+| Dataset | Mean difference (points) | p | Holm p | Verdict |
+|---|---|---|---|---|
+| thyroid | +0.22 | 0.2500 | 0.7500 | level |
+| skin | -0.16 | 0.6250 | 1.0000 | level |
+| magic | +7.97 | 0.0020 | 0.0117 | better |
+| letter | +0.79 | 0.0137 | 0.0684 | level |
+| landsat | +0.44 | 0.0840 | 0.3359 | level |
+| page_blocks | +0.14 | 0.5703 | 1.0000 | level |
+
+**greedy-1000 vs random-1000**: better 2, level 4, worse 0
+
+| Dataset | Mean difference (points) | p | Holm p | Verdict |
+|---|---|---|---|---|
+| thyroid | +0.22 | 0.2500 | 0.5000 | level |
+| skin | -0.98 | 0.0371 | 0.1484 | level |
+| magic | +2.53 | 0.0059 | 0.0293 | better |
+| letter | +1.58 | 0.0020 | 0.0117 | better |
+| landsat | +0.42 | 0.0840 | 0.2520 | level |
+| page_blocks | +0.14 | 0.5703 | 0.5703 | level |
+
+**box-1000 vs random-1000**: better 0, level 6, worse 0
+
+| Dataset | Mean difference (points) | p | Holm p | Verdict |
+|---|---|---|---|---|
+| thyroid | -0.75 | 0.7500 | 1.0000 | level |
+| skin | -2.34 | 0.0098 | 0.0586 | level |
+| magic | +1.43 | 0.0195 | 0.0977 | level |
+| letter | -0.46 | 0.1934 | 0.7734 | level |
+| landsat | +0.04 | 0.8457 | 1.0000 | level |
+| page_blocks | -0.66 | 0.4922 | 1.0000 | level |
+
+**greedy-300 vs box-300**: better 2, level 4, worse 0
+
+| Dataset | Mean difference (points) | p | Holm p | Verdict |
+|---|---|---|---|---|
+| thyroid | +0.97 | 0.1250 | 0.3164 | level |
+| skin | +1.49 | 0.0645 | 0.2578 | level |
+| magic | +5.47 | 0.0020 | 0.0117 | better |
+| letter | +3.62 | 0.0020 | 0.0117 | better |
+| landsat | +0.41 | 0.1055 | 0.3164 | level |
+| page_blocks | +0.75 | 0.3594 | 0.3594 | level |
+
+## Amendment 1: greedy-300 vs random-300-real, test macro-F1
+
+**greedy-300 vs random-300-real**: better 2, level 4, worse 0
+
+| Dataset | Mean difference (points) | p | Holm p | Verdict |
+|---|---|---|---|---|
+| thyroid | +0.22 | 0.2500 | 0.7500 | level |
+| skin | -0.16 | 0.6250 | 1.0000 | level |
+| magic | +4.65 | 0.0020 | 0.0117 | better |
+| letter | +2.67 | 0.0020 | 0.0117 | better |
+| landsat | +0.44 | 0.0840 | 0.3359 | level |
+| page_blocks | +0.13 | 0.5703 | 1.0000 | level |
+
+## Amendment 1: how to read the primary verdict
+
+| Dataset | Primary | Against random-300-real | Reading |
+|---|---|---|---|
+| thyroid | level | level | level (against real tries: level) |
+| skin | worse | level | worse (against real tries: level) |
+| magic | better | better | a better order |
+| letter | better | better | a better order |
+| landsat | level | level | level (against real tries: level) |
+| page_blocks | level | level | level (against real tries: level) |
+
+## Amendment 1, efficiency: greedy-300 vs random-all, seconds
+
+**greedy-300 vs random-all** (seconds): slower 6
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| thyroid | +1.5 | 0.0020 | 0.0117 | slower |
+| skin | +1133.3 | 0.0020 | 0.0117 | slower |
+| magic | +224.3 | 0.0020 | 0.0117 | slower |
+| letter | +376.9 | 0.0020 | 0.0117 | slower |
+| landsat | +15.8 | 0.0020 | 0.0117 | slower |
+| page_blocks | +11.8 | 0.0020 | 0.0117 | slower |
+
+## Amendment 1, efficiency: greedy-300 vs random-all, edits_gated
+
+**greedy-300 vs random-all** (edits_gated): level 4, fewer 2
+
+| Dataset | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|
+| thyroid | -3.6 | 0.0156 | 0.0625 | level |
+| skin | -3.6 | 0.7695 | 1.0000 | level |
+| magic | -525.6 | 0.0020 | 0.0117 | fewer |
+| letter | -961.3 | 0.0020 | 0.0117 | fewer |
+| landsat | -0.2 | 0.7695 | 1.0000 | level |
+| page_blocks | -2.0 | 0.6973 | 1.0000 | level |
+
+## Test macro-F1 (%), mean over seeds
+
+| Dataset | B0 | random-300 | random-1000 | random-all | random-300-real | box-300 | box-1000 | greedy-300 | greedy-1000 |
+|---|---|---|---|---|---|---|---|---|---|
+| thyroid | 84.29 | 91.29 | 91.29 | 91.29 | 91.29 | 90.54 | 90.54 | 91.51 | 91.51 |
+| landsat | 82.78 | 84.23 | 84.22 | 84.22 | 84.22 | 84.25 | 84.26 | 84.66 | 84.64 |
+| page_blocks | 62.57 | 65.50 | 65.64 | 65.64 | 65.65 | 65.03 | 64.99 | 65.79 | 65.79 |
+| magic | 71.30 | 74.67 | 73.51 | 71.57 | 74.88 | 74.07 | 74.94 | 79.54 | 76.03 |
+| letter | 73.75 | 76.05 | 77.44 | 78.25 | 76.36 | 75.41 | 76.98 | 79.03 | 79.02 |
+| skin | 93.20 | 98.88 | 98.75 | 97.96 | 97.96 | 96.31 | 96.40 | 97.80 | 97.77 |
+
+## Test accuracy (%), mean over seeds
+
+| Dataset | B0 | random-300 | random-1000 | random-all | random-300-real | box-300 | box-1000 | greedy-300 | greedy-1000 |
+|---|---|---|---|---|---|---|---|---|---|
+| thyroid | 96.89 | 98.19 | 98.19 | 98.19 | 98.19 | 98.06 | 98.06 | 98.25 | 98.25 |
+| landsat | 85.53 | 86.52 | 86.51 | 86.51 | 86.51 | 86.60 | 86.61 | 86.94 | 86.91 |
+| page_blocks | 88.65 | 90.24 | 90.46 | 90.46 | 90.47 | 90.53 | 90.42 | 91.04 | 91.04 |
+| magic | 72.58 | 76.88 | 75.67 | 73.48 | 77.11 | 75.86 | 77.54 | 82.00 | 78.30 |
+| letter | 73.97 | 76.20 | 77.56 | 78.37 | 76.52 | 75.61 | 77.16 | 79.15 | 79.12 |
+| skin | 95.89 | 99.27 | 99.18 | 98.68 | 98.68 | 97.66 | 97.73 | 98.59 | 98.57 |
+
+## Lowest class recall (%), mean over seeds
+
+| Dataset | B0 | random-300 | random-1000 | random-all | random-300-real | box-300 | box-1000 | greedy-300 | greedy-1000 |
+|---|---|---|---|---|---|---|---|---|---|
+| thyroid | 60.15 | 82.65 | 82.65 | 82.65 | 82.65 | 80.43 | 80.43 | 83.58 | 83.58 |
+| landsat | 48.14 | 56.16 | 56.16 | 56.16 | 56.16 | 55.83 | 55.83 | 56.63 | 56.63 |
+| page_blocks | 34.24 | 39.85 | 39.85 | 39.85 | 39.85 | 36.36 | 37.88 | 38.18 | 38.18 |
+| magic | 70.50 | 67.45 | 67.10 | 67.78 | 67.31 | 70.12 | 64.50 | 67.36 | 67.69 |
+| letter | 47.74 | 53.76 | 55.56 | 56.02 | 54.02 | 50.70 | 53.66 | 57.92 | 57.91 |
+| skin | 81.85 | 97.86 | 97.30 | 94.74 | 94.74 | 90.56 | 90.73 | 93.95 | 93.80 |
+
+## Training error at the end (%), mean over seeds
+
+| Dataset | B0 | random-300 | random-1000 | random-all | random-300-real | box-300 | box-1000 | greedy-300 | greedy-1000 |
+|---|---|---|---|---|---|---|---|---|---|
+| thyroid | 1.88 | 0.39 | 0.39 | 0.39 | 0.39 | 0.45 | 0.45 | 0.39 | 0.39 |
+| landsat | 8.63 | 6.12 | 6.13 | 6.13 | 6.13 | 6.27 | 6.23 | 5.68 | 5.74 |
+| page_blocks | 10.65 | 8.41 | 8.30 | 8.30 | 8.31 | 8.36 | 8.34 | 8.01 | 8.01 |
+| magic | 25.20 | 20.14 | 21.19 | 23.20 | 20.09 | 21.77 | 20.10 | 12.10 | 18.59 |
+| letter | 21.08 | 17.27 | 14.62 | 13.39 | 16.87 | 18.76 | 15.84 | 11.06 | 12.01 |
+| skin | 4.07 | 0.71 | 0.80 | 1.30 | 1.30 | 2.33 | 2.26 | 1.41 | 1.44 |
+
+## Edits that reached the gate, mean over seeds
+
+| Dataset | B0 | random-300 | random-1000 | random-all | random-300-real | box-300 | box-1000 | greedy-300 | greedy-1000 |
+|---|---|---|---|---|---|---|---|---|---|
+| thyroid |  | 24 | 24 | 24 | 24 | 24 | 24 | 20 | 20 |
+| landsat |  | 187 | 188 | 188 | 188 | 181 | 183 | 188 | 189 |
+| page_blocks |  | 174 | 201 | 201 | 195 | 176 | 214 | 199 | 204 |
+| magic |  | 191 | 471 | 826 | 300 | 44 | 190 | 300 | 960 |
+| letter |  | 254 | 698 | 1261 | 300 | 159 | 578 | 300 | 1000 |
+| skin |  | 39 | 71 | 146 | 146 | 8 | 13 | 143 | 144 |
+
+## Edits accepted, mean over seeds
+
+| Dataset | B0 | random-300 | random-1000 | random-all | random-300-real | box-300 | box-1000 | greedy-300 | greedy-1000 |
+|---|---|---|---|---|---|---|---|---|---|
+| thyroid |  | 13 | 13 | 13 | 13 | 13 | 13 | 13 | 13 |
+| landsat |  | 165 | 166 | 166 | 166 | 161 | 163 | 172 | 173 |
+| page_blocks |  | 14 | 15 | 15 | 15 | 9 | 13 | 12 | 12 |
+| magic |  | 188 | 465 | 815 | 296 | 43 | 187 | 300 | 958 |
+| letter |  | 200 | 520 | 906 | 233 | 89 | 368 | 300 | 921 |
+| skin |  | 34 | 57 | 102 | 102 | 8 | 13 | 111 | 110 |
+
+## Tries skipped: already right, mean over seeds
+
+| Dataset | B0 | random-300 | random-1000 | random-all | random-300-real | box-300 | box-1000 | greedy-300 | greedy-1000 |
+|---|---|---|---|---|---|---|---|---|---|
+| thyroid |  | 44 | 44 | 44 | 44 | 43 | 43 | 47 | 47 |
+| landsat |  | 86 | 86 | 86 | 86 | 93 | 93 | 84 | 85 |
+| page_blocks |  | 71 | 90 | 90 | 90 | 70 | 78 | 46 | 87 |
+| magic |  | 108 | 500 | 1374 | 241 | 256 | 806 | 0 | 36 |
+| letter |  | 45 | 293 | 802 | 60 | 140 | 417 | 0 | 0 |
+| skin |  | 260 | 913 | 4731 | 4731 | 292 | 987 | 152 | 835 |
+
+## Test predictions fixed against B0, mean over seeds
+
+| Dataset | B0 | random-300 | random-1000 | random-all | random-300-real | box-300 | box-1000 | greedy-300 | greedy-1000 |
+|---|---|---|---|---|---|---|---|---|---|
+| thyroid | 0.0 | 10.6 | 10.6 | 10.6 | 10.6 | 9.8 | 9.8 | 11.0 | 11.0 |
+| landsat | 0.0 | 21.8 | 21.7 | 21.7 | 21.7 | 20.7 | 20.8 | 23.1 | 22.9 |
+| page_blocks | 0.0 | 19.2 | 20.6 | 20.6 | 20.6 | 15.6 | 18.0 | 17.6 | 17.6 |
+| magic | 0.0 | 231.5 | 287.5 | 301.6 | 266.2 | 109.4 | 231.2 | 282.2 | 325.4 |
+| letter | 0.0 | 93.8 | 145.7 | 180.1 | 102.9 | 54.7 | 127.0 | 150.0 | 189.4 |
+| skin | 0.0 | 940.6 | 953.1 | 961.6 | 961.6 | 450.2 | 476.4 | 961.7 | 970.5 |
+
+## Test predictions broken against B0, mean over seeds
+
+| Dataset | B0 | random-300 | random-1000 | random-all | random-300-real | box-300 | box-1000 | greedy-300 | greedy-1000 |
+|---|---|---|---|---|---|---|---|---|---|
+| thyroid | 0.0 | 1.2 | 1.2 | 1.2 | 1.2 | 1.4 | 1.4 | 1.2 | 1.2 |
+| landsat | 0.0 | 15.4 | 15.4 | 15.4 | 15.4 | 13.8 | 13.8 | 14.0 | 14.0 |
+| page_blocks | 0.0 | 10.5 | 10.7 | 10.7 | 10.6 | 5.3 | 8.3 | 4.5 | 4.5 |
+| magic | 0.0 | 149.7 | 228.7 | 284.5 | 179.9 | 47.0 | 136.8 | 103.0 | 216.5 |
+| letter | 0.0 | 49.1 | 73.9 | 92.1 | 52.0 | 21.9 | 63.2 | 46.4 | 86.4 |
+| skin | 0.0 | 113.5 | 147.3 | 278.6 | 278.6 | 16.3 | 27.3 | 300.9 | 314.7 |
+
+## Trial edits scored (greedy only), mean over seeds
+
+| Dataset | B0 | random-300 | random-1000 | random-all | random-300-real | box-300 | box-1000 | greedy-300 | greedy-1000 |
+|---|---|---|---|---|---|---|---|---|---|
+| thyroid |  | 0 | 0 | 0 | 0 | 0 | 0 | 124 | 124 |
+| landsat |  | 0 | 0 | 0 | 0 | 0 | 0 | 1066 | 1062 |
+| page_blocks |  | 0 | 0 | 0 | 0 | 0 | 0 | 1190 | 1094 |
+| magic |  | 0 | 0 | 0 | 0 | 0 | 0 | 10898 | 8611 |
+| letter |  | 0 | 0 | 0 | 0 | 0 | 0 | 13679 | 10300 |
+| skin |  | 0 | 0 | 0 | 0 | 0 | 0 | 6568 | 6007 |
+
+## Seconds, mean over seeds
+
+| Dataset | B0 | random-300 | random-1000 | random-all | random-300-real | box-300 | box-1000 | greedy-300 | greedy-1000 |
+|---|---|---|---|---|---|---|---|---|---|
+| thyroid | 0.0 | 0.4 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 2.0 | 1.9 |
+| landsat | 0.0 | 3.3 | 3.3 | 3.3 | 3.3 | 3.2 | 3.3 | 19.1 | 18.9 |
+| page_blocks | 0.0 | 1.9 | 2.2 | 2.2 | 2.1 | 1.9 | 2.3 | 14.0 | 11.6 |
+| magic | 0.0 | 5.2 | 10.5 | 16.8 | 7.4 | 2.4 | 5.5 | 241.2 | 181.0 |
+| letter | 0.0 | 11.8 | 25.5 | 42.8 | 13.0 | 9.4 | 22.7 | 419.7 | 348.0 |
+| skin | 0.0 | 8.8 | 14.2 | 26.6 | 26.2 | 4.4 | 5.2 | 1159.9 | 994.2 |
+
+## Training errors at the start (mean over seeds)
+
+| thyroid | landsat | page_blocks | magic | letter | skin |
+|---|---|---|---|---|---|
+| 68 | 278 | 291 | 2396 | 2108 | 4992 |
+
+

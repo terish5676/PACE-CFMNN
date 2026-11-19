@@ -1,0 +1,4 @@
+Pilot tasks finished: 30
+Pilot hours per dataset (all families, one seed): landsat 0.33, letter 3.06, magic 2.05, page_blocks 0.06, skin 2.41, thyroid 0.11
+Projected study: 13.4 h with 6 jobs (estimate).
+Rule (PREREGISTRATION.md): at most 24 h, so Skin runs in full.

@@ -1,0 +1,145 @@
+
+====================================================================================================
+Run H: completeness
+====================================================================================================
+OK  rows: 540
+OK  seeds: [130, 131, 132, 133, 134, 135, 136, 137, 138, 139]
+OK  arms per dataset and seed: 9
+
+====================================================================================================
+Run H primary: greedy-300 vs random-300, macro-F1
+====================================================================================================
+greedy-300 vs random-300 (test_macro_f1):
+                   a        b    diff       p  p_holm verdict
+unit                                                         
+thyroid      91.5138  91.2917  0.2221  0.2500  0.5000   level
+landsat      84.6604  84.2333  0.4272  0.0840  0.2520   level
+page_blocks  65.7861  65.5002  0.2859  0.3750  0.5000   level
+magic        79.5366  74.6696  4.8670  0.0020  0.0117  better
+letter       79.0325  76.0537  2.9789  0.0020  0.0117  better
+skin         97.8007  98.8832 -1.0825  0.0059  0.0234   worse
+OK  better / worse: {'better': ['letter', 'magic'], 'worse': ['skin']}
+OK  MAGIC, Letter, Skin differences: [4.9, 3.0, -1.1]
+
+====================================================================================================
+Run H amendment A1: greedy-300 vs random-300-real, macro-F1
+====================================================================================================
+greedy-300 vs random-300-real (test_macro_f1):
+                   a        b    diff       p  p_holm verdict
+unit                                                         
+thyroid      91.5138  91.2917  0.2221  0.2500  0.7500   level
+landsat      84.6604  84.2207  0.4398  0.0840  0.3359   level
+page_blocks  65.7861  65.6531  0.1330  0.5703  1.0000   level
+magic        79.5366  74.8848  4.6519  0.0020  0.0117  better
+letter       79.0325  76.3628  2.6697  0.0020  0.0117  better
+skin         97.8007  97.9558 -0.1551  0.6250  1.0000   level
+OK  better / worse: {'better': ['letter', 'magic']}
+OK  MAGIC, Letter, Skin differences: [4.7, 2.7, -0.2]
+
+====================================================================================================
+Run H secondary: greedy-300 vs random-all, macro-F1
+====================================================================================================
+greedy-300 vs random-all (test_macro_f1):
+                   a        b    diff       p  p_holm verdict
+unit                                                         
+thyroid      91.5138  91.2917  0.2221  0.2500  0.7500   level
+landsat      84.6604  84.2207  0.4398  0.0840  0.3359   level
+page_blocks  65.7861  65.6449  0.1412  0.5703  1.0000   level
+magic        79.5366  71.5678  7.9689  0.0020  0.0117  better
+letter       79.0325  78.2460  0.7866  0.0137  0.0684   level
+skin         97.8007  97.9558 -0.1551  0.6250  1.0000   level
+OK  better / worse: {'better': ['magic']}
+OK  MAGIC difference: 8.0
+
+====================================================================================================
+Run H secondary: box order
+====================================================================================================
+box-300 vs random-300 (test_macro_f1):
+                   a        b    diff       p  p_holm verdict
+unit                                                         
+thyroid      90.5405  91.2917 -0.7512  0.7500  1.0000   level
+landsat      84.2463  84.2333  0.0130  0.9219  1.0000   level
+page_blocks  65.0329  65.5002 -0.4673  0.9219  1.0000   level
+magic        74.0702  74.6696 -0.5994  0.1309  0.5234   level
+letter       75.4130  76.0537 -0.6407  0.0059  0.0293   worse
+skin         96.3100  98.8832 -2.5732  0.0020  0.0117   worse
+OK  box-300 vs random-300: {'worse': ['letter', 'skin']}
+box-1000 vs random-1000 (test_macro_f1):
+                   a        b    diff       p  p_holm verdict
+unit                                                         
+thyroid      90.5405  91.2917 -0.7512  0.7500  1.0000   level
+landsat      84.2614  84.2207  0.0408  0.8457  1.0000   level
+page_blocks  64.9854  65.6449 -0.6595  0.4922  1.0000   level
+magic        74.9405  73.5095  1.4309  0.0195  0.0977   level
+letter       76.9828  77.4424 -0.4596  0.1934  0.7734   level
+skin         96.4033  98.7463 -2.3430  0.0098  0.0586   level
+OK  box-1000 vs random-1000: {}
+greedy-1000 vs random-1000 (test_macro_f1):
+                   a        b    diff       p  p_holm verdict
+unit                                                         
+thyroid      91.5138  91.2917  0.2221  0.2500  0.5000   level
+landsat      84.6406  84.2207  0.4199  0.0840  0.2520   level
+page_blocks  65.7861  65.6449  0.1412  0.5703  0.5703   level
+magic        76.0349  73.5095  2.5253  0.0059  0.0293  better
+letter       79.0189  77.4424  1.5765  0.0020  0.0117  better
+skin         97.7692  98.7463 -0.9771  0.0371  0.1484   level
+OK  greedy-1000 vs random-1000: {'better': ['letter', 'magic']}
+
+====================================================================================================
+Run H amendment E1 and E2: greedy-300 vs random-all, seconds and edits that reached the gate
+====================================================================================================
+greedy-300 vs random-all (seconds):
+                     a        b       diff      p  p_holm verdict
+unit                                                             
+thyroid         1.9608   0.4599     1.5008  0.002  0.0117   worse
+landsat        19.1236   3.2936    15.8300  0.002  0.0117   worse
+page_blocks    13.9876   2.1826    11.8050  0.002  0.0117   worse
+magic         241.1638  16.8487   224.3151  0.002  0.0117   worse
+letter        419.6569  42.7907   376.8662  0.002  0.0117   worse
+skin         1159.9013  26.5539  1133.3474  0.002  0.0117   worse
+OK  E1: slower on: ['landsat', 'letter', 'magic', 'page_blocks', 'skin', 'thyroid']
+greedy-300 vs random-all (edits_gated):
+                 a       b   diff       p  p_holm verdict
+unit                                                     
+thyroid       20.1    23.7   -3.6  0.0156  0.0625   level
+landsat      188.3   188.5   -0.2  0.7695  1.0000   level
+page_blocks  198.8   200.8   -2.0  0.6973  1.0000   level
+magic        300.0   825.6 -525.6  0.0020  0.0117  better
+letter       300.0  1261.3 -961.3  0.0020  0.0117  better
+skin         142.7   146.3   -3.6  0.7695  1.0000   level
+OK  E2: fewer on: ['letter', 'magic']
+OK  mean seconds, Skin: greedy-300, random-all, random-300: (1160, np.float64(26.6), np.float64(8.8))
+OK  mean seconds, MAGIC and Letter: greedy-300 against random-300: (241, np.float64(5.2), 420, np.float64(11.8))
+
+====================================================================================================
+Run H descriptive: tries wasted, and Skin
+====================================================================================================
+OK  random-300 tries that reached the gate on Skin: 39
+OK  Skin macro-F1: random-300, random-300-real, random-all: (np.float64(98.9), np.float64(98.0), np.float64(98.0))
+OK  training errors at the start, MAGIC, Letter, Skin: [2396, 2108, 4992]
+
+====================================================================================================
+Run T: time of each setup, seed 50, one task at a time
+====================================================================================================
+OK  rows: 30
+OK  every setup's macro-F1 equals RQ3's: True
+dataset          thyroid  landsat  page_blocks  magic  letter    skin
+setup                                                                
+AL                  6.75    16.10         3.92  31.09  103.02  142.02
+SR+AL               6.79    17.07         4.57  33.29  117.47  145.04
+SR, cached gate     0.20     1.44         0.82   2.15    4.68    2.52
+SR, old gate        0.80    25.63         1.96  48.57  210.62   12.49
+Train CFMNN         0.06     0.06         0.04   0.19    0.17    1.87
+OK  SR, cached gate (s): 0.2-4.7
+OK  train CFMNN (s): 0.04-1.9
+OK  AL (s): 3.9-142
+OK  AL as a multiple of SR, cached gate: 5-56
+OK  SR+AL (s) and multiple of SR: ('4.6-145', '5.5-57')
+OK  old gate as a multiple of the cached gate: 2-45
+
+====================================================================================================
+Numbers used in the paper's wording
+====================================================================================================
+OK  time saved by leaving out AL (% of SR+AL): 82-98%
+OK  tries on rows already right: random-300 on MAGIC and Skin; greedy-300 on MAGIC and Letter: (108, 260, 0, 0)
+OK  greedy-300 vs random-all: not significantly different on: 5

@@ -1,0 +1,91 @@
+
+====================================================================================================
+Completeness and setup
+====================================================================================================
+OK  rows: 20
+OK  timing rows: 9
+OK  seeds: [230, 231, 232, 233, 234]
+OK  timing seeds: [230, 231, 232]
+OK  features, points, explainer rows: ([54], [50], [200])
+OK  budget (model rows per explanation): [352000]
+OK  every method within the budget: True
+OK  no exact reference: [0]
+OK  boxes, range over seeds: (109, 121)
+
+====================================================================================================
+Means and standard deviations over seeds
+====================================================================================================
+                  margin_auc         insertion_margin_auc         stability_top3         rows_per_explanation           
+                        mean     std                 mean     std           mean     std                 mean        std
+method                                                                                                                  
+PACE-SHAP            -0.2151  0.0163               0.0568  0.0264         0.9800  0.0200           352000.000     0.0000
+PermutationSHAP      -0.2153  0.0171               0.0560  0.0265         0.9440  0.0167           114777.424  2887.6008
+KernelSHAP-paired    -0.2128  0.0171               0.0514  0.0248         0.9780  0.0130           351801.000     0.0000
+Random               -0.0930  0.0116              -0.1042  0.0241         0.0344  0.0161                0.000     0.0000
+OK  deletion margin AUC, means (3 dp): [-0.215, -0.215, -0.213, -0.093]
+OK  deletion margin AUC, means (4 dp): [-0.2151, -0.2153, -0.2128]
+OK  insertion margin AUC, means: [0.0568, 0.056, 0.0514]
+OK  top-3 stability, means: [0.98, 0.944, 0.978]
+OK  model rows per explanation, means: [352000.0, 114777.0, 351801.0]
+OK  PermutationSHAP's share of the budget (%): 32.6
+
+====================================================================================================
+Per seed, PACE-SHAP minus each baseline
+====================================================================================================
+deletion:
+      PermutationSHAP  KernelSHAP-paired
+seed                                    
+230           0.00237            0.00019
+231           0.00063            0.00063
+232           0.00137           -0.00281
+233          -0.00341           -0.00667
+234           0.00007           -0.00300
+  against PermutationSHAP: PACE-SHAP ahead on 1 seeds, behind on 4, level on 0; mean +0.00021; largest |difference| 0.0034
+  against KernelSHAP-paired: PACE-SHAP ahead on 3 seeds, behind on 2, level on 0; mean -0.00233; largest |difference| 0.0067
+OK  deletion: ahead/behind against PermutationSHAP: (1, 4)
+OK  deletion: ahead/behind against KernelSHAP-paired: (3, 2)
+OK  deletion: largest |difference| per seed: 0.0067
+OK  deletion: mean differences (PermutationSHAP, KernelSHAP-paired): [0.0002, -0.0023]
+insertion:
+      PermutationSHAP  KernelSHAP-paired
+seed                                    
+230           0.00148            0.00704
+231          -0.00061            0.00525
+232           0.00007            0.00337
+233           0.00233            0.01100
+234           0.00026           -0.00000
+  against PermutationSHAP: PACE-SHAP ahead on 4 seeds, behind on 1, level on 0; mean +0.00071; largest |difference| 0.0023
+  against KernelSHAP-paired: PACE-SHAP ahead on 4 seeds, behind on 0, level on 1; mean +0.00533; largest |difference| 0.0110
+OK  insertion: ahead/behind against PermutationSHAP: (4, 1)
+OK  insertion: ahead/behind/level against KernelSHAP-paired: (4, 0, 1)
+
+====================================================================================================
+Milliseconds per explanation, timed alone (seeds 230-232, 10 points each)
+====================================================================================================
+method
+KernelSHAP-paired    6028.7
+PACE-SHAP             433.6
+PermutationSHAP      1991.0 
+ method  KernelSHAP-paired  PACE-SHAP  PermutationSHAP
+seed                                                 
+230                 13.48        1.0             4.39
+231                 14.80        1.0             4.73
+232                 13.47        1.0             4.66
+OK  PACE-SHAP ms, mean: 434.0
+OK  times PACE-SHAP's (of the means): [4.6, 13.9]
+OK  per-seed ratio ranges: [(4.4, 4.7), (13.5, 14.8)]
+OK  during the run (5 jobs), PACE-SHAP ms: 979.0
+
+====================================================================================================
+For comparison: Run J's timing pass, times PACE-SHAP's (means per dataset)
+====================================================================================================
+               PermutationSHAP  KernelSHAP-paired
+dataset                                          
+breast_cancer             9.63               9.60
+landsat                   7.00               7.23
+letter                    4.87               5.86
+thyroid                   3.78               9.32
+wine                      9.37               7.79
+OK  Run J's range over its 5 datasets and both samplers: (3.8, 9.6)
+
+ALL OK

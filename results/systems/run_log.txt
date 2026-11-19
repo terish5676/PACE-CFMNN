@@ -1,0 +1,822 @@
+﻿0 of 110 dataset-seed pairs already done; 110 to run.
+shuttle seed 121: CFMNN + PACE-SHAP acc 99.7, lead +0.41, 27.75 ms; EBM + terms acc 99.9, lead +0.61, 0.02 ms; Tree + TreeSHAP acc 100.0, lead +0.51, 30.22 ms
+letter seed 120: CFMNN + PACE-SHAP acc 75.1, lead +0.73, 2303.32 ms; EBM + terms acc 88.8, lead +1.02, 0.05 ms; Tree + TreeSHAP acc 87.4, lead +0.99, 43.40 ms
+letter seed 122: CFMNN + PACE-SHAP acc 75.2, lead +0.89, 2409.32 ms; EBM + terms acc 87.8, lead +1.12, 0.03 ms; Tree + TreeSHAP acc 86.8, lead +1.15, 44.27 ms
+letter seed 125: CFMNN + PACE-SHAP acc 76.3, lead +0.76, 2313.05 ms; EBM + terms acc 87.7, lead +1.00, 0.05 ms; Tree + TreeSHAP acc 87.0, lead +0.97, 44.75 ms
+letter seed 126: CFMNN + PACE-SHAP acc 75.3, lead +0.83, 2435.41 ms; EBM + terms acc 87.7, lead +0.99, 0.05 ms; Tree + TreeSHAP acc 86.2, lead +1.19, 41.39 ms
+letter seed 121: CFMNN + PACE-SHAP acc 75.7, lead +0.87, 2463.00 ms; EBM + terms acc 87.4, lead +0.97, 0.05 ms; Tree + TreeSHAP acc 86.8, lead +0.87, 38.15 ms
+letter seed 129: CFMNN + PACE-SHAP acc 76.2, lead +0.78, 2402.25 ms; EBM + terms acc 87.9, lead +0.97, 0.03 ms; Tree + TreeSHAP acc 86.6, lead +1.12, 38.54 ms
+letter seed 128: CFMNN + PACE-SHAP acc 75.4, lead +0.70, 2475.75 ms; EBM + terms acc 87.7, lead +0.99, 0.05 ms; Tree + TreeSHAP acc 85.8, lead +0.85, 42.05 ms
+letter seed 123: CFMNN + PACE-SHAP acc 75.4, lead +1.07, 2412.55 ms; EBM + terms acc 87.3, lead +1.16, 0.05 ms; Tree + TreeSHAP acc 87.0, lead +1.18, 40.37 ms
+letter seed 127: CFMNN + PACE-SHAP acc 75.0, lead +0.68, 2310.73 ms; EBM + terms acc 87.9, lead +1.10, 0.05 ms; Tree + TreeSHAP acc 87.9, lead +1.06, 40.87 ms
+letter seed 124: CFMNN + PACE-SHAP acc 76.3, lead +0.64, 2456.70 ms; EBM + terms acc 87.8, lead +0.94, 0.04 ms; Tree + TreeSHAP acc 85.4, lead +0.99, 43.89 ms
+shuttle seed 124: CFMNN + PACE-SHAP acc 99.8, lead +0.30, 21.80 ms; EBM + terms acc 100.0, lead +0.49, 0.01 ms; Tree + TreeSHAP acc 100.0, lead +0.41, 0.21 ms
+shuttle seed 127: CFMNN + PACE-SHAP acc 99.8, lead +0.34, 18.56 ms; EBM + terms acc 100.0, lead +0.62, 0.01 ms; Tree + TreeSHAP acc 100.0, lead +0.53, 0.35 ms
+S1 seed 121: CFMNN + PACE-SHAP acc 90.3, lead +1.62, 5637.37 ms; EBM + terms acc 100.0, lead +1.46, 0.02 ms; Tree + TreeSHAP acc 97.0, lead +1.35, 0.15 ms
+S1 seed 122: CFMNN + PACE-SHAP acc 88.9, lead +1.27, 5630.94 ms; EBM + terms acc 100.0, lead +1.14, 0.01 ms; Tree + TreeSHAP acc 97.9, lead +1.14, 0.19 ms
+S1 seed 120: CFMNN + PACE-SHAP acc 88.5, lead +1.79, 5606.79 ms; EBM + terms acc 100.0, lead +1.55, 0.02 ms; Tree + TreeSHAP acc 96.2, lead +1.40, 0.13 ms
+S1 seed 123: CFMNN + PACE-SHAP acc 91.5, lead +1.25, 5074.41 ms; EBM + terms acc 99.7, lead +1.19, 0.02 ms; Tree + TreeSHAP acc 95.5, lead +1.02, 0.10 ms
+S1 seed 124: CFMNN + PACE-SHAP acc 89.0, lead +1.36, 4759.68 ms; EBM + terms acc 100.0, lead +1.24, 0.02 ms; Tree + TreeSHAP acc 97.3, lead +1.07, 0.10 ms
+S1 seed 125: CFMNN + PACE-SHAP acc 88.4, lead +1.67, 5236.58 ms; EBM + terms acc 100.0, lead +1.23, 0.03 ms; Tree + TreeSHAP acc 98.1, lead +1.20, 0.15 ms
+S1 seed 126: CFMNN + PACE-SHAP acc 89.3, lead +1.50, 5279.70 ms; EBM + terms acc 100.0, lead +1.37, 0.02 ms; Tree + TreeSHAP acc 97.5, lead +1.27, 0.13 ms
+S1 seed 127: CFMNN + PACE-SHAP acc 90.6, lead +1.54, 5346.90 ms; EBM + terms acc 100.0, lead +1.43, 0.03 ms; Tree + TreeSHAP acc 97.3, lead +1.43, 0.18 ms
+shuttle seed 126: CFMNN + PACE-SHAP acc 99.8, lead +0.18, 18.01 ms; EBM + terms acc 99.9, lead +0.42, 0.02 ms; Tree + TreeSHAP acc 100.0, lead +0.33, 0.34 ms
+S1 seed 128: CFMNN + PACE-SHAP acc 88.8, lead +1.57, 5143.06 ms; EBM + terms acc 99.9, lead +1.32, 0.02 ms; Tree + TreeSHAP acc 97.4, lead +1.23, 0.15 ms
+S1 seed 129: CFMNN + PACE-SHAP acc 88.6, lead +1.58, 4761.75 ms; EBM + terms acc 100.0, lead +1.32, 0.03 ms; Tree + TreeSHAP acc 97.2, lead +1.27, 0.20 ms
+shuttle seed 125: CFMNN + PACE-SHAP acc 99.8, lead +0.33, 17.85 ms; EBM + terms acc 99.9, lead +0.49, 0.04 ms; Tree + TreeSHAP acc 100.0, lead +0.48, 0.26 ms
+shuttle seed 120: CFMNN + PACE-SHAP acc 99.8, lead +0.28, 33.69 ms; EBM + terms acc 99.9, lead +0.53, 0.03 ms; Tree + TreeSHAP acc 100.0, lead +0.44, 30.44 ms
+shuttle seed 129: CFMNN + PACE-SHAP acc 99.8, lead +0.37, 18.99 ms; EBM + terms acc 100.0, lead +0.53, 0.04 ms; Tree + TreeSHAP acc 100.0, lead +0.58, 0.26 ms
+S2 seed 120: CFMNN + PACE-SHAP acc 80.0, lead +1.26, 5566.33 ms; EBM + terms acc 89.9, lead +1.42, 0.02 ms; Tree + TreeSHAP acc 87.5, lead +1.42, 0.10 ms
+S2 seed 122: CFMNN + PACE-SHAP acc 80.9, lead +1.29, 5749.59 ms; EBM + terms acc 90.8, lead +1.14, 0.03 ms; Tree + TreeSHAP acc 88.2, lead +1.11, 0.15 ms
+S2 seed 121: CFMNN + PACE-SHAP acc 79.8, lead +1.76, 5699.51 ms; EBM + terms acc 90.4, lead +1.62, 0.02 ms; Tree + TreeSHAP acc 89.0, lead +1.36, 0.10 ms
+S2 seed 123: CFMNN + PACE-SHAP acc 78.9, lead +2.48, 6224.42 ms; EBM + terms acc 90.4, lead +1.76, 0.03 ms; Tree + TreeSHAP acc 88.2, lead +1.68, 0.15 ms
+S2 seed 124: CFMNN + PACE-SHAP acc 81.0, lead +1.76, 6208.09 ms; EBM + terms acc 90.0, lead +1.48, 0.02 ms; Tree + TreeSHAP acc 86.7, lead +1.33, 0.10 ms
+S2 seed 125: CFMNN + PACE-SHAP acc 80.6, lead +1.74, 6354.58 ms; EBM + terms acc 90.6, lead +1.29, 0.02 ms; Tree + TreeSHAP acc 87.8, lead +1.21, 0.13 ms
+S2 seed 126: CFMNN + PACE-SHAP acc 79.4, lead +1.52, 6298.19 ms; EBM + terms acc 91.9, lead +1.29, 0.03 ms; Tree + TreeSHAP acc 89.0, lead +1.23, 0.12 ms
+S2 seed 127: CFMNN + PACE-SHAP acc 82.0, lead +1.71, 6250.10 ms; EBM + terms acc 90.3, lead +1.49, 0.04 ms; Tree + TreeSHAP acc 87.7, lead +1.42, 0.12 ms
+S2 seed 128: CFMNN + PACE-SHAP acc 80.0, lead +1.22, 6360.71 ms; EBM + terms acc 91.1, lead +1.16, 0.03 ms; Tree + TreeSHAP acc 90.2, lead +1.06, 0.10 ms
+shuttle seed 122: CFMNN + PACE-SHAP acc 99.7, lead +0.34, 20.50 ms; EBM + terms acc 100.0, lead +0.49, 0.03 ms; Tree + TreeSHAP acc 100.0, lead +0.39, 0.31 ms
+S2 seed 129: CFMNN + PACE-SHAP acc 78.8, lead +1.39, 6413.15 ms; EBM + terms acc 90.9, lead +1.21, 0.03 ms; Tree + TreeSHAP acc 89.4, lead +1.10, 0.12 ms
+S3 seed 120: CFMNN + PACE-SHAP acc 87.5, lead +1.29, 6378.60 ms; EBM + terms acc 100.0, lead +1.27, 0.04 ms; Tree + TreeSHAP acc 100.0, lead +1.24, 0.04 ms
+S3 seed 121: CFMNN + PACE-SHAP acc 87.0, lead +1.39, 6339.20 ms; EBM + terms acc 100.0, lead +1.05, 0.03 ms; Tree + TreeSHAP acc 100.0, lead +1.07, 0.05 ms
+S3 seed 122: CFMNN + PACE-SHAP acc 88.9, lead +0.86, 6296.70 ms; EBM + terms acc 99.9, lead +0.91, 0.02 ms; Tree + TreeSHAP acc 100.0, lead +0.95, 0.04 ms
+S3 seed 123: CFMNN + PACE-SHAP acc 87.9, lead +1.66, 6299.08 ms; EBM + terms acc 99.8, lead +1.35, 0.03 ms; Tree + TreeSHAP acc 99.9, lead +1.42, 0.08 ms
+magic seed 120: CFMNN + PACE-SHAP acc 70.9, lead +1.07, 998.56 ms; EBM + terms acc 86.8, lead +1.50, 0.03 ms; Tree + TreeSHAP acc 85.1, lead +1.25, 0.27 ms
+magic seed 121: CFMNN + PACE-SHAP acc 70.5, lead +1.35, 967.34 ms; EBM + terms acc 85.7, lead +1.60, 0.03 ms; Tree + TreeSHAP acc 83.9, lead +1.50, 0.25 ms
+S3 seed 125: CFMNN + PACE-SHAP acc 88.8, lead +1.20, 6251.48 ms; EBM + terms acc 99.7, lead +1.06, 0.02 ms; Tree + TreeSHAP acc 99.8, lead +1.09, 0.06 ms
+S3 seed 124: CFMNN + PACE-SHAP acc 88.1, lead +0.93, 6267.32 ms; EBM + terms acc 99.9, lead +1.01, 0.02 ms; Tree + TreeSHAP acc 99.9, lead +0.99, 0.07 ms
+S3 seed 126: CFMNN + PACE-SHAP acc 88.4, lead +1.11, 6146.82 ms; EBM + terms acc 99.8, lead +1.05, 0.02 ms; Tree + TreeSHAP acc 100.0, lead +1.01, 0.06 ms
+magic seed 122: CFMNN + PACE-SHAP acc 70.3, lead +1.32, 738.66 ms; EBM + terms acc 85.4, lead +1.17, 0.03 ms; Tree + TreeSHAP acc 84.1, lead +1.15, 0.17 ms
+S3 seed 127: CFMNN + PACE-SHAP acc 87.5, lead +1.46, 5833.10 ms; EBM + terms acc 100.0, lead +1.36, 0.02 ms; Tree + TreeSHAP acc 100.0, lead +1.41, 0.06 ms
+magic seed 124: CFMNN + PACE-SHAP acc 72.8, lead +1.37, 761.49 ms; EBM + terms acc 85.7, lead +1.56, 0.02 ms; Tree + TreeSHAP acc 85.3, lead +1.48, 0.14 ms
+magic seed 123: CFMNN + PACE-SHAP acc 74.8, lead +1.89, 813.62 ms; EBM + terms acc 86.1, lead +1.29, 0.03 ms; Tree + TreeSHAP acc 85.8, lead +1.32, 0.36 ms
+magic seed 127: CFMNN + PACE-SHAP acc 68.6, lead +1.14, 694.79 ms; EBM + terms acc 86.5, lead +1.50, 0.02 ms; Tree + TreeSHAP acc 84.6, lead +1.35, 0.27 ms
+magic seed 126: CFMNN + PACE-SHAP acc 72.6, lead +1.13, 727.54 ms; EBM + terms acc 85.7, lead +1.25, 0.03 ms; Tree + TreeSHAP acc 85.3, lead +1.15, 0.20 ms
+magic seed 125: CFMNN + PACE-SHAP acc 72.8, lead +1.32, 825.23 ms; EBM + terms acc 85.6, lead +1.45, 0.03 ms; Tree + TreeSHAP acc 85.6, lead +1.26, 0.30 ms
+magic seed 128: CFMNN + PACE-SHAP acc 74.7, lead +1.28, 539.47 ms; EBM + terms acc 86.5, lead +1.49, 0.02 ms; Tree + TreeSHAP acc 85.6, lead +1.33, 0.20 ms
+S3 seed 128: CFMNN + PACE-SHAP acc 87.4, lead +1.21, 5183.20 ms; EBM + terms acc 100.0, lead +1.29, 0.02 ms; Tree + TreeSHAP acc 100.0, lead +1.25, 0.05 ms
+S3 seed 129: CFMNN + PACE-SHAP acc 89.1, lead +1.56, 5162.31 ms; EBM + terms acc 100.0, lead +1.26, 0.03 ms; Tree + TreeSHAP acc 100.0, lead +1.27, 0.05 ms
+magic seed 129: CFMNN + PACE-SHAP acc 70.9, lead +1.46, 551.21 ms; EBM + terms acc 85.8, lead +1.73, 0.02 ms; Tree + TreeSHAP acc 85.6, lead +1.60, 0.28 ms
+shuttle seed 123: CFMNN + PACE-SHAP acc 99.8, lead +0.26, 17.54 ms; EBM + terms acc 100.0, lead +0.49, 0.03 ms; Tree + TreeSHAP acc 100.0, lead +0.39, 0.30 ms
+wine seed 120: CFMNN + PACE-SHAP acc 94.4, lead +1.36, 18.06 ms; EBM + terms acc 94.4, lead +1.39, 0.02 ms; Tree + TreeSHAP acc 88.9, lead +1.92, 0.07 ms
+wine seed 121: CFMNN + PACE-SHAP acc 94.4, lead +1.38, 19.75 ms; EBM + terms acc 94.4, lead +1.48, 0.04 ms; Tree + TreeSHAP acc 88.9, lead +1.89, 0.04 ms
+wine seed 122: CFMNN + PACE-SHAP acc 97.2, lead +1.06, 21.02 ms; EBM + terms acc 97.2, lead +1.03, 0.04 ms; Tree + TreeSHAP acc 91.7, lead +1.35, 0.04 ms
+wine seed 123: CFMNN + PACE-SHAP acc 100.0, lead +1.27, 24.12 ms; EBM + terms acc 97.2, lead +1.28, 0.02 ms; Tree + TreeSHAP acc 88.9, lead +2.11, 0.04 ms
+wine seed 124: CFMNN + PACE-SHAP acc 97.2, lead +1.35, 19.29 ms; EBM + terms acc 97.2, lead +1.17, 0.03 ms; Tree + TreeSHAP acc 97.2, lead +1.93, 0.05 ms
+wine seed 125: CFMNN + PACE-SHAP acc 97.2, lead +1.01, 22.75 ms; EBM + terms acc 94.4, lead +1.15, 0.03 ms; Tree + TreeSHAP acc 86.1, lead +1.68, 0.06 ms
+wine seed 126: CFMNN + PACE-SHAP acc 100.0, lead +0.98, 22.65 ms; EBM + terms acc 100.0, lead +1.07, 0.04 ms; Tree + TreeSHAP acc 94.4, lead +1.60, 0.07 ms
+wine seed 127: CFMNN + PACE-SHAP acc 100.0, lead +1.15, 20.70 ms; EBM + terms acc 100.0, lead +1.38, 0.03 ms; Tree + TreeSHAP acc 97.2, lead +2.09, 0.07 ms
+wine seed 128: CFMNN + PACE-SHAP acc 100.0, lead +1.31, 20.37 ms; EBM + terms acc 100.0, lead +1.28, 0.03 ms; Tree + TreeSHAP acc 94.4, lead +2.30, 0.07 ms
+wine seed 129: CFMNN + PACE-SHAP acc 97.2, lead +1.19, 21.06 ms; EBM + terms acc 100.0, lead +1.21, 0.02 ms; Tree + TreeSHAP acc 97.2, lead +1.74, 0.05 ms
+breast_cancer seed 120: CFMNN + PACE-SHAP acc 96.5, lead +0.80, 275.25 ms; EBM + terms acc 97.4, lead +0.98, 0.04 ms; Tree + TreeSHAP acc 91.2, lead +0.82, 0.04 ms
+breast_cancer seed 121: CFMNN + PACE-SHAP acc 95.6, lead +0.69, 167.68 ms; EBM + terms acc 96.5, lead +0.78, 0.04 ms; Tree + TreeSHAP acc 93.0, lead +0.82, 0.04 ms
+landsat seed 120: CFMNN + PACE-SHAP acc 84.8, lead +12.22, 2314.38 ms; EBM + terms acc 90.6, lead +5.10, 0.07 ms; Tree + TreeSHAP acc 85.0, lead +3.57, 0.92 ms
+shuttle seed 128: CFMNN + PACE-SHAP acc 99.8, lead +0.22, 18.91 ms; EBM + terms acc 100.0, lead +0.49, 0.03 ms; Tree + TreeSHAP acc 100.0, lead +0.31, 0.31 ms
+landsat seed 121: CFMNN + PACE-SHAP acc 86.6, lead +220.45, 2463.58 ms; EBM + terms acc 91.8, lead +4.17, 0.06 ms; Tree + TreeSHAP acc 86.9, lead +9.97, 0.73 ms
+breast_cancer seed 122: CFMNN + PACE-SHAP acc 95.6, lead +0.58, 134.97 ms; EBM + terms acc 96.5, lead +0.75, 0.06 ms; Tree + TreeSHAP acc 91.2, lead +0.90, 0.09 ms
+landsat seed 122: CFMNN + PACE-SHAP acc 84.1, lead +23.53, 2428.22 ms; EBM + terms acc 89.6, lead +7.72, 0.05 ms; Tree + TreeSHAP acc 85.5, lead +11.83, 0.71 ms
+breast_cancer seed 123: CFMNN + PACE-SHAP acc 97.4, lead +0.76, 139.97 ms; EBM + terms acc 98.2, lead +0.89, 0.05 ms; Tree + TreeSHAP acc 94.7, lead +0.88, 0.05 ms
+landsat seed 124: CFMNN + PACE-SHAP acc 85.9, lead +4.39, 2527.81 ms; EBM + terms acc 90.7, lead +9.66, 0.09 ms; Tree + TreeSHAP acc 87.7, lead +10.13, 0.81 ms
+landsat seed 123: CFMNN + PACE-SHAP acc 85.5, lead +5.67, 2481.90 ms; EBM + terms acc 89.9, lead +31.65, 0.09 ms; Tree + TreeSHAP acc 85.1, lead +9.16, 0.73 ms
+landsat seed 125: CFMNN + PACE-SHAP acc 85.4, lead +10.79, 2448.96 ms; EBM + terms acc 90.8, lead +13.11, 0.06 ms; Tree + TreeSHAP acc 87.6, lead +45.26, 0.77 ms
+breast_cancer seed 124: CFMNN + PACE-SHAP acc 95.6, lead +0.65, 150.14 ms; EBM + terms acc 99.1, lead +0.99, 0.05 ms; Tree + TreeSHAP acc 91.2, lead +0.66, 0.10 ms
+breast_cancer seed 126: CFMNN + PACE-SHAP acc 95.6, lead +0.75, 155.02 ms; EBM + terms acc 96.5, lead +0.97, 0.06 ms; Tree + TreeSHAP acc 94.7, lead +0.94, 0.08 ms
+breast_cancer seed 125: CFMNN + PACE-SHAP acc 97.4, lead +0.61, 190.84 ms; EBM + terms acc 97.4, lead +0.91, 0.06 ms; Tree + TreeSHAP acc 93.0, lead +0.79, 0.11 ms
+breast_cancer seed 128: CFMNN + PACE-SHAP acc 93.9, lead +0.73, 157.31 ms; EBM + terms acc 95.6, lead +0.86, 0.04 ms; Tree + TreeSHAP acc 93.0, lead +0.96, 0.09 ms
+breast_cancer seed 127: CFMNN + PACE-SHAP acc 95.6, lead +0.66, 202.38 ms; EBM + terms acc 98.2, lead +0.99, 0.03 ms; Tree + TreeSHAP acc 91.2, lead +1.02, 0.09 ms
+landsat seed 126: CFMNN + PACE-SHAP acc 86.6, lead +78.85, 2476.57 ms; EBM + terms acc 91.9, lead +20.70, 0.06 ms; Tree + TreeSHAP acc 86.9, lead +219.78, 0.98 ms
+breast_cancer seed 129: CFMNN + PACE-SHAP acc 95.6, lead +0.75, 147.35 ms; EBM + terms acc 99.1, lead +1.07, 0.04 ms; Tree + TreeSHAP acc 90.4, lead +0.86, 0.04 ms
+thyroid seed 120: CFMNN + PACE-SHAP acc 96.8, lead +0.25, 110.12 ms; EBM + terms acc 99.8, lead +0.31, 0.03 ms; Tree + TreeSHAP acc 99.8, lead +0.27, 0.08 ms
+landsat seed 128: CFMNN + PACE-SHAP acc 85.5, lead +4.10, 2257.21 ms; EBM + terms acc 89.7, lead +14.14, 0.08 ms; Tree + TreeSHAP acc 86.8, lead +10.00, 0.62 ms
+thyroid seed 121: CFMNN + PACE-SHAP acc 97.2, lead +0.29, 120.93 ms; EBM + terms acc 99.8, lead +0.22, 0.02 ms; Tree + TreeSHAP acc 99.7, lead +0.18, 0.06 ms
+landsat seed 127: CFMNN + PACE-SHAP acc 85.8, lead +219.48, 2322.18 ms; EBM + terms acc 90.4, lead +17.60, 0.06 ms; Tree + TreeSHAP acc 87.5, lead +5907.53, 1.32 ms
+landsat seed 129: CFMNN + PACE-SHAP acc 83.9, lead +9.52, 2154.60 ms; EBM + terms acc 91.1, lead +3.50, 0.03 ms; Tree + TreeSHAP acc 86.9, lead +3.88, 0.71 ms
+thyroid seed 125: CFMNN + PACE-SHAP acc 97.8, lead +0.27, 126.92 ms; EBM + terms acc 99.7, lead +0.20, 0.03 ms; Tree + TreeSHAP acc 99.5, lead +0.14, 0.06 ms
+thyroid seed 124: CFMNN + PACE-SHAP acc 96.9, lead +0.22, 122.11 ms; EBM + terms acc 99.7, lead +0.23, 0.03 ms; Tree + TreeSHAP acc 99.7, lead +0.16, 0.04 ms
+thyroid seed 123: CFMNN + PACE-SHAP acc 97.3, lead +0.26, 143.42 ms; EBM + terms acc 99.6, lead +0.19, 0.03 ms; Tree + TreeSHAP acc 99.4, lead +0.13, 0.06 ms
+thyroid seed 122: CFMNN + PACE-SHAP acc 96.8, lead +0.31, 114.36 ms; EBM + terms acc 99.2, lead +0.32, 0.03 ms; Tree + TreeSHAP acc 99.2, lead +0.27, 0.07 ms
+page_blocks seed 120: CFMNN + PACE-SHAP acc 80.7, lead +0.82, 39.45 ms; EBM + terms acc 97.7, lead +0.22, 0.01 ms; Tree + TreeSHAP acc 97.0, lead +0.22, 0.11 ms
+thyroid seed 127: CFMNN + PACE-SHAP acc 96.5, lead +0.24, 113.07 ms; EBM + terms acc 99.6, lead +0.31, 0.03 ms; Tree + TreeSHAP acc 99.7, lead +0.28, 0.08 ms
+thyroid seed 126: CFMNN + PACE-SHAP acc 96.2, lead +0.45, 124.35 ms; EBM + terms acc 99.4, lead +0.41, 0.02 ms; Tree + TreeSHAP acc 99.6, lead +0.33, 0.08 ms
+page_blocks seed 122: CFMNN + PACE-SHAP acc 80.5, lead +1.54, 49.72 ms; EBM + terms acc 97.7, lead +0.16, 0.01 ms; Tree + TreeSHAP acc 97.3, lead +0.11, 0.10 ms
+page_blocks seed 121: CFMNN + PACE-SHAP acc 82.0, lead +0.87, 48.78 ms; EBM + terms acc 97.4, lead +0.23, 0.01 ms; Tree + TreeSHAP acc 97.3, lead +0.21, 0.24 ms
+thyroid seed 129: CFMNN + PACE-SHAP acc 96.9, lead +0.26, 95.86 ms; EBM + terms acc 99.4, lead +0.28, 0.02 ms; Tree + TreeSHAP acc 99.4, lead +0.23, 0.07 ms
+thyroid seed 128: CFMNN + PACE-SHAP acc 96.7, lead +0.23, 110.63 ms; EBM + terms acc 99.7, lead +0.21, 0.03 ms; Tree + TreeSHAP acc 99.7, lead +0.13, 0.04 ms
+page_blocks seed 123: CFMNN + PACE-SHAP acc 75.3, lead +1.19, 52.67 ms; EBM + terms acc 96.9, lead +0.21, 0.02 ms; Tree + TreeSHAP acc 97.6, lead +0.19, 0.14 ms
+page_blocks seed 125: CFMNN + PACE-SHAP acc 92.9, lead +1.07, 46.07 ms; EBM + terms acc 97.6, lead +0.24, 0.01 ms; Tree + TreeSHAP acc 96.3, lead +0.25, 0.10 ms
+page_blocks seed 128: CFMNN + PACE-SHAP acc 78.9, lead +1.77, 51.54 ms; EBM + terms acc 97.1, lead +0.32, 0.01 ms; Tree + TreeSHAP acc 96.0, lead +0.25, 0.14 ms
+page_blocks seed 129: CFMNN + PACE-SHAP acc 83.7, lead +1.07, 48.86 ms; EBM + terms acc 97.7, lead +0.27, 0.01 ms; Tree + TreeSHAP acc 97.1, lead +0.16, 0.12 ms
+page_blocks seed 126: CFMNN + PACE-SHAP acc 89.6, lead +0.61, 48.58 ms; EBM + terms acc 97.8, lead +0.28, 0.01 ms; Tree + TreeSHAP acc 96.3, lead +0.21, 0.08 ms
+page_blocks seed 127: CFMNN + PACE-SHAP acc 86.2, lead +0.58, 43.46 ms; EBM + terms acc 97.4, lead +0.23, 0.01 ms; Tree + TreeSHAP acc 97.4, lead +0.16, 0.11 ms
+page_blocks seed 124: CFMNN + PACE-SHAP acc 83.9, lead +0.80, 52.48 ms; EBM + terms acc 97.3, lead +0.24, 0.01 ms; Tree + TreeSHAP acc 96.8, lead +0.20, 0.08 ms
+# Run G: CFMNN + PACE-SHAP against other models that explain themselves
+
+Rules: [`PREREGISTRATION.md`](PREREGISTRATION.md). Seeds 120–129 (10). Each system is tested on its own predicted-class margin. Lead = how far the system's ranking beats a random ranking on the same model, as a share of the random ranking's AUC (larger is better). Each comparison: paired two-sided Wilcoxon over seeds, Holm across datasets; better / level / worse for CFMNN + PACE-SHAP.
+
+## Normalised deletion lead (mean over seeds)
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Tree + TreeSHAP |
+|---|---|---|---|
+| S1 | 1.515 | 1.325 | 1.239 |
+| S2 | 1.614 | 1.386 | 1.293 |
+| S3 | 1.266 | 1.161 | 1.171 |
+| wine | 1.207 | 1.244 | 1.861 |
+| breast_cancer | 0.698 | 0.919 | 0.864 |
+| thyroid | 0.280 | 0.267 | 0.211 |
+| shuttle | 0.304 | 0.516 | 0.435 |
+| magic | 1.334 | 1.454 | 1.340 |
+| letter | 0.795 | 1.026 | 1.037 |
+| landsat | 58.899 | 12.736 | 623.112 |
+| page_blocks | 1.032 | 0.241 | 0.196 |
+
+## Primary: normalised deletion lead
+
+**CFMNN + PACE-SHAP vs EBM + terms**, per dataset (deletion_lead): better 2, level 6, worse 3
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 1.515 | 1.325 | +0.190 | 0.0020 | 0.0215 | better |
+| S2 | 1.614 | 1.386 | +0.228 | 0.0137 | 0.0820 | level |
+| S3 | 1.266 | 1.161 | +0.105 | 0.1055 | 0.5273 | level |
+| wine | 1.207 | 1.244 | -0.037 | 0.3223 | 0.6973 | level |
+| breast_cancer | 0.698 | 0.919 | -0.221 | 0.0020 | 0.0215 | worse |
+| thyroid | 0.280 | 0.267 | +0.013 | 0.4922 | 0.6973 | level |
+| shuttle | 0.304 | 0.516 | -0.212 | 0.0020 | 0.0215 | worse |
+| magic | 1.334 | 1.454 | -0.120 | 0.1602 | 0.6406 | level |
+| letter | 0.795 | 1.026 | -0.231 | 0.0020 | 0.0215 | worse |
+| landsat | 58.899 | 12.736 | +46.163 | 0.2324 | 0.6973 | level |
+| page_blocks | 1.032 | 0.241 | +0.791 | 0.0020 | 0.0215 | better |
+
+**CFMNN + PACE-SHAP vs EBM + terms**, synthetic family as one unit (deletion_lead): better 2, level 4, worse 3
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 1.465 | 1.291 | +0.175 | 0.0020 | 0.0176 | better |
+| wine | 1.207 | 1.244 | -0.037 | 0.3223 | 0.6973 | level |
+| breast_cancer | 0.698 | 0.919 | -0.221 | 0.0020 | 0.0176 | worse |
+| thyroid | 0.280 | 0.267 | +0.013 | 0.4922 | 0.6973 | level |
+| shuttle | 0.304 | 0.516 | -0.212 | 0.0020 | 0.0176 | worse |
+| magic | 1.334 | 1.454 | -0.120 | 0.1602 | 0.6406 | level |
+| letter | 0.795 | 1.026 | -0.231 | 0.0020 | 0.0176 | worse |
+| landsat | 58.899 | 12.736 | +46.163 | 0.2324 | 0.6973 | level |
+| page_blocks | 1.032 | 0.241 | +0.791 | 0.0020 | 0.0176 | better |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, per dataset (deletion_lead): better 3, level 4, worse 4
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 1.515 | 1.239 | +0.276 | 0.0020 | 0.0215 | better |
+| S2 | 1.614 | 1.293 | +0.321 | 0.0059 | 0.0293 | better |
+| S3 | 1.266 | 1.171 | +0.095 | 0.1055 | 0.3164 | level |
+| wine | 1.207 | 1.861 | -0.653 | 0.0020 | 0.0215 | worse |
+| breast_cancer | 0.698 | 0.864 | -0.166 | 0.0020 | 0.0215 | worse |
+| thyroid | 0.280 | 0.211 | +0.069 | 0.0137 | 0.0547 | level |
+| shuttle | 0.304 | 0.435 | -0.131 | 0.0020 | 0.0215 | worse |
+| magic | 1.334 | 1.340 | -0.006 | 0.4922 | 0.9844 | level |
+| letter | 0.795 | 1.037 | -0.242 | 0.0020 | 0.0215 | worse |
+| landsat | 58.899 | 623.112 | -564.213 | 0.6250 | 0.9844 | level |
+| page_blocks | 1.032 | 0.196 | +0.836 | 0.0020 | 0.0215 | better |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, synthetic family as one unit (deletion_lead): better 3, level 2, worse 4
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 1.465 | 1.234 | +0.231 | 0.0020 | 0.0176 | better |
+| wine | 1.207 | 1.861 | -0.653 | 0.0020 | 0.0176 | worse |
+| breast_cancer | 0.698 | 0.864 | -0.166 | 0.0020 | 0.0176 | worse |
+| thyroid | 0.280 | 0.211 | +0.069 | 0.0137 | 0.0410 | better |
+| shuttle | 0.304 | 0.435 | -0.131 | 0.0020 | 0.0176 | worse |
+| magic | 1.334 | 1.340 | -0.006 | 0.4922 | 0.9844 | level |
+| letter | 0.795 | 1.037 | -0.242 | 0.0020 | 0.0176 | worse |
+| landsat | 58.899 | 623.112 | -564.213 | 0.6250 | 0.9844 | level |
+| page_blocks | 1.032 | 0.196 | +0.836 | 0.0020 | 0.0176 | better |
+
+## Primary with the near-zero rule
+
+Where any seed of a compared pair has a random deletion AUC within 0.05 of zero, the verdict is read from the deletion gain (pre-registered).
+
+**CFMNN + PACE-SHAP vs EBM + terms**, per dataset: better 2, level 5, worse 4; read from the gain: landsat
+
+**CFMNN + PACE-SHAP vs EBM + terms**, synthetic family as one unit: better 2, level 3, worse 4; read from the gain: landsat
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, per dataset: better 3, level 3, worse 5; read from the gain: landsat
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, synthetic family as one unit: better 3, level 1, worse 5; read from the gain: landsat
+
+## Amendment 1: the primary on untied points
+
+CFMNN can tie (a zero margin); for a tied point the deletion curve is divided by almost zero and becomes signs, which the other two models' points do not do. Below, every system is scored on its untied explained points only. Tested on the 9 dataset(s) where every seed of every system has at least 10 untied points: S1, S2, S3, wine, breast_cancer, thyroid, shuttle, letter, landsat.
+
+**CFMNN + PACE-SHAP vs EBM + terms**: how the primary verdict reads (tie-heavy = CFMNN's mean share of tied points is at least 10%)
+
+| Dataset | CFMNN's tied share | Primary (all points) | Untied points | Reading |
+|---|---|---|---|---|
+| S1 | 0.0% | better | better | not tie-heavy |
+| S2 | 0.0% | level | level | not tie-heavy |
+| S3 | 0.0% | level | level | not tie-heavy |
+| wine | 0.0% | level | level | not tie-heavy |
+| breast_cancer | 0.2% | worse | worse | not tie-heavy |
+| thyroid | 6.2% | level | level | not tie-heavy |
+| shuttle | 9.4% | worse | worse | not tie-heavy |
+| magic | 77.0% | level | not tested | not checked: too few untied points |
+| letter | 53.6% | worse | better | depends on the tied points |
+| landsat | 25.8% | level | level | holds on untied points |
+| page_blocks | 74.6% | better | not tested | not checked: too few untied points |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**: how the primary verdict reads (tie-heavy = CFMNN's mean share of tied points is at least 10%)
+
+| Dataset | CFMNN's tied share | Primary (all points) | Untied points | Reading |
+|---|---|---|---|---|
+| S1 | 0.0% | better | better | not tie-heavy |
+| S2 | 0.0% | better | better | not tie-heavy |
+| S3 | 0.0% | level | level | not tie-heavy |
+| wine | 0.0% | worse | worse | not tie-heavy |
+| breast_cancer | 0.2% | worse | worse | not tie-heavy |
+| thyroid | 6.2% | level | level | not tie-heavy |
+| shuttle | 9.4% | worse | worse | not tie-heavy |
+| magic | 77.0% | level | not tested | not checked: too few untied points |
+| letter | 53.6% | worse | better | depends on the tied points |
+| landsat | 25.8% | level | level | holds on untied points |
+| page_blocks | 74.6% | better | not tested | not checked: too few untied points |
+
+## Amendment 1: normalised deletion lead, untied points
+
+**CFMNN + PACE-SHAP vs EBM + terms** (deletion_lead_untied): better 2, level 5, worse 2
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 1.515 | 1.325 | +0.190 | 0.0020 | 0.0176 | better |
+| S2 | 1.614 | 1.386 | +0.228 | 0.0137 | 0.0684 | level |
+| S3 | 1.266 | 1.161 | +0.105 | 0.1055 | 0.3164 | level |
+| wine | 1.207 | 1.244 | -0.037 | 0.3223 | 0.6445 | level |
+| breast_cancer | 0.698 | 0.919 | -0.221 | 0.0020 | 0.0176 | worse |
+| thyroid | 0.245 | 0.267 | -0.023 | 0.3750 | 0.6445 | level |
+| shuttle | 0.251 | 0.516 | -0.266 | 0.0020 | 0.0176 | worse |
+| letter | 2.200 | 1.026 | +1.174 | 0.0020 | 0.0176 | better |
+| landsat | 7.013 | 12.736 | -5.723 | 0.0645 | 0.2578 | level |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP** (deletion_lead_untied): better 3, level 3, worse 3
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 1.515 | 1.239 | +0.276 | 0.0020 | 0.0176 | better |
+| S2 | 1.614 | 1.293 | +0.321 | 0.0059 | 0.0234 | better |
+| S3 | 1.266 | 1.171 | +0.095 | 0.1055 | 0.2520 | level |
+| wine | 1.207 | 1.861 | -0.653 | 0.0020 | 0.0176 | worse |
+| breast_cancer | 0.698 | 0.864 | -0.166 | 0.0020 | 0.0176 | worse |
+| thyroid | 0.245 | 0.211 | +0.034 | 0.1934 | 0.2520 | level |
+| shuttle | 0.251 | 0.435 | -0.184 | 0.0020 | 0.0176 | worse |
+| letter | 2.200 | 1.084 | +1.116 | 0.0020 | 0.0176 | better |
+| landsat | 7.013 | 622.641 | -615.628 | 0.0840 | 0.2520 | level |
+
+## Amendment 1: deletion gain, untied points (not divided)
+
+**CFMNN + PACE-SHAP vs EBM + terms** (deletion_gain_untied): better 1, level 1, worse 7
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 0.427 | 0.524 | -0.097 | 0.0020 | 0.0176 | worse |
+| S2 | 0.394 | 0.536 | -0.142 | 0.0020 | 0.0176 | worse |
+| S3 | 0.383 | 0.528 | -0.145 | 0.0020 | 0.0176 | worse |
+| wine | 0.299 | 0.356 | -0.057 | 0.0020 | 0.0176 | worse |
+| breast_cancer | 0.290 | 0.412 | -0.121 | 0.0020 | 0.0176 | worse |
+| thyroid | 0.190 | 0.213 | -0.023 | 0.1602 | 0.1602 | level |
+| shuttle | 0.171 | 0.314 | -0.144 | 0.0020 | 0.0176 | worse |
+| letter | 0.424 | 0.366 | +0.058 | 0.0020 | 0.0176 | better |
+| landsat | 0.328 | 0.414 | -0.085 | 0.0020 | 0.0176 | worse |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP** (deletion_gain_untied): better 1, level 1, worse 7
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 0.427 | 0.536 | -0.109 | 0.0020 | 0.0176 | worse |
+| S2 | 0.394 | 0.556 | -0.162 | 0.0020 | 0.0176 | worse |
+| S3 | 0.383 | 0.561 | -0.178 | 0.0020 | 0.0176 | worse |
+| wine | 0.299 | 0.528 | -0.229 | 0.0020 | 0.0176 | worse |
+| breast_cancer | 0.290 | 0.465 | -0.175 | 0.0020 | 0.0176 | worse |
+| thyroid | 0.190 | 0.178 | +0.013 | 0.4316 | 0.4316 | level |
+| shuttle | 0.171 | 0.287 | -0.116 | 0.0020 | 0.0176 | worse |
+| letter | 0.424 | 0.385 | +0.039 | 0.0020 | 0.0176 | better |
+| landsat | 0.328 | 0.532 | -0.204 | 0.0020 | 0.0176 | worse |
+
+Runs whose random-ranking deletion AUC on untied points is within 0.05 of zero: CFMNN + PACE-SHAP 4 of 110, EBM + terms 6 of 110, Tree + TreeSHAP 3 of 110
+
+Untied explained points per run (mean over seeds):
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Tree + TreeSHAP |
+|---|---|---|---|
+| S1 | 50.0 | 50.0 | 50.0 |
+| S2 | 50.0 | 50.0 | 50.0 |
+| S3 | 50.0 | 50.0 | 50.0 |
+| wine | 36.0 | 36.0 | 36.0 |
+| breast_cancer | 49.9 | 50.0 | 50.0 |
+| thyroid | 46.9 | 50.0 | 50.0 |
+| shuttle | 45.3 | 50.0 | 50.0 |
+| magic | 11.5 | 50.0 | 49.9 |
+| letter | 23.2 | 50.0 | 48.7 |
+| landsat | 37.1 | 50.0 | 49.8 |
+| page_blocks | 12.7 | 50.0 | 50.0 |
+
+## Secondary: normalised insertion lead
+
+**CFMNN + PACE-SHAP vs EBM + terms**, per dataset (insertion_lead): better 5, level 5, worse 1
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 1.368 | 1.080 | +0.288 | 0.0020 | 0.0215 | better |
+| S2 | 1.488 | 1.077 | +0.412 | 0.0020 | 0.0215 | better |
+| S3 | 1.091 | 0.973 | +0.118 | 0.0039 | 0.0273 | better |
+| wine | 1.233 | 1.331 | -0.097 | 0.1602 | 0.6406 | level |
+| breast_cancer | 0.676 | 0.783 | -0.107 | 0.0039 | 0.0273 | worse |
+| thyroid | 0.245 | 0.224 | +0.021 | 0.6953 | 0.9844 | level |
+| shuttle | 0.369 | 0.405 | -0.035 | 0.1934 | 0.6406 | level |
+| magic | 1.907 | 1.000 | +0.907 | 0.0020 | 0.0215 | better |
+| letter | 1.054 | 0.949 | +0.106 | 0.0840 | 0.4199 | level |
+| landsat | 10.938 | 21.465 | -10.527 | 0.4922 | 0.9844 | level |
+| page_blocks | 2.711 | 0.160 | +2.550 | 0.0020 | 0.0215 | better |
+
+**CFMNN + PACE-SHAP vs EBM + terms**, synthetic family as one unit (insertion_lead): better 3, level 5, worse 1
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 1.316 | 1.043 | +0.273 | 0.0020 | 0.0176 | better |
+| wine | 1.233 | 1.331 | -0.097 | 0.1602 | 0.6406 | level |
+| breast_cancer | 0.676 | 0.783 | -0.107 | 0.0039 | 0.0234 | worse |
+| thyroid | 0.245 | 0.224 | +0.021 | 0.6953 | 0.9844 | level |
+| shuttle | 0.369 | 0.405 | -0.035 | 0.1934 | 0.6406 | level |
+| magic | 1.907 | 1.000 | +0.907 | 0.0020 | 0.0176 | better |
+| letter | 1.054 | 0.949 | +0.106 | 0.0840 | 0.4199 | level |
+| landsat | 10.938 | 21.465 | -10.527 | 0.4922 | 0.9844 | level |
+| page_blocks | 2.711 | 0.160 | +2.550 | 0.0020 | 0.0176 | better |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, per dataset (insertion_lead): better 6, level 1, worse 4
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 1.368 | 1.105 | +0.263 | 0.0039 | 0.0215 | better |
+| S2 | 1.488 | 1.012 | +0.477 | 0.0020 | 0.0215 | better |
+| S3 | 1.091 | 0.895 | +0.196 | 0.0020 | 0.0215 | better |
+| wine | 1.233 | 2.115 | -0.882 | 0.0020 | 0.0215 | worse |
+| breast_cancer | 0.676 | 0.788 | -0.112 | 0.0098 | 0.0215 | worse |
+| thyroid | 0.245 | 0.164 | +0.081 | 0.0020 | 0.0215 | better |
+| shuttle | 0.369 | 0.400 | -0.031 | 0.1309 | 0.1309 | level |
+| magic | 1.907 | 0.992 | +0.915 | 0.0020 | 0.0215 | better |
+| letter | 1.054 | 2.097 | -1.043 | 0.0020 | 0.0215 | worse |
+| landsat | 10.938 | 23.540 | -12.603 | 0.0020 | 0.0215 | worse |
+| page_blocks | 2.711 | 0.199 | +2.512 | 0.0020 | 0.0215 | better |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, synthetic family as one unit (insertion_lead): better 4, level 1, worse 4
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 1.316 | 1.004 | +0.312 | 0.0020 | 0.0176 | better |
+| wine | 1.233 | 2.115 | -0.882 | 0.0020 | 0.0176 | worse |
+| breast_cancer | 0.676 | 0.788 | -0.112 | 0.0098 | 0.0195 | worse |
+| thyroid | 0.245 | 0.164 | +0.081 | 0.0020 | 0.0176 | better |
+| shuttle | 0.369 | 0.400 | -0.031 | 0.1309 | 0.1309 | level |
+| magic | 1.907 | 0.992 | +0.915 | 0.0020 | 0.0176 | better |
+| letter | 1.054 | 2.097 | -1.043 | 0.0020 | 0.0176 | worse |
+| landsat | 10.938 | 23.540 | -12.603 | 0.0020 | 0.0176 | worse |
+| page_blocks | 2.711 | 0.199 | +2.512 | 0.0020 | 0.0176 | better |
+
+## Secondary: test accuracy (%)
+
+**CFMNN + PACE-SHAP vs EBM + terms**, per dataset (accuracy): better 0, level 1, worse 10
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 89.39 | 99.96 | -10.57 | 0.0020 | 0.0215 | worse |
+| S2 | 80.14 | 90.63 | -10.49 | 0.0020 | 0.0215 | worse |
+| S3 | 88.06 | 99.91 | -11.85 | 0.0020 | 0.0215 | worse |
+| wine | 97.78 | 97.50 | +0.28 | 1.0000 | 1.0000 | level |
+| breast_cancer | 95.88 | 97.46 | -1.58 | 0.0039 | 0.0215 | worse |
+| thyroid | 96.90 | 99.60 | -2.70 | 0.0020 | 0.0215 | worse |
+| shuttle | 99.78 | 99.96 | -0.18 | 0.0020 | 0.0215 | worse |
+| magic | 71.88 | 85.97 | -14.09 | 0.0020 | 0.0215 | worse |
+| letter | 75.61 | 87.79 | -12.18 | 0.0020 | 0.0215 | worse |
+| landsat | 85.41 | 90.64 | -5.23 | 0.0020 | 0.0215 | worse |
+| page_blocks | 83.36 | 97.46 | -14.10 | 0.0020 | 0.0215 | worse |
+
+**CFMNN + PACE-SHAP vs EBM + terms**, synthetic family as one unit (accuracy): better 0, level 1, worse 8
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 85.86 | 96.83 | -10.97 | 0.0020 | 0.0176 | worse |
+| wine | 97.78 | 97.50 | +0.28 | 1.0000 | 1.0000 | level |
+| breast_cancer | 95.88 | 97.46 | -1.58 | 0.0039 | 0.0176 | worse |
+| thyroid | 96.90 | 99.60 | -2.70 | 0.0020 | 0.0176 | worse |
+| shuttle | 99.78 | 99.96 | -0.18 | 0.0020 | 0.0176 | worse |
+| magic | 71.88 | 85.97 | -14.09 | 0.0020 | 0.0176 | worse |
+| letter | 75.61 | 87.79 | -12.18 | 0.0020 | 0.0176 | worse |
+| landsat | 85.41 | 90.64 | -5.23 | 0.0020 | 0.0176 | worse |
+| page_blocks | 83.36 | 97.46 | -14.10 | 0.0020 | 0.0176 | worse |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, per dataset (accuracy): better 2, level 0, worse 9
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 89.39 | 97.14 | -7.75 | 0.0020 | 0.0215 | worse |
+| S2 | 80.14 | 88.37 | -8.23 | 0.0020 | 0.0215 | worse |
+| S3 | 88.06 | 99.96 | -11.90 | 0.0020 | 0.0215 | worse |
+| wine | 97.78 | 92.50 | +5.28 | 0.0078 | 0.0215 | better |
+| breast_cancer | 95.88 | 92.37 | +3.51 | 0.0020 | 0.0215 | better |
+| thyroid | 96.90 | 99.57 | -2.67 | 0.0020 | 0.0215 | worse |
+| shuttle | 99.78 | 99.98 | -0.20 | 0.0020 | 0.0215 | worse |
+| magic | 71.88 | 85.10 | -13.22 | 0.0020 | 0.0215 | worse |
+| letter | 75.61 | 86.66 | -11.05 | 0.0020 | 0.0215 | worse |
+| landsat | 85.41 | 86.59 | -1.18 | 0.0098 | 0.0215 | worse |
+| page_blocks | 83.36 | 96.89 | -13.53 | 0.0020 | 0.0215 | worse |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, synthetic family as one unit (accuracy): better 2, level 0, worse 7
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 85.86 | 95.16 | -9.29 | 0.0020 | 0.0176 | worse |
+| wine | 97.78 | 92.50 | +5.28 | 0.0078 | 0.0176 | better |
+| breast_cancer | 95.88 | 92.37 | +3.51 | 0.0020 | 0.0176 | better |
+| thyroid | 96.90 | 99.57 | -2.67 | 0.0020 | 0.0176 | worse |
+| shuttle | 99.78 | 99.98 | -0.20 | 0.0020 | 0.0176 | worse |
+| magic | 71.88 | 85.10 | -13.22 | 0.0020 | 0.0176 | worse |
+| letter | 75.61 | 86.66 | -11.05 | 0.0020 | 0.0176 | worse |
+| landsat | 85.41 | 86.59 | -1.18 | 0.0098 | 0.0176 | worse |
+| page_blocks | 83.36 | 96.89 | -13.53 | 0.0020 | 0.0176 | worse |
+
+## Secondary: macro-F1 (%)
+
+**CFMNN + PACE-SHAP vs EBM + terms**, per dataset (macro_f1): better 0, level 2, worse 9
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 89.39 | 99.96 | -10.57 | 0.0020 | 0.0215 | worse |
+| S2 | 80.13 | 90.63 | -10.49 | 0.0020 | 0.0215 | worse |
+| S3 | 86.82 | 99.90 | -13.08 | 0.0020 | 0.0215 | worse |
+| wine | 97.85 | 97.54 | +0.31 | 0.5000 | 0.5000 | level |
+| breast_cancer | 95.55 | 97.26 | -1.71 | 0.0039 | 0.0215 | worse |
+| thyroid | 84.45 | 97.91 | -13.46 | 0.0020 | 0.0215 | worse |
+| shuttle | 86.03 | 89.41 | -3.37 | 0.2324 | 0.4648 | level |
+| magic | 70.63 | 84.10 | -13.47 | 0.0020 | 0.0215 | worse |
+| letter | 75.37 | 87.74 | -12.37 | 0.0020 | 0.0215 | worse |
+| landsat | 82.72 | 88.75 | -6.03 | 0.0020 | 0.0215 | worse |
+| page_blocks | 59.95 | 86.42 | -26.47 | 0.0020 | 0.0215 | worse |
+
+**CFMNN + PACE-SHAP vs EBM + terms**, synthetic family as one unit (macro_f1): better 0, level 2, worse 7
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 85.45 | 96.83 | -11.38 | 0.0020 | 0.0176 | worse |
+| wine | 97.85 | 97.54 | +0.31 | 0.5000 | 0.5000 | level |
+| breast_cancer | 95.55 | 97.26 | -1.71 | 0.0039 | 0.0176 | worse |
+| thyroid | 84.45 | 97.91 | -13.46 | 0.0020 | 0.0176 | worse |
+| shuttle | 86.03 | 89.41 | -3.37 | 0.2324 | 0.4648 | level |
+| magic | 70.63 | 84.10 | -13.47 | 0.0020 | 0.0176 | worse |
+| letter | 75.37 | 87.74 | -12.37 | 0.0020 | 0.0176 | worse |
+| landsat | 82.72 | 88.75 | -6.03 | 0.0020 | 0.0176 | worse |
+| page_blocks | 59.95 | 86.42 | -26.47 | 0.0020 | 0.0176 | worse |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, per dataset (macro_f1): better 2, level 1, worse 8
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 89.39 | 97.14 | -7.75 | 0.0020 | 0.0215 | worse |
+| S2 | 80.13 | 88.37 | -8.23 | 0.0020 | 0.0215 | worse |
+| S3 | 86.82 | 99.96 | -13.13 | 0.0020 | 0.0215 | worse |
+| wine | 97.85 | 92.58 | +5.27 | 0.0039 | 0.0215 | better |
+| breast_cancer | 95.55 | 91.77 | +3.78 | 0.0020 | 0.0215 | better |
+| thyroid | 84.45 | 97.72 | -13.28 | 0.0020 | 0.0215 | worse |
+| shuttle | 86.03 | 98.86 | -12.82 | 0.0020 | 0.0215 | worse |
+| magic | 70.63 | 83.03 | -12.40 | 0.0020 | 0.0215 | worse |
+| letter | 75.37 | 86.66 | -11.30 | 0.0020 | 0.0215 | worse |
+| landsat | 82.72 | 83.66 | -0.94 | 0.1055 | 0.1055 | level |
+| page_blocks | 59.95 | 81.07 | -21.12 | 0.0020 | 0.0215 | worse |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, synthetic family as one unit (macro_f1): better 2, level 1, worse 6
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 85.45 | 95.15 | -9.71 | 0.0020 | 0.0176 | worse |
+| wine | 97.85 | 92.58 | +5.27 | 0.0039 | 0.0176 | better |
+| breast_cancer | 95.55 | 91.77 | +3.78 | 0.0020 | 0.0176 | better |
+| thyroid | 84.45 | 97.72 | -13.28 | 0.0020 | 0.0176 | worse |
+| shuttle | 86.03 | 98.86 | -12.82 | 0.0020 | 0.0176 | worse |
+| magic | 70.63 | 83.03 | -12.40 | 0.0020 | 0.0176 | worse |
+| letter | 75.37 | 86.66 | -11.30 | 0.0020 | 0.0176 | worse |
+| landsat | 82.72 | 83.66 | -0.94 | 0.1055 | 0.1055 | level |
+| page_blocks | 59.95 | 81.07 | -21.12 | 0.0020 | 0.0176 | worse |
+
+## Secondary: milliseconds per explanation (lower is better)
+
+**CFMNN + PACE-SHAP vs EBM + terms**, per dataset (ms_per_explanation): better 0, level 0, worse 11
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 5247.718 | 0.021 | +5247.696 | 0.0020 | 0.0215 | worse |
+| S2 | 6112.467 | 0.028 | +6112.439 | 0.0020 | 0.0215 | worse |
+| S3 | 6015.780 | 0.025 | +6015.755 | 0.0020 | 0.0215 | worse |
+| wine | 20.975 | 0.027 | +20.948 | 0.0020 | 0.0215 | worse |
+| breast_cancer | 172.091 | 0.047 | +172.044 | 0.0020 | 0.0215 | worse |
+| thyroid | 118.177 | 0.026 | +118.151 | 0.0020 | 0.0215 | worse |
+| shuttle | 21.359 | 0.025 | +21.334 | 0.0020 | 0.0215 | worse |
+| magic | 761.792 | 0.025 | +761.767 | 0.0020 | 0.0215 | worse |
+| letter | 2398.209 | 0.043 | +2398.166 | 0.0020 | 0.0215 | worse |
+| landsat | 2387.541 | 0.066 | +2387.474 | 0.0020 | 0.0215 | worse |
+| page_blocks | 48.161 | 0.013 | +48.147 | 0.0020 | 0.0215 | worse |
+
+**CFMNN + PACE-SHAP vs EBM + terms**, synthetic family as one unit (ms_per_explanation): better 0, level 0, worse 9
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 5791.988 | 0.025 | +5791.963 | 0.0020 | 0.0176 | worse |
+| wine | 20.975 | 0.027 | +20.948 | 0.0020 | 0.0176 | worse |
+| breast_cancer | 172.091 | 0.047 | +172.044 | 0.0020 | 0.0176 | worse |
+| thyroid | 118.177 | 0.026 | +118.151 | 0.0020 | 0.0176 | worse |
+| shuttle | 21.359 | 0.025 | +21.334 | 0.0020 | 0.0176 | worse |
+| magic | 761.792 | 0.025 | +761.767 | 0.0020 | 0.0176 | worse |
+| letter | 2398.209 | 0.043 | +2398.166 | 0.0020 | 0.0176 | worse |
+| landsat | 2387.541 | 0.066 | +2387.474 | 0.0020 | 0.0176 | worse |
+| page_blocks | 48.161 | 0.013 | +48.147 | 0.0020 | 0.0176 | worse |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, per dataset (ms_per_explanation): better 0, level 0, worse 11
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 5247.718 | 0.148 | +5247.569 | 0.0020 | 0.0215 | worse |
+| S2 | 6112.467 | 0.120 | +6112.347 | 0.0020 | 0.0215 | worse |
+| S3 | 6015.780 | 0.056 | +6015.724 | 0.0020 | 0.0215 | worse |
+| wine | 20.975 | 0.057 | +20.918 | 0.0020 | 0.0215 | worse |
+| breast_cancer | 172.091 | 0.072 | +172.019 | 0.0020 | 0.0215 | worse |
+| thyroid | 118.177 | 0.064 | +118.113 | 0.0020 | 0.0215 | worse |
+| shuttle | 21.359 | 6.301 | +15.058 | 0.0039 | 0.0215 | worse |
+| magic | 761.792 | 0.244 | +761.548 | 0.0020 | 0.0215 | worse |
+| letter | 2398.209 | 41.768 | +2356.441 | 0.0020 | 0.0215 | worse |
+| landsat | 2387.541 | 0.830 | +2386.711 | 0.0020 | 0.0215 | worse |
+| page_blocks | 48.161 | 0.123 | +48.038 | 0.0020 | 0.0215 | worse |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, synthetic family as one unit (ms_per_explanation): better 0, level 0, worse 9
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 5791.988 | 0.108 | +5791.880 | 0.0020 | 0.0176 | worse |
+| wine | 20.975 | 0.057 | +20.918 | 0.0020 | 0.0176 | worse |
+| breast_cancer | 172.091 | 0.072 | +172.019 | 0.0020 | 0.0176 | worse |
+| thyroid | 118.177 | 0.064 | +118.113 | 0.0020 | 0.0176 | worse |
+| shuttle | 21.359 | 6.301 | +15.058 | 0.0039 | 0.0176 | worse |
+| magic | 761.792 | 0.244 | +761.548 | 0.0020 | 0.0176 | worse |
+| letter | 2398.209 | 41.768 | +2356.441 | 0.0020 | 0.0176 | worse |
+| landsat | 2387.541 | 0.830 | +2386.711 | 0.0020 | 0.0176 | worse |
+| page_blocks | 48.161 | 0.123 | +48.038 | 0.0020 | 0.0176 | worse |
+
+## Sensitivity: deletion gain (random minus method, not divided)
+
+**CFMNN + PACE-SHAP vs EBM + terms**, per dataset (deletion_gain): better 0, level 1, worse 10
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 0.427 | 0.524 | -0.097 | 0.0020 | 0.0215 | worse |
+| S2 | 0.394 | 0.536 | -0.142 | 0.0020 | 0.0215 | worse |
+| S3 | 0.383 | 0.528 | -0.145 | 0.0020 | 0.0215 | worse |
+| wine | 0.299 | 0.356 | -0.057 | 0.0020 | 0.0215 | worse |
+| breast_cancer | 0.290 | 0.412 | -0.122 | 0.0020 | 0.0215 | worse |
+| thyroid | 0.203 | 0.213 | -0.010 | 0.5566 | 0.5566 | level |
+| shuttle | 0.172 | 0.314 | -0.143 | 0.0020 | 0.0215 | worse |
+| magic | 0.171 | 0.595 | -0.424 | 0.0020 | 0.0215 | worse |
+| letter | 0.302 | 0.366 | -0.064 | 0.0020 | 0.0215 | worse |
+| landsat | 0.296 | 0.414 | -0.117 | 0.0020 | 0.0215 | worse |
+| page_blocks | 0.124 | 0.172 | -0.048 | 0.0098 | 0.0215 | worse |
+
+**CFMNN + PACE-SHAP vs EBM + terms**, synthetic family as one unit (deletion_gain): better 0, level 1, worse 8
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 0.401 | 0.529 | -0.128 | 0.0020 | 0.0176 | worse |
+| wine | 0.299 | 0.356 | -0.057 | 0.0020 | 0.0176 | worse |
+| breast_cancer | 0.290 | 0.412 | -0.122 | 0.0020 | 0.0176 | worse |
+| thyroid | 0.203 | 0.213 | -0.010 | 0.5566 | 0.5566 | level |
+| shuttle | 0.172 | 0.314 | -0.143 | 0.0020 | 0.0176 | worse |
+| magic | 0.171 | 0.595 | -0.424 | 0.0020 | 0.0176 | worse |
+| letter | 0.302 | 0.366 | -0.064 | 0.0020 | 0.0176 | worse |
+| landsat | 0.296 | 0.414 | -0.117 | 0.0020 | 0.0176 | worse |
+| page_blocks | 0.124 | 0.172 | -0.048 | 0.0098 | 0.0195 | worse |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, per dataset (deletion_gain): better 0, level 2, worse 9
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 0.427 | 0.536 | -0.109 | 0.0020 | 0.0215 | worse |
+| S2 | 0.394 | 0.556 | -0.162 | 0.0020 | 0.0215 | worse |
+| S3 | 0.383 | 0.561 | -0.178 | 0.0020 | 0.0215 | worse |
+| wine | 0.299 | 0.528 | -0.229 | 0.0020 | 0.0215 | worse |
+| breast_cancer | 0.290 | 0.465 | -0.175 | 0.0020 | 0.0215 | worse |
+| thyroid | 0.203 | 0.178 | +0.026 | 0.1309 | 0.2617 | level |
+| shuttle | 0.172 | 0.287 | -0.115 | 0.0020 | 0.0215 | worse |
+| magic | 0.171 | 0.552 | -0.382 | 0.0020 | 0.0215 | worse |
+| letter | 0.302 | 0.378 | -0.076 | 0.0020 | 0.0215 | worse |
+| landsat | 0.296 | 0.532 | -0.235 | 0.0020 | 0.0215 | worse |
+| page_blocks | 0.124 | 0.154 | -0.030 | 0.2324 | 0.2617 | level |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, synthetic family as one unit (deletion_gain): better 0, level 2, worse 7
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 0.401 | 0.551 | -0.149 | 0.0020 | 0.0176 | worse |
+| wine | 0.299 | 0.528 | -0.229 | 0.0020 | 0.0176 | worse |
+| breast_cancer | 0.290 | 0.465 | -0.175 | 0.0020 | 0.0176 | worse |
+| thyroid | 0.203 | 0.178 | +0.026 | 0.1309 | 0.2617 | level |
+| shuttle | 0.172 | 0.287 | -0.115 | 0.0020 | 0.0176 | worse |
+| magic | 0.171 | 0.552 | -0.382 | 0.0020 | 0.0176 | worse |
+| letter | 0.302 | 0.378 | -0.076 | 0.0020 | 0.0176 | worse |
+| landsat | 0.296 | 0.532 | -0.235 | 0.0020 | 0.0176 | worse |
+| page_blocks | 0.124 | 0.154 | -0.030 | 0.2324 | 0.2617 | level |
+
+## Sensitivity: insertion gain (method minus random, not divided)
+
+**CFMNN + PACE-SHAP vs EBM + terms**, per dataset (insertion_gain): better 1, level 2, worse 8
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 0.373 | 0.408 | -0.035 | 0.0020 | 0.0215 | worse |
+| S2 | 0.362 | 0.406 | -0.044 | 0.0020 | 0.0215 | worse |
+| S3 | 0.329 | 0.442 | -0.112 | 0.0020 | 0.0215 | worse |
+| wine | 0.293 | 0.353 | -0.060 | 0.0020 | 0.0215 | worse |
+| breast_cancer | 0.281 | 0.351 | -0.070 | 0.0020 | 0.0215 | worse |
+| thyroid | 0.176 | 0.175 | +0.001 | 1.0000 | 1.0000 | level |
+| shuttle | 0.203 | 0.245 | -0.042 | 0.0059 | 0.0215 | worse |
+| magic | 0.175 | 0.408 | -0.233 | 0.0020 | 0.0215 | worse |
+| letter | 0.418 | 0.339 | +0.080 | 0.0020 | 0.0215 | better |
+| landsat | 0.279 | 0.351 | -0.073 | 0.0020 | 0.0215 | worse |
+| page_blocks | 0.146 | 0.114 | +0.033 | 0.0488 | 0.0977 | level |
+
+**CFMNN + PACE-SHAP vs EBM + terms**, synthetic family as one unit (insertion_gain): better 1, level 2, worse 6
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 0.355 | 0.419 | -0.064 | 0.0020 | 0.0176 | worse |
+| wine | 0.293 | 0.353 | -0.060 | 0.0020 | 0.0176 | worse |
+| breast_cancer | 0.281 | 0.351 | -0.070 | 0.0020 | 0.0176 | worse |
+| thyroid | 0.176 | 0.175 | +0.001 | 1.0000 | 1.0000 | level |
+| shuttle | 0.203 | 0.245 | -0.042 | 0.0059 | 0.0176 | worse |
+| magic | 0.175 | 0.408 | -0.233 | 0.0020 | 0.0176 | worse |
+| letter | 0.418 | 0.339 | +0.080 | 0.0020 | 0.0176 | better |
+| landsat | 0.279 | 0.351 | -0.073 | 0.0020 | 0.0176 | worse |
+| page_blocks | 0.146 | 0.114 | +0.033 | 0.0488 | 0.0977 | level |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, per dataset (insertion_gain): better 0, level 2, worse 9
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| S1 | 0.373 | 0.456 | -0.083 | 0.0020 | 0.0215 | worse |
+| S2 | 0.362 | 0.420 | -0.058 | 0.0020 | 0.0215 | worse |
+| S3 | 0.329 | 0.431 | -0.101 | 0.0020 | 0.0215 | worse |
+| wine | 0.293 | 0.578 | -0.285 | 0.0020 | 0.0215 | worse |
+| breast_cancer | 0.281 | 0.423 | -0.142 | 0.0020 | 0.0215 | worse |
+| thyroid | 0.176 | 0.136 | +0.040 | 0.0371 | 0.0742 | level |
+| shuttle | 0.203 | 0.259 | -0.056 | 0.0039 | 0.0215 | worse |
+| magic | 0.175 | 0.398 | -0.222 | 0.0020 | 0.0215 | worse |
+| letter | 0.418 | 0.769 | -0.351 | 0.0020 | 0.0215 | worse |
+| landsat | 0.279 | 0.773 | -0.495 | 0.0020 | 0.0215 | worse |
+| page_blocks | 0.146 | 0.153 | -0.007 | 0.6953 | 0.6953 | level |
+
+**CFMNN + PACE-SHAP vs Tree + TreeSHAP**, synthetic family as one unit (insertion_gain): better 0, level 2, worse 7
+
+| Dataset | CFMNN + PACE-SHAP | Tree + TreeSHAP | Mean difference | p | Holm p | Verdict |
+|---|---|---|---|---|---|---|
+| Synthetic family | 0.355 | 0.436 | -0.081 | 0.0020 | 0.0176 | worse |
+| wine | 0.293 | 0.578 | -0.285 | 0.0020 | 0.0176 | worse |
+| breast_cancer | 0.281 | 0.423 | -0.142 | 0.0020 | 0.0176 | worse |
+| thyroid | 0.176 | 0.136 | +0.040 | 0.0371 | 0.0742 | level |
+| shuttle | 0.203 | 0.259 | -0.056 | 0.0039 | 0.0176 | worse |
+| magic | 0.175 | 0.398 | -0.222 | 0.0020 | 0.0176 | worse |
+| letter | 0.418 | 0.769 | -0.351 | 0.0020 | 0.0176 | worse |
+| landsat | 0.279 | 0.773 | -0.495 | 0.0020 | 0.0176 | worse |
+| page_blocks | 0.146 | 0.153 | -0.007 | 0.6953 | 0.6953 | level |
+
+## Descriptive
+
+## Size: rules (boxes, terms, leaves)
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Tree + TreeSHAP |
+|---|---|---|---|
+| S1 | 1516.0 | 10.0 | 57.7 |
+| S2 | 1537.7 | 10.0 | 32.0 |
+| S3 | 1528.8 | 10.0 | 4.0 |
+| wine | 31.1 | 13.0 | 6.5 |
+| breast_cancer | 41.8 | 30.0 | 6.7 |
+| thyroid | 53.3 | 21.0 | 16.2 |
+| shuttle | 14.3 | 9.0 | 31.8 |
+| magic | 284.4 | 10.0 | 96.0 |
+| letter | 563.3 | 16.0 | 1024.0 |
+| landsat | 199.8 | 36.0 | 83.2 |
+| page_blocks | 26.2 | 10.0 | 22.4 |
+
+## Conditions per rule
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Tree + TreeSHAP |
+|---|---|---|---|
+| S1 | 10.00 | 1.00 | 3.32 |
+| S2 | 10.00 | 1.00 | 3.04 |
+| S3 | 10.00 | 1.00 | 2.25 |
+| wine | 13.00 | 1.00 | 2.80 |
+| breast_cancer | 30.00 | 1.00 | 2.51 |
+| thyroid | 16.61 | 1.00 | 4.69 |
+| shuttle | 9.00 | 1.00 | 3.82 |
+| magic | 10.00 | 1.00 | 5.11 |
+| letter | 16.00 | 1.00 | 9.30 |
+| landsat | 36.00 | 1.00 | 6.25 |
+| page_blocks | 9.97 | 1.00 | 3.98 |
+
+## Deletion margin AUC of the system (lower is better)
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Tree + TreeSHAP |
+|---|---|---|---|
+| S1 | -0.142 | -0.127 | -0.102 |
+| S2 | -0.142 | -0.146 | -0.122 |
+| S3 | -0.071 | -0.069 | -0.077 |
+| wine | -0.048 | -0.068 | -0.240 |
+| breast_cancer | 0.128 | 0.038 | 0.075 |
+| thyroid | 0.532 | 0.594 | 0.680 |
+| shuttle | 0.405 | 0.298 | 0.378 |
+| magic | -0.041 | -0.183 | -0.138 |
+| letter | -0.687 | -0.724 | -0.744 |
+| landsat | -0.312 | -0.362 | -0.475 |
+| page_blocks | 0.016 | 0.548 | 0.638 |
+
+## Deletion margin AUC of a random ranking on the same model
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Tree + TreeSHAP |
+|---|---|---|---|
+| S1 | 0.284 | 0.397 | 0.434 |
+| S2 | 0.252 | 0.390 | 0.433 |
+| S3 | 0.312 | 0.459 | 0.483 |
+| wine | 0.250 | 0.288 | 0.288 |
+| breast_cancer | 0.418 | 0.449 | 0.540 |
+| thyroid | 0.735 | 0.807 | 0.857 |
+| shuttle | 0.577 | 0.613 | 0.665 |
+| magic | 0.130 | 0.412 | 0.415 |
+| letter | -0.385 | -0.358 | -0.366 |
+| landsat | -0.016 | 0.051 | 0.057 |
+| page_blocks | 0.140 | 0.720 | 0.793 |
+
+## Insertion margin AUC of the system (higher is better)
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Tree + TreeSHAP |
+|---|---|---|---|
+| S1 | 0.650 | 0.791 | 0.875 |
+| S2 | 0.613 | 0.785 | 0.838 |
+| S3 | 0.639 | 0.900 | 0.916 |
+| wine | 0.532 | 0.624 | 0.861 |
+| breast_cancer | 0.698 | 0.801 | 0.960 |
+| thyroid | 0.905 | 0.972 | 0.988 |
+| shuttle | 0.770 | 0.857 | 0.917 |
+| magic | 0.275 | 0.821 | 0.804 |
+| letter | 0.020 | -0.020 | 0.402 |
+| landsat | 0.251 | 0.388 | 0.805 |
+| page_blocks | 0.244 | 0.833 | 0.941 |
+
+## Insertion margin AUC of a random ranking on the same model
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Tree + TreeSHAP |
+|---|---|---|---|
+| S1 | 0.276 | 0.383 | 0.418 |
+| S2 | 0.251 | 0.380 | 0.418 |
+| S3 | 0.310 | 0.458 | 0.486 |
+| wine | 0.240 | 0.271 | 0.284 |
+| breast_cancer | 0.418 | 0.450 | 0.537 |
+| thyroid | 0.729 | 0.798 | 0.852 |
+| shuttle | 0.567 | 0.612 | 0.657 |
+| magic | 0.099 | 0.412 | 0.406 |
+| letter | -0.398 | -0.358 | -0.367 |
+| landsat | -0.027 | 0.036 | 0.032 |
+| page_blocks | 0.098 | 0.719 | 0.787 |
+
+## Share of explained points whose margin is zero
+
+| Dataset | CFMNN + PACE-SHAP | EBM + terms | Tree + TreeSHAP |
+|---|---|---|---|
+| S1 | 0.000 | 0.000 | 0.000 |
+| S2 | 0.000 | 0.000 | 0.000 |
+| S3 | 0.000 | 0.000 | 0.000 |
+| wine | 0.000 | 0.000 | 0.000 |
+| breast_cancer | 0.002 | 0.000 | 0.000 |
+| thyroid | 0.062 | 0.000 | 0.000 |
+| shuttle | 0.094 | 0.000 | 0.000 |
+| magic | 0.770 | 0.000 | 0.002 |
+| letter | 0.536 | 0.000 | 0.026 |
+| landsat | 0.258 | 0.000 | 0.004 |
+| page_blocks | 0.746 | 0.000 | 0.000 |
+
+Runs whose random-ranking deletion AUC is within 0.05 of zero (lead unstable): CFMNN + PACE-SHAP 8 of 110, EBM + terms 6 of 110, Tree + TreeSHAP 4 of 110
+
+Leaves the tree was allowed (count over seeds):
+
+- shuttle: 32 ×6, 64 ×4
+- letter: 1024 ×10
+- S1: 64 ×5, 32 ×3, 128 ×2
+- S2: 32 ×10
+- S3: 4 ×8, 8 ×2
+- magic: 128 ×5, 64 ×5
+- wine: 8 ×7, 4 ×2, 16 ×1
+- breast_cancer: 4 ×5, 8 ×4, 16 ×1
+- landsat: 64 ×7, 128 ×3
+- thyroid: 16 ×5, 32 ×3, 8 ×2
+- page_blocks: 16 ×6, 32 ×4
+
+

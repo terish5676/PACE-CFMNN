@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pace-cfmnn"
+version = "0.1.0"
+description = "Exact explanations and auditable repair for centroid-based fuzzy min-max classifiers (CFMNN)"
+readme = "README.md"
+requires-python = ">=3.10"
+# No licence yet: the team chooses one before release (LICENSE-PENDING.md).
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "scikit-learn>=1.5",
+    "pandas>=2.2",
+]
+
+[project.optional-dependencies]
+# KernelSHAP, LIME and DiCE, for the RQ1 comparisons.
+xai = ["shap>=0.54", "lime>=0.2", "dice-ml>=0.12"]
+# EBM and the hyperbox-brain fuzzy min-max networks (GPL-3.0), for the baseline runs.
+baselines = ["interpret-core>=0.7", "hyperbox-brain>=0.1.6"]
+all = [
+    "shap>=0.54", "lime>=0.2", "dice-ml>=0.12",
+    "interpret-core>=0.7", "hyperbox-brain>=0.1.6",
+]
+
+[tool.setuptools]
+packages = ["pace_cfmnn"]

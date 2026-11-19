@@ -1,0 +1,10 @@
+dataset,seed,method,n,ms_per_explanation
+covertype,230,PACE-SHAP,10,439.10848000086844
+covertype,230,PermutationSHAP,10,1928.9442299981602
+covertype,230,KernelSHAP-paired,10,5920.368760000565
+covertype,231,PACE-SHAP,10,420.6643500016071
+covertype,231,PermutationSHAP,10,1990.1965099998051
+covertype,231,KernelSHAP-paired,10,6224.664980001398
+covertype,232,PACE-SHAP,10,441.04424999968614
+covertype,232,PermutationSHAP,10,2053.717189998133
+covertype,232,KernelSHAP-paired,10,5941.115440000431

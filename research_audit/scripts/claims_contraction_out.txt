@@ -1,0 +1,281 @@
+
+====================================================================================================
+Completeness
+====================================================================================================
+OK  rows: 420
+OK  seeds: [120, 121, 122, 123, 124, 125, 126, 127, 128, 129]
+OK  arms per dataset and seed: [7]
+
+====================================================================================================
+P1 (primary): SR vs SC-all, test macro-F1
+====================================================================================================
+
+SR vs SC-all (test_macro_f1):
+                   a        b     diff       p  p_holm  a_better_seeds verdict
+unit                                                                          
+thyroid      90.1172  85.6505   4.4667  0.0020  0.0117              10  better
+landsat      84.5394  82.1013   2.4382  0.0020  0.0117              10  better
+page_blocks  68.1063  58.1410   9.9653  0.0195  0.0195               9  better
+magic        74.4012  59.4716  14.9296  0.0020  0.0117              10  better
+letter       76.9074  74.2638   2.6436  0.0020  0.0117              10  better
+skin         98.9439  76.4872  22.4566  0.0020  0.0117              10  better
+OK  P1 higher on: {'better': ['landsat', 'letter', 'magic', 'page_blocks', 'skin', 'thyroid']}
+OK  P1 differences (Thyroid, Landsat, Page Blocks, MAGIC, Letter, Skin): [4.5, 2.4, 10.0, 14.9, 2.6, 22.5]
+OK  P1 largest Holm p: 0.0195
+
+====================================================================================================
+S1: SR vs SC-err (ungated contraction at the same training errors), macro-F1
+====================================================================================================
+
+SR vs SC-err (test_macro_f1):
+                   a        b    diff       p  p_holm  a_better_seeds verdict
+unit                                                                         
+thyroid      90.1172  85.6505  4.4667  0.0020  0.0117              10  better
+landsat      84.5394  82.8250  1.7144  0.0020  0.0117              10  better
+page_blocks  68.1063  62.8342  5.2721  0.0195  0.0195               8  better
+magic        74.4012  69.3448  5.0564  0.0020  0.0117              10  better
+letter       76.9074  74.4632  2.4442  0.0020  0.0117              10  better
+skin         98.9439  89.8962  9.0476  0.0020  0.0117              10  better
+OK  S1 higher on: {'better': ['landsat', 'letter', 'magic', 'page_blocks', 'skin', 'thyroid']}
+OK  S1 differences: [4.5, 1.7, 5.3, 5.1, 2.4, 9.0]
+
+====================================================================================================
+S2a and S2b: SR vs the GFMM-rule arms, macro-F1
+====================================================================================================
+
+SR vs GC-all (test_macro_f1):
+                   a        b     diff       p  p_holm  a_better_seeds verdict
+unit                                                                          
+thyroid      90.1172  61.0200  29.0973  0.0020  0.0117              10  better
+landsat      84.5394  78.8651   5.6743  0.0020  0.0117              10  better
+page_blocks  68.1063  52.7743  15.3320  0.0059  0.0117               9  better
+magic        74.4012  59.4215  14.9797  0.0020  0.0117              10  better
+letter       76.9074  46.1568  30.7505  0.0020  0.0117              10  better
+skin         98.9439  72.3528  26.5911  0.0020  0.0117              10  better
+OK  S2a higher on: {'better': ['landsat', 'letter', 'magic', 'page_blocks', 'skin', 'thyroid']}
+
+SR vs GC-err (test_macro_f1):
+                   a        b     diff       p  p_holm  a_better_seeds verdict
+unit                                                                          
+thyroid      90.1172  67.9419  22.1753  0.0020  0.0117              10  better
+landsat      84.5394  81.0475   3.4920  0.0020  0.0117              10  better
+page_blocks  68.1063  54.3482  13.7581  0.0059  0.0117               9  better
+magic        74.4012  69.6317   4.7695  0.0020  0.0117              10  better
+letter       76.9074  72.6125   4.2948  0.0020  0.0117              10  better
+skin         98.9439  86.1679  12.7759  0.0020  0.0117              10  better
+OK  S2b higher on: {'better': ['landsat', 'letter', 'magic', 'page_blocks', 'skin', 'thyroid']}
+
+====================================================================================================
+S3: SR vs GFMM trained from scratch, macro-F1
+====================================================================================================
+
+SR vs GFMM (test_macro_f1):
+                   a        b     diff       p  p_holm  a_better_seeds verdict
+unit                                                                          
+thyroid      90.1172  75.6879  14.4293  0.0020  0.0117              10  better
+landsat      84.5394  83.0690   1.4704  0.0371  0.0742               8   level
+page_blocks  68.1063  66.1137   1.9927  0.7695  0.7695               4   level
+magic        74.4012  72.4157   1.9855  0.0098  0.0293               8  better
+letter       76.9074  82.2929  -5.3855  0.0020  0.0117               0   worse
+skin         98.9439  97.9451   0.9988  0.0020  0.0117              10  better
+OK  S3 higher / lower: {'better': ['magic', 'skin', 'thyroid'], 'worse': ['letter']}
+OK  S3 Letter difference: -5.4
+OK  S3 Letter: GFMM, SR macro-F1: (82.3, 76.9)
+
+====================================================================================================
+S4a-f: each arm vs the starting model B0, macro-F1
+====================================================================================================
+
+SR vs B0 (test_macro_f1):
+                   a        b    diff      p  p_holm  a_better_seeds verdict
+unit                                                                        
+thyroid      90.1172  85.6505  4.4667  0.002  0.0117              10  better
+landsat      84.5394  82.5857  1.9537  0.002  0.0117              10  better
+page_blocks  68.1063  61.8289  6.2774  0.002  0.0117              10  better
+magic        74.4012  72.4828  1.9184  0.002  0.0117              10  better
+letter       76.9074  74.4632  2.4442  0.002  0.0117              10  better
+skin         98.9439  91.3411  7.6028  0.002  0.0117              10  better
+
+SC-all vs B0 (test_macro_f1):
+                   a        b     diff       p  p_holm  a_better_seeds verdict
+unit                                                                          
+thyroid      85.6505  85.6505   0.0000  1.0000  1.0000               0   level
+landsat      82.1013  82.5857  -0.4844  0.3750  0.7500               4   level
+page_blocks  58.1410  61.8289  -3.6878  0.2324  0.6973               4   level
+magic        59.4716  72.4828 -13.0112  0.0020  0.0117               0   worse
+letter       74.2638  74.4632  -0.1994  0.0840  0.3359               3   level
+skin         76.4872  91.3411 -14.8538  0.0039  0.0195               1   worse
+
+SC-err vs B0 (test_macro_f1):
+                   a        b    diff       p  p_holm  a_better_seeds verdict
+unit                                                                         
+thyroid      85.6505  85.6505  0.0000  1.0000  1.0000               0   level
+landsat      82.8250  82.5857  0.2393  0.0977  0.4883               7   level
+page_blocks  62.8342  61.8289  1.0053  0.3594  1.0000               6   level
+magic        69.3448  72.4828 -3.1380  0.0020  0.0117               0   worse
+letter       74.4632  74.4632  0.0000  1.0000  1.0000               0   level
+skin         89.8962  91.3411 -1.4449  1.0000  1.0000               6   level
+
+GC-all vs B0 (test_macro_f1):
+                   a        b     diff       p  p_holm  a_better_seeds verdict
+unit                                                                          
+thyroid      61.0200  85.6505 -24.6306  0.0020  0.0117               0   worse
+landsat      78.8651  82.5857  -3.7206  0.0098  0.0195               2   worse
+page_blocks  52.7743  61.8289  -9.0546  0.1055  0.1055               2   level
+magic        59.4215  72.4828 -13.0613  0.0020  0.0117               0   worse
+letter       46.1568  74.4632 -28.3063  0.0020  0.0117               0   worse
+skin         72.3528  91.3411 -18.9883  0.0039  0.0117               1   worse
+
+GC-err vs B0 (test_macro_f1):
+                   a        b     diff       p  p_holm  a_better_seeds verdict
+unit                                                                          
+thyroid      67.9419  85.6505 -17.7086  0.0020  0.0117               0   worse
+landsat      81.0475  82.5857  -1.5382  0.0195  0.0586               2   level
+page_blocks  54.3482  61.8289  -7.4807  0.1602  0.1602               2   level
+magic        69.6317  72.4828  -2.8511  0.0020  0.0117               0   worse
+letter       72.6125  74.4632  -1.8506  0.0039  0.0156               1   worse
+skin         86.1679  91.3411  -5.1731  0.0645  0.1289               2   level
+
+GFMM vs B0 (test_macro_f1):
+                   a        b    diff       p  p_holm  a_better_seeds verdict
+unit                                                                         
+thyroid      75.6879  85.6505 -9.9626  0.0020  0.0117               0   worse
+landsat      83.0690  82.5857  0.4833  0.3750  0.7500               7   level
+page_blocks  66.1137  61.8289  4.2848  0.1309  0.3926               8   level
+magic        72.4157  72.4828 -0.0671  0.7695  0.7695               4   level
+letter       82.2929  74.4632  7.8297  0.0020  0.0117              10  better
+skin         97.9451  91.3411  6.6040  0.0020  0.0117              10  better
+OK  S4a SR higher on: {'better': ['landsat', 'letter', 'magic', 'page_blocks', 'skin', 'thyroid']}
+OK  S4a differences: [4.5, 2.0, 6.3, 1.9, 2.4, 7.6]
+OK  S4b SC-all lower on: {'worse': ['magic', 'skin']}
+OK  S4b MAGIC, Skin: [-13.0, -14.9]
+OK  S4c SC-err lower on: {'worse': ['magic']}
+OK  S4d GC-all: {'worse': ['landsat', 'letter', 'magic', 'skin', 'thyroid']}
+OK  S4f GC-err: {'worse': ['letter', 'magic', 'thyroid']}
+OK  S4e GFMM: {'better': ['letter', 'skin'], 'worse': ['thyroid']}
+
+====================================================================================================
+S5, S9: the primary pair on lowest class recall and accuracy
+====================================================================================================
+
+SR vs SC-all (test_min_class_recall):
+                   a        b     diff       p  p_holm  a_better_seeds verdict
+unit                                                                          
+thyroid      77.1381  65.1333  12.0048  0.0020  0.0117              10  better
+landsat      59.9309  49.0425  10.8884  0.0156  0.0469               7  better
+page_blocks  49.0152  28.8932  20.1220  0.0156  0.0469               7  better
+magic        68.3516  51.8077  16.5440  0.0020  0.0117              10  better
+letter       52.5511  49.6768   2.8743  0.0391  0.0469               6  better
+skin         97.8116  44.1840  53.6276  0.0020  0.0117              10  better
+OK  S5 higher on: {'better': ['landsat', 'letter', 'magic', 'page_blocks', 'skin', 'thyroid']}
+
+SR vs SC-all (test_accuracy):
+                   a        b     diff       p  p_holm  a_better_seeds verdict
+unit                                                                          
+thyroid      98.1111  97.2361   0.8750  0.0039  0.0117               9  better
+landsat      86.6460  84.7826   1.8634  0.0020  0.0117              10  better
+page_blocks  90.6569  80.4562  10.2007  0.0879  0.0879               8   level
+magic        76.4669  60.3207  16.1462  0.0020  0.0117              10  better
+letter       77.0650  74.4550   2.6100  0.0020  0.0117              10  better
+skin         99.3091  88.2776  11.0316  0.0020  0.0117              10  better
+OK  S9 higher on: {'better': ['landsat', 'letter', 'magic', 'skin', 'thyroid']}
+
+====================================================================================================
+S6, S7, S8: boxes, broken predictions, evicted rows (SR - SC-all)
+====================================================================================================
+
+SR vs SC-all (boxes_end):
+                 a      b  diff       p  p_holm  a_better_seeds verdict
+unit                                                                   
+thyroid       46.0   46.8  -0.8  0.1250  0.5000               4   level
+landsat      151.0  150.6   0.4  0.1250  0.5000               0   level
+page_blocks   23.6   23.0   0.6  0.1250  0.5000               0   level
+magic        227.8  187.5  40.3  0.0020  0.0117               0   worse
+letter       450.1  450.4  -0.3  0.2500  0.5000               3   level
+skin          80.8   79.6   1.2  0.0156  0.0781               0   level
+OK  S6 (fewer boxes = better): SR more boxes on: {'worse': ['magic']}
+
+SR vs SC-all (test_broken_pct):
+                  a        b     diff       p  p_holm  a_better_seeds verdict
+unit                                                                         
+thyroid      0.2361   0.0000   0.2361  0.0312  0.0625               0   level
+landsat      2.1273   2.0807   0.0466  0.9219  0.9219               4   level
+page_blocks  1.3869  11.3869 -10.0000  0.0059  0.0176               9  better
+magic        8.0389  26.3144 -18.2755  0.0020  0.0117              10  better
+letter       2.4400   0.4750   1.9650  0.0020  0.0117               0   worse
+skin         0.3367   7.9927  -7.6561  0.0020  0.0117              10  better
+OK  S7 (fewer broken = better): {'better': ['magic', 'page_blocks', 'skin'], 'worse': ['letter']}
+
+SR vs SC-all (rows_evicted_pct):
+                   a        b     diff       p  p_holm  a_better_seeds verdict
+unit                                                                          
+thyroid      59.4556   0.0000  59.4556  0.0020  0.0117               0   worse
+landsat      23.5375  12.4712  11.0662  0.0020  0.0117               0   worse
+page_blocks   5.7968  27.2844 -21.4876  0.0645  0.0645               8   level
+magic        32.6467  89.2797 -56.6330  0.0020  0.0117              10  better
+letter        9.4960   0.8470   8.6490  0.0020  0.0117               0   worse
+skin          2.7799  17.8032 -15.0233  0.0020  0.0117              10  better
+OK  S8 (fewer evicted = better): SR evicts more on / fewer on: {'better': ['magic', 'skin'], 'worse': ['landsat', 'letter', 'thyroid']}
+
+====================================================================================================
+Evicted training rows, % of training rows, mean over seeds
+====================================================================================================
+dataset  thyroid  landsat  page_blocks  magic  letter   skin
+arm                                                         
+B0          0.00     0.00         0.00   0.00    0.00   0.00
+GC-all     59.64    62.24        69.66  89.56   89.44  21.09
+GC-err     25.53    29.20        62.46  62.98   27.28  12.33
+SC-all      0.00    12.47        27.28  89.28    0.85  17.80
+SC-err      0.00     2.73         3.06  62.53    0.00   8.65
+SR         59.46    23.54         5.80  32.65    9.50   2.78
+OK  SR evicted %: [59.5, 23.5, 5.8, 32.6, 9.5, 2.8]
+OK  SC-all evicted %: [0.0, 12.5, 27.3, 89.3, 0.8, 17.8]
+OK  GC-all evicted %: [59.6, 62.2, 69.7, 89.6, 89.4, 21.1]
+
+====================================================================================================
+Thyroid: Simpson's test
+====================================================================================================
+OK  SC-all contractions kept, every Thyroid seed: [0.0]
+OK  SC-err contractions kept, every Thyroid seed: [0.0]
+OK  Thyroid SC-all macro-F1 equals B0 on every seed: True
+
+====================================================================================================
+Mean test macro-F1 (%), by arm
+====================================================================================================
+dataset  thyroid  landsat  page_blocks  magic  letter   skin
+arm                                                         
+B0         85.65    82.59        61.83  72.48   74.46  91.34
+GC-all     61.02    78.87        52.77  59.42   46.16  72.35
+GC-err     67.94    81.05        54.35  69.63   72.61  86.17
+GFMM       75.69    83.07        66.11  72.42   82.29  97.95
+SC-all     85.65    82.10        58.14  59.47   74.26  76.49
+SC-err     85.65    82.83        62.83  69.34   74.46  89.90
+SR         90.12    84.54        68.11  74.40   76.91  98.94
+OK  B0 macro-F1: [85.7, 82.6, 61.8, 72.5, 74.5, 91.3]
+OK  SR macro-F1: [90.1, 84.5, 68.1, 74.4, 76.9, 98.9]
+OK  SC-all macro-F1: [85.7, 82.1, 58.1, 59.5, 74.3, 76.5]
+OK  GFMM macro-F1: [75.7, 83.1, 66.1, 72.4, 82.3, 97.9]
+
+====================================================================================================
+Paper wording (revs 455-478): ranges and whole-number percentages
+====================================================================================================
+OK  P1 range: (2.4, 22.5)
+OK  S1 range: (1.7, 9.0)
+OK  SR evicted %, whole numbers (Thyroid, Landsat, Letter, MAGIC, Skin): [59, 24, 9, 33, 3]
+OK  SC-all evicted % (Thyroid, Landsat, Letter to 1 dp, MAGIC, Skin): [0, 12, 0.8, 89, 18]
+OK  GC-all evicted %, range: (21, 90)
+
+====================================================================================================
+Self-repair budget
+====================================================================================================
+OK  SR tries at most 300 on every task: True
+               min    max
+dataset                  
+landsat      236.0  300.0
+letter       300.0  300.0
+magic        300.0  300.0
+page_blocks  214.0  300.0
+skin         300.0  300.0
+thyroid       45.0   74.0
+
+ALL OK
